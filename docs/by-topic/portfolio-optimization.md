@@ -6,4 +6,4 @@ Total: **1** repositories
 
 | Repository | Description | Language | Stars | Updated |
 |------------|-------------|----------|-------|---------|
-| [portfolio-optimizer](../repos/portfolio-optimizer.md) | AI-driven portfolio optimization engine using modern portfolio theory and machin... | Python | 289 | 2025-01-19 |
+| [portfolio-optimization-ml](../repos/portfolio-optimization-ml.md) | Machine learning approaches to portfolio optimization using deep reinforcement l... | Unknown | 0 | 2025-11-21 |

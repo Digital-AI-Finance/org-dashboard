@@ -1,5 +1,15 @@
 # Complete Research Platform Guide
 
+## Live Demo
+
+**Live Platform**: https://digital-ai-finance.github.io/org-dashboard/
+
+See the platform in action with 4 example repositories demonstrating all research features:
+- Publication tracking with DOI/arXiv integration
+- Reproducibility scoring and badges
+- Community verification with replication attempts
+- Interactive visualizations
+
 ## Overview
 
 This comprehensive research platform extends your GitHub organization dashboard into a full-featured **Quantlet-style research catalog** with all 6 phases implemented:

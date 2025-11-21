@@ -1,6 +1,6 @@
 # Repositories by Language
 
-Total languages: **1**
+Total languages: **2**
 
 ---
 

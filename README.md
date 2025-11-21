@@ -1,8 +1,10 @@
-# GitHub Organization Dashboard
+# GitHub Organization Research Platform
 
-A comprehensive, automated dashboard for monitoring and documenting all repositories in a GitHub organization. Built with Python, MkDocs Material, and GitHub Actions.
+A comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.
 
-## Features
+Live Demo: https://digital-ai-finance.github.io/org-dashboard/
+
+## Core Features
 
 - Automatic daily updates via GitHub Actions
 - Beautiful, searchable documentation site
@@ -12,13 +14,73 @@ A comprehensive, automated dashboard for monitoring and documenting all reposito
 - Mobile-responsive design
 - Zero server costs (runs entirely on GitHub)
 
+## Research Platform Features
+
+### Publication Tracking
+- Automatic extraction of DOIs, arXiv IDs, SSRN papers from READMEs
+- Academic database integration (CrossRef, arXiv)
+- Publication metadata enrichment
+- Citation count tracking
+
+### Code & Data
+- Jupyter notebook rendering
+- Dataset detection and cataloging
+- Dependency analysis
+- Code language statistics
+
+### Reproducibility
+- Automated reproducibility scoring (100-point scale)
+- Badge system (Gold/Silver/Bronze)
+- Environment configuration detection
+- Docker support tracking
+
+### Community Features
+- Replication attempt tracking
+- Community verification system
+- Peer review ratings
+- Success rate metrics
+
+### Advanced Search
+- Full-text search across all repositories
+- Faceted navigation
+- TF-IDF relevance scoring
+- Autocomplete suggestions
+
+### Visualizations
+- Interactive Plotly charts
+- Citation network graphs
+- Publication timelines
+- Language distribution
+- Collaboration networks
+
 ## Architecture
 
-- **Data Fetching**: Python script using PyGithub to fetch org data
+- **Data Fetching**: Python script using PyGithub to fetch org data + research metadata extraction
+- **Academic APIs**: CrossRef, arXiv integration for publication enrichment
+- **Analysis**: Citation tracking, reproducibility scoring, search indexing
 - **Markdown Generation**: Jinja2 templates for dynamic content
+- **Visualizations**: Interactive Plotly charts, network graphs
 - **Static Site**: MkDocs Material theme
 - **Automation**: GitHub Actions for scheduled updates
 - **Hosting**: GitHub Pages (free)
+
+## Live Demo
+
+Visit our live demo at: https://digital-ai-finance.github.io/org-dashboard/
+
+The demo includes 4 example repositories showcasing different research features:
+
+1. **org-dashboard** - This repository (meta!)
+2. **portfolio-optimization-ml** - ML research with arXiv papers and DOIs
+3. **credit-risk-prediction** - Neural networks with SSRN publications and notebooks
+4. **market-microstructure** - HFT research with Zenodo datasets and Docker
+
+Features demonstrated:
+- Publications with DOI/arXiv links and citation counts
+- Reproducibility scores and badges
+- Community replication attempts and reviews
+- Dataset cataloging
+- Interactive visualizations
 
 ## Setup Instructions
 
