@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-21T23:36:27.463379",
+      "extracted_at": "2025-11-21T22:45:12.827318",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -44,16 +44,64 @@
         "size_bytes": 0
       },
       {
+        "name": "build_log.json",
+        "path": "data/build_log.json",
+        "format": ".json",
+        "size_bytes": 2066
+      },
+      {
+        "name": "citation_history.json",
+        "path": "data/citation_history.json",
+        "format": ".json",
+        "size_bytes": 186
+      },
+      {
+        "name": "citation_report.json",
+        "path": "data/citation_report.json",
+        "format": ".json",
+        "size_bytes": 271
+      },
+      {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
         "size_bytes": 7228
       },
       {
+        "name": "reproducibility_report.json",
+        "path": "data/reproducibility_report.json",
+        "format": ".json",
+        "size_bytes": 1678
+      },
+      {
+        "name": "research_metadata.json",
+        "path": "data/research_metadata.json",
+        "format": ".json",
+        "size_bytes": 1485
+      },
+      {
+        "name": "search_index.pkl",
+        "path": "data/search_index.pkl",
+        "format": ".pkl",
+        "size_bytes": 11972
+      },
+      {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
         "size_bytes": 547
+      },
+      {
+        "name": "collaboration_network.json",
+        "path": "docs/visualizations/collaboration_network.json",
+        "format": ".json",
+        "size_bytes": 95
+      },
+      {
+        "name": "research_metadata_schema.json",
+        "path": "schemas/research_metadata_schema.json",
+        "format": ".json",
+        "size_bytes": 5576
       }
     ]
   }

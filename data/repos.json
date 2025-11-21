@@ -15,19 +15,125 @@
     "size": 0,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-21T22:00:06+00:00",
-    "pushed_at": "2025-11-21T22:00:02+00:00",
+    "updated_at": "2025-11-21T22:44:44+00:00",
+    "pushed_at": "2025-11-21T22:44:40+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
-    "has_pages": false,
+    "has_pages": true,
     "has_downloads": true,
     "archived": false,
     "disabled": false,
     "is_template": false,
     "visibility": "public",
-    "contributors_count": 1,
+    "contributors_count": 2,
     "readme": "# GitHub Organization Dashboard\n\nA comprehensive, automated dashboard for monitoring and documenting all repositories in a GitHub organization. Built with Python, MkDocs Material, and GitHub Actions.\n\n## Features\n\n- Automatic daily updates via GitHub Actions\n- Beautiful, searchable documentation site\n- Repository catalog with detailed information\n- Statistics and analytics\n- Organization by language and topics\n- Mobile-responsive design\n- Zero server costs (runs entirely on GitHub)\n\n## Architecture\n\n- **Data Fetching**: Python script using PyGithub to fetch org data\n- **Markdown Generation**: Jinja2 templates for dynamic content\n- **Static Site**: MkDocs Material theme\n- **Automation**: GitHub Actions for scheduled updates\n- **Hosting**: GitHub Pages (free)\n\n## Setup Instructions\n\n### 1. Create GitHub Personal Access Token\n\n1. Go to GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)\n2. Click \"Generate new token (classic)\"\n3. Give it a descriptive name (e.g., \"Org Dashboard\")\n4. Select scopes:\n   - `repo` (Full control of private repositories)\n   - `read:org` (Read org and team membership)\n5. Click \"Generate token\"\n6. Copy the token immediately (you will not see it again)\n\n### 2. Fork or Create This Repository\n\n1. Create a new repository in your GitHub organization\n2. Clone this repository or copy all files to your new repo\n3. Push to GitHub\n\n### 3. Configure Repository Secrets\n\n1. Go to your repository Settings > Secrets and variables > Actions\n2. Add the following secrets:\n   - `GH_PAT`: Your GitHub Personal Access Token\n   - `ORG_NAME`: Your organization name (e.g., \"my-org\")\n\n### 4. Enable GitHub Pages\n\n1. Go to repository Settings > Pages\n2. Source: Deploy from a branch\n3. Branch: `gh-pages` / `root`\n4. Save\n\n### 5. Run Initial Workflow\n\n1. Go to Actions tab\n2. Select \"Update Dashboard\" workflow\n3. Click \"Run workflow\"\n4. Wait for completion (2-5 minutes)\n\n### 6. Access Your Dashboard\n\nYour dashboard will be available at:\n`https://YOUR_ORG.github.io/REPO_NAME/`\n\n## Configuration\n\n### Update Frequency\n\nEdit `.github/workflows/update-dashboard.yml` to change schedule:\n\n```yaml\nschedule:\n  - cron: '0 2 * * *'  # Daily at 2 AM UTC\n  # - cron: '0 */6 * * *'  # Every 6 hours\n  # - cron: '0 0 * * 0'  # Weekly on Sunday\n```\n\n### Customize Appearance\n\nEdit `mkdocs.yml` to change:\n- Site name and description\n- Theme colors\n- Navigation structure\n- Enabled features\n\n### Customize Templates\n\nEdit files in `templates/` directory to change:\n- Page layouts\n- Content structure\n- Displayed information\n\n## Local Development\n\n### Prerequisites\n\n- Python 3.11+\n- Git\n\n### Install Dependencies\n\n```bash\npip install -r requirements.txt\n```\n\n### Fetch Data Locally\n\n```bash\nexport GITHUB_TOKEN='your_token_here'\nexport GITHUB_ORG='your_org_name'\npython scripts/fetch_org_data.py\n```\n\nOr with arguments:\n\n```bash\nexport GITHUB_TOKEN='your_token_here'\npython scripts/fetch_org_data.py your_org_name\n```\n\n### Generate Markdown\n\n```bash\npython scripts/generate_markdown.py\n```\n\n### Preview Site Locally\n\n```bash\nmkdocs serve\n```\n\nThen open http://127.0.0.1:8000 in your browser.\n\n### Build Static Site\n\n```bash\nmkdocs build\n```\n\nOutput will be in `site/` directory.\n\n## Project Structure\n\n```\n.\n├── .github/\n│   └── workflows/\n│       └── update-dashboard.yml  # GitHub Actions workflow\n├── scripts/\n│   ├── fetch_org_data.py        # Fetch data from GitHub API\n│   └── generate_markdown.py     # Generate markdown from data\n├── templates/                   # Jinja2 templates\n│   ├── index.md.j2\n│   ├── stats.md.j2\n│   ├── repo.md.j2\n│   └── ...\n├── docs/                        # Generated markdown (committed)\n│   ├── index.md\n│   ├── stats.md\n│   ├── repos/\n│   ├── by-language/\n│   └── by-topic/\n├── data/                        # Generated JSON data (committed)\n│   ├── repos.json\n│   └── stats.json\n├── mkdocs.yml                   # MkDocs configuration\n├── requirements.txt             # Python dependencies\n└── README.md\n```\n\n## Troubleshooting\n\n### Workflow Fails with Authentication Error\n\n- Verify `GH_PAT` secret is set correctly\n- Ensure token has required scopes (`repo`, `read:org`)\n- Token may have expired - regenerate and update secret\n\n### No Changes Detected\n\n- Check if organization has any repositories\n- Verify `ORG_NAME` secret is correct\n- Check workflow logs for errors\n\n### Pages Not Deploying\n\n- Ensure GitHub Pages is enabled in repository settings\n- Check that `gh-pages` branch exists\n- Verify workflow has `contents: write` permission\n\n### Rate Limiting\n\n- GitHub API has rate limits (5000 requests/hour for authenticated requests)\n- For large organizations, consider caching or reducing update frequency\n- Workflow implements basic rate limit handling\n\n### Local Development Issues\n\n**Module not found:**\n```bash\npip install -r requirements.txt\n```\n\n**Permission denied:**\n```bash\nchmod +x scripts/*.py\n```\n\n**Data files missing:**\nRun fetch script first before generating markdown.\n\n## Customization Ideas\n\n- Add CI/CD status badges\n- Include code quality metrics\n- Show dependency vulnerabilities\n- Add commit activity graphs\n- Display contributor statistics\n- Track issue response times\n- Monitor PR merge times\n\n## GitHub Actions Free Tier Limits\n\n- 2000 minutes/month for free accounts\n- This workflow uses ~2-5 minutes per run\n- Daily runs: ~150 minutes/month\n- Well within free tier limits\n\n## Contributing\n\nContributions welcome! Please feel free to submit issues or pull requests.\n\n## License\n\nMIT License - feel free to use this for your organization.\n\n## Credits\n\nBuilt with:\n- [PyGithub](https://github.com/PyGithub/PyGithub)\n- [MkDocs](https://www.mkdocs.org/)\n- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)\n- [Jinja2](https://jinja.palletsprojects.com/)\n",
-    "latest_release": null
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "org-dashboard",
+      "research": {
+        "title": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
+        "abstract": "A comprehensive, automated dashboard for monitoring and documenting all repositories in a GitHub organization. Built with Python, MkDocs Material, and GitHub Actions.",
+        "keywords": [],
+        "authors": [
+          {
+            "name": "language and topics"
+          }
+        ]
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "Python"
+        ],
+        "notebooks": [],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": true,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-11-21T22:45:12.827318",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "data",
+          "path": "data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "build_log.json",
+          "path": "data/build_log.json",
+          "format": ".json",
+          "size_bytes": 2066
+        },
+        {
+          "name": "citation_history.json",
+          "path": "data/citation_history.json",
+          "format": ".json",
+          "size_bytes": 186
+        },
+        {
+          "name": "citation_report.json",
+          "path": "data/citation_report.json",
+          "format": ".json",
+          "size_bytes": 271
+        },
+        {
+          "name": "repos.json",
+          "path": "data/repos.json",
+          "format": ".json",
+          "size_bytes": 7228
+        },
+        {
+          "name": "reproducibility_report.json",
+          "path": "data/reproducibility_report.json",
+          "format": ".json",
+          "size_bytes": 1678
+        },
+        {
+          "name": "research_metadata.json",
+          "path": "data/research_metadata.json",
+          "format": ".json",
+          "size_bytes": 1485
+        },
+        {
+          "name": "search_index.pkl",
+          "path": "data/search_index.pkl",
+          "format": ".pkl",
+          "size_bytes": 11972
+        },
+        {
+          "name": "stats.json",
+          "path": "data/stats.json",
+          "format": ".json",
+          "size_bytes": 547
+        },
+        {
+          "name": "collaboration_network.json",
+          "path": "docs/visualizations/collaboration_network.json",
+          "format": ".json",
+          "size_bytes": 95
+        },
+        {
+          "name": "research_metadata_schema.json",
+          "path": "schemas/research_metadata_schema.json",
+          "format": ".json",
+          "size_bytes": 5576
+        }
+      ]
+    }
   }
 ]

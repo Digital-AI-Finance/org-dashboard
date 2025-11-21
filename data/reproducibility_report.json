@@ -1,16 +1,16 @@
 {
-  "generated_at": "2025-11-21T23:36:29.312687",
+  "generated_at": "2025-11-21T22:45:12.831236",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
-        "score": 40,
+        "score": 50,
         "max_score": 100,
-        "percentage": 40.0,
+        "percentage": 50.0,
         "badge": "bronze",
         "breakdown": {
           "documentation": 20,
           "environment": 10,
-          "data": 10,
+          "data": 20,
           "code": 0,
           "community": 0
         }
@@ -30,7 +30,7 @@
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 40.0,
+    "average_reproducibility_score": 50.0,
     "total_repositories": 1,
     "badge_distribution": {
       "bronze": 1
@@ -40,14 +40,14 @@
         "org-dashboard",
         {
           "reproducibility_score": {
-            "score": 40,
+            "score": 50,
             "max_score": 100,
-            "percentage": 40.0,
+            "percentage": 50.0,
             "badge": "bronze",
             "breakdown": {
               "documentation": 20,
               "environment": 10,
-              "data": 10,
+              "data": 20,
               "code": 0,
               "community": 0
             }

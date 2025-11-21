@@ -15,7 +15,7 @@ Last updated: **2025-11-21**
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 1 |
+| Total Contributors | 2 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 

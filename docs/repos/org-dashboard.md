@@ -7,6 +7,10 @@ Automated dashboard for monitoring all repositories in the Digital-AI-Finance or
 
 ---
 
+
+
+
+
 ## Information
 
 | Property | Value |
@@ -20,9 +24,62 @@ Automated dashboard for monitoring all repositories in the Digital-AI-Finance or
 | Created | 2025-11-21 |
 | Last Updated | 2025-11-21 |
 | Last Push | 2025-11-21 |
-| Contributors | 1 |
+| Contributors | 2 |
 | Default Branch | main |
 | Visibility | public |
+
+
+
+
+
+
+## Datasets
+
+This repository includes 11 dataset(s):
+
+| Dataset | Format | Size |
+|---------|--------|------|
+
+| [data](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data) |  | 0.0 KB |
+
+| [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 2.02 KB |
+
+| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 0.18 KB |
+
+| [citation_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_report.json) | .json | 0.26 KB |
+
+| [repos.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repos.json) | .json | 7.06 KB |
+
+| [reproducibility_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/reproducibility_report.json) | .json | 1.64 KB |
+
+| [research_metadata.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/research_metadata.json) | .json | 1.45 KB |
+
+| [search_index.pkl](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/search_index.pkl) | .pkl | 11.69 KB |
+
+| [stats.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/stats.json) | .json | 0.53 KB |
+
+| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/visualizations/collaboration_network.json) | .json | 0.09 KB |
+
+| [research_metadata_schema.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/schemas/research_metadata_schema.json) | .json | 5.45 KB |
+
+
+
+
+## Reproducibility
+
+
+This repository includes reproducibility tools:
+
+
+- Python requirements.txt
+
+
+
+
+
+
+
+
 
 
 
@@ -36,7 +93,7 @@ Automated dashboard for monitoring all repositories in the Digital-AI-Finance or
 
 - Issues: Enabled
 - Wiki: Disabled
-- Pages: Disabled
+- Pages: Enabled
 
 ## README
 

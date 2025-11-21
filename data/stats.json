@@ -1,11 +1,11 @@
 {
-  "generated_at": "2025-11-21T22:02:18.723679",
+  "generated_at": "2025-11-21T22:45:12.828719",
   "total_repos": 1,
   "active_repos": 1,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 1,
+  "total_contributors": 2,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
@@ -18,7 +18,7 @@
   "recent_repos": [
     {
       "name": "org-dashboard",
-      "pushed_at": "2025-11-21T22:00:02+00:00"
+      "pushed_at": "2025-11-21T22:44:40+00:00"
     }
   ],
   "popular_repos": [
@@ -27,5 +27,12 @@
       "stars": 0
     }
   ],
-  "repos_without_readme": []
+  "repos_without_readme": [],
+  "research": {
+    "repos_with_papers": 0,
+    "repos_with_notebooks": 0,
+    "repos_with_datasets": 1,
+    "total_publications": 0,
+    "total_notebooks": 0
+  }
 }
