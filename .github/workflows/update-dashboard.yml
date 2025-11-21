@@ -37,12 +37,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Fetch organization data
+      - name: Build research platform
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          GITHUB_ORG: ${{ secrets.ORG_NAME }}
         run: |
-          python scripts/fetch_org_data.py
+          python scripts/build_research_platform.py ${{ secrets.ORG_NAME }}
 
       - name: Generate markdown files
         run: |

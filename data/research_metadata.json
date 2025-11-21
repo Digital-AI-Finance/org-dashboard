@@ -1,0 +1,60 @@
+{
+  "org-dashboard": {
+    "repo_name": "org-dashboard",
+    "research": {
+      "title": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
+      "abstract": "A comprehensive, automated dashboard for monitoring and documenting all repositories in a GitHub organization. Built with Python, MkDocs Material, and GitHub Actions.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "language and topics"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "Python"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-21T23:36:27.463379",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "data",
+        "path": "data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "repos.json",
+        "path": "data/repos.json",
+        "format": ".json",
+        "size_bytes": 7228
+      },
+      {
+        "name": "stats.json",
+        "path": "data/stats.json",
+        "format": ".json",
+        "size_bytes": 547
+      }
+    ]
+  }
+}

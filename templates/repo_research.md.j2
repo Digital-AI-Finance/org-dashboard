@@ -1,0 +1,146 @@
+# {{ repo.name }}
+
+{{ repo.description }}
+
+[View on GitHub]({{ repo.url }}){ .md-button .md-button--primary }
+{% if repo.homepage %}[Homepage]({{ repo.homepage }}){ .md-button }{% endif %}
+
+---
+
+{% set research = repo.research_metadata %}
+
+{% if research and research.publications %}
+## Publications
+
+{% for pub in research.publications %}
+### {{ pub.title if pub.title else 'Publication ' + loop.index|string }}
+
+{% if pub.abstract %}
+{{ pub.abstract[:300] }}{% if pub.abstract|length > 300 %}...{% endif %}
+{% endif %}
+
+| Property | Value |
+|----------|-------|
+{% if pub.doi %}| DOI | [{{ pub.doi }}](https://doi.org/{{ pub.doi }}) |{% endif %}
+{% if pub.arxiv_id %}| arXiv | [{{ pub.arxiv_id }}](https://arxiv.org/abs/{{ pub.arxiv_id }}) |{% endif %}
+{% if pub.ssrn_id %}| SSRN | [{{ pub.ssrn_id }}](https://ssrn.com/abstract={{ pub.ssrn_id }}) |{% endif %}
+{% if pub.year %}| Year | {{ pub.year }} |{% endif %}
+{% if pub.venue %}| Venue | {{ pub.venue }} |{% endif %}
+{% if pub.citation_count %}| Citations | {{ pub.citation_count }} |{% endif %}
+
+{% if pub.authors %}
+**Authors**: {{ pub.authors | map(attribute='name') | join(', ') }}
+{% endif %}
+
+---
+{% endfor %}
+{% endif %}
+
+## Information
+
+| Property | Value |
+|----------|-------|
+| Language | {{ repo.language }} |
+| Stars | {{ repo.stars }} |
+| Forks | {{ repo.forks }} |
+| Watchers | {{ repo.watchers }} |
+| Open Issues | {{ repo.open_issues }} |
+| License | {{ repo.license }} |
+| Created | {{ repo.created_at|format_date }} |
+| Last Updated | {{ repo.updated_at|format_date }} |
+| Last Push | {{ repo.pushed_at|format_date }} |
+| Contributors | {{ repo.contributors_count }} |
+| Default Branch | {{ repo.default_branch }} |
+| Visibility | {{ repo.visibility }} |
+
+{% if repo.topics %}
+## Topics
+
+{% for topic in repo.topics -%}
+`{{ topic }}` {% endfor %}
+{% endif %}
+
+{% if research and research.code and research.code.notebooks %}
+## Notebooks
+
+This repository contains {{ research.code.notebooks|length }} notebook(s):
+
+| Notebook | Language | Type |
+|----------|----------|------|
+{% for notebook in research.code.notebooks %}
+| [{{ notebook.title }}]({{ repo.url }}/blob/{{ repo.default_branch }}/{{ notebook.path }}) | {{ notebook.language | upper }} | {{ notebook.type }} |
+{% endfor %}
+{% endif %}
+
+{% if research and research.datasets %}
+## Datasets
+
+This repository includes {{ research.datasets|length }} dataset(s):
+
+| Dataset | Format | Size |
+|---------|--------|------|
+{% for dataset in research.datasets %}
+| [{{ dataset.name }}]({{ repo.url }}/blob/{{ repo.default_branch }}/{{ dataset.path }}) | {{ dataset.format }} | {{ (dataset.size_bytes / 1024)|round(2) }} KB |
+{% endfor %}
+{% endif %}
+
+{% if research and research.reproducibility %}
+## Reproducibility
+
+{% if research.reproducibility.has_requirements or research.reproducibility.has_dockerfile or research.reproducibility.has_environment_yml %}
+This repository includes reproducibility tools:
+
+{% if research.reproducibility.has_requirements %}
+- Python requirements.txt
+{% endif %}
+{% if research.reproducibility.has_dockerfile %}
+- Dockerfile for containerization
+{% endif %}
+{% if research.reproducibility.has_environment_yml %}
+- Conda environment.yml
+{% endif %}
+{% if research.reproducibility.has_makefile %}
+- Makefile for automation
+{% endif %}
+
+{% if research.reproducibility.binder_url %}
+Launch in Binder: [{{ research.reproducibility.binder_url }}]({{ research.reproducibility.binder_url }}){ .md-button }
+{% endif %}
+{% else %}
+No specific reproducibility files found.
+{% endif %}
+{% endif %}
+
+{% if research and research.research and research.research.keywords %}
+## Research Keywords
+
+{{ research.research.keywords | join(', ') }}
+{% endif %}
+
+{% if repo.latest_release %}
+## Latest Release
+
+- Version: {{ repo.latest_release.tag }}
+- Name: {{ repo.latest_release.name }}
+- Published: {{ repo.latest_release.published_at|format_date }}
+{% endif %}
+
+## Status
+
+{% if repo.archived %}
+!!! warning "Archived"
+    This repository is archived and no longer maintained.
+{% endif %}
+
+{% if repo.is_template %}
+!!! info "Template Repository"
+    This is a template repository.
+{% endif %}
+
+- Issues: {% if repo.has_issues %}Enabled{% else %}Disabled{% endif %}
+- Wiki: {% if repo.has_wiki %}Enabled{% else %}Disabled{% endif %}
+- Pages: {% if repo.has_pages %}Enabled{% else %}Disabled{% endif %}
+
+## README
+
+{{ repo.readme }}

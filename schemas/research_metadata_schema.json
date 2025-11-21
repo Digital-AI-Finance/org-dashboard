@@ -1,0 +1,192 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Research Metadata Schema",
+  "description": "Schema for quantitative finance research metadata extracted from GitHub repositories",
+  "type": "object",
+  "properties": {
+    "repo_name": {
+      "type": "string",
+      "description": "Repository name"
+    },
+    "research": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Research project title"
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "affiliation": {"type": "string"},
+              "email": {"type": "string"}
+            },
+            "required": ["name"]
+          }
+        },
+        "abstract": {
+          "type": "string",
+          "description": "Research abstract or summary"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Research keywords and topics"
+        },
+        "methodology": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Methods and techniques used"
+        }
+      }
+    },
+    "publications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["journal", "conference", "preprint", "working_paper", "book_chapter", "thesis"]
+          },
+          "title": {"type": "string"},
+          "doi": {"type": "string"},
+          "arxiv_id": {"type": "string"},
+          "ssrn_id": {"type": "string"},
+          "url": {"type": "string"},
+          "year": {"type": "integer"},
+          "venue": {"type": "string"},
+          "citation_count": {"type": "integer"},
+          "bibtex": {"type": "string"}
+        }
+      }
+    },
+    "datasets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "path": {"type": "string"},
+          "description": {"type": "string"},
+          "format": {"type": "string"},
+          "size_bytes": {"type": "integer"},
+          "source": {"type": "string"},
+          "url": {"type": "string"}
+        }
+      }
+    },
+    "code": {
+      "type": "object",
+      "properties": {
+        "languages": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "notebooks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {"type": "string"},
+              "title": {"type": "string"},
+              "language": {"type": "string"},
+              "cells": {"type": "integer"},
+              "has_outputs": {"type": "boolean"}
+            }
+          }
+        },
+        "main_scripts": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "dependencies": {
+          "type": "object",
+          "properties": {
+            "python": {"type": "array", "items": {"type": "string"}},
+            "r": {"type": "array", "items": {"type": "string"}},
+            "julia": {"type": "array", "items": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "results": {
+      "type": "object",
+      "properties": {
+        "figures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {"type": "string"},
+              "caption": {"type": "string"},
+              "source_notebook": {"type": "string"}
+            }
+          }
+        },
+        "tables": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "caption": {"type": "string"},
+              "data": {"type": "string"},
+              "source": {"type": "string"}
+            }
+          }
+        },
+        "metrics": {
+          "type": "object",
+          "description": "Key performance metrics or findings",
+          "additionalProperties": true
+        }
+      }
+    },
+    "reproducibility": {
+      "type": "object",
+      "properties": {
+        "has_requirements": {"type": "boolean"},
+        "has_dockerfile": {"type": "boolean"},
+        "has_environment_yml": {"type": "boolean"},
+        "has_makefile": {"type": "boolean"},
+        "binder_url": {"type": "string"},
+        "colab_url": {"type": "string"},
+        "replication_status": {
+          "type": "string",
+          "enum": ["not_attempted", "success", "partial", "failed"]
+        },
+        "replication_notes": {"type": "string"}
+      }
+    },
+    "citations": {
+      "type": "object",
+      "properties": {
+        "cited_by": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "List of papers/repos citing this work"
+        },
+        "cites": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "List of papers/repos this work cites"
+        },
+        "citation_count": {"type": "integer"},
+        "last_updated": {"type": "string", "format": "date-time"}
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "extracted_at": {"type": "string", "format": "date-time"},
+        "extraction_version": {"type": "string"},
+        "extraction_method": {"type": "string"},
+        "confidence_score": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  },
+  "required": ["repo_name"]
+}

@@ -51,7 +51,7 @@ def generate_repo_pages(repos, env):
 
     os.makedirs('docs/repos', exist_ok=True)
 
-    template = env.get_template('repo.md.j2')
+    template = env.get_template('repo_research.md.j2')
 
     for repo in repos:
         filename = f"docs/repos/{repo['name']}.md"
