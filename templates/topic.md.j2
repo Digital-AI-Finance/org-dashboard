@@ -1,0 +1,11 @@
+# Topic: {{ topic }}
+
+Total: **{{ count }}** repositories
+
+---
+
+| Repository | Description | Language | Stars | Updated |
+|------------|-------------|----------|-------|---------|
+{% for repo in repos -%}
+| [{{ repo.name }}](../repos/{{ repo.name }}.md) | {{ repo.description[:80] if repo.description else 'No description' }}{% if repo.description and repo.description|length > 80 %}...{% endif %} | {{ repo.language }} | {{ repo.stars }} | {{ repo.updated_at|format_date }} |
+{% endfor %}

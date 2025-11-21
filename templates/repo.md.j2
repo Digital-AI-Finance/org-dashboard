@@ -1,0 +1,60 @@
+# {{ repo.name }}
+
+{{ repo.description }}
+
+[View on GitHub]({{ repo.url }}){ .md-button .md-button--primary }
+{% if repo.homepage %}[Homepage]({{ repo.homepage }}){ .md-button }{% endif %}
+
+---
+
+## Information
+
+| Property | Value |
+|----------|-------|
+| Language | {{ repo.language }} |
+| Stars | {{ repo.stars }} |
+| Forks | {{ repo.forks }} |
+| Watchers | {{ repo.watchers }} |
+| Open Issues | {{ repo.open_issues }} |
+| License | {{ repo.license }} |
+| Created | {{ repo.created_at|format_date }} |
+| Last Updated | {{ repo.updated_at|format_date }} |
+| Last Push | {{ repo.pushed_at|format_date }} |
+| Contributors | {{ repo.contributors_count }} |
+| Default Branch | {{ repo.default_branch }} |
+| Visibility | {{ repo.visibility }} |
+
+{% if repo.topics %}
+## Topics
+
+{% for topic in repo.topics -%}
+`{{ topic }}` {% endfor %}
+{% endif %}
+
+{% if repo.latest_release %}
+## Latest Release
+
+- Version: {{ repo.latest_release.tag }}
+- Name: {{ repo.latest_release.name }}
+- Published: {{ repo.latest_release.published_at|format_date }}
+{% endif %}
+
+## Status
+
+{% if repo.archived %}
+!!! warning "Archived"
+    This repository is archived and no longer maintained.
+{% endif %}
+
+{% if repo.is_template %}
+!!! info "Template Repository"
+    This is a template repository.
+{% endif %}
+
+- Issues: {% if repo.has_issues %}Enabled{% else %}Disabled{% endif %}
+- Wiki: {% if repo.has_wiki %}Enabled{% else %}Disabled{% endif %}
+- Pages: {% if repo.has_pages %}Enabled{% else %}Disabled{% endif %}
+
+## README
+
+{{ repo.readme }}

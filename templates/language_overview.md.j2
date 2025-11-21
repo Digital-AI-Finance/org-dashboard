@@ -1,0 +1,13 @@
+# Repositories by Language
+
+Total languages: **{{ language_count }}**
+
+---
+
+## Language Distribution
+
+| Language | Repository Count |
+|----------|------------------|
+{% for language, count in languages.items() -%}
+| [{{ language }}]({{ language.lower().replace(' ', '-').replace('#', 'sharp').replace('+', 'plus') }}.md) | {{ count }} |
+{% endfor %}

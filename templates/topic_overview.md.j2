@@ -1,0 +1,13 @@
+# Repositories by Topic
+
+Total topics: **{{ topic_count }}**
+
+---
+
+## Topic Distribution
+
+| Topic | Repository Count |
+|-------|------------------|
+{% for topic, count in topics.items() -%}
+| [{{ topic }}]({{ topic.lower().replace(' ', '-') }}.md) | {{ count }} |
+{% endfor %}

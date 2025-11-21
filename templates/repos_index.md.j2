@@ -1,0 +1,11 @@
+# All Repositories
+
+Total repositories: **{{ count }}**
+
+---
+
+| Repository | Description | Language | Stars | Forks | Updated |
+|------------|-------------|----------|-------|-------|---------|
+{% for repo in repos -%}
+| [{{ repo.name }}]({{ repo.name }}.md) | {{ repo.description[:80] }}{% if repo.description|length > 80 %}...{% endif %} | {{ repo.language }} | {{ repo.stars }} | {{ repo.forks }} | {{ repo.updated_at|format_date }} |
+{% endfor %}

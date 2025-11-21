@@ -1,0 +1,117 @@
+{
+  "generated_at": "2025-01-21T21:38:00Z",
+  "total_repos": 8,
+  "active_repos": 8,
+  "archived_repos": 0,
+  "total_stars": 2543,
+  "total_forks": 619,
+  "total_contributors": 72,
+  "avg_stars": 317.88,
+  "avg_forks": 77.38,
+  "languages": {
+    "Python": 7,
+    "TypeScript": 1,
+    "Jupyter Notebook": 1
+  },
+  "topics": {
+    "finance": 7,
+    "machine-learning": 6,
+    "trading": 3,
+    "deep-learning": 3,
+    "quantitative-finance": 4,
+    "algorithmic-trading": 1,
+    "risk-management": 1,
+    "statistics": 1,
+    "portfolio-optimization": 1,
+    "modern-portfolio-theory": 1,
+    "nlp": 1,
+    "sentiment-analysis": 1,
+    "transformers": 2,
+    "cryptocurrency": 1,
+    "prediction": 1,
+    "lstm": 2,
+    "api": 1,
+    "market-data": 1,
+    "nodejs": 1,
+    "express": 1,
+    "research": 1,
+    "papers": 1,
+    "notebooks": 1,
+    "backtesting": 1,
+    "simulation": 1
+  },
+  "licenses": {
+    "MIT License": 6,
+    "Apache License 2.0": 2,
+    "CC BY 4.0": 1
+  },
+  "recent_repos": [
+    {
+      "name": "sentiment-analysis-finance",
+      "pushed_at": "2025-01-21T09:10:00Z"
+    },
+    {
+      "name": "crypto-prediction-models",
+      "pushed_at": "2025-01-20T18:45:00Z"
+    },
+    {
+      "name": "ai-trading-bot",
+      "pushed_at": "2025-01-20T14:22:00Z"
+    },
+    {
+      "name": "portfolio-optimizer",
+      "pushed_at": "2025-01-19T16:30:00Z"
+    },
+    {
+      "name": "backtesting-framework",
+      "pushed_at": "2025-01-19T15:00:00Z"
+    },
+    {
+      "name": "risk-analysis-toolkit",
+      "pushed_at": "2025-01-18T11:45:00Z"
+    },
+    {
+      "name": "financial-data-api",
+      "pushed_at": "2025-01-17T10:20:00Z"
+    },
+    {
+      "name": "quantitative-research",
+      "pushed_at": "2025-01-16T13:15:00Z"
+    }
+  ],
+  "popular_repos": [
+    {
+      "name": "crypto-prediction-models",
+      "stars": 512
+    },
+    {
+      "name": "sentiment-analysis-finance",
+      "stars": 425
+    },
+    {
+      "name": "backtesting-framework",
+      "stars": 387
+    },
+    {
+      "name": "ai-trading-bot",
+      "stars": 342
+    },
+    {
+      "name": "portfolio-optimizer",
+      "stars": 289
+    },
+    {
+      "name": "quantitative-research",
+      "stars": 234
+    },
+    {
+      "name": "financial-data-api",
+      "stars": 198
+    },
+    {
+      "name": "risk-analysis-toolkit",
+      "stars": 156
+    }
+  ],
+  "repos_without_readme": []
+}

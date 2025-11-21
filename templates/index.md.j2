@@ -1,0 +1,80 @@
+# GitHub Organization Dashboard
+
+Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
+
+Last updated: **{{ stats.generated_at|format_date }}**
+
+---
+
+## Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| Total Repositories | {{ stats.total_repos|format_number }} |
+| Active Repositories | {{ stats.active_repos|format_number }} |
+| Archived Repositories | {{ stats.archived_repos|format_number }} |
+| Total Stars | {{ stats.total_stars|format_number }} |
+| Total Forks | {{ stats.total_forks|format_number }} |
+| Total Contributors | {{ stats.total_contributors|format_number }} |
+| Average Stars per Repo | {{ stats.avg_stars }} |
+| Average Forks per Repo | {{ stats.avg_forks }} |
+
+---
+
+## Top Languages
+
+| Language | Repositories |
+|----------|--------------|
+{% for language, count in (stats.languages.items() | list)[:5] -%}
+| [{{ language }}](by-language/{{ language.lower().replace(' ', '-').replace('#', 'sharp').replace('+', 'plus') }}.md) | {{ count }} |
+{% endfor %}
+
+[View all languages](by-language/index.md){ .md-button }
+
+---
+
+## Top Topics
+
+| Topic | Repositories |
+|-------|--------------|
+{% for topic, count in (stats.topics.items() | list)[:5] -%}
+| [{{ topic }}](by-topic/{{ topic.lower().replace(' ', '-') }}.md) | {{ count }} |
+{% endfor %}
+
+[View all topics](by-topic/index.md){ .md-button }
+
+---
+
+## Most Popular Repositories
+
+| Repository | Stars |
+|------------|-------|
+{% for repo in stats.popular_repos[:5] -%}
+| [{{ repo.name }}](repos/{{ repo.name }}.md) | {{ repo.stars }} |
+{% endfor %}
+
+---
+
+## Recently Active Repositories
+
+| Repository | Last Push |
+|------------|-----------|
+{% for repo in stats.recent_repos[:5] -%}
+| [{{ repo.name }}](repos/{{ repo.name }}.md) | {{ repo.pushed_at|format_date }} |
+{% endfor %}
+
+---
+
+## Navigation
+
+- [All Repositories](repos/index.md) - Browse all {{ repo_count }} repositories
+- [By Language](by-language/index.md) - Filter by programming language
+- [By Topic](by-topic/index.md) - Filter by topic tags
+- [Statistics](stats.md) - Detailed organization statistics
+
+{% if stats.repos_without_readme %}
+---
+
+!!! warning "Repositories Missing README"
+    {{ stats.repos_without_readme|length }} repositories do not have a README file.
+{% endif %}

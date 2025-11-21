@@ -1,0 +1,82 @@
+# Organization Statistics
+
+Detailed statistics for the GitHub organization.
+
+Last updated: **{{ stats.generated_at|format_date }}**
+
+---
+
+## Overview
+
+| Metric | Value |
+|--------|-------|
+| Total Repositories | {{ stats.total_repos|format_number }} |
+| Active Repositories | {{ stats.active_repos|format_number }} |
+| Archived Repositories | {{ stats.archived_repos|format_number }} |
+| Total Stars | {{ stats.total_stars|format_number }} |
+| Total Forks | {{ stats.total_forks|format_number }} |
+| Total Contributors | {{ stats.total_contributors|format_number }} |
+| Average Stars per Repo | {{ stats.avg_stars }} |
+| Average Forks per Repo | {{ stats.avg_forks }} |
+
+---
+
+## Language Distribution
+
+| Language | Repository Count |
+|----------|------------------|
+{% for language, count in stats.languages.items() -%}
+| [{{ language }}](by-language/{{ language.lower().replace(' ', '-').replace('#', 'sharp').replace('+', 'plus') }}.md) | {{ count }} |
+{% endfor %}
+
+---
+
+## Topic Distribution
+
+| Topic | Repository Count |
+|-------|------------------|
+{% for topic, count in stats.topics.items() -%}
+| [{{ topic }}](by-topic/{{ topic.lower().replace(' ', '-') }}.md) | {{ count }} |
+{% endfor %}
+
+---
+
+## License Distribution
+
+| License | Repository Count |
+|---------|------------------|
+{% for license, count in stats.licenses.items() -%}
+| {{ license }} | {{ count }} |
+{% endfor %}
+
+---
+
+## Most Popular Repositories
+
+| Repository | Stars | Forks |
+|------------|-------|-------|
+{% for repo in stats.popular_repos -%}
+| [{{ repo.name }}](repos/{{ repo.name }}.md) | {{ repo.stars }} | N/A |
+{% endfor %}
+
+---
+
+## Recently Active Repositories
+
+| Repository | Last Push |
+|------------|-----------|
+{% for repo in stats.recent_repos -%}
+| [{{ repo.name }}](repos/{{ repo.name }}.md) | {{ repo.pushed_at|format_date }} |
+{% endfor %}
+
+---
+
+{% if stats.repos_without_readme %}
+## Repositories Without README
+
+The following repositories do not have a README file:
+
+{% for repo in stats.repos_without_readme -%}
+- {{ repo }}
+{% endfor %}
+{% endif %}
