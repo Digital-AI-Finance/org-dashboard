@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {
+      "id": "org-dashboard",
+      "authors": 1
+    },
+    {
+      "id": "portfolio-optimization-ml",
+      "authors": 2
+    },
+    {
+      "id": "credit-risk-prediction",
+      "authors": 2
+    },
+    {
+      "id": "market-microstructure",
+      "authors": 2
+    },
+    {
+      "id": "Natural-Language-Processing",
+      "authors": 1
+    }
+  ],
+  "edges": []
+}
