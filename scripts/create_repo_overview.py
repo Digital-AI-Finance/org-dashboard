@@ -24,6 +24,37 @@ def load_repositories(repos_file: str = 'data/repos.json') -> List[Dict[str, Any
         return json.load(f)
 
 
+def categorize_repository(repo: Dict[str, Any]) -> str:
+    """
+    Categorize repository based on topics and description.
+    Returns: finance, machine-learning, education, research-tools
+    """
+    topics = [t.lower() for t in repo.get('topics', [])]
+    description = repo.get('description', '').lower()
+    name = repo.get('name', '').lower()
+
+    # Combine all text for analysis
+    text = ' '.join(topics + [description, name])
+
+    # Finance-related
+    if any(kw in text for kw in ['finance', 'trading', 'portfolio', 'risk', 'credit', 'market']):
+        return 'finance'
+
+    # Machine Learning / AI
+    if any(kw in text for kw in ['machine-learning', 'neural', 'reinforcement', 'learning', 'prediction', 'model']):
+        return 'machine-learning'
+
+    # Education / Course
+    if any(kw in text for kw in ['course', 'curriculum', 'pedagogy', 'week', 'nlp', 'academic', 'slides']):
+        return 'education'
+
+    # Research Tools / Infrastructure
+    if any(kw in text for kw in ['dashboard', 'automated', 'monitoring', 'organization']):
+        return 'research-tools'
+
+    return 'other'
+
+
 def create_repository_grid_html(repos: List[Dict[str, Any]],
                                   output_path: str = 'docs/visualizations/repository_overview.html') -> str:
     """
@@ -31,6 +62,12 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
     """
     # Sort repos by last updated
     sorted_repos = sorted(repos, key=lambda x: x.get('updated_at', ''), reverse=True)
+
+    # Count repos by category for filter buttons
+    category_counts = {}
+    for repo in sorted_repos:
+        cat = categorize_repository(repo)
+        category_counts[cat] = category_counts.get(cat, 0) + 1
 
     # Generate HTML
     html_content = """<!DOCTYPE html>
@@ -303,9 +340,10 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
 
         <div class="filter-bar">
             <button class="filter-button active" data-filter="all">All ({total})</button>
-            <button class="filter-button" data-filter="python">Python</button>
-            <button class="filter-button" data-filter="tex">TeX</button>
-            <button class="filter-button" data-filter="jupyter">Jupyter</button>
+            <button class="filter-button" data-filter="finance">💰 Finance ({finance_count})</button>
+            <button class="filter-button" data-filter="machine-learning">🤖 ML/AI ({ml_count})</button>
+            <button class="filter-button" data-filter="education">📚 Education ({edu_count})</button>
+            <button class="filter-button" data-filter="research-tools">🔧 Tools ({tools_count})</button>
         </div>
 
         <div class="repo-grid" id="repoGrid">
@@ -322,11 +360,21 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
         topics = repo.get('topics', [])[:5]  # Show max 5 topics
         updated = repo.get('updated_at', '')[:10]  # Just the date
 
-        # Language color coding
-        lang_class = language.lower().replace(' ', '-') if language != 'Unknown' else 'unknown'
+        # Content-based categorization
+        category = categorize_repository(repo)
+
+        # Category labels and icons
+        category_labels = {
+            'finance': '💰 Finance',
+            'machine-learning': '🤖 ML/AI',
+            'education': '📚 Education',
+            'research-tools': '🔧 Research Tools',
+            'other': '📦 Other'
+        }
+        category_label = category_labels.get(category, '📦 Other')
 
         html_content += f"""
-            <div class="repo-card" data-language="{lang_class}" onclick="window.open('{url}', '_blank')">
+            <div class="repo-card" data-category="{category}" onclick="window.open('{url}', '_blank')">
                 <div class="repo-header">
                     <div class="repo-icon">
                         <svg viewBox="0 0 16 16">
@@ -335,7 +383,7 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
                     </div>
                     <div class="repo-title">
                         <h3>{name}</h3>
-                        <span class="repo-language">{language}</span>
+                        <span class="repo-language">{category_label}</span>
                     </div>
                 </div>
 
@@ -408,8 +456,8 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
                     if (filter === 'all') {
                         card.style.display = 'block';
                     } else {
-                        const language = card.getAttribute('data-language');
-                        if (language.includes(filter)) {
+                        const category = card.getAttribute('data-category');
+                        if (category === filter) {
                             card.style.display = 'block';
                         } else {
                             card.style.display = 'none';
@@ -422,8 +470,12 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
 </body>
 </html>"""
 
-    # Replace total count
+    # Replace counts
     html_content = html_content.replace('{total}', str(len(repos)))
+    html_content = html_content.replace('{finance_count}', str(category_counts.get('finance', 0)))
+    html_content = html_content.replace('{ml_count}', str(category_counts.get('machine-learning', 0)))
+    html_content = html_content.replace('{edu_count}', str(category_counts.get('education', 0)))
+    html_content = html_content.replace('{tools_count}', str(category_counts.get('research-tools', 0)))
 
     # Save HTML
     os.makedirs(os.path.dirname(output_path), exist_ok=True)

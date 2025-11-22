@@ -268,14 +268,15 @@
 
         <div class="filter-bar">
             <button class="filter-button active" data-filter="all">All (6)</button>
-            <button class="filter-button" data-filter="python">Python</button>
-            <button class="filter-button" data-filter="tex">TeX</button>
-            <button class="filter-button" data-filter="jupyter">Jupyter</button>
+            <button class="filter-button" data-filter="finance">💰 Finance (5)</button>
+            <button class="filter-button" data-filter="machine-learning">🤖 ML/AI (0)</button>
+            <button class="filter-button" data-filter="education">📚 Education (1)</button>
+            <button class="filter-button" data-filter="research-tools">🔧 Tools (0)</button>
         </div>
 
         <div class="repo-grid" id="repoGrid">
 
-            <div class="repo-card" data-language="python" onclick="window.open('#', '_blank')">
+            <div class="repo-card" data-category="finance" onclick="window.open('#', '_blank')">
                 <div class="repo-header">
                     <div class="repo-icon">
                         <svg viewBox="0 0 16 16">
@@ -284,7 +285,7 @@
                     </div>
                     <div class="repo-title">
                         <h3>org-dashboard</h3>
-                        <span class="repo-language">Python</span>
+                        <span class="repo-language">💰 Finance</span>
                     </div>
                 </div>
 
@@ -314,7 +315,7 @@
                 </div>
             </div>
 
-            <div class="repo-card" data-language="tex" onclick="window.open('#', '_blank')">
+            <div class="repo-card" data-category="finance" onclick="window.open('#', '_blank')">
                 <div class="repo-header">
                     <div class="repo-icon">
                         <svg viewBox="0 0 16 16">
@@ -323,7 +324,7 @@
                     </div>
                     <div class="repo-title">
                         <h3>Green-Finance</h3>
-                        <span class="repo-language">TeX</span>
+                        <span class="repo-language">💰 Finance</span>
                     </div>
                 </div>
 
@@ -353,7 +354,7 @@
                 </div>
             </div>
 
-            <div class="repo-card" data-language="jupyter-notebook" onclick="window.open('#', '_blank')">
+            <div class="repo-card" data-category="education" onclick="window.open('#', '_blank')">
                 <div class="repo-header">
                     <div class="repo-icon">
                         <svg viewBox="0 0 16 16">
@@ -362,7 +363,7 @@
                     </div>
                     <div class="repo-title">
                         <h3>Natural-Language-Processing</h3>
-                        <span class="repo-language">Jupyter Notebook</span>
+                        <span class="repo-language">📚 Education</span>
                     </div>
                 </div>
 
@@ -392,7 +393,7 @@
                 </div>
             </div>
 
-            <div class="repo-card" data-language="unknown" onclick="window.open('#', '_blank')">
+            <div class="repo-card" data-category="finance" onclick="window.open('#', '_blank')">
                 <div class="repo-header">
                     <div class="repo-icon">
                         <svg viewBox="0 0 16 16">
@@ -401,7 +402,7 @@
                     </div>
                     <div class="repo-title">
                         <h3>market-microstructure</h3>
-                        <span class="repo-language">Unknown</span>
+                        <span class="repo-language">💰 Finance</span>
                     </div>
                 </div>
 
@@ -435,7 +436,7 @@
                 </div>
             </div>
 
-            <div class="repo-card" data-language="unknown" onclick="window.open('#', '_blank')">
+            <div class="repo-card" data-category="finance" onclick="window.open('#', '_blank')">
                 <div class="repo-header">
                     <div class="repo-icon">
                         <svg viewBox="0 0 16 16">
@@ -444,7 +445,7 @@
                     </div>
                     <div class="repo-title">
                         <h3>credit-risk-prediction</h3>
-                        <span class="repo-language">Unknown</span>
+                        <span class="repo-language">💰 Finance</span>
                     </div>
                 </div>
 
@@ -478,7 +479,7 @@
                 </div>
             </div>
 
-            <div class="repo-card" data-language="unknown" onclick="window.open('#', '_blank')">
+            <div class="repo-card" data-category="finance" onclick="window.open('#', '_blank')">
                 <div class="repo-header">
                     <div class="repo-icon">
                         <svg viewBox="0 0 16 16">
@@ -487,7 +488,7 @@
                     </div>
                     <div class="repo-title">
                         <h3>portfolio-optimization-ml</h3>
-                        <span class="repo-language">Unknown</span>
+                        <span class="repo-language">💰 Finance</span>
                     </div>
                 </div>
 
@@ -557,8 +558,8 @@
                     if (filter === 'all') {
                         card.style.display = 'block';
                     } else {
-                        const language = card.getAttribute('data-language');
-                        if (language.includes(filter)) {
+                        const category = card.getAttribute('data-category');
+                        if (category === filter) {
                             card.style.display = 'block';
                         } else {
                             card.style.display = 'none';
