@@ -3,7 +3,7 @@
     "repo_name": "org-dashboard",
     "research": {
       "title": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
-      "abstract": "A comprehensive, automated dashboard for monitoring and documenting all repositories in a GitHub organization. Built with Python, MkDocs Material, and GitHub Actions.",
+      "abstract": "A comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.",
       "keywords": [],
       "authors": [
         {
@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-21T22:45:12.827318",
+      "extracted_at": "2025-11-22T08:13:23.506999",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -53,55 +53,637 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 186
+        "size_bytes": 1723
       },
       {
         "name": "citation_report.json",
         "path": "data/citation_report.json",
         "format": ".json",
-        "size_bytes": 271
+        "size_bytes": 2051
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 7228
+        "size_bytes": 28735
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 1678
+        "size_bytes": 5996
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 1485
+        "size_bytes": 10470
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 11972
+        "size_bytes": 28339
       },
       {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 547
+        "size_bytes": 1498
+      },
+      {
+        "name": "citation_network.json",
+        "path": "docs/visualizations/citation_network.json",
+        "format": ".json",
+        "size_bytes": 336
       },
       {
         "name": "collaboration_network.json",
         "path": "docs/visualizations/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 95
+        "size_bytes": 307
       },
       {
         "name": "research_metadata_schema.json",
         "path": "schemas/research_metadata_schema.json",
         "format": ".json",
         "size_bytes": 5576
+      }
+    ]
+  },
+  "portfolio-optimization-ml": {
+    "repo_name": "portfolio-optimization-ml",
+    "research": {
+      "title": "Machine learning approaches to portfolio optimization using deep reinforcement learning",
+      "abstract": "We propose a novel deep reinforcement learning approach for portfolio optimization that outperforms traditional mean-variance optimization. Our method uses a Deep Q-Network (DQN) to learn optimal trading strategies from historical market data.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "John Smith",
+          "affiliation": "University of Finance"
+        },
+        {
+          "name": "Jane Doe",
+          "affiliation": "Tech Institute"
+        }
+      ]
+    },
+    "publications": [
+      {
+        "type": "journal-article",
+        "doi": "10.1016/j.jfineco.2023.01.001",
+        "url": "https://doi.org/10.1016/j.jfineco.2023.01.001",
+        "title": "Financial markets and unemployment",
+        "abstract": "",
+        "published": "2023-03-01",
+        "year": 2023,
+        "authors": [
+          {
+            "name": "Tommaso Monacelli"
+          },
+          {
+            "name": "Vincenzo Quadrini"
+          },
+          {
+            "name": "Antonella Trigari"
+          }
+        ],
+        "venue": "Journal of Financial Economics",
+        "publisher": "Elsevier BV",
+        "citation_count": 16,
+        "reference_count": 27
+      },
+      {
+        "type": "preprint",
+        "arxiv_id": "2103.12345",
+        "url": "https://arxiv.org/abs/2103.12345",
+        "title": "The Success of AdaBoost and Its Application in Portfolio Management",
+        "abstract": "We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a strong connection between the ION and the test error. We further identify that the ION of AdaBoost decreases as the iteration number or the complexity of the base learners increases. We confirm that it is impossible to obtain a consistent classifier without deep trees as the base learners of AdaBoost in some complicated situations. We apply AdaBoost in portfolio management via empirical studies in the Chinese market, which corroborates our theoretical propositions.",
+        "published": "2021-03-23T06:41:42Z",
+        "updated": "2021-03-23T06:41:42Z",
+        "pdf_url": "https://arxiv.org/pdf/2103.12345.pdf",
+        "authors": [
+          {
+            "name": "Yijian Chuan"
+          },
+          {
+            "name": "Chaoyi Zhao"
+          },
+          {
+            "name": "Zhenrui He"
+          },
+          {
+            "name": "Lan Wu"
+          }
+        ],
+        "categories": [
+          "stat.ML",
+          "cs.LG",
+          "q-fin.PM"
+        ],
+        "year": 2021
+      }
+    ],
+    "code": {
+      "languages": [
+        "Unknown"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [
+        "@article{smith2023deep,\n  title={Deep Reinforcement Learning for Portfolio Optimization},\n  author={Smith, John and Doe, Jane},\n  journal={Journal of Financial Economics},\n  year={2023},\n  doi={10.1016/j.jfineco.2023.01.001}\n}"
+      ],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-22T08:13:26.109554",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": []
+  },
+  "credit-risk-prediction": {
+    "repo_name": "credit-risk-prediction",
+    "research": {
+      "title": "Neural network models for credit risk prediction with explainable AI",
+      "abstract": "We develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "Maria Garcia",
+          "affiliation": "Financial Analytics Lab"
+        },
+        {
+          "name": "Robert Chen",
+          "affiliation": "AI Research Center"
+        }
+      ]
+    },
+    "publications": [
+      {
+        "type": "journal",
+        "doi": "10.2139/ssrn.3456789",
+        "url": "https://doi.org/10.2139/ssrn.3456789"
+      },
+      {
+        "type": "working_paper",
+        "ssrn_id": "3456789",
+        "url": "https://ssrn.com/abstract=3456789",
+        "note": "Limited metadata available (no SSRN API)"
+      }
+    ],
+    "code": {
+      "languages": [
+        "Unknown"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [
+        "@article{garcia2023explainable,\n  title={Explainable Neural Networks for Credit Risk Assessment},\n  author={Garcia, Maria and Chen, Robert},\n  journal={SSRN Electronic Journal},\n  year={2023},\n  doi={10.2139/ssrn.3456789}\n}"
+      ],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-22T08:13:28.704494",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": []
+  },
+  "market-microstructure": {
+    "repo_name": "market-microstructure",
+    "research": {
+      "title": "High-frequency trading analysis and market microstructure research",
+      "abstract": "We analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "David Lee",
+          "affiliation": "Quantitative Finance Department"
+        },
+        {
+          "name": "Sarah Williams",
+          "affiliation": "Trading Systems Lab"
+        }
+      ]
+    },
+    "publications": [
+      {
+        "type": "journal",
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
+      },
+      {
+        "type": "journal",
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
+      },
+      {
+        "type": "preprint",
+        "arxiv_id": "2201.67890",
+        "url": "https://arxiv.org/abs/2201.67890"
+      }
+    ],
+    "code": {
+      "languages": [
+        "Unknown"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [
+        "@article{lee2024price,\n  title={Price Discovery in High-Frequency Markets},\n  author={Lee, David and Williams, Sarah},\n  journal={Journal of Finance},\n  year={2024},\n  doi={10.1111/jofi.2024.12345}\n}"
+      ],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-22T08:13:31.527047",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": []
+  },
+  "Green-Finance": {
+    "repo_name": "Green-Finance",
+    "research": {
+      "title": "Academic course generation system for Green Finance Professional Certificate - 8-week course with learning-goal-driven pedagogy, Beamer slides, and interactive React app",
+      "abstract": "Academic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.",
+      "keywords": [],
+      "authors": []
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "TeX"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-22T08:13:43.300098",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "settings.local.json",
+        "path": ".claude/settings.local.json",
+        "format": ".json",
+        "size_bytes": 159
+      },
+      {
+        "name": "package-lock.json",
+        "path": "react-app/package-lock.json",
+        "format": ".json",
+        "size_bytes": 704815
+      },
+      {
+        "name": "package.json",
+        "path": "react-app/package.json",
+        "format": ".json",
+        "size_bytes": 1435
+      },
+      {
+        "name": "data",
+        "path": "react-app/src/data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "week1Slides.js",
+        "path": "react-app/src/data/week1Slides.js",
+        "format": ".js",
+        "size_bytes": 29245
+      },
+      {
+        "name": "week1Slides_backup.js",
+        "path": "react-app/src/data/week1Slides_backup.js",
+        "format": ".js",
+        "size_bytes": 27087
+      },
+      {
+        "name": "week1Slides_updated.js",
+        "path": "react-app/src/data/week1Slides_updated.js",
+        "format": ".js",
+        "size_bytes": 29245
+      }
+    ]
+  },
+  "Natural-Language-Processing": {
+    "repo_name": "Natural-Language-Processing",
+    "research": {
+      "title": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
+      "abstract": "![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "the end, you'll build a working transformer from scratch and understand the architecture behind ChatGPT and Claude."
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "Jupyter Notebook"
+      ],
+      "notebooks": [
+        {
+          "path": ".ipynb_checkpoints/shakespeare_sonnets_simple_bsc-checkpoint.ipynb",
+          "title": "shakespeare_sonnets_simple_bsc-checkpoint",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": ".ipynb_checkpoints/week01_ngrams_bsc-checkpoint.ipynb",
+          "title": "week01_ngrams_bsc-checkpoint",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/summarization_module/lab/llm_summarization_lab.ipynb",
+          "title": "llm_summarization_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week01_foundations/lab/week01_ngrams_lab.ipynb",
+          "title": "week01_ngrams_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week02_neural_lm/lab/week02_word_embeddings_lab.ipynb",
+          "title": "week02_word_embeddings_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week03_rnn/lab/week03_rnn_lab.ipynb",
+          "title": "week03_rnn_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week03_rnn/lab/week03_rnn_lab_enhanced.ipynb",
+          "title": "week03_rnn_lab_enhanced",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week04_seq2seq/lab/week04_part1_basic_seq2seq.ipynb",
+          "title": "week04_part1_basic_seq2seq",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week04_seq2seq/lab/week04_part2_attention.ipynb",
+          "title": "week04_part2_attention",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week04_seq2seq/lab/week04_part3_advanced.ipynb",
+          "title": "week04_part3_advanced",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week04_seq2seq/lab/week04_seq2seq_lab.ipynb",
+          "title": "week04_seq2seq_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week04_seq2seq/lab/week04_seq2seq_lab_enhanced.ipynb",
+          "title": "week04_seq2seq_lab_enhanced",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week05_transformers/lab/week05_transformer_lab.ipynb",
+          "title": "week05_transformer_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week06_pretrained/lab/week06_bert_finetuning.ipynb",
+          "title": "week06_bert_finetuning",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week06_pretrained/lab/week06_pretrained_feature_extraction.ipynb",
+          "title": "week06_pretrained_feature_extraction",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week07_advanced/lab/week07_advanced_transformers_lab.ipynb",
+          "title": "week07_advanced_transformers_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week08_tokenization/lab/week08_tokenization_lab.ipynb",
+          "title": "week08_tokenization_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week09_decoding/lab/week09_decoding_lab.ipynb",
+          "title": "week09_decoding_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week09_decoding/lab/week09_decoding_simplified.ipynb",
+          "title": "week09_decoding_simplified",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week10_finetuning/lab/week10_finetuning_lab.ipynb",
+          "title": "week10_finetuning_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week11_efficiency/lab/week11_efficiency_lab.ipynb",
+          "title": "week11_efficiency_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "NLP_slides/week12_ethics/lab/week12_ethics_lab.ipynb",
+          "title": "week12_ethics_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "embeddings/handouts/discovery_notebook.ipynb",
+          "title": "discovery_notebook",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "embeddings/word_embeddings_3d_msc.ipynb",
+          "title": "word_embeddings_3d_msc",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/ngrams_Alice_in_Wonderland.ipynb",
+          "title": "ngrams_Alice_in_Wonderland",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/shakespeare/shakespeare_sonnets_simple_bsc.ipynb",
+          "title": "shakespeare_sonnets_simple_bsc",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "notebooks/visualizations/1_simple_ngrams.ipynb",
+          "title": "1_simple_ngrams",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "notebooks/visualizations/2_word_embeddings.ipynb",
+          "title": "2_word_embeddings",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "notebooks/visualizations/3_simple_neural_net.ipynb",
+          "title": "3_simple_neural_net",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "notebooks/visualizations/4_compare_NLP_methods.ipynb",
+          "title": "4_compare_NLP_methods",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "notebooks/visualizations/5_Tokens Journey Through a Transformer.ipynb",
+          "title": "5_Tokens Journey Through a Transformer",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "notebooks/visualizations/6_Transformers in 3D A Visual Journey.ipynb",
+          "title": "6_Transformers in 3D A Visual Journey",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "notebooks/visualizations/7_Transformers_in_3d_simplified.ipynb",
+          "title": "7_Transformers_in_3d_simplified",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "notebooks/visualizations/8_How_Transformers_Learn_Training_in_3D.ipynb",
+          "title": "8_How_Transformers_Learn_Training_in_3D",
+          "language": "python",
+          "type": "jupyter"
+        }
+      ],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": true,
+      "has_makefile": true,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [
+        "@misc{nlp2025course,\n  title={NLP Course 2025: From N-grams to Transformers},\n  author={Joerg Osterrieder},\n  year={2025},\n  url={https://github.com/josterri/2025_NLP_Lectures}\n}"
+      ],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-22T08:14:42.647694",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "package-lock.json",
+        "path": "NLP_slides/week09_decoding/learning-app/package-lock.json",
+        "format": ".json",
+        "size_bytes": 153181
+      },
+      {
+        "name": "package.json",
+        "path": "NLP_slides/week09_decoding/learning-app/package.json",
+        "format": ".json",
+        "size_bytes": 917
+      },
+      {
+        "name": "package-lock.json",
+        "path": "NLP_slides/week09_decoding/react-app/package-lock.json",
+        "format": ".json",
+        "size_bytes": 166558
+      },
+      {
+        "name": "package.json",
+        "path": "NLP_slides/week09_decoding/react-app/package.json",
+        "format": ".json",
+        "size_bytes": 974
+      },
+      {
+        "name": "notebook_test_results.json",
+        "path": "notebook_test_results.json",
+        "format": ".json",
+        "size_bytes": 9703
       }
     ]
   }

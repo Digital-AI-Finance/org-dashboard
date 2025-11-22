@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-21T22:45:12.831236",
+  "generated_at": "2025-11-22T08:14:50.897271",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
@@ -27,15 +27,181 @@
         "average_rating": 0.0,
         "category_ratings": {}
       }
+    },
+    "portfolio-optimization-ml": {
+      "reproducibility_score": {
+        "score": 40,
+        "max_score": 100,
+        "percentage": 40.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 30,
+          "environment": 10,
+          "data": 0,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "credit-risk-prediction": {
+      "reproducibility_score": {
+        "score": 40,
+        "max_score": 100,
+        "percentage": 40.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 30,
+          "environment": 10,
+          "data": 0,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "market-microstructure": {
+      "reproducibility_score": {
+        "score": 40,
+        "max_score": 100,
+        "percentage": 40.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 30,
+          "environment": 10,
+          "data": 0,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "Green-Finance": {
+      "reproducibility_score": {
+        "score": 40,
+        "max_score": 100,
+        "percentage": 40.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 20,
+          "environment": 0,
+          "data": 20,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "Natural-Language-Processing": {
+      "reproducibility_score": {
+        "score": 65,
+        "max_score": 100,
+        "percentage": 65.0,
+        "badge": "silver",
+        "breakdown": {
+          "documentation": 20,
+          "environment": 15,
+          "data": 20,
+          "code": 10,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 50.0,
-    "total_repositories": 1,
+    "average_reproducibility_score": 45.83,
+    "total_repositories": 6,
     "badge_distribution": {
-      "bronze": 1
+      "bronze": 5,
+      "silver": 1
     },
     "top_repos": [
+      [
+        "Natural-Language-Processing",
+        {
+          "reproducibility_score": {
+            "score": 65,
+            "max_score": 100,
+            "percentage": 65.0,
+            "badge": "silver",
+            "breakdown": {
+              "documentation": 20,
+              "environment": 15,
+              "data": 20,
+              "code": 10,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
       [
         "org-dashboard",
         {
@@ -47,6 +213,126 @@
             "breakdown": {
               "documentation": 20,
               "environment": 10,
+              "data": 20,
+              "code": 0,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
+      [
+        "portfolio-optimization-ml",
+        {
+          "reproducibility_score": {
+            "score": 40,
+            "max_score": 100,
+            "percentage": 40.0,
+            "badge": "bronze",
+            "breakdown": {
+              "documentation": 30,
+              "environment": 10,
+              "data": 0,
+              "code": 0,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
+      [
+        "credit-risk-prediction",
+        {
+          "reproducibility_score": {
+            "score": 40,
+            "max_score": 100,
+            "percentage": 40.0,
+            "badge": "bronze",
+            "breakdown": {
+              "documentation": 30,
+              "environment": 10,
+              "data": 0,
+              "code": 0,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
+      [
+        "market-microstructure",
+        {
+          "reproducibility_score": {
+            "score": 40,
+            "max_score": 100,
+            "percentage": 40.0,
+            "badge": "bronze",
+            "breakdown": {
+              "documentation": 30,
+              "environment": 10,
+              "data": 0,
+              "code": 0,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
+      [
+        "Green-Finance",
+        {
+          "reproducibility_score": {
+            "score": 40,
+            "max_score": 100,
+            "percentage": 40.0,
+            "badge": "bronze",
+            "breakdown": {
+              "documentation": 20,
+              "environment": 0,
               "data": 20,
               "code": 0,
               "community": 0

@@ -80,7 +80,7 @@ class ResearchPlatformBuilder:
 
         # Load repos data for subsequent phases
         try:
-            with open('data/repos.json', 'r') as f:
+            with open('data/repos.json', 'r', encoding='utf-8') as f:
                 repos_data = json.load(f)
             self.log(f"Loaded {len(repos_data)} repositories")
         except Exception as e:
@@ -103,7 +103,7 @@ class ResearchPlatformBuilder:
         citation_report = None
         if os.path.exists('data/citation_report.json'):
             try:
-                with open('data/citation_report.json', 'r') as f:
+                with open('data/citation_report.json', 'r', encoding='utf-8') as f:
                     citation_report = json.load(f)
             except:
                 pass
@@ -160,8 +160,8 @@ class ResearchPlatformBuilder:
             'log': self.build_log
         }
 
-        with open('data/build_log.json', 'w') as f:
-            json.dump(build_summary, f, indent=2)
+        with open('data/build_log.json', 'w', encoding='utf-8') as f:
+            json.dump(build_summary, f, indent=2, ensure_ascii=False)
 
         return build_summary
 

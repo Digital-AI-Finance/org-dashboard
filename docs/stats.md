@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-11-21**
+Last updated: **2025-11-22**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-11-21**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 1 |
-| Active Repositories | 1 |
+| Total Repositories | 6 |
+| Active Repositories | 6 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 2 |
+| Total Contributors | 7 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -26,6 +26,8 @@ Last updated: **2025-11-21**
 | Language | Repository Count |
 |----------|------------------|
 | [Python](by-language/python.md) | 1 |
+| [TeX](by-language/tex.md) | 1 |
+| [Jupyter Notebook](by-language/jupyter-notebook.md) | 1 |
 
 
 ---
@@ -34,6 +36,16 @@ Last updated: **2025-11-21**
 
 | Topic | Repository Count |
 |-------|------------------|
+| [finance](by-topic/finance.md) | 3 |
+| [machine-learning](by-topic/machine-learning.md) | 1 |
+| [portfolio-optimization](by-topic/portfolio-optimization.md) | 1 |
+| [reinforcement-learning](by-topic/reinforcement-learning.md) | 1 |
+| [credit-risk](by-topic/credit-risk.md) | 1 |
+| [explainable-ai](by-topic/explainable-ai.md) | 1 |
+| [neural-networks](by-topic/neural-networks.md) | 1 |
+| [high-frequency-trading](by-topic/high-frequency-trading.md) | 1 |
+| [market-microstructure](by-topic/market-microstructure.md) | 1 |
+| [time-series](by-topic/time-series.md) | 1 |
 
 
 ---
@@ -42,7 +54,7 @@ Last updated: **2025-11-21**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 1 |
+| No License | 6 |
 
 
 ---
@@ -52,6 +64,11 @@ Last updated: **2025-11-21**
 | Repository | Stars | Forks |
 |------------|-------|-------|
 | [org-dashboard](repos/org-dashboard.md) | 0 | N/A |
+| [portfolio-optimization-ml](repos/portfolio-optimization-ml.md) | 0 | N/A |
+| [credit-risk-prediction](repos/credit-risk-prediction.md) | 0 | N/A |
+| [market-microstructure](repos/market-microstructure.md) | 0 | N/A |
+| [Green-Finance](repos/Green-Finance.md) | 0 | N/A |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 0 | N/A |
 
 
 ---
@@ -60,7 +77,12 @@ Last updated: **2025-11-21**
 
 | Repository | Last Push |
 |------------|-----------|
-| [org-dashboard](repos/org-dashboard.md) | 2025-11-21 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-22 |
+| [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-11-22 |
+| [market-microstructure](repos/market-microstructure.md) | 2025-11-21 |
+| [credit-risk-prediction](repos/credit-risk-prediction.md) | 2025-11-21 |
+| [portfolio-optimization-ml](repos/portfolio-optimization-ml.md) | 2025-11-21 |
 
 
 ---

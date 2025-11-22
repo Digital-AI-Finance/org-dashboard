@@ -22,8 +22,8 @@ Automated dashboard for monitoring all repositories in the Digital-AI-Finance or
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-21 |
-| Last Updated | 2025-11-21 |
-| Last Push | 2025-11-21 |
+| Last Updated | 2025-11-22 |
+| Last Push | 2025-11-22 |
 | Contributors | 2 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,7 +35,7 @@ Automated dashboard for monitoring all repositories in the Digital-AI-Finance or
 
 ## Datasets
 
-This repository includes 11 dataset(s):
+This repository includes 12 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -44,21 +44,23 @@ This repository includes 11 dataset(s):
 
 | [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 2.02 KB |
 
-| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 0.18 KB |
+| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 1.68 KB |
 
-| [citation_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_report.json) | .json | 0.26 KB |
+| [citation_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_report.json) | .json | 2.0 KB |
 
-| [repos.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repos.json) | .json | 7.06 KB |
+| [repos.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repos.json) | .json | 28.06 KB |
 
-| [reproducibility_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/reproducibility_report.json) | .json | 1.64 KB |
+| [reproducibility_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/reproducibility_report.json) | .json | 5.86 KB |
 
-| [research_metadata.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/research_metadata.json) | .json | 1.45 KB |
+| [research_metadata.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/research_metadata.json) | .json | 10.22 KB |
 
-| [search_index.pkl](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/search_index.pkl) | .pkl | 11.69 KB |
+| [search_index.pkl](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/search_index.pkl) | .pkl | 27.67 KB |
 
-| [stats.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/stats.json) | .json | 0.53 KB |
+| [stats.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/stats.json) | .json | 1.46 KB |
 
-| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/visualizations/collaboration_network.json) | .json | 0.09 KB |
+| [citation_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/visualizations/citation_network.json) | .json | 0.33 KB |
+
+| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/visualizations/collaboration_network.json) | .json | 0.3 KB |
 
 | [research_metadata_schema.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/schemas/research_metadata_schema.json) | .json | 5.45 KB |
 
@@ -97,11 +99,13 @@ This repository includes reproducibility tools:
 
 ## README
 
-# GitHub Organization Dashboard
+# GitHub Organization Research Platform
 
-A comprehensive, automated dashboard for monitoring and documenting all repositories in a GitHub organization. Built with Python, MkDocs Material, and GitHub Actions.
+A comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.
 
-## Features
+Live Demo: https://digital-ai-finance.github.io/org-dashboard/
+
+## Core Features
 
 - Automatic daily updates via GitHub Actions
 - Beautiful, searchable documentation site
@@ -111,13 +115,73 @@ A comprehensive, automated dashboard for monitoring and documenting all reposito
 - Mobile-responsive design
 - Zero server costs (runs entirely on GitHub)
 
+## Research Platform Features
+
+### Publication Tracking
+- Automatic extraction of DOIs, arXiv IDs, SSRN papers from READMEs
+- Academic database integration (CrossRef, arXiv)
+- Publication metadata enrichment
+- Citation count tracking
+
+### Code & Data
+- Jupyter notebook rendering
+- Dataset detection and cataloging
+- Dependency analysis
+- Code language statistics
+
+### Reproducibility
+- Automated reproducibility scoring (100-point scale)
+- Badge system (Gold/Silver/Bronze)
+- Environment configuration detection
+- Docker support tracking
+
+### Community Features
+- Replication attempt tracking
+- Community verification system
+- Peer review ratings
+- Success rate metrics
+
+### Advanced Search
+- Full-text search across all repositories
+- Faceted navigation
+- TF-IDF relevance scoring
+- Autocomplete suggestions
+
+### Visualizations
+- Interactive Plotly charts
+- Citation network graphs
+- Publication timelines
+- Language distribution
+- Collaboration networks
+
 ## Architecture
 
-- **Data Fetching**: Python script using PyGithub to fetch org data
+- **Data Fetching**: Python script using PyGithub to fetch org data + research metadata extraction
+- **Academic APIs**: CrossRef, arXiv integration for publication enrichment
+- **Analysis**: Citation tracking, reproducibility scoring, search indexing
 - **Markdown Generation**: Jinja2 templates for dynamic content
+- **Visualizations**: Interactive Plotly charts, network graphs
 - **Static Site**: MkDocs Material theme
 - **Automation**: GitHub Actions for scheduled updates
 - **Hosting**: GitHub Pages (free)
+
+## Live Demo
+
+Visit our live demo at: https://digital-ai-finance.github.io/org-dashboard/
+
+The demo includes 4 example repositories showcasing different research features:
+
+1. **org-dashboard** - This repository (meta!)
+2. **portfolio-optimization-ml** - ML research with arXiv papers and DOIs
+3. **credit-risk-prediction** - Neural networks with SSRN publications and notebooks
+4. **market-microstructure** - HFT research with Zenodo datasets and Docker
+
+Features demonstrated:
+- Publications with DOI/arXiv links and citation counts
+- Reproducibility scores and badges
+- Community replication attempts and reviews
+- Dataset cataloging
+- Interactive visualizations
 
 ## Setup Instructions
 

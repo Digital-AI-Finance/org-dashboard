@@ -6,4 +6,4 @@ Total: **1** repositories
 
 | Repository | Description | Stars | Forks | Updated |
 |------------|-------------|-------|-------|---------|
-| [quantitative-research](../repos/quantitative-research.md) | Research notebooks and papers on quantitative finance topics and AI applications | 234 | 56 | 2025-01-16 |
+| [Natural-Language-Processing](../repos/Natural-Language-Processing.md) | NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with... | 0 | 0 | 2025-11-22 |

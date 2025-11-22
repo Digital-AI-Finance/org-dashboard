@@ -1,23 +1,66 @@
 {
-  "generated_at": "2025-11-21T22:45:12.829989",
+  "generated_at": "2025-11-22T08:14:47.177061",
   "citation_graph": {
-    "nodes": 0,
+    "nodes": 3,
     "edges": 0,
     "citation_counts": {},
     "network": {
-      "nodes": [],
+      "nodes": [
+        {
+          "id": "portfolio-optimization-ml",
+          "type": "repository",
+          "citations": 0
+        },
+        {
+          "id": "credit-risk-prediction",
+          "type": "repository",
+          "citations": 0
+        },
+        {
+          "id": "market-microstructure",
+          "type": "repository",
+          "citations": 0
+        }
+      ],
       "edges": []
     }
   },
-  "impact_metrics": {},
-  "network_statistics": {},
+  "impact_metrics": {
+    "portfolio-optimization-ml": {
+      "internal_citations": 0,
+      "external_citations": 16,
+      "total_publications": 2,
+      "h_index": 1,
+      "citations_per_paper": 8.0
+    },
+    "credit-risk-prediction": {
+      "internal_citations": 0,
+      "external_citations": 0,
+      "total_publications": 2,
+      "h_index": 0,
+      "citations_per_paper": 0.0
+    },
+    "market-microstructure": {
+      "internal_citations": 0,
+      "external_citations": 0,
+      "total_publications": 3,
+      "h_index": 0,
+      "citations_per_paper": 0.0
+    }
+  },
+  "network_statistics": {
+    "most_cited_repos": [],
+    "most_citing_repos": [],
+    "average_citations_per_repo": 0.0,
+    "total_citations": 0
+  },
   "growth_trends": {
     "org-dashboard": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 2
+      "snapshots": 3
     }
   }
 }
