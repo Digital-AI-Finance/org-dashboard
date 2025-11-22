@@ -35,14 +35,14 @@ Academic course generation system for Green Finance Professional Certificate - 8
 
 ## Datasets
 
-This repository includes 7 dataset(s):
+This repository includes 8 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
 
 | [settings.local.json](https://github.com/Digital-AI-Finance/Green-Finance/blob/main/.claude/settings.local.json) | .json | 0.16 KB |
 
-| [package-lock.json](https://github.com/Digital-AI-Finance/Green-Finance/blob/main/react-app/package-lock.json) | .json | 688.3 KB |
+| [package-lock.json](https://github.com/Digital-AI-Finance/Green-Finance/blob/main/react-app/package-lock.json) | .json | 692.86 KB |
 
 | [package.json](https://github.com/Digital-AI-Finance/Green-Finance/blob/main/react-app/package.json) | .json | 1.4 KB |
 
@@ -53,6 +53,8 @@ This repository includes 7 dataset(s):
 | [week1Slides_backup.js](https://github.com/Digital-AI-Finance/Green-Finance/blob/main/react-app/src/data/week1Slides_backup.js) | .js | 26.45 KB |
 
 | [week1Slides_updated.js](https://github.com/Digital-AI-Finance/Green-Finance/blob/main/react-app/src/data/week1Slides_updated.js) | .js | 28.56 KB |
+
+| [week1Slides_v3.js](https://github.com/Digital-AI-Finance/Green-Finance/blob/main/react-app/src/data/week1Slides_v3.js) | .js | 30.93 KB |
 
 
 

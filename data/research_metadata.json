@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T08:13:23.506999",
+      "extracted_at": "2025-11-22T09:51:23.166461",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -47,61 +47,85 @@
         "name": "build_log.json",
         "path": "data/build_log.json",
         "format": ".json",
-        "size_bytes": 2066
+        "size_bytes": 3258
       },
       {
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 1723
+        "size_bytes": 4333
       },
       {
         "name": "citation_report.json",
         "path": "data/citation_report.json",
         "format": ".json",
-        "size_bytes": 2051
+        "size_bytes": 2413
+      },
+      {
+        "name": "code_quality_report.json",
+        "path": "data/code_quality_report.json",
+        "format": ".json",
+        "size_bytes": 3089
+      },
+      {
+        "name": "collaboration_network.json",
+        "path": "data/collaboration_network.json",
+        "format": ".json",
+        "size_bytes": 1976
+      },
+      {
+        "name": "ml_topic_analysis.json",
+        "path": "data/ml_topic_analysis.json",
+        "format": ".json",
+        "size_bytes": 12586
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 28735
+        "size_bytes": 59399
+      },
+      {
+        "name": "repository_health_report.json",
+        "path": "data/repository_health_report.json",
+        "format": ".json",
+        "size_bytes": 9286
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 5996
+        "size_bytes": 8888
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 10470
+        "size_bytes": 22280
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 28339
+        "size_bytes": 54254
       },
       {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 1498
+        "size_bytes": 1872
       },
       {
         "name": "citation_network.json",
         "path": "docs/visualizations/citation_network.json",
         "format": ".json",
-        "size_bytes": 336
+        "size_bytes": 32
       },
       {
         "name": "collaboration_network.json",
         "path": "docs/visualizations/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 307
+        "size_bytes": 382
       },
       {
         "name": "research_metadata_schema.json",
@@ -206,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T08:13:26.109554",
+      "extracted_at": "2025-11-22T09:51:24.992971",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -264,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T08:13:28.704494",
+      "extracted_at": "2025-11-22T09:51:26.882300",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -326,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T08:13:31.527047",
+      "extracted_at": "2025-11-22T09:51:28.775094",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -361,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T08:13:43.300098",
+      "extracted_at": "2025-11-22T09:51:37.233432",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -376,7 +400,7 @@
         "name": "package-lock.json",
         "path": "react-app/package-lock.json",
         "format": ".json",
-        "size_bytes": 704815
+        "size_bytes": 709487
       },
       {
         "name": "package.json",
@@ -407,6 +431,12 @@
         "path": "react-app/src/data/week1Slides_updated.js",
         "format": ".js",
         "size_bytes": 29245
+      },
+      {
+        "name": "week1Slides_v3.js",
+        "path": "react-app/src/data/week1Slides_v3.js",
+        "format": ".js",
+        "size_bytes": 31673
       }
     ]
   },
@@ -650,7 +680,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T08:14:42.647694",
+      "extracted_at": "2025-11-22T09:52:19.347502",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },

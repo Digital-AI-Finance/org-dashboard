@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-22T08:48:57.014047",
+  "generated_at": "2025-11-22T09:52:23.633519",
   "citation_graph": {
     "nodes": 3,
     "edges": 0,
@@ -60,42 +60,42 @@
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 6
+      "snapshots": 7
     },
     "portfolio-optimization-ml": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 16,
-      "snapshots": 4
+      "snapshots": 5
     },
     "credit-risk-prediction": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 4
+      "snapshots": 5
     },
     "market-microstructure": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 4
+      "snapshots": 5
     },
     "Green-Finance": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 4
+      "snapshots": 5
     },
     "Natural-Language-Processing": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 4
+      "snapshots": 5
     }
   }
 }

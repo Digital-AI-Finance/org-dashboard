@@ -82,9 +82,9 @@ Explore the research landscape of our organization through machine learning-disc
 
 | Repository | Last Push |
 |------------|-----------|
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-22 |
-| [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
 | [org-dashboard](repos/org-dashboard.md) | 2025-11-22 |
+| [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-22 |
 | [market-microstructure](repos/market-microstructure.md) | 2025-11-21 |
 | [credit-risk-prediction](repos/credit-risk-prediction.md) | 2025-11-21 |
 
