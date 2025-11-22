@@ -20,6 +20,7 @@ from code_quality_analyzer import analyze_all_repositories
 from repository_health_scorer import generate_health_report
 from ml_topic_modeling import analyze_repository_topics
 from collaboration_network_analyzer import analyze_collaboration_network
+from create_landing_page_viz import generate_landing_visualizations
 
 
 class ResearchPlatformBuilder:
@@ -219,6 +220,15 @@ class ResearchPlatformBuilder:
                 errors['ml_topics'] = error
             else:
                 results['ml_topics'] = result
+
+                # Generate landing page visualizations from topic analysis
+                self.log("Generating landing page topic visualizations...")
+                try:
+                    landing_viz = generate_landing_visualizations()
+                    results['landing_viz'] = landing_viz
+                    self.log(f"Generated {len(landing_viz)} landing page visualizations")
+                except Exception as e:
+                    self.log(f"Warning: Could not generate landing visualizations: {e}")
 
         # Phase 10: Collaboration Network Analysis
         if 'collab_network' not in skip_phases:
