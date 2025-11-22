@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T21:06:32.569484",
+      "extracted_at": "2025-11-22T20:14:23.846163",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -47,7 +47,7 @@
         "name": "build_log.json",
         "path": "data/build_log.json",
         "format": ".json",
-        "size_bytes": 3813
+        "size_bytes": 3782
       },
       {
         "name": "citation_history.json",
@@ -71,7 +71,7 @@
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 1817
+        "size_bytes": 1976
       },
       {
         "name": "ml_topic_analysis.json",
@@ -230,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T21:06:35.145276",
+      "extracted_at": "2025-11-22T20:14:26.208570",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T21:06:37.920659",
+      "extracted_at": "2025-11-22T20:14:28.503674",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -314,13 +314,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "preprint",
@@ -350,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T21:06:40.487140",
+      "extracted_at": "2025-11-22T20:14:30.972893",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T21:06:53.341485",
+      "extracted_at": "2025-11-22T20:14:41.503697",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -692,7 +692,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T21:07:54.053359",
+      "extracted_at": "2025-11-22T20:15:34.282694",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
