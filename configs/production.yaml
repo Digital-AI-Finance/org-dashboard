@@ -1,0 +1,159 @@
+# Production configuration for GitHub Research Platform
+
+app_name: GitHub Research Platform
+version: 2.0.0
+environment: production
+debug: false
+
+# Directory paths
+output_directory: docs
+data_directory: data
+template_directory: templates
+
+# GitHub API configuration
+github:
+  token: ${GITHUB_TOKEN}  # Will be replaced by environment variable
+  organization: ${GITHUB_ORG}
+  rate_limit_pause: 60
+  max_retries: 3
+  per_page: 100
+  timeout: 30
+
+# Caching configuration
+cache:
+  enabled: true
+  ttl: 3600  # 1 hour
+  directory: cache
+  max_size_mb: 100
+  redis_url: null  # Optional Redis URL for distributed caching
+
+# Logging configuration
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: logs/platform.log
+  console: true
+  rotation: midnight
+  retention: 7
+
+# Database configuration (optional)
+database:
+  enabled: false
+  host: localhost
+  port: 5432
+  name: research_platform
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+  pool_size: 10
+
+# Pipeline phases configuration
+phases:
+  fetch_data:
+    enabled: true
+    timeout: 300
+    retry_count: 3
+    dependencies: []
+
+  parse_metadata:
+    enabled: true
+    timeout: 120
+    retry_count: 2
+    dependencies: ["repositories"]
+
+  citations:
+    enabled: true
+    timeout: 180
+    retry_count: 2
+    dependencies: ["repositories"]
+
+  search:
+    enabled: true
+    timeout: 120
+    retry_count: 2
+    dependencies: ["repositories"]
+
+  visualizations:
+    enabled: true
+    timeout: 300
+    retry_count: 2
+    dependencies: ["repositories", "stats"]
+
+  community:
+    enabled: true
+    timeout: 240
+    retry_count: 2
+    dependencies: ["repositories"]
+
+  code_quality:
+    enabled: true
+    timeout: 600
+    retry_count: 2
+    dependencies: ["repositories"]
+
+  health:
+    enabled: true
+    timeout: 120
+    retry_count: 2
+    dependencies: ["repositories", "code_quality_report"]
+
+  advanced_viz:
+    enabled: true
+    timeout: 360
+    retry_count: 2
+    dependencies: ["repositories", "citation_report", "reproducibility_report"]
+
+  ml_topics:
+    enabled: true
+    timeout: 480
+    retry_count: 2
+    dependencies: ["repositories"]
+
+  collab_network:
+    enabled: true
+    timeout: 360
+    retry_count: 2
+    dependencies: ["repositories"]
+
+  markdown_generation:
+    enabled: true
+    timeout: 180
+    retry_count: 2
+    dependencies: ["repositories", "stats", "visualizations"]
+
+# Critical phases that stop pipeline on failure
+critical_phases:
+  - fetch_data
+
+# Feature flags
+features:
+  academic_data: true
+  ml_topics: true
+  collaboration_network: true
+  advanced_visualizations: true
+  search_indexing: true
+  notebook_rendering: true
+  link_checking: true
+  repository_health: true
+
+# Performance settings
+performance:
+  max_concurrent_requests: 5
+  async_batch_size: 10
+  cache_warming: true
+  parallel_analysis: true
+
+# Output settings
+output:
+  generate_markdown: true
+  generate_visualizations: true
+  generate_search_index: true
+  compress_output: false
+  minify_html: true
+
+# Notification settings (optional)
+notifications:
+  enabled: false
+  slack_webhook: ${SLACK_WEBHOOK}
+  email_recipients: []
+  on_success: false
+  on_failure: true
