@@ -18,6 +18,8 @@ from community_features import generate_reproducibility_report
 from advanced_visualizations import generate_advanced_visualizations
 from code_quality_analyzer import analyze_all_repositories
 from repository_health_scorer import generate_health_report
+from ml_topic_modeling import analyze_repository_topics
+from collaboration_network_analyzer import analyze_collaboration_network
 
 
 class ResearchPlatformBuilder:
@@ -205,6 +207,33 @@ class ResearchPlatformBuilder:
             else:
                 results['advanced_visualizations'] = result
 
+        # Phase 9: ML Topic Modeling
+        if 'ml_topics' not in skip_phases:
+            result, error = self.run_phase(
+                "Phase 9: ML Topic Modeling",
+                analyze_repository_topics,
+                repos_data,
+                'both'  # Use both NMF and LDA
+            )
+            if error:
+                errors['ml_topics'] = error
+            else:
+                results['ml_topics'] = result
+
+        # Phase 10: Collaboration Network Analysis
+        if 'collab_network' not in skip_phases:
+            result, error = self.run_phase(
+                "Phase 10: Collaboration Network Analysis",
+                analyze_collaboration_network,
+                repos_data,
+                self.org_name,
+                self.github_token
+            )
+            if error:
+                errors['collab_network'] = error
+            else:
+                results['collaboration_network'] = result
+
         # Save build log
         self.log("=" * 60)
         self.log("BUILD COMPLETED")
@@ -242,7 +271,7 @@ def main():
         '--skip',
         nargs='+',
         choices=['fetch_data', 'citations', 'search', 'visualizations', 'community',
-                'code_quality', 'health', 'advanced_viz'],
+                'code_quality', 'health', 'advanced_viz', 'ml_topics', 'collab_network'],
         help='Phases to skip'
     )
     parser.add_argument(
