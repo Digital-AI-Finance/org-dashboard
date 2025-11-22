@@ -42,7 +42,7 @@ This repository includes 16 dataset(s):
 
 | [data](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data) |  | 0.0 KB |
 
-| [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 3.72 KB |
+| [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 3.69 KB |
 
 | [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 8.89 KB |
 
@@ -50,7 +50,7 @@ This repository includes 16 dataset(s):
 
 | [code_quality_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/code_quality_report.json) | .json | 3.02 KB |
 
-| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/collaboration_network.json) | .json | 1.77 KB |
+| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/collaboration_network.json) | .json | 1.93 KB |
 
 | [ml_topic_analysis.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/ml_topic_analysis.json) | .json | 12.29 KB |
 
