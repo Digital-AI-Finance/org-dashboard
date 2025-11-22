@@ -21,6 +21,7 @@ from repository_health_scorer import generate_health_report
 from ml_topic_modeling import analyze_repository_topics
 from collaboration_network_analyzer import analyze_collaboration_network
 from create_landing_page_viz import generate_landing_visualizations
+from create_repo_overview import main as generate_repo_overview
 
 
 class ResearchPlatformBuilder:
@@ -229,6 +230,15 @@ class ResearchPlatformBuilder:
                     self.log(f"Generated {len(landing_viz)} landing page visualizations")
                 except Exception as e:
                     self.log(f"Warning: Could not generate landing visualizations: {e}")
+
+                # Generate repository overview
+                self.log("Generating interactive repository overview...")
+                try:
+                    repo_overview = generate_repo_overview()
+                    results['repo_overview'] = repo_overview
+                    self.log(f"Generated repository overview visualizations")
+                except Exception as e:
+                    self.log(f"Warning: Could not generate repository overview: {e}")
 
         # Phase 10: Collaboration Network Analysis
         if 'collab_network' not in skip_phases:

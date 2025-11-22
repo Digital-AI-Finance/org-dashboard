@@ -22,6 +22,21 @@ Explore the research landscape of our organization through machine learning-disc
 
 ---
 
+## Explore All Repositories
+
+Browse our research repositories in an interactive, visual format.
+
+<div style="text-align: center; margin: 30px 0;">
+    <a href="visualizations/repository_overview.html" style="display: inline-block; padding: 15px 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 30px; font-weight: 600; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3); transition: all 0.3s ease;">
+        🚀 Interactive Repository Gallery
+    </a>
+    <a href="visualizations/repository_network.html" style="display: inline-block; padding: 15px 40px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; text-decoration: none; border-radius: 30px; font-weight: 600; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(245, 87, 108, 0.3); transition: all 0.3s ease; margin-left: 15px;">
+        🔗 Repository Network
+    </a>
+</div>
+
+---
+
 ## Quick Stats
 
 | Metric | Value |
