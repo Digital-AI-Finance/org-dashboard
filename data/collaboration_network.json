@@ -1,25 +1,25 @@
 {
-  "generated_at": "2025-11-22T15:16:39.965747",
+  "generated_at": "2025-11-22T15:41:55.748720",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
       {
         "id": "josterri",
         "repos": [
-          "credit-risk-prediction",
-          "org-dashboard",
-          "Natural-Language-Processing",
           "Green-Finance",
-          "market-microstructure",
-          "portfolio-optimization-ml"
+          "credit-risk-prediction",
+          "Natural-Language-Processing",
+          "org-dashboard",
+          "portfolio-optimization-ml",
+          "market-microstructure"
         ],
         "repo_count": 6,
-        "commit_count": 44,
+        "commit_count": 45,
         "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-22T15:14:30+00:00",
+        "last_commit": "2025-11-22T15:39:47+00:00",
         "emails": [
-          "josterri@users.noreply.github.com",
-          "josterri@googlemail.com"
+          "josterri@googlemail.com",
+          "josterri@users.noreply.github.com"
         ]
       },
       {
@@ -28,9 +28,9 @@
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 3,
+        "commit_count": 4,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-22T09:52:29+00:00",
+        "last_commit": "2025-11-22T15:16:40+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
         ]
@@ -73,7 +73,7 @@
   "summary": {
     "total_authors": 2,
     "total_collaborations": 1,
-    "total_commits": 47,
+    "total_commits": 49,
     "repositories_analyzed": 6
   }
 }
