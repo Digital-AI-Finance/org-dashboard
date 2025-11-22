@@ -27,7 +27,7 @@ Comprehensive toolkit for financial risk assessment using AI and statistical met
 
 ## Topics
 
-`risk-management` `finance` `statistics` `quantitative-finance` 
+`risk-management` `finance` `statistics` `quantitative-finance`
 
 
 

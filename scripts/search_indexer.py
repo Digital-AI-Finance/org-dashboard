@@ -6,11 +6,11 @@ Indexes READMEs, notebooks, papers for searchability.
 
 import json
 import os
+import pickle
 import re
-from typing import Dict, List, Any, Set
 from collections import defaultdict
 from datetime import datetime
-import pickle
+from typing import Any
 
 
 class SearchIndex:
@@ -22,16 +22,16 @@ class SearchIndex:
         self.facets = defaultdict(lambda: defaultdict(set))  # facet_name -> value -> doc_ids
         self.doc_counter = 0
 
-    def add_document(self, content: str, metadata: Dict[str, Any]) -> str:
+    def add_document(self, content: str, metadata: dict[str, Any]) -> str:
         """Add a document to the search index."""
         doc_id = f"doc_{self.doc_counter}"
         self.doc_counter += 1
 
         # Store document
         self.documents[doc_id] = {
-            'content': content,
-            'metadata': metadata,
-            'added_at': datetime.now().isoformat()
+            "content": content,
+            "metadata": metadata,
+            "added_at": datetime.now().isoformat(),
         }
 
         # Tokenize and index
@@ -49,7 +49,7 @@ class SearchIndex:
 
         return doc_id
 
-    def search(self, query: str, filters: Dict[str, Any] = None, limit: int = 100) -> List[Dict]:
+    def search(self, query: str, filters: dict[str, Any] = None, limit: int = 100) -> list[dict]:
         """
         Search the index with optional facet filters.
 
@@ -97,19 +97,21 @@ class SearchIndex:
             score = self._score_document(doc_id, query_tokens)
             doc = self.documents[doc_id]
 
-            scored_docs.append({
-                'doc_id': doc_id,
-                'score': score,
-                'content': doc['content'][:300],  # Preview
-                'metadata': doc['metadata']
-            })
+            scored_docs.append(
+                {
+                    "doc_id": doc_id,
+                    "score": score,
+                    "content": doc["content"][:300],  # Preview
+                    "metadata": doc["metadata"],
+                }
+            )
 
         # Sort by score
-        scored_docs.sort(key=lambda x: x['score'], reverse=True)
+        scored_docs.sort(key=lambda x: x["score"], reverse=True)
 
         return scored_docs[:limit]
 
-    def get_facets(self, query: str = None) -> Dict[str, Dict[str, int]]:
+    def get_facets(self, query: str = None) -> dict[str, dict[str, int]]:
         """
         Get available facets with counts.
 
@@ -124,7 +126,9 @@ class SearchIndex:
         # If query provided, limit to matching docs
         if query:
             query_tokens = self._tokenize(query)
-            result_sets = [self.inverted_index[token] for token in query_tokens if token in self.inverted_index]
+            result_sets = [
+                self.inverted_index[token] for token in query_tokens if token in self.inverted_index
+            ]
 
             if result_sets:
                 matching_docs = result_sets[0]
@@ -146,45 +150,60 @@ class SearchIndex:
 
         return facet_counts
 
-    def autocomplete(self, prefix: str, limit: int = 10) -> List[str]:
+    def autocomplete(self, prefix: str, limit: int = 10) -> list[str]:
         """Get autocomplete suggestions for a prefix."""
         prefix = prefix.lower()
-        suggestions = [
-            term for term in self.inverted_index.keys()
-            if term.startswith(prefix)
-        ]
+        suggestions = [term for term in self.inverted_index.keys() if term.startswith(prefix)]
         return sorted(suggestions)[:limit]
 
-    def _tokenize(self, text: str) -> Set[str]:
+    def _tokenize(self, text: str) -> set[str]:
         """Tokenize text into searchable terms."""
         # Convert to lowercase
         text = text.lower()
 
         # Remove punctuation except hyphens in words
-        text = re.sub(r'[^\w\s-]', ' ', text)
+        text = re.sub(r"[^\w\s-]", " ", text)
 
         # Split into words
         words = text.split()
 
         # Remove common stop words
         stop_words = {
-            'a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for',
-            'from', 'has', 'he', 'in', 'is', 'it', 'its', 'of', 'on',
-            'that', 'the', 'to', 'was', 'will', 'with'
+            "a",
+            "an",
+            "and",
+            "are",
+            "as",
+            "at",
+            "be",
+            "by",
+            "for",
+            "from",
+            "has",
+            "he",
+            "in",
+            "is",
+            "it",
+            "its",
+            "of",
+            "on",
+            "that",
+            "the",
+            "to",
+            "was",
+            "will",
+            "with",
         }
 
         # Filter and return
-        tokens = {
-            word for word in words
-            if len(word) > 2 and word not in stop_words
-        }
+        tokens = {word for word in words if len(word) > 2 and word not in stop_words}
 
         return tokens
 
-    def _score_document(self, doc_id: str, query_tokens: Set[str]) -> float:
+    def _score_document(self, doc_id: str, query_tokens: set[str]) -> float:
         """Score a document for relevance (simple TF-IDF)."""
         doc = self.documents[doc_id]
-        content = doc['content'].lower()
+        content = doc["content"].lower()
 
         score = 0.0
 
@@ -199,91 +218,94 @@ class SearchIndex:
             score += tf * idf
 
         # Boost if term appears in title/metadata
-        if 'title' in doc['metadata']:
-            title = doc['metadata']['title'].lower()
+        if "title" in doc["metadata"]:
+            title = doc["metadata"]["title"].lower()
             for token in query_tokens:
                 if token in title:
                     score *= 2.0
 
         return score
 
-    def save_index(self, filename: str = 'data/search_index.pkl') -> None:
+    def save_index(self, filename: str = "data/search_index.pkl") -> None:
         """Save index to disk."""
         os.makedirs(os.path.dirname(filename), exist_ok=True)
-        with open(filename, 'wb') as f:
-            pickle.dump({
-                'documents': self.documents,
-                'inverted_index': dict(self.inverted_index),
-                'facets': dict(self.facets),
-                'doc_counter': self.doc_counter
-            }, f)
+        with open(filename, "wb") as f:
+            pickle.dump(
+                {
+                    "documents": self.documents,
+                    "inverted_index": dict(self.inverted_index),
+                    "facets": dict(self.facets),
+                    "doc_counter": self.doc_counter,
+                },
+                f,
+            )
 
     @classmethod
-    def load_index(cls, filename: str = 'data/search_index.pkl') -> 'SearchIndex':
+    def load_index(cls, filename: str = "data/search_index.pkl") -> "SearchIndex":
         """Load index from disk."""
         index = cls()
 
         if os.path.exists(filename):
-            with open(filename, 'rb') as f:
+            with open(filename, "rb") as f:
                 data = pickle.load(f)
-                index.documents = data['documents']
-                index.inverted_index = defaultdict(set, data['inverted_index'])
-                index.facets = defaultdict(lambda: defaultdict(set), data['facets'])
-                index.doc_counter = data['doc_counter']
+                index.documents = data["documents"]
+                index.inverted_index = defaultdict(set, data["inverted_index"])
+                index.facets = defaultdict(lambda: defaultdict(set), data["facets"])
+                index.doc_counter = data["doc_counter"]
 
         return index
 
 
-def build_search_index(repos_data: List[Dict]) -> SearchIndex:
+def build_search_index(repos_data: list[dict]) -> SearchIndex:
     """Build search index from repository data."""
     print("Building search index...")
     index = SearchIndex()
 
     for repo in repos_data:
-        repo_name = repo['name']
-        research_meta = repo.get('research_metadata', {})
+        repo_name = repo["name"]
+        research_meta = repo.get("research_metadata", {})
 
         # Index README
-        if repo.get('readme') and repo['readme'] != "No README available":
+        if repo.get("readme") and repo["readme"] != "No README available":
             index.add_document(
-                content=repo['readme'],
+                content=repo["readme"],
                 metadata={
-                    'type': 'readme',
-                    'repo': repo_name,
-                    'title': repo['description'],
-                    'language': repo['language'],
-                    'topics': repo.get('topics', [])
-                }
+                    "type": "readme",
+                    "repo": repo_name,
+                    "title": repo["description"],
+                    "language": repo["language"],
+                    "topics": repo.get("topics", []),
+                },
             )
 
         # Index publications
-        for pub in research_meta.get('publications', []):
-            if pub.get('title') or pub.get('abstract'):
+        for pub in research_meta.get("publications", []):
+            if pub.get("title") or pub.get("abstract"):
                 content = f"{pub.get('title', '')} {pub.get('abstract', '')}"
                 index.add_document(
                     content=content,
                     metadata={
-                        'type': 'publication',
-                        'repo': repo_name,
-                        'title': pub.get('title', 'Untitled'),
-                        'year': pub.get('year'),
-                        'doi': pub.get('doi'),
-                        'arxiv_id': pub.get('arxiv_id')
-                    }
+                        "type": "publication",
+                        "repo": repo_name,
+                        "title": pub.get("title", "Untitled"),
+                        "year": pub.get("year"),
+                        "doi": pub.get("doi"),
+                        "arxiv_id": pub.get("arxiv_id"),
+                    },
                 )
 
         # Index research metadata
-        if research_meta.get('research'):
-            research = research_meta['research']
-            if research.get('abstract'):
+        if research_meta.get("research"):
+            research = research_meta["research"]
+            if research.get("abstract"):
                 index.add_document(
-                    content=research['abstract'],
+                    content=research["abstract"],
                     metadata={
-                        'type': 'research',
-                        'repo': repo_name,
-                        'title': research.get('title', repo_name),
-                        'keywords': research.get('keywords', [])
-                    }
+                        "type": "research",
+                        "repo": repo_name,
+                        "title": research.get("title", repo_name),
+                        "keywords": research.get("keywords", []),
+                    },
                 )
 
     # Save index
@@ -293,13 +315,13 @@ def build_search_index(repos_data: List[Dict]) -> SearchIndex:
     return index
 
 
-def generate_search_interface_data() -> Dict[str, Any]:
+def generate_search_interface_data() -> dict[str, Any]:
     """Generate data for search interface."""
     # Load index
     index = SearchIndex.load_index()
 
     if not index.documents:
-        return {'error': 'No search index found'}
+        return {"error": "No search index found"}
 
     # Get all available facets
     all_facets = index.get_facets()
@@ -307,14 +329,14 @@ def generate_search_interface_data() -> Dict[str, Any]:
     # Get document type distribution
     type_dist = {}
     for doc in index.documents.values():
-        doc_type = doc['metadata'].get('type', 'unknown')
+        doc_type = doc["metadata"].get("type", "unknown")
         type_dist[doc_type] = type_dist.get(doc_type, 0) + 1
 
     return {
-        'total_documents': len(index.documents),
-        'document_types': type_dist,
-        'available_facets': all_facets,
-        'index_size': f"{len(index.inverted_index)} terms"
+        "total_documents": len(index.documents),
+        "document_types": type_dist,
+        "available_facets": all_facets,
+        "index_size": f"{len(index.inverted_index)} terms",
     }
 
 
@@ -324,8 +346,8 @@ def main():
     print("=" * 60)
 
     # Load repos data
-    if os.path.exists('data/repos.json'):
-        with open('data/repos.json', 'r') as f:
+    if os.path.exists("data/repos.json"):
+        with open("data/repos.json") as f:
             repos_data = json.load(f)
 
         # Build index
@@ -333,7 +355,7 @@ def main():
 
         # Test search
         print("\nTest search for 'machine learning':")
-        results = index.search('machine learning', limit=5)
+        results = index.search("machine learning", limit=5)
 
         for i, result in enumerate(results, 1):
             print(f"\n{i}. {result['metadata'].get('title', 'Untitled')}")
@@ -354,5 +376,5 @@ def main():
         print("No repos data found. Run fetch_org_data_research.py first.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -1,21 +1,22 @@
 """Abstract base class for pipeline phases."""
 
-from abc import ABC, abstractmethod
-from typing import Dict, Any, Optional
-from dataclasses import dataclass
-import logging
 import asyncio
+import logging
+from abc import ABC, abstractmethod
+from dataclasses import dataclass
 from datetime import datetime
+from typing import Any
 
 
 @dataclass
 class PhaseConfig:
     """Configuration for a pipeline phase."""
+
     name: str
     enabled: bool = True
     timeout: int = 300
     retry_count: int = 3
-    cache_ttl: Optional[int] = None
+    cache_ttl: int | None = None
     dependencies: list = None
 
     def __post_init__(self):
@@ -35,7 +36,7 @@ class PhaseResult:
         self.errors = []
         self.warnings = []
 
-    def complete(self, success: bool, data: Dict[str, Any] = None):
+    def complete(self, success: bool, data: dict[str, Any] = None):
         """Mark phase as complete."""
         self.end_time = datetime.now()
         self.success = success
@@ -49,7 +50,7 @@ class PhaseResult:
             return (self.end_time - self.start_time).total_seconds()
         return (datetime.now() - self.start_time).total_seconds()
 
-    def to_dict(self) -> Dict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         """Convert to dictionary representation."""
         return {
             "phase_name": self.phase_name,
@@ -57,7 +58,7 @@ class PhaseResult:
             "duration": self.duration,
             "errors": self.errors,
             "warnings": self.warnings,
-            "data_keys": list(self.data.keys()) if self.data else []
+            "data_keys": list(self.data.keys()) if self.data else [],
         }
 
 
@@ -82,7 +83,7 @@ class Phase(ABC):
         return self._dependencies[name]
 
     @abstractmethod
-    async def execute(self, context: Dict[str, Any]) -> Dict[str, Any]:
+    async def execute(self, context: dict[str, Any]) -> dict[str, Any]:
         """
         Execute the phase logic.
 
@@ -95,7 +96,7 @@ class Phase(ABC):
         pass
 
     @abstractmethod
-    def validate_input(self, context: Dict[str, Any]) -> bool:
+    def validate_input(self, context: dict[str, Any]) -> bool:
         """
         Validate phase input data.
 
@@ -107,7 +108,7 @@ class Phase(ABC):
         """
         pass
 
-    def validate_dependencies(self, context: Dict[str, Any]) -> bool:
+    def validate_dependencies(self, context: dict[str, Any]) -> bool:
         """Check if required dependencies are in context."""
         for dep in self.config.dependencies:
             if dep not in context:
@@ -115,7 +116,7 @@ class Phase(ABC):
                 return False
         return True
 
-    async def run(self, context: Dict[str, Any]) -> PhaseResult:
+    async def run(self, context: dict[str, Any]) -> PhaseResult:
         """Run the phase with error handling and timing."""
         result = PhaseResult(self.config.name)
 
@@ -135,13 +136,12 @@ class Phase(ABC):
             # Execute phase with timeout
             self.logger.info(f"Starting phase: {self.config.name}")
 
-            phase_data = await asyncio.wait_for(
-                self.execute(context),
-                timeout=self.config.timeout
-            )
+            phase_data = await asyncio.wait_for(self.execute(context), timeout=self.config.timeout)
 
             result.complete(True, phase_data)
-            self.logger.info(f"Phase {self.config.name} completed successfully in {result.duration:.2f}s")
+            self.logger.info(
+                f"Phase {self.config.name} completed successfully in {result.duration:.2f}s"
+            )
 
         except asyncio.TimeoutError:
             error_msg = f"Phase {self.config.name} timed out after {self.config.timeout}s"
@@ -158,15 +158,11 @@ class Phase(ABC):
         self._result = result
         return result
 
-    def handle_error(self, error: Exception) -> Dict[str, Any]:
+    def handle_error(self, error: Exception) -> dict[str, Any]:
         """Handle phase execution errors."""
         self.logger.error(f"Phase {self.config.name} error: {error}")
-        return {
-            "status": "failed",
-            "phase": self.config.name,
-            "error": str(error)
-        }
+        return {"status": "failed", "phase": self.config.name, "error": str(error)}
 
-    def get_result(self) -> Optional[PhaseResult]:
+    def get_result(self) -> PhaseResult | None:
         """Get the last execution result."""
         return self._result

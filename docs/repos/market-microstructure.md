@@ -86,7 +86,7 @@ High-frequency trading analysis and market microstructure research
 
 ## Topics
 
-`finance` `high-frequency-trading` `market-microstructure` `time-series` 
+`finance` `high-frequency-trading` `market-microstructure` `time-series`
 
 
 

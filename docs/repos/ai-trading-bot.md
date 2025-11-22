@@ -27,7 +27,7 @@ Machine learning-powered algorithmic trading system with real-time market analys
 
 ## Topics
 
-`machine-learning` `trading` `finance` `algorithmic-trading` `deep-learning` 
+`machine-learning` `trading` `finance` `algorithmic-trading` `deep-learning`
 
 
 

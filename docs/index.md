@@ -112,4 +112,3 @@ Browse our research repositories in an interactive, visual format.
 - [By Language](by-language/index.md) - Filter by programming language
 - [By Topic](by-topic/index.md) - Filter by topic tags
 - [Statistics](stats.md) - Detailed organization statistics
-

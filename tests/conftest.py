@@ -1,19 +1,21 @@
 """Pytest configuration and fixtures for the research platform tests."""
 
-import pytest
 import asyncio
-from pathlib import Path
-from typing import Dict, Any
-from unittest.mock import Mock, AsyncMock
-import tempfile
 import shutil
-from datetime import datetime
 
 # Add src to path for imports
 import sys
+import tempfile
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+from unittest.mock import Mock
+
+import pytest
+
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from research_platform.config.settings import Settings, GitHubConfig
+from research_platform.config.settings import GitHubConfig, Settings
 from research_platform.models.repository import Repository
 
 
@@ -43,10 +45,7 @@ def test_settings(temp_dir):
         output_directory=temp_dir / "output",
         data_directory=temp_dir / "data",
         template_directory=Path("templates"),  # Assuming templates exist
-        github=GitHubConfig(
-            token="test-token",
-            organization="test-org"
-        )
+        github=GitHubConfig(token="test-token", organization="test-org"),
     )
 
 
@@ -74,7 +73,7 @@ def sample_repository():
         created_at=datetime(2023, 1, 1),
         updated_at=datetime(2024, 1, 1),
         topics=["testing", "python", "research"],
-        contributors_count=5
+        contributors_count=5,
     )
 
 
@@ -97,7 +96,7 @@ def sample_repositories():
             created_at=datetime(2023, 1, 1 + i),
             updated_at=datetime(2024, 1, 1 + i),
             topics=[f"topic-{i}", "research"] if i % 2 == 0 else [],
-            contributors_count=i + 1
+            contributors_count=i + 1,
         )
         repos.append(repo)
 
@@ -147,12 +146,8 @@ def pipeline_context():
     return {
         "organization": "test-org",
         "repositories": [],
-        "stats": {
-            "total_repos": 0,
-            "total_stars": 0,
-            "languages": {}
-        },
-        "timestamp": datetime.now().isoformat()
+        "stats": {"total_repos": 0, "total_stars": 0, "languages": {}},
+        "timestamp": datetime.now().isoformat(),
     }
 
 
@@ -162,17 +157,13 @@ def mock_phase():
     from research_platform.core.phase import Phase, PhaseConfig
 
     class MockPhase(Phase):
-        async def execute(self, context: Dict[str, Any]) -> Dict[str, Any]:
+        async def execute(self, context: dict[str, Any]) -> dict[str, Any]:
             return {"mock_data": "test"}
 
-        def validate_input(self, context: Dict[str, Any]) -> bool:
+        def validate_input(self, context: dict[str, Any]) -> bool:
             return True
 
-    config = PhaseConfig(
-        name="mock_phase",
-        enabled=True,
-        timeout=10
-    )
+    config = PhaseConfig(name="mock_phase", enabled=True, timeout=10)
 
     return MockPhase(config)
 
@@ -180,6 +171,7 @@ def mock_phase():
 @pytest.fixture
 def mock_async_response():
     """Create a mock async response."""
+
     async def async_return(value):
         return value
 
@@ -234,44 +226,22 @@ def mock_api_responses():
     """Mock responses for various API calls."""
     return {
         "repos": [
-            {
-                "id": 1,
-                "name": "repo1",
-                "full_name": "org/repo1",
-                "stargazers_count": 10
-            },
-            {
-                "id": 2,
-                "name": "repo2",
-                "full_name": "org/repo2",
-                "stargazers_count": 20
-            }
+            {"id": 1, "name": "repo1", "full_name": "org/repo1", "stargazers_count": 10},
+            {"id": 2, "name": "repo2", "full_name": "org/repo2", "stargazers_count": 20},
         ],
         "contributors": [
             {"login": "user1", "contributions": 100},
-            {"login": "user2", "contributions": 50}
+            {"login": "user2", "contributions": 50},
         ],
         "topics": ["machine-learning", "data-science", "python"],
-        "languages": {
-            "Python": 50000,
-            "JavaScript": 10000,
-            "HTML": 5000
-        }
+        "languages": {"Python": 50000, "JavaScript": 10000, "HTML": 5000},
     }
 
 
 # Markers for different test categories
 def pytest_configure(config):
     """Configure custom pytest markers."""
-    config.addinivalue_line(
-        "markers", "unit: mark test as a unit test"
-    )
-    config.addinivalue_line(
-        "markers", "integration: mark test as an integration test"
-    )
-    config.addinivalue_line(
-        "markers", "slow: mark test as slow running"
-    )
-    config.addinivalue_line(
-        "markers", "github_api: mark test as requiring GitHub API"
-    )
+    config.addinivalue_line("markers", "unit: mark test as a unit test")
+    config.addinivalue_line("markers", "integration: mark test as an integration test")
+    config.addinivalue_line("markers", "slow: mark test as slow running")
+    config.addinivalue_line("markers", "github_api: mark test as requiring GitHub API")

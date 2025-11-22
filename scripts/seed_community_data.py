@@ -5,12 +5,11 @@ Seed example community verification data for demonstration purposes.
 
 import json
 from datetime import datetime, timedelta
-import random
 
 
 def load_reproducibility_report():
     """Load the existing reproducibility report."""
-    with open('data/reproducibility_report.json', 'r') as f:
+    with open("data/reproducibility_report.json") as f:
         return json.load(f)
 
 
@@ -27,7 +26,7 @@ def seed_replication_attempts(report):
                     "status": "success",
                     "environment": "Python 3.9, Ubuntu 22.04",
                     "duration_hours": 4.5,
-                    "notes": "Successfully replicated all main results. DQN model achieved similar performance to reported metrics."
+                    "notes": "Successfully replicated all main results. DQN model achieved similar performance to reported metrics.",
                 },
                 {
                     "user": "phd_student_ai",
@@ -35,7 +34,7 @@ def seed_replication_attempts(report):
                     "status": "partial",
                     "environment": "Python 3.10, macOS",
                     "duration_hours": 6.0,
-                    "notes": "Replicated training procedure but had issues with GPU acceleration on M1 Mac. Results within 5% of reported."
+                    "notes": "Replicated training procedure but had issues with GPU acceleration on M1 Mac. Results within 5% of reported.",
                 },
                 {
                     "user": "quant_trader",
@@ -43,9 +42,9 @@ def seed_replication_attempts(report):
                     "status": "success",
                     "environment": "Python 3.9, Windows 11",
                     "duration_hours": 5.5,
-                    "notes": "All experiments reproduced successfully. Very well documented code!"
-                }
-            ]
+                    "notes": "All experiments reproduced successfully. Very well documented code!",
+                },
+            ],
         },
         {
             "repo": "credit-risk-prediction",
@@ -56,7 +55,7 @@ def seed_replication_attempts(report):
                     "status": "success",
                     "environment": "Python 3.9, Ubuntu 20.04, CUDA 11.2",
                     "duration_hours": 3.0,
-                    "notes": "Clean code and excellent documentation. SHAP values matched published figures."
+                    "notes": "Clean code and excellent documentation. SHAP values matched published figures.",
                 },
                 {
                     "user": "data_scientist_99",
@@ -64,9 +63,9 @@ def seed_replication_attempts(report):
                     "status": "failed",
                     "environment": "Python 3.11, Ubuntu 22.04",
                     "duration_hours": 2.0,
-                    "notes": "Missing dependency versions caused issues. TensorFlow 2.13+ broke compatibility."
-                }
-            ]
+                    "notes": "Missing dependency versions caused issues. TensorFlow 2.13+ broke compatibility.",
+                },
+            ],
         },
         {
             "repo": "market-microstructure",
@@ -77,10 +76,10 @@ def seed_replication_attempts(report):
                     "status": "partial",
                     "environment": "Python 3.9, Docker container",
                     "duration_hours": 8.0,
-                    "notes": "Docker setup worked perfectly. Data preprocessing successful but full analysis requires proprietary exchange data."
+                    "notes": "Docker setup worked perfectly. Data preprocessing successful but full analysis requires proprietary exchange data.",
                 }
-            ]
-        }
+            ],
+        },
     ]
 
     # Add replication attempts to report
@@ -101,7 +100,7 @@ def seed_replication_attempts(report):
                 "partial_count": partial,
                 "failed_count": failed,
                 "success_rate": (success / total * 100) if total > 0 else 0.0,
-                "attempts": replication["attempts"]
+                "attempts": replication["attempts"],
             }
 
     return report
@@ -121,9 +120,9 @@ def seed_community_reviews(report):
                         "code_quality": 9,
                         "documentation": 10,
                         "reproducibility": 8,
-                        "data_availability": 7
+                        "data_availability": 7,
                     },
-                    "comment": "Excellent research software. Minor issues with data availability but overall outstanding."
+                    "comment": "Excellent research software. Minor issues with data availability but overall outstanding.",
                 },
                 {
                     "reviewer": "quant_researcher",
@@ -133,11 +132,11 @@ def seed_community_reviews(report):
                         "code_quality": 8,
                         "documentation": 9,
                         "reproducibility": 8,
-                        "data_availability": 6
+                        "data_availability": 6,
                     },
-                    "comment": "Well-structured code. Would benefit from more detailed hyperparameter documentation."
-                }
-            ]
+                    "comment": "Well-structured code. Would benefit from more detailed hyperparameter documentation.",
+                },
+            ],
         },
         {
             "repo": "credit-risk-prediction",
@@ -150,11 +149,11 @@ def seed_community_reviews(report):
                         "code_quality": 10,
                         "documentation": 9,
                         "reproducibility": 9,
-                        "data_availability": 8
+                        "data_availability": 8,
                     },
-                    "comment": "Exceptional work on explainability. Notebooks are very well-crafted."
+                    "comment": "Exceptional work on explainability. Notebooks are very well-crafted.",
                 }
-            ]
+            ],
         },
         {
             "repo": "market-microstructure",
@@ -167,12 +166,12 @@ def seed_community_reviews(report):
                         "code_quality": 9,
                         "documentation": 8,
                         "reproducibility": 6,
-                        "data_availability": 5
+                        "data_availability": 5,
                     },
-                    "comment": "Code quality is excellent but reproducibility limited by data availability. Docker setup is great."
+                    "comment": "Code quality is excellent but reproducibility limited by data availability. Docker setup is great.",
                 }
-            ]
-        }
+            ],
+        },
     ]
 
     # Add reviews to report
@@ -187,7 +186,12 @@ def seed_community_reviews(report):
 
             # Calculate category averages
             categories = {}
-            for category in ["code_quality", "documentation", "reproducibility", "data_availability"]:
+            for category in [
+                "code_quality",
+                "documentation",
+                "reproducibility",
+                "data_availability",
+            ]:
                 ratings = [r["category_ratings"][category] for r in review_set["reviews"]]
                 categories[category] = sum(ratings) / len(ratings)
 
@@ -195,7 +199,7 @@ def seed_community_reviews(report):
                 "total_reviews": total_reviews,
                 "average_rating": round(avg_overall, 1),
                 "category_ratings": {k: round(v, 1) for k, v in categories.items()},
-                "reviews": review_set["reviews"]
+                "reviews": review_set["reviews"],
             }
 
     return report
@@ -243,8 +247,7 @@ def main():
     print("\nAdding replication attempts...")
     report = seed_replication_attempts(report)
     total_attempts = sum(
-        r["replication_stats"]["total_attempts"]
-        for r in report["repositories"].values()
+        r["replication_stats"]["total_attempts"] for r in report["repositories"].values()
     )
     print(f"  Added {total_attempts} replication attempts")
 
@@ -261,7 +264,7 @@ def main():
     report = update_reproducibility_scores(report)
 
     print("\nSaving updated report...")
-    with open('data/reproducibility_report.json', 'w') as f:
+    with open("data/reproducibility_report.json", "w") as f:
         json.dump(report, f, indent=2)
 
     print("\n" + "=" * 60)
@@ -280,5 +283,5 @@ def main():
         print(f"    Replications: {attempts} attempts, {success_rate:.0f}% success rate")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

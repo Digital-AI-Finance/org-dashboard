@@ -27,7 +27,7 @@ High-performance backtesting framework for trading strategies with realistic mar
 
 ## Topics
 
-`backtesting` `trading` `simulation` `quantitative-finance` 
+`backtesting` `trading` `simulation` `quantitative-finance`
 
 
 
@@ -79,7 +79,7 @@ from backtesting import Backtest, Strategy
 class MyStrategy(Strategy):
     def init(self):
         pass
-        
+
     def next(self):
         if self.data.Close[-1] > self.data.Close[-2]:
             self.buy()

@@ -5,14 +5,19 @@ Create example research repositories in the Digital-AI-Finance organization.
 
 import os
 import sys
-from github import Github
 
+from github import Github
 
 EXAMPLE_REPOS = [
     {
         "name": "portfolio-optimization-ml",
         "description": "Machine learning approaches to portfolio optimization using deep reinforcement learning",
-        "topics": ["machine-learning", "portfolio-optimization", "reinforcement-learning", "finance"],
+        "topics": [
+            "machine-learning",
+            "portfolio-optimization",
+            "reinforcement-learning",
+            "finance",
+        ],
         "readme": """# Portfolio Optimization with Deep Reinforcement Learning
 
 This repository contains code and data for the paper "Deep Reinforcement Learning for Portfolio Optimization" (arXiv:2103.12345).
@@ -74,7 +79,7 @@ python evaluate.py --model checkpoints/best_model.h5
 This work builds on:
 - Mnih et al. (2015) - Human-level control through deep reinforcement learning
 - Jiang et al. (2017) - A deep reinforcement learning framework for the financial portfolio
-"""
+""",
     },
     {
         "name": "credit-risk-prediction",
@@ -142,7 +147,7 @@ To replicate our results:
 2. Run notebooks in order: `jupyter notebook`
 3. Train model: `python train.py`
 4. Generate predictions: `python predict.py`
-"""
+""",
     },
     {
         "name": "market-microstructure",
@@ -220,8 +225,8 @@ docker run -v $(pwd)/data:/data market-microstructure python src/analysis.py
 This work cites and extends:
 - Hasbrouck (1991) - Measuring the information content of stock trades
 - Biais et al. (1995) - An empirical analysis of the limit order book
-"""
-    }
+""",
+    },
 ]
 
 
@@ -258,7 +263,7 @@ def create_repositories(org_name, token):
                     has_issues=True,
                     has_wiki=False,
                     has_downloads=True,
-                    auto_init=True
+                    auto_init=True,
                 )
                 print(f"  Created: {repo.html_url}")
 
@@ -273,22 +278,20 @@ def create_repositories(org_name, token):
                     path="README.md",
                     message="Add research README",
                     content=repo_config["readme"],
-                    sha=readme.sha
+                    sha=readme.sha,
                 )
-                print(f"  Updated README.md")
+                print("  Updated README.md")
             except:
                 repo.create_file(
-                    path="README.md",
-                    message="Add research README",
-                    content=repo_config["readme"]
+                    path="README.md", message="Add research README", content=repo_config["readme"]
                 )
-                print(f"  Created README.md")
+                print("  Created README.md")
 
             # Create requirements.txt based on README content
             requirements = []
-            for line in repo_config["readme"].split('\n'):
-                if '>=' in line and not line.strip().startswith('#'):
-                    req = line.strip().replace('```', '')
+            for line in repo_config["readme"].split("\n"):
+                if ">=" in line and not line.strip().startswith("#"):
+                    req = line.strip().replace("```", "")
                     if req:
                         requirements.append(req)
 
@@ -296,12 +299,12 @@ def create_repositories(org_name, token):
                 repo.create_file(
                     path="requirements.txt",
                     message="Add requirements",
-                    content='\n'.join(requirements)
+                    content="\n".join(requirements),
                 )
                 print(f"  Added requirements.txt ({len(requirements)} dependencies)")
 
             created.append(repo_name)
-            print(f"  Success!\n")
+            print("  Success!\n")
 
         except Exception as e:
             print(f"  Error: {str(e)}\n")
@@ -321,7 +324,7 @@ def create_repositories(org_name, token):
 def main():
     """Main execution."""
     # Get credentials
-    token = os.environ.get('GITHUB_TOKEN')
+    token = os.environ.get("GITHUB_TOKEN")
     if not token and len(sys.argv) > 2:
         token = sys.argv[2]
 
@@ -339,5 +342,5 @@ def main():
         sys.exit(1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

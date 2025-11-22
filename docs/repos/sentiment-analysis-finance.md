@@ -27,7 +27,7 @@ NLP-based sentiment analysis for financial news and social media to predict mark
 
 ## Topics
 
-`nlp` `sentiment-analysis` `finance` `deep-learning` `transformers` 
+`nlp` `sentiment-analysis` `finance` `deep-learning` `transformers`
 
 
 

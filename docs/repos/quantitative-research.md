@@ -27,7 +27,7 @@ Research notebooks and papers on quantitative finance topics and AI applications
 
 ## Topics
 
-`research` `quantitative-finance` `machine-learning` `papers` `notebooks` 
+`research` `quantitative-finance` `machine-learning` `papers` `notebooks`
 
 
 

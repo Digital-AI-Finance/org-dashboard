@@ -1,9 +1,8 @@
 """Unit tests for the pipeline orchestrator."""
 
-import pytest
 import asyncio
-from unittest.mock import Mock, AsyncMock, patch
-from datetime import datetime
+
+import pytest
 
 from research_platform.core.orchestrator import PipelineOrchestrator, PipelineResult
 from research_platform.core.phase import Phase, PhaseConfig
@@ -45,10 +44,7 @@ class TestPipelineOrchestrator:
     @pytest.fixture
     def orchestrator(self):
         """Create an orchestrator instance."""
-        config = {
-            "critical_phases": ["fetch_data"],
-            "clear_context_on_cleanup": False
-        }
+        config = {"critical_phases": ["fetch_data"], "clear_context_on_cleanup": False}
         return PipelineOrchestrator(config)
 
     @pytest.fixture
@@ -336,7 +332,7 @@ class TestPipelineOrchestrator:
             errors={},
             warnings={"phase1": ["warning1"]},
             data={"key": "value"},
-            duration=10.5
+            duration=10.5,
         )
 
         data = result.to_dict()

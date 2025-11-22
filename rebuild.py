@@ -5,8 +5,8 @@ Runs the complete platform rebuild pipeline
 """
 
 import os
-import sys
 import subprocess
+import sys
 from datetime import datetime
 
 
@@ -17,13 +17,7 @@ def run_command(cmd: str, description: str) -> bool:
     print(f"{'='*70}")
 
     try:
-        result = subprocess.run(
-            cmd,
-            shell=True,
-            check=True,
-            text=True,
-            capture_output=True
-        )
+        result = subprocess.run(cmd, shell=True, check=True, text=True, capture_output=True)
         print(result.stdout)
         return True
     except subprocess.CalledProcessError as e:
@@ -44,8 +38,8 @@ def main():
     print()
 
     # Check environment
-    org_name = os.environ.get('GITHUB_ORG', 'Digital-AI-Finance')
-    token = os.environ.get('GITHUB_TOKEN')
+    org_name = os.environ.get("GITHUB_ORG", "Digital-AI-Finance")
+    token = os.environ.get("GITHUB_TOKEN")
 
     if not token:
         print("WARNING: GITHUB_TOKEN not set in environment")
@@ -57,8 +51,8 @@ def main():
 
     # Step 1: Run main build
     success = run_command(
-        f'python scripts/build_research_platform.py {org_name}',
-        "Step 1: Running complete platform build (10 phases)"
+        f"python scripts/build_research_platform.py {org_name}",
+        "Step 1: Running complete platform build (10 phases)",
     )
 
     if not success:
@@ -67,8 +61,7 @@ def main():
 
     # Step 2: Generate markdown
     success = run_command(
-        'python scripts/generate_markdown.py',
-        "Step 2: Generating all markdown pages"
+        "python scripts/generate_markdown.py", "Step 2: Generating all markdown pages"
     )
 
     if not success:
@@ -80,10 +73,7 @@ def main():
     print("Step 3: Verifying automation")
     print(f"{'='*70}")
 
-    run_command(
-        'python scripts/verify_platform_automation.py',
-        "Running verification"
-    )
+    run_command("python scripts/verify_platform_automation.py", "Running verification")
 
     # Summary
     print("\n" + "=" * 70)
@@ -102,5 +92,5 @@ def main():
     print("=" * 70)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

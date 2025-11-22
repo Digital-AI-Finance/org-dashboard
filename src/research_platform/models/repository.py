@@ -1,8 +1,8 @@
 """Repository domain model."""
 
-from dataclasses import dataclass, field, asdict
-from typing import Optional, List, Dict, Any
+from dataclasses import asdict, dataclass, field
 from datetime import datetime
+from typing import Any
 
 
 @dataclass
@@ -15,9 +15,9 @@ class Repository:
     full_name: str
 
     # Basic info
-    description: Optional[str] = None
-    language: Optional[str] = None
-    homepage: Optional[str] = None
+    description: str | None = None
+    language: str | None = None
+    homepage: str | None = None
     default_branch: str = "main"
 
     # Statistics
@@ -28,9 +28,9 @@ class Repository:
     size: int = 0
 
     # Timestamps
-    created_at: Optional[datetime] = None
-    updated_at: Optional[datetime] = None
-    pushed_at: Optional[datetime] = None
+    created_at: datetime | None = None
+    updated_at: datetime | None = None
+    pushed_at: datetime | None = None
 
     # Features
     has_issues: bool = True
@@ -43,18 +43,18 @@ class Repository:
     is_template: bool = False
 
     # Lists
-    topics: List[str] = field(default_factory=list)
+    topics: list[str] = field(default_factory=list)
 
     # Research-specific metadata
-    research_metadata: Dict[str, Any] = field(default_factory=dict)
-    citations: List[Dict[str, Any]] = field(default_factory=list)
+    research_metadata: dict[str, Any] = field(default_factory=dict)
+    citations: list[dict[str, Any]] = field(default_factory=list)
     contributors_count: int = 0
     commits_count: int = 0
 
     # Additional metadata
-    metadata: Dict[str, Any] = field(default_factory=dict)
+    metadata: dict[str, Any] = field(default_factory=dict)
 
-    def to_dict(self) -> Dict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         """Convert to dictionary representation."""
         data = asdict(self)
 
@@ -66,7 +66,7 @@ class Repository:
         return data
 
     @classmethod
-    def from_dict(cls, data: Dict[str, Any]) -> "Repository":
+    def from_dict(cls, data: dict[str, Any]) -> "Repository":
         """Create instance from dictionary."""
         # Convert ISO strings back to datetime objects
         for field_name in ["created_at", "updated_at", "pushed_at"]:
@@ -116,7 +116,7 @@ class Repository:
             disabled=github_repo.disabled if hasattr(github_repo, "disabled") else False,
             is_template=github_repo.is_template if hasattr(github_repo, "is_template") else False,
             topics=topics,
-            contributors_count=contributors_count
+            contributors_count=contributors_count,
         )
 
     @property
@@ -138,11 +138,11 @@ class Repository:
             return (datetime.now() - self.updated_at).days
         return 0
 
-    def add_research_metadata(self, metadata: Dict[str, Any]) -> None:
+    def add_research_metadata(self, metadata: dict[str, Any]) -> None:
         """Add research-specific metadata."""
         self.research_metadata.update(metadata)
 
-    def add_citation(self, citation: Dict[str, Any]) -> None:
+    def add_citation(self, citation: dict[str, Any]) -> None:
         """Add a citation reference."""
         self.citations.append(citation)
 
@@ -159,17 +159,19 @@ class Repository:
             "contributors": 0.2,
             "recent_update": 0.2,
             "documentation": 0.15,
-            "issues_ratio": 0.1
+            "issues_ratio": 0.1,
         }
 
         # Stars score (logarithmic)
         if self.stars > 0:
             import math
+
             score += weights["stars"] * min(math.log10(self.stars + 1) / 4, 1.0)
 
         # Forks score (logarithmic)
         if self.forks > 0:
             import math
+
             score += weights["forks"] * min(math.log10(self.forks + 1) / 3, 1.0)
 
         # Contributors score

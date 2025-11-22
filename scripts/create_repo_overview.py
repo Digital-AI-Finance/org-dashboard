@@ -6,63 +6,85 @@ Creates a visual, clickable gallery of all repositories
 
 import json
 import os
-from datetime import datetime
-from typing import Dict, List, Any
+from typing import Any
 
 try:
     import plotly.graph_objects as go
     from plotly.subplots import make_subplots
+
     PLOTLY_AVAILABLE = True
 except ImportError:
     PLOTLY_AVAILABLE = False
     print("Warning: plotly not installed. Skipping interactive visualizations.")
 
 
-def load_repositories(repos_file: str = 'data/repos.json') -> List[Dict[str, Any]]:
+def load_repositories(repos_file: str = "data/repos.json") -> list[dict[str, Any]]:
     """Load repository data."""
-    with open(repos_file, 'r', encoding='utf-8') as f:
+    with open(repos_file, encoding="utf-8") as f:
         return json.load(f)
 
 
-def categorize_repository(repo: Dict[str, Any]) -> str:
+def categorize_repository(repo: dict[str, Any]) -> str:
     """
     Categorize repository based on topics and description.
     Returns: finance, machine-learning, education, research-tools
     Priority: Tools > Education > ML/AI > Finance (most specific to most general)
     """
-    topics = [t.lower() for t in repo.get('topics', [])]
-    description = repo.get('description', '').lower()
-    name = repo.get('name', '').lower()
+    topics = [t.lower() for t in repo.get("topics", [])]
+    description = repo.get("description", "").lower()
+    name = repo.get("name", "").lower()
 
     # Combine all text for analysis
-    text = ' '.join(topics + [description, name])
+    text = " ".join(topics + [description, name])
 
     # Research Tools / Infrastructure (highest priority - most specific)
-    if any(kw in text for kw in ['dashboard', 'automated', 'monitoring', 'organization', 'platform']):
-        return 'research-tools'
+    if any(
+        kw in text for kw in ["dashboard", "automated", "monitoring", "organization", "platform"]
+    ):
+        return "research-tools"
 
     # Education / Course (second priority)
-    if any(kw in text for kw in ['course', 'curriculum', 'pedagogy', 'week', 'academic', 'slides', 'certificate']):
-        return 'education'
+    if any(
+        kw in text
+        for kw in ["course", "curriculum", "pedagogy", "week", "academic", "slides", "certificate"]
+    ):
+        return "education"
 
     # Machine Learning / AI (third priority - includes ML finance applications)
-    if any(kw in text for kw in ['machine-learning', 'machine learning', 'neural', 'reinforcement', 'prediction', 'deep learning', 'ml', 'explainable-ai', 'ai']):
-        return 'machine-learning'
+    if any(
+        kw in text
+        for kw in [
+            "machine-learning",
+            "machine learning",
+            "neural",
+            "reinforcement",
+            "prediction",
+            "deep learning",
+            "ml",
+            "explainable-ai",
+            "ai",
+        ]
+    ):
+        return "machine-learning"
 
     # Finance-related (lowest priority - most general, many repos touch finance)
-    if any(kw in text for kw in ['finance', 'trading', 'portfolio', 'risk', 'credit', 'market', 'microstructure']):
-        return 'finance'
+    if any(
+        kw in text
+        for kw in ["finance", "trading", "portfolio", "risk", "credit", "market", "microstructure"]
+    ):
+        return "finance"
 
-    return 'other'
+    return "other"
 
 
-def create_repository_grid_html(repos: List[Dict[str, Any]],
-                                  output_path: str = 'docs/visualizations/repository_overview.html') -> str:
+def create_repository_grid_html(
+    repos: list[dict[str, Any]], output_path: str = "docs/visualizations/repository_overview.html"
+) -> str:
     """
     Create interactive HTML grid of repositories.
     """
     # Sort repos by last updated
-    sorted_repos = sorted(repos, key=lambda x: x.get('updated_at', ''), reverse=True)
+    sorted_repos = sorted(repos, key=lambda x: x.get("updated_at", ""), reverse=True)
 
     # Count repos by category for filter buttons
     category_counts = {}
@@ -352,27 +374,27 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
 
     # Add repository cards
     for repo in sorted_repos:
-        name = repo.get('name', 'Unknown')
-        description = repo.get('description', 'No description available')[:150]
-        language = repo.get('language', 'Unknown')
-        stars = repo.get('stars', 0)  # Changed from stargazers_count
-        forks = repo.get('forks', 0)  # Changed from forks_count
-        url = repo.get('url', '#')  # Changed from html_url
-        topics = repo.get('topics', [])[:5]  # Show max 5 topics
-        updated = repo.get('updated_at', '')[:10]  # Just the date
+        name = repo.get("name", "Unknown")
+        description = repo.get("description", "No description available")[:150]
+        language = repo.get("language", "Unknown")
+        stars = repo.get("stars", 0)  # Changed from stargazers_count
+        forks = repo.get("forks", 0)  # Changed from forks_count
+        url = repo.get("url", "#")  # Changed from html_url
+        topics = repo.get("topics", [])[:5]  # Show max 5 topics
+        updated = repo.get("updated_at", "")[:10]  # Just the date
 
         # Content-based categorization
         category = categorize_repository(repo)
 
         # Category labels and icons
         category_labels = {
-            'finance': '💰 Finance',
-            'machine-learning': '🤖 ML/AI',
-            'education': '📚 Education',
-            'research-tools': '🔧 Research Tools',
-            'other': '📦 Other'
+            "finance": "💰 Finance",
+            "machine-learning": "🤖 ML/AI",
+            "education": "📚 Education",
+            "research-tools": "🔧 Research Tools",
+            "other": "📦 Other",
         }
-        category_label = category_labels.get(category, '📦 Other')
+        category_label = category_labels.get(category, "📦 Other")
 
         html_content += f"""
             <div class="repo-card" data-category="{category}" onclick="window.open('{url}', '_blank')">
@@ -472,23 +494,28 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
 </html>"""
 
     # Replace counts
-    html_content = html_content.replace('{total}', str(len(repos)))
-    html_content = html_content.replace('{finance_count}', str(category_counts.get('finance', 0)))
-    html_content = html_content.replace('{ml_count}', str(category_counts.get('machine-learning', 0)))
-    html_content = html_content.replace('{edu_count}', str(category_counts.get('education', 0)))
-    html_content = html_content.replace('{tools_count}', str(category_counts.get('research-tools', 0)))
+    html_content = html_content.replace("{total}", str(len(repos)))
+    html_content = html_content.replace("{finance_count}", str(category_counts.get("finance", 0)))
+    html_content = html_content.replace(
+        "{ml_count}", str(category_counts.get("machine-learning", 0))
+    )
+    html_content = html_content.replace("{edu_count}", str(category_counts.get("education", 0)))
+    html_content = html_content.replace(
+        "{tools_count}", str(category_counts.get("research-tools", 0))
+    )
 
     # Save HTML
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
     print(f"Repository overview saved to: {output_path}")
     return output_path
 
 
-def create_interactive_network(repos: List[Dict[str, Any]],
-                                 output_path: str = 'docs/visualizations/repository_network.html') -> str:
+def create_interactive_network(
+    repos: list[dict[str, Any]], output_path: str = "docs/visualizations/repository_network.html"
+) -> str:
     """
     Create interactive network visualization of repositories.
     """
@@ -502,22 +529,27 @@ def create_interactive_network(repos: List[Dict[str, Any]],
 
     # Add nodes for repositories
     for repo in repos:
-        G.add_node(repo['name'],
-                   description=repo.get('description', '')[:100],
-                   language=repo.get('language', 'Unknown'),
-                   stars=repo.get('stars', 0),
-                   url=repo.get('url', ''))
+        G.add_node(
+            repo["name"],
+            description=repo.get("description", "")[:100],
+            language=repo.get("language", "Unknown"),
+            stars=repo.get("stars", 0),
+            url=repo.get("url", ""),
+        )
 
     # Add edges based on shared topics
     for i, repo1 in enumerate(repos):
-        topics1 = set(repo1.get('topics', []))
-        for repo2 in repos[i+1:]:
-            topics2 = set(repo2.get('topics', []))
+        topics1 = set(repo1.get("topics", []))
+        for repo2 in repos[i + 1 :]:
+            topics2 = set(repo2.get("topics", []))
             common_topics = topics1.intersection(topics2)
             if common_topics:
-                G.add_edge(repo1['name'], repo2['name'],
-                          weight=len(common_topics),
-                          topics=list(common_topics))
+                G.add_edge(
+                    repo1["name"],
+                    repo2["name"],
+                    weight=len(common_topics),
+                    topics=list(common_topics),
+                )
 
     # Layout
     pos = nx.spring_layout(G, k=2, iterations=50)
@@ -531,11 +563,11 @@ def create_interactive_network(repos: List[Dict[str, Any]],
         edge_trace = go.Scatter(
             x=[x0, x1, None],
             y=[y0, y1, None],
-            mode='lines',
-            line=dict(width=edge[2]['weight'], color='#ddd'),
-            hoverinfo='text',
+            mode="lines",
+            line=dict(width=edge[2]["weight"], color="#ddd"),
+            hoverinfo="text",
             text=f"Shared topics: {', '.join(edge[2]['topics'])}",
-            showlegend=False
+            showlegend=False,
         )
         edge_traces.append(edge_trace)
 
@@ -548,10 +580,10 @@ def create_interactive_network(repos: List[Dict[str, Any]],
     node_urls = []
 
     lang_colors = {
-        'Python': '#3572A5',
-        'Jupyter Notebook': '#DA5B0B',
-        'TeX': '#3D6117',
-        'Unknown': '#888888'
+        "Python": "#3572A5",
+        "Jupyter Notebook": "#DA5B0B",
+        "TeX": "#3D6117",
+        "Unknown": "#888888",
     }
 
     for node in G.nodes(data=True):
@@ -560,29 +592,27 @@ def create_interactive_network(repos: List[Dict[str, Any]],
         node_y.append(y)
 
         data = node[1]
-        node_text.append(f"<b>{node[0]}</b><br>{data['description']}<br>"
-                        f"Language: {data['language']}<br>"
-                        f"Stars: {data['stars']}")
+        node_text.append(
+            f"<b>{node[0]}</b><br>{data['description']}<br>"
+            f"Language: {data['language']}<br>"
+            f"Stars: {data['stars']}"
+        )
 
-        node_colors.append(lang_colors.get(data['language'], lang_colors['Unknown']))
-        node_sizes.append(20 + data['stars'] * 2)
-        node_urls.append(data['url'])
+        node_colors.append(lang_colors.get(data["language"], lang_colors["Unknown"]))
+        node_sizes.append(20 + data["stars"] * 2)
+        node_urls.append(data["url"])
 
     node_trace = go.Scatter(
         x=node_x,
         y=node_y,
-        mode='markers+text',
-        hoverinfo='text',
+        mode="markers+text",
+        hoverinfo="text",
         text=[node[0] for node in G.nodes()],
-        textposition='top center',
+        textposition="top center",
         hovertext=node_text,
-        marker=dict(
-            size=node_sizes,
-            color=node_colors,
-            line=dict(width=2, color='white')
-        ),
+        marker=dict(size=node_sizes, color=node_colors, line=dict(width=2, color="white")),
         customdata=node_urls,
-        showlegend=False
+        showlegend=False,
     )
 
     # Create figure
@@ -590,22 +620,22 @@ def create_interactive_network(repos: List[Dict[str, Any]],
 
     fig.update_layout(
         title={
-            'text': 'Repository Network - Connected by Shared Topics',
-            'x': 0.5,
-            'xanchor': 'center',
-            'font': {'size': 24, 'color': '#2d3748'}
+            "text": "Repository Network - Connected by Shared Topics",
+            "x": 0.5,
+            "xanchor": "center",
+            "font": {"size": 24, "color": "#2d3748"},
         },
         showlegend=False,
-        hovermode='closest',
+        hovermode="closest",
         margin=dict(l=0, r=0, t=80, b=0),
         xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-        plot_bgcolor='white',
-        height=700
+        plot_bgcolor="white",
+        height=700,
     )
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    fig.write_html(output_path, config={'displayModeBar': True, 'displaylogo': False})
+    fig.write_html(output_path, config={"displayModeBar": True, "displaylogo": False})
 
     print(f"Repository network saved to: {output_path}")
     return output_path
@@ -625,12 +655,12 @@ def main():
 
     print("\nGenerating repository overview...")
     grid_path = create_repository_grid_html(repos)
-    visualizations['grid'] = grid_path
+    visualizations["grid"] = grid_path
 
     if PLOTLY_AVAILABLE:
         print("Generating network visualization...")
         network_path = create_interactive_network(repos)
-        visualizations['network'] = network_path
+        visualizations["network"] = network_path
 
     print("\n" + "=" * 60)
     print("Generated visualizations:")
@@ -640,5 +670,5 @@ def main():
     return visualizations
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

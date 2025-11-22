@@ -27,7 +27,7 @@ RESTful API for accessing financial market data, fundamental data, and alternati
 
 ## Topics
 
-`api` `finance` `market-data` `nodejs` `express` 
+`api` `finance` `market-data` `nodejs` `express`
 
 
 

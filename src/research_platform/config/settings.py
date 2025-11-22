@@ -1,16 +1,18 @@
 """Configuration management for the research platform."""
 
-from typing import Dict, Any, Optional
-from pathlib import Path
-from dataclasses import dataclass, field, asdict
-import os
-import yaml
 import json
+import os
+from dataclasses import asdict, dataclass, field
+from pathlib import Path
+from typing import Any
+
+import yaml
 
 
 @dataclass
 class DatabaseConfig:
     """Database configuration."""
+
     enabled: bool = False
     host: str = "localhost"
     port: int = 5432
@@ -20,7 +22,7 @@ class DatabaseConfig:
     pool_size: int = 10
 
     @classmethod
-    def from_dict(cls, data: Dict[str, Any]) -> "DatabaseConfig":
+    def from_dict(cls, data: dict[str, Any]) -> "DatabaseConfig":
         """Create from dictionary."""
         return cls(**data)
 
@@ -28,6 +30,7 @@ class DatabaseConfig:
 @dataclass
 class GitHubConfig:
     """GitHub API configuration."""
+
     token: str = ""
     organization: str = ""
     rate_limit_pause: int = 60
@@ -36,7 +39,7 @@ class GitHubConfig:
     timeout: int = 30
 
     @classmethod
-    def from_dict(cls, data: Dict[str, Any]) -> "GitHubConfig":
+    def from_dict(cls, data: dict[str, Any]) -> "GitHubConfig":
         """Create from dictionary."""
         return cls(**data)
 
@@ -52,14 +55,15 @@ class GitHubConfig:
 @dataclass
 class CacheConfig:
     """Caching configuration."""
+
     enabled: bool = True
     ttl: int = 3600  # 1 hour
     directory: Path = field(default_factory=lambda: Path("cache"))
     max_size_mb: int = 100
-    redis_url: Optional[str] = None
+    redis_url: str | None = None
 
     @classmethod
-    def from_dict(cls, data: Dict[str, Any]) -> "CacheConfig":
+    def from_dict(cls, data: dict[str, Any]) -> "CacheConfig":
         """Create from dictionary."""
         if "directory" in data:
             data["directory"] = Path(data["directory"])
@@ -69,15 +73,16 @@ class CacheConfig:
 @dataclass
 class LoggingConfig:
     """Logging configuration."""
+
     level: str = "INFO"
     format: str = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-    file: Optional[str] = None
+    file: str | None = None
     console: bool = True
     rotation: str = "midnight"
     retention: int = 7
 
     @classmethod
-    def from_dict(cls, data: Dict[str, Any]) -> "LoggingConfig":
+    def from_dict(cls, data: dict[str, Any]) -> "LoggingConfig":
         """Create from dictionary."""
         return cls(**data)
 
@@ -85,6 +90,7 @@ class LoggingConfig:
 @dataclass
 class Settings:
     """Application settings."""
+
     app_name: str = "GitHub Research Platform"
     version: str = "2.0.0"
     environment: str = "development"
@@ -99,19 +105,21 @@ class Settings:
     github: GitHubConfig = field(default_factory=GitHubConfig)
     cache: CacheConfig = field(default_factory=CacheConfig)
     logging: LoggingConfig = field(default_factory=LoggingConfig)
-    database: Optional[DatabaseConfig] = None
+    database: DatabaseConfig | None = None
 
     # Pipeline phases configuration
-    phases: Dict[str, Dict[str, Any]] = field(default_factory=dict)
+    phases: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     # Feature flags
-    features: Dict[str, bool] = field(default_factory=lambda: {
-        "academic_data": True,
-        "ml_topics": True,
-        "collaboration_network": True,
-        "advanced_visualizations": True,
-        "search_indexing": True
-    })
+    features: dict[str, bool] = field(
+        default_factory=lambda: {
+            "academic_data": True,
+            "ml_topics": True,
+            "collaboration_network": True,
+            "advanced_visualizations": True,
+            "search_indexing": True,
+        }
+    )
 
     @classmethod
     def from_yaml(cls, config_path: Path) -> "Settings":
@@ -119,7 +127,7 @@ class Settings:
         if not config_path.exists():
             raise FileNotFoundError(f"Configuration file not found: {config_path}")
 
-        with open(config_path, "r") as f:
+        with open(config_path) as f:
             config_data = yaml.safe_load(f)
 
         # Override with environment variables
@@ -151,7 +159,7 @@ class Settings:
         if not config_path.exists():
             raise FileNotFoundError(f"Configuration file not found: {config_path}")
 
-        with open(config_path, "r") as f:
+        with open(config_path) as f:
             config_data = json.load(f)
 
         # Override with environment variables
@@ -167,16 +175,13 @@ class Settings:
             environment=os.getenv("ENVIRONMENT", "development"),
             debug=os.getenv("DEBUG", "false").lower() == "true",
             github=GitHubConfig(
-                token=os.getenv("GITHUB_TOKEN", ""),
-                organization=os.getenv("GITHUB_ORG", "")
+                token=os.getenv("GITHUB_TOKEN", ""), organization=os.getenv("GITHUB_ORG", "")
             ),
-            logging=LoggingConfig(
-                level=os.getenv("LOG_LEVEL", "INFO")
-            )
+            logging=LoggingConfig(level=os.getenv("LOG_LEVEL", "INFO")),
         )
 
     @staticmethod
-    def _override_with_env(config: Dict[str, Any]) -> Dict[str, Any]:
+    def _override_with_env(config: dict[str, Any]) -> dict[str, Any]:
         """Override configuration with environment variables."""
         env_mapping = {
             "GITHUB_TOKEN": ("github", "token"),
@@ -206,7 +211,7 @@ class Settings:
 
         return config
 
-    def to_dict(self) -> Dict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         """Convert settings to dictionary."""
         data = asdict(self)
 
@@ -246,13 +251,9 @@ class Settings:
 
         return True
 
-    def get_phase_config(self, phase_name: str) -> Dict[str, Any]:
+    def get_phase_config(self, phase_name: str) -> dict[str, Any]:
         """Get configuration for a specific phase."""
-        default_config = {
-            "enabled": True,
-            "timeout": 300,
-            "retry_count": 3
-        }
+        default_config = {"enabled": True, "timeout": 300, "retry_count": 3}
 
         phase_config = self.phases.get(phase_name, {})
         return {**default_config, **phase_config}

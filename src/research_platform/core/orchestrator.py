@@ -1,29 +1,29 @@
 """Pipeline orchestrator for managing phase execution."""
 
 import asyncio
-from typing import Dict, List, Any, Optional
-from dataclasses import dataclass, field
 import logging
-from datetime import datetime
 from contextlib import asynccontextmanager
+from dataclasses import dataclass, field
+from datetime import datetime
+from typing import Any
 
 from .phase import Phase, PhaseResult
-from .exceptions import PlatformException
 
 
 @dataclass
 class PipelineResult:
     """Result of pipeline execution."""
+
     success: bool
-    phases_completed: List[str]
-    phases_failed: List[str]
-    errors: Dict[str, str]
-    warnings: Dict[str, List[str]]
-    data: Dict[str, Any]
+    phases_completed: list[str]
+    phases_failed: list[str]
+    errors: dict[str, str]
+    warnings: dict[str, list[str]]
+    data: dict[str, Any]
     duration: float
     timestamp: datetime = field(default_factory=datetime.now)
 
-    def to_dict(self) -> Dict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         """Convert to dictionary for serialization."""
         return {
             "success": self.success,
@@ -36,27 +36,27 @@ class PipelineResult:
             "summary": {
                 "total_phases": len(self.phases_completed) + len(self.phases_failed),
                 "successful": len(self.phases_completed),
-                "failed": len(self.phases_failed)
-            }
+                "failed": len(self.phases_failed),
+            },
         }
 
 
 class PipelineOrchestrator:
     """Orchestrate pipeline execution with error recovery."""
 
-    def __init__(self, config: Dict[str, Any], logger: logging.Logger = None):
+    def __init__(self, config: dict[str, Any], logger: logging.Logger = None):
         self.config = config
         self.logger = logger or logging.getLogger(__name__)
-        self.phases: List[Phase] = []
-        self.context: Dict[str, Any] = {}
-        self._phase_results: Dict[str, PhaseResult] = {}
+        self.phases: list[Phase] = []
+        self.context: dict[str, Any] = {}
+        self._phase_results: dict[str, PhaseResult] = {}
 
     def register_phase(self, phase: Phase) -> None:
         """Register a phase in the pipeline."""
         self.phases.append(phase)
         self.logger.info(f"Registered phase: {phase.config.name}")
 
-    def register_phases(self, phases: List[Phase]) -> None:
+    def register_phases(self, phases: list[Phase]) -> None:
         """Register multiple phases."""
         for phase in phases:
             self.register_phase(phase)
@@ -73,7 +73,7 @@ class PipelineOrchestrator:
         finally:
             self.logger.info(f"Phase {phase_name} completed")
 
-    async def execute_pipeline(self, initial_context: Dict[str, Any] = None) -> PipelineResult:
+    async def execute_pipeline(self, initial_context: dict[str, Any] = None) -> PipelineResult:
         """
         Execute all registered phases.
 
@@ -119,7 +119,9 @@ class PipelineOrchestrator:
 
                         # Check if phase failure should stop pipeline
                         if self._should_stop_on_failure(phase):
-                            self.logger.error(f"Critical phase {phase.config.name} failed, stopping pipeline")
+                            self.logger.error(
+                                f"Critical phase {phase.config.name} failed, stopping pipeline"
+                            )
                             break
 
         except Exception as e:
@@ -136,7 +138,7 @@ class PipelineOrchestrator:
             errors=errors,
             warnings=warnings,
             data=self.context,
-            duration=duration
+            duration=duration,
         )
 
     async def _execute_phase_with_retry(self, phase: Phase) -> PhaseResult:
@@ -157,7 +159,7 @@ class PipelineOrchestrator:
                     break
 
                 if attempt < phase.config.retry_count - 1:
-                    wait_time = 2 ** attempt  # Exponential backoff
+                    wait_time = 2**attempt  # Exponential backoff
                     self.logger.warning(
                         f"Phase {phase.config.name} failed (attempt {attempt + 1}), "
                         f"retrying in {wait_time}s..."
@@ -184,7 +186,7 @@ class PipelineOrchestrator:
         critical_phases = self.config.get("critical_phases", ["fetch_data"])
         return phase.config.name in critical_phases
 
-    def get_phase_result(self, phase_name: str) -> Optional[PhaseResult]:
+    def get_phase_result(self, phase_name: str) -> PhaseResult | None:
         """Get result for a specific phase."""
         return self._phase_results.get(phase_name)
 
@@ -222,17 +224,19 @@ class PipelineOrchestrator:
 
         return True
 
-    def get_execution_plan(self) -> List[Dict[str, Any]]:
+    def get_execution_plan(self) -> list[dict[str, Any]]:
         """Get the execution plan for the pipeline."""
         plan = []
 
         for phase in self.phases:
-            plan.append({
-                "name": phase.config.name,
-                "enabled": phase.config.enabled,
-                "dependencies": phase.config.dependencies,
-                "timeout": phase.config.timeout,
-                "retry_count": phase.config.retry_count
-            })
+            plan.append(
+                {
+                    "name": phase.config.name,
+                    "enabled": phase.config.enabled,
+                    "dependencies": phase.config.dependencies,
+                    "timeout": phase.config.timeout,
+                    "retry_count": phase.config.retry_count,
+                }
+            )
 
         return plan

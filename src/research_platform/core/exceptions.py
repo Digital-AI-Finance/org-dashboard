@@ -12,26 +12,31 @@ class PlatformException(Exception):
 
 class DataFetchException(PlatformException):
     """Exception raised during data fetching."""
+
     pass
 
 
 class AnalysisException(PlatformException):
     """Exception raised during analysis."""
+
     pass
 
 
 class ValidationException(PlatformException):
     """Exception raised for validation errors."""
+
     pass
 
 
 class ConfigurationException(PlatformException):
     """Exception raised for configuration errors."""
+
     pass
 
 
 class CacheException(PlatformException):
     """Exception raised for cache operations."""
+
     pass
 
 

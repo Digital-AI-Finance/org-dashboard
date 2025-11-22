@@ -1,8 +1,8 @@
 """Unit tests for the Repository model."""
 
-import pytest
 from datetime import datetime, timedelta
-from unittest.mock import Mock
+
+import pytest
 
 from research_platform.models.repository import Repository
 
@@ -19,7 +19,7 @@ class TestRepository:
             description="Test repository",
             language="Python",
             stars=10,
-            forks=5
+            forks=5,
         )
 
         assert repo.id == 123
@@ -32,11 +32,7 @@ class TestRepository:
 
     def test_repository_defaults(self):
         """Test repository default values."""
-        repo = Repository(
-            id=123,
-            name="test",
-            full_name="org/test"
-        )
+        repo = Repository(id=123, name="test", full_name="org/test")
 
         assert repo.stars == 0
         assert repo.forks == 0
@@ -62,7 +58,7 @@ class TestRepository:
             "name": "from-dict",
             "full_name": "org/from-dict",
             "stars": 100,
-            "created_at": "2023-06-01T00:00:00"
+            "created_at": "2023-06-01T00:00:00",
         }
 
         repo = Repository.from_dict(data)
@@ -91,31 +87,18 @@ class TestRepository:
         assert active_repo.is_active is True
 
         # Archived repository
-        archived_repo = Repository(
-            id=2,
-            name="archived",
-            full_name="org/archived",
-            archived=True
-        )
+        archived_repo = Repository(id=2, name="archived", full_name="org/archived", archived=True)
         assert archived_repo.is_active is False
 
         # Disabled repository
-        disabled_repo = Repository(
-            id=3,
-            name="disabled",
-            full_name="org/disabled",
-            disabled=True
-        )
+        disabled_repo = Repository(id=3, name="disabled", full_name="org/disabled", disabled=True)
         assert disabled_repo.is_active is False
 
     def test_age_days(self):
         """Test repository age calculation."""
         # Repository created 30 days ago
         repo = Repository(
-            id=1,
-            name="test",
-            full_name="org/test",
-            created_at=datetime.now() - timedelta(days=30)
+            id=1, name="test", full_name="org/test", created_at=datetime.now() - timedelta(days=30)
         )
 
         assert 29 <= repo.age_days <= 31  # Allow for small time differences
@@ -128,10 +111,7 @@ class TestRepository:
         """Test days since update calculation."""
         # Repository updated 7 days ago
         repo = Repository(
-            id=1,
-            name="test",
-            full_name="org/test",
-            updated_at=datetime.now() - timedelta(days=7)
+            id=1, name="test", full_name="org/test", updated_at=datetime.now() - timedelta(days=7)
         )
 
         assert 6 <= repo.days_since_update <= 8
@@ -141,7 +121,7 @@ class TestRepository:
         metadata = {
             "paper_url": "https://arxiv.org/paper",
             "dataset_size": "1GB",
-            "methodology": "deep learning"
+            "methodology": "deep learning",
         }
 
         sample_repository.add_research_metadata(metadata)
@@ -155,7 +135,7 @@ class TestRepository:
             "title": "Research Paper",
             "authors": ["Author 1", "Author 2"],
             "year": 2024,
-            "venue": "Conference"
+            "venue": "Conference",
         }
 
         sample_repository.add_citation(citation)
@@ -176,7 +156,7 @@ class TestRepository:
             forks=20,
             open_issues=2,
             contributors_count=15,
-            updated_at=datetime.now() - timedelta(days=5)
+            updated_at=datetime.now() - timedelta(days=5),
         )
 
         score = healthy_repo.get_health_score()
@@ -191,27 +171,25 @@ class TestRepository:
             forks=0,
             open_issues=50,
             contributors_count=1,
-            updated_at=datetime.now() - timedelta(days=365)
+            updated_at=datetime.now() - timedelta(days=365),
         )
 
         score = unhealthy_repo.get_health_score()
         assert 0.0 <= score <= 0.3
 
-    @pytest.mark.parametrize("stars,expected_range", [
-        (0, (0.0, 0.2)),
-        (10, (0.1, 0.4)),
-        (100, (0.3, 0.6)),
-        (1000, (0.4, 0.8)),
-        (10000, (0.5, 1.0))
-    ])
+    @pytest.mark.parametrize(
+        "stars,expected_range",
+        [
+            (0, (0.0, 0.2)),
+            (10, (0.1, 0.4)),
+            (100, (0.3, 0.6)),
+            (1000, (0.4, 0.8)),
+            (10000, (0.5, 1.0)),
+        ],
+    )
     def test_health_score_stars_impact(self, stars, expected_range):
         """Test how star count affects health score."""
-        repo = Repository(
-            id=1,
-            name="test",
-            full_name="org/test",
-            stars=stars
-        )
+        repo = Repository(id=1, name="test", full_name="org/test", stars=stars)
 
         score = repo.get_health_score()
         assert expected_range[0] <= score <= expected_range[1]
@@ -243,7 +221,7 @@ class TestRepository:
             full_name="org/test",
             description=None,
             language=None,
-            created_at=None
+            created_at=None,
         )
 
         data = repo.to_dict()

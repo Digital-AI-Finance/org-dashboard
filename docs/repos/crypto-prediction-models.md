@@ -27,7 +27,7 @@ Deep learning models for cryptocurrency price prediction and volatility forecast
 
 ## Topics
 
-`cryptocurrency` `deep-learning` `prediction` `lstm` `transformers` 
+`cryptocurrency` `deep-learning` `prediction` `lstm` `transformers`
 
 
 

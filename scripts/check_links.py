@@ -4,15 +4,14 @@ Link Checker for Repository Overview
 Validates all clickable elements and URLs
 """
 
-import json
 import os
 import re
 import time
-from typing import List, Dict, Tuple
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urlparse
 
 try:
     import requests
+
     REQUESTS_AVAILABLE = True
 except ImportError:
     REQUESTS_AVAILABLE = False
@@ -20,13 +19,14 @@ except ImportError:
 
 try:
     from bs4 import BeautifulSoup
+
     BS4_AVAILABLE = True
 except ImportError:
     BS4_AVAILABLE = False
     print("Warning: beautifulsoup4 not installed. Install with: pip install beautifulsoup4")
 
 
-def extract_links_from_html(html_file: str) -> Dict[str, List[str]]:
+def extract_links_from_html(html_file: str) -> dict[str, list[str]]:
     """
     Extract all links and clickable elements from HTML file.
     """
@@ -34,62 +34,61 @@ def extract_links_from_html(html_file: str) -> Dict[str, List[str]]:
         print("ERROR: BeautifulSoup4 is required. Install with: pip install beautifulsoup4")
         return {}
 
-    with open(html_file, 'r', encoding='utf-8') as f:
+    with open(html_file, encoding="utf-8") as f:
         content = f.read()
 
-    soup = BeautifulSoup(content, 'html.parser')
+    soup = BeautifulSoup(content, "html.parser")
 
     links = {
-        'external_urls': [],
-        'onclick_urls': [],
-        'filter_buttons': [],
-        'interactive_elements': []
+        "external_urls": [],
+        "onclick_urls": [],
+        "filter_buttons": [],
+        "interactive_elements": [],
     }
 
     # Extract <a> tags
-    for a_tag in soup.find_all('a'):
-        href = a_tag.get('href')
+    for a_tag in soup.find_all("a"):
+        href = a_tag.get("href")
         if href:
-            links['external_urls'].append({
-                'url': href,
-                'text': a_tag.get_text(strip=True),
-                'tag': 'a'
-            })
+            links["external_urls"].append(
+                {"url": href, "text": a_tag.get_text(strip=True), "tag": "a"}
+            )
 
     # Extract onclick attributes
     for element in soup.find_all(onclick=True):
-        onclick = element.get('onclick')
+        onclick = element.get("onclick")
         # Extract URLs from onclick="window.open('url', '_blank')"
         url_match = re.search(r"window\.open\(['\"]([^'\"]+)['\"]", onclick)
         if url_match:
-            links['onclick_urls'].append({
-                'url': url_match.group(1),
-                'text': element.get_text(strip=True)[:50],
-                'class': element.get('class', []),
-                'tag': element.name
-            })
+            links["onclick_urls"].append(
+                {
+                    "url": url_match.group(1),
+                    "text": element.get_text(strip=True)[:50],
+                    "class": element.get("class", []),
+                    "tag": element.name,
+                }
+            )
 
     # Extract filter buttons
-    for button in soup.find_all('button', class_='filter-button'):
-        filter_val = button.get('data-filter')
-        links['filter_buttons'].append({
-            'filter': filter_val,
-            'text': button.get_text(strip=True)
-        })
+    for button in soup.find_all("button", class_="filter-button"):
+        filter_val = button.get("data-filter")
+        links["filter_buttons"].append({"filter": filter_val, "text": button.get_text(strip=True)})
 
     # Check for search input
-    search_input = soup.find('input', id='searchInput')
+    search_input = soup.find("input", id="searchInput")
     if search_input:
-        links['interactive_elements'].append({
-            'type': 'search',
-            'id': 'searchInput',
-            'placeholder': search_input.get('placeholder', '')
-        })
+        links["interactive_elements"].append(
+            {
+                "type": "search",
+                "id": "searchInput",
+                "placeholder": search_input.get("placeholder", ""),
+            }
+        )
 
     return links
 
 
-def check_url(url: str, timeout: int = 10) -> Tuple[bool, int, str]:
+def check_url(url: str, timeout: int = 10) -> tuple[bool, int, str]:
     """
     Check if a URL is accessible.
     Returns: (is_accessible, status_code, message)
@@ -99,20 +98,20 @@ def check_url(url: str, timeout: int = 10) -> Tuple[bool, int, str]:
 
     try:
         # Handle GitHub URLs
-        if 'github.com' in url:
+        if "github.com" in url:
             # For GitHub repos, use API to check
-            if '/repos/' not in url:
+            if "/repos/" not in url:
                 # Convert HTML URL to check if repo exists
                 parts = urlparse(url)
-                path_parts = [p for p in parts.path.split('/') if p]
+                path_parts = [p for p in parts.path.split("/") if p]
                 if len(path_parts) >= 2:
                     org, repo = path_parts[0], path_parts[1]
                     api_url = f"https://api.github.com/repos/{org}/{repo}"
 
                     headers = {}
-                    token = os.environ.get('GITHUB_TOKEN')
+                    token = os.environ.get("GITHUB_TOKEN")
                     if token:
-                        headers['Authorization'] = f'token {token}'
+                        headers["Authorization"] = f"token {token}"
 
                     response = requests.get(api_url, headers=headers, timeout=timeout)
 
@@ -141,37 +140,37 @@ def check_url(url: str, timeout: int = 10) -> Tuple[bool, int, str]:
         return (False, 0, f"Unexpected error: {str(e)[:50]}")
 
 
-def verify_filter_functionality(html_file: str) -> Dict[str, bool]:
+def verify_filter_functionality(html_file: str) -> dict[str, bool]:
     """
     Verify that filter buttons have corresponding data attributes on cards.
     """
     if not BS4_AVAILABLE:
         return {}
 
-    with open(html_file, 'r', encoding='utf-8') as f:
+    with open(html_file, encoding="utf-8") as f:
         content = f.read()
 
-    soup = BeautifulSoup(content, 'html.parser')
+    soup = BeautifulSoup(content, "html.parser")
 
     results = {}
 
     # Get all filter values
-    filter_buttons = soup.find_all('button', class_='filter-button')
-    filter_values = [btn.get('data-filter') for btn in filter_buttons if btn.get('data-filter')]
+    filter_buttons = soup.find_all("button", class_="filter-button")
+    filter_values = [btn.get("data-filter") for btn in filter_buttons if btn.get("data-filter")]
 
     # Get all cards
-    cards = soup.find_all('div', class_='repo-card')
+    cards = soup.find_all("div", class_="repo-card")
 
     # Get categories from cards
     card_categories = set()
     for card in cards:
-        category = card.get('data-category')
+        category = card.get("data-category")
         if category:
             card_categories.add(category)
 
     # Verify each filter (except 'all')
     for filter_val in filter_values:
-        if filter_val == 'all':
+        if filter_val == "all":
             results[filter_val] = True
         else:
             # Check if there are cards with this category
@@ -181,18 +180,18 @@ def verify_filter_functionality(html_file: str) -> Dict[str, bool]:
     return results
 
 
-def check_javascript_functionality(html_file: str) -> Dict[str, bool]:
+def check_javascript_functionality(html_file: str) -> dict[str, bool]:
     """
     Check if required JavaScript functionality is present.
     """
-    with open(html_file, 'r', encoding='utf-8') as f:
+    with open(html_file, encoding="utf-8") as f:
         content = f.read()
 
     checks = {
-        'search_handler': 'searchInput' in content and 'addEventListener' in content,
-        'filter_handler': 'filter-button' in content and 'data-filter' in content,
-        'card_click_handler': 'onclick' in content or 'addEventListener' in content,
-        'window_open': 'window.open' in content
+        "search_handler": "searchInput" in content and "addEventListener" in content,
+        "filter_handler": "filter-button" in content and "data-filter" in content,
+        "card_click_handler": "onclick" in content or "addEventListener" in content,
+        "window_open": "window.open" in content,
     }
 
     return checks
@@ -202,16 +201,18 @@ def main():
     """Main execution."""
     # Set UTF-8 encoding for Windows console
     import sys
-    if sys.platform == 'win32':
+
+    if sys.platform == "win32":
         import io
-        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
     print("=" * 70)
     print("REPOSITORY OVERVIEW LINK CHECKER")
     print("=" * 70)
     print()
 
-    html_file = 'docs/visualizations/repository_overview.html'
+    html_file = "docs/visualizations/repository_overview.html"
 
     if not os.path.exists(html_file):
         print(f"ERROR: File not found: {html_file}")
@@ -229,15 +230,15 @@ def main():
     print("REPOSITORY LINKS (onclick)")
     print("=" * 70)
 
-    onclick_urls = links.get('onclick_urls', [])
+    onclick_urls = links.get("onclick_urls", [])
     print(f"Found {len(onclick_urls)} repository card links")
     print()
 
     if REQUESTS_AVAILABLE and onclick_urls:
         print("Checking URL accessibility...")
         for i, link_info in enumerate(onclick_urls, 1):
-            url = link_info['url']
-            text = link_info['text']
+            url = link_info["url"]
+            text = link_info["text"]
 
             is_accessible, status, message = check_url(url)
 
@@ -261,22 +262,22 @@ def main():
     print("FILTER BUTTONS")
     print("=" * 70)
 
-    filter_buttons = links.get('filter_buttons', [])
+    filter_buttons = links.get("filter_buttons", [])
     print(f"Found {len(filter_buttons)} filter buttons")
     print()
 
     filter_results = verify_filter_functionality(html_file)
 
     for button in filter_buttons:
-        filter_val = button['filter']
-        text = button['text']
+        filter_val = button["filter"]
+        text = button["text"]
 
         has_cards = filter_results.get(filter_val, False)
-        status_symbol = "[OK]" if has_cards or filter_val == 'all' else "[WARN]"
+        status_symbol = "[OK]" if has_cards or filter_val == "all" else "[WARN]"
 
         print(f"{status_symbol} {text}")
         print(f"    Filter value: {filter_val}")
-        if filter_val != 'all':
+        if filter_val != "all":
             print(f"    Has matching cards: {has_cards}")
         print()
 
@@ -299,13 +300,13 @@ def main():
     print("INTERACTIVE ELEMENTS")
     print("=" * 70)
 
-    interactive = links.get('interactive_elements', [])
+    interactive = links.get("interactive_elements", [])
     print(f"Found {len(interactive)} interactive elements")
     print()
 
     for element in interactive:
         print(f"[OK] {element['type'].upper()}: {element.get('id', 'N/A')}")
-        if 'placeholder' in element:
+        if "placeholder" in element:
             print(f"    Placeholder: {element['placeholder']}")
         print()
 
@@ -320,7 +321,7 @@ def main():
     print()
 
     all_js_working = all(js_checks.values())
-    all_filters_working = all(v for k, v in filter_results.items() if k != 'all')
+    all_filters_working = all(v for k, v in filter_results.items() if k != "all")
 
     if all_js_working and all_filters_working:
         print("[SUCCESS] All checks passed!")
@@ -331,5 +332,5 @@ def main():
     print("=" * 70)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -27,7 +27,7 @@ AI-driven portfolio optimization engine using modern portfolio theory and machin
 
 ## Topics
 
-`portfolio-optimization` `finance` `machine-learning` `modern-portfolio-theory` 
+`portfolio-optimization` `finance` `machine-learning` `modern-portfolio-theory`
 
 
 

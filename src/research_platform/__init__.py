@@ -26,8 +26,8 @@ https://github.com/Digital-AI-Finance/GithubQuantlet
 __version__ = "2.0.0"
 __author__ = "Digital AI Finance Research"
 
-from .core.orchestrator import PipelineOrchestrator
 from .config.settings import Settings
+from .core.orchestrator import PipelineOrchestrator
 from .models.repository import Repository
 
 __all__ = ["PipelineOrchestrator", "Settings", "Repository"]

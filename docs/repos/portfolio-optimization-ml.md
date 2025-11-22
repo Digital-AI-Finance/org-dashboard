@@ -75,7 +75,7 @@ We develop a novel approach to explain why AdaBoost is a successful classifier. 
 
 ## Topics
 
-`finance` `machine-learning` `portfolio-optimization` `reinforcement-learning` 
+`finance` `machine-learning` `portfolio-optimization` `reinforcement-learning`
 
 
 
