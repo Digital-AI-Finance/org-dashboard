@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T09:51:23.166461",
+      "extracted_at": "2025-11-22T15:15:17.809790",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -47,13 +47,13 @@
         "name": "build_log.json",
         "path": "data/build_log.json",
         "format": ".json",
-        "size_bytes": 3258
+        "size_bytes": 3655
       },
       {
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 4333
+        "size_bytes": 5288
       },
       {
         "name": "citation_report.json",
@@ -71,7 +71,7 @@
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 1976
+        "size_bytes": 1817
       },
       {
         "name": "ml_topic_analysis.json",
@@ -83,7 +83,7 @@
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 59399
+        "size_bytes": 60296
       },
       {
         "name": "repository_health_report.json",
@@ -101,7 +101,7 @@
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 22280
+        "size_bytes": 23109
       },
       {
         "name": "search_index.pkl",
@@ -119,7 +119,7 @@
         "name": "citation_network.json",
         "path": "docs/visualizations/citation_network.json",
         "format": ".json",
-        "size_bytes": 32
+        "size_bytes": 336
       },
       {
         "name": "collaboration_network.json",
@@ -230,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T09:51:24.992971",
+      "extracted_at": "2025-11-22T15:15:20.299251",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T09:51:26.882300",
+      "extracted_at": "2025-11-22T15:15:22.628841",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -314,13 +314,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "preprint",
@@ -350,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T09:51:28.775094",
+      "extracted_at": "2025-11-22T15:15:24.990690",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T09:51:37.233432",
+      "extracted_at": "2025-11-22T15:15:35.552035",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -395,6 +395,12 @@
         "path": ".claude/settings.local.json",
         "format": ".json",
         "size_bytes": 159
+      },
+      {
+        "name": "academic_citations.json",
+        "path": "academic_citations.json",
+        "format": ".json",
+        "size_bytes": 2577
       },
       {
         "name": "package-lock.json",
@@ -437,6 +443,12 @@
         "path": "react-app/src/data/week1Slides_v3.js",
         "format": ".js",
         "size_bytes": 31673
+      },
+      {
+        "name": "verified_statistics.json",
+        "path": "verified_statistics.json",
+        "format": ".json",
+        "size_bytes": 8551
       }
     ]
   },
@@ -680,7 +692,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T09:52:19.347502",
+      "extracted_at": "2025-11-22T15:16:29.526596",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
