@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T20:14:23.846163",
+      "extracted_at": "2025-11-22T20:55:23.101573",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -47,19 +47,19 @@
         "name": "build_log.json",
         "path": "data/build_log.json",
         "format": ".json",
-        "size_bytes": 3782
+        "size_bytes": 3855
       },
       {
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 9108
+        "size_bytes": 10063
       },
       {
         "name": "citation_report.json",
         "path": "data/citation_report.json",
         "format": ".json",
-        "size_bytes": 2414
+        "size_bytes": 2419
       },
       {
         "name": "code_quality_report.json",
@@ -71,13 +71,13 @@
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 1976
+        "size_bytes": 1974
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 12586
+        "size_bytes": 12602
       },
       {
         "name": "repos.json",
@@ -230,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T20:14:26.208570",
+      "extracted_at": "2025-11-22T20:55:24.957038",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T20:14:28.503674",
+      "extracted_at": "2025-11-22T20:55:26.857517",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -314,13 +314,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "preprint",
@@ -350,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T20:14:30.972893",
+      "extracted_at": "2025-11-22T20:55:28.674084",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T20:14:41.503697",
+      "extracted_at": "2025-11-22T20:55:37.253520",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -692,7 +692,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-22T20:15:34.282694",
+      "extracted_at": "2025-11-22T20:56:18.568893",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
