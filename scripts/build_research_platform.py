@@ -15,6 +15,9 @@ from citation_tracker import generate_citation_report
 from search_indexer import build_search_index
 from visualization_builder import generate_all_visualizations
 from community_features import generate_reproducibility_report
+from advanced_visualizations import generate_advanced_visualizations
+from code_quality_analyzer import analyze_all_repositories
+from repository_health_scorer import generate_health_report
 
 
 class ResearchPlatformBuilder:
@@ -145,6 +148,63 @@ class ResearchPlatformBuilder:
             else:
                 results['reproducibility_report'] = result
 
+        # Load reproducibility report for subsequent phases
+        reproducibility_report = None
+        if os.path.exists('data/reproducibility_report.json'):
+            try:
+                with open('data/reproducibility_report.json', 'r', encoding='utf-8') as f:
+                    reproducibility_report = json.load(f)
+            except:
+                pass
+
+        # Phase 6: Code quality analysis
+        if 'code_quality' not in skip_phases:
+            result, error = self.run_phase(
+                "Phase 6: Code Quality Analysis",
+                analyze_all_repositories,
+                repos_data
+            )
+            if error:
+                errors['code_quality'] = error
+            else:
+                results['code_quality'] = result
+
+        # Load code quality report for health scoring
+        code_quality_report = None
+        if os.path.exists('data/code_quality_report.json'):
+            try:
+                with open('data/code_quality_report.json', 'r', encoding='utf-8') as f:
+                    code_quality_report = json.load(f)
+            except:
+                pass
+
+        # Phase 7: Repository health scoring
+        if 'health' not in skip_phases:
+            result, error = self.run_phase(
+                "Phase 7: Repository Health Scoring",
+                generate_health_report,
+                repos_data,
+                code_quality_report
+            )
+            if error:
+                errors['health'] = error
+            else:
+                results['health_report'] = result
+
+        # Phase 8: Advanced visualizations
+        if 'advanced_viz' not in skip_phases:
+            result, error = self.run_phase(
+                "Phase 8: Advanced Visualizations",
+                generate_advanced_visualizations,
+                repos_data,
+                citation_report,
+                reproducibility_report
+            )
+            if error:
+                errors['advanced_viz'] = error
+            else:
+                results['advanced_visualizations'] = result
+
         # Save build log
         self.log("=" * 60)
         self.log("BUILD COMPLETED")
@@ -181,7 +241,8 @@ def main():
     parser.add_argument(
         '--skip',
         nargs='+',
-        choices=['fetch_data', 'citations', 'search', 'visualizations', 'community'],
+        choices=['fetch_data', 'citations', 'search', 'visualizations', 'community',
+                'code_quality', 'health', 'advanced_viz'],
         help='Phases to skip'
     )
     parser.add_argument(

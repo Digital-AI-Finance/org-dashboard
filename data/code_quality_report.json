@@ -1,0 +1,126 @@
+{
+  "generated_at": "2025-11-22T08:34:30.141124",
+  "repositories": {
+    "org-dashboard": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Python",
+      "size_kb": 0
+    },
+    "portfolio-optimization-ml": {
+      "structure": {
+        "structure_score": 50,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": true,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Unknown",
+      "size_kb": 0
+    },
+    "credit-risk-prediction": {
+      "structure": {
+        "structure_score": 50,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": true,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Unknown",
+      "size_kb": 0
+    },
+    "market-microstructure": {
+      "structure": {
+        "structure_score": 50,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": true,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Unknown",
+      "size_kb": 0
+    },
+    "Green-Finance": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "TeX",
+      "size_kb": 0
+    },
+    "Natural-Language-Processing": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Jupyter Notebook",
+      "size_kb": 0
+    }
+  },
+  "summary": {
+    "total_repositories": 6,
+    "average_structure_score": 45.0,
+    "grades": {
+      "C": 6
+    }
+  }
+}
