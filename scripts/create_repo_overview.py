@@ -28,6 +28,7 @@ def categorize_repository(repo: Dict[str, Any]) -> str:
     """
     Categorize repository based on topics and description.
     Returns: finance, machine-learning, education, research-tools
+    Priority: Tools > Education > ML/AI > Finance (most specific to most general)
     """
     topics = [t.lower() for t in repo.get('topics', [])]
     description = repo.get('description', '').lower()
@@ -36,21 +37,21 @@ def categorize_repository(repo: Dict[str, Any]) -> str:
     # Combine all text for analysis
     text = ' '.join(topics + [description, name])
 
-    # Finance-related
-    if any(kw in text for kw in ['finance', 'trading', 'portfolio', 'risk', 'credit', 'market']):
-        return 'finance'
+    # Research Tools / Infrastructure (highest priority - most specific)
+    if any(kw in text for kw in ['dashboard', 'automated', 'monitoring', 'organization', 'platform']):
+        return 'research-tools'
 
-    # Machine Learning / AI
-    if any(kw in text for kw in ['machine-learning', 'neural', 'reinforcement', 'learning', 'prediction', 'model']):
-        return 'machine-learning'
-
-    # Education / Course
-    if any(kw in text for kw in ['course', 'curriculum', 'pedagogy', 'week', 'nlp', 'academic', 'slides']):
+    # Education / Course (second priority)
+    if any(kw in text for kw in ['course', 'curriculum', 'pedagogy', 'week', 'academic', 'slides', 'certificate']):
         return 'education'
 
-    # Research Tools / Infrastructure
-    if any(kw in text for kw in ['dashboard', 'automated', 'monitoring', 'organization']):
-        return 'research-tools'
+    # Machine Learning / AI (third priority - includes ML finance applications)
+    if any(kw in text for kw in ['machine-learning', 'machine learning', 'neural', 'reinforcement', 'prediction', 'deep learning', 'ml', 'explainable-ai', 'ai']):
+        return 'machine-learning'
+
+    # Finance-related (lowest priority - most general, many repos touch finance)
+    if any(kw in text for kw in ['finance', 'trading', 'portfolio', 'risk', 'credit', 'market', 'microstructure']):
+        return 'finance'
 
     return 'other'
 
@@ -354,9 +355,9 @@ def create_repository_grid_html(repos: List[Dict[str, Any]],
         name = repo.get('name', 'Unknown')
         description = repo.get('description', 'No description available')[:150]
         language = repo.get('language', 'Unknown')
-        stars = repo.get('stargazers_count', 0)
-        forks = repo.get('forks_count', 0)
-        url = repo.get('html_url', '#')
+        stars = repo.get('stars', 0)  # Changed from stargazers_count
+        forks = repo.get('forks', 0)  # Changed from forks_count
+        url = repo.get('url', '#')  # Changed from html_url
         topics = repo.get('topics', [])[:5]  # Show max 5 topics
         updated = repo.get('updated_at', '')[:10]  # Just the date
 
@@ -504,8 +505,8 @@ def create_interactive_network(repos: List[Dict[str, Any]],
         G.add_node(repo['name'],
                    description=repo.get('description', '')[:100],
                    language=repo.get('language', 'Unknown'),
-                   stars=repo.get('stargazers_count', 0),
-                   url=repo.get('html_url', ''))
+                   stars=repo.get('stars', 0),
+                   url=repo.get('url', ''))
 
     # Add edges based on shared topics
     for i, repo1 in enumerate(repos):
