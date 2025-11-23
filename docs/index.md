@@ -97,7 +97,7 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
-| [org-dashboard](repos/org-dashboard.md) | 2025-11-22 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-11-23 |
 | [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
 | [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-22 |
 | [market-microstructure](repos/market-microstructure.md) | 2025-11-21 |
