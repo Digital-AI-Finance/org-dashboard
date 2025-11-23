@@ -1,16 +1,29 @@
 {
-  "generated_at": "2025-11-22T21:44:00.743106",
+  "generated_at": "2025-11-23T03:20:36.277908",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
       {
+        "id": "github-actions[bot]",
+        "repos": [
+          "org-dashboard"
+        ],
+        "repo_count": 1,
+        "commit_count": 10,
+        "first_commit": "2025-11-21T22:02:18+00:00",
+        "last_commit": "2025-11-22T21:44:02+00:00",
+        "emails": [
+          "github-actions[bot]@users.noreply.github.com"
+        ]
+      },
+      {
         "id": "josterri",
         "repos": [
           "credit-risk-prediction",
-          "portfolio-optimization-ml",
           "Natural-Language-Processing",
-          "Green-Finance",
           "market-microstructure",
+          "Green-Finance",
+          "portfolio-optimization-ml",
           "org-dashboard"
         ],
         "repo_count": 6,
@@ -20,19 +33,6 @@
         "emails": [
           "josterri@users.noreply.github.com",
           "josterri@googlemail.com"
-        ]
-      },
-      {
-        "id": "github-actions[bot]",
-        "repos": [
-          "org-dashboard"
-        ],
-        "repo_count": 1,
-        "commit_count": 9,
-        "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-22T20:56:32+00:00",
-        "emails": [
-          "github-actions[bot]@users.noreply.github.com"
         ]
       }
     ],
@@ -50,11 +50,11 @@
     "average_degree": 1.0,
     "top_central_authors": [
       {
-        "author": "josterri",
+        "author": "github-actions[bot]",
         "centrality": 1.0
       },
       {
-        "author": "github-actions[bot]",
+        "author": "josterri",
         "centrality": 1.0
       }
     ],
@@ -66,14 +66,14 @@
       }
     ],
     "degree_centrality": {
-      "josterri": 1.0,
-      "github-actions[bot]": 1.0
+      "github-actions[bot]": 1.0,
+      "josterri": 1.0
     }
   },
   "summary": {
     "total_authors": 2,
     "total_collaborations": 1,
-    "total_commits": 64,
+    "total_commits": 65,
     "repositories_analyzed": 6
   },
   "visualizations": {

@@ -42,9 +42,9 @@ This repository includes 16 dataset(s):
 
 | [data](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data) |  | 0.0 KB |
 
-| [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 3.77 KB |
+| [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 3.76 KB |
 
-| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 10.76 KB |
+| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 11.69 KB |
 
 | [citation_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_report.json) | .json | 2.36 KB |
 
