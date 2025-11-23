@@ -69,7 +69,7 @@ Neural network models for credit risk prediction with explainable AI
 
 ## Topics
 
-`credit-risk` `explainable-ai` `finance` `neural-networks`
+`credit-risk` `explainable-ai` `finance` `neural-networks` 
 
 
 

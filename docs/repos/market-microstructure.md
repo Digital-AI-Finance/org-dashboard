@@ -19,7 +19,7 @@ High-frequency trading analysis and market microstructure research
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1111/jofi.2024.12345](https://doi.org/10.1111/jofi.2024.12345) |
+| DOI | [10.5281/zenodo.1234567)](https://doi.org/10.5281/zenodo.1234567)) |
 
 
 
@@ -36,7 +36,7 @@ High-frequency trading analysis and market microstructure research
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.5281/zenodo.1234567)](https://doi.org/10.5281/zenodo.1234567)) |
+| DOI | [10.1111/jofi.2024.12345](https://doi.org/10.1111/jofi.2024.12345) |
 
 
 
@@ -86,7 +86,7 @@ High-frequency trading analysis and market microstructure research
 
 ## Topics
 
-`finance` `high-frequency-trading` `market-microstructure` `time-series`
+`finance` `high-frequency-trading` `market-microstructure` `time-series` 
 
 
 

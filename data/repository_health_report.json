@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-22T20:56:23.000434",
+  "generated_at": "2025-11-23T03:20:28.960794",
   "repositories": {
     "org-dashboard": {
       "overall_score": 53.5,
@@ -73,7 +73,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 0,
+          "days_since_push": 1,
           "activity_score": 100,
           "archived": false
         },
@@ -131,7 +131,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 0,
+          "days_since_push": 1,
           "activity_score": 100,
           "archived": false
         },
@@ -189,7 +189,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 0,
+          "days_since_push": 1,
           "activity_score": 100,
           "archived": false
         },
