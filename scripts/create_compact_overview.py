@@ -5,36 +5,41 @@ Optimized for information density and research content discovery.
 """
 
 import json
-from typing import Dict, List, Any
+from datetime import datetime
+from typing import Any
 
 
-def load_repos() -> List[Dict[str, Any]]:
+def load_repos() -> list[dict[str, Any]]:
     """Load repository data."""
-    with open('data/repos.json', 'r', encoding='utf-8') as f:
+    with open("data/repos.json", encoding="utf-8") as f:
         return json.load(f)
 
 
-def categorize_repo(repo: Dict[str, Any]) -> str:
+def categorize_repo(repo: dict[str, Any]) -> str:
     """Content-based categorization."""
     text = f"{repo.get('name', '')} {repo.get('description', '')} {' '.join(repo.get('topics', []))}".lower()
 
-    if any(k in text for k in ['dashboard', 'automated', 'monitoring', 'platform']):
-        return 'tools'
-    if any(k in text for k in ['course', 'curriculum', 'pedagogy', 'academic', 'slides']):
-        return 'education'
-    if any(k in text for k in ['machine-learning', 'neural', 'reinforcement', 'prediction', 'ml', 'ai']):
-        return 'ml-ai'
-    if any(k in text for k in ['finance', 'trading', 'portfolio', 'risk', 'market']):
-        return 'finance'
-    return 'other'
+    if any(k in text for k in ["dashboard", "automated", "monitoring", "platform"]):
+        return "tools"
+    if any(k in text for k in ["course", "curriculum", "pedagogy", "academic", "slides"]):
+        return "education"
+    if any(
+        k in text for k in ["machine-learning", "neural", "reinforcement", "prediction", "ml", "ai"]
+    ):
+        return "ml-ai"
+    if any(k in text for k in ["finance", "trading", "portfolio", "risk", "market"]):
+        return "finance"
+    return "other"
 
 
-def create_compact_overview(repos: List[Dict[str, Any]],
-                             output_path: str = 'docs/visualizations/repository_overview_compact.html') -> str:
+def create_compact_overview(
+    repos: list[dict[str, Any]],
+    output_path: str = "docs/visualizations/repository_overview_compact.html",
+) -> str:
     """Create compact, content-dense repository overview."""
 
     # Sort and categorize
-    sorted_repos = sorted(repos, key=lambda x: x.get('updated_at', ''), reverse=True)
+    sorted_repos = sorted(repos, key=lambda x: x.get("updated_at", ""), reverse=True)
 
     # Count categories
     cats = {}
@@ -272,6 +277,54 @@ def create_compact_overview(repos: List[Dict[str, Any]],
             .controls {{ flex-direction: column; }}
             .search-box {{ width: 100%; }}
         }}
+
+        .generation-footer {{
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-top: 3px solid #4299e1;
+        }}
+
+        .generation-footer h4 {{
+            font-size: 0.9rem;
+            color: #2d3748;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }}
+
+        .generation-info {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }}
+
+        .info-item {{
+            font-size: 0.8rem;
+            color: #4a5568;
+        }}
+
+        .info-item strong {{
+            color: #2d3748;
+        }}
+
+        .info-item a {{
+            color: #4299e1;
+            text-decoration: none;
+        }}
+
+        .info-item a:hover {{
+            text-decoration: underline;
+        }}
+
+        .info-item code {{
+            background: #edf2f7;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', Consolas, monospace;
+            font-size: 0.75rem;
+        }}
     </style>
 </head>
 <body>
@@ -297,26 +350,26 @@ def create_compact_overview(repos: List[Dict[str, Any]],
 
     # Generate compact cards
     for repo in sorted_repos:
-        name = repo.get('name', 'Unknown')
-        desc = repo.get('description', 'No description')
-        url = repo.get('url', '#')
-        topics = repo.get('topics', [])[:6]
-        stars = repo.get('stars', 0)
-        forks = repo.get('forks', 0)
-        updated = repo.get('updated_at', '')[:10]
-        lang = repo.get('language', 'Unknown')
+        name = repo.get("name", "Unknown")
+        desc = repo.get("description", "No description")
+        url = repo.get("url", "#")
+        topics = repo.get("topics", [])[:6]
+        stars = repo.get("stars", 0)
+        forks = repo.get("forks", 0)
+        updated = repo.get("updated_at", "")[:10]
+        lang = repo.get("language", "Unknown")
 
         cat = categorize_repo(repo)
         cat_labels = {
-            'finance': 'Finance',
-            'ml-ai': 'ML/AI',
-            'education': 'Education',
-            'tools': 'Tools',
-            'other': 'Other'
+            "finance": "Finance",
+            "ml-ai": "ML/AI",
+            "education": "Education",
+            "tools": "Tools",
+            "other": "Other",
         }
-        cat_label = cat_labels.get(cat, 'Other')
+        cat_label = cat_labels.get(cat, "Other")
 
-        topics_html = ''.join(f'<span class="topic">{t}</span>' for t in topics)
+        topics_html = "".join(f'<span class="topic">{t}</span>' for t in topics)
 
         html += f"""
         <div class="repo-card" data-category="{cat}" data-search="{name.lower()} {desc.lower()} {' '.join(topics).lower()}" onclick="window.open('{url}', '_blank')">
@@ -342,9 +395,41 @@ def create_compact_overview(repos: List[Dict[str, Any]],
             </div>
         </div>"""
 
-    html += """
+    # Get generation timestamp
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Close repo-grid and add footer (with f-string for timestamp)
+    html += f"""
     </div>
 
+    <div class="generation-footer">
+        <h4>How This Page Was Generated</h4>
+        <div class="generation-info">
+            <div class="info-item">
+                <strong>Method:</strong> Auto-generated by Python
+            </div>
+            <div class="info-item">
+                <strong>Script:</strong> <code>scripts/create_compact_overview.py</code>
+            </div>
+            <div class="info-item">
+                <strong>Data Source:</strong> <code>data/repos.json</code>
+            </div>
+            <div class="info-item">
+                <strong>Generated:</strong> {timestamp}
+            </div>
+            <div class="info-item">
+                <strong>Source Code:</strong>
+                <a href="https://github.com/Digital-AI-Finance/org-dashboard/blob/main/scripts/create_compact_overview.py" target="_blank">View on GitHub</a>
+            </div>
+            <div class="info-item">
+                <strong>Process:</strong> GitHub API -> JSON -> Python -> HTML
+            </div>
+        </div>
+    </div>
+"""
+
+    # JavaScript (regular string - no f-string to avoid escaping curly braces)
+    html += """
     <script>
         const cards = document.querySelectorAll('.repo-card');
         const search = document.getElementById('search');
@@ -377,18 +462,18 @@ def create_compact_overview(repos: List[Dict[str, Any]],
 </html>"""
 
     # Save
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
 
     print(f"Compact overview: {output_path}")
     return output_path
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     repos = load_repos()
     create_compact_overview(repos)
 
     # Also update the main overview
     print("\nUpdating main repository_overview.html to compact version...")
-    create_compact_overview(repos, 'docs/visualizations/repository_overview.html')
+    create_compact_overview(repos, "docs/visualizations/repository_overview.html")
     print("Done!")
