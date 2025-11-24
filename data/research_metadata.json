@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-23T06:55:10.797533",
+      "extracted_at": "2025-11-24T03:16:04.958822",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -47,13 +47,13 @@
         "name": "build_log.json",
         "path": "data/build_log.json",
         "format": ".json",
-        "size_bytes": 3855
+        "size_bytes": 3903
       },
       {
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 12928
+        "size_bytes": 13883
       },
       {
         "name": "citation_report.json",
@@ -83,7 +83,7 @@
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 60638
+        "size_bytes": 60639
       },
       {
         "name": "repository_health_report.json",
@@ -230,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-23T06:55:12.748863",
+      "extracted_at": "2025-11-24T03:16:06.913691",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-23T06:55:14.734537",
+      "extracted_at": "2025-11-24T03:16:08.868078",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -350,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-23T06:55:16.704322",
+      "extracted_at": "2025-11-24T03:16:11.461519",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-23T06:55:25.513277",
+      "extracted_at": "2025-11-24T03:16:20.117927",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -692,7 +692,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-23T06:56:10.406767",
+      "extracted_at": "2025-11-24T03:17:04.479102",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },

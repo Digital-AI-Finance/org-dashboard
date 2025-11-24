@@ -111,6 +111,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-24T03:17:08.785972",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "portfolio-optimization-ml": [
@@ -207,6 +214,13 @@
     },
     {
       "timestamp": "2025-11-23T06:56:14.801509",
+      "external_citations": 16,
+      "publications_count": 2,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-24T03:17:08.785972",
       "external_citations": 16,
       "publications_count": 2,
       "stars": 0,
@@ -311,6 +325,13 @@
       "publications_count": 2,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-24T03:17:08.785972",
+      "external_citations": 0,
+      "publications_count": 2,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "market-microstructure": [
@@ -407,6 +428,13 @@
     },
     {
       "timestamp": "2025-11-23T06:56:14.801509",
+      "external_citations": 0,
+      "publications_count": 3,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-24T03:17:08.785972",
       "external_citations": 0,
       "publications_count": 3,
       "stars": 0,
@@ -511,6 +539,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-24T03:17:08.785972",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "Natural-Language-Processing": [
@@ -607,6 +642,13 @@
     },
     {
       "timestamp": "2025-11-23T06:56:14.801509",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-24T03:17:08.785972",
       "external_citations": 0,
       "publications_count": 0,
       "stars": 0,

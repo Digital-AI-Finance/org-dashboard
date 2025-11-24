@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-23T06:56:14.999399",
+  "generated_at": "2025-11-24T03:17:09.013043",
   "repositories": {
     "org-dashboard": {
       "overall_score": 53.5,
@@ -73,7 +73,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -131,7 +131,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -189,7 +189,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -247,7 +247,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 0,
+          "days_since_push": 1,
           "activity_score": 100,
           "archived": false
         },
@@ -305,7 +305,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 0,
+          "days_since_push": 1,
           "activity_score": 100,
           "archived": false
         },
