@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 9484,
+    "size": 9507,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-24T11:43:31+00:00",
-    "pushed_at": "2025-11-24T11:43:29+00:00",
+    "updated_at": "2025-11-24T13:12:27+00:00",
+    "pushed_at": "2025-11-24T13:12:22+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:37:43.644735",
+        "extracted_at": "2025-11-24T13:13:15.380693",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -77,61 +77,61 @@
           "name": "build_log.json",
           "path": "data/build_log.json",
           "format": ".json",
-          "size_bytes": 3903
+          "size_bytes": 3832
         },
         {
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 15793
+          "size_bytes": 15794
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 2419
+          "size_bytes": 2420
         },
         {
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 3089
+          "size_bytes": 3090
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 1975
+          "size_bytes": 1978
         },
         {
           "name": "ml_topic_analysis.json",
           "path": "data/ml_topic_analysis.json",
           "format": ".json",
-          "size_bytes": 12591
+          "size_bytes": 12587
         },
         {
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 60638
+          "size_bytes": 60639
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 9286
+          "size_bytes": 9287
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 8888
+          "size_bytes": 8889
         },
         {
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 23427
+          "size_bytes": 23428
         },
         {
           "name": "search_index.pkl",
@@ -143,7 +143,7 @@
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 1872
+          "size_bytes": 1873
         },
         {
           "name": "citation_network.json",
@@ -296,7 +296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:37:46.444221",
+        "extracted_at": "2025-11-24T13:13:17.447190",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -390,7 +390,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:37:49.217845",
+        "extracted_at": "2025-11-24T13:13:19.483604",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -488,7 +488,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:37:51.973820",
+        "extracted_at": "2025-11-24T13:13:21.620682",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -554,7 +554,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:38:04.608384",
+        "extracted_at": "2025-11-24T13:13:30.789842",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -892,7 +892,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:39:06.946223",
+        "extracted_at": "2025-11-24T13:14:13.942317",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
