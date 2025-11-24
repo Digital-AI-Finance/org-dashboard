@@ -83,12 +83,12 @@ class Repository:
         """Create from PyGithub repository object."""
         try:
             topics = list(github_repo.get_topics())
-        except:
+        except Exception:
             topics = []
 
         try:
             contributors_count = github_repo.get_contributors().totalCount
-        except:
+        except Exception:
             contributors_count = 0
 
         return cls(
@@ -194,6 +194,92 @@ class Repository:
             score += weights["issues_ratio"] * max(0, 1 - issues_ratio)
 
         return min(score, 1.0)
+
+    def calculate_health_score(self) -> dict[str, Any]:
+        """
+        Calculate detailed health scores for the repository.
+
+        Returns a dictionary with overall score and breakdown by category.
+        """
+        import math
+
+        scores = {
+            "activity": 0.0,
+            "community": 0.0,
+            "documentation": 0.0,
+            "code_quality": 0.0,
+        }
+
+        # Activity score (based on recency and frequency)
+        if self.days_since_update < 30:
+            scores["activity"] = 25.0
+        elif self.days_since_update < 90:
+            scores["activity"] = 20.0
+        elif self.days_since_update < 180:
+            scores["activity"] = 15.0
+        elif self.days_since_update < 365:
+            scores["activity"] = 10.0
+        else:
+            scores["activity"] = 5.0
+
+        # Community score (based on stars, forks, contributors)
+        community_score = 0.0
+        if self.stars > 0:
+            community_score += min(math.log10(self.stars + 1) * 5, 10)
+        if self.forks > 0:
+            community_score += min(math.log10(self.forks + 1) * 3, 7)
+        if self.contributors_count > 0:
+            community_score += min(self.contributors_count, 8)
+        scores["community"] = min(community_score, 25.0)
+
+        # Documentation score
+        doc_score = 0.0
+        if self.description and len(self.description) > 20:
+            doc_score += 10.0
+        if self.homepage:
+            doc_score += 5.0
+        if self.has_wiki:
+            doc_score += 5.0
+        if len(self.topics) > 0:
+            doc_score += min(len(self.topics) * 1.5, 5.0)
+        scores["documentation"] = min(doc_score, 25.0)
+
+        # Code quality score (proxy based on available metrics)
+        quality_score = 0.0
+        if self.has_issues:
+            quality_score += 5.0
+        if not self.archived:
+            quality_score += 5.0
+        if not self.disabled:
+            quality_score += 5.0
+        # Lower open issues ratio is better
+        if self.stars > 0:
+            issues_ratio = self.open_issues / (self.stars + 1)
+            quality_score += max(0, 10 - issues_ratio * 20)
+        scores["code_quality"] = min(quality_score, 25.0)
+
+        overall = sum(scores.values())
+
+        return {
+            "overall": overall,
+            "scores": scores,
+            "max_score": 100.0,
+            "grade": self._score_to_grade(overall),
+        }
+
+    @staticmethod
+    def _score_to_grade(score: float) -> str:
+        """Convert numeric score to letter grade."""
+        if score >= 90:
+            return "A"
+        elif score >= 80:
+            return "B"
+        elif score >= 70:
+            return "C"
+        elif score >= 60:
+            return "D"
+        else:
+            return "F"
 
     def __str__(self) -> str:
         """String representation."""

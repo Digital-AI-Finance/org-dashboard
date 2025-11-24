@@ -10,6 +10,8 @@ import re
 from datetime import datetime
 from typing import Any
 
+from viz_footer import inject_footer_into_html
+
 try:
     import numpy as np
     from sklearn.decomposition import NMF, LatentDirichletAllocation
@@ -266,6 +268,14 @@ class MLTopicModeler:
             output_dir, f'topic_distribution_{topic_results["method"].lower()}.html'
         )
         fig.write_html(output_path)
+        # Inject generation footer
+        with open(output_path, encoding="utf-8") as f:
+            html_content = f.read()
+        html_content = inject_footer_into_html(
+            html_content, "ml_topic_modeling.py", "data/ml_topic_analysis.json"
+        )
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
         return output_path
 
     def create_topic_wordcloud_chart(self, topic_results: dict[str, Any], output_dir: str) -> str:
@@ -320,6 +330,14 @@ class MLTopicModeler:
             output_dir, f'topic_words_{topic_results["method"].lower()}.html'
         )
         fig.write_html(output_path)
+        # Inject generation footer
+        with open(output_path, encoding="utf-8") as f:
+            html_content = f.read()
+        html_content = inject_footer_into_html(
+            html_content, "ml_topic_modeling.py", "data/ml_topic_analysis.json"
+        )
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
         return output_path
 
 

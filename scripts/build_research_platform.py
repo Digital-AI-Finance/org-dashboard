@@ -15,7 +15,6 @@ from code_quality_analyzer import analyze_all_repositories
 from collaboration_network_analyzer import analyze_collaboration_network
 from community_features import generate_reproducibility_report
 from create_landing_page_viz import generate_landing_visualizations
-from create_compact_overview import create_compact_overview
 
 # Import all phase modules
 from fetch_org_data_research import main as fetch_data

@@ -61,4 +61,3 @@ class CodeQualityAnalyzer(BaseAnalyzer):
         return all(key in results for key in required)
 
 
-from datetime import datetime

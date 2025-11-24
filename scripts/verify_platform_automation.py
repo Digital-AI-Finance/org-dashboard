@@ -224,7 +224,7 @@ def verify_no_manual_data() -> tuple[bool, list[str]]:
         # Check timestamp
         with open(build_log, encoding="utf-8") as f:
             log_data = json.load(f)
-            timestamp = log_data.get("timestamp", "N/A")
+            log_data.get("timestamp", "N/A")
             phases = log_data.get("phases_completed", 0)
 
             if phases < 9:

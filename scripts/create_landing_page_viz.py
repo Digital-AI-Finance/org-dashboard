@@ -8,6 +8,8 @@ import json
 import os
 from typing import Any
 
+from viz_footer import inject_footer_into_html
+
 try:
     import plotly.express as px
     import plotly.graph_objects as go
@@ -16,6 +18,9 @@ try:
 except ImportError:
     print("Plotly not installed. Install with: pip install plotly")
     PLOTLY_AVAILABLE = False
+
+SCRIPT_NAME = "create_landing_page_viz.py"
+DATA_SOURCE = "data/ml_topic_analysis.json"
 
 
 def create_topic_bubble_chart(
@@ -106,15 +111,15 @@ def create_topic_bubble_chart(
                 y=[b["y"] for b in bubble_data],
                 z=[b["z"] for b in bubble_data],
                 mode="markers+text",
-                marker=dict(
-                    size=[max(15, b["repo_count"] * 20) for b in bubble_data],
-                    color=colors,
-                    opacity=0.8,
-                    line=dict(color="white", width=2),
-                ),
+                marker={
+                    "size": [max(15, b["repo_count"] * 20) for b in bubble_data],
+                    "color": colors,
+                    "opacity": 0.8,
+                    "line": {"color": "white", "width": 2},
+                },
                 text=[b["label"] for b in bubble_data],
                 textposition="top center",
-                textfont=dict(size=10, color="black"),
+                textfont={"size": 10, "color": "black"},
                 hovertext=[b["hover_text"] for b in bubble_data],
                 hoverinfo="text",
             )
@@ -129,17 +134,17 @@ def create_topic_bubble_chart(
             "xanchor": "center",
             "font": {"size": 24, "color": "#3f51b5"},
         },
-        scene=dict(
-            xaxis=dict(title="Topic Space", showgrid=True, gridcolor="lightgray"),
-            yaxis=dict(title="Repository Count", showgrid=True, gridcolor="lightgray"),
-            zaxis=dict(title="Topic Strength", showgrid=True, gridcolor="lightgray"),
-            camera=dict(eye=dict(x=1.5, y=1.5, z=1.3)),
-            bgcolor="rgba(240, 240, 250, 0.5)",
-        ),
+        scene={
+            "xaxis": {"title": "Topic Space", "showgrid": True, "gridcolor": "lightgray"},
+            "yaxis": {"title": "Repository Count", "showgrid": True, "gridcolor": "lightgray"},
+            "zaxis": {"title": "Topic Strength", "showgrid": True, "gridcolor": "lightgray"},
+            "camera": {"eye": {"x": 1.5, "y": 1.5, "z": 1.3}},
+            "bgcolor": "rgba(240, 240, 250, 0.5)",
+        },
         showlegend=False,
         hovermode="closest",
         height=600,
-        margin=dict(l=0, r=0, t=80, b=0),
+        margin={"l": 0, "r": 0, "t": 80, "b": 0},
         paper_bgcolor="white",
         plot_bgcolor="white",
     )
@@ -153,13 +158,20 @@ def create_topic_bubble_chart(
         x=0.5,
         y=-0.05,
         showarrow=False,
-        font=dict(size=11, color="gray"),
+        font={"size": 11, "color": "gray"},
         xanchor="center",
     )
 
     # Save to HTML
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     fig.write_html(output_path, config={"displayModeBar": True, "displaylogo": False})
+
+    # Inject generation footer
+    with open(output_path, encoding="utf-8") as f:
+        html_content = f.read()
+    html_content = inject_footer_into_html(html_content, SCRIPT_NAME, DATA_SOURCE)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
 
     print(f"Landing page visualization saved to: {output_path}")
     return output_path
@@ -234,8 +246,8 @@ def create_2d_bubble_chart(
 
     fig.update_layout(
         title=f"Research Topics Overview ({method.upper()})",
-        xaxis=dict(title="", showticklabels=False, showgrid=False),
-        yaxis=dict(title="Repository Count"),
+        xaxis={"title": "", "showticklabels": False, "showgrid": False},
+        yaxis={"title": "Repository Count"},
         height=500,
         showlegend=True,
         legend_title_text="Domain",
@@ -244,6 +256,13 @@ def create_2d_bubble_chart(
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     fig.write_html(output_path, config={"displayModeBar": True, "displaylogo": False})
+
+    # Inject generation footer
+    with open(output_path, encoding="utf-8") as f:
+        html_content = f.read()
+    html_content = inject_footer_into_html(html_content, SCRIPT_NAME, DATA_SOURCE)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
 
     print(f"2D bubble chart saved to: {output_path}")
     return output_path

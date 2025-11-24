@@ -33,7 +33,6 @@ class CodeQualityAnalyzer:
 
         lines = content.split("\n")
         in_docstring = False
-        docstring_char = None
 
         for line in lines:
             stripped = line.strip()
@@ -47,7 +46,6 @@ class CodeQualityAnalyzer:
             if '"""' in line or "'''" in line:
                 if not in_docstring:
                     in_docstring = True
-                    docstring_char = '"""' if '"""' in line else "'''"
                     metrics["docstring_lines"] += 1
                 else:
                     metrics["docstring_lines"] += 1

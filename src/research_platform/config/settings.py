@@ -215,12 +215,17 @@ class Settings:
         """Convert settings to dictionary."""
         data = asdict(self)
 
-        # Convert Path objects to strings
-        for key, value in data.items():
-            if isinstance(value, Path):
-                data[key] = str(value)
+        def convert_paths(obj):
+            """Recursively convert Path objects to strings."""
+            if isinstance(obj, dict):
+                return {k: convert_paths(v) for k, v in obj.items()}
+            elif isinstance(obj, list):
+                return [convert_paths(item) for item in obj]
+            elif isinstance(obj, Path):
+                return str(obj)
+            return obj
 
-        return data
+        return convert_paths(data)
 
     def save_to_yaml(self, path: Path) -> None:
         """Save settings to YAML file."""

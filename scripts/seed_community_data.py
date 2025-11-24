@@ -207,7 +207,7 @@ def seed_community_reviews(report):
 
 def update_reproducibility_scores(report):
     """Update reproducibility scores based on community data."""
-    for repo_name, repo_data in report["repositories"].items():
+    for _repo_name, repo_data in report["repositories"].items():
         score_data = repo_data["reproducibility_score"]
 
         # Boost community score if there are successful replications

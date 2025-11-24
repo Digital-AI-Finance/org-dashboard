@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-24T03:17:09.013043",
+  "generated_at": "2025-11-24T13:39:20.739778",
   "repositories": {
     "org-dashboard": {
       "overall_score": 53.5,
@@ -305,7 +305,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },

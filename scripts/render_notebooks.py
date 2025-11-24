@@ -269,7 +269,7 @@ def main():
     # by the main data fetching script
 
     # Example: render a single notebook
-    renderer = NotebookRenderer(output_dir="test_output/notebooks")
+    NotebookRenderer(output_dir="test_output/notebooks")
 
     # You would need an actual notebook file to test
     # notebook_path = 'path/to/notebook.ipynb'

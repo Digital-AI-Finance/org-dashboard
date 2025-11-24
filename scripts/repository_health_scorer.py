@@ -162,7 +162,7 @@ class RepositoryHealthScorer:
         """Score based on popularity metrics."""
         stars = repo.get("stars", 0)
         forks = repo.get("forks", 0)
-        watchers = repo.get("watchers", stars)  # Often same as stars
+        repo.get("watchers", stars)  # Often same as stars
 
         # Logarithmic scoring for stars
         if stars >= 100:

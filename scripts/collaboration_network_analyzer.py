@@ -10,6 +10,8 @@ from collections import defaultdict
 from datetime import datetime
 from typing import Any
 
+from viz_footer import inject_footer_into_html
+
 try:
     from github import Github, GithubException
 
@@ -278,7 +280,7 @@ class CollaborationNetworkAnalyzer:
                     x=[x0, x1, None],
                     y=[y0, y1, None],
                     mode="lines",
-                    line=dict(width=width, color="rgba(125,125,125,0.3)"),
+                    line={"width": width, "color": "rgba(125,125,125,0.3)"},
                     hoverinfo="text",
                     text=f"{edge['source']} ↔ {edge['target']}<br>Shared repos: {edge['weight']}",
                     showlegend=False,
@@ -318,17 +320,17 @@ class CollaborationNetworkAnalyzer:
             x=node_x,
             y=node_y,
             mode="markers+text",
-            marker=dict(
-                size=node_size,
-                color=node_color,
-                colorscale="Viridis",
-                showscale=True,
-                colorbar=dict(title="Repositories", thickness=15, len=0.7),
-                line=dict(width=2, color="white"),
-            ),
+            marker={
+                "size": node_size,
+                "color": node_color,
+                "colorscale": "Viridis",
+                "showscale": True,
+                "colorbar": {"title": "Repositories", "thickness": 15, "len": 0.7},
+                "line": {"width": 2, "color": "white"},
+            },
             text=[node["id"] for node in nodes if node["id"] in positions],
             textposition="top center",
-            textfont=dict(size=10),
+            textfont={"size": 10},
             hovertext=node_text,
             hoverinfo="text",
             showlegend=False,
@@ -341,8 +343,8 @@ class CollaborationNetworkAnalyzer:
                 title="Collaboration Network (from Git Commit History)",
                 showlegend=False,
                 hovermode="closest",
-                xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                xaxis={"showgrid": False, "zeroline": False, "showticklabels": False},
+                yaxis={"showgrid": False, "zeroline": False, "showticklabels": False},
                 plot_bgcolor="white",
                 height=600,
             ),
@@ -350,6 +352,14 @@ class CollaborationNetworkAnalyzer:
 
         output_path = os.path.join(output_dir, "collaboration_network_real.html")
         fig.write_html(output_path)
+        # Inject generation footer
+        with open(output_path, encoding="utf-8") as f:
+            html_content = f.read()
+        html_content = inject_footer_into_html(
+            html_content, "collaboration_network_analyzer.py", "data/collaboration_network.json"
+        )
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
         return output_path
 
     def create_author_metrics_chart(self, network_data: dict[str, Any], output_dir: str) -> str:
@@ -379,6 +389,14 @@ class CollaborationNetworkAnalyzer:
 
         output_path = os.path.join(output_dir, "author_centrality.html")
         fig.write_html(output_path)
+        # Inject generation footer
+        with open(output_path, encoding="utf-8") as f:
+            html_content = f.read()
+        html_content = inject_footer_into_html(
+            html_content, "collaboration_network_analyzer.py", "data/collaboration_network.json"
+        )
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
         return output_path
 
 

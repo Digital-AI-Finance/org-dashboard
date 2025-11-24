@@ -8,6 +8,8 @@ import json
 import os
 from typing import Any
 
+from viz_footer import inject_footer_into_html
+
 try:
     import plotly.graph_objects as go
     from plotly.subplots import make_subplots
@@ -376,7 +378,7 @@ def create_repository_grid_html(
     for repo in sorted_repos:
         name = repo.get("name", "Unknown")
         description = repo.get("description", "No description available")[:150]
-        language = repo.get("language", "Unknown")
+        repo.get("language", "Unknown")
         stars = repo.get("stars", 0)  # Changed from stargazers_count
         forks = repo.get("forks", 0)  # Changed from forks_count
         url = repo.get("url", "#")  # Changed from html_url
@@ -564,7 +566,7 @@ def create_interactive_network(
             x=[x0, x1, None],
             y=[y0, y1, None],
             mode="lines",
-            line=dict(width=edge[2]["weight"], color="#ddd"),
+            line={"width": edge[2]["weight"], "color": "#ddd"},
             hoverinfo="text",
             text=f"Shared topics: {', '.join(edge[2]['topics'])}",
             showlegend=False,
@@ -610,7 +612,7 @@ def create_interactive_network(
         text=[node[0] for node in G.nodes()],
         textposition="top center",
         hovertext=node_text,
-        marker=dict(size=node_sizes, color=node_colors, line=dict(width=2, color="white")),
+        marker={"size": node_sizes, "color": node_colors, "line": {"width": 2, "color": "white"}},
         customdata=node_urls,
         showlegend=False,
     )
@@ -627,15 +629,24 @@ def create_interactive_network(
         },
         showlegend=False,
         hovermode="closest",
-        margin=dict(l=0, r=0, t=80, b=0),
-        xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+        margin={"l": 0, "r": 0, "t": 80, "b": 0},
+        xaxis={"showgrid": False, "zeroline": False, "showticklabels": False},
+        yaxis={"showgrid": False, "zeroline": False, "showticklabels": False},
         plot_bgcolor="white",
         height=700,
     )
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     fig.write_html(output_path, config={"displayModeBar": True, "displaylogo": False})
+
+    # Inject generation footer
+    with open(output_path, encoding="utf-8") as f:
+        html_content = f.read()
+    html_content = inject_footer_into_html(
+        html_content, "create_repo_overview.py", "data/repos.json"
+    )
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
 
     print(f"Repository network saved to: {output_path}")
     return output_path

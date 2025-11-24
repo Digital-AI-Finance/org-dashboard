@@ -7,6 +7,8 @@ Creates charts, network graphs, and interactive elements.
 import json
 import os
 
+from viz_footer import inject_footer_into_html
+
 # Note: Plotly is optional - will generate JSON data that can be rendered client-side
 try:
     import plotly.express as px
@@ -18,6 +20,9 @@ except ImportError:
     print("Plotly not installed. Install with: pip install plotly")
     PLOTLY_AVAILABLE = False
 
+SCRIPT_NAME = "visualization_builder.py"
+DATA_SOURCE = "data/repos.json"
+
 
 class VisualizationBuilder:
     """Build interactive visualizations for research dashboard."""
@@ -25,6 +30,15 @@ class VisualizationBuilder:
     def __init__(self, output_dir="docs/visualizations"):
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
+
+    def _write_html_with_footer(self, fig, output_path: str, data_source: str = DATA_SOURCE):
+        """Write Plotly figure to HTML and inject generation footer."""
+        fig.write_html(output_path)
+        with open(output_path, encoding="utf-8") as f:
+            html_content = f.read()
+        html_content = inject_footer_into_html(html_content, SCRIPT_NAME, data_source)
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
 
     def create_citation_network(self, citation_graph: dict) -> str:
         """Create interactive citation network visualization."""
@@ -63,7 +77,7 @@ class VisualizationBuilder:
                     x=[x0, x1, None],
                     y=[y0, y1, None],
                     mode="lines",
-                    line=dict(width=0.5, color="#888"),
+                    line={"width": 0.5, "color": "#888"},
                     hoverinfo="none",
                     showlegend=False,
                 )
@@ -88,7 +102,7 @@ class VisualizationBuilder:
             x=node_x,
             y=node_y,
             mode="markers+text",
-            marker=dict(size=node_size, color="#1f77b4", line=dict(width=2, color="white")),
+            marker={"size": node_size, "color": "#1f77b4", "line": {"width": 2, "color": "white"}},
             text=[node["id"] for node in nodes if node["id"] in node_positions],
             textposition="top center",
             hovertext=node_text,
@@ -102,15 +116,15 @@ class VisualizationBuilder:
                 title="Citation Network",
                 showlegend=False,
                 hovermode="closest",
-                xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                xaxis={"showgrid": False, "zeroline": False, "showticklabels": False},
+                yaxis={"showgrid": False, "zeroline": False, "showticklabels": False},
                 plot_bgcolor="white",
             ),
         )
 
         # Save as HTML
         output_path = os.path.join(self.output_dir, "citation_network.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path, "data/citation_report.json")
 
         return output_path
 
@@ -150,7 +164,7 @@ class VisualizationBuilder:
         )
 
         output_path = os.path.join(self.output_dir, "publication_timeline.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path)
 
         return output_path
 
@@ -201,7 +215,7 @@ class VisualizationBuilder:
         fig.update_layout(title_text="Research Impact Metrics", showlegend=False, height=400)
 
         output_path = os.path.join(self.output_dir, "research_impact.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path)
 
         return output_path
 
@@ -222,7 +236,7 @@ class VisualizationBuilder:
         fig.update_layout(title="Programming Language Distribution")
 
         output_path = os.path.join(self.output_dir, "language_distribution.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path)
 
         return output_path
 
@@ -236,9 +250,9 @@ class VisualizationBuilder:
             authors = research_meta.get("research", {}).get("authors", [])
 
             if authors:
-                repo_authors[repo["name"]] = set(
+                repo_authors[repo["name"]] = {
                     author.get("name", "") for author in authors if author.get("name")
-                )
+                }
 
         # Find collaborations (shared authors)
         collaborations = []

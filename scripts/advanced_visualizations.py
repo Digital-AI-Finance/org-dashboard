@@ -8,6 +8,8 @@ import json
 import os
 from collections import defaultdict
 
+from viz_footer import inject_footer_into_html
+
 try:
     import plotly.express as px
     import plotly.graph_objects as go
@@ -18,6 +20,9 @@ except ImportError:
     print("Plotly not installed. Install with: pip install plotly")
     PLOTLY_AVAILABLE = False
 
+SCRIPT_NAME = "advanced_visualizations.py"
+DATA_SOURCE = "data/repos.json"
+
 
 class AdvancedVisualizationBuilder:
     """Build advanced interactive visualizations."""
@@ -25,6 +30,15 @@ class AdvancedVisualizationBuilder:
     def __init__(self, output_dir="docs/visualizations"):
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
+
+    def _write_html_with_footer(self, fig, output_path: str, data_source: str = DATA_SOURCE):
+        """Write Plotly figure to HTML and inject generation footer."""
+        fig.write_html(output_path)
+        with open(output_path, encoding="utf-8") as f:
+            html_content = f.read()
+        html_content = inject_footer_into_html(html_content, SCRIPT_NAME, data_source)
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
 
     def create_activity_heatmap(self, repos_data: list[dict]) -> str:
         """Create repository activity heatmap by day of week and hour."""
@@ -58,7 +72,7 @@ class AdvancedVisualizationBuilder:
         )
 
         output_path = os.path.join(self.output_dir, "activity_heatmap.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path)
         return output_path
 
     def create_topic_sunburst(self, repos_data: list[dict]) -> str:
@@ -70,7 +84,6 @@ class AdvancedVisualizationBuilder:
         labels = ["All Repositories"]
         parents = [""]
         values = [len(repos_data)]
-        colors = []
 
         # Add language layer
         lang_counts = {}
@@ -103,7 +116,7 @@ class AdvancedVisualizationBuilder:
                 parents=parents,
                 values=values,
                 branchvalues="total",
-                marker=dict(colorscale="RdBu", cmid=len(repos_data) / 2),
+                marker={"colorscale": "RdBu", "cmid": len(repos_data) / 2},
                 hovertemplate="<b>%{label}</b><br>Repositories: %{value}<extra></extra>",
             )
         )
@@ -111,7 +124,7 @@ class AdvancedVisualizationBuilder:
         fig.update_layout(title="Repository Topics and Languages (Sunburst)", height=600)
 
         output_path = os.path.join(self.output_dir, "topic_sunburst.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path)
         return output_path
 
     def create_reproducibility_radar(self, reproducibility_report: dict) -> str:
@@ -154,14 +167,14 @@ class AdvancedVisualizationBuilder:
             )
 
         fig.update_layout(
-            polar=dict(radialaxis=dict(visible=True, range=[0, 30])),
+            polar={"radialaxis": {"visible": True, "range": [0, 30]}},
             title="Reproducibility Score Breakdown (Top 5 Repositories)",
             height=600,
             showlegend=True,
         )
 
         output_path = os.path.join(self.output_dir, "reproducibility_radar.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path, "data/reproducibility_report.json")
         return output_path
 
     def create_citation_trend_chart(self, citation_report: dict) -> str:
@@ -190,8 +203,8 @@ class AdvancedVisualizationBuilder:
                     y=citations,
                     mode="lines+markers",
                     name=repo_name,
-                    line=dict(width=2),
-                    marker=dict(size=8),
+                    line={"width": 2},
+                    marker={"size": 8},
                 )
             )
 
@@ -204,7 +217,7 @@ class AdvancedVisualizationBuilder:
         )
 
         output_path = os.path.join(self.output_dir, "citation_trends.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path, "data/citation_report.json")
         return output_path
 
     def create_repository_treemap(self, repos_data: list[dict]) -> str:
@@ -263,12 +276,12 @@ class AdvancedVisualizationBuilder:
                 values=values,
                 text=text,
                 textposition="middle center",
-                marker=dict(
-                    colors=colors,
-                    colorscale="Viridis",
-                    showscale=True,
-                    colorbar=dict(title="Stars"),
-                ),
+                marker={
+                    "colors": colors,
+                    "colorscale": "Viridis",
+                    "showscale": True,
+                    "colorbar": {"title": "Stars"},
+                },
                 hovertemplate="<b>%{label}</b><br>%{text}<extra></extra>",
             )
         )
@@ -278,7 +291,7 @@ class AdvancedVisualizationBuilder:
         )
 
         output_path = os.path.join(self.output_dir, "repository_treemap.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path)
         return output_path
 
     def create_metric_comparison_chart(self, repos_data: list[dict]) -> str:
@@ -302,34 +315,32 @@ class AdvancedVisualizationBuilder:
 
         fig = go.Figure(
             data=go.Parcoords(
-                line=dict(
-                    color=stars,
-                    colorscale="Viridis",
-                    showscale=True,
-                    cmin=min(stars) if stars else 0,
-                    cmax=max(stars) if stars else 1,
-                ),
-                dimensions=list(
-                    [
-                        dict(range=[0, max(stars) if stars else 1], label="Stars", values=stars),
-                        dict(range=[0, max(forks) if forks else 1], label="Forks", values=forks),
-                        dict(
-                            range=[0, max(sizes) if sizes else 1], label="Size (MB)", values=sizes
-                        ),
-                        dict(
-                            range=[0, max(contributors) if contributors else 1],
-                            label="Contributors",
-                            values=contributors,
-                        ),
-                    ]
-                ),
+                line={
+                    "color": stars,
+                    "colorscale": "Viridis",
+                    "showscale": True,
+                    "cmin": min(stars) if stars else 0,
+                    "cmax": max(stars) if stars else 1,
+                },
+                dimensions=[
+                        {"range": [0, max(stars) if stars else 1], "label": "Stars", "values": stars},
+                        {"range": [0, max(forks) if forks else 1], "label": "Forks", "values": forks},
+                        {
+                            "range": [0, max(sizes) if sizes else 1], "label": "Size (MB)", "values": sizes
+                        },
+                        {
+                            "range": [0, max(contributors) if contributors else 1],
+                            "label": "Contributors",
+                            "values": contributors,
+                        },
+                    ],
             )
         )
 
         fig.update_layout(title="Repository Metrics Comparison (Parallel Coordinates)", height=500)
 
         output_path = os.path.join(self.output_dir, "metric_comparison.html")
-        fig.write_html(output_path)
+        self._write_html_with_footer(fig, output_path)
         return output_path
 
 
