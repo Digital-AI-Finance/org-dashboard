@@ -22,8 +22,8 @@ Automated dashboard for monitoring all repositories in the Digital-AI-Finance or
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-21 |
-| Last Updated | 2025-11-23 |
-| Last Push | 2025-11-23 |
+| Last Updated | 2025-11-24 |
+| Last Push | 2025-11-24 |
 | Contributors | 2 |
 | Default Branch | main |
 | Visibility | public |
@@ -44,7 +44,7 @@ This repository includes 16 dataset(s):
 
 | [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 3.81 KB |
 
-| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 13.56 KB |
+| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 14.49 KB |
 
 | [citation_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_report.json) | .json | 2.36 KB |
 
