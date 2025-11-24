@@ -1,38 +1,38 @@
 {
-  "generated_at": "2025-11-24T03:17:16.369498",
+  "generated_at": "2025-11-24T11:43:20.636622",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
+      {
+        "id": "josterri",
+        "repos": [
+          "Natural-Language-Processing",
+          "market-microstructure",
+          "Green-Finance",
+          "org-dashboard",
+          "credit-risk-prediction",
+          "portfolio-optimization-ml"
+        ],
+        "repo_count": 6,
+        "commit_count": 58,
+        "first_commit": "2025-09-09T11:18:48+00:00",
+        "last_commit": "2025-11-24T11:40:12+00:00",
+        "emails": [
+          "josterri@googlemail.com",
+          "josterri@users.noreply.github.com"
+        ]
+      },
       {
         "id": "github-actions[bot]",
         "repos": [
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 12,
+        "commit_count": 13,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-23T06:56:24+00:00",
+        "last_commit": "2025-11-24T03:17:18+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
-        ]
-      },
-      {
-        "id": "josterri",
-        "repos": [
-          "market-microstructure",
-          "credit-risk-prediction",
-          "Natural-Language-Processing",
-          "portfolio-optimization-ml",
-          "org-dashboard",
-          "Green-Finance"
-        ],
-        "repo_count": 6,
-        "commit_count": 57,
-        "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-23T06:54:16+00:00",
-        "emails": [
-          "josterri@googlemail.com",
-          "josterri@users.noreply.github.com"
         ]
       }
     ],
@@ -50,11 +50,11 @@
     "average_degree": 1.0,
     "top_central_authors": [
       {
-        "author": "github-actions[bot]",
+        "author": "josterri",
         "centrality": 1.0
       },
       {
-        "author": "josterri",
+        "author": "github-actions[bot]",
         "centrality": 1.0
       }
     ],
@@ -66,14 +66,14 @@
       }
     ],
     "degree_centrality": {
-      "github-actions[bot]": 1.0,
-      "josterri": 1.0
+      "josterri": 1.0,
+      "github-actions[bot]": 1.0
     }
   },
   "summary": {
     "total_authors": 2,
     "total_collaborations": 1,
-    "total_commits": 69,
+    "total_commits": 71,
     "repositories_analyzed": 6
   },
   "visualizations": {

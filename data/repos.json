@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 37761,
+    "size": 9484,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-23T06:56:34+00:00",
-    "pushed_at": "2025-11-23T06:56:31+00:00",
+    "updated_at": "2025-11-24T11:41:17+00:00",
+    "pushed_at": "2025-11-24T11:41:14+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T03:16:04.958822",
+        "extracted_at": "2025-11-24T11:42:05.245189",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -83,7 +83,7 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 13883
+          "size_bytes": 14838
         },
         {
           "name": "citation_report.json",
@@ -296,7 +296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T03:16:06.913691",
+        "extracted_at": "2025-11-24T11:42:07.480467",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -390,7 +390,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T03:16:08.868078",
+        "extracted_at": "2025-11-24T11:42:09.670826",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -452,13 +452,13 @@
       "publications": [
         {
           "type": "journal",
-          "doi": "10.1111/jofi.2024.12345",
-          "url": "https://doi.org/10.1111/jofi.2024.12345"
+          "doi": "10.5281/zenodo.1234567)",
+          "url": "https://doi.org/10.5281/zenodo.1234567)"
         },
         {
           "type": "journal",
-          "doi": "10.5281/zenodo.1234567)",
-          "url": "https://doi.org/10.5281/zenodo.1234567)"
+          "doi": "10.1111/jofi.2024.12345",
+          "url": "https://doi.org/10.1111/jofi.2024.12345"
         },
         {
           "type": "preprint",
@@ -488,7 +488,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T03:16:11.461519",
+        "extracted_at": "2025-11-24T11:42:11.743286",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -554,7 +554,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T03:16:20.117927",
+        "extracted_at": "2025-11-24T11:42:20.972300",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -892,7 +892,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T03:17:04.479102",
+        "extracted_at": "2025-11-24T11:43:07.938204",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
