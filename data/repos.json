@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 9507,
+    "size": 8829,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-24T13:12:27+00:00",
-    "pushed_at": "2025-11-24T13:12:22+00:00",
+    "updated_at": "2025-11-24T13:14:36+00:00",
+    "pushed_at": "2025-11-24T13:14:34+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:13:15.380693",
+        "extracted_at": "2025-11-25T03:07:54.701392",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -77,61 +77,61 @@
           "name": "build_log.json",
           "path": "data/build_log.json",
           "format": ".json",
-          "size_bytes": 3832
+          "size_bytes": 3903
         },
         {
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 15794
+          "size_bytes": 16748
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 2420
+          "size_bytes": 2419
         },
         {
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 3090
+          "size_bytes": 3089
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 1978
+          "size_bytes": 1975
         },
         {
           "name": "ml_topic_analysis.json",
           "path": "data/ml_topic_analysis.json",
           "format": ".json",
-          "size_bytes": 12587
+          "size_bytes": 12591
         },
         {
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 60639
+          "size_bytes": 60638
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 9287
+          "size_bytes": 9286
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 8889
+          "size_bytes": 8888
         },
         {
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 23428
+          "size_bytes": 23427
         },
         {
           "name": "search_index.pkl",
@@ -143,7 +143,7 @@
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 1873
+          "size_bytes": 1872
         },
         {
           "name": "citation_network.json",
@@ -296,7 +296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:13:17.447190",
+        "extracted_at": "2025-11-25T03:07:56.619279",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -390,7 +390,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:13:19.483604",
+        "extracted_at": "2025-11-25T03:07:58.549832",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -452,13 +452,13 @@
       "publications": [
         {
           "type": "journal",
-          "doi": "10.1111/jofi.2024.12345",
-          "url": "https://doi.org/10.1111/jofi.2024.12345"
+          "doi": "10.5281/zenodo.1234567)",
+          "url": "https://doi.org/10.5281/zenodo.1234567)"
         },
         {
           "type": "journal",
-          "doi": "10.5281/zenodo.1234567)",
-          "url": "https://doi.org/10.5281/zenodo.1234567)"
+          "doi": "10.1111/jofi.2024.12345",
+          "url": "https://doi.org/10.1111/jofi.2024.12345"
         },
         {
           "type": "preprint",
@@ -488,7 +488,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:13:21.620682",
+        "extracted_at": "2025-11-25T03:08:00.465597",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -554,7 +554,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:13:30.789842",
+        "extracted_at": "2025-11-25T03:08:08.983486",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -892,7 +892,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-24T13:14:13.942317",
+        "extracted_at": "2025-11-25T03:08:52.425519",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -929,5 +929,36 @@
         }
       ]
     }
+  },
+  {
+    "name": "neural-networks",
+    "full_name": "Digital-AI-Finance/neural-networks",
+    "description": "Pedagogical Beamer presentation: Neural Networks for Business Applications - Complete course with 20 data-driven visualizations using real trained models",
+    "url": "https://github.com/Digital-AI-Finance/neural-networks",
+    "clone_url": "https://github.com/Digital-AI-Finance/neural-networks.git",
+    "homepage": "",
+    "language": "TeX",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 3051,
+    "default_branch": "main",
+    "created_at": "2025-11-24T21:13:02+00:00",
+    "updated_at": "2025-11-24T21:15:25+00:00",
+    "pushed_at": "2025-11-24T21:15:20+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "public",
+    "contributors_count": 1,
+    "readme": "No README available",
+    "latest_release": null
   }
 ]

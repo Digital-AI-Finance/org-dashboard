@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-11-24**
+Last updated: **2025-11-25**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-11-24**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 6 |
-| Active Repositories | 6 |
+| Total Repositories | 7 |
+| Active Repositories | 7 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 7 |
+| Total Contributors | 8 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -25,8 +25,8 @@ Last updated: **2025-11-24**
 
 | Language | Repository Count |
 |----------|------------------|
+| [TeX](by-language/tex.md) | 2 |
 | [Python](by-language/python.md) | 1 |
-| [TeX](by-language/tex.md) | 1 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 1 |
 
 
@@ -54,7 +54,7 @@ Last updated: **2025-11-24**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 6 |
+| No License | 7 |
 
 
 ---
@@ -69,6 +69,7 @@ Last updated: **2025-11-24**
 | [market-microstructure](repos/market-microstructure.md) | 0 | N/A |
 | [Green-Finance](repos/Green-Finance.md) | 0 | N/A |
 | [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 0 | N/A |
+| [neural-networks](repos/neural-networks.md) | 0 | N/A |
 
 
 ---
@@ -77,6 +78,7 @@ Last updated: **2025-11-24**
 
 | Repository | Last Push |
 |------------|-----------|
+| [neural-networks](repos/neural-networks.md) | 2025-11-24 |
 | [org-dashboard](repos/org-dashboard.md) | 2025-11-24 |
 | [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
 | [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-22 |
@@ -86,4 +88,11 @@ Last updated: **2025-11-24**
 
 
 ---
+
+
+## Repositories Without README
+
+The following repositories do not have a README file:
+
+- neural-networks
 

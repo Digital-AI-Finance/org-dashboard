@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-24T13:14:18.551395",
+  "generated_at": "2025-11-25T03:08:58.882740",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -114,13 +114,32 @@
       },
       "language": "Jupyter Notebook",
       "size_kb": 0
+    },
+    "neural-networks": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "TeX",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 6,
-    "average_structure_score": 45.0,
+    "total_repositories": 7,
+    "average_structure_score": 44.29,
     "grades": {
-      "C": 6
+      "C": 7
     }
   }
 }

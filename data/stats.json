@@ -1,16 +1,16 @@
 {
-  "generated_at": "2025-11-24T13:14:18.205162",
-  "total_repos": 6,
-  "active_repos": 6,
+  "generated_at": "2025-11-25T03:08:58.580455",
+  "total_repos": 7,
+  "active_repos": 7,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 7,
+  "total_contributors": 8,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
+    "TeX": 2,
     "Python": 1,
-    "TeX": 1,
     "Jupyter Notebook": 1
   },
   "topics": {
@@ -26,12 +26,16 @@
     "time-series": 1
   },
   "licenses": {
-    "No License": 6
+    "No License": 7
   },
   "recent_repos": [
     {
+      "name": "neural-networks",
+      "pushed_at": "2025-11-24T21:15:20+00:00"
+    },
+    {
       "name": "org-dashboard",
-      "pushed_at": "2025-11-24T13:12:22+00:00"
+      "pushed_at": "2025-11-24T13:14:34+00:00"
     },
     {
       "name": "Green-Finance",
@@ -78,9 +82,15 @@
     {
       "name": "Natural-Language-Processing",
       "stars": 0
+    },
+    {
+      "name": "neural-networks",
+      "stars": 0
     }
   ],
-  "repos_without_readme": [],
+  "repos_without_readme": [
+    "neural-networks"
+  ],
   "research": {
     "repos_with_papers": 3,
     "repos_with_notebooks": 1,
