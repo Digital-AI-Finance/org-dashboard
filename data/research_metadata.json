@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-25T03:07:54.701392",
+      "extracted_at": "2025-11-26T03:08:08.590930",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -53,7 +53,7 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 16748
+        "size_bytes": 17889
       },
       {
         "name": "citation_report.json",
@@ -65,37 +65,37 @@
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 3089
+        "size_bytes": 3563
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 1975
+        "size_bytes": 2004
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 12591
+        "size_bytes": 13273
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 60638
+        "size_bytes": 61697
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 9286
+        "size_bytes": 10766
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 8888
+        "size_bytes": 10317
       },
       {
         "name": "research_metadata.json",
@@ -113,7 +113,7 @@
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 1872
+        "size_bytes": 2053
       },
       {
         "name": "citation_network.json",
@@ -230,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-25T03:07:56.619279",
+      "extracted_at": "2025-11-26T03:08:10.691340",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-25T03:07:58.549832",
+      "extracted_at": "2025-11-26T03:08:12.831488",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -314,13 +314,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "preprint",
@@ -350,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-25T03:08:00.465597",
+      "extracted_at": "2025-11-26T03:08:14.982257",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-25T03:08:08.983486",
+      "extracted_at": "2025-11-26T03:08:24.215014",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -692,7 +692,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-25T03:08:52.425519",
+      "extracted_at": "2025-11-26T03:09:09.534029",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
