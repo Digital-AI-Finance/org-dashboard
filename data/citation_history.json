@@ -146,6 +146,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-27T03:05:46.825582",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "portfolio-optimization-ml": [
@@ -277,6 +284,13 @@
     },
     {
       "timestamp": "2025-11-26T03:09:15.733639",
+      "external_citations": 16,
+      "publications_count": 2,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-27T03:05:46.825582",
       "external_citations": 16,
       "publications_count": 2,
       "stars": 0,
@@ -416,6 +430,13 @@
       "publications_count": 2,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-27T03:05:46.825582",
+      "external_citations": 0,
+      "publications_count": 2,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "market-microstructure": [
@@ -547,6 +568,13 @@
     },
     {
       "timestamp": "2025-11-26T03:09:15.733639",
+      "external_citations": 0,
+      "publications_count": 3,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-27T03:05:46.825582",
       "external_citations": 0,
       "publications_count": 3,
       "stars": 0,
@@ -686,6 +714,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-27T03:05:46.825582",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "Natural-Language-Processing": [
@@ -821,6 +856,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-27T03:05:46.825582",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "neural-networks": [
@@ -833,6 +875,13 @@
     },
     {
       "timestamp": "2025-11-26T03:09:15.733639",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-27T03:05:46.825582",
       "external_citations": 0,
       "publications_count": 0,
       "stars": 0,

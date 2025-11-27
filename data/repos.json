@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 8863,
+    "size": 6274,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-25T03:09:19+00:00",
-    "pushed_at": "2025-11-25T03:09:16+00:00",
+    "updated_at": "2025-11-26T03:09:37+00:00",
+    "pushed_at": "2025-11-26T03:09:34+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-26T03:08:08.590930",
+        "extracted_at": "2025-11-27T03:04:40.815024",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -83,13 +83,13 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 17889
+          "size_bytes": 19003
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 2419
+          "size_bytes": 2595
         },
         {
           "name": "code_quality_report.json",
@@ -113,7 +113,7 @@
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 61697
+          "size_bytes": 61700
         },
         {
           "name": "repository_health_report.json",
@@ -131,7 +131,7 @@
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 23427
+          "size_bytes": 23429
         },
         {
           "name": "search_index.pkl",
@@ -296,7 +296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-26T03:08:10.691340",
+        "extracted_at": "2025-11-27T03:04:42.821279",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -390,7 +390,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-26T03:08:12.831488",
+        "extracted_at": "2025-11-27T03:04:44.883110",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -488,7 +488,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-26T03:08:14.982257",
+        "extracted_at": "2025-11-27T03:04:46.902907",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -554,7 +554,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-26T03:08:24.215014",
+        "extracted_at": "2025-11-27T03:04:55.618938",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -892,7 +892,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-26T03:09:09.534029",
+        "extracted_at": "2025-11-27T03:05:40.097652",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },

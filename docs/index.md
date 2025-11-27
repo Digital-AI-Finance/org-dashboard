@@ -2,7 +2,7 @@
 
 Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
 
-Last updated: **2025-11-26**
+Last updated: **2025-11-27**
 
 ---
 
@@ -97,7 +97,7 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
-| [org-dashboard](repos/org-dashboard.md) | 2025-11-25 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-11-26 |
 | [neural-networks](repos/neural-networks.md) | 2025-11-24 |
 | [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
 | [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-22 |
