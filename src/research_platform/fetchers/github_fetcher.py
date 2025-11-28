@@ -24,7 +24,7 @@ class GitHubFetcher(BaseFetcher):
         self.settings = settings
         self.cache = cache_manager or CacheManager(settings)
         self.logger = logger or logging.getLogger(__name__)
-        self.github = Github(settings.github_token) if settings.github_token else Github()
+        self.github = Github(settings.github.token) if settings.github.token else Github()
 
     async def fetch(self, org_name: str) -> dict[str, Any]:
         """
@@ -60,7 +60,7 @@ class GitHubFetcher(BaseFetcher):
         result = {"repos": repos, "stats": stats, "organization": org_name}
 
         # Cache result
-        await self.cache.set(cache_key, result, ttl=self.settings.cache_ttl_seconds)
+        await self.cache.set(cache_key, result, ttl=self.settings.cache.ttl)
 
         return result
 
@@ -90,10 +90,10 @@ class GitHubFetcher(BaseFetcher):
 
     def _sync_convert(self, repo: Any) -> Repository:
         """Synchronous conversion (called in executor)."""
-        # Get README
+        # Get README content
         try:
             readme = repo.get_readme()
-            readme_content = readme.decoded_content.decode("utf-8")
+            readme_content = readme.decoded_content.decode("utf-8")[:1000]  # Truncate
         except Exception:
             readme_content = "No README available"
 
@@ -104,28 +104,35 @@ class GitHubFetcher(BaseFetcher):
             contributors_count = 0
 
         # Build repository model
+        # Store additional fields in metadata dict
+        metadata = {
+            "url": repo.html_url,
+            "readme": readme_content,
+            "license": repo.license.name if repo.license else "No License",
+        }
+
         return Repository(
+            id=repo.id,
             name=repo.name,
             full_name=repo.full_name,
-            description=repo.description or "",
-            url=repo.html_url,
-            language=repo.language or "Unknown",
+            description=repo.description or None,
+            language=repo.language,
+            homepage=repo.homepage,
+            default_branch=repo.default_branch,
             topics=list(repo.get_topics()),
             stars=repo.stargazers_count,
             forks=repo.forks_count,
             watchers=repo.watchers_count,
             open_issues=repo.open_issues_count,
             size=repo.size,
-            default_branch=repo.default_branch,
-            created_at=repo.created_at.isoformat() if repo.created_at else "",
-            updated_at=repo.updated_at.isoformat() if repo.updated_at else "",
-            pushed_at=repo.pushed_at.isoformat() if repo.pushed_at else "",
-            license=repo.license.name if repo.license else "No License",
+            created_at=repo.created_at,
+            updated_at=repo.updated_at,
+            pushed_at=repo.pushed_at,
             has_wiki=repo.has_wiki,
             has_pages=repo.has_pages,
             archived=repo.archived,
             contributors_count=contributors_count,
-            readme=readme_content[:1000],  # Truncate for storage
+            metadata=metadata,
         )
 
     def _calculate_stats(self, repos: list[Repository]) -> dict[str, Any]:

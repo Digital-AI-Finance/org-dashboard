@@ -17,7 +17,7 @@ class CacheManager:
 
     def __init__(self, settings: Settings):
         self.settings = settings
-        self.cache_dir = Path(settings.cache_dir)
+        self.cache_dir = Path(settings.cache.directory)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     async def get(self, key: str) -> dict[str, Any] | None:
@@ -42,7 +42,7 @@ class CacheManager:
 
             # Check expiration
             cached_at = datetime.fromisoformat(cached_data.get("cached_at", ""))
-            ttl = timedelta(seconds=cached_data.get("ttl", self.settings.cache_ttl_seconds))
+            ttl = timedelta(seconds=cached_data.get("ttl", self.settings.cache.ttl))
 
             if datetime.now() - cached_at < ttl:
                 return cached_data.get("data")
@@ -67,7 +67,7 @@ class CacheManager:
 
         cached_data = {
             "cached_at": datetime.now().isoformat(),
-            "ttl": ttl or self.settings.cache_ttl_seconds,
+            "ttl": ttl or self.settings.cache.ttl,
             "data": data,
         }
 

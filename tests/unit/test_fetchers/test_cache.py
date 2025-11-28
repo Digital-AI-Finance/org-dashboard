@@ -15,8 +15,11 @@ from research_platform.fetchers.cache import CacheManager
 def cache_settings(temp_dir):
     """Create settings for cache testing."""
     settings = MagicMock(spec=Settings)
-    settings.cache_dir = str(temp_dir / "cache")
-    settings.cache_ttl_seconds = 3600
+    # Mock the nested cache config structure
+    cache_config = MagicMock()
+    cache_config.directory = temp_dir / "cache"
+    cache_config.ttl = 3600
+    settings.cache = cache_config
     return settings
 
 
@@ -31,7 +34,7 @@ class TestCacheManager:
 
     def test_init_creates_cache_dir(self, cache_settings):
         """Test that init creates the cache directory."""
-        cache_dir = Path(cache_settings.cache_dir)
+        cache_dir = Path(cache_settings.cache.directory)
         assert not cache_dir.exists()
 
         CacheManager(cache_settings)
