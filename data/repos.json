@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 6274,
+    "size": 6294,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-26T03:09:37+00:00",
-    "pushed_at": "2025-11-26T03:09:34+00:00",
+    "updated_at": "2025-11-27T03:06:07+00:00",
+    "pushed_at": "2025-11-27T03:06:05+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-27T03:04:40.815024",
+        "extracted_at": "2025-11-28T03:04:31.864289",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -83,7 +83,7 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 19003
+          "size_bytes": 20117
         },
         {
           "name": "citation_report.json",
@@ -296,7 +296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-27T03:04:42.821279",
+        "extracted_at": "2025-11-28T03:04:33.765101",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -390,7 +390,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-27T03:04:44.883110",
+        "extracted_at": "2025-11-28T03:04:35.722533",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -488,7 +488,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-27T03:04:46.902907",
+        "extracted_at": "2025-11-28T03:04:37.625432",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -554,7 +554,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-27T03:04:55.618938",
+        "extracted_at": "2025-11-28T03:04:46.289088",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -892,7 +892,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-27T03:05:40.097652",
+        "extracted_at": "2025-11-28T03:05:29.688462",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -960,5 +960,40 @@
     "contributors_count": 1,
     "readme": "No README available",
     "latest_release": null
+  },
+  {
+    "name": "ShareBuybacks",
+    "full_name": "Digital-AI-Finance/ShareBuybacks",
+    "description": "Share Buyback Strategy Simulation App - Streamlit with GBM and trading strategies",
+    "url": "https://github.com/Digital-AI-Finance/ShareBuybacks",
+    "clone_url": "https://github.com/Digital-AI-Finance/ShareBuybacks.git",
+    "homepage": "",
+    "language": "Python",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 52,
+    "default_branch": "main",
+    "created_at": "2025-11-27T12:42:48+00:00",
+    "updated_at": "2025-11-27T17:22:18+00:00",
+    "pushed_at": "2025-11-27T17:22:15+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "public",
+    "contributors_count": 1,
+    "readme": "No README available",
+    "latest_release": {
+      "tag": "v1.3.0",
+      "name": "v1.3.0",
+      "published_at": "2025-11-27T15:37:53+00:00"
+    }
   }
 ]

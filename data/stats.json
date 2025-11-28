@@ -1,16 +1,16 @@
 {
-  "generated_at": "2025-11-27T03:05:46.821791",
-  "total_repos": 7,
-  "active_repos": 7,
+  "generated_at": "2025-11-28T03:05:37.803133",
+  "total_repos": 8,
+  "active_repos": 8,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 8,
+  "total_contributors": 9,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
+    "Python": 2,
     "TeX": 2,
-    "Python": 1,
     "Jupyter Notebook": 1
   },
   "topics": {
@@ -26,12 +26,16 @@
     "time-series": 1
   },
   "licenses": {
-    "No License": 7
+    "No License": 8
   },
   "recent_repos": [
     {
+      "name": "ShareBuybacks",
+      "pushed_at": "2025-11-27T17:22:15+00:00"
+    },
+    {
       "name": "org-dashboard",
-      "pushed_at": "2025-11-26T03:09:34+00:00"
+      "pushed_at": "2025-11-27T03:06:05+00:00"
     },
     {
       "name": "neural-networks",
@@ -86,10 +90,15 @@
     {
       "name": "neural-networks",
       "stars": 0
+    },
+    {
+      "name": "ShareBuybacks",
+      "stars": 0
     }
   ],
   "repos_without_readme": [
-    "neural-networks"
+    "neural-networks",
+    "ShareBuybacks"
   ],
   "research": {
     "repos_with_papers": 3,

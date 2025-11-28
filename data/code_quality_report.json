@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-27T03:05:47.149311",
+  "generated_at": "2025-11-28T03:05:38.084663",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -133,13 +133,32 @@
       },
       "language": "TeX",
       "size_kb": 0
+    },
+    "ShareBuybacks": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Python",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 7,
-    "average_structure_score": 44.29,
+    "total_repositories": 8,
+    "average_structure_score": 43.75,
     "grades": {
-      "C": 7
+      "C": 8
     }
   }
 }

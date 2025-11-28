@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-27T03:05:47.149742",
+  "generated_at": "2025-11-28T03:05:38.085231",
   "repositories": {
     "org-dashboard": {
       "overall_score": 53.5,
@@ -73,7 +73,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 5,
+          "days_since_push": 6,
           "activity_score": 100,
           "archived": false
         },
@@ -131,7 +131,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 5,
+          "days_since_push": 6,
           "activity_score": 100,
           "archived": false
         },
@@ -189,7 +189,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 5,
+          "days_since_push": 6,
           "activity_score": 100,
           "archived": false
         },
@@ -247,7 +247,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 4,
+          "days_since_push": 5,
           "activity_score": 100,
           "archived": false
         },
@@ -305,7 +305,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 4,
+          "days_since_push": 5,
           "activity_score": 100,
           "archived": false
         },
@@ -363,7 +363,65 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 2,
+          "days_since_push": 3,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "ShareBuybacks": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
           "activity_score": 100,
           "archived": false
         },
@@ -409,18 +467,18 @@
     }
   },
   "summary": {
-    "total_repos": 7,
+    "total_repos": 8,
     "health_distribution": {
-      "D": 7
+      "D": 8
     },
     "average_scores": {
       "activity": 100.0,
-      "community": 6.07,
-      "documentation": 60.71,
-      "code_quality": 44.29,
+      "community": 5.94,
+      "documentation": 59.38,
+      "code_quality": 43.75,
       "popularity": 0.0,
       "maintenance": 100.0
     },
-    "average_overall_score": 55.0
+    "average_overall_score": 54.62
   }
 }
