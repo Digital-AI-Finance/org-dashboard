@@ -22,8 +22,8 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-22 |
-| Last Updated | 2025-11-28 |
-| Last Push | 2025-11-28 |
+| Last Updated | 2025-11-29 |
+| Last Push | 2025-11-29 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | private |
@@ -173,6 +173,16 @@ This repository includes reproducibility tools:
 
 # NLP Course 2025: From N-grams to Transformers
 
+<p align="center">
+  <a href="https://quantlet.de">
+    <img src="logo/quantlet.png" alt="QuantLet Logo" width="120"/>
+  </a>
+</p>
+
+<p align="center">
+  <strong>QuantLet-Compatible Course Materials</strong>
+</p>
+
 ![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)
 ![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)
 ![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)
@@ -289,9 +299,25 @@ Full navigation with topics, prerequisites, and learning objectives: [COURSE_IND
 | 11 | Efficiency | Quantization, distillation | Optimize models |
 | 12 | Ethics | Bias, fairness, safety | Measure bias |
 
+## Quantlet Charts
+
+All Python-generated visualizations follow the [Quantlet](https://quantlet.de) standard format with:
+- Numbered folders (`01_chart_name/`, `02_chart_name/`, etc.)
+- Self-contained Python scripts
+- Standard `metainfo.txt` with description, keywords, and usage
+
+### Final Lecture Charts
+See [FinalLecture/](FinalLecture/) for 8 Quantlet-formatted visualizations covering:
+- Vector database architecture
+- HNSW nearest neighbor search
+- RAG conditional probabilities
+- Hybrid search flow
+
 ## Project Structure
 
 ```
+├── FinalLecture/               # Quantlet-formatted charts (Final Lecture)
+├── logo/                       # Quantlet branding
 ├── NLP_slides/
 │   ├── week01_foundations/      # Week 1: Statistical LM
 │   ├── week02_neural_lm/        # Week 2: Word embeddings

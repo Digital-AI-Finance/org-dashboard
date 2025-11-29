@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 6328,
+    "size": 6377,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-28T03:05:59+00:00",
-    "pushed_at": "2025-11-28T03:05:56+00:00",
+    "updated_at": "2025-11-29T07:56:16+00:00",
+    "pushed_at": "2025-11-29T07:56:12+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T03:04:05.551930",
+        "extracted_at": "2025-11-29T07:57:05.269111",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -83,67 +83,67 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 21415
+          "size_bytes": 22882
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 2595
+          "size_bytes": 2769
         },
         {
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 4037
+          "size_bytes": 4519
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 2031
+          "size_bytes": 2068
         },
         {
           "name": "ml_topic_analysis.json",
           "path": "data/ml_topic_analysis.json",
           "format": ".json",
-          "size_bytes": 13921
+          "size_bytes": 14506
         },
         {
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 62779
+          "size_bytes": 74663
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 12243
+          "size_bytes": 13727
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 11724
+          "size_bytes": 13160
         },
         {
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 23429
+          "size_bytes": 25258
         },
         {
           "name": "search_index.pkl",
           "path": "data/search_index.pkl",
           "format": ".pkl",
-          "size_bytes": 54254
+          "size_bytes": 67092
         },
         {
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 2226
+          "size_bytes": 2421
         },
         {
           "name": "citation_network.json",
@@ -155,7 +155,7 @@
           "name": "collaboration_network.json",
           "path": "docs/visualizations/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 382
+          "size_bytes": 453
         },
         {
           "name": "research_metadata_schema.json",
@@ -296,7 +296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T03:04:07.972036",
+        "extracted_at": "2025-11-29T07:57:07.333371",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -390,7 +390,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T03:04:10.442477",
+        "extracted_at": "2025-11-29T07:57:09.438132",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -488,7 +488,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T03:04:12.848532",
+        "extracted_at": "2025-11-29T07:57:11.475776",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -554,7 +554,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T03:04:23.350096",
+        "extracted_at": "2025-11-29T07:57:20.269486",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -638,8 +638,8 @@
     "size": 140957,
     "default_branch": "main",
     "created_at": "2025-11-22T07:10:08+00:00",
-    "updated_at": "2025-11-28T13:02:33+00:00",
-    "pushed_at": "2025-11-28T13:02:28+00:00",
+    "updated_at": "2025-11-29T07:47:06+00:00",
+    "pushed_at": "2025-11-29T07:47:02+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -650,13 +650,13 @@
     "is_template": false,
     "visibility": "private",
     "contributors_count": 1,
-    "readme": "# NLP Course 2025: From N-grams to Transformers\n\n![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)\n\n> A comprehensive Natural Language Processing course covering statistical foundations through modern transformer architectures. Build ChatGPT from scratch!\n\n## Quick Start (3 Steps)\n\n```bash\n# 1. Clone the repository\ngit clone https://github.com/josterri/2025_NLP_Lectures.git\ncd 2025_NLP_Lectures\n\n# 2. Install dependencies\npip install -r requirements.txt\n\n# 3. Start learning!\njupyter lab NLP_slides/week02_neural_lm/lab/week02_word_embeddings_lab.ipynb\n```\n\n## What You'll Learn\n\nThis course takes you from foundational statistical methods to state-of-the-art neural architectures:\n\n- **Weeks 1-2:** Statistical language models and word embeddings (Word2Vec, GloVe)\n- **Weeks 3-4:** Sequential models (RNN/LSTM) and sequence-to-sequence with attention\n- **Weeks 5-7:** Transformers, BERT, GPT, and advanced architectures\n- **Weeks 8-10:** Tokenization, decoding strategies, and fine-tuning\n- **Weeks 11-12:** Efficiency optimization and ethical AI deployment\n\nBy the end, you'll build a working transformer from scratch and understand the architecture behind ChatGPT and Claude.\n\n## Course Structure\n\n### Core Materials (12 Weeks)\nEach week includes:\n- **Presentation:** LaTeX/Beamer slides with optimal readability\n- **Lab Notebook:** Interactive Jupyter notebook with hands-on exercises\n- **Handouts:** Pre-class discovery exercises and post-class technical practice\n\n### Supplementary Modules\n- **Neural Network Primer:** Zero pre-knowledge intro to neural networks\n- **LSTM Primer:** Comprehensive deep dive into LSTM architecture (32 slides)\n- **Embeddings Module:** Standalone word embedding module with 3D visualizations\n\n### Total Content\n- 60+ presentations (including versions and supplements)\n- 12 interactive lab notebooks\n- 40+ handout documents\n- 100+ Python-generated figures\n- 8 progressive visualization notebooks\n\n## Prerequisites\n\n- **Required:**\n  - Python 3.8 or higher\n  - Basic linear algebra (vectors, matrices)\n  - Basic probability theory\n  - Comfortable with Python programming\n\n- **Helpful but not required:**\n  - PyTorch experience\n  - Understanding of backpropagation\n  - Machine learning fundamentals\n\n**New to neural networks?** Start with our Neural Network Primer module before Week 2.\n\n## Installation\n\n### Option 1: pip (Recommended)\n```bash\npip install -r requirements.txt\n```\n\n### Option 2: conda\n```bash\nconda env create -f environment.yml\nconda activate nlp2025\n```\n\n### GPU Support\nFor GPU acceleration (recommended for Weeks 5+):\n```bash\n# CUDA 11.8\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118\n\n# CUDA 12.1\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121\n```\n\nSee [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions and troubleshooting.\n\n## Course Navigation\n\n### Week-by-Week Guide\nFull navigation with topics, prerequisites, and learning objectives: [COURSE_INDEX.md](COURSE_INDEX.md)\n\n### Week Highlights\n\n| Week | Topic | Key Concepts | Lab |\n|------|-------|--------------|-----|\n| 1 | Foundations | N-grams, perplexity, statistical LM | - |\n| 2 | Word Embeddings | Word2Vec, GloVe, neural LM | Implement embeddings |\n| 3 | RNN/LSTM | Sequential models, BPTT | Build LSTM from scratch |\n| 4 | Seq2Seq | Attention mechanism, translation | Machine translation |\n| 5 | Transformers | Self-attention, multi-head | Build transformer |\n| 6 | Pre-trained | BERT, GPT, transfer learning | Fine-tune BERT |\n| 7 | Advanced | T5, GPT-3, scaling laws | Experiment with GPT |\n| 8 | Tokenization | BPE, WordPiece, SentencePiece | Implement tokenizer |\n| 9 | Decoding | Beam, sampling, nucleus, **contrastive** | Compare 6 methods |\n| 10 | Fine-tuning | LoRA, prompt engineering | Adapt models |\n| 11 | Efficiency | Quantization, distillation | Optimize models |\n| 12 | Ethics | Bias, fairness, safety | Measure bias |\n\n## Project Structure\n\n```\n├── NLP_slides/\n│   ├── week01_foundations/      # Week 1: Statistical LM\n│   ├── week02_neural_lm/        # Week 2: Word embeddings\n│   ├── week03_rnn/              # Week 3: RNN/LSTM/GRU\n│   ├── ...                      # Weeks 4-12\n│   ├── nn_primer/               # Neural network primer\n│   ├── lstm_primer/             # LSTM deep dive\n│   └── common/                  # Shared templates and utils\n├── embeddings/                  # Standalone embeddings module\n├── exercises/                   # Additional practice\n├── figures/                     # Shared visualizations\n├── requirements.txt             # Python dependencies\n├── environment.yml              # Conda environment\n└── COURSE_INDEX.md              # Full course navigation\n```\n\n## Key Learning Milestones\n\n- ✅ **After Week 2:** Understand and implement word embeddings\n- ✅ **After Week 3:** Build RNN and LSTM from scratch\n- ✅ **After Week 5:** Comprehend transformer architecture completely\n- ✅ **After Week 6:** Fine-tune pre-trained models (BERT, GPT)\n- ✅ **After Week 9:** Control text generation quality and diversity\n- ✅ **After Week 12:** Deploy models responsibly with ethical considerations\n\n## Usage Examples\n\n### Run a Lab Notebook\n```bash\n# Start Jupyter Lab\njupyter lab\n\n# Navigate to a week's lab folder\ncd NLP_slides/week05_transformers/lab\njupyter notebook week05_transformer_lab.ipynb\n```\n\n### Compile a Presentation\n```bash\ncd NLP_slides/week02_neural_lm/presentations\npdflatex week02_neural_lm.tex\n```\n\n### Generate Figures\n```bash\ncd NLP_slides/week05_transformers/python\npython generate_week05_optimal_charts.py\n```\n\n## Testing the Course\n\nTest all lab notebooks for execution:\n```bash\npython test_notebooks.py\n```\n\nThis validates that all 12 lab notebooks execute correctly in your environment.\n\n## Course Delivery Options\n\n### Standard 12-Week Semester\n- One week per topic\n- Weekly labs and assignments\n- Suitable for undergraduate/graduate courses\n\n### Intensive 8-Week Course\n- Combine Weeks 1-2, skip some advanced topics\n- Accelerated pace for bootcamps\n- Focus on core transformer concepts\n\n### Self-Paced Learning\n- Progress at your own speed\n- Complete prerequisite modules first\n- Focus on labs and hands-on practice\n\n## Documentation\n\n- **[COURSE_INDEX.md](COURSE_INDEX.md)** - Complete week-by-week navigation\n- **[INSTALLATION.md](INSTALLATION.md)** - Detailed setup instructions\n- **[CLAUDE.md](CLAUDE.md)** - Development guide and conventions\n- **[status.md](status.md)** - Project status and completion tracking\n- **[changelog.md](changelog.md)** - Change history\n\n## Support and Resources\n\n- **Issues:** Report problems at [GitHub Issues](https://github.com/josterri/2025_NLP_Lectures/issues)\n- **Prerequisites:** Check the Neural Network Primer if you're new to deep learning\n- **GPU Requirements:** Most labs work on CPU; Weeks 5+ benefit from GPU\n\n## Contributing\n\nContributions are welcome! Areas for contribution:\n- Additional exercises and examples\n- Translations to other languages\n- MSc-level challenge problems\n- Bug fixes and improvements\n\n## License\n\nThis course is released under the MIT License. See LICENSE for details.\n\n## Acknowledgments\n\nCourse materials developed with pedagogical focus on:\n- Discovery-based learning\n- Concrete-to-abstract progression\n- Hands-on implementation\n- Real-world applications\n\nBuilt with LaTeX/Beamer, Python, PyTorch, and Jupyter.\n\n## Citation\n\nIf you use these materials in your course or research, please cite:\n\n```bibtex\n@misc{nlp2025course,\n  title={NLP Course 2025: From N-grams to Transformers},\n  author={Joerg Osterrieder},\n  year={2025},\n  url={https://github.com/josterri/2025_NLP_Lectures}\n}\n```\n\n---\n\n**Ready to start?** Check [INSTALLATION.md](INSTALLATION.md) for setup, then dive into Week 2's word embeddings lab!\n\n**Questions?** See [COURSE_INDEX.md](COURSE_INDEX.md) for complete navigation and prerequisites.",
+    "readme": "# NLP Course 2025: From N-grams to Transformers\n\n<p align=\"center\">\n  <a href=\"https://quantlet.de\">\n    <img src=\"logo/quantlet.png\" alt=\"QuantLet Logo\" width=\"120\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n  <strong>QuantLet-Compatible Course Materials</strong>\n</p>\n\n![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)\n\n> A comprehensive Natural Language Processing course covering statistical foundations through modern transformer architectures. Build ChatGPT from scratch!\n\n## Quick Start (3 Steps)\n\n```bash\n# 1. Clone the repository\ngit clone https://github.com/josterri/2025_NLP_Lectures.git\ncd 2025_NLP_Lectures\n\n# 2. Install dependencies\npip install -r requirements.txt\n\n# 3. Start learning!\njupyter lab NLP_slides/week02_neural_lm/lab/week02_word_embeddings_lab.ipynb\n```\n\n## What You'll Learn\n\nThis course takes you from foundational statistical methods to state-of-the-art neural architectures:\n\n- **Weeks 1-2:** Statistical language models and word embeddings (Word2Vec, GloVe)\n- **Weeks 3-4:** Sequential models (RNN/LSTM) and sequence-to-sequence with attention\n- **Weeks 5-7:** Transformers, BERT, GPT, and advanced architectures\n- **Weeks 8-10:** Tokenization, decoding strategies, and fine-tuning\n- **Weeks 11-12:** Efficiency optimization and ethical AI deployment\n\nBy the end, you'll build a working transformer from scratch and understand the architecture behind ChatGPT and Claude.\n\n## Course Structure\n\n### Core Materials (12 Weeks)\nEach week includes:\n- **Presentation:** LaTeX/Beamer slides with optimal readability\n- **Lab Notebook:** Interactive Jupyter notebook with hands-on exercises\n- **Handouts:** Pre-class discovery exercises and post-class technical practice\n\n### Supplementary Modules\n- **Neural Network Primer:** Zero pre-knowledge intro to neural networks\n- **LSTM Primer:** Comprehensive deep dive into LSTM architecture (32 slides)\n- **Embeddings Module:** Standalone word embedding module with 3D visualizations\n\n### Total Content\n- 60+ presentations (including versions and supplements)\n- 12 interactive lab notebooks\n- 40+ handout documents\n- 100+ Python-generated figures\n- 8 progressive visualization notebooks\n\n## Prerequisites\n\n- **Required:**\n  - Python 3.8 or higher\n  - Basic linear algebra (vectors, matrices)\n  - Basic probability theory\n  - Comfortable with Python programming\n\n- **Helpful but not required:**\n  - PyTorch experience\n  - Understanding of backpropagation\n  - Machine learning fundamentals\n\n**New to neural networks?** Start with our Neural Network Primer module before Week 2.\n\n## Installation\n\n### Option 1: pip (Recommended)\n```bash\npip install -r requirements.txt\n```\n\n### Option 2: conda\n```bash\nconda env create -f environment.yml\nconda activate nlp2025\n```\n\n### GPU Support\nFor GPU acceleration (recommended for Weeks 5+):\n```bash\n# CUDA 11.8\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118\n\n# CUDA 12.1\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121\n```\n\nSee [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions and troubleshooting.\n\n## Course Navigation\n\n### Week-by-Week Guide\nFull navigation with topics, prerequisites, and learning objectives: [COURSE_INDEX.md](COURSE_INDEX.md)\n\n### Week Highlights\n\n| Week | Topic | Key Concepts | Lab |\n|------|-------|--------------|-----|\n| 1 | Foundations | N-grams, perplexity, statistical LM | - |\n| 2 | Word Embeddings | Word2Vec, GloVe, neural LM | Implement embeddings |\n| 3 | RNN/LSTM | Sequential models, BPTT | Build LSTM from scratch |\n| 4 | Seq2Seq | Attention mechanism, translation | Machine translation |\n| 5 | Transformers | Self-attention, multi-head | Build transformer |\n| 6 | Pre-trained | BERT, GPT, transfer learning | Fine-tune BERT |\n| 7 | Advanced | T5, GPT-3, scaling laws | Experiment with GPT |\n| 8 | Tokenization | BPE, WordPiece, SentencePiece | Implement tokenizer |\n| 9 | Decoding | Beam, sampling, nucleus, **contrastive** | Compare 6 methods |\n| 10 | Fine-tuning | LoRA, prompt engineering | Adapt models |\n| 11 | Efficiency | Quantization, distillation | Optimize models |\n| 12 | Ethics | Bias, fairness, safety | Measure bias |\n\n## Quantlet Charts\n\nAll Python-generated visualizations follow the [Quantlet](https://quantlet.de) standard format with:\n- Numbered folders (`01_chart_name/`, `02_chart_name/`, etc.)\n- Self-contained Python scripts\n- Standard `metainfo.txt` with description, keywords, and usage\n\n### Final Lecture Charts\nSee [FinalLecture/](FinalLecture/) for 8 Quantlet-formatted visualizations covering:\n- Vector database architecture\n- HNSW nearest neighbor search\n- RAG conditional probabilities\n- Hybrid search flow\n\n## Project Structure\n\n```\n├── FinalLecture/               # Quantlet-formatted charts (Final Lecture)\n├── logo/                       # Quantlet branding\n├── NLP_slides/\n│   ├── week01_foundations/      # Week 1: Statistical LM\n│   ├── week02_neural_lm/        # Week 2: Word embeddings\n│   ├── week03_rnn/              # Week 3: RNN/LSTM/GRU\n│   ├── ...                      # Weeks 4-12\n│   ├── nn_primer/               # Neural network primer\n│   ├── lstm_primer/             # LSTM deep dive\n│   └── common/                  # Shared templates and utils\n├── embeddings/                  # Standalone embeddings module\n├── exercises/                   # Additional practice\n├── figures/                     # Shared visualizations\n├── requirements.txt             # Python dependencies\n├── environment.yml              # Conda environment\n└── COURSE_INDEX.md              # Full course navigation\n```\n\n## Key Learning Milestones\n\n- ✅ **After Week 2:** Understand and implement word embeddings\n- ✅ **After Week 3:** Build RNN and LSTM from scratch\n- ✅ **After Week 5:** Comprehend transformer architecture completely\n- ✅ **After Week 6:** Fine-tune pre-trained models (BERT, GPT)\n- ✅ **After Week 9:** Control text generation quality and diversity\n- ✅ **After Week 12:** Deploy models responsibly with ethical considerations\n\n## Usage Examples\n\n### Run a Lab Notebook\n```bash\n# Start Jupyter Lab\njupyter lab\n\n# Navigate to a week's lab folder\ncd NLP_slides/week05_transformers/lab\njupyter notebook week05_transformer_lab.ipynb\n```\n\n### Compile a Presentation\n```bash\ncd NLP_slides/week02_neural_lm/presentations\npdflatex week02_neural_lm.tex\n```\n\n### Generate Figures\n```bash\ncd NLP_slides/week05_transformers/python\npython generate_week05_optimal_charts.py\n```\n\n## Testing the Course\n\nTest all lab notebooks for execution:\n```bash\npython test_notebooks.py\n```\n\nThis validates that all 12 lab notebooks execute correctly in your environment.\n\n## Course Delivery Options\n\n### Standard 12-Week Semester\n- One week per topic\n- Weekly labs and assignments\n- Suitable for undergraduate/graduate courses\n\n### Intensive 8-Week Course\n- Combine Weeks 1-2, skip some advanced topics\n- Accelerated pace for bootcamps\n- Focus on core transformer concepts\n\n### Self-Paced Learning\n- Progress at your own speed\n- Complete prerequisite modules first\n- Focus on labs and hands-on practice\n\n## Documentation\n\n- **[COURSE_INDEX.md](COURSE_INDEX.md)** - Complete week-by-week navigation\n- **[INSTALLATION.md](INSTALLATION.md)** - Detailed setup instructions\n- **[CLAUDE.md](CLAUDE.md)** - Development guide and conventions\n- **[status.md](status.md)** - Project status and completion tracking\n- **[changelog.md](changelog.md)** - Change history\n\n## Support and Resources\n\n- **Issues:** Report problems at [GitHub Issues](https://github.com/josterri/2025_NLP_Lectures/issues)\n- **Prerequisites:** Check the Neural Network Primer if you're new to deep learning\n- **GPU Requirements:** Most labs work on CPU; Weeks 5+ benefit from GPU\n\n## Contributing\n\nContributions are welcome! Areas for contribution:\n- Additional exercises and examples\n- Translations to other languages\n- MSc-level challenge problems\n- Bug fixes and improvements\n\n## License\n\nThis course is released under the MIT License. See LICENSE for details.\n\n## Acknowledgments\n\nCourse materials developed with pedagogical focus on:\n- Discovery-based learning\n- Concrete-to-abstract progression\n- Hands-on implementation\n- Real-world applications\n\nBuilt with LaTeX/Beamer, Python, PyTorch, and Jupyter.\n\n## Citation\n\nIf you use these materials in your course or research, please cite:\n\n```bibtex\n@misc{nlp2025course,\n  title={NLP Course 2025: From N-grams to Transformers},\n  author={Joerg Osterrieder},\n  year={2025},\n  url={https://github.com/josterri/2025_NLP_Lectures}\n}\n```\n\n---\n\n**Ready to start?** Check [INSTALLATION.md](INSTALLATION.md) for setup, then dive into Week 2's word embeddings lab!\n\n**Questions?** See [COURSE_INDEX.md](COURSE_INDEX.md) for complete navigation and prerequisites.",
     "latest_release": null,
     "research_metadata": {
       "repo_name": "Natural-Language-Processing",
       "research": {
         "title": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
-        "abstract": "![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)",
+        "abstract": "<p align=\"center\">\n  <a href=\"https://quantlet.de\">\n    <img src=\"logo/quantlet.png\" alt=\"QuantLet Logo\" width=\"120\"/>\n  </a>\n</p>",
         "keywords": [],
         "authors": [
           {
@@ -910,7 +910,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T03:05:18.992307",
+        "extracted_at": "2025-11-29T07:58:10.680544",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1077,7 +1077,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T03:05:27.911717",
+        "extracted_at": "2025-11-29T07:58:18.593155",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },

@@ -167,6 +167,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "portfolio-optimization-ml": [
@@ -319,6 +326,13 @@
     },
     {
       "timestamp": "2025-11-29T03:05:37.136052",
+      "external_citations": 16,
+      "publications_count": 2,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
       "external_citations": 16,
       "publications_count": 2,
       "stars": 0,
@@ -479,6 +493,13 @@
       "publications_count": 2,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
+      "external_citations": 0,
+      "publications_count": 2,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "market-microstructure": [
@@ -631,6 +652,13 @@
     },
     {
       "timestamp": "2025-11-29T03:05:37.136052",
+      "external_citations": 0,
+      "publications_count": 3,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
       "external_citations": 0,
       "publications_count": 3,
       "stars": 0,
@@ -791,6 +819,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "Natural-Language-Processing": [
@@ -947,6 +982,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "neural-networks": [
@@ -984,6 +1026,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "ShareBuybacks": [
@@ -1000,11 +1049,25 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "quantlet-branding-tools": [
     {
       "timestamp": "2025-11-29T03:05:37.136052",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-11-29T07:58:25.366075",
       "external_citations": 0,
       "publications_count": 0,
       "stars": 0,

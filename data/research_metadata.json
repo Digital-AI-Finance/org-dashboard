@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T03:04:05.551930",
+      "extracted_at": "2025-11-29T07:57:05.269111",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -53,67 +53,67 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 21415
+        "size_bytes": 22882
       },
       {
         "name": "citation_report.json",
         "path": "data/citation_report.json",
         "format": ".json",
-        "size_bytes": 2595
+        "size_bytes": 2769
       },
       {
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 4037
+        "size_bytes": 4519
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 2031
+        "size_bytes": 2068
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 13921
+        "size_bytes": 14506
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 62779
+        "size_bytes": 74663
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 12243
+        "size_bytes": 13727
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 11724
+        "size_bytes": 13160
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 23429
+        "size_bytes": 25258
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 54254
+        "size_bytes": 67092
       },
       {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 2226
+        "size_bytes": 2421
       },
       {
         "name": "citation_network.json",
@@ -125,7 +125,7 @@
         "name": "collaboration_network.json",
         "path": "docs/visualizations/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 382
+        "size_bytes": 453
       },
       {
         "name": "research_metadata_schema.json",
@@ -230,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T03:04:07.972036",
+      "extracted_at": "2025-11-29T07:57:07.333371",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T03:04:10.442477",
+      "extracted_at": "2025-11-29T07:57:09.438132",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -350,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T03:04:12.848532",
+      "extracted_at": "2025-11-29T07:57:11.475776",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T03:04:23.350096",
+      "extracted_at": "2025-11-29T07:57:20.269486",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -456,7 +456,7 @@
     "repo_name": "Natural-Language-Processing",
     "research": {
       "title": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
-      "abstract": "![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)",
+      "abstract": "<p align=\"center\">\n  <a href=\"https://quantlet.de\">\n    <img src=\"logo/quantlet.png\" alt=\"QuantLet Logo\" width=\"120\"/>\n  </a>\n</p>",
       "keywords": [],
       "authors": [
         {
@@ -710,7 +710,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T03:05:18.992307",
+      "extracted_at": "2025-11-29T07:58:10.680544",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -780,7 +780,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T03:05:27.911717",
+      "extracted_at": "2025-11-29T07:58:18.593155",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
