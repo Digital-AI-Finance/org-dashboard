@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-11-28**
+Last updated: **2025-11-29**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-11-28**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 8 |
-| Active Repositories | 8 |
+| Total Repositories | 9 |
+| Active Repositories | 9 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 9 |
+| Total Contributors | 10 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -25,7 +25,7 @@ Last updated: **2025-11-28**
 
 | Language | Repository Count |
 |----------|------------------|
-| [Python](by-language/python.md) | 2 |
+| [Python](by-language/python.md) | 3 |
 | [TeX](by-language/tex.md) | 2 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 1 |
 
@@ -55,6 +55,7 @@ Last updated: **2025-11-28**
 | License | Repository Count |
 |---------|------------------|
 | No License | 8 |
+| MIT License | 1 |
 
 
 ---
@@ -71,6 +72,7 @@ Last updated: **2025-11-28**
 | [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 0 | N/A |
 | [neural-networks](repos/neural-networks.md) | 0 | N/A |
 | [ShareBuybacks](repos/ShareBuybacks.md) | 0 | N/A |
+| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 0 | N/A |
 
 
 ---
@@ -79,11 +81,12 @@ Last updated: **2025-11-28**
 
 | Repository | Last Push |
 |------------|-----------|
-| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-27 |
-| [org-dashboard](repos/org-dashboard.md) | 2025-11-27 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-28 |
+| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-28 |
+| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-28 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-11-28 |
 | [neural-networks](repos/neural-networks.md) | 2025-11-24 |
 | [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-22 |
 | [market-microstructure](repos/market-microstructure.md) | 2025-11-21 |
 | [credit-risk-prediction](repos/credit-risk-prediction.md) | 2025-11-21 |
 | [portfolio-optimization-ml](repos/portfolio-optimization-ml.md) | 2025-11-21 |

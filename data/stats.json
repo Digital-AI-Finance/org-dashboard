@@ -1,15 +1,15 @@
 {
-  "generated_at": "2025-11-28T03:05:37.803133",
-  "total_repos": 8,
-  "active_repos": 8,
+  "generated_at": "2025-11-29T03:05:37.131825",
+  "total_repos": 9,
+  "active_repos": 9,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 9,
+  "total_contributors": 10,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
-    "Python": 2,
+    "Python": 3,
     "TeX": 2,
     "Jupyter Notebook": 1
   },
@@ -26,16 +26,25 @@
     "time-series": 1
   },
   "licenses": {
-    "No License": 8
+    "No License": 8,
+    "MIT License": 1
   },
   "recent_repos": [
     {
+      "name": "Natural-Language-Processing",
+      "pushed_at": "2025-11-28T13:02:28+00:00"
+    },
+    {
       "name": "ShareBuybacks",
-      "pushed_at": "2025-11-27T17:22:15+00:00"
+      "pushed_at": "2025-11-28T10:25:40+00:00"
+    },
+    {
+      "name": "quantlet-branding-tools",
+      "pushed_at": "2025-11-28T07:51:30+00:00"
     },
     {
       "name": "org-dashboard",
-      "pushed_at": "2025-11-27T03:06:05+00:00"
+      "pushed_at": "2025-11-28T03:05:56+00:00"
     },
     {
       "name": "neural-networks",
@@ -44,10 +53,6 @@
     {
       "name": "Green-Finance",
       "pushed_at": "2025-11-22T20:38:12+00:00"
-    },
-    {
-      "name": "Natural-Language-Processing",
-      "pushed_at": "2025-11-22T07:28:38+00:00"
     },
     {
       "name": "market-microstructure",
@@ -94,6 +99,10 @@
     {
       "name": "ShareBuybacks",
       "stars": 0
+    },
+    {
+      "name": "quantlet-branding-tools",
+      "stars": 0
     }
   ],
   "repos_without_readme": [
@@ -103,8 +112,8 @@
   "research": {
     "repos_with_papers": 3,
     "repos_with_notebooks": 1,
-    "repos_with_datasets": 3,
+    "repos_with_datasets": 4,
     "total_publications": 7,
-    "total_notebooks": 34
+    "total_notebooks": 37
   }
 }

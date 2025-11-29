@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-28T03:05:47.918770",
+  "generated_at": "2025-11-29T03:05:49.256218",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
@@ -9,9 +9,9 @@
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 18,
+        "commit_count": 19,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-27T03:05:58+00:00",
+        "last_commit": "2025-11-28T03:05:50+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
         ]
@@ -19,19 +19,20 @@
       {
         "id": "josterri",
         "repos": [
-          "neural-networks",
-          "market-microstructure",
-          "Natural-Language-Processing",
           "org-dashboard",
-          "ShareBuybacks",
+          "market-microstructure",
+          "portfolio-optimization-ml",
+          "Natural-Language-Processing",
           "credit-risk-prediction",
           "Green-Finance",
-          "portfolio-optimization-ml"
+          "quantlet-branding-tools",
+          "neural-networks",
+          "ShareBuybacks"
         ],
-        "repo_count": 8,
-        "commit_count": 65,
+        "repo_count": 9,
+        "commit_count": 69,
         "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-27T17:22:14+00:00",
+        "last_commit": "2025-11-28T13:02:14+00:00",
         "emails": [
           "josterri@googlemail.com",
           "josterri@users.noreply.github.com"
@@ -75,8 +76,8 @@
   "summary": {
     "total_authors": 2,
     "total_collaborations": 1,
-    "total_commits": 83,
-    "repositories_analyzed": 8
+    "total_commits": 88,
+    "repositories_analyzed": 9
   },
   "visualizations": {
     "network": "docs/visualizations/collaboration_network_real.html",

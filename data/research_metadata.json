@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-28T03:04:31.864289",
+      "extracted_at": "2025-11-29T03:04:05.551930",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -53,7 +53,7 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 20117
+        "size_bytes": 21415
       },
       {
         "name": "citation_report.json",
@@ -65,37 +65,37 @@
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 3563
+        "size_bytes": 4037
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 2004
+        "size_bytes": 2031
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 13273
+        "size_bytes": 13921
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 61700
+        "size_bytes": 62779
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 10766
+        "size_bytes": 12243
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 10317
+        "size_bytes": 11724
       },
       {
         "name": "research_metadata.json",
@@ -113,7 +113,7 @@
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 2053
+        "size_bytes": 2226
       },
       {
         "name": "citation_network.json",
@@ -230,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-28T03:04:33.765101",
+      "extracted_at": "2025-11-29T03:04:07.972036",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-28T03:04:35.722533",
+      "extracted_at": "2025-11-29T03:04:10.442477",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -350,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-28T03:04:37.625432",
+      "extracted_at": "2025-11-29T03:04:12.848532",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-28T03:04:46.289088",
+      "extracted_at": "2025-11-29T03:04:23.350096",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -603,6 +603,24 @@
           "type": "jupyter"
         },
         {
+          "path": "demos/demo_agent_multistep.ipynb",
+          "title": "demo_agent_multistep",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "demos/demo_rag_simple.ipynb",
+          "title": "demo_rag_simple",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "demos/demo_reasoning_compare.ipynb",
+          "title": "demo_reasoning_compare",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
           "path": "embeddings/handouts/discovery_notebook.ipynb",
           "title": "discovery_notebook",
           "language": "python",
@@ -692,7 +710,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-28T03:05:29.688462",
+      "extracted_at": "2025-11-29T03:05:18.992307",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -726,6 +744,52 @@
         "path": "notebook_test_results.json",
         "format": ".json",
         "size_bytes": 9703
+      }
+    ]
+  },
+  "quantlet-branding-tools": {
+    "repo_name": "quantlet-branding-tools",
+    "research": {
+      "title": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
+      "abstract": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "step 1"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "Python"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-29T03:05:27.911717",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "branding_config.json",
+        "path": "utils/branding_config.json",
+        "format": ".json",
+        "size_bytes": 552
       }
     ]
   }

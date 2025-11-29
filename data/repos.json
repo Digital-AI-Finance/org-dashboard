@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 6294,
+    "size": 6328,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-27T03:06:07+00:00",
-    "pushed_at": "2025-11-27T03:06:05+00:00",
+    "updated_at": "2025-11-28T03:05:59+00:00",
+    "pushed_at": "2025-11-28T03:05:56+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-28T03:04:31.864289",
+        "extracted_at": "2025-11-29T03:04:05.551930",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -83,7 +83,7 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 20117
+          "size_bytes": 21415
         },
         {
           "name": "citation_report.json",
@@ -95,37 +95,37 @@
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 3563
+          "size_bytes": 4037
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 2004
+          "size_bytes": 2031
         },
         {
           "name": "ml_topic_analysis.json",
           "path": "data/ml_topic_analysis.json",
           "format": ".json",
-          "size_bytes": 13273
+          "size_bytes": 13921
         },
         {
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 61700
+          "size_bytes": 62779
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 10766
+          "size_bytes": 12243
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 10317
+          "size_bytes": 11724
         },
         {
           "name": "research_metadata.json",
@@ -143,7 +143,7 @@
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 2053
+          "size_bytes": 2226
         },
         {
           "name": "citation_network.json",
@@ -296,7 +296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-28T03:04:33.765101",
+        "extracted_at": "2025-11-29T03:04:07.972036",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -390,7 +390,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-28T03:04:35.722533",
+        "extracted_at": "2025-11-29T03:04:10.442477",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -488,7 +488,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-28T03:04:37.625432",
+        "extracted_at": "2025-11-29T03:04:12.848532",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -554,7 +554,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-28T03:04:46.289088",
+        "extracted_at": "2025-11-29T03:04:23.350096",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -635,11 +635,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 139699,
+    "size": 140957,
     "default_branch": "main",
     "created_at": "2025-11-22T07:10:08+00:00",
-    "updated_at": "2025-11-22T07:28:41+00:00",
-    "pushed_at": "2025-11-22T07:28:38+00:00",
+    "updated_at": "2025-11-28T13:02:33+00:00",
+    "pushed_at": "2025-11-28T13:02:28+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -803,6 +803,24 @@
             "type": "jupyter"
           },
           {
+            "path": "demos/demo_agent_multistep.ipynb",
+            "title": "demo_agent_multistep",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "demos/demo_rag_simple.ipynb",
+            "title": "demo_rag_simple",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "demos/demo_reasoning_compare.ipynb",
+            "title": "demo_reasoning_compare",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
             "path": "embeddings/handouts/discovery_notebook.ipynb",
             "title": "discovery_notebook",
             "language": "python",
@@ -892,7 +910,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-28T03:05:29.688462",
+        "extracted_at": "2025-11-29T03:05:18.992307",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -974,11 +992,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 52,
+    "size": 71,
     "default_branch": "main",
     "created_at": "2025-11-27T12:42:48+00:00",
-    "updated_at": "2025-11-27T17:22:18+00:00",
-    "pushed_at": "2025-11-27T17:22:15+00:00",
+    "updated_at": "2025-11-28T10:24:48+00:00",
+    "pushed_at": "2025-11-28T10:25:40+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -991,9 +1009,86 @@
     "contributors_count": 1,
     "readme": "No README available",
     "latest_release": {
-      "tag": "v1.3.0",
-      "name": "v1.3.0",
-      "published_at": "2025-11-27T15:37:53+00:00"
+      "tag": "v1.5.0",
+      "name": "v1.5.0",
+      "published_at": "2025-11-28T10:29:35+00:00"
+    }
+  },
+  {
+    "name": "quantlet-branding-tools",
+    "full_name": "Digital-AI-Finance/quantlet-branding-tools",
+    "description": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
+    "url": "https://github.com/Digital-AI-Finance/quantlet-branding-tools",
+    "clone_url": "https://github.com/Digital-AI-Finance/quantlet-branding-tools.git",
+    "homepage": "",
+    "language": "Python",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 70,
+    "default_branch": "master",
+    "created_at": "2025-11-28T07:50:54+00:00",
+    "updated_at": "2025-11-28T07:51:34+00:00",
+    "pushed_at": "2025-11-28T07:51:30+00:00",
+    "license": "MIT License",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "public",
+    "contributors_count": 1,
+    "readme": "# QuantLet LaTeX Branding Tools\n\nAutomated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n## 🚀 Quick Start\n\n```bash\n# 1. Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# 2. Copy to your project\ncp -r quantlet-branding-tools /path/to/your/latex/project/\n\n# 3. Run the 3-step process\npython generate_qr_codes.py\npython add_latex_branding.py\npdflatex your_slides.tex\n```\n\n**Result:** All chart slides now have logo + QR code + clickable URL!\n\n---\n\n## 📖 Documentation\n\nStart here based on your needs:\n\n| Document | Purpose | Best For |\n|----------|---------|----------|\n| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page cheat sheet | Quick lookup, already used these tools |\n| **[BRANDING_GUIDE.md](BRANDING_GUIDE.md)** | Complete step-by-step tutorial | First time using, new project setup |\n| **[TOOLS_REFERENCE.md](TOOLS_REFERENCE.md)** | Detailed technical documentation | Understanding internals, customization |\n\n---\n\n## ✨ Features\n\n- **Automatic URL Generation**: Creates GitHub links from chart folder names\n- **LaTeX-Level Branding**: Logo and QR codes added at compile time (not embedded in chart PDFs)\n- **Clickable Elements**: Logo, QR code, and URL text all link to GitHub\n- **Professional Appearance**:\n  - Logo: Fully visible (100% opacity)\n  - QR Code: Slightly transparent (80% opacity)\n  - Bottom-right positioning\n- **Multiple Repository Support**: Sync between main repo and QuantLet mirror\n- **Zero Code Changes**: Works with existing chart PDFs\n\n---\n\n## 📁 What This Repository Contains\n\n```\nquantlet-branding-tools/\n├── add_latex_branding.py          # Main script - adds branding to .tex files\n├── remove_duplicate_branding.py   # Remove all branding blocks\n├── sync_to_quantlet.py            # Sync to QuantLet repo with updated URLs\n├── generate_qr_codes_template.py  # Template for generating QR codes\n├── generate_metainfo.py            # Generate metainfo.txt files\n├── regenerate_all_charts.py        # Regenerate chart PDFs\n├── remove_chart_branding.py        # Remove embedded branding from charts\n├── logo/\n│   └── quantlet.png               # QuantLet logo (transparent PNG)\n├── utils/                          # Legacy embedded branding utilities\n├── example/                        # Example project structure\n├── README.md                       # This file\n├── QUICK_REFERENCE.md             # One-page quick reference\n├── BRANDING_GUIDE.md              # Complete tutorial\n└── TOOLS_REFERENCE.md             # Technical reference\n```\n\n---\n\n## 🎯 Use Cases\n\n### **For Academic Presentations**\nAdd QuantLet branding to all your Beamer slides with charts:\n- Automatic GitHub links for reproducibility\n- QR codes for easy access during talks\n- Professional appearance for conferences\n\n### **For Research Repositories**\nMake your research more discoverable:\n- Link each chart to its source code on GitHub\n- Audience can scan QR codes to access code instantly\n- Maintain two versions (main repo + QuantLet) with different URLs\n\n### **For Teaching Materials**\nHelp students find resources:\n- Each slide links to the code that generated it\n- Students can explore the repository during/after class\n- Easy to update URLs when moving between repositories\n\n---\n\n## 🛠️ Installation & Setup\n\n### **Requirements**\n\n- Python 3.6+\n- LaTeX packages: `tikz`, `hyperref`, `graphicx`\n- Optional: `qrcode` Python package (for QR code generation)\n\n### **Quick Install**\n\n```bash\n# Install QR code generator (optional but recommended)\npip install qrcode[pil]\n\n# Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# Copy to your project\ncp -r quantlet-branding-tools/* /path/to/your/project/\n```\n\n---\n\n## 📚 Usage\n\n### **Basic Workflow (3 Steps)**\n\n**1. Generate QR Codes**\n```bash\npython generate_qr_codes.py\n```\nThis reads `CHART_METADATA['url']` from each chart's Python script and generates QR codes.\n\n**2. Add Branding to LaTeX**\n```bash\npython add_latex_branding.py\n```\nThis adds tikz overlays with logo + QR + URL to all chart frames in your .tex file.\n\n**3. Compile PDF**\n```bash\npdflatex your_slides.tex\n```\n\nDone! Your slides now have QuantLet branding.\n\n---\n\n### **Project Structure Requirements**\n\nYour LaTeX project should have this structure:\n\n```\nyour_project/\n├── 01_chart_name/\n│   ├── chart_script.py        # Must contain CHART_METADATA\n│   ├── chart.pdf\n│   └── qr_code.png            # Auto-generated by step 1\n├── 02_another_chart/\n│   ├── script.py\n│   ├── chart.pdf\n│   └── qr_code.png\n├── slides.tex                  # Your main LaTeX file\n├── generate_qr_codes.py        # Copy from generate_qr_codes_template.py\n└── add_latex_branding.py       # From this repository\n```\n\n**Each chart script must have:**\n```python\nCHART_METADATA = {\n    'title': 'Chart Title',\n    'url': 'https://github.com/YourOrg/repo/tree/main/01_chart_name'\n}\n```\n\nSee `example/` directory for a complete working example.\n\n---\n\n## 🎨 Customization\n\nEdit `add_latex_branding.py` to customize:\n\n| Element | Current Value | How to Change |\n|---------|---------------|---------------|\n| Logo size | `width=0.8cm` | Line 100: Change width |\n| Logo opacity | `opacity=1.0` (fully visible) | Line 99: Change opacity (0.0-1.0) |\n| QR size | `width=0.6cm` | Line 104: Change width |\n| QR opacity | `opacity=0.8` (20% transparent) | Line 103: Change opacity |\n| Position | Bottom-right corner | Lines 99, 103, 107: Adjust xshift/yshift |\n| Font size | `\\tiny` | Line 108: Change to `\\scriptsize`, `\\footnotesize`, etc. |\n\n---\n\n## 🔄 Syncing to QuantLet Repository\n\nIf you maintain both a main repository and a QuantLet mirror:\n\n```bash\npython sync_to_quantlet.py\n```\n\nThis script automatically:\n1. Clones/updates the QuantLet repository\n2. Copies all files\n3. Updates all URLs to point to QuantLet\n4. Regenerates QR codes\n5. Prepares for commit\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for details.\n\n---\n\n## 📖 Examples\n\n### **Before**\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\\end{frame}\n```\n\n### **After** (automatically added)\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\n  % Quantlet branding (auto-generated)\n  \\begin{tikzpicture}[remember picture,overlay]\n    % Logo (clickable, fully visible)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{logo/quantlet.png}}};\n    % QR Code (clickable, slightly transparent)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{qr_code.png}}};\n    % URL text (clickable)\n    \\node[...] {\\href{https://github.com/...}{\\texttt{07\\_loss\\_landscape}}};\n  \\end{tikzpicture}\n\\end{frame}\n```\n\n---\n\n## 🐛 Troubleshooting\n\n| Issue | Solution |\n|-------|----------|\n| Logo not showing | Check `logo/quantlet.png` exists |\n| QR codes missing | Run `python generate_qr_codes.py` |\n| Duplicate branding | Run `python remove_duplicate_branding.py` then re-add |\n| Wrong repository URLs | Edit CHART_METADATA in chart scripts |\n| Compilation errors | Ensure `tikz` and `hyperref` packages are installed |\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for complete troubleshooting.\n\n---\n\n## 🤝 Contributing\n\nContributions welcome! Please:\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Test with example project\n5. Submit a pull request\n\n---\n\n## 📄 License\n\nMIT License - Free to use and modify\n\n---\n\n## 🔗 Links\n\n- **GitHub**: https://github.com/Digital-AI-Finance/quantlet-branding-tools\n- **QuantLet**: https://quantlet.de\n- **Documentation**: See BRANDING_GUIDE.md\n\n---\n\n## 💡 Tips\n\n1. **Keep chart PDFs clean**: Don't embed branding in chart images\n2. **Use CHART_METADATA**: Always add URLs to your chart scripts\n3. **Test before presenting**: Verify all links work\n4. **Use version control**: Commit before adding branding (easy to revert)\n5. **Reuse this repo**: Clone once, use in many projects\n\n---\n\n## 📞 Support\n\nFor issues or questions:\n- Open an issue on GitHub\n- Check the documentation in `BRANDING_GUIDE.md`\n- See examples in `example/` directory\n\n---\n\n**Made with ❤️ for the QuantLet community**\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "quantlet-branding-tools",
+      "research": {
+        "title": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
+        "abstract": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!",
+        "keywords": [],
+        "authors": [
+          {
+            "name": "step 1"
+          }
+        ]
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "Python"
+        ],
+        "notebooks": [],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": false,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-11-29T03:05:27.911717",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "branding_config.json",
+          "path": "utils/branding_config.json",
+          "format": ".json",
+          "size_bytes": 552
+        }
+      ]
     }
   }
 ]

@@ -22,8 +22,8 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-22 |
-| Last Updated | 2025-11-22 |
-| Last Push | 2025-11-22 |
+| Last Updated | 2025-11-28 |
+| Last Push | 2025-11-28 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | private |
@@ -33,7 +33,7 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 
 ## Notebooks
 
-This repository contains 34 notebook(s):
+This repository contains 37 notebook(s):
 
 | Notebook | Language | Type |
 |----------|----------|------|
@@ -81,6 +81,12 @@ This repository contains 34 notebook(s):
 | [week11_efficiency_lab](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/NLP_slides/week11_efficiency/lab/week11_efficiency_lab.ipynb) | PYTHON | jupyter |
 
 | [week12_ethics_lab](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/NLP_slides/week12_ethics/lab/week12_ethics_lab.ipynb) | PYTHON | jupyter |
+
+| [demo_agent_multistep](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/demos/demo_agent_multistep.ipynb) | PYTHON | jupyter |
+
+| [demo_rag_simple](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/demos/demo_rag_simple.ipynb) | PYTHON | jupyter |
+
+| [demo_reasoning_compare](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/demos/demo_reasoning_compare.ipynb) | PYTHON | jupyter |
 
 | [discovery_notebook](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/embeddings/handouts/discovery_notebook.ipynb) | PYTHON | jupyter |
 
