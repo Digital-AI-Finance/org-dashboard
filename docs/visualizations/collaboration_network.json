@@ -31,6 +31,18 @@
     {
       "id": "digital-ai-in-finance",
       "authors": 1
+    },
+    {
+      "id": "Publications",
+      "authors": 1
+    },
+    {
+      "id": "Natural-Language-Processing-Decoding-Strategies",
+      "authors": 3
+    },
+    {
+      "id": "Statistics",
+      "authors": 2
     }
   ],
   "edges": []

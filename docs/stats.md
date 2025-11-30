@@ -10,12 +10,12 @@ Last updated: **2025-11-30**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 13 |
-| Active Repositories | 13 |
+| Total Repositories | 16 |
+| Active Repositories | 16 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 15 |
+| Total Contributors | 17 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -25,8 +25,8 @@ Last updated: **2025-11-30**
 
 | Language | Repository Count |
 |----------|------------------|
+| [TeX](by-language/tex.md) | 5 |
 | [Python](by-language/python.md) | 3 |
-| [TeX](by-language/tex.md) | 3 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 2 |
 | [HTML](by-language/html.md) | 1 |
 | [JavaScript](by-language/javascript.md) | 1 |
@@ -56,7 +56,7 @@ Last updated: **2025-11-30**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 12 |
+| No License | 15 |
 | MIT License | 1 |
 
 
@@ -86,14 +86,14 @@ Last updated: **2025-11-30**
 |------------|-----------|
 | [org-dashboard](repos/org-dashboard.md) | 2025-11-30 |
 | [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-30 |
-| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-29 |
-| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-29 |
+| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-30 |
+| [Statistics](repos/Statistics.md) | 2025-11-30 |
+| [Natural-Language-Processing-Decoding-Strategies](repos/Natural-Language-Processing-Decoding-Strategies.md) | 2025-11-30 |
+| [Publications](repos/Publications.md) | 2025-11-30 |
+| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-30 |
 | [Natural-Language-Processing-Details](repos/Natural-Language-Processing-Details.md) | 2025-11-29 |
 | [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-29 |
 | [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-11-29 |
-| [demo-repository](repos/demo-repository.md) | 2025-11-29 |
-| [neural-networks](repos/neural-networks.md) | 2025-11-24 |
-| [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
 
 
 ---

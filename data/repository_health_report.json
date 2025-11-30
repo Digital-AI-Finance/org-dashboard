@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-30T06:33:32.294056",
+  "generated_at": "2025-11-30T07:12:15.301859",
   "repositories": {
     "org-dashboard": {
       "overall_score": 53.5,
@@ -754,21 +754,196 @@
           "has_default_branch": true
         }
       }
+    },
+    "Publications": {
+      "overall_score": 37.5,
+      "grade": "F",
+      "status": "Critical",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 0,
+        "code_quality": 10,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 0,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": false,
+          "has_good_description": false,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 10,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": false,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": false,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "D"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "Natural-Language-Processing-Decoding-Strategies": {
+      "overall_score": 37.5,
+      "grade": "F",
+      "status": "Critical",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 0,
+        "code_quality": 10,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": false,
+          "has_good_description": false,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 10,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": false,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": false,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "D"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "Statistics": {
+      "overall_score": 37.5,
+      "grade": "F",
+      "status": "Critical",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 0,
+        "code_quality": 10,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": false,
+          "has_good_description": false,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 10,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": false,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": false,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "D"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
     }
   },
   "summary": {
-    "total_repos": 13,
+    "total_repos": 16,
     "health_distribution": {
-      "D": 13
+      "D": 13,
+      "F": 3
     },
     "average_scores": {
       "activity": 100.0,
-      "community": 6.15,
-      "documentation": 57.69,
-      "code_quality": 43.46,
+      "community": 5.94,
+      "documentation": 46.88,
+      "code_quality": 37.19,
       "popularity": 0.0,
       "maintenance": 100.0
     },
-    "average_overall_score": 54.29
+    "average_overall_score": 51.14
   }
 }

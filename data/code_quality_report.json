@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-30T06:33:32.293558",
+  "generated_at": "2025-11-30T07:12:15.267051",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -247,13 +247,71 @@
       },
       "language": "JavaScript",
       "size_kb": 0
+    },
+    "Publications": {
+      "structure": {
+        "structure_score": 10,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": false,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": false,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "D"
+      },
+      "language": "Unknown",
+      "size_kb": 0
+    },
+    "Natural-Language-Processing-Decoding-Strategies": {
+      "structure": {
+        "structure_score": 10,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": false,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": false,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "D"
+      },
+      "language": "TeX",
+      "size_kb": 0
+    },
+    "Statistics": {
+      "structure": {
+        "structure_score": 10,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": false,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": false,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "D"
+      },
+      "language": "TeX",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 13,
-    "average_structure_score": 43.46,
+    "total_repositories": 16,
+    "average_structure_score": 37.19,
     "grades": {
-      "C": 13
+      "C": 13,
+      "D": 3
     }
   }
 }

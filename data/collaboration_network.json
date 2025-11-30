@@ -1,29 +1,31 @@
 {
-  "generated_at": "2025-11-30T06:33:46.336872",
+  "generated_at": "2025-11-30T07:12:32.955345",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
       {
         "id": "josterri",
         "repos": [
-          "ShareBuybacks",
-          "portfolio-optimization-ml",
-          "quantlet-branding-tools",
-          "neural-networks-introduction",
-          "org-dashboard",
-          "neural-networks",
-          "market-microstructure",
-          "demo-repository",
-          "credit-risk-prediction",
+          "Natural-Language-Processing-Decoding-Strategies",
+          "Statistics",
           "Natural-Language-Processing",
+          "demo-repository",
+          "neural-networks",
+          "quantlet-branding-tools",
+          "Natural-Language-Processing-Details",
+          "market-microstructure",
+          "credit-risk-prediction",
           "Green-Finance",
+          "ShareBuybacks",
+          "neural-networks-introduction",
+          "portfolio-optimization-ml",
           "digital-ai-in-finance",
-          "Natural-Language-Processing-Details"
+          "org-dashboard"
         ],
-        "repo_count": 13,
-        "commit_count": 105,
+        "repo_count": 15,
+        "commit_count": 128,
         "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-30T06:29:38+00:00",
+        "last_commit": "2025-11-30T07:08:07+00:00",
         "emails": [
           "josterri@googlemail.com",
           "josterri@users.noreply.github.com"
@@ -35,9 +37,9 @@
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 22,
+        "commit_count": 23,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-30T03:20:55+00:00",
+        "last_commit": "2025-11-30T06:33:48+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
         ]
@@ -109,8 +111,8 @@
   "summary": {
     "total_authors": 3,
     "total_collaborations": 2,
-    "total_commits": 147,
-    "repositories_analyzed": 13
+    "total_commits": 171,
+    "repositories_analyzed": 15
   },
   "visualizations": {
     "network": "docs/visualizations/collaboration_network_real.html",

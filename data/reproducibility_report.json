@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-30T06:33:32.292277",
+  "generated_at": "2025-11-30T07:12:15.265698",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
@@ -351,13 +351,94 @@
         "average_rating": 0.0,
         "category_ratings": {}
       }
+    },
+    "Publications": {
+      "reproducibility_score": {
+        "score": 40,
+        "max_score": 100,
+        "percentage": 40.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 30,
+          "environment": 0,
+          "data": 10,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "Natural-Language-Processing-Decoding-Strategies": {
+      "reproducibility_score": {
+        "score": 50,
+        "max_score": 100,
+        "percentage": 50.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 20,
+          "environment": 0,
+          "data": 20,
+          "code": 10,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "Statistics": {
+      "reproducibility_score": {
+        "score": 50,
+        "max_score": 100,
+        "percentage": 50.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 20,
+          "environment": 10,
+          "data": 20,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 34.23,
-    "total_repositories": 13,
+    "average_reproducibility_score": 36.56,
+    "total_repositories": 16,
     "badge_distribution": {
-      "bronze": 6,
+      "bronze": 9,
       "silver": 2,
       "none": 5
     },
@@ -424,6 +505,66 @@
       ],
       [
         "org-dashboard",
+        {
+          "reproducibility_score": {
+            "score": 50,
+            "max_score": 100,
+            "percentage": 50.0,
+            "badge": "bronze",
+            "breakdown": {
+              "documentation": 20,
+              "environment": 10,
+              "data": 20,
+              "code": 0,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
+      [
+        "Natural-Language-Processing-Decoding-Strategies",
+        {
+          "reproducibility_score": {
+            "score": 50,
+            "max_score": 100,
+            "percentage": 50.0,
+            "badge": "bronze",
+            "breakdown": {
+              "documentation": 20,
+              "environment": 0,
+              "data": 20,
+              "code": 10,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
+      [
+        "Statistics",
         {
           "reproducibility_score": {
             "score": 50,
@@ -584,66 +725,6 @@
               "documentation": 20,
               "environment": 0,
               "data": 20,
-              "code": 0,
-              "community": 0
-            }
-          },
-          "replication_stats": {
-            "total_attempts": 0,
-            "success_count": 0,
-            "partial_count": 0,
-            "failed_count": 0,
-            "success_rate": 0.0
-          },
-          "community_verification": {
-            "total_reviews": 0,
-            "average_rating": 0.0,
-            "category_ratings": {}
-          }
-        }
-      ],
-      [
-        "quantlet-branding-tools",
-        {
-          "reproducibility_score": {
-            "score": 30,
-            "max_score": 100,
-            "percentage": 30.0,
-            "badge": "none",
-            "breakdown": {
-              "documentation": 20,
-              "environment": 0,
-              "data": 10,
-              "code": 0,
-              "community": 0
-            }
-          },
-          "replication_stats": {
-            "total_attempts": 0,
-            "success_count": 0,
-            "partial_count": 0,
-            "failed_count": 0,
-            "success_rate": 0.0
-          },
-          "community_verification": {
-            "total_reviews": 0,
-            "average_rating": 0.0,
-            "category_ratings": {}
-          }
-        }
-      ],
-      [
-        "demo-repository",
-        {
-          "reproducibility_score": {
-            "score": 30,
-            "max_score": 100,
-            "percentage": 30.0,
-            "badge": "none",
-            "breakdown": {
-              "documentation": 20,
-              "environment": 0,
-              "data": 10,
               "code": 0,
               "community": 0
             }

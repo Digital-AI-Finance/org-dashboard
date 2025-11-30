@@ -15,8 +15,8 @@
     "size": 2019,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-30T06:30:35+00:00",
-    "pushed_at": "2025-11-30T06:30:31+00:00",
+    "updated_at": "2025-11-30T07:08:32+00:00",
+    "pushed_at": "2025-11-30T07:08:29+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:31:29.084256",
+        "extracted_at": "2025-11-30T07:09:31.735844",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -89,13 +89,13 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 26529
+          "size_bytes": 28597
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 2953
+          "size_bytes": 3129
         },
         {
           "name": "code_quality_report.json",
@@ -119,7 +119,7 @@
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 127938
+          "size_bytes": 128567
         },
         {
           "name": "repository_health_report.json",
@@ -137,7 +137,7 @@
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 49436
+          "size_bytes": 50018
         },
         {
           "name": "search_index.pkl",
@@ -320,7 +320,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:31:31.116097",
+        "extracted_at": "2025-11-30T07:09:33.855313",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -414,7 +414,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:31:33.045783",
+        "extracted_at": "2025-11-30T07:09:35.958182",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -476,13 +476,13 @@
       "publications": [
         {
           "type": "journal",
-          "doi": "10.5281/zenodo.1234567)",
-          "url": "https://doi.org/10.5281/zenodo.1234567)"
+          "doi": "10.1111/jofi.2024.12345",
+          "url": "https://doi.org/10.1111/jofi.2024.12345"
         },
         {
           "type": "journal",
-          "doi": "10.1111/jofi.2024.12345",
-          "url": "https://doi.org/10.1111/jofi.2024.12345"
+          "doi": "10.5281/zenodo.1234567)",
+          "url": "https://doi.org/10.5281/zenodo.1234567)"
         },
         {
           "type": "preprint",
@@ -512,7 +512,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:31:35.019013",
+        "extracted_at": "2025-11-30T07:09:38.176869",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -578,7 +578,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:31:43.800946",
+        "extracted_at": "2025-11-30T07:09:47.785893",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -659,11 +659,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 140982,
+    "size": 142175,
     "default_branch": "main",
     "created_at": "2025-11-22T07:10:08+00:00",
-    "updated_at": "2025-11-30T05:52:34+00:00",
-    "pushed_at": "2025-11-30T05:52:30+00:00",
+    "updated_at": "2025-11-30T06:55:42+00:00",
+    "pushed_at": "2025-11-30T06:55:39+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -934,7 +934,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:32:44.050367",
+        "extracted_at": "2025-11-30T07:10:55.573868",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1054,8 +1054,8 @@
     "size": 75,
     "default_branch": "master",
     "created_at": "2025-11-28T07:50:54+00:00",
-    "updated_at": "2025-11-29T21:38:09+00:00",
-    "pushed_at": "2025-11-29T21:38:06+00:00",
+    "updated_at": "2025-11-30T06:50:46+00:00",
+    "pushed_at": "2025-11-30T06:50:42+00:00",
     "license": "MIT License",
     "has_issues": true,
     "has_wiki": false,
@@ -1101,7 +1101,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:32:51.718852",
+        "extracted_at": "2025-11-30T07:11:03.901644",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1174,7 +1174,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:32:54.547235",
+        "extracted_at": "2025-11-30T07:11:06.798075",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1535,7 +1535,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:33:22.466256",
+        "extracted_at": "2025-11-30T07:11:36.660939",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1961,8 +1961,8 @@
     "size": 2900,
     "default_branch": "main",
     "created_at": "2025-11-29T11:14:34+00:00",
-    "updated_at": "2025-11-29T21:30:08+00:00",
-    "pushed_at": "2025-11-29T21:30:05+00:00",
+    "updated_at": "2025-11-30T06:53:19+00:00",
+    "pushed_at": "2025-11-30T06:53:15+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -2008,7 +2008,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T06:33:27.939656",
+        "extracted_at": "2025-11-30T07:11:43.710866",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2060,6 +2060,435 @@
           "path": "archive/drafts/package.json",
           "format": ".json",
           "size_bytes": 49
+        },
+        {
+          "name": "data",
+          "path": "docs/data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "publications.json",
+          "path": "docs/data/publications.json",
+          "format": ".json",
+          "size_bytes": 4272
+        }
+      ]
+    }
+  },
+  {
+    "name": "Publications",
+    "full_name": "Digital-AI-Finance/Publications",
+    "description": "",
+    "url": "https://github.com/Digital-AI-Finance/Publications",
+    "clone_url": "https://github.com/Digital-AI-Finance/Publications.git",
+    "homepage": "",
+    "language": "Unknown",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 0,
+    "default_branch": "main",
+    "created_at": "2025-11-30T06:50:55+00:00",
+    "updated_at": "2025-11-30T06:51:10+00:00",
+    "pushed_at": "2025-11-30T06:51:05+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "private",
+    "contributors_count": 0,
+    "readme": "# Publications Repository\n\nThis repository contains metadata for all publications retrieved from OpenAlex.org.\n\n## Overview\n\n- **Total Publications**: 131\n- **Total Citations**: 1083\n- **Open Access**: 125 (95.4%)\n- **Last Updated**: 2025-11-22 10:53:40\n\n## Data Files\n\n- `publications_latest.json` - Complete publication metadata in JSON format\n\n## Metadata Structure\n\nEach publication entry contains:\n\n- Basic bibliographic information (title, DOI, year, type)\n- Abstract (where available)\n- Citation metrics and trends\n- Open access status and PDF links\n- Author information and institutional affiliations\n- Subject classifications (topics, concepts, keywords)\n- Publication venue details\n- Funding information (where available)\n\n## Usage\n\nThe JSON file can be processed using Python, R, or any JSON-compatible tool for:\n\n- Bibliometric analysis\n- Citation network visualization\n- Collaboration analysis\n- Research trend identification\n- Impact assessment\n\n## Data Source\n\nAll data retrieved from [OpenAlex](https://openalex.org/), an open catalog of scholarly papers, authors, institutions, and venues.\n\n## Citation\n\nIf you use this data in research, please cite OpenAlex:\n\n> Priem, J., Piwowar, H., & Orr, R. (2022). OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts. ArXiv. https://arxiv.org/abs/2205.01833\n\n## License\n\nPublication metadata is provided under CC0 license by OpenAlex.\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "Publications",
+      "research": {
+        "title": "",
+        "abstract": "- Total Publications: 131\n- Total Citations: 1083\n- Open Access: 125 (95.4%)\n- Last Updated: 2025-11-22 10:53:40",
+        "keywords": [],
+        "authors": [
+          {
+            "name": "OpenAlex."
+          }
+        ]
+      },
+      "publications": [
+        {
+          "type": "preprint",
+          "arxiv_id": "2205.01833",
+          "url": "https://arxiv.org/abs/2205.01833",
+          "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+          "abstract": "OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M disambiguated authors; 124k venues (places that host works, such as journals and online repositories); 109k institutions; and 65k Wikidata concepts (linked to works via an automated hierarchical multi-tag classifier). The dataset is fully and freely available via a web-based GUI, a full data dump, and high-volume REST API. The resource is under active development and future work will improve accuracy and coverage of citation information and author/institution parsing and deduplication.",
+          "published": "2022-05-04T00:57:11Z",
+          "updated": "2022-06-17T00:34:23Z",
+          "pdf_url": "https://arxiv.org/pdf/2205.01833.pdf",
+          "authors": [
+            {
+              "name": "Jason Priem"
+            },
+            {
+              "name": "Heather Piwowar"
+            },
+            {
+              "name": "Richard Orr"
+            }
+          ],
+          "categories": [
+            "cs.DL"
+          ],
+          "year": 2022
+        }
+      ],
+      "code": {
+        "languages": [
+          "Unknown"
+        ],
+        "notebooks": [],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": false,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-11-30T07:11:45.851561",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "publications_latest.json",
+          "path": "publications_latest.json",
+          "format": ".json",
+          "size_bytes": 755608
+        }
+      ]
+    }
+  },
+  {
+    "name": "Natural-Language-Processing-Decoding-Strategies",
+    "full_name": "Digital-AI-Finance/Natural-Language-Processing-Decoding-Strategies",
+    "description": "",
+    "url": "https://github.com/Digital-AI-Finance/Natural-Language-Processing-Decoding-Strategies",
+    "clone_url": "https://github.com/Digital-AI-Finance/Natural-Language-Processing-Decoding-Strategies.git",
+    "homepage": "",
+    "language": "TeX",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 0,
+    "default_branch": "main",
+    "created_at": "2025-11-30T06:51:07+00:00",
+    "updated_at": "2025-11-30T06:51:27+00:00",
+    "pushed_at": "2025-11-30T06:51:22+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "private",
+    "contributors_count": 1,
+    "readme": "# Natural Language Processing: Decoding Strategies\n\n**Week 9 Module** - Interactive learning platform for understanding text generation decoding methods in Large Language Models.\n\n## Overview\n\nThis repository contains a complete educational module on decoding strategies, featuring:\n- **2 Interactive React Applications** for hands-on learning\n- **Comprehensive Teaching Materials** (slides, notebooks, charts)\n- **6 Decoding Algorithm Implementations** (greedy, beam, temperature, top-k, nucleus, contrastive)\n- **67 Professional Visualizations** (Python-generated PDF charts)\n\n## Quick Start\n\n### Learning App (Structured Course)\n```bash\ncd learning-app\nnpm install\nnpm run dev\n# Open http://localhost:5180\n```\n\n### Interactive Playground (Experimentation)\n```bash\ncd react-app\nnpm install\nnpm run dev\n# Open http://localhost:5173\n```\n\n## Repository Structure\n\n```\n.\n├── learning-app/              # Material-UI learning application\n│   ├── src/                   # React components (16 files)\n│   ├── public/figures/        # 67 PDF charts\n│   └── README.md              # App-specific documentation\n│\n├── react-app/                 # Tailwind interactive playground\n│   ├── src/                   # React components + algorithms (26 files)\n│   ├── public/figures/        # 67 PDF charts\n│   └── README.md              # App-specific documentation\n│\n├── presentations/             # LaTeX Beamer slides\n│   ├── *.tex                  # 6 LaTeX source files\n│   └── *.pdf                  # 14 compiled presentations\n│\n├── figures/                   # 67 Python-generated charts\n├── python/                    # 19 chart generation scripts\n├── lab/                       # Jupyter notebooks (2 notebooks)\n└── docs/                      # Additional documentation\n```\n\n## Features\n\n### Learning App\n- **3 Structured Learning Goals** with progress tracking\n- **62 Educational Slides** organized pedagogically\n- **Sidebar Navigation** with visual progress bars\n- **Material-UI Design** with purple theme (#3333B2)\n- **Progress Persistence** via localStorage\n\n### Interactive Playground\n- **Live Algorithm Demonstrations** for all 6 methods\n- **Parameter Tuning** with real-time results\n- **Side-by-Side Comparison** of different methods\n- **Quality Metrics** (repetition rate, distinct-n scores)\n- **Preset Configurations** (Factual, Creative, Balanced)\n\n## Decoding Methods Covered\n\n1. **Greedy Decoding** - Always select highest probability (deterministic)\n2. **Beam Search** - Maintain top-k sequences (deterministic)\n3. **Temperature Sampling** - Reshape distribution for creativity (stochastic)\n4. **Top-k Sampling** - Filter to top-k then sample (stochastic)\n5. **Nucleus (Top-p)** - Adaptive cumulative probability cutoff (stochastic)\n6. **Contrastive Search** - Penalize repetition and similar tokens (deterministic)\n\n## Teaching Materials\n\n### Presentations\n- **Canonical Version**: `20251119_1135_week09_improved_readability.pdf` (66 slides)\n- **Pedagogical Structure**: Extremes → Toolbox → Problems → Integration\n- **LaTeX Source**: Available for customization\n\n### Lab Notebooks\n- **Full Lab**: `week09_decoding_lab.ipynb` (comprehensive exercises)\n- **Simplified**: `week09_decoding_simplified.ipynb` (beginner-friendly)\n- **HTML Export**: For web viewing without Jupyter\n\n### Visualizations\n- **67 Professional Charts** in BSc Discovery color scheme\n- **Python Scripts**: All generation scripts included\n- **Chart Types**: Graphviz diagrams, matplotlib plots, seaborn heatmaps\n\n## Technology Stack\n\n### Learning App\n- React 19 + Vite\n- Material-UI 7\n- Framer Motion (animations)\n- react-pdf (PDF viewing)\n- Recharts (charting)\n\n### Interactive Playground\n- React 18 + Vite\n- Tailwind CSS 4\n- React Router 7\n- D3.js (visualizations)\n- Math.js (calculations)\n\n## Development\n\n### Prerequisites\n- Node.js 18+ and npm\n- Git\n- (Optional) Python 3.8+ for chart generation\n\n### Installation\n```bash\n# Clone repository\ngit clone git@git.fhgr.ch:digital-finance/Natural-Language-Processing-Decoding-Strategies.git\ncd Natural-Language-Processing-Decoding-Strategies\n\n# Install learning-app\ncd learning-app\nnpm install\n\n# Install react-app\ncd ../react-app\nnpm install\n```\n\n### Build for Production\n```bash\n# Learning app\ncd learning-app\nnpm run build\nnpm run preview\n\n# Interactive playground\ncd react-app\nnpm run build\nnpm run preview\n```\n\n## Educational Design\n\nBased on **BSc Discovery Pedagogy**:\n1. **Problem before solution** (slides show extremes first)\n2. **Concrete before abstract** (worked examples with actual numbers)\n3. **Worked examples** (real decoding scenarios)\n4. **Dual-slide pattern** (visual + detail)\n5. **Checkpoint quizzes** (3 quizzes at key points)\n\n## Chart Generation\n\nAll 67 charts are generated using Python scripts:\n```bash\ncd python\npython generate_week09_enhanced_charts.py\n```\n\n## Color Scheme\n\n**BSc Discovery Colors**:\n- Purple (`#3333B2`): Primary brand\n- Dark Gray (`#404040`): Main text\n- Lavender shades: Backgrounds\n- Green (`#2CA02C`): Success\n- Red (`#D62728`): Error\n- Orange (`#FF7F0E`): Warning\n\n## Documentation\n\n- **[learning-app/README.md](learning-app/README.md)** - Learning app features\n- **[react-app/README.md](react-app/README.md)** - Playground technical details\n- **[docs/COMPLETION_REPORT.md](docs/COMPLETION_REPORT.md)** - Development summary\n- **[docs/IMPLEMENTATION_SUMMARY.md](docs/IMPLEMENTATION_SUMMARY.md)** - Technical details\n\n## License\n\nPart of NLP Course 2025 materials. Educational use permitted.\n\n## Course Context\n\nThis is **Week 9** of a 12-week NLP course covering:\n- Week 1-2: Foundations and embeddings\n- Week 3-4: RNN/LSTM and Seq2Seq\n- Week 5-7: Transformers and pre-trained models\n- **Week 9: Decoding Strategies** ← You are here\n- Week 10-12: Fine-tuning, efficiency, ethics\n\n## Authors\n\n- Course Design: Prof. Joerg Osterrieder\n- Interactive Apps: AI-assisted development\n- Charts: Python matplotlib/seaborn/graphviz\n\n## Support\n\nFor issues or questions:\n- Check the Wiki for setup guides\n- Review app-specific README files\n- Contact course instructor\n\n---\n\n**Last Updated**: November 22, 2025\n**Version**: 1.0.0\n**Status**: Production Ready\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "Natural-Language-Processing-Decoding-Strategies",
+      "research": {
+        "title": "",
+        "abstract": "This repository contains a complete educational module on decoding strategies, featuring:\n- 2 Interactive React Applications for hands-on learning\n- Comprehensive Teaching Materials (slides, notebooks, charts)\n- 6 Decoding Algorithm Implementations (greedy, beam, temperature, top-k, nucleus, contrastive)\n- 67 Professional Visualizations (Python-generated PDF charts)",
+        "keywords": [],
+        "authors": [
+          {
+            "name": "Course Design: Prof. Joerg Osterrieder"
+          },
+          {
+            "name": "Interactive Apps: AI-assisted development"
+          },
+          {
+            "name": "Charts: Python matplotlib/seaborn/graphviz"
+          }
+        ]
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "TeX"
+        ],
+        "notebooks": [
+          {
+            "path": "lab/week09_decoding_lab.ipynb",
+            "title": "week09_decoding_lab",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "lab/week09_decoding_simplified.ipynb",
+            "title": "week09_decoding_simplified",
+            "language": "python",
+            "type": "jupyter"
+          }
+        ],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": false,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-11-30T07:11:59.035086",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "package.json",
+          "path": "learning-app/package.json",
+          "format": ".json",
+          "size_bytes": 917
+        },
+        {
+          "name": "data",
+          "path": "learning-app/src/data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "learningGoals.js",
+          "path": "learning-app/src/data/learningGoals.js",
+          "format": ".js",
+          "size_bytes": 3228
+        },
+        {
+          "name": "week09_slides_complete.json",
+          "path": "learning-app/src/week09_slides_complete.json",
+          "format": ".json",
+          "size_bytes": 100295
+        },
+        {
+          "name": "package.json",
+          "path": "react-app/package.json",
+          "format": ".json",
+          "size_bytes": 974
+        },
+        {
+          "name": "data",
+          "path": "react-app/src/data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "extractedSlides.json",
+          "path": "react-app/src/data/extractedSlides.json",
+          "format": ".json",
+          "size_bytes": 66753
+        },
+        {
+          "name": "quantitativeExamples.js",
+          "path": "react-app/src/data/quantitativeExamples.js",
+          "format": ".js",
+          "size_bytes": 7001
+        },
+        {
+          "name": "slideContent.js",
+          "path": "react-app/src/data/slideContent.js",
+          "format": ".js",
+          "size_bytes": 7901
+        },
+        {
+          "name": "week09_slides_complete.json",
+          "path": "react-app/src/data/week09_slides_complete.json",
+          "format": ".json",
+          "size_bytes": 100295
+        }
+      ]
+    }
+  },
+  {
+    "name": "Statistics",
+    "full_name": "Digital-AI-Finance/Statistics",
+    "description": "",
+    "url": "https://github.com/Digital-AI-Finance/Statistics",
+    "clone_url": "https://github.com/Digital-AI-Finance/Statistics.git",
+    "homepage": "",
+    "language": "TeX",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 0,
+    "default_branch": "main",
+    "created_at": "2025-11-30T06:51:23+00:00",
+    "updated_at": "2025-11-30T06:51:39+00:00",
+    "pushed_at": "2025-11-30T06:51:33+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "private",
+    "contributors_count": 1,
+    "readme": "# GitHub Organization Dashboard\n\nAutomated interactive dashboard for monitoring repository statistics in the Digital-AI-Finance organization. Features real-time data visualization with daily updates via GitHub Actions.\n\n## Features\n\n- **Automated Data Collection**: Daily updates via GitHub Actions\n- **Interactive Visualizations**: Powered by Plotly for rich, interactive charts\n- **Comprehensive Metrics**:\n  - Repository activity timeline\n  - Commit patterns and trends\n  - Language distribution analysis\n  - Repository maturity scoring\n  - Research focus areas\n  - Contributor analytics\n- **Modern UI**: Dark theme with GitHub-inspired design\n- **Zero Maintenance**: Fully automated pipeline with scheduled updates\n- **GitHub Pages Deployment**: Accessible via web browser\n\n## Quick Start\n\n### Local Development\n\n1. **Clone the repository**\n   ```powershell\n   git clone https://github.com/Digital-AI-Finance/dashboard.git\n   cd dashboard\n   ```\n\n2. **Install dependencies**\n   ```powershell\n   pip install -r requirements.txt\n   ```\n\n3. **Set up GitHub token** (optional but recommended)\n   ```powershell\n   # Windows PowerShell\n   $env:GITHUB_TOKEN=\"your_github_personal_access_token\"\n\n   # Or create a .env file\n   echo \"GITHUB_TOKEN=your_token_here\" > .env\n   ```\n\n4. **Run the dashboard update**\n   ```powershell\n   python run_update.py\n   ```\n\n5. **View the dashboard**\n   Open `index.html` in your browser\n\n### GitHub Token Setup\n\nFor higher API rate limits (5000 requests/hour vs 60), create a GitHub Personal Access Token:\n\n1. Go to GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)\n2. Click \"Generate new token (classic)\"\n3. Select scopes: `public_repo`, `read:org`\n4. Copy the token\n5. Set as environment variable `GITHUB_TOKEN`\n\n## Configuration\n\nEdit `config.yml` to customize:\n\n```yaml\n# Organization to monitor\norganization: \"Digital-AI-Finance\"\n\n# Dashboard settings\ndashboard:\n  title: \"Your Custom Title\"\n  update_frequency: \"daily\"\n\n# Visualization toggles\ncharts:\n  repository_activity:\n    enabled: true\n    days_history: 90  # Adjust time window\n\n  technology_stack:\n    enabled: true\n\n  research_impact:\n    enabled: true\n\n  repository_maturity:\n    enabled: true\n\n# Color scheme\ncolors:\n  background: \"#0d1117\"\n  primary: \"#58a6ff\"\n  # ... customize colors\n```\n\n## GitHub Actions Automation\n\nThe dashboard automatically updates daily via GitHub Actions:\n\n### Setup\n\n1. **Enable GitHub Pages**\n   - Go to repository Settings > Pages\n   - Source: Deploy from a branch\n   - Branch: `gh-pages` / root\n\n2. **Verify workflow permissions**\n   - Go to Settings > Actions > General\n   - Workflow permissions: Read and write permissions\n   - Save\n\n3. **Manual trigger** (optional)\n   - Go to Actions tab\n   - Select \"Update Dashboard\" workflow\n   - Click \"Run workflow\"\n\n### Schedule\n\n- **Automatic**: Daily at midnight UTC\n- **On push**: When code changes are pushed\n- **Manual**: Via Actions tab\n\n## Project Structure\n\n```\ngithub-dashboard/\n|-- .github/\n|   `-- workflows/\n|       `-- update-dashboard.yml    # GitHub Actions workflow\n|\n|-- data/\n|   |-- repository_stats.json       # Fetched GitHub data (generated)\n|   `-- cache/                      # API response cache (generated)\n|\n|-- fetch_github_data.py            # GitHub API data fetcher\n|-- generate_dashboard.py           # Dashboard HTML generator\n|-- run_update.py                   # Convenience script to run both\n|\n|-- config.yml                      # Configuration file\n|-- requirements.txt                # Python dependencies\n|-- .gitignore                      # Git ignore rules\n|\n|-- index.html                      # Generated dashboard (output)\n`-- README.md                       # This file\n```\n\n## Scripts Overview\n\n### fetch_github_data.py\n\nFetches comprehensive data from GitHub API:\n- Organization metadata\n- Repository details (commits, languages, contributors)\n- Activity metrics\n- Maturity scoring\n- Rate limit management\n\n**Usage:**\n```powershell\npython fetch_github_data.py\n```\n\n### generate_dashboard.py\n\nGenerates interactive HTML dashboard with Plotly charts:\n- Commit timeline\n- Language distribution\n- Repository statistics\n- Maturity gauges\n- Research focus areas\n- Contributor activity\n\n**Usage:**\n```powershell\npython generate_dashboard.py\n```\n\n### run_update.py\n\nRuns complete update pipeline (fetch + generate):\n\n**Usage:**\n```powershell\npython run_update.py\n```\n\n## Visualizations\n\n### 1. Commit Activity Timeline\nLine chart showing commit activity across all repositories over the last 90 days.\n\n### 2. Technology Stack Distribution\nPie chart displaying programming language usage across the organization.\n\n### 3. Repository Statistics\nBar charts comparing commits, stars, and forks across repositories.\n\n### 4. Repository Maturity Scores\nGauge charts showing maturity levels based on:\n- Commit activity (20%)\n- Documentation (20%)\n- Testing infrastructure (20%)\n- License presence (15%)\n- CI/CD setup (15%)\n- Community engagement (10%)\n\n**Maturity Stages:**\n- Production: 80-100%\n- Beta: 60-79%\n- Alpha: 40-59%\n- Planning: 20-39%\n- Concept: 0-19%\n\n### 5. Research Focus Areas\nBar chart of research topics extracted from repository descriptions.\n\n### 6. Contributor Activity\nBar chart showing contributor counts per repository.\n\n## Customization\n\n### Modify Charts\n\nEdit `generate_dashboard.py` to customize visualizations:\n\n```python\ndef create_custom_chart(self, data: Dict) -> str:\n    # Your custom Plotly chart code\n    fig = go.Figure(...)\n    return fig.to_html(full_html=False, include_plotlyjs='cdn')\n```\n\nAdd to `generate_html()` method:\n```python\ncustom_chart = self.create_custom_chart(data)\n```\n\nUpdate HTML template to include:\n```html\n<div class=\"chart-section\">\n    <h2>Custom Chart Title</h2>\n    {{ custom_chart|safe }}\n</div>\n```\n\n### Change Color Scheme\n\nEdit `config.yml` colors section:\n\n```yaml\ncolors:\n  background: \"#your_color\"\n  primary: \"#your_color\"\n  # ... etc\n```\n\n### Adjust Data Collection\n\nModify `fetch_github_data.py`:\n- Change `since_days` parameter for longer/shorter history\n- Add additional API endpoints\n- Customize maturity scoring weights\n\n## Troubleshooting\n\n### Rate Limit Errors\n\n**Problem**: API rate limit exceeded\n\n**Solution**:\n- Set `GITHUB_TOKEN` environment variable\n- Reduce update frequency\n- Enable caching in config.yml\n\n### Missing Data\n\n**Problem**: Charts show no data\n\n**Solution**:\n- Verify `data/repository_stats.json` exists\n- Check GitHub token permissions\n- Run `python fetch_github_data.py` manually to see errors\n\n### GitHub Pages Not Updating\n\n**Problem**: Dashboard not showing latest data\n\n**Solution**:\n- Check Actions tab for workflow errors\n- Verify gh-pages branch exists\n- Ensure workflow has write permissions\n- Clear browser cache\n\n### Import Errors\n\n**Problem**: Module not found errors\n\n**Solution**:\n```powershell\npip install -r requirements.txt --upgrade\n```\n\n## Dependencies\n\n- **requests** (2.31.0+): GitHub API communication\n- **plotly** (5.18.0+): Interactive visualizations\n- **pandas** (2.1.0+): Data processing\n- **pyyaml** (6.0.1+): Configuration parsing\n- **jinja2** (3.1.2+): HTML templating\n- **python-dateutil** (2.8.2+): Date handling\n\n## Development\n\n### Adding New Metrics\n\n1. **Fetch data** in `fetch_github_data.py`:\n   ```python\n   def get_new_metric(self, repo_name: str) -> Dict:\n       url = f\"{self.base_url}/repos/{self.org_name}/{repo_name}/endpoint\"\n       return self._make_request(url)\n   ```\n\n2. **Create visualization** in `generate_dashboard.py`:\n   ```python\n   def create_new_metric_chart(self, data: Dict) -> str:\n       # Chart logic\n       return fig.to_html(full_html=False, include_plotlyjs='cdn')\n   ```\n\n3. **Add to dashboard** in HTML template\n\n### Testing Locally\n\n```powershell\n# Test data fetching\npython fetch_github_data.py\n\n# Test dashboard generation\npython generate_dashboard.py\n\n# Open in browser\nstart index.html\n```\n\n## Performance\n\n- **API Calls**: Approximately 10-20 per repository\n- **Rate Limits**: 5000/hour with token, 60/hour without\n- **Generation Time**: 1-3 minutes for 4 repositories\n- **Dashboard Size**: Approximately 2-5 MB HTML file\n\n## Security\n\n- **GitHub Token**: Never commit tokens to repository\n- **Use secrets**: Store in GitHub Secrets for Actions\n- **Environment variables**: Use `.env` file for local development (git-ignored)\n\n## License\n\nMIT License - see LICENSE file for details\n\n## Contributing\n\nContributions welcome! Please:\n1. Fork the repository\n2. Create feature branch\n3. Make changes\n4. Test thoroughly\n5. Submit pull request\n\n## Support\n\nFor issues or questions:\n- Open an issue on GitHub\n- Check existing issues for solutions\n- Review GitHub Actions logs for errors\n\n## Roadmap\n\nFuture enhancements:\n- [ ] Historical trend tracking\n- [ ] Comparison with other organizations\n- [ ] Email notifications on significant changes\n- [ ] Custom metric definitions\n- [ ] Export to PDF/PNG\n- [ ] Mobile app view\n- [ ] Real-time updates via webhooks\n\n## Acknowledgments\n\n- Built with Plotly for interactive visualizations\n- Deployed via GitHub Pages\n- Automated with GitHub Actions\n- Inspired by modern tech dashboard designs\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "Statistics",
+      "research": {
+        "title": "",
+        "abstract": "Automated interactive dashboard for monitoring repository statistics in the Digital-AI-Finance organization. Features real-time data visualization with daily updates via GitHub Actions.",
+        "keywords": [],
+        "authors": [
+          {
+            "name": "Plotly for rich, interactive charts"
+          },
+          {
+            "name": "modern tech dashboard designs"
+          }
+        ]
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "TeX"
+        ],
+        "notebooks": [],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": true,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-11-30T07:12:09.583604",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "data",
+          "path": "data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": ".gitkeep",
+          "path": "data/.gitkeep",
+          "format": "",
+          "size_bytes": 104
+        },
+        {
+          "name": "datasets",
+          "path": "lesson2_hypothesis/datasets",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "README.md",
+          "path": "lesson2_hypothesis/datasets/README.md",
+          "format": ".md",
+          "size_bytes": 3679
+        },
+        {
+          "name": "agricultural_experiment.csv",
+          "path": "lesson2_hypothesis/datasets/agricultural_experiment.csv",
+          "format": ".csv",
+          "size_bytes": 3898
+        },
+        {
+          "name": "clinical_trial.csv",
+          "path": "lesson2_hypothesis/datasets/clinical_trial.csv",
+          "format": ".csv",
+          "size_bytes": 2233
+        },
+        {
+          "name": "drug_dosage_study.csv",
+          "path": "lesson2_hypothesis/datasets/drug_dosage_study.csv",
+          "format": ".csv",
+          "size_bytes": 3502
+        },
+        {
+          "name": "education_intervention.csv",
+          "path": "lesson2_hypothesis/datasets/education_intervention.csv",
+          "format": ".csv",
+          "size_bytes": 616
+        },
+        {
+          "name": "employee_satisfaction.csv",
+          "path": "lesson2_hypothesis/datasets/employee_satisfaction.csv",
+          "format": ".csv",
+          "size_bytes": 3491
+        },
+        {
+          "name": "environmental_study.csv",
+          "path": "lesson2_hypothesis/datasets/environmental_study.csv",
+          "format": ".csv",
+          "size_bytes": 6517
+        },
+        {
+          "name": "manufacturing_quality.csv",
+          "path": "lesson2_hypothesis/datasets/manufacturing_quality.csv",
+          "format": ".csv",
+          "size_bytes": 659
+        },
+        {
+          "name": "marketing_campaigns.csv",
+          "path": "lesson2_hypothesis/datasets/marketing_campaigns.csv",
+          "format": ".csv",
+          "size_bytes": 4123
+        },
+        {
+          "name": "medical_treatment.csv",
+          "path": "lesson2_hypothesis/datasets/medical_treatment.csv",
+          "format": ".csv",
+          "size_bytes": 2376
+        },
+        {
+          "name": "reaction_time_study.csv",
+          "path": "lesson2_hypothesis/datasets/reaction_time_study.csv",
+          "format": ".csv",
+          "size_bytes": 3059
+        },
+        {
+          "name": "website_testing.csv",
+          "path": "lesson2_hypothesis/datasets/website_testing.csv",
+          "format": ".csv",
+          "size_bytes": 73631
         }
       ]
     }

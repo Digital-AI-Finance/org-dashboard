@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:31:29.084256",
+      "extracted_at": "2025-11-30T07:09:31.735844",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -59,13 +59,13 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 26529
+        "size_bytes": 28597
       },
       {
         "name": "citation_report.json",
         "path": "data/citation_report.json",
         "format": ".json",
-        "size_bytes": 2953
+        "size_bytes": 3129
       },
       {
         "name": "code_quality_report.json",
@@ -89,7 +89,7 @@
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 127938
+        "size_bytes": 128567
       },
       {
         "name": "repository_health_report.json",
@@ -107,7 +107,7 @@
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 49436
+        "size_bytes": 50018
       },
       {
         "name": "search_index.pkl",
@@ -254,7 +254,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:31:31.116097",
+      "extracted_at": "2025-11-30T07:09:33.855313",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -312,7 +312,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:31:33.045783",
+      "extracted_at": "2025-11-30T07:09:35.958182",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -338,13 +338,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "preprint",
@@ -374,7 +374,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:31:35.019013",
+      "extracted_at": "2025-11-30T07:09:38.176869",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -409,7 +409,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:31:43.800946",
+      "extracted_at": "2025-11-30T07:09:47.785893",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -734,7 +734,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:32:44.050367",
+      "extracted_at": "2025-11-30T07:10:55.573868",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -804,7 +804,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:32:51.718852",
+      "extracted_at": "2025-11-30T07:11:03.901644",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -846,7 +846,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:32:54.547235",
+      "extracted_at": "2025-11-30T07:11:06.798075",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1145,7 +1145,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:33:22.466256",
+      "extracted_at": "2025-11-30T07:11:36.660939",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1587,7 +1587,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T06:33:27.939656",
+      "extracted_at": "2025-11-30T07:11:43.710866",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1639,6 +1639,342 @@
         "path": "archive/drafts/package.json",
         "format": ".json",
         "size_bytes": 49
+      },
+      {
+        "name": "data",
+        "path": "docs/data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "publications.json",
+        "path": "docs/data/publications.json",
+        "format": ".json",
+        "size_bytes": 4272
+      }
+    ]
+  },
+  "Publications": {
+    "repo_name": "Publications",
+    "research": {
+      "title": "",
+      "abstract": "- Total Publications: 131\n- Total Citations: 1083\n- Open Access: 125 (95.4%)\n- Last Updated: 2025-11-22 10:53:40",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "OpenAlex."
+        }
+      ]
+    },
+    "publications": [
+      {
+        "type": "preprint",
+        "arxiv_id": "2205.01833",
+        "url": "https://arxiv.org/abs/2205.01833",
+        "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+        "abstract": "OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M disambiguated authors; 124k venues (places that host works, such as journals and online repositories); 109k institutions; and 65k Wikidata concepts (linked to works via an automated hierarchical multi-tag classifier). The dataset is fully and freely available via a web-based GUI, a full data dump, and high-volume REST API. The resource is under active development and future work will improve accuracy and coverage of citation information and author/institution parsing and deduplication.",
+        "published": "2022-05-04T00:57:11Z",
+        "updated": "2022-06-17T00:34:23Z",
+        "pdf_url": "https://arxiv.org/pdf/2205.01833.pdf",
+        "authors": [
+          {
+            "name": "Jason Priem"
+          },
+          {
+            "name": "Heather Piwowar"
+          },
+          {
+            "name": "Richard Orr"
+          }
+        ],
+        "categories": [
+          "cs.DL"
+        ],
+        "year": 2022
+      }
+    ],
+    "code": {
+      "languages": [
+        "Unknown"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-30T07:11:45.851561",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "publications_latest.json",
+        "path": "publications_latest.json",
+        "format": ".json",
+        "size_bytes": 755608
+      }
+    ]
+  },
+  "Natural-Language-Processing-Decoding-Strategies": {
+    "repo_name": "Natural-Language-Processing-Decoding-Strategies",
+    "research": {
+      "title": "",
+      "abstract": "This repository contains a complete educational module on decoding strategies, featuring:\n- 2 Interactive React Applications for hands-on learning\n- Comprehensive Teaching Materials (slides, notebooks, charts)\n- 6 Decoding Algorithm Implementations (greedy, beam, temperature, top-k, nucleus, contrastive)\n- 67 Professional Visualizations (Python-generated PDF charts)",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "Course Design: Prof. Joerg Osterrieder"
+        },
+        {
+          "name": "Interactive Apps: AI-assisted development"
+        },
+        {
+          "name": "Charts: Python matplotlib/seaborn/graphviz"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "TeX"
+      ],
+      "notebooks": [
+        {
+          "path": "lab/week09_decoding_lab.ipynb",
+          "title": "week09_decoding_lab",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "lab/week09_decoding_simplified.ipynb",
+          "title": "week09_decoding_simplified",
+          "language": "python",
+          "type": "jupyter"
+        }
+      ],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-30T07:11:59.035086",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "package.json",
+        "path": "learning-app/package.json",
+        "format": ".json",
+        "size_bytes": 917
+      },
+      {
+        "name": "data",
+        "path": "learning-app/src/data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "learningGoals.js",
+        "path": "learning-app/src/data/learningGoals.js",
+        "format": ".js",
+        "size_bytes": 3228
+      },
+      {
+        "name": "week09_slides_complete.json",
+        "path": "learning-app/src/week09_slides_complete.json",
+        "format": ".json",
+        "size_bytes": 100295
+      },
+      {
+        "name": "package.json",
+        "path": "react-app/package.json",
+        "format": ".json",
+        "size_bytes": 974
+      },
+      {
+        "name": "data",
+        "path": "react-app/src/data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "extractedSlides.json",
+        "path": "react-app/src/data/extractedSlides.json",
+        "format": ".json",
+        "size_bytes": 66753
+      },
+      {
+        "name": "quantitativeExamples.js",
+        "path": "react-app/src/data/quantitativeExamples.js",
+        "format": ".js",
+        "size_bytes": 7001
+      },
+      {
+        "name": "slideContent.js",
+        "path": "react-app/src/data/slideContent.js",
+        "format": ".js",
+        "size_bytes": 7901
+      },
+      {
+        "name": "week09_slides_complete.json",
+        "path": "react-app/src/data/week09_slides_complete.json",
+        "format": ".json",
+        "size_bytes": 100295
+      }
+    ]
+  },
+  "Statistics": {
+    "repo_name": "Statistics",
+    "research": {
+      "title": "",
+      "abstract": "Automated interactive dashboard for monitoring repository statistics in the Digital-AI-Finance organization. Features real-time data visualization with daily updates via GitHub Actions.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "Plotly for rich, interactive charts"
+        },
+        {
+          "name": "modern tech dashboard designs"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "TeX"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-30T07:12:09.583604",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "data",
+        "path": "data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": ".gitkeep",
+        "path": "data/.gitkeep",
+        "format": "",
+        "size_bytes": 104
+      },
+      {
+        "name": "datasets",
+        "path": "lesson2_hypothesis/datasets",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "README.md",
+        "path": "lesson2_hypothesis/datasets/README.md",
+        "format": ".md",
+        "size_bytes": 3679
+      },
+      {
+        "name": "agricultural_experiment.csv",
+        "path": "lesson2_hypothesis/datasets/agricultural_experiment.csv",
+        "format": ".csv",
+        "size_bytes": 3898
+      },
+      {
+        "name": "clinical_trial.csv",
+        "path": "lesson2_hypothesis/datasets/clinical_trial.csv",
+        "format": ".csv",
+        "size_bytes": 2233
+      },
+      {
+        "name": "drug_dosage_study.csv",
+        "path": "lesson2_hypothesis/datasets/drug_dosage_study.csv",
+        "format": ".csv",
+        "size_bytes": 3502
+      },
+      {
+        "name": "education_intervention.csv",
+        "path": "lesson2_hypothesis/datasets/education_intervention.csv",
+        "format": ".csv",
+        "size_bytes": 616
+      },
+      {
+        "name": "employee_satisfaction.csv",
+        "path": "lesson2_hypothesis/datasets/employee_satisfaction.csv",
+        "format": ".csv",
+        "size_bytes": 3491
+      },
+      {
+        "name": "environmental_study.csv",
+        "path": "lesson2_hypothesis/datasets/environmental_study.csv",
+        "format": ".csv",
+        "size_bytes": 6517
+      },
+      {
+        "name": "manufacturing_quality.csv",
+        "path": "lesson2_hypothesis/datasets/manufacturing_quality.csv",
+        "format": ".csv",
+        "size_bytes": 659
+      },
+      {
+        "name": "marketing_campaigns.csv",
+        "path": "lesson2_hypothesis/datasets/marketing_campaigns.csv",
+        "format": ".csv",
+        "size_bytes": 4123
+      },
+      {
+        "name": "medical_treatment.csv",
+        "path": "lesson2_hypothesis/datasets/medical_treatment.csv",
+        "format": ".csv",
+        "size_bytes": 2376
+      },
+      {
+        "name": "reaction_time_study.csv",
+        "path": "lesson2_hypothesis/datasets/reaction_time_study.csv",
+        "format": ".csv",
+        "size_bytes": 3059
+      },
+      {
+        "name": "website_testing.csv",
+        "path": "lesson2_hypothesis/datasets/website_testing.csv",
+        "format": ".csv",
+        "size_bytes": 73631
       }
     ]
   }

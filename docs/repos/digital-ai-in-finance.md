@@ -22,8 +22,8 @@ CCG application for AI for Digital Finance workshop - Swiss-MENA Research Networ
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-29 |
-| Last Updated | 2025-11-29 |
-| Last Push | 2025-11-29 |
+| Last Updated | 2025-11-30 |
+| Last Push | 2025-11-30 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | private |
@@ -35,7 +35,7 @@ CCG application for AI for Digital Finance workshop - Swiss-MENA Research Networ
 
 ## Datasets
 
-This repository includes 8 dataset(s):
+This repository includes 10 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -55,6 +55,10 @@ This repository includes 8 dataset(s):
 | [package-lock.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/archive/drafts/package-lock.json) | .json | 7.68 KB |
 
 | [package.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/archive/drafts/package.json) | .json | 0.05 KB |
+
+| [data](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/docs/data) |  | 0.0 KB |
+
+| [publications.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/docs/data/publications.json) | .json | 4.17 KB |
 
 
 

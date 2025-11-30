@@ -1,16 +1,16 @@
 {
-  "generated_at": "2025-11-30T06:33:31.986585",
-  "total_repos": 13,
-  "active_repos": 13,
+  "generated_at": "2025-11-30T07:12:14.957803",
+  "total_repos": 16,
+  "active_repos": 16,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 15,
+  "total_contributors": 17,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
+    "TeX": 5,
     "Python": 3,
-    "TeX": 3,
     "Jupyter Notebook": 2,
     "HTML": 1,
     "JavaScript": 1
@@ -28,25 +28,37 @@
     "time-series": 1
   },
   "licenses": {
-    "No License": 12,
+    "No License": 15,
     "MIT License": 1
   },
   "recent_repos": [
     {
       "name": "org-dashboard",
-      "pushed_at": "2025-11-30T06:30:31+00:00"
+      "pushed_at": "2025-11-30T07:08:29+00:00"
     },
     {
       "name": "Natural-Language-Processing",
-      "pushed_at": "2025-11-30T05:52:30+00:00"
-    },
-    {
-      "name": "quantlet-branding-tools",
-      "pushed_at": "2025-11-29T21:38:06+00:00"
+      "pushed_at": "2025-11-30T06:55:39+00:00"
     },
     {
       "name": "digital-ai-in-finance",
-      "pushed_at": "2025-11-29T21:30:05+00:00"
+      "pushed_at": "2025-11-30T06:53:15+00:00"
+    },
+    {
+      "name": "Statistics",
+      "pushed_at": "2025-11-30T06:51:33+00:00"
+    },
+    {
+      "name": "Natural-Language-Processing-Decoding-Strategies",
+      "pushed_at": "2025-11-30T06:51:22+00:00"
+    },
+    {
+      "name": "Publications",
+      "pushed_at": "2025-11-30T06:51:05+00:00"
+    },
+    {
+      "name": "quantlet-branding-tools",
+      "pushed_at": "2025-11-30T06:50:42+00:00"
     },
     {
       "name": "Natural-Language-Processing-Details",
@@ -59,18 +71,6 @@
     {
       "name": "neural-networks-introduction",
       "pushed_at": "2025-11-29T08:36:04+00:00"
-    },
-    {
-      "name": "demo-repository",
-      "pushed_at": "2025-11-29T08:24:30+00:00"
-    },
-    {
-      "name": "neural-networks",
-      "pushed_at": "2025-11-24T21:15:20+00:00"
-    },
-    {
-      "name": "Green-Finance",
-      "pushed_at": "2025-11-22T20:38:12+00:00"
     }
   ],
   "popular_repos": [
@@ -121,10 +121,10 @@
     "neural-networks-introduction"
   ],
   "research": {
-    "repos_with_papers": 3,
-    "repos_with_notebooks": 2,
-    "repos_with_datasets": 7,
-    "total_publications": 7,
-    "total_notebooks": 77
+    "repos_with_papers": 4,
+    "repos_with_notebooks": 3,
+    "repos_with_datasets": 10,
+    "total_publications": 8,
+    "total_notebooks": 79
   }
 }
