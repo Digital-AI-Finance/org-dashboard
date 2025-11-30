@@ -1,0 +1,5873 @@
+{
+  "documents": [
+    {
+      "id": "doc_0",
+      "content": "# GitHub Organization Research Platform\n\nA comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.\n\nLive Demo: https://digital-ai-finance.github.io/org-dashboard/\n\n## Core Features\n\n- Automatic daily updates via GitHub Actions\n- Beautiful, searchable documentation site\n- Repository catalog with detailed information\n- Statistics and analytics\n- Organization by language and topics\n- Mobile-responsive design\n- Zero server costs (runs entirely on GitHub)\n\n## Research Platform Features\n\n### Publication Tracking\n- Automatic extraction of DOIs, arXiv IDs, SSRN papers from READMEs\n- Academic database integration (CrossRef, arXiv)\n- Publication metadata enrichment\n- Citation count tracking\n\n### Code & Data\n- Jupyter notebook rendering\n- Dataset detection and cataloging\n- Dependency analysis\n- Code language statistics\n\n### Reproducibility\n- Automated reproducibility scoring (100-point scale)\n- Badge system (Gold/Silver/Bronze)\n- Environment configuration detection\n- Docker support tracking\n\n### Community Features\n- Replication attempt tracking\n- Community verification system\n- Peer review ratings\n- Success rate metrics\n\n### Advanced Search\n- Full-text search across all repositories\n- Faceted navigation\n- TF-IDF relevance scoring\n- Autocomplete suggestions\n\n### Visualizations\n- Interactive Plotly charts\n- Citation network graphs\n- Publication timelines\n- Language distribution\n- Collaboration networks\n\n## Architecture\n\n- **Data Fetching**: Python script using PyGithub to fetch org data + research metadata extraction\n- **Academic APIs**: CrossRef, arXiv integration for publication enrichment\n- **Analysis**: Citation tracking, reproducibility scoring, search indexing\n- **Markdown Generation**: Jinja2 templates for dynamic content\n- **Visualizations**: Interactive Plotly charts, network graphs\n- **Static Site**: MkDocs Material theme\n- **Automation**: GitHub Actions for scheduled updates\n- **Hosting**: GitHub Pages (free)\n\n## Live Demo\n\nVisit our live demo at: https://digital-ai-finance.github.io/org-dashboard/\n\nThe demo includes 4 example repositories showcasing different research features:\n\n1. **org-dashboard** - This repository (meta!)\n2. **portfolio-optimization-ml** - ML research with arXiv papers and DOIs\n3. **credit-risk-prediction** - Neural networks with SSRN publications and notebooks\n4. **market-microstructure** - HFT research with Zenodo datasets and Docker\n\nFeatures demonstrated:\n- Publications with DOI/arXiv links and citation counts\n- Reproducibility scores and badges\n- Community replication attempts and reviews\n- Dataset cataloging\n- Interactive visualizations\n\n## Setup Instructions\n\n### 1. Create GitHub Personal Access Token\n\n1. Go to GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)\n2. Click \"Generate new token (classic)\"\n3. Give it a descriptive name (e.g., \"Org Dashboard\")\n4. Select scopes:\n   - `repo` (Full control of private repositories)\n   - `read:org` (Read org and team membership)\n5. Click \"Generate token\"\n6. Copy the token immediately (you will not see it again)\n\n### 2. Fork or Create This Repository\n\n1. Create a new repository in your GitHub organization\n2. Clone this repository or copy all files to your new repo\n3. Push to GitHub\n\n### 3. Configure Repository Secrets\n\n1. Go to your repository Settings > Secrets and variables > Actions\n2. Add the following secrets:\n   - `GH_PAT`: Your GitHub Personal Access Token\n   - `ORG_NAME`: Your organization name (e.g., \"my-org\")\n\n### 4. Enable GitHub Pages\n\n1. Go to repository Settings > Pages\n2. Source: Deploy from a branch\n3. Branch: `gh-pages` / `root`\n4. Save\n\n### 5. Run Initial Workflow\n\n1. Go to Actions tab\n2. Select \"Update Dashboard\" workflow\n3. Click \"Run workflow\"\n4. Wait for completion (2-5 minutes)\n\n### 6. Access Your Dashboard\n\nYour dashboard will be available at:\n`https://YOUR_ORG.github.io/REPO_NAME/`\n\n## Configuration\n\n### Update Frequency\n\nEdit `.github/workflows/update-dashboard.yml` to change schedule:\n\n```yaml\nschedule:\n  - cron: '0 2 * * *'  # Daily at 2 AM UTC\n  # - cron: '0 */6 * * *'  # Every 6 hours\n  # - cron: '0 0 * * 0'  # Weekly on Sunday\n```\n\n### Customize Appearance\n\nEdit `mkdocs.yml` to change:\n- Site name and description\n- Theme colors\n- Navigation structure\n- Enabled features\n\n### Customize Templates\n\nEdit files in `templates/` directory to change:\n- Page layouts\n- Content structure\n- Displayed information\n\n## Local Development\n\n### Prerequisites\n\n- Python 3.11+\n- Git\n\n### Install Dependencies\n\n```bash\npip install -r requirements.txt\n```\n\n### Fetch Data Locally\n\n```bash\nexport GITHUB_TOKEN='your_token_here'\nexport GITHUB_ORG='your_org_name'\npython scripts/fetch_org_data.py\n```\n\nOr with arguments:\n\n```bash\nexport GITHUB_TOKEN='your_token_here'\npython scripts/fetch_org_data.py your_org_name\n```\n\n### Generate Markdown\n\n```bash\npython scripts/generate_markdown.py\n```\n\n### Preview Site Locally\n\n```bash\nmkdocs serve\n```\n\nThen open http://127.0.0.1:8000 in your browser.\n\n### Build Static Site\n\n```bash\nmkdocs build\n```\n\nOutput will be in `site/` directory.\n\n## Project Structure\n\n```\n.\n├── .github/\n│   └── workflows/\n│       └── update-dashboard.yml  # GitHub Actions workflow\n├── scripts/\n│   ├── fetch_org_data.py        # Fetch data from GitHub API\n│   └── generate_markdown.py     # Generate markdown from data\n├── templates/                   # Jinja2 templates\n│   ├── index.md.j2\n│   ├── stats.md.j2\n│   ├── repo.md.j2\n│   └── ...\n├── docs/                        # Generated markdown (committed)\n│   ├── index.md\n│   ├── stats.md\n│   ├── repos/\n│   ├── by-language/\n│   └── by-topic/\n├── data/                        # Generated JSON data (committed)\n│   ├── repos.json\n│   └── stats.json\n├── mkdocs.yml                   # MkDocs configuration\n├── requirements.txt             # Python dependencies\n└── README.md\n```\n\n## Troubleshooting\n\n### Workflow Fails with Authentication Error\n\n- Verify `GH_PAT` secret is set correctly\n- Ensure token has required scopes (`repo`, `read:org`)\n- Token may have expired - regenerate and update secret\n\n### No Changes Detected\n\n- Check if organization has any repositories\n- Verify `ORG_NAME` secret is correct\n- Check workflow logs for errors\n\n### Pages Not Deploying\n\n- Ensure GitHub Pages is enabled in repository settings\n- Check that `gh-pages` branch exists\n- Verify workflow has `contents: write` permission\n\n### Rate Limiting\n\n- GitHub API has rate limits (5000 requests/hour for authenticated requests)\n- For large organizations, consider caching or reducing update frequency\n- Workflow implements basic rate limit handling\n\n### Local Development Issues\n\n**Module not found:**\n```bash\npip install -r requirements.txt\n```\n\n**Permission denied:**\n```bash\nchmod +x scripts/*.py\n```\n\n**Data files missing:**\nRun fetch script first before generating markdown.\n\n## Customization Ideas\n\n- Add CI/CD status badges\n- Include code quality metrics\n- Show dependency vulnerabilities\n- Add commit activity graphs\n- Display contributor statistics\n- Track issue response times\n- Monitor PR merge times\n\n## GitHub Actions Free Tier Limits\n\n- 2000 minutes/month for free accounts\n- This workflow uses ~2-5 minutes per run\n- Daily runs: ~150 minutes/month\n- Well within free tier limits\n\n## Contributing\n\nContributions welcome! Please feel free to submit issues or pull requests.\n\n## License\n\nMIT License - feel free to use this for your organization.\n\n## Credits\n\nBuilt with:\n- [PyGithub](https://github.com/PyGithub/PyGithub)\n- [MkDocs](https://www.mkdocs.org/)\n- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)\n- [Jinja2](https://jinja.palletsprojects.com/)\n",
+      "preview": "# GitHub Organization Research Platform\n\nA comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.\n\nLive Demo: ",
+      "metadata": {
+        "type": "readme",
+        "repo": "org-dashboard",
+        "title": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
+        "language": "Python",
+        "topics": []
+      },
+      "added_at": "2025-11-29T03:05:37.137403"
+    },
+    {
+      "id": "doc_1",
+      "content": "A comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.",
+      "preview": "A comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.",
+      "metadata": {
+        "type": "research",
+        "repo": "org-dashboard",
+        "title": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
+        "keywords": []
+      },
+      "added_at": "2025-11-29T03:05:37.138003"
+    },
+    {
+      "id": "doc_2",
+      "content": "# Portfolio Optimization with Deep Reinforcement Learning\n\nThis repository contains code and data for the paper \"Deep Reinforcement Learning for Portfolio Optimization\" (arXiv:2103.12345).\n\n## Authors\n\n- John Smith (University of Finance)\n- Jane Doe (Tech Institute)\n\n## Abstract\n\nWe propose a novel deep reinforcement learning approach for portfolio optimization that outperforms traditional mean-variance optimization. Our method uses a Deep Q-Network (DQN) to learn optimal trading strategies from historical market data.\n\n## Published Paper\n\n- **arXiv**: arXiv:2103.12345\n- **DOI**: 10.1016/j.jfineco.2023.01.001\n- **Published**: Journal of Financial Economics, 2023\n\n## Citation\n\nIf you use this code or data, please cite:\n\n```bibtex\n@article{smith2023deep,\n  title={Deep Reinforcement Learning for Portfolio Optimization},\n  author={Smith, John and Doe, Jane},\n  journal={Journal of Financial Economics},\n  year={2023},\n  doi={10.1016/j.jfineco.2023.01.001}\n}\n```\n\n## Datasets\n\n- `data/stock_prices.csv` - Historical stock prices (S&P 500, 2010-2023)\n- `data/portfolio_returns.csv` - Simulated portfolio returns\n\n## Requirements\n\n```\nnumpy>=1.21.0\npandas>=1.3.0\ntensorflow>=2.8.0\ngym>=0.21.0\n```\n\n## Reproducibility\n\nAll experiments can be reproduced using:\n\n```bash\npython train_dqn.py --config configs/default.yaml\npython evaluate.py --model checkpoints/best_model.h5\n```\n\n## References\n\nThis work builds on:\n- Mnih et al. (2015) - Human-level control through deep reinforcement learning\n- Jiang et al. (2017) - A deep reinforcement learning framework for the financial portfolio\n",
+      "preview": "# Portfolio Optimization with Deep Reinforcement Learning\n\nThis repository contains code and data for the paper \"Deep Reinforcement Learning for Portfolio Optimization\" (arXiv:2103.12345).\n\n## Authors\n\n- John Smith (University of Finance)\n- Jane Doe (Tech Institute)\n\n## Abstract\n\nWe propose a novel ",
+      "metadata": {
+        "type": "readme",
+        "repo": "portfolio-optimization-ml",
+        "title": "Machine learning approaches to portfolio optimization using deep reinforcement learning",
+        "language": "Unknown",
+        "topics": [
+          "finance",
+          "machine-learning",
+          "portfolio-optimization",
+          "reinforcement-learning"
+        ]
+      },
+      "added_at": "2025-11-29T03:05:37.138028"
+    },
+    {
+      "id": "doc_3",
+      "content": "Financial markets and unemployment ",
+      "preview": "Financial markets and unemployment ",
+      "metadata": {
+        "type": "publication",
+        "repo": "portfolio-optimization-ml",
+        "title": "Financial markets and unemployment",
+        "year": 2023,
+        "doi": "10.1016/j.jfineco.2023.01.001",
+        "arxiv_id": null
+      },
+      "added_at": "2025-11-29T03:05:37.138284"
+    },
+    {
+      "id": "doc_4",
+      "content": "The Success of AdaBoost and Its Application in Portfolio Management We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a strong connection between the ION and the test error. We further identify that the ION of AdaBoost decreases as the iteration number or the complexity of the base learners increases. We confirm that it is impossible to obtain a consistent classifier without deep trees as the base learners of AdaBoost in some complicated situations. We apply AdaBoost in portfolio management via empirical studies in the Chinese market, which corroborates our theoretical propositions.",
+      "preview": "The Success of AdaBoost and Its Application in Portfolio Management We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a",
+      "metadata": {
+        "type": "publication",
+        "repo": "portfolio-optimization-ml",
+        "title": "The Success of AdaBoost and Its Application in Portfolio Management",
+        "year": 2021,
+        "doi": null,
+        "arxiv_id": "2103.12345"
+      },
+      "added_at": "2025-11-29T03:05:37.138298"
+    },
+    {
+      "id": "doc_5",
+      "content": "We propose a novel deep reinforcement learning approach for portfolio optimization that outperforms traditional mean-variance optimization. Our method uses a Deep Q-Network (DQN) to learn optimal trading strategies from historical market data.",
+      "preview": "We propose a novel deep reinforcement learning approach for portfolio optimization that outperforms traditional mean-variance optimization. Our method uses a Deep Q-Network (DQN) to learn optimal trading strategies from historical market data.",
+      "metadata": {
+        "type": "research",
+        "repo": "portfolio-optimization-ml",
+        "title": "Machine learning approaches to portfolio optimization using deep reinforcement learning",
+        "keywords": []
+      },
+      "added_at": "2025-11-29T03:05:37.138344"
+    },
+    {
+      "id": "doc_6",
+      "content": "# Explainable Credit Risk Prediction\n\nRepository for \"Explainable Neural Networks for Credit Risk Assessment\" (SSRN:3456789).\n\n## Authors\n\n- Maria Garcia (Financial Analytics Lab)\n- Robert Chen (AI Research Center)\n\n## Abstract\n\nWe develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.\n\n## Published Paper\n\n- **SSRN**: https://ssrn.com/abstract=3456789\n- **DOI**: 10.2139/ssrn.3456789\n\n## Dataset\n\nWe use the German Credit Dataset and a proprietary dataset from a major bank:\n- `data/german_credit.csv` - Public German Credit Data\n- `data/features.csv` - Engineered features\n\n## Notebooks\n\n- `notebooks/01_data_exploration.ipynb` - Exploratory data analysis\n- `notebooks/02_feature_engineering.ipynb` - Feature creation and selection\n- `notebooks/03_model_training.ipynb` - Neural network training\n- `notebooks/04_explainability.ipynb` - SHAP analysis and interpretation\n\n## Requirements\n\n```\ntensorflow>=2.8.0\nscikit-learn>=1.0.0\nshap>=0.40.0\npandas>=1.3.0\nmatplotlib>=3.4.0\njupyter>=1.0.0\n```\n\n## Citation\n\n```bibtex\n@article{garcia2023explainable,\n  title={Explainable Neural Networks for Credit Risk Assessment},\n  author={Garcia, Maria and Chen, Robert},\n  journal={SSRN Electronic Journal},\n  year={2023},\n  doi={10.2139/ssrn.3456789}\n}\n```\n\n## Replication\n\nTo replicate our results:\n\n1. Install dependencies: `pip install -r requirements.txt`\n2. Run notebooks in order: `jupyter notebook`\n3. Train model: `python train.py`\n4. Generate predictions: `python predict.py`\n",
+      "preview": "# Explainable Credit Risk Prediction\n\nRepository for \"Explainable Neural Networks for Credit Risk Assessment\" (SSRN:3456789).\n\n## Authors\n\n- Maria Garcia (Financial Analytics Lab)\n- Robert Chen (AI Research Center)\n\n## Abstract\n\nWe develop an explainable neural network architecture for credit risk p",
+      "metadata": {
+        "type": "readme",
+        "repo": "credit-risk-prediction",
+        "title": "Neural network models for credit risk prediction with explainable AI",
+        "language": "Unknown",
+        "topics": [
+          "credit-risk",
+          "explainable-ai",
+          "finance",
+          "neural-networks"
+        ]
+      },
+      "added_at": "2025-11-29T03:05:37.138363"
+    },
+    {
+      "id": "doc_7",
+      "content": "We develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.",
+      "preview": "We develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.",
+      "metadata": {
+        "type": "research",
+        "repo": "credit-risk-prediction",
+        "title": "Neural network models for credit risk prediction with explainable AI",
+        "keywords": []
+      },
+      "added_at": "2025-11-29T03:05:37.138461"
+    },
+    {
+      "id": "doc_8",
+      "content": "# Market Microstructure Analysis\n\nCode repository for \"Price Discovery in High-Frequency Markets\" (Journal of Finance, 2024).\n\n## Authors\n\n- David Lee (Quantitative Finance Department)\n- Sarah Williams (Trading Systems Lab)\n\n## Abstract\n\nWe analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.\n\n## Published Papers\n\n- **Main Paper**: DOI: 10.1111/jofi.2024.12345\n- **Working Paper**: arXiv:2201.67890\n\n## Data\n\n- `data/orderbook/` - Limit order book snapshots (10ms frequency)\n- `data/trades/` - Trade and quote data\n- Total size: ~50GB (available via Zenodo: 10.5281/zenodo.1234567)\n\n## Code Structure\n\n```\nsrc/\n  orderbook.py - Order book reconstruction\n  metrics.py - Microstructure metrics\n  analysis.py - Statistical analysis\nnotebooks/\n  analysis.ipynb - Main analysis notebook\ntests/\n  test_orderbook.py - Unit tests\n```\n\n## Requirements\n\n```\nnumpy>=1.21.0\npandas>=1.3.0\nnumba>=0.55.0\npytest>=6.2.0\n```\n\n## Docker\n\nFor reproducibility, we provide a Docker environment:\n\n```bash\ndocker build -t market-microstructure .\ndocker run -v $(pwd)/data:/data market-microstructure python src/analysis.py\n```\n\n## Citation\n\n```bibtex\n@article{lee2024price,\n  title={Price Discovery in High-Frequency Markets},\n  author={Lee, David and Williams, Sarah},\n  journal={Journal of Finance},\n  year={2024},\n  doi={10.1111/jofi.2024.12345}\n}\n```\n\n## References\n\nThis work cites and extends:\n- Hasbrouck (1991) - Measuring the information content of stock trades\n- Biais et al. (1995) - An empirical analysis of the limit order book\n",
+      "preview": "# Market Microstructure Analysis\n\nCode repository for \"Price Discovery in High-Frequency Markets\" (Journal of Finance, 2024).\n\n## Authors\n\n- David Lee (Quantitative Finance Department)\n- Sarah Williams (Trading Systems Lab)\n\n## Abstract\n\nWe analyze price discovery mechanisms in high-frequency tradin",
+      "metadata": {
+        "type": "readme",
+        "repo": "market-microstructure",
+        "title": "High-frequency trading analysis and market microstructure research",
+        "language": "Unknown",
+        "topics": [
+          "finance",
+          "high-frequency-trading",
+          "market-microstructure",
+          "time-series"
+        ]
+      },
+      "added_at": "2025-11-29T03:05:37.138480"
+    },
+    {
+      "id": "doc_9",
+      "content": "We analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.",
+      "preview": "We analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.",
+      "metadata": {
+        "type": "research",
+        "repo": "market-microstructure",
+        "title": "High-frequency trading analysis and market microstructure research",
+        "keywords": []
+      },
+      "added_at": "2025-11-29T03:05:37.138591"
+    },
+    {
+      "id": "doc_10",
+      "content": "# Green Finance Professional Certificate\n\nAcademic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.\n\n## Live Interactive App\n\n**🌐 https://digital-ai-finance.github.io/Green-Finance**\n\nInteractive Week 1 learning platform with 30 slides, charts, and self-assessment.\n\n---\n\n## Project Overview\n\n### Course Structure\n- **Duration:** 8 weeks\n- **Format:** Academic professional certificate\n- **Pedagogy:** Learning-goal-driven (3 goals per week)\n- **Delivery:** Beamer PDF slides + Interactive web app\n\n### Week 1 Status\n✅ **Complete** - 37 slides, 17 charts, fully validated\n- Core: 30 slides (3 learning goals × 10 slides)\n- Supplementary: 7 empirical validation slides\n- Interactive React app deployed\n\n### Weeks 2-8 Status\n⏳ **Ready for generation** using proven Week 1 template\n\n---\n\n## Quick Start\n\n### View Interactive App\nVisit: **https://digital-ai-finance.github.io/Green-Finance**\n\n### Run Locally\n```bash\ncd react-app\nnpm install\nnpm start\n# Opens at http://localhost:3000\n```\n\n### Compile LaTeX Slides\n```bash\n# Compile Week 1\npdflatex -interaction=nonstopmode 20251121_2306_Week1_v2_GreenFinanceFoundations.tex\npdflatex -interaction=nonstopmode 20251121_2306_Week1_v2_GreenFinanceFoundations.tex\n\n# Clean up auxiliary files\nMove-Item -Path *.aux,*.log,*.out,*.nav,*.toc,*.snm -Destination temp\\ -ErrorAction SilentlyContinue\n```\n\n### Generate Charts\n```powershell\n# Generate all Week 1 charts\nGet-ChildItem charts\\week1\\*.py | ForEach-Object { python $_.FullName }\n\n# Generate Graphviz diagrams (requires Graphviz installed)\nGet-ChildItem charts\\week1\\*.dot | ForEach-Object {\n    dot -Tpdf $_.FullName -o ($_.FullName -replace '\\.dot$','.pdf')\n}\n```\n\n---\n\n## Repository Structure\n\n```\nGreen-Finance/\n├── react-app/              # Interactive web app (Week 1)\n│   ├── src/\n│   │   ├── components/     # React components\n│   │   ├── charts/         # Interactive chart components\n│   │   └── data/           # Course content (slides)\n│   ├── DEPLOYMENT.md       # Deployment guide\n│   └── package.json\n│\n├── charts/week1/           # Chart generation scripts\n│   ├── week1_v2_goal1_*.py     # Goal 1 charts (matplotlib)\n│   ├── week1_v2_goal2_*.py     # Goal 2 charts (matplotlib)\n│   ├── week1_v2_goal3_*.py     # Goal 3 charts (matplotlib)\n│   └── *.dot                    # Graphviz diagrams\n│\n├── agents/                 # Multi-agent system specs\n│   ├── AGENT_3_ContentPlanner_v2.md\n│   ├── AGENT_4_SlideGenerator_v2_LaTeXTemplates.md\n│   └── README_v2.md\n│\n├── *.tex                   # LaTeX source files\n├── *.pdf                   # Compiled slide PDFs\n├── template_beamer_final.tex   # Madrid theme template\n├── CLAUDE.md               # Project documentation\n├── COURSE_GENERATOR_v2.md  # Generation system spec\n└── DEPLOY_QUICKSTART.md    # Deployment quick start\n```\n\n---\n\n## Features\n\n### Interactive Web App\n- ✅ 30 slides with keyboard navigation\n- ✅ 3 learning goals with progress tracking\n- ✅ Interactive charts (Recharts)\n- ✅ Self-assessment quizzes\n- ✅ LocalStorage persistence\n- ✅ Mobile responsive\n- ✅ GitHub Pages deployment\n\n### LaTeX Slides (v2.0)\n- ✅ Madrid theme (8pt, 16:9)\n- ✅ 3 learning goals per week\n- ✅ Goal-driven narrative structure\n- ✅ 4 specialized slide types\n- ✅ 17 charts (33%+ ratio)\n- ✅ Bottom notes with goal tracking\n\n### Multi-Agent System\n- ✅ Course Orchestrator\n- ✅ Guidelines Expert\n- ✅ Content Planner v2.0\n- ✅ Slide Generator v2.0\n- ✅ YAML-based communication\n\n---\n\n## Technologies\n\n### Web App\n- React 18.2\n- Material-UI 5.14\n- Recharts 2.8 (charts)\n- Framer Motion 10.16 (animations)\n- D3 7.8 (advanced visualizations)\n\n### Slides & Charts\n- LaTeX Beamer (Madrid theme)\n- Python 3.x + matplotlib\n- Graphviz (diagrams)\n- pdflatex\n\n### Deployment\n- GitHub Pages (automatic)\n- GitHub Actions (CI/CD)\n\n---\n\n## Learning Goals (Week 1)\n\n### Goal 1: Market Microstructure Theory\nUnderstand the theoretical foundations explaining why green finance markets exist and how they function.\n\n**Slides:** 1-10 | **Type:** Theoretical | **Charts:** Ecosystem diagrams\n\n### Goal 2: Quantify Market Size & Growth\nQuantify the size, growth trajectory, and composition of global green finance markets using empirical data.\n\n**Slides:** 11-20 | **Type:** Quantitative | **Charts:** Time series, distributions\n\n### Goal 3: Derive Pricing Models\nDerive and apply mathematical models for pricing green financial instruments, incorporating greenium and ESG factors.\n\n**Slides:** 21-30 | **Type:** Mathematical | **Charts:** Yield curves, risk-return\n\n---\n\n## Documentation\n\n- **[CLAUDE.md](CLAUDE.md)** - Complete project documentation\n- **[DEPLOY_QUICKSTART.md](DEPLOY_QUICKSTART.md)** - Deploy in 3 steps\n- **[react-app/DEPLOYMENT.md](react-app/DEPLOYMENT.md)** - Full deployment guide\n- **[COURSE_GENERATOR_v2.md](COURSE_GENERATOR_v2.md)** - System specification\n- **[agents/README_v2.md](agents/README_v2.md)** - Multi-agent architecture\n\n---\n\n## Deployment\n\n### Automatic (GitHub Actions)\n1. Enable GitHub Pages: Settings → Pages → Source: **GitHub Actions**\n2. Push changes: `git push origin main`\n3. Visit: https://digital-ai-finance.github.io/Green-Finance\n\nSee **[DEPLOY_QUICKSTART.md](DEPLOY_QUICKSTART.md)** for detailed steps.\n\n### Manual\n```bash\ncd react-app\nnpm run deploy\n```\n\n---\n\n## Development Workflow\n\n### Add New Week\n1. Create content outline: `weekN_v2_content_outline.yaml`\n2. Generate charts: `python charts/weekN/*.py`\n3. Generate LaTeX: Use `AGENT_4_SlideGenerator_v2_LaTeXTemplates.md`\n4. Compile: `pdflatex YYYYMMDD_HHMM_WeekN_Title.tex` (2x)\n5. Validate: 30 slides, 10+ charts, 3 goals\n\n### Update React App\n1. Edit content: `react-app/src/data/week1Slides.js`\n2. Test locally: `npm start`\n3. Commit and push: Auto-deploys via GitHub Actions\n\n---\n\n## Quality Standards\n\n### Per Week Requirements\n- **Core slides:** 30 (3 goals × 10 slides)\n- **Charts:** 10-11 minimum\n- **Chart ratio:** ≥33%\n- **Learning goals:** Exactly 3 (typed with narrative roles)\n- **Statistics:** All verified via web search\n\n### Color Scheme (Consistent)\n- Primary (mlpurple): `#3333B2`\n- Secondary (mllavender): `#ADADE0`\n- Success (mlgreen): `#2CA02C`\n- Warning (mlorange): `#FF7F0E`\n\n---\n\n## Prerequisites\n\n- **Node.js** 18+ (for React app)\n- **Python** 3.x (for charts)\n- **pdflatex** (TeX Live or MiKTeX)\n- **Graphviz** (for diagrams)\n- **Git** (version control)\n\n---\n\n## Contributing\n\nThis is an academic project. For questions or improvements:\n1. Open an issue\n2. Submit a pull request\n3. Contact: [Digital-AI-Finance organization](https://github.com/Digital-AI-Finance)\n\n---\n\n## License\n\nAcademic use. All rights reserved.\n\n---\n\n## Next Steps\n\n- [ ] Generate Weeks 2-8\n- [ ] Add more interactive features to web app\n- [ ] Create student exercises\n- [ ] Add video explanations\n- [ ] Develop assessment module\n\n---\n\n**Version:** 2.0 (Learning-Goal-Driven)\n**Status:** Week 1 Complete, Production Ready\n**Live App:** https://digital-ai-finance.github.io/Green-Finance\n",
+      "preview": "# Green Finance Professional Certificate\n\nAcademic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.\n\n## Live Interactive App\n\n**🌐 https://digital-ai-finance.github.io/Green-Finance**\n\nInteractive ",
+      "metadata": {
+        "type": "readme",
+        "repo": "Green-Finance",
+        "title": "Academic course generation system for Green Finance Professional Certificate - 8-week course with learning-goal-driven pedagogy, Beamer slides, and interactive React app",
+        "language": "TeX",
+        "topics": []
+      },
+      "added_at": "2025-11-29T03:05:37.138605"
+    },
+    {
+      "id": "doc_11",
+      "content": "Academic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.",
+      "preview": "Academic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.",
+      "metadata": {
+        "type": "research",
+        "repo": "Green-Finance",
+        "title": "Academic course generation system for Green Finance Professional Certificate - 8-week course with learning-goal-driven pedagogy, Beamer slides, and interactive React app",
+        "keywords": []
+      },
+      "added_at": "2025-11-29T03:05:37.139084"
+    },
+    {
+      "id": "doc_12",
+      "content": "# NLP Course 2025: From N-grams to Transformers\n\n![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)\n\n> A comprehensive Natural Language Processing course covering statistical foundations through modern transformer architectures. Build ChatGPT from scratch!\n\n## Quick Start (3 Steps)\n\n```bash\n# 1. Clone the repository\ngit clone https://github.com/josterri/2025_NLP_Lectures.git\ncd 2025_NLP_Lectures\n\n# 2. Install dependencies\npip install -r requirements.txt\n\n# 3. Start learning!\njupyter lab NLP_slides/week02_neural_lm/lab/week02_word_embeddings_lab.ipynb\n```\n\n## What You'll Learn\n\nThis course takes you from foundational statistical methods to state-of-the-art neural architectures:\n\n- **Weeks 1-2:** Statistical language models and word embeddings (Word2Vec, GloVe)\n- **Weeks 3-4:** Sequential models (RNN/LSTM) and sequence-to-sequence with attention\n- **Weeks 5-7:** Transformers, BERT, GPT, and advanced architectures\n- **Weeks 8-10:** Tokenization, decoding strategies, and fine-tuning\n- **Weeks 11-12:** Efficiency optimization and ethical AI deployment\n\nBy the end, you'll build a working transformer from scratch and understand the architecture behind ChatGPT and Claude.\n\n## Course Structure\n\n### Core Materials (12 Weeks)\nEach week includes:\n- **Presentation:** LaTeX/Beamer slides with optimal readability\n- **Lab Notebook:** Interactive Jupyter notebook with hands-on exercises\n- **Handouts:** Pre-class discovery exercises and post-class technical practice\n\n### Supplementary Modules\n- **Neural Network Primer:** Zero pre-knowledge intro to neural networks\n- **LSTM Primer:** Comprehensive deep dive into LSTM architecture (32 slides)\n- **Embeddings Module:** Standalone word embedding module with 3D visualizations\n\n### Total Content\n- 60+ presentations (including versions and supplements)\n- 12 interactive lab notebooks\n- 40+ handout documents\n- 100+ Python-generated figures\n- 8 progressive visualization notebooks\n\n## Prerequisites\n\n- **Required:**\n  - Python 3.8 or higher\n  - Basic linear algebra (vectors, matrices)\n  - Basic probability theory\n  - Comfortable with Python programming\n\n- **Helpful but not required:**\n  - PyTorch experience\n  - Understanding of backpropagation\n  - Machine learning fundamentals\n\n**New to neural networks?** Start with our Neural Network Primer module before Week 2.\n\n## Installation\n\n### Option 1: pip (Recommended)\n```bash\npip install -r requirements.txt\n```\n\n### Option 2: conda\n```bash\nconda env create -f environment.yml\nconda activate nlp2025\n```\n\n### GPU Support\nFor GPU acceleration (recommended for Weeks 5+):\n```bash\n# CUDA 11.8\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118\n\n# CUDA 12.1\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121\n```\n\nSee [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions and troubleshooting.\n\n## Course Navigation\n\n### Week-by-Week Guide\nFull navigation with topics, prerequisites, and learning objectives: [COURSE_INDEX.md](COURSE_INDEX.md)\n\n### Week Highlights\n\n| Week | Topic | Key Concepts | Lab |\n|------|-------|--------------|-----|\n| 1 | Foundations | N-grams, perplexity, statistical LM | - |\n| 2 | Word Embeddings | Word2Vec, GloVe, neural LM | Implement embeddings |\n| 3 | RNN/LSTM | Sequential models, BPTT | Build LSTM from scratch |\n| 4 | Seq2Seq | Attention mechanism, translation | Machine translation |\n| 5 | Transformers | Self-attention, multi-head | Build transformer |\n| 6 | Pre-trained | BERT, GPT, transfer learning | Fine-tune BERT |\n| 7 | Advanced | T5, GPT-3, scaling laws | Experiment with GPT |\n| 8 | Tokenization | BPE, WordPiece, SentencePiece | Implement tokenizer |\n| 9 | Decoding | Beam, sampling, nucleus, **contrastive** | Compare 6 methods |\n| 10 | Fine-tuning | LoRA, prompt engineering | Adapt models |\n| 11 | Efficiency | Quantization, distillation | Optimize models |\n| 12 | Ethics | Bias, fairness, safety | Measure bias |\n\n## Project Structure\n\n```\n├── NLP_slides/\n│   ├── week01_foundations/      # Week 1: Statistical LM\n│   ├── week02_neural_lm/        # Week 2: Word embeddings\n│   ├── week03_rnn/              # Week 3: RNN/LSTM/GRU\n│   ├── ...                      # Weeks 4-12\n│   ├── nn_primer/               # Neural network primer\n│   ├── lstm_primer/             # LSTM deep dive\n│   └── common/                  # Shared templates and utils\n├── embeddings/                  # Standalone embeddings module\n├── exercises/                   # Additional practice\n├── figures/                     # Shared visualizations\n├── requirements.txt             # Python dependencies\n├── environment.yml              # Conda environment\n└── COURSE_INDEX.md              # Full course navigation\n```\n\n## Key Learning Milestones\n\n- ✅ **After Week 2:** Understand and implement word embeddings\n- ✅ **After Week 3:** Build RNN and LSTM from scratch\n- ✅ **After Week 5:** Comprehend transformer architecture completely\n- ✅ **After Week 6:** Fine-tune pre-trained models (BERT, GPT)\n- ✅ **After Week 9:** Control text generation quality and diversity\n- ✅ **After Week 12:** Deploy models responsibly with ethical considerations\n\n## Usage Examples\n\n### Run a Lab Notebook\n```bash\n# Start Jupyter Lab\njupyter lab\n\n# Navigate to a week's lab folder\ncd NLP_slides/week05_transformers/lab\njupyter notebook week05_transformer_lab.ipynb\n```\n\n### Compile a Presentation\n```bash\ncd NLP_slides/week02_neural_lm/presentations\npdflatex week02_neural_lm.tex\n```\n\n### Generate Figures\n```bash\ncd NLP_slides/week05_transformers/python\npython generate_week05_optimal_charts.py\n```\n\n## Testing the Course\n\nTest all lab notebooks for execution:\n```bash\npython test_notebooks.py\n```\n\nThis validates that all 12 lab notebooks execute correctly in your environment.\n\n## Course Delivery Options\n\n### Standard 12-Week Semester\n- One week per topic\n- Weekly labs and assignments\n- Suitable for undergraduate/graduate courses\n\n### Intensive 8-Week Course\n- Combine Weeks 1-2, skip some advanced topics\n- Accelerated pace for bootcamps\n- Focus on core transformer concepts\n\n### Self-Paced Learning\n- Progress at your own speed\n- Complete prerequisite modules first\n- Focus on labs and hands-on practice\n\n## Documentation\n\n- **[COURSE_INDEX.md](COURSE_INDEX.md)** - Complete week-by-week navigation\n- **[INSTALLATION.md](INSTALLATION.md)** - Detailed setup instructions\n- **[CLAUDE.md](CLAUDE.md)** - Development guide and conventions\n- **[status.md](status.md)** - Project status and completion tracking\n- **[changelog.md](changelog.md)** - Change history\n\n## Support and Resources\n\n- **Issues:** Report problems at [GitHub Issues](https://github.com/josterri/2025_NLP_Lectures/issues)\n- **Prerequisites:** Check the Neural Network Primer if you're new to deep learning\n- **GPU Requirements:** Most labs work on CPU; Weeks 5+ benefit from GPU\n\n## Contributing\n\nContributions are welcome! Areas for contribution:\n- Additional exercises and examples\n- Translations to other languages\n- MSc-level challenge problems\n- Bug fixes and improvements\n\n## License\n\nThis course is released under the MIT License. See LICENSE for details.\n\n## Acknowledgments\n\nCourse materials developed with pedagogical focus on:\n- Discovery-based learning\n- Concrete-to-abstract progression\n- Hands-on implementation\n- Real-world applications\n\nBuilt with LaTeX/Beamer, Python, PyTorch, and Jupyter.\n\n## Citation\n\nIf you use these materials in your course or research, please cite:\n\n```bibtex\n@misc{nlp2025course,\n  title={NLP Course 2025: From N-grams to Transformers},\n  author={Joerg Osterrieder},\n  year={2025},\n  url={https://github.com/josterri/2025_NLP_Lectures}\n}\n```\n\n---\n\n**Ready to start?** Check [INSTALLATION.md](INSTALLATION.md) for setup, then dive into Week 2's word embeddings lab!\n\n**Questions?** See [COURSE_INDEX.md](COURSE_INDEX.md) for complete navigation and prerequisites.",
+      "preview": "# NLP Course 2025: From N-grams to Transformers\n\n![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shie",
+      "metadata": {
+        "type": "readme",
+        "repo": "Natural-Language-Processing",
+        "title": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
+        "language": "Jupyter Notebook",
+        "topics": []
+      },
+      "added_at": "2025-11-29T03:05:37.139103"
+    },
+    {
+      "id": "doc_13",
+      "content": "![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)",
+      "preview": "![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n",
+      "metadata": {
+        "type": "research",
+        "repo": "Natural-Language-Processing",
+        "title": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
+        "keywords": []
+      },
+      "added_at": "2025-11-29T03:05:37.139623"
+    },
+    {
+      "id": "doc_14",
+      "content": "# QuantLet LaTeX Branding Tools\n\nAutomated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n## 🚀 Quick Start\n\n```bash\n# 1. Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# 2. Copy to your project\ncp -r quantlet-branding-tools /path/to/your/latex/project/\n\n# 3. Run the 3-step process\npython generate_qr_codes.py\npython add_latex_branding.py\npdflatex your_slides.tex\n```\n\n**Result:** All chart slides now have logo + QR code + clickable URL!\n\n---\n\n## 📖 Documentation\n\nStart here based on your needs:\n\n| Document | Purpose | Best For |\n|----------|---------|----------|\n| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page cheat sheet | Quick lookup, already used these tools |\n| **[BRANDING_GUIDE.md](BRANDING_GUIDE.md)** | Complete step-by-step tutorial | First time using, new project setup |\n| **[TOOLS_REFERENCE.md](TOOLS_REFERENCE.md)** | Detailed technical documentation | Understanding internals, customization |\n\n---\n\n## ✨ Features\n\n- **Automatic URL Generation**: Creates GitHub links from chart folder names\n- **LaTeX-Level Branding**: Logo and QR codes added at compile time (not embedded in chart PDFs)\n- **Clickable Elements**: Logo, QR code, and URL text all link to GitHub\n- **Professional Appearance**:\n  - Logo: Fully visible (100% opacity)\n  - QR Code: Slightly transparent (80% opacity)\n  - Bottom-right positioning\n- **Multiple Repository Support**: Sync between main repo and QuantLet mirror\n- **Zero Code Changes**: Works with existing chart PDFs\n\n---\n\n## 📁 What This Repository Contains\n\n```\nquantlet-branding-tools/\n├── add_latex_branding.py          # Main script - adds branding to .tex files\n├── remove_duplicate_branding.py   # Remove all branding blocks\n├── sync_to_quantlet.py            # Sync to QuantLet repo with updated URLs\n├── generate_qr_codes_template.py  # Template for generating QR codes\n├── generate_metainfo.py            # Generate metainfo.txt files\n├── regenerate_all_charts.py        # Regenerate chart PDFs\n├── remove_chart_branding.py        # Remove embedded branding from charts\n├── logo/\n│   └── quantlet.png               # QuantLet logo (transparent PNG)\n├── utils/                          # Legacy embedded branding utilities\n├── example/                        # Example project structure\n├── README.md                       # This file\n├── QUICK_REFERENCE.md             # One-page quick reference\n├── BRANDING_GUIDE.md              # Complete tutorial\n└── TOOLS_REFERENCE.md             # Technical reference\n```\n\n---\n\n## 🎯 Use Cases\n\n### **For Academic Presentations**\nAdd QuantLet branding to all your Beamer slides with charts:\n- Automatic GitHub links for reproducibility\n- QR codes for easy access during talks\n- Professional appearance for conferences\n\n### **For Research Repositories**\nMake your research more discoverable:\n- Link each chart to its source code on GitHub\n- Audience can scan QR codes to access code instantly\n- Maintain two versions (main repo + QuantLet) with different URLs\n\n### **For Teaching Materials**\nHelp students find resources:\n- Each slide links to the code that generated it\n- Students can explore the repository during/after class\n- Easy to update URLs when moving between repositories\n\n---\n\n## 🛠️ Installation & Setup\n\n### **Requirements**\n\n- Python 3.6+\n- LaTeX packages: `tikz`, `hyperref`, `graphicx`\n- Optional: `qrcode` Python package (for QR code generation)\n\n### **Quick Install**\n\n```bash\n# Install QR code generator (optional but recommended)\npip install qrcode[pil]\n\n# Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# Copy to your project\ncp -r quantlet-branding-tools/* /path/to/your/project/\n```\n\n---\n\n## 📚 Usage\n\n### **Basic Workflow (3 Steps)**\n\n**1. Generate QR Codes**\n```bash\npython generate_qr_codes.py\n```\nThis reads `CHART_METADATA['url']` from each chart's Python script and generates QR codes.\n\n**2. Add Branding to LaTeX**\n```bash\npython add_latex_branding.py\n```\nThis adds tikz overlays with logo + QR + URL to all chart frames in your .tex file.\n\n**3. Compile PDF**\n```bash\npdflatex your_slides.tex\n```\n\nDone! Your slides now have QuantLet branding.\n\n---\n\n### **Project Structure Requirements**\n\nYour LaTeX project should have this structure:\n\n```\nyour_project/\n├── 01_chart_name/\n│   ├── chart_script.py        # Must contain CHART_METADATA\n│   ├── chart.pdf\n│   └── qr_code.png            # Auto-generated by step 1\n├── 02_another_chart/\n│   ├── script.py\n│   ├── chart.pdf\n│   └── qr_code.png\n├── slides.tex                  # Your main LaTeX file\n├── generate_qr_codes.py        # Copy from generate_qr_codes_template.py\n└── add_latex_branding.py       # From this repository\n```\n\n**Each chart script must have:**\n```python\nCHART_METADATA = {\n    'title': 'Chart Title',\n    'url': 'https://github.com/YourOrg/repo/tree/main/01_chart_name'\n}\n```\n\nSee `example/` directory for a complete working example.\n\n---\n\n## 🎨 Customization\n\nEdit `add_latex_branding.py` to customize:\n\n| Element | Current Value | How to Change |\n|---------|---------------|---------------|\n| Logo size | `width=0.8cm` | Line 100: Change width |\n| Logo opacity | `opacity=1.0` (fully visible) | Line 99: Change opacity (0.0-1.0) |\n| QR size | `width=0.6cm` | Line 104: Change width |\n| QR opacity | `opacity=0.8` (20% transparent) | Line 103: Change opacity |\n| Position | Bottom-right corner | Lines 99, 103, 107: Adjust xshift/yshift |\n| Font size | `\\tiny` | Line 108: Change to `\\scriptsize`, `\\footnotesize`, etc. |\n\n---\n\n## 🔄 Syncing to QuantLet Repository\n\nIf you maintain both a main repository and a QuantLet mirror:\n\n```bash\npython sync_to_quantlet.py\n```\n\nThis script automatically:\n1. Clones/updates the QuantLet repository\n2. Copies all files\n3. Updates all URLs to point to QuantLet\n4. Regenerates QR codes\n5. Prepares for commit\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for details.\n\n---\n\n## 📖 Examples\n\n### **Before**\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\\end{frame}\n```\n\n### **After** (automatically added)\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\n  % Quantlet branding (auto-generated)\n  \\begin{tikzpicture}[remember picture,overlay]\n    % Logo (clickable, fully visible)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{logo/quantlet.png}}};\n    % QR Code (clickable, slightly transparent)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{qr_code.png}}};\n    % URL text (clickable)\n    \\node[...] {\\href{https://github.com/...}{\\texttt{07\\_loss\\_landscape}}};\n  \\end{tikzpicture}\n\\end{frame}\n```\n\n---\n\n## 🐛 Troubleshooting\n\n| Issue | Solution |\n|-------|----------|\n| Logo not showing | Check `logo/quantlet.png` exists |\n| QR codes missing | Run `python generate_qr_codes.py` |\n| Duplicate branding | Run `python remove_duplicate_branding.py` then re-add |\n| Wrong repository URLs | Edit CHART_METADATA in chart scripts |\n| Compilation errors | Ensure `tikz` and `hyperref` packages are installed |\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for complete troubleshooting.\n\n---\n\n## 🤝 Contributing\n\nContributions welcome! Please:\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Test with example project\n5. Submit a pull request\n\n---\n\n## 📄 License\n\nMIT License - Free to use and modify\n\n---\n\n## 🔗 Links\n\n- **GitHub**: https://github.com/Digital-AI-Finance/quantlet-branding-tools\n- **QuantLet**: https://quantlet.de\n- **Documentation**: See BRANDING_GUIDE.md\n\n---\n\n## 💡 Tips\n\n1. **Keep chart PDFs clean**: Don't embed branding in chart images\n2. **Use CHART_METADATA**: Always add URLs to your chart scripts\n3. **Test before presenting**: Verify all links work\n4. **Use version control**: Commit before adding branding (easy to revert)\n5. **Reuse this repo**: Clone once, use in many projects\n\n---\n\n## 📞 Support\n\nFor issues or questions:\n- Open an issue on GitHub\n- Check the documentation in `BRANDING_GUIDE.md`\n- See examples in `example/` directory\n\n---\n\n**Made with ❤️ for the QuantLet community**\n",
+      "preview": "# QuantLet LaTeX Branding Tools\n\nAutomated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://o",
+      "metadata": {
+        "type": "readme",
+        "repo": "quantlet-branding-tools",
+        "title": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
+        "language": "Python",
+        "topics": []
+      },
+      "added_at": "2025-11-29T03:05:37.139672"
+    },
+    {
+      "id": "doc_15",
+      "content": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!",
+      "preview": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!",
+      "metadata": {
+        "type": "research",
+        "repo": "quantlet-branding-tools",
+        "title": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
+        "keywords": []
+      },
+      "added_at": "2025-11-29T03:05:37.140258"
+    }
+  ],
+  "inverted_index": {
+    "distribution": [
+      "doc_0"
+    ],
+    "required": [
+      "doc_12",
+      "doc_0"
+    ],
+    "ensure": [
+      "doc_14",
+      "doc_0"
+    ],
+    "generating": [
+      "doc_14",
+      "doc_0"
+    ],
+    "correct": [
+      "doc_0"
+    ],
+    "permission": [
+      "doc_0"
+    ],
+    "including": [
+      "doc_12",
+      "doc_1",
+      "doc_0"
+    ],
+    "dois": [
+      "doc_0"
+    ],
+    "clone": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "completion": [
+      "doc_12",
+      "doc_0"
+    ],
+    "consider": [
+      "doc_0"
+    ],
+    "dashboard": [
+      "doc_0"
+    ],
+    "enrichment": [
+      "doc_0"
+    ],
+    "customization": [
+      "doc_14",
+      "doc_0"
+    ],
+    "templates": [
+      "doc_12",
+      "doc_0"
+    ],
+    "advanced": [
+      "doc_10",
+      "doc_12",
+      "doc_1",
+      "doc_0"
+    ],
+    "automatic": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "root": [
+      "doc_0"
+    ],
+    "2000": [
+      "doc_0"
+    ],
+    "autocomplete": [
+      "doc_0"
+    ],
+    "contributions": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "authenticated": [
+      "doc_0"
+    ],
+    "read": [
+      "doc_0"
+    ],
+    "includes": [
+      "doc_12",
+      "doc_0"
+    ],
+    "development": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "system": [
+      "doc_10",
+      "doc_11",
+      "doc_0"
+    ],
+    "write": [
+      "doc_0"
+    ],
+    "www": [
+      "doc_0"
+    ],
+    "detection": [
+      "doc_0"
+    ],
+    "neural": [
+      "doc_12",
+      "doc_7",
+      "doc_0",
+      "doc_6"
+    ],
+    "json": [
+      "doc_10",
+      "doc_0"
+    ],
+    "updates": [
+      "doc_14",
+      "doc_0"
+    ],
+    "prerequisites": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "markdown": [
+      "doc_0"
+    ],
+    "correctly": [
+      "doc_12",
+      "doc_0"
+    ],
+    "commit": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "ids": [
+      "doc_0"
+    ],
+    "edit": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "give": [
+      "doc_0"
+    ],
+    "organizations": [
+      "doc_1",
+      "doc_0"
+    ],
+    "ideas": [
+      "doc_0"
+    ],
+    "squidfunk": [
+      "doc_0"
+    ],
+    "timelines": [
+      "doc_0"
+    ],
+    "submit": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "detected": [
+      "doc_0"
+    ],
+    "analysis": [
+      "doc_8",
+      "doc_0",
+      "doc_1",
+      "doc_6"
+    ],
+    "bronze": [
+      "doc_0"
+    ],
+    "badges": [
+      "doc_0"
+    ],
+    "example": [
+      "doc_14",
+      "doc_0"
+    ],
+    "hour": [
+      "doc_0"
+    ],
+    "jupyter": [
+      "doc_12",
+      "doc_0",
+      "doc_6"
+    ],
+    "limits": [
+      "doc_0"
+    ],
+    "chmod": [
+      "doc_0"
+    ],
+    "classic": [
+      "doc_0"
+    ],
+    "github_org": [
+      "doc_0"
+    ],
+    "output": [
+      "doc_0"
+    ],
+    "utc": [
+      "doc_0"
+    ],
+    "generation": [
+      "doc_0",
+      "doc_10",
+      "doc_12",
+      "doc_11",
+      "doc_14"
+    ],
+    "all": [
+      "doc_0",
+      "doc_2",
+      "doc_10",
+      "doc_15",
+      "doc_12",
+      "doc_14"
+    ],
+    "check": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "feel": [
+      "doc_0"
+    ],
+    "fetching": [
+      "doc_0"
+    ],
+    "by-language": [
+      "doc_0"
+    ],
+    "cron": [
+      "doc_0"
+    ],
+    "requirements": [
+      "doc_8",
+      "doc_0",
+      "doc_10",
+      "doc_2",
+      "doc_6",
+      "doc_12",
+      "doc_14"
+    ],
+    "mobile-responsive": [
+      "doc_0"
+    ],
+    "pull": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "charts": [
+      "doc_0",
+      "doc_10",
+      "doc_13",
+      "doc_12",
+      "doc_14"
+    ],
+    "developer": [
+      "doc_0"
+    ],
+    "not": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "authentication": [
+      "doc_0"
+    ],
+    "palletsprojects": [
+      "doc_0"
+    ],
+    "your_token_here": [
+      "doc_0"
+    ],
+    "credits": [
+      "doc_0"
+    ],
+    "attempts": [
+      "doc_0"
+    ],
+    "weekly": [
+      "doc_12",
+      "doc_0"
+    ],
+    "github_token": [
+      "doc_0"
+    ],
+    "datasets": [
+      "doc_2",
+      "doc_0"
+    ],
+    "hosting": [
+      "doc_0"
+    ],
+    "scopes": [
+      "doc_0"
+    ],
+    "again": [
+      "doc_0"
+    ],
+    "content": [
+      "doc_10",
+      "doc_12",
+      "doc_8",
+      "doc_0"
+    ],
+    "variables": [
+      "doc_0"
+    ],
+    "initial": [
+      "doc_0"
+    ],
+    "welcome": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "contributing": [
+      "doc_10",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "source": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "generate": [
+      "doc_0",
+      "doc_10",
+      "doc_6",
+      "doc_12",
+      "doc_14"
+    ],
+    "tracking": [
+      "doc_10",
+      "doc_12",
+      "doc_1",
+      "doc_0"
+    ],
+    "activity": [
+      "doc_0"
+    ],
+    "generated": [
+      "doc_14",
+      "doc_0"
+    ],
+    "immediately": [
+      "doc_0"
+    ],
+    "org": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "errors": [
+      "doc_14",
+      "doc_0"
+    ],
+    "bash": [
+      "doc_8",
+      "doc_0",
+      "doc_10",
+      "doc_2",
+      "doc_12",
+      "doc_14"
+    ],
+    "gh_pat": [
+      "doc_0"
+    ],
+    "monitoring": [
+      "doc_1",
+      "doc_0"
+    ],
+    "demo": [
+      "doc_0"
+    ],
+    "txt": [
+      "doc_14",
+      "doc_12",
+      "doc_0",
+      "doc_6"
+    ],
+    "integration": [
+      "doc_0"
+    ],
+    "token": [
+      "doc_0"
+    ],
+    "every": [
+      "doc_0"
+    ],
+    "arguments": [
+      "doc_0"
+    ],
+    "git": [
+      "doc_10",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "visualizations": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "mit": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "reproducibility": [
+      "doc_1",
+      "doc_0",
+      "doc_2",
+      "doc_8",
+      "doc_14"
+    ],
+    "error": [
+      "doc_4",
+      "doc_0"
+    ],
+    "wait": [
+      "doc_0"
+    ],
+    "ssrn": [
+      "doc_0",
+      "doc_6"
+    ],
+    "your": [
+      "doc_12",
+      "doc_15",
+      "doc_14",
+      "doc_0"
+    ],
+    "comprehensive": [
+      "doc_12",
+      "doc_1",
+      "doc_0"
+    ],
+    "research": [
+      "doc_1",
+      "doc_0",
+      "doc_6",
+      "doc_12",
+      "doc_14"
+    ],
+    "publications": [
+      "doc_0"
+    ],
+    "python": [
+      "doc_8",
+      "doc_0",
+      "doc_10",
+      "doc_2",
+      "doc_6",
+      "doc_12",
+      "doc_14"
+    ],
+    "issues": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "select": [
+      "doc_0"
+    ],
+    "stats": [
+      "doc_0"
+    ],
+    "missing": [
+      "doc_14",
+      "doc_0"
+    ],
+    "you": [
+      "doc_2",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "use": [
+      "doc_0",
+      "doc_2",
+      "doc_10",
+      "doc_6",
+      "doc_12",
+      "doc_14"
+    ],
+    "success": [
+      "doc_10",
+      "doc_4",
+      "doc_0"
+    ],
+    "searchable": [
+      "doc_0"
+    ],
+    "files": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "show": [
+      "doc_0"
+    ],
+    "browser": [
+      "doc_0"
+    ],
+    "100-point": [
+      "doc_0"
+    ],
+    "environment": [
+      "doc_12",
+      "doc_8",
+      "doc_0"
+    ],
+    "deploying": [
+      "doc_0"
+    ],
+    "scripts": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "regenerate": [
+      "doc_14",
+      "doc_0"
+    ],
+    "meta": [
+      "doc_0"
+    ],
+    "large": [
+      "doc_0"
+    ],
+    "jinja": [
+      "doc_0"
+    ],
+    "include": [
+      "doc_0"
+    ],
+    "implements": [
+      "doc_0"
+    ],
+    "click": [
+      "doc_0"
+    ],
+    "daily": [
+      "doc_0"
+    ],
+    "configure": [
+      "doc_0"
+    ],
+    "our": [
+      "doc_5",
+      "doc_4",
+      "doc_0",
+      "doc_2",
+      "doc_6",
+      "doc_12"
+    ],
+    "limit": [
+      "doc_8",
+      "doc_0"
+    ],
+    "core": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "workflow": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "update": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "networks": [
+      "doc_12",
+      "doc_0",
+      "doc_6"
+    ],
+    "month": [
+      "doc_0"
+    ],
+    "scores": [
+      "doc_7",
+      "doc_0",
+      "doc_6"
+    ],
+    "well": [
+      "doc_0"
+    ],
+    "code": [
+      "doc_2",
+      "doc_8",
+      "doc_14",
+      "doc_0"
+    ],
+    "tf-idf": [
+      "doc_0"
+    ],
+    "academic": [
+      "doc_1",
+      "doc_0",
+      "doc_10",
+      "doc_11",
+      "doc_14"
+    ],
+    "papers": [
+      "doc_8",
+      "doc_0"
+    ],
+    "organization": [
+      "doc_10",
+      "doc_0"
+    ],
+    "static": [
+      "doc_0"
+    ],
+    "replication": [
+      "doc_0",
+      "doc_6"
+    ],
+    "faceted": [
+      "doc_0"
+    ],
+    "dynamic": [
+      "doc_0"
+    ],
+    "site": [
+      "doc_0"
+    ],
+    "layouts": [
+      "doc_0"
+    ],
+    "set": [
+      "doc_0"
+    ],
+    "repos": [
+      "doc_0"
+    ],
+    "preview": [
+      "doc_0"
+    ],
+    "team": [
+      "doc_0"
+    ],
+    "automation": [
+      "doc_0"
+    ],
+    "new": [
+      "doc_10",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "scoring": [
+      "doc_1",
+      "doc_0"
+    ],
+    "relevance": [
+      "doc_0"
+    ],
+    "track": [
+      "doc_0"
+    ],
+    "beautiful": [
+      "doc_0"
+    ],
+    "expired": [
+      "doc_0"
+    ],
+    "platform": [
+      "doc_10",
+      "doc_1",
+      "doc_0"
+    ],
+    "fork": [
+      "doc_14",
+      "doc_0"
+    ],
+    "yaml": [
+      "doc_10",
+      "doc_2",
+      "doc_0"
+    ],
+    "metrics": [
+      "doc_8",
+      "doc_0"
+    ],
+    "local": [
+      "doc_0"
+    ],
+    "project": [
+      "doc_10",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "personal": [
+      "doc_0"
+    ],
+    "limiting": [
+      "doc_0"
+    ],
+    "repo": [
+      "doc_14",
+      "doc_0"
+    ],
+    "features": [
+      "doc_1",
+      "doc_0",
+      "doc_10",
+      "doc_6",
+      "doc_14"
+    ],
+    "name": [
+      "doc_0"
+    ],
+    "runs": [
+      "doc_0"
+    ],
+    "control": [
+      "doc_0",
+      "doc_2",
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "descriptive": [
+      "doc_0"
+    ],
+    "please": [
+      "doc_2",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "dependency": [
+      "doc_0"
+    ],
+    "full": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "changes": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "license": [
+      "doc_0",
+      "doc_10",
+      "doc_13",
+      "doc_12",
+      "doc_14"
+    ],
+    "server": [
+      "doc_0"
+    ],
+    "rendering": [
+      "doc_0"
+    ],
+    "api": [
+      "doc_0"
+    ],
+    "actions": [
+      "doc_10",
+      "doc_0"
+    ],
+    "crossref": [
+      "doc_0"
+    ],
+    "displayed": [
+      "doc_0"
+    ],
+    "notebooks": [
+      "doc_12",
+      "doc_8",
+      "doc_0",
+      "doc_6"
+    ],
+    "indexing": [
+      "doc_0"
+    ],
+    "following": [
+      "doc_0"
+    ],
+    "apis": [
+      "doc_0"
+    ],
+    "showcasing": [
+      "doc_0"
+    ],
+    "any": [
+      "doc_0"
+    ],
+    "deploy": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "frequency": [
+      "doc_8",
+      "doc_0"
+    ],
+    "your_org": [
+      "doc_0"
+    ],
+    "catalog": [
+      "doc_0"
+    ],
+    "handling": [
+      "doc_0"
+    ],
+    "page": [
+      "doc_0"
+    ],
+    "sunday": [
+      "doc_0"
+    ],
+    "collaboration": [
+      "doc_0"
+    ],
+    "before": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "may": [
+      "doc_0"
+    ],
+    "extraction": [
+      "doc_0"
+    ],
+    "navigation": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "generate_markdown": [
+      "doc_0"
+    ],
+    "reviews": [
+      "doc_0"
+    ],
+    "enable": [
+      "doc_10",
+      "doc_0"
+    ],
+    "caching": [
+      "doc_0"
+    ],
+    "across": [
+      "doc_0"
+    ],
+    "available": [
+      "doc_8",
+      "doc_0"
+    ],
+    "zero": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "notebook": [
+      "doc_12",
+      "doc_8",
+      "doc_0",
+      "doc_6"
+    ],
+    "verification": [
+      "doc_1",
+      "doc_0"
+    ],
+    "logs": [
+      "doc_0"
+    ],
+    "description": [
+      "doc_0"
+    ],
+    "push": [
+      "doc_10",
+      "doc_0"
+    ],
+    "open": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "network": [
+      "doc_12",
+      "doc_7",
+      "doc_0",
+      "doc_6"
+    ],
+    "mkdocs": [
+      "doc_0"
+    ],
+    "127": [
+      "doc_0"
+    ],
+    "issue": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "theme": [
+      "doc_10",
+      "doc_0"
+    ],
+    "material": [
+      "doc_0"
+    ],
+    "analytics": [
+      "doc_0",
+      "doc_6"
+    ],
+    "minutes": [
+      "doc_0"
+    ],
+    "metadata": [
+      "doc_0"
+    ],
+    "tier": [
+      "doc_0"
+    ],
+    "docker": [
+      "doc_8",
+      "doc_0"
+    ],
+    "workflows": [
+      "doc_0"
+    ],
+    "tab": [
+      "doc_0"
+    ],
+    "index": [
+      "doc_0"
+    ],
+    "reducing": [
+      "doc_0"
+    ],
+    "8000": [
+      "doc_0"
+    ],
+    "zenodo": [
+      "doc_8",
+      "doc_0"
+    ],
+    "contributor": [
+      "doc_0"
+    ],
+    "gh-pages": [
+      "doc_0"
+    ],
+    "demonstrated": [
+      "doc_0"
+    ],
+    "private": [
+      "doc_0"
+    ],
+    "suggestions": [
+      "doc_0"
+    ],
+    "scheduled": [
+      "doc_0"
+    ],
+    "via": [
+      "doc_10",
+      "doc_8",
+      "doc_4",
+      "doc_0"
+    ],
+    "free": [
+      "doc_14",
+      "doc_0"
+    ],
+    "add": [
+      "doc_10",
+      "doc_15",
+      "doc_14",
+      "doc_0"
+    ],
+    "configuration": [
+      "doc_0"
+    ],
+    "pygithub": [
+      "doc_0"
+    ],
+    "repo_name": [
+      "doc_0"
+    ],
+    "locally": [
+      "doc_10",
+      "doc_0"
+    ],
+    "combines": [
+      "doc_1",
+      "doc_0"
+    ],
+    "badge": [
+      "doc_13",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "http": [
+      "doc_10",
+      "doc_0"
+    ],
+    "run": [
+      "doc_12",
+      "doc_0",
+      "doc_10",
+      "doc_6",
+      "doc_8",
+      "doc_14"
+    ],
+    "basic": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "attempt": [
+      "doc_0"
+    ],
+    "gold": [
+      "doc_0"
+    ],
+    "publication": [
+      "doc_1",
+      "doc_0"
+    ],
+    "readmes": [
+      "doc_0"
+    ],
+    "costs": [
+      "doc_0"
+    ],
+    "quality": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "detailed": [
+      "doc_10",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "display": [
+      "doc_0"
+    ],
+    "contents": [
+      "doc_0"
+    ],
+    "credit-risk-prediction": [
+      "doc_0"
+    ],
+    "uses": [
+      "doc_2",
+      "doc_5",
+      "doc_0"
+    ],
+    "exists": [
+      "doc_14",
+      "doc_0"
+    ],
+    "docs": [
+      "doc_0"
+    ],
+    "citation": [
+      "doc_8",
+      "doc_1",
+      "doc_0",
+      "doc_2",
+      "doc_6",
+      "doc_12"
+    ],
+    "secrets": [
+      "doc_0"
+    ],
+    "150": [
+      "doc_0"
+    ],
+    "times": [
+      "doc_0"
+    ],
+    "vulnerabilities": [
+      "doc_0"
+    ],
+    "then": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "pages": [
+      "doc_10",
+      "doc_0"
+    ],
+    "visit": [
+      "doc_10",
+      "doc_0"
+    ],
+    "within": [
+      "doc_0"
+    ],
+    "support": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "information": [
+      "doc_8",
+      "doc_0"
+    ],
+    "branch": [
+      "doc_14",
+      "doc_0"
+    ],
+    "graphs": [
+      "doc_0"
+    ],
+    "first": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "setup": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "design": [
+      "doc_0"
+    ],
+    "topics": [
+      "doc_12",
+      "doc_0"
+    ],
+    "database": [
+      "doc_0"
+    ],
+    "rate": [
+      "doc_0"
+    ],
+    "github": [
+      "doc_1",
+      "doc_0",
+      "doc_10",
+      "doc_15",
+      "doc_12",
+      "doc_14"
+    ],
+    "scale": [
+      "doc_0"
+    ],
+    "update-dashboard": [
+      "doc_0"
+    ],
+    "hours": [
+      "doc_0"
+    ],
+    "settings": [
+      "doc_10",
+      "doc_0"
+    ],
+    "counts": [
+      "doc_0"
+    ],
+    "yml": [
+      "doc_12",
+      "doc_0"
+    ],
+    "per": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "silver": [
+      "doc_0"
+    ],
+    "cataloging": [
+      "doc_0"
+    ],
+    "entirely": [
+      "doc_0"
+    ],
+    "plotly": [
+      "doc_0"
+    ],
+    "readme": [
+      "doc_14",
+      "doc_0"
+    ],
+    "install": [
+      "doc_0",
+      "doc_10",
+      "doc_6",
+      "doc_12",
+      "doc_14"
+    ],
+    "fetch": [
+      "doc_0"
+    ],
+    "your_org_name": [
+      "doc_0"
+    ],
+    "create": [
+      "doc_10",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "pip": [
+      "doc_14",
+      "doc_12",
+      "doc_0",
+      "doc_6"
+    ],
+    "digital-ai-finance": [
+      "doc_10",
+      "doc_14",
+      "doc_0"
+    ],
+    "count": [
+      "doc_0"
+    ],
+    "language": [
+      "doc_12",
+      "doc_0"
+    ],
+    "script": [
+      "doc_14",
+      "doc_0"
+    ],
+    "dependencies": [
+      "doc_12",
+      "doc_0",
+      "doc_6"
+    ],
+    "5000": [
+      "doc_0"
+    ],
+    "review": [
+      "doc_0"
+    ],
+    "fails": [
+      "doc_0"
+    ],
+    "secret": [
+      "doc_0"
+    ],
+    "documentation": [
+      "doc_10",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "access": [
+      "doc_14",
+      "doc_0"
+    ],
+    "schedule": [
+      "doc_0"
+    ],
+    "directory": [
+      "doc_14",
+      "doc_0"
+    ],
+    "accounts": [
+      "doc_0"
+    ],
+    "com": [
+      "doc_0",
+      "doc_10",
+      "doc_6",
+      "doc_12",
+      "doc_14"
+    ],
+    "2-5": [
+      "doc_0"
+    ],
+    "org-dashboard": [
+      "doc_0"
+    ],
+    "change": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "architecture": [
+      "doc_0",
+      "doc_10",
+      "doc_6",
+      "doc_12",
+      "doc_7"
+    ],
+    "requests": [
+      "doc_0"
+    ],
+    "repository": [
+      "doc_8",
+      "doc_1",
+      "doc_0",
+      "doc_10",
+      "doc_2",
+      "doc_6",
+      "doc_12",
+      "doc_14"
+    ],
+    "ratings": [
+      "doc_0"
+    ],
+    "different": [
+      "doc_14",
+      "doc_0"
+    ],
+    "automated": [
+      "doc_15",
+      "doc_14",
+      "doc_1",
+      "doc_0"
+    ],
+    "portfolio-optimization-ml": [
+      "doc_0"
+    ],
+    "tokens": [
+      "doc_0"
+    ],
+    "save": [
+      "doc_0"
+    ],
+    "appearance": [
+      "doc_14",
+      "doc_0"
+    ],
+    "troubleshooting": [
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "have": [
+      "doc_14",
+      "doc_0"
+    ],
+    "enabled": [
+      "doc_0"
+    ],
+    "links": [
+      "doc_15",
+      "doc_14",
+      "doc_0"
+    ],
+    "arxiv": [
+      "doc_2",
+      "doc_8",
+      "doc_0"
+    ],
+    "using": [
+      "doc_0",
+      "doc_10",
+      "doc_2",
+      "doc_6",
+      "doc_8",
+      "doc_7",
+      "doc_14",
+      "doc_9"
+    ],
+    "verify": [
+      "doc_14",
+      "doc_0"
+    ],
+    "statistics": [
+      "doc_10",
+      "doc_0"
+    ],
+    "this": [
+      "doc_8",
+      "doc_0",
+      "doc_10",
+      "doc_2",
+      "doc_12",
+      "doc_14"
+    ],
+    "colors": [
+      "doc_0"
+    ],
+    "copy": [
+      "doc_14",
+      "doc_0"
+    ],
+    "module": [
+      "doc_10",
+      "doc_12",
+      "doc_0"
+    ],
+    "instructions": [
+      "doc_12",
+      "doc_0"
+    ],
+    "repositories": [
+      "doc_14",
+      "doc_0"
+    ],
+    "by-topic": [
+      "doc_0"
+    ],
+    "found": [
+      "doc_0"
+    ],
+    "https": [
+      "doc_0",
+      "doc_10",
+      "doc_6",
+      "doc_13",
+      "doc_12",
+      "doc_14"
+    ],
+    "committed": [
+      "doc_0"
+    ],
+    "fetch_org_data": [
+      "doc_0"
+    ],
+    "peer": [
+      "doc_0"
+    ],
+    "build": [
+      "doc_12",
+      "doc_8",
+      "doc_0"
+    ],
+    "built": [
+      "doc_12",
+      "doc_0"
+    ],
+    "dataset": [
+      "doc_0",
+      "doc_6"
+    ],
+    "hft": [
+      "doc_0"
+    ],
+    "jinja2": [
+      "doc_0"
+    ],
+    "membership": [
+      "doc_0"
+    ],
+    "org_name": [
+      "doc_0"
+    ],
+    "search": [
+      "doc_10",
+      "doc_0"
+    ],
+    "market-microstructure": [
+      "doc_8",
+      "doc_0"
+    ],
+    "my-org": [
+      "doc_0"
+    ],
+    "see": [
+      "doc_10",
+      "doc_12",
+      "doc_14",
+      "doc_0"
+    ],
+    "merge": [
+      "doc_0"
+    ],
+    "interactive": [
+      "doc_10",
+      "doc_12",
+      "doc_11",
+      "doc_0"
+    ],
+    "full-text": [
+      "doc_0"
+    ],
+    "export": [
+      "doc_0"
+    ],
+    "monitor": [
+      "doc_0"
+    ],
+    "live": [
+      "doc_10",
+      "doc_0"
+    ],
+    "community": [
+      "doc_14",
+      "doc_1",
+      "doc_0"
+    ],
+    "denied": [
+      "doc_0"
+    ],
+    "customize": [
+      "doc_14",
+      "doc_0"
+    ],
+    "structure": [
+      "doc_12",
+      "doc_0",
+      "doc_10",
+      "doc_8",
+      "doc_14"
+    ],
+    "mkdocs-material": [
+      "doc_0"
+    ],
+    "status": [
+      "doc_10",
+      "doc_12",
+      "doc_13",
+      "doc_0"
+    ],
+    "serve": [
+      "doc_0"
+    ],
+    "doi": [
+      "doc_2",
+      "doc_8",
+      "doc_0",
+      "doc_6"
+    ],
+    "data": [
+      "doc_5",
+      "doc_4",
+      "doc_0",
+      "doc_10",
+      "doc_2",
+      "doc_6",
+      "doc_8",
+      "doc_9"
+    ],
+    "response": [
+      "doc_0"
+    ],
+    "2010-2023": [
+      "doc_2"
+    ],
+    "reinforcement": [
+      "doc_2",
+      "doc_5"
+    ],
+    "12345": [
+      "doc_2",
+      "doc_8"
+    ],
+    "published": [
+      "doc_2",
+      "doc_8",
+      "doc_6"
+    ],
+    "university": [
+      "doc_2"
+    ],
+    "deep": [
+      "doc_2",
+      "doc_12",
+      "doc_5",
+      "doc_4"
+    ],
+    "evaluate": [
+      "doc_2"
+    ],
+    "finance": [
+      "doc_10",
+      "doc_8",
+      "doc_11",
+      "doc_2"
+    ],
+    "pandas": [
+      "doc_2",
+      "doc_8",
+      "doc_6"
+    ],
+    "strategies": [
+      "doc_2",
+      "doc_12",
+      "doc_5"
+    ],
+    "article": [
+      "doc_2",
+      "doc_8",
+      "doc_6"
+    ],
+    "1016": [
+      "doc_2"
+    ],
+    "numpy": [
+      "doc_2",
+      "doc_8"
+    ],
+    "journal": [
+      "doc_2",
+      "doc_8",
+      "doc_6"
+    ],
+    "stock": [
+      "doc_2",
+      "doc_8"
+    ],
+    "optimal": [
+      "doc_2",
+      "doc_12",
+      "doc_5"
+    ],
+    "smith2023deep": [
+      "doc_2"
+    ],
+    "authors": [
+      "doc_2",
+      "doc_8",
+      "doc_6"
+    ],
+    "through": [
+      "doc_2",
+      "doc_12"
+    ],
+    "mean-variance": [
+      "doc_2",
+      "doc_5"
+    ],
+    "csv": [
+      "doc_2",
+      "doc_6"
+    ],
+    "q-network": [
+      "doc_2",
+      "doc_5"
+    ],
+    "approach": [
+      "doc_2",
+      "doc_5",
+      "doc_4"
+    ],
+    "jiang": [
+      "doc_2"
+    ],
+    "best_model": [
+      "doc_2"
+    ],
+    "references": [
+      "doc_2",
+      "doc_8"
+    ],
+    "bibtex": [
+      "doc_2",
+      "doc_12",
+      "doc_8",
+      "doc_6"
+    ],
+    "reproduced": [
+      "doc_2"
+    ],
+    "checkpoints": [
+      "doc_2"
+    ],
+    "jfineco": [
+      "doc_2"
+    ],
+    "paper": [
+      "doc_2",
+      "doc_8",
+      "doc_6"
+    ],
+    "001": [
+      "doc_2"
+    ],
+    "novel": [
+      "doc_2",
+      "doc_5",
+      "doc_4"
+    ],
+    "prices": [
+      "doc_2"
+    ],
+    "year": [
+      "doc_2",
+      "doc_12",
+      "doc_8",
+      "doc_6"
+    ],
+    "2103": [
+      "doc_2"
+    ],
+    "institute": [
+      "doc_2"
+    ],
+    "john": [
+      "doc_2"
+    ],
+    "--model": [
+      "doc_2"
+    ],
+    "cite": [
+      "doc_2",
+      "doc_12"
+    ],
+    "simulated": [
+      "doc_2"
+    ],
+    "experiments": [
+      "doc_2"
+    ],
+    "2017": [
+      "doc_2"
+    ],
+    "tensorflow": [
+      "doc_2",
+      "doc_6"
+    ],
+    "financial": [
+      "doc_2",
+      "doc_10",
+      "doc_3",
+      "doc_6"
+    ],
+    "economics": [
+      "doc_2"
+    ],
+    "portfolio": [
+      "doc_2",
+      "doc_5",
+      "doc_4"
+    ],
+    "jane": [
+      "doc_2"
+    ],
+    "stock_prices": [
+      "doc_2"
+    ],
+    "2023": [
+      "doc_2",
+      "doc_6"
+    ],
+    "contains": [
+      "doc_2",
+      "doc_14"
+    ],
+    "can": [
+      "doc_2",
+      "doc_14"
+    ],
+    "outperforms": [
+      "doc_2",
+      "doc_5"
+    ],
+    "tech": [
+      "doc_2"
+    ],
+    "optimization": [
+      "doc_2",
+      "doc_12",
+      "doc_5"
+    ],
+    "mnih": [
+      "doc_2"
+    ],
+    "configs": [
+      "doc_2"
+    ],
+    "market": [
+      "doc_5",
+      "doc_4",
+      "doc_2",
+      "doc_10",
+      "doc_8"
+    ],
+    "historical": [
+      "doc_2",
+      "doc_5"
+    ],
+    "train_dqn": [
+      "doc_2"
+    ],
+    "human-level": [
+      "doc_2"
+    ],
+    "portfolio_returns": [
+      "doc_2"
+    ],
+    "dqn": [
+      "doc_2",
+      "doc_5"
+    ],
+    "title": [
+      "doc_8",
+      "doc_6",
+      "doc_2",
+      "doc_12",
+      "doc_14"
+    ],
+    "trading": [
+      "doc_2",
+      "doc_8",
+      "doc_5",
+      "doc_9"
+    ],
+    "default": [
+      "doc_2"
+    ],
+    "smith": [
+      "doc_2"
+    ],
+    "method": [
+      "doc_2",
+      "doc_5"
+    ],
+    "builds": [
+      "doc_2"
+    ],
+    "traditional": [
+      "doc_2",
+      "doc_5"
+    ],
+    "2015": [
+      "doc_2"
+    ],
+    "abstract": [
+      "doc_2",
+      "doc_8",
+      "doc_6"
+    ],
+    "propose": [
+      "doc_2",
+      "doc_5"
+    ],
+    "learn": [
+      "doc_2",
+      "doc_12",
+      "doc_5"
+    ],
+    "work": [
+      "doc_2",
+      "doc_12",
+      "doc_8",
+      "doc_14"
+    ],
+    "learning": [
+      "doc_2",
+      "doc_12",
+      "doc_5",
+      "doc_10"
+    ],
+    "500": [
+      "doc_2"
+    ],
+    "gym": [
+      "doc_2"
+    ],
+    "doe": [
+      "doc_2"
+    ],
+    "framework": [
+      "doc_2",
+      "doc_12",
+      "doc_13"
+    ],
+    "--config": [
+      "doc_2"
+    ],
+    "author": [
+      "doc_2",
+      "doc_12",
+      "doc_8",
+      "doc_6"
+    ],
+    "returns": [
+      "doc_2"
+    ],
+    "unemployment": [
+      "doc_3"
+    ],
+    "markets": [
+      "doc_10",
+      "doc_8",
+      "doc_3"
+    ],
+    "learners": [
+      "doc_4"
+    ],
+    "confirm": [
+      "doc_4"
+    ],
+    "complicated": [
+      "doc_4"
+    ],
+    "studies": [
+      "doc_4"
+    ],
+    "classification": [
+      "doc_4"
+    ],
+    "connection": [
+      "doc_4"
+    ],
+    "chinese": [
+      "doc_4"
+    ],
+    "strong": [
+      "doc_4"
+    ],
+    "consistent": [
+      "doc_10",
+      "doc_4"
+    ],
+    "without": [
+      "doc_4"
+    ],
+    "iteration": [
+      "doc_4"
+    ],
+    "trees": [
+      "doc_4"
+    ],
+    "test": [
+      "doc_10",
+      "doc_12",
+      "doc_4",
+      "doc_14"
+    ],
+    "propositions": [
+      "doc_4"
+    ],
+    "explain": [
+      "doc_4"
+    ],
+    "measure": [
+      "doc_12",
+      "doc_4"
+    ],
+    "some": [
+      "doc_12",
+      "doc_4"
+    ],
+    "empirical": [
+      "doc_10",
+      "doc_8",
+      "doc_4"
+    ],
+    "corroborates": [
+      "doc_4"
+    ],
+    "obtain": [
+      "doc_4"
+    ],
+    "classifier": [
+      "doc_4"
+    ],
+    "training": [
+      "doc_4",
+      "doc_6"
+    ],
+    "influence": [
+      "doc_4"
+    ],
+    "further": [
+      "doc_4"
+    ],
+    "application": [
+      "doc_10",
+      "doc_11",
+      "doc_4"
+    ],
+    "binary": [
+      "doc_4"
+    ],
+    "decreases": [
+      "doc_4"
+    ],
+    "number": [
+      "doc_4"
+    ],
+    "why": [
+      "doc_10",
+      "doc_4"
+    ],
+    "which": [
+      "doc_4"
+    ],
+    "impossible": [
+      "doc_4"
+    ],
+    "problem": [
+      "doc_4"
+    ],
+    "develop": [
+      "doc_10",
+      "doc_4",
+      "doc_7",
+      "doc_6"
+    ],
+    "ion": [
+      "doc_4"
+    ],
+    "introducing": [
+      "doc_4"
+    ],
+    "adaboost": [
+      "doc_4"
+    ],
+    "prove": [
+      "doc_4"
+    ],
+    "base": [
+      "doc_4"
+    ],
+    "situations": [
+      "doc_4"
+    ],
+    "theoretical": [
+      "doc_10",
+      "doc_4"
+    ],
+    "noise": [
+      "doc_4"
+    ],
+    "points": [
+      "doc_4"
+    ],
+    "apply": [
+      "doc_10",
+      "doc_4"
+    ],
+    "management": [
+      "doc_4"
+    ],
+    "identify": [
+      "doc_4"
+    ],
+    "there": [
+      "doc_4"
+    ],
+    "complexity": [
+      "doc_4"
+    ],
+    "increases": [
+      "doc_4"
+    ],
+    "successful": [
+      "doc_4"
+    ],
+    "between": [
+      "doc_4",
+      "doc_14"
+    ],
+    "electronic": [
+      "doc_6"
+    ],
+    "feature": [
+      "doc_7",
+      "doc_14",
+      "doc_6"
+    ],
+    "risk": [
+      "doc_7",
+      "doc_6"
+    ],
+    "matplotlib": [
+      "doc_10",
+      "doc_6"
+    ],
+    "results": [
+      "doc_6"
+    ],
+    "proprietary": [
+      "doc_6"
+    ],
+    "2139": [
+      "doc_6"
+    ],
+    "selection": [
+      "doc_6"
+    ],
+    "maria": [
+      "doc_6"
+    ],
+    "replicate": [
+      "doc_6"
+    ],
+    "ipynb": [
+      "doc_12",
+      "doc_8",
+      "doc_6"
+    ],
+    "interpretable": [
+      "doc_7",
+      "doc_6"
+    ],
+    "assessment": [
+      "doc_10",
+      "doc_6"
+    ],
+    "german": [
+      "doc_6"
+    ],
+    "prediction": [
+      "doc_7",
+      "doc_6"
+    ],
+    "engineered": [
+      "doc_6"
+    ],
+    "public": [
+      "doc_6"
+    ],
+    "shap": [
+      "doc_7",
+      "doc_6"
+    ],
+    "model": [
+      "doc_6"
+    ],
+    "03_model_training": [
+      "doc_6"
+    ],
+    "garcia": [
+      "doc_6"
+    ],
+    "garcia2023explainable": [
+      "doc_6"
+    ],
+    "importance": [
+      "doc_7",
+      "doc_6"
+    ],
+    "values": [
+      "doc_7",
+      "doc_6"
+    ],
+    "04_explainability": [
+      "doc_6"
+    ],
+    "creation": [
+      "doc_6"
+    ],
+    "train": [
+      "doc_6"
+    ],
+    "explainable": [
+      "doc_7",
+      "doc_6"
+    ],
+    "02_feature_engineering": [
+      "doc_6"
+    ],
+    "interpretation": [
+      "doc_6"
+    ],
+    "center": [
+      "doc_6"
+    ],
+    "performance": [
+      "doc_7",
+      "doc_6"
+    ],
+    "robert": [
+      "doc_6"
+    ],
+    "while": [
+      "doc_7",
+      "doc_6"
+    ],
+    "predictions": [
+      "doc_6"
+    ],
+    "credit": [
+      "doc_7",
+      "doc_6"
+    ],
+    "achieves": [
+      "doc_7",
+      "doc_6"
+    ],
+    "state-of-the-art": [
+      "doc_12",
+      "doc_7",
+      "doc_6"
+    ],
+    "chen": [
+      "doc_6"
+    ],
+    "bank": [
+      "doc_6"
+    ],
+    "german_credit": [
+      "doc_6"
+    ],
+    "scikit-learn": [
+      "doc_6"
+    ],
+    "major": [
+      "doc_8",
+      "doc_9",
+      "doc_6"
+    ],
+    "predict": [
+      "doc_6"
+    ],
+    "3456789": [
+      "doc_6"
+    ],
+    "exploratory": [
+      "doc_6"
+    ],
+    "01_data_exploration": [
+      "doc_6"
+    ],
+    "lab": [
+      "doc_12",
+      "doc_8",
+      "doc_6"
+    ],
+    "providing": [
+      "doc_7",
+      "doc_6"
+    ],
+    "order": [
+      "doc_8",
+      "doc_9",
+      "doc_6"
+    ],
+    "jofi": [
+      "doc_8"
+    ],
+    "unit": [
+      "doc_8"
+    ],
+    "systems": [
+      "doc_8"
+    ],
+    "millisecond-level": [
+      "doc_8",
+      "doc_9"
+    ],
+    "tests": [
+      "doc_8"
+    ],
+    "1995": [
+      "doc_8"
+    ],
+    "trade": [
+      "doc_8"
+    ],
+    "book": [
+      "doc_8",
+      "doc_9"
+    ],
+    "analyze": [
+      "doc_8",
+      "doc_9"
+    ],
+    "quantitative": [
+      "doc_10",
+      "doc_8"
+    ],
+    "2201": [
+      "doc_8"
+    ],
+    "microstructure": [
+      "doc_10",
+      "doc_8"
+    ],
+    "biais": [
+      "doc_8"
+    ],
+    "exchanges": [
+      "doc_8",
+      "doc_9"
+    ],
+    "department": [
+      "doc_8"
+    ],
+    "environments": [
+      "doc_8",
+      "doc_9"
+    ],
+    "david": [
+      "doc_8"
+    ],
+    "statistical": [
+      "doc_12",
+      "doc_8"
+    ],
+    "extends": [
+      "doc_8"
+    ],
+    "snapshots": [
+      "doc_8"
+    ],
+    "discovery": [
+      "doc_12",
+      "doc_8",
+      "doc_9"
+    ],
+    "50gb": [
+      "doc_8"
+    ],
+    "src": [
+      "doc_10",
+      "doc_8"
+    ],
+    "lee2024price": [
+      "doc_8"
+    ],
+    "5281": [
+      "doc_8"
+    ],
+    "2024": [
+      "doc_8"
+    ],
+    "1234567": [
+      "doc_8"
+    ],
+    "pytest": [
+      "doc_8"
+    ],
+    "high-frequency": [
+      "doc_8",
+      "doc_9"
+    ],
+    "pwd": [
+      "doc_8"
+    ],
+    "10ms": [
+      "doc_8"
+    ],
+    "provide": [
+      "doc_8"
+    ],
+    "test_orderbook": [
+      "doc_8"
+    ],
+    "working": [
+      "doc_12",
+      "doc_8",
+      "doc_14"
+    ],
+    "67890": [
+      "doc_8"
+    ],
+    "1991": [
+      "doc_8"
+    ],
+    "cites": [
+      "doc_8"
+    ],
+    "measuring": [
+      "doc_8"
+    ],
+    "williams": [
+      "doc_8"
+    ],
+    "mechanisms": [
+      "doc_8",
+      "doc_9"
+    ],
+    "main": [
+      "doc_10",
+      "doc_8",
+      "doc_14"
+    ],
+    "numba": [
+      "doc_8"
+    ],
+    "1111": [
+      "doc_8"
+    ],
+    "lee": [
+      "doc_8"
+    ],
+    "quote": [
+      "doc_8"
+    ],
+    "hasbrouck": [
+      "doc_8"
+    ],
+    "size": [
+      "doc_10",
+      "doc_8",
+      "doc_14"
+    ],
+    "price": [
+      "doc_8",
+      "doc_9"
+    ],
+    "orderbook": [
+      "doc_8"
+    ],
+    "total": [
+      "doc_12",
+      "doc_8"
+    ],
+    "sarah": [
+      "doc_8"
+    ],
+    "reconstruction": [
+      "doc_8"
+    ],
+    "trades": [
+      "doc_8"
+    ],
+    "claude": [
+      "doc_10",
+      "doc_12"
+    ],
+    "fullname": [
+      "doc_10"
+    ],
+    "ratio": [
+      "doc_10"
+    ],
+    "ecosystem": [
+      "doc_10"
+    ],
+    "powershell": [
+      "doc_10"
+    ],
+    "multi-agent": [
+      "doc_10"
+    ],
+    "responsive": [
+      "doc_10"
+    ],
+    "-path": [
+      "doc_10"
+    ],
+    "yyyymmdd_hhmm_weekn_title": [
+      "doc_10"
+    ],
+    "duration": [
+      "doc_10"
+    ],
+    "delivery": [
+      "doc_10",
+      "doc_12"
+    ],
+    "manual": [
+      "doc_10"
+    ],
+    "professional": [
+      "doc_10",
+      "doc_15",
+      "doc_14"
+    ],
+    "react": [
+      "doc_10",
+      "doc_11"
+    ],
+    "get-childitem": [
+      "doc_10"
+    ],
+    "course": [
+      "doc_10",
+      "doc_12",
+      "doc_13",
+      "doc_11"
+    ],
+    "growth": [
+      "doc_10"
+    ],
+    "pdf": [
+      "doc_10",
+      "doc_14"
+    ],
+    "agent_4_slidegenerator_v2_latextemplates": [
+      "doc_10"
+    ],
+    "move-item": [
+      "doc_10"
+    ],
+    "primary": [
+      "doc_10"
+    ],
+    "validation": [
+      "doc_10"
+    ],
+    "mlorange": [
+      "doc_10"
+    ],
+    "ready": [
+      "doc_10",
+      "doc_12"
+    ],
+    "opens": [
+      "doc_10"
+    ],
+    "clean": [
+      "doc_10",
+      "doc_14"
+    ],
+    "questions": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "quick": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "1-10": [
+      "doc_10"
+    ],
+    "week1": [
+      "doc_10"
+    ],
+    "secondary": [
+      "doc_10"
+    ],
+    "beamer": [
+      "doc_10",
+      "doc_15",
+      "doc_12",
+      "doc_11",
+      "doc_14"
+    ],
+    "type": [
+      "doc_10"
+    ],
+    "mathematical": [
+      "doc_10"
+    ],
+    "npm": [
+      "doc_10"
+    ],
+    "react-app": [
+      "doc_10"
+    ],
+    "readme_v2": [
+      "doc_10"
+    ],
+    "material-ui": [
+      "doc_10"
+    ],
+    "components": [
+      "doc_10"
+    ],
+    "animations": [
+      "doc_10"
+    ],
+    "communication": [
+      "doc_10"
+    ],
+    "course_generator_v2": [
+      "doc_10"
+    ],
+    "exist": [
+      "doc_10"
+    ],
+    "localstorage": [
+      "doc_10"
+    ],
+    "3333b2": [
+      "doc_10"
+    ],
+    "mlgreen": [
+      "doc_10"
+    ],
+    "rights": [
+      "doc_10"
+    ],
+    "pedagogy": [
+      "doc_10",
+      "doc_11"
+    ],
+    "11-20": [
+      "doc_10"
+    ],
+    "node": [
+      "doc_10",
+      "doc_14"
+    ],
+    "incorporating": [
+      "doc_10"
+    ],
+    "next": [
+      "doc_10"
+    ],
+    "exactly": [
+      "doc_10"
+    ],
+    "package": [
+      "doc_10",
+      "doc_14"
+    ],
+    "pdfs": [
+      "doc_10",
+      "doc_14"
+    ],
+    "adade0": [
+      "doc_10"
+    ],
+    "pdflatex": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "3000": [
+      "doc_10"
+    ],
+    "---": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "origin": [
+      "doc_10"
+    ],
+    "esg": [
+      "doc_10"
+    ],
+    "21-30": [
+      "doc_10"
+    ],
+    "week1_v2_goal3_": [
+      "doc_10"
+    ],
+    "diagrams": [
+      "doc_10"
+    ],
+    "slides": [
+      "doc_10",
+      "doc_15",
+      "doc_12",
+      "doc_11",
+      "doc_14"
+    ],
+    "recharts": [
+      "doc_10"
+    ],
+    "foreach-object": [
+      "doc_10"
+    ],
+    "quantify": [
+      "doc_10"
+    ],
+    "mlpurple": [
+      "doc_10"
+    ],
+    "dot": [
+      "doc_10"
+    ],
+    "week1_v2_goal2_": [
+      "doc_10"
+    ],
+    "deployment": [
+      "doc_10",
+      "doc_12"
+    ],
+    "video": [
+      "doc_10"
+    ],
+    "2-8": [
+      "doc_10"
+    ],
+    "scheme": [
+      "doc_10"
+    ],
+    "contact": [
+      "doc_10"
+    ],
+    "outline": [
+      "doc_10"
+    ],
+    "series": [
+      "doc_10"
+    ],
+    "20251121_2306_week1_v2_greenfinancefoundations": [
+      "doc_10"
+    ],
+    "goal-driven": [
+      "doc_10"
+    ],
+    "trajectory": [
+      "doc_10"
+    ],
+    "models": [
+      "doc_10",
+      "doc_12"
+    ],
+    "log": [
+      "doc_10"
+    ],
+    "reserved": [
+      "doc_10"
+    ],
+    "version": [
+      "doc_10",
+      "doc_14"
+    ],
+    "guidelines": [
+      "doc_10"
+    ],
+    "temp": [
+      "doc_10"
+    ],
+    "function": [
+      "doc_10"
+    ],
+    "green": [
+      "doc_10",
+      "doc_11"
+    ],
+    "auxiliary": [
+      "doc_10"
+    ],
+    "greenium": [
+      "doc_10"
+    ],
+    "factors": [
+      "doc_10"
+    ],
+    "proven": [
+      "doc_10"
+    ],
+    "more": [
+      "doc_10",
+      "doc_14"
+    ],
+    "bottom": [
+      "doc_10"
+    ],
+    "nav": [
+      "doc_10"
+    ],
+    "verified": [
+      "doc_10"
+    ],
+    "global": [
+      "doc_10"
+    ],
+    "color": [
+      "doc_10"
+    ],
+    "graphviz": [
+      "doc_10"
+    ],
+    "explanations": [
+      "doc_10"
+    ],
+    "minimum": [
+      "doc_10"
+    ],
+    "roles": [
+      "doc_10"
+    ],
+    "weekn": [
+      "doc_10"
+    ],
+    "out": [
+      "doc_10"
+    ],
+    "planner": [
+      "doc_10"
+    ],
+    "how": [
+      "doc_10",
+      "doc_14"
+    ],
+    "composition": [
+      "doc_10"
+    ],
+    "-destination": [
+      "doc_10"
+    ],
+    "curves": [
+      "doc_10"
+    ],
+    "exercises": [
+      "doc_10",
+      "doc_12"
+    ],
+    "silentlycontinue": [
+      "doc_10"
+    ],
+    "understand": [
+      "doc_10",
+      "doc_12"
+    ],
+    "aux": [
+      "doc_10"
+    ],
+    "expert": [
+      "doc_10"
+    ],
+    "tex": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "chart": [
+      "doc_10",
+      "doc_15",
+      "doc_14"
+    ],
+    "8-week": [
+      "doc_10",
+      "doc_12",
+      "doc_11"
+    ],
+    "learning-goal-driven": [
+      "doc_10",
+      "doc_11"
+    ],
+    "production": [
+      "doc_10"
+    ],
+    "goal": [
+      "doc_10"
+    ],
+    "specs": [
+      "doc_10"
+    ],
+    "notes": [
+      "doc_10"
+    ],
+    "nonstopmode": [
+      "doc_10"
+    ],
+    "format": [
+      "doc_10"
+    ],
+    "slide": [
+      "doc_10",
+      "doc_14"
+    ],
+    "madrid": [
+      "doc_10"
+    ],
+    "theory": [
+      "doc_10",
+      "doc_12"
+    ],
+    "time": [
+      "doc_10",
+      "doc_14"
+    ],
+    "week1slides": [
+      "doc_10"
+    ],
+    "improvements": [
+      "doc_10",
+      "doc_12"
+    ],
+    "foundations": [
+      "doc_10",
+      "doc_12"
+    ],
+    "explaining": [
+      "doc_10"
+    ],
+    "pricing": [
+      "doc_10"
+    ],
+    "specification": [
+      "doc_10"
+    ],
+    "template_beamer_final": [
+      "doc_10"
+    ],
+    "miktex": [
+      "doc_10"
+    ],
+    "-replace": [
+      "doc_10"
+    ],
+    "spec": [
+      "doc_10"
+    ],
+    "requires": [
+      "doc_10"
+    ],
+    "standards": [
+      "doc_10"
+    ],
+    "yaml-based": [
+      "doc_10"
+    ],
+    "localhost": [
+      "doc_10"
+    ],
+    "agents": [
+      "doc_10"
+    ],
+    "10-11": [
+      "doc_10"
+    ],
+    "self-assessment": [
+      "doc_10"
+    ],
+    "-interaction": [
+      "doc_10"
+    ],
+    "green-finance": [
+      "doc_10"
+    ],
+    "guide": [
+      "doc_10",
+      "doc_12"
+    ],
+    "8pt": [
+      "doc_10"
+    ],
+    "generator": [
+      "doc_10",
+      "doc_14"
+    ],
+    "certificate": [
+      "doc_10"
+    ],
+    "technologies": [
+      "doc_10"
+    ],
+    "derive": [
+      "doc_10"
+    ],
+    "student": [
+      "doc_10"
+    ],
+    "template": [
+      "doc_10",
+      "doc_14"
+    ],
+    "goals": [
+      "doc_10"
+    ],
+    "-erroraction": [
+      "doc_10"
+    ],
+    "installed": [
+      "doc_10",
+      "doc_14"
+    ],
+    "instruments": [
+      "doc_10"
+    ],
+    "quizzes": [
+      "doc_10"
+    ],
+    "request": [
+      "doc_10",
+      "doc_14"
+    ],
+    "persistence": [
+      "doc_10"
+    ],
+    "motion": [
+      "doc_10"
+    ],
+    "latex": [
+      "doc_10",
+      "doc_15",
+      "doc_12",
+      "doc_11",
+      "doc_14"
+    ],
+    "overview": [
+      "doc_10"
+    ],
+    "keyboard": [
+      "doc_10"
+    ],
+    "they": [
+      "doc_10"
+    ],
+    "supplementary": [
+      "doc_10",
+      "doc_12"
+    ],
+    "snm": [
+      "doc_10"
+    ],
+    "start": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "compile": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "distributions": [
+      "doc_10"
+    ],
+    "app": [
+      "doc_10"
+    ],
+    "compiled": [
+      "doc_10"
+    ],
+    "narrative": [
+      "doc_10"
+    ],
+    "types": [
+      "doc_10"
+    ],
+    "orchestrator": [
+      "doc_10"
+    ],
+    "specialized": [
+      "doc_10"
+    ],
+    "complete": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "week1_v2_goal1_": [
+      "doc_10"
+    ],
+    "agent_3_contentplanner_v2": [
+      "doc_10"
+    ],
+    "weekn_v2_content_outline": [
+      "doc_10"
+    ],
+    "auto-deploys": [
+      "doc_10"
+    ],
+    "warning": [
+      "doc_10"
+    ],
+    "ff7f0e": [
+      "doc_10"
+    ],
+    "validated": [
+      "doc_10"
+    ],
+    "-tpdf": [
+      "doc_10"
+    ],
+    "deployed": [
+      "doc_10"
+    ],
+    "mobile": [
+      "doc_10"
+    ],
+    "mllavender": [
+      "doc_10"
+    ],
+    "weeks": [
+      "doc_10",
+      "doc_12"
+    ],
+    "validate": [
+      "doc_10"
+    ],
+    "web": [
+      "doc_10",
+      "doc_11"
+    ],
+    "risk-return": [
+      "doc_10"
+    ],
+    "typed": [
+      "doc_10"
+    ],
+    "steps": [
+      "doc_10",
+      "doc_12",
+      "doc_14"
+    ],
+    "deploy_quickstart": [
+      "doc_10"
+    ],
+    "2ca02c": [
+      "doc_10"
+    ],
+    "progress": [
+      "doc_10",
+      "doc_12"
+    ],
+    "toc": [
+      "doc_10"
+    ],
+    "framer": [
+      "doc_10"
+    ],
+    "yield": [
+      "doc_10"
+    ],
+    "week": [
+      "doc_10",
+      "doc_12"
+    ],
+    "fully": [
+      "doc_10",
+      "doc_14"
+    ],
+    "view": [
+      "doc_10"
+    ],
+    "discovery-based": [
+      "doc_12"
+    ],
+    "n-grams": [
+      "doc_12"
+    ],
+    "license-mit-orange": [
+      "doc_13",
+      "doc_12"
+    ],
+    "fairness": [
+      "doc_12"
+    ],
+    "nn_primer": [
+      "doc_12"
+    ],
+    "dive": [
+      "doc_12"
+    ],
+    "benefit": [
+      "doc_12"
+    ],
+    "focus": [
+      "doc_12"
+    ],
+    "gpt": [
+      "doc_12"
+    ],
+    "tokenizer": [
+      "doc_12"
+    ],
+    "topic": [
+      "doc_12"
+    ],
+    "examples": [
+      "doc_12",
+      "doc_14"
+    ],
+    "after": [
+      "doc_12",
+      "doc_14"
+    ],
+    "fundamentals": [
+      "doc_12"
+    ],
+    "------": [
+      "doc_12"
+    ],
+    "diversity": [
+      "doc_12"
+    ],
+    "mechanism": [
+      "doc_12"
+    ],
+    "2f12": [
+      "doc_13",
+      "doc_12"
+    ],
+    "takes": [
+      "doc_12"
+    ],
+    "lstm_primer": [
+      "doc_12"
+    ],
+    "accelerated": [
+      "doc_12"
+    ],
+    "adapt": [
+      "doc_12"
+    ],
+    "text": [
+      "doc_12",
+      "doc_14"
+    ],
+    "bert": [
+      "doc_12"
+    ],
+    "acknowledgments": [
+      "doc_12"
+    ],
+    "problems": [
+      "doc_12"
+    ],
+    "josterri": [
+      "doc_12"
+    ],
+    "wordpiece": [
+      "doc_12"
+    ],
+    "bpe": [
+      "doc_12"
+    ],
+    "understanding": [
+      "doc_12",
+      "doc_14"
+    ],
+    "options": [
+      "doc_12"
+    ],
+    "navigate": [
+      "doc_12"
+    ],
+    "nlp2025course": [
+      "doc_12"
+    ],
+    "presentation": [
+      "doc_12"
+    ],
+    "foundational": [
+      "doc_12"
+    ],
+    "applications": [
+      "doc_12"
+    ],
+    "week02_neural_lm": [
+      "doc_12"
+    ],
+    "semester": [
+      "doc_12"
+    ],
+    "prerequisite": [
+      "doc_12"
+    ],
+    "rnn": [
+      "doc_12"
+    ],
+    "testing": [
+      "doc_12"
+    ],
+    "20applied-success": [
+      "doc_13",
+      "doc_12"
+    ],
+    "other": [
+      "doc_12"
+    ],
+    "efficiency": [
+      "doc_12"
+    ],
+    "2025": [
+      "doc_12"
+    ],
+    "graduate": [
+      "doc_12"
+    ],
+    "fixes": [
+      "doc_12"
+    ],
+    "execute": [
+      "doc_12"
+    ],
+    "self-attention": [
+      "doc_12"
+    ],
+    "osterrieder": [
+      "doc_12"
+    ],
+    "assignments": [
+      "doc_12"
+    ],
+    "transformer": [
+      "doc_12"
+    ],
+    "helpful": [
+      "doc_12"
+    ],
+    "validates": [
+      "doc_12"
+    ],
+    "scratch": [
+      "doc_12"
+    ],
+    "visualization": [
+      "doc_12"
+    ],
+    "highlights": [
+      "doc_12"
+    ],
+    "released": [
+      "doc_12"
+    ],
+    "versions": [
+      "doc_12",
+      "doc_14"
+    ],
+    "concepts": [
+      "doc_12"
+    ],
+    "execution": [
+      "doc_12"
+    ],
+    "week05_transformers": [
+      "doc_12"
+    ],
+    "ethical": [
+      "doc_12"
+    ],
+    "embeddings": [
+      "doc_12"
+    ],
+    "nlp": [
+      "doc_12"
+    ],
+    "experience": [
+      "doc_12"
+    ],
+    "shields": [
+      "doc_13",
+      "doc_12",
+      "doc_14"
+    ],
+    "end": [
+      "doc_12",
+      "doc_14"
+    ],
+    "url": [
+      "doc_12",
+      "doc_14"
+    ],
+    "comprehend": [
+      "doc_12"
+    ],
+    "cu121": [
+      "doc_12"
+    ],
+    "linear": [
+      "doc_12"
+    ],
+    "changelog": [
+      "doc_12"
+    ],
+    "materials": [
+      "doc_12",
+      "doc_14"
+    ],
+    "cuda": [
+      "doc_12"
+    ],
+    "acceleration": [
+      "doc_12"
+    ],
+    "figures": [
+      "doc_12"
+    ],
+    "prompt": [
+      "doc_12"
+    ],
+    "concrete-to-abstract": [
+      "doc_12"
+    ],
+    "sentencepiece": [
+      "doc_12"
+    ],
+    "scaling": [
+      "doc_12"
+    ],
+    "activate": [
+      "doc_12"
+    ],
+    "perplexity": [
+      "doc_12"
+    ],
+    "progression": [
+      "doc_12"
+    ],
+    "own": [
+      "doc_12"
+    ],
+    "conventions": [
+      "doc_12"
+    ],
+    "supplements": [
+      "doc_12"
+    ],
+    "11-12": [
+      "doc_12"
+    ],
+    "torchaudio": [
+      "doc_12"
+    ],
+    "labs": [
+      "doc_13",
+      "doc_12"
+    ],
+    "machine": [
+      "doc_12"
+    ],
+    "utils": [
+      "doc_12",
+      "doc_14"
+    ],
+    "sequence-to-sequence": [
+      "doc_12"
+    ],
+    "pre-class": [
+      "doc_12"
+    ],
+    "chatgpt": [
+      "doc_12"
+    ],
+    "progressive": [
+      "doc_12"
+    ],
+    "combine": [
+      "doc_12"
+    ],
+    "bug": [
+      "doc_12"
+    ],
+    "under": [
+      "doc_12"
+    ],
+    "additional": [
+      "doc_12"
+    ],
+    "test_notebooks": [
+      "doc_12"
+    ],
+    "self-paced": [
+      "doc_12"
+    ],
+    "week-by-week": [
+      "doc_12"
+    ],
+    "contrastive": [
+      "doc_12"
+    ],
+    "engineering": [
+      "doc_12"
+    ],
+    "courses": [
+      "doc_12"
+    ],
+    "course_index": [
+      "doc_12"
+    ],
+    "languages": [
+      "doc_12"
+    ],
+    "documents": [
+      "doc_12"
+    ],
+    "readability": [
+      "doc_12"
+    ],
+    "implement": [
+      "doc_12"
+    ],
+    "shared": [
+      "doc_12"
+    ],
+    "week01_foundations": [
+      "doc_12"
+    ],
+    "option": [
+      "doc_12"
+    ],
+    "comfortable": [
+      "doc_12"
+    ],
+    "primer": [
+      "doc_12"
+    ],
+    "milestones": [
+      "doc_12"
+    ],
+    "intro": [
+      "doc_12"
+    ],
+    "translations": [
+      "doc_12"
+    ],
+    "1-2": [
+      "doc_12"
+    ],
+    "pedagogical": [
+      "doc_12"
+    ],
+    "speed": [
+      "doc_12"
+    ],
+    "these": [
+      "doc_12",
+      "doc_14"
+    ],
+    "gpt-3": [
+      "doc_12"
+    ],
+    "transfer": [
+      "doc_12"
+    ],
+    "cpu": [
+      "doc_12"
+    ],
+    "folder": [
+      "doc_12",
+      "doc_14"
+    ],
+    "lora": [
+      "doc_12"
+    ],
+    "recommended": [
+      "doc_12",
+      "doc_14"
+    ],
+    "torchvision": [
+      "doc_12"
+    ],
+    "higher": [
+      "doc_12"
+    ],
+    "architectures": [
+      "doc_12"
+    ],
+    "most": [
+      "doc_12"
+    ],
+    "responsibly": [
+      "doc_12"
+    ],
+    "usage": [
+      "doc_12",
+      "doc_14"
+    ],
+    "sampling": [
+      "doc_12"
+    ],
+    "completely": [
+      "doc_12"
+    ],
+    "resources": [
+      "doc_12",
+      "doc_14"
+    ],
+    "5-7": [
+      "doc_12"
+    ],
+    "installation": [
+      "doc_12",
+      "doc_14"
+    ],
+    "considerations": [
+      "doc_12"
+    ],
+    "embedding": [
+      "doc_12"
+    ],
+    "img": [
+      "doc_13",
+      "doc_12",
+      "doc_14"
+    ],
+    "glove": [
+      "doc_12"
+    ],
+    "torch": [
+      "doc_12"
+    ],
+    "labs-12": [
+      "doc_13",
+      "doc_12"
+    ],
+    "key": [
+      "doc_12"
+    ],
+    "standalone": [
+      "doc_12"
+    ],
+    "week02_word_embeddings_lab": [
+      "doc_12"
+    ],
+    "laws": [
+      "doc_12"
+    ],
+    "quantization": [
+      "doc_12"
+    ],
+    "-------": [
+      "doc_12",
+      "doc_14"
+    ],
+    "multi-head": [
+      "doc_12"
+    ],
+    "modules": [
+      "doc_12"
+    ],
+    "cu118": [
+      "doc_12"
+    ],
+    "algebra": [
+      "doc_12"
+    ],
+    "technical": [
+      "doc_12",
+      "doc_14"
+    ],
+    "2025_nlp_lectures": [
+      "doc_12"
+    ],
+    "standard": [
+      "doc_12"
+    ],
+    "download": [
+      "doc_12"
+    ],
+    "pace": [
+      "doc_12"
+    ],
+    "12-week": [
+      "doc_12"
+    ],
+    "word": [
+      "doc_12"
+    ],
+    "env": [
+      "doc_12"
+    ],
+    "each": [
+      "doc_12",
+      "doc_14"
+    ],
+    "100": [
+      "doc_12",
+      "doc_14"
+    ],
+    "vectors": [
+      "doc_12"
+    ],
+    "weeks-12": [
+      "doc_13",
+      "doc_12"
+    ],
+    "ethics": [
+      "doc_12"
+    ],
+    "methods": [
+      "doc_12"
+    ],
+    "handout": [
+      "doc_12"
+    ],
+    "attention": [
+      "doc_12"
+    ],
+    "20visualizations-purple": [
+      "doc_13",
+      "doc_12"
+    ],
+    "20notebooks-blue": [
+      "doc_13",
+      "doc_12"
+    ],
+    "fine-tune": [
+      "doc_12"
+    ],
+    "developed": [
+      "doc_12"
+    ],
+    "contribution": [
+      "doc_12"
+    ],
+    "pytorch": [
+      "doc_12"
+    ],
+    "common": [
+      "doc_12"
+    ],
+    "nlp2025": [
+      "doc_12"
+    ],
+    "beam": [
+      "doc_12"
+    ],
+    "sequential": [
+      "doc_12"
+    ],
+    "backpropagation": [
+      "doc_12"
+    ],
+    "experiment": [
+      "doc_12"
+    ],
+    "details": [
+      "doc_12",
+      "doc_14"
+    ],
+    "areas": [
+      "doc_12"
+    ],
+    "pre-trained": [
+      "doc_12"
+    ],
+    "presentations": [
+      "doc_12",
+      "doc_15",
+      "doc_14"
+    ],
+    "suitable": [
+      "doc_12"
+    ],
+    "misc": [
+      "doc_12"
+    ],
+    "joerg": [
+      "doc_12"
+    ],
+    "compare": [
+      "doc_12"
+    ],
+    "one": [
+      "doc_12"
+    ],
+    "processing": [
+      "doc_12"
+    ],
+    "covering": [
+      "doc_12"
+    ],
+    "transformers": [
+      "doc_12"
+    ],
+    "skip": [
+      "doc_12"
+    ],
+    "challenge": [
+      "doc_12"
+    ],
+    "decoding": [
+      "doc_12"
+    ],
+    "nucleus": [
+      "doc_12"
+    ],
+    "nlp_slides": [
+      "doc_12"
+    ],
+    "seq2seq": [
+      "doc_12"
+    ],
+    "3-4": [
+      "doc_12"
+    ],
+    "what": [
+      "doc_12",
+      "doc_14"
+    ],
+    "--------------": [
+      "doc_12"
+    ],
+    "bias": [
+      "doc_12"
+    ],
+    "probability": [
+      "doc_12"
+    ],
+    "but": [
+      "doc_12",
+      "doc_14"
+    ],
+    "distillation": [
+      "doc_12"
+    ],
+    "undergraduate": [
+      "doc_12"
+    ],
+    "msc-level": [
+      "doc_12"
+    ],
+    "20complete-brightgreen": [
+      "doc_13",
+      "doc_12"
+    ],
+    "matrices": [
+      "doc_12"
+    ],
+    "translation": [
+      "doc_12"
+    ],
+    "into": [
+      "doc_12"
+    ],
+    "handouts": [
+      "doc_12"
+    ],
+    "week03_rnn": [
+      "doc_12"
+    ],
+    "tokenization": [
+      "doc_12"
+    ],
+    "programming": [
+      "doc_12"
+    ],
+    "charts-168": [
+      "doc_13",
+      "doc_12"
+    ],
+    "whl": [
+      "doc_12"
+    ],
+    "post-class": [
+      "doc_12"
+    ],
+    "word2vec": [
+      "doc_12"
+    ],
+    "week05_transformer_lab": [
+      "doc_12"
+    ],
+    "conda": [
+      "doc_12"
+    ],
+    "practice": [
+      "doc_12"
+    ],
+    "objectives": [
+      "doc_12"
+    ],
+    "fine-tuning": [
+      "doc_12"
+    ],
+    "bootcamps": [
+      "doc_12"
+    ],
+    "safety": [
+      "doc_12"
+    ],
+    "8-10": [
+      "doc_12"
+    ],
+    "gru": [
+      "doc_12"
+    ],
+    "bptt": [
+      "doc_12"
+    ],
+    "generate_week05_optimal_charts": [
+      "doc_12"
+    ],
+    "real-world": [
+      "doc_12"
+    ],
+    "intensive": [
+      "doc_12"
+    ],
+    "hands-on": [
+      "doc_12"
+    ],
+    "-----": [
+      "doc_12"
+    ],
+    "lstm": [
+      "doc_12"
+    ],
+    "behind": [
+      "doc_12"
+    ],
+    "optimize": [
+      "doc_12"
+    ],
+    "framework-100": [
+      "doc_13",
+      "doc_12"
+    ],
+    "modern": [
+      "doc_12"
+    ],
+    "gpu": [
+      "doc_12"
+    ],
+    "4-12": [
+      "doc_12"
+    ],
+    "report": [
+      "doc_12"
+    ],
+    "pre-knowledge": [
+      "doc_12"
+    ],
+    "history": [
+      "doc_12"
+    ],
+    "natural": [
+      "doc_12"
+    ],
+    "implementation": [
+      "doc_12"
+    ],
+    "python-generated": [
+      "doc_12"
+    ],
+    "--index-url": [
+      "doc_12"
+    ],
+    "internals": [
+      "doc_14"
+    ],
+    "---------------": [
+      "doc_14"
+    ],
+    "href": [
+      "doc_14"
+    ],
+    "updated": [
+      "doc_14"
+    ],
+    "multiple": [
+      "doc_14"
+    ],
+    "slightly": [
+      "doc_14"
+    ],
+    "cases": [
+      "doc_14"
+    ],
+    "tikzpicture": [
+      "doc_14"
+    ],
+    "should": [
+      "doc_14"
+    ],
+    "includegraphics": [
+      "doc_14"
+    ],
+    "loss": [
+      "doc_14"
+    ],
+    "quick_reference": [
+      "doc_14"
+    ],
+    "103": [
+      "doc_14"
+    ],
+    "projects": [
+      "doc_14"
+    ],
+    "tools_reference": [
+      "doc_14"
+    ],
+    "104": [
+      "doc_14"
+    ],
+    "metainfo": [
+      "doc_14"
+    ],
+    "find": [
+      "doc_14"
+    ],
+    "branding_guide": [
+      "doc_14"
+    ],
+    "instantly": [
+      "doc_14"
+    ],
+    "xshift": [
+      "doc_14"
+    ],
+    "adding": [
+      "doc_15",
+      "doc_14"
+    ],
+    "now": [
+      "doc_14"
+    ],
+    "tiny": [
+      "doc_14"
+    ],
+    "tikz": [
+      "doc_14"
+    ],
+    "mirror": [
+      "doc_14"
+    ],
+    "chart_metadata": [
+      "doc_14"
+    ],
+    "6cm": [
+      "doc_14"
+    ],
+    "teaching": [
+      "doc_14"
+    ],
+    "overlays": [
+      "doc_14"
+    ],
+    "tips": [
+      "doc_14"
+    ],
+    "remove_duplicate_branding": [
+      "doc_14"
+    ],
+    "legacy": [
+      "doc_14"
+    ],
+    "made": [
+      "doc_14"
+    ],
+    "compilation": [
+      "doc_14"
+    ],
+    "visible": [
+      "doc_14"
+    ],
+    "reference": [
+      "doc_14"
+    ],
+    "02_another_chart": [
+      "doc_14"
+    ],
+    "auto-generated": [
+      "doc_14"
+    ],
+    "etc": [
+      "doc_14"
+    ],
+    "value": [
+      "doc_14"
+    ],
+    "png": [
+      "doc_14"
+    ],
+    "step": [
+      "doc_14"
+    ],
+    "positioning": [
+      "doc_14"
+    ],
+    "overlay": [
+      "doc_14"
+    ],
+    "latex-level": [
+      "doc_14"
+    ],
+    "talks": [
+      "doc_14"
+    ],
+    "picture": [
+      "doc_14"
+    ],
+    "clones": [
+      "doc_14"
+    ],
+    "re-add": [
+      "doc_14"
+    ],
+    "yshift": [
+      "doc_14"
+    ],
+    "both": [
+      "doc_14"
+    ],
+    "scan": [
+      "doc_14"
+    ],
+    "_landscape": [
+      "doc_14"
+    ],
+    "frames": [
+      "doc_14"
+    ],
+    "explore": [
+      "doc_14"
+    ],
+    "frame": [
+      "doc_14"
+    ],
+    "many": [
+      "doc_14"
+    ],
+    "font": [
+      "doc_14"
+    ],
+    "element": [
+      "doc_14"
+    ],
+    "licenses": [
+      "doc_14"
+    ],
+    "here": [
+      "doc_14"
+    ],
+    "must": [
+      "doc_14"
+    ],
+    "during": [
+      "doc_14"
+    ],
+    "regenerate_all_charts": [
+      "doc_14"
+    ],
+    "generate_qr_codes": [
+      "doc_14"
+    ],
+    "texttt": [
+      "doc_14"
+    ],
+    "path": [
+      "doc_14"
+    ],
+    "commands": [
+      "doc_15",
+      "doc_14"
+    ],
+    "point": [
+      "doc_14"
+    ],
+    "based": [
+      "doc_14"
+    ],
+    "images": [
+      "doc_14"
+    ],
+    "don": [
+      "doc_14"
+    ],
+    "one-page": [
+      "doc_14"
+    ],
+    "your_slides": [
+      "doc_14"
+    ],
+    "landscape": [
+      "doc_14"
+    ],
+    "cheat": [
+      "doc_14"
+    ],
+    "discoverable": [
+      "doc_14"
+    ],
+    "width": [
+      "doc_14"
+    ],
+    "once": [
+      "doc_14"
+    ],
+    "remember": [
+      "doc_14"
+    ],
+    "transparent": [
+      "doc_14"
+    ],
+    "hyperref": [
+      "doc_14"
+    ],
+    "quantlet": [
+      "doc_15",
+      "doc_14"
+    ],
+    "elements": [
+      "doc_14"
+    ],
+    "best": [
+      "doc_14"
+    ],
+    "presenting": [
+      "doc_14"
+    ],
+    "wrong": [
+      "doc_14"
+    ],
+    "done": [
+      "doc_14"
+    ],
+    "document": [
+      "doc_14"
+    ],
+    "purpose": [
+      "doc_14"
+    ],
+    "copies": [
+      "doc_14"
+    ],
+    "moving": [
+      "doc_14"
+    ],
+    "used": [
+      "doc_14"
+    ],
+    "bottom-right": [
+      "doc_14"
+    ],
+    "adjust": [
+      "doc_14"
+    ],
+    "needs": [
+      "doc_14"
+    ],
+    "tools": [
+      "doc_15",
+      "doc_14"
+    ],
+    "prepares": [
+      "doc_14"
+    ],
+    "urls": [
+      "doc_15",
+      "doc_14"
+    ],
+    "existing": [
+      "doc_14"
+    ],
+    "modify": [
+      "doc_14"
+    ],
+    "opensource": [
+      "doc_14"
+    ],
+    "when": [
+      "doc_14"
+    ],
+    "always": [
+      "doc_14"
+    ],
+    "adds": [
+      "doc_14"
+    ],
+    "creates": [
+      "doc_14"
+    ],
+    "just": [
+      "doc_15",
+      "doc_14"
+    ],
+    "quantlet-branding-tools": [
+      "doc_14"
+    ],
+    "your_project": [
+      "doc_14"
+    ],
+    "tree": [
+      "doc_14"
+    ],
+    "easy": [
+      "doc_14"
+    ],
+    "logo": [
+      "doc_15",
+      "doc_14"
+    ],
+    "pil": [
+      "doc_14"
+    ],
+    "reads": [
+      "doc_14"
+    ],
+    "link": [
+      "doc_14"
+    ],
+    "step-by-step": [
+      "doc_14"
+    ],
+    "sheet": [
+      "doc_14"
+    ],
+    "line": [
+      "doc_14"
+    ],
+    "packages": [
+      "doc_14"
+    ],
+    "opacity": [
+      "doc_14"
+    ],
+    "clickable": [
+      "doc_15",
+      "doc_14"
+    ],
+    "lines": [
+      "doc_14"
+    ],
+    "make": [
+      "doc_14"
+    ],
+    "contain": [
+      "doc_14"
+    ],
+    "reuse": [
+      "doc_14"
+    ],
+    "generate_metainfo": [
+      "doc_14"
+    ],
+    "remove": [
+      "doc_14"
+    ],
+    "footnotesize": [
+      "doc_14"
+    ],
+    "textwidth": [
+      "doc_14"
+    ],
+    "automatically": [
+      "doc_14"
+    ],
+    "duplicate": [
+      "doc_14"
+    ],
+    "blocks": [
+      "doc_14"
+    ],
+    "file": [
+      "doc_14"
+    ],
+    "embed": [
+      "doc_14"
+    ],
+    "current": [
+      "doc_14"
+    ],
+    "yourorg": [
+      "doc_14"
+    ],
+    "3-step": [
+      "doc_14"
+    ],
+    "108": [
+      "doc_14"
+    ],
+    "position": [
+      "doc_14"
+    ],
+    "codes": [
+      "doc_15",
+      "doc_14"
+    ],
+    "chart_script": [
+      "doc_14"
+    ],
+    "107": [
+      "doc_14"
+    ],
+    "process": [
+      "doc_14"
+    ],
+    "added": [
+      "doc_14"
+    ],
+    "0-1": [
+      "doc_14"
+    ],
+    "solution": [
+      "doc_14"
+    ],
+    "07_loss_landscape": [
+      "doc_14"
+    ],
+    "sync": [
+      "doc_14"
+    ],
+    "works": [
+      "doc_14"
+    ],
+    "remove_chart_branding": [
+      "doc_14"
+    ],
+    "already": [
+      "doc_14"
+    ],
+    "maintain": [
+      "doc_14"
+    ],
+    "sync_to_quantlet": [
+      "doc_14"
+    ],
+    "scriptsize": [
+      "doc_14"
+    ],
+    "help": [
+      "doc_14"
+    ],
+    "corner": [
+      "doc_14"
+    ],
+    "keep": [
+      "doc_14"
+    ],
+    "result": [
+      "doc_14"
+    ],
+    "utilities": [
+      "doc_14"
+    ],
+    "tutorial": [
+      "doc_14"
+    ],
+    "---------": [
+      "doc_14"
+    ],
+    "----------": [
+      "doc_14"
+    ],
+    "names": [
+      "doc_14"
+    ],
+    "license-mit-yellow": [
+      "doc_14"
+    ],
+    "generate_qr_codes_template": [
+      "doc_14"
+    ],
+    "students": [
+      "doc_14"
+    ],
+    "_loss": [
+      "doc_14"
+    ],
+    "revert": [
+      "doc_14"
+    ],
+    "graphicx": [
+      "doc_14"
+    ],
+    "01_chart_name": [
+      "doc_14"
+    ],
+    "8cm": [
+      "doc_14"
+    ],
+    "qrcode": [
+      "doc_14"
+    ],
+    "showing": [
+      "doc_14"
+    ],
+    "begin": [
+      "doc_14"
+    ],
+    "two": [
+      "doc_14"
+    ],
+    "svg": [
+      "doc_14"
+    ],
+    "lookup": [
+      "doc_14"
+    ],
+    "qr_code": [
+      "doc_14"
+    ],
+    "add_latex_branding": [
+      "doc_14"
+    ],
+    "embedded": [
+      "doc_14"
+    ],
+    "syncing": [
+      "doc_14"
+    ],
+    "class": [
+      "doc_14"
+    ],
+    "branding": [
+      "doc_15",
+      "doc_14"
+    ],
+    "optional": [
+      "doc_14"
+    ],
+    "conferences": [
+      "doc_14"
+    ],
+    "generates": [
+      "doc_14"
+    ],
+    "regenerates": [
+      "doc_14"
+    ],
+    "audience": [
+      "doc_14"
+    ]
+  },
+  "facets": {
+    "type": {
+      "readme": 7,
+      "research": 7,
+      "publication": 2
+    },
+    "repo": {
+      "org-dashboard": 2,
+      "portfolio-optimization-ml": 4,
+      "credit-risk-prediction": 2,
+      "market-microstructure": 2,
+      "green-finance": 2,
+      "natural-language-processing": 2,
+      "quantlet-branding-tools": 2
+    },
+    "title": {
+      "automated dashboard for monitoring all repositories in the digital-ai-finance organization": 2,
+      "machine learning approaches to portfolio optimization using deep reinforcement learning": 2,
+      "financial markets and unemployment": 1,
+      "the success of adaboost and its application in portfolio management": 1,
+      "neural network models for credit risk prediction with explainable ai": 2,
+      "high-frequency trading analysis and market microstructure research": 2,
+      "academic course generation system for green finance professional certificate - 8-week course with learning-goal-driven pedagogy, beamer slides, and interactive react app": 2,
+      "nlp course 2025: from n-grams to transformers - complete 12-week curriculum with discovery-based pedagogy": 2,
+      "automated tools for adding quantlet branding (logo, qr codes, clickable urls) to latex beamer presentations": 2
+    },
+    "language": {
+      "python": 2,
+      "unknown": 3,
+      "tex": 1,
+      "jupyter notebook": 1
+    },
+    "topics": {
+      "finance": 3,
+      "machine-learning": 1,
+      "portfolio-optimization": 1,
+      "reinforcement-learning": 1,
+      "credit-risk": 1,
+      "explainable-ai": 1,
+      "neural-networks": 1,
+      "high-frequency-trading": 1,
+      "market-microstructure": 1,
+      "time-series": 1
+    },
+    "year": {
+      "2023": 1,
+      "2021": 1
+    },
+    "doi": {
+      "10.1016/j.jfineco.2023.01.001": 1
+    },
+    "arxiv_id": {
+      "2103.12345": 1
+    }
+  },
+  "repos": {
+    "org-dashboard": {
+      "name": "org-dashboard",
+      "full_name": "Digital-AI-Finance/org-dashboard",
+      "description": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
+      "url": "https://github.com/Digital-AI-Finance/org-dashboard",
+      "clone_url": "https://github.com/Digital-AI-Finance/org-dashboard.git",
+      "homepage": "https://digital-ai-finance.github.io/org-dashboard",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 6328,
+      "default_branch": "main",
+      "created_at": "2025-11-21T21:59:13+00:00",
+      "updated_at": "2025-11-28T03:05:59+00:00",
+      "pushed_at": "2025-11-28T03:05:56+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": true,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 2,
+      "readme": "# GitHub Organization Research Platform\n\nA comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.\n\nLive Demo: https://digital-ai-finance.github.io/org-dashboard/\n\n## Core Features\n\n- Automatic daily updates via GitHub Actions\n- Beautiful, searchable documentation site\n- Repository catalog with detailed information\n- Statistics and analytics\n- Organization by language and topics\n- Mobile-responsive design\n- Zero server costs (runs entirely on GitHub)\n\n## Research Platform Features\n\n### Publication Tracking\n- Automatic extraction of DOIs, arXiv IDs, SSRN papers from READMEs\n- Academic database integration (CrossRef, arXiv)\n- Publication metadata enrichment\n- Citation count tracking\n\n### Code & Data\n- Jupyter notebook rendering\n- Dataset detection and cataloging\n- Dependency analysis\n- Code language statistics\n\n### Reproducibility\n- Automated reproducibility scoring (100-point scale)\n- Badge system (Gold/Silver/Bronze)\n- Environment configuration detection\n- Docker support tracking\n\n### Community Features\n- Replication attempt tracking\n- Community verification system\n- Peer review ratings\n- Success rate metrics\n\n### Advanced Search\n- Full-text search across all repositories\n- Faceted navigation\n- TF-IDF relevance scoring\n- Autocomplete suggestions\n\n### Visualizations\n- Interactive Plotly charts\n- Citation network graphs\n- Publication timelines\n- Language distribution\n- Collaboration networks\n\n## Architecture\n\n- **Data Fetching**: Python script using PyGithub to fetch org data + research metadata extraction\n- **Academic APIs**: CrossRef, arXiv integration for publication enrichment\n- **Analysis**: Citation tracking, reproducibility scoring, search indexing\n- **Markdown Generation**: Jinja2 templates for dynamic content\n- **Visualizations**: Interactive Plotly charts, network graphs\n- **Static Site**: MkDocs Material theme\n- **Automation**: GitHub Actions for scheduled updates\n- **Hosting**: GitHub Pages (free)\n\n## Live Demo\n\nVisit our live demo at: https://digital-ai-finance.github.io/org-dashboard/\n\nThe demo includes 4 example repositories showcasing different research features:\n\n1. **org-dashboard** - This repository (meta!)\n2. **portfolio-optimization-ml** - ML research with arXiv papers and DOIs\n3. **credit-risk-prediction** - Neural networks with SSRN publications and notebooks\n4. **market-microstructure** - HFT research with Zenodo datasets and Docker\n\nFeatures demonstrated:\n- Publications with DOI/arXiv links and citation counts\n- Reproducibility scores and badges\n- Community replication attempts and reviews\n- Dataset cataloging\n- Interactive visualizations\n\n## Setup Instructions\n\n### 1. Create GitHub Personal Access Token\n\n1. Go to GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)\n2. Click \"Generate new token (classic)\"\n3. Give it a descriptive name (e.g., \"Org Dashboard\")\n4. Select scopes:\n   - `repo` (Full control of private repositories)\n   - `read:org` (Read org and team membership)\n5. Click \"Generate token\"\n6. Copy the token immediately (you will not see it again)\n\n### 2. Fork or Create This Repository\n\n1. Create a new repository in your GitHub organization\n2. Clone this repository or copy all files to your new repo\n3. Push to GitHub\n\n### 3. Configure Repository Secrets\n\n1. Go to your repository Settings > Secrets and variables > Actions\n2. Add the following secrets:\n   - `GH_PAT`: Your GitHub Personal Access Token\n   - `ORG_NAME`: Your organization name (e.g., \"my-org\")\n\n### 4. Enable GitHub Pages\n\n1. Go to repository Settings > Pages\n2. Source: Deploy from a branch\n3. Branch: `gh-pages` / `root`\n4. Save\n\n### 5. Run Initial Workflow\n\n1. Go to Actions tab\n2. Select \"Update Dashboard\" workflow\n3. Click \"Run workflow\"\n4. Wait for completion (2-5 minutes)\n\n### 6. Access Your Dashboard\n\nYour dashboard will be available at:\n`https://YOUR_ORG.github.io/REPO_NAME/`\n\n## Configuration\n\n### Update Frequency\n\nEdit `.github/workflows/update-dashboard.yml` to change schedule:\n\n```yaml\nschedule:\n  - cron: '0 2 * * *'  # Daily at 2 AM UTC\n  # - cron: '0 */6 * * *'  # Every 6 hours\n  # - cron: '0 0 * * 0'  # Weekly on Sunday\n```\n\n### Customize Appearance\n\nEdit `mkdocs.yml` to change:\n- Site name and description\n- Theme colors\n- Navigation structure\n- Enabled features\n\n### Customize Templates\n\nEdit files in `templates/` directory to change:\n- Page layouts\n- Content structure\n- Displayed information\n\n## Local Development\n\n### Prerequisites\n\n- Python 3.11+\n- Git\n\n### Install Dependencies\n\n```bash\npip install -r requirements.txt\n```\n\n### Fetch Data Locally\n\n```bash\nexport GITHUB_TOKEN='your_token_here'\nexport GITHUB_ORG='your_org_name'\npython scripts/fetch_org_data.py\n```\n\nOr with arguments:\n\n```bash\nexport GITHUB_TOKEN='your_token_here'\npython scripts/fetch_org_data.py your_org_name\n```\n\n### Generate Markdown\n\n```bash\npython scripts/generate_markdown.py\n```\n\n### Preview Site Locally\n\n```bash\nmkdocs serve\n```\n\nThen open http://127.0.0.1:8000 in your browser.\n\n### Build Static Site\n\n```bash\nmkdocs build\n```\n\nOutput will be in `site/` directory.\n\n## Project Structure\n\n```\n.\n├── .github/\n│   └── workflows/\n│       └── update-dashboard.yml  # GitHub Actions workflow\n├── scripts/\n│   ├── fetch_org_data.py        # Fetch data from GitHub API\n│   └── generate_markdown.py     # Generate markdown from data\n├── templates/                   # Jinja2 templates\n│   ├── index.md.j2\n│   ├── stats.md.j2\n│   ├── repo.md.j2\n│   └── ...\n├── docs/                        # Generated markdown (committed)\n│   ├── index.md\n│   ├── stats.md\n│   ├── repos/\n│   ├── by-language/\n│   └── by-topic/\n├── data/                        # Generated JSON data (committed)\n│   ├── repos.json\n│   └── stats.json\n├── mkdocs.yml                   # MkDocs configuration\n├── requirements.txt             # Python dependencies\n└── README.md\n```\n\n## Troubleshooting\n\n### Workflow Fails with Authentication Error\n\n- Verify `GH_PAT` secret is set correctly\n- Ensure token has required scopes (`repo`, `read:org`)\n- Token may have expired - regenerate and update secret\n\n### No Changes Detected\n\n- Check if organization has any repositories\n- Verify `ORG_NAME` secret is correct\n- Check workflow logs for errors\n\n### Pages Not Deploying\n\n- Ensure GitHub Pages is enabled in repository settings\n- Check that `gh-pages` branch exists\n- Verify workflow has `contents: write` permission\n\n### Rate Limiting\n\n- GitHub API has rate limits (5000 requests/hour for authenticated requests)\n- For large organizations, consider caching or reducing update frequency\n- Workflow implements basic rate limit handling\n\n### Local Development Issues\n\n**Module not found:**\n```bash\npip install -r requirements.txt\n```\n\n**Permission denied:**\n```bash\nchmod +x scripts/*.py\n```\n\n**Data files missing:**\nRun fetch script first before generating markdown.\n\n## Customization Ideas\n\n- Add CI/CD status badges\n- Include code quality metrics\n- Show dependency vulnerabilities\n- Add commit activity graphs\n- Display contributor statistics\n- Track issue response times\n- Monitor PR merge times\n\n## GitHub Actions Free Tier Limits\n\n- 2000 minutes/month for free accounts\n- This workflow uses ~2-5 minutes per run\n- Daily runs: ~150 minutes/month\n- Well within free tier limits\n\n## Contributing\n\nContributions welcome! Please feel free to submit issues or pull requests.\n\n## License\n\nMIT License - feel free to use this for your organization.\n\n## Credits\n\nBuilt with:\n- [PyGithub](https://github.com/PyGithub/PyGithub)\n- [MkDocs](https://www.mkdocs.org/)\n- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)\n- [Jinja2](https://jinja.palletsprojects.com/)\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "org-dashboard",
+        "research": {
+          "title": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
+          "abstract": "A comprehensive, automated research platform for academic GitHub organizations. Combines repository monitoring with advanced research features including publication tracking, citation analysis, reproducibility scoring, and community verification.",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "language and topics"
+            }
+          ]
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "Python"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": true,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-11-29T03:04:05.551930",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": [
+          {
+            "name": "data",
+            "path": "data",
+            "format": "",
+            "size_bytes": 0
+          },
+          {
+            "name": "build_log.json",
+            "path": "data/build_log.json",
+            "format": ".json",
+            "size_bytes": 3903
+          },
+          {
+            "name": "citation_history.json",
+            "path": "data/citation_history.json",
+            "format": ".json",
+            "size_bytes": 21415
+          },
+          {
+            "name": "citation_report.json",
+            "path": "data/citation_report.json",
+            "format": ".json",
+            "size_bytes": 2595
+          },
+          {
+            "name": "code_quality_report.json",
+            "path": "data/code_quality_report.json",
+            "format": ".json",
+            "size_bytes": 4037
+          },
+          {
+            "name": "collaboration_network.json",
+            "path": "data/collaboration_network.json",
+            "format": ".json",
+            "size_bytes": 2031
+          },
+          {
+            "name": "ml_topic_analysis.json",
+            "path": "data/ml_topic_analysis.json",
+            "format": ".json",
+            "size_bytes": 13921
+          },
+          {
+            "name": "repos.json",
+            "path": "data/repos.json",
+            "format": ".json",
+            "size_bytes": 62779
+          },
+          {
+            "name": "repository_health_report.json",
+            "path": "data/repository_health_report.json",
+            "format": ".json",
+            "size_bytes": 12243
+          },
+          {
+            "name": "reproducibility_report.json",
+            "path": "data/reproducibility_report.json",
+            "format": ".json",
+            "size_bytes": 11724
+          },
+          {
+            "name": "research_metadata.json",
+            "path": "data/research_metadata.json",
+            "format": ".json",
+            "size_bytes": 23429
+          },
+          {
+            "name": "search_index.pkl",
+            "path": "data/search_index.pkl",
+            "format": ".pkl",
+            "size_bytes": 54254
+          },
+          {
+            "name": "stats.json",
+            "path": "data/stats.json",
+            "format": ".json",
+            "size_bytes": 2226
+          },
+          {
+            "name": "citation_network.json",
+            "path": "docs/visualizations/citation_network.json",
+            "format": ".json",
+            "size_bytes": 337
+          },
+          {
+            "name": "collaboration_network.json",
+            "path": "docs/visualizations/collaboration_network.json",
+            "format": ".json",
+            "size_bytes": 382
+          },
+          {
+            "name": "research_metadata_schema.json",
+            "path": "schemas/research_metadata_schema.json",
+            "format": ".json",
+            "size_bytes": 5576
+          }
+        ]
+      }
+    },
+    "portfolio-optimization-ml": {
+      "name": "portfolio-optimization-ml",
+      "full_name": "Digital-AI-Finance/portfolio-optimization-ml",
+      "description": "Machine learning approaches to portfolio optimization using deep reinforcement learning",
+      "url": "https://github.com/Digital-AI-Finance/portfolio-optimization-ml",
+      "clone_url": "https://github.com/Digital-AI-Finance/portfolio-optimization-ml.git",
+      "homepage": "",
+      "language": "Unknown",
+      "topics": [
+        "finance",
+        "machine-learning",
+        "portfolio-optimization",
+        "reinforcement-learning"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 2,
+      "default_branch": "main",
+      "created_at": "2025-11-21T22:50:46+00:00",
+      "updated_at": "2025-11-21T22:51:57+00:00",
+      "pushed_at": "2025-11-21T22:51:54+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# Portfolio Optimization with Deep Reinforcement Learning\n\nThis repository contains code and data for the paper \"Deep Reinforcement Learning for Portfolio Optimization\" (arXiv:2103.12345).\n\n## Authors\n\n- John Smith (University of Finance)\n- Jane Doe (Tech Institute)\n\n## Abstract\n\nWe propose a novel deep reinforcement learning approach for portfolio optimization that outperforms traditional mean-variance optimization. Our method uses a Deep Q-Network (DQN) to learn optimal trading strategies from historical market data.\n\n## Published Paper\n\n- **arXiv**: arXiv:2103.12345\n- **DOI**: 10.1016/j.jfineco.2023.01.001\n- **Published**: Journal of Financial Economics, 2023\n\n## Citation\n\nIf you use this code or data, please cite:\n\n```bibtex\n@article{smith2023deep,\n  title={Deep Reinforcement Learning for Portfolio Optimization},\n  author={Smith, John and Doe, Jane},\n  journal={Journal of Financial Economics},\n  year={2023},\n  doi={10.1016/j.jfineco.2023.01.001}\n}\n```\n\n## Datasets\n\n- `data/stock_prices.csv` - Historical stock prices (S&P 500, 2010-2023)\n- `data/portfolio_returns.csv` - Simulated portfolio returns\n\n## Requirements\n\n```\nnumpy>=1.21.0\npandas>=1.3.0\ntensorflow>=2.8.0\ngym>=0.21.0\n```\n\n## Reproducibility\n\nAll experiments can be reproduced using:\n\n```bash\npython train_dqn.py --config configs/default.yaml\npython evaluate.py --model checkpoints/best_model.h5\n```\n\n## References\n\nThis work builds on:\n- Mnih et al. (2015) - Human-level control through deep reinforcement learning\n- Jiang et al. (2017) - A deep reinforcement learning framework for the financial portfolio\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "portfolio-optimization-ml",
+        "research": {
+          "title": "Machine learning approaches to portfolio optimization using deep reinforcement learning",
+          "abstract": "We propose a novel deep reinforcement learning approach for portfolio optimization that outperforms traditional mean-variance optimization. Our method uses a Deep Q-Network (DQN) to learn optimal trading strategies from historical market data.",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "John Smith",
+              "affiliation": "University of Finance"
+            },
+            {
+              "name": "Jane Doe",
+              "affiliation": "Tech Institute"
+            }
+          ]
+        },
+        "publications": [
+          {
+            "type": "journal-article",
+            "doi": "10.1016/j.jfineco.2023.01.001",
+            "url": "https://doi.org/10.1016/j.jfineco.2023.01.001",
+            "title": "Financial markets and unemployment",
+            "abstract": "",
+            "published": "2023-03-01",
+            "year": 2023,
+            "authors": [
+              {
+                "name": "Tommaso Monacelli"
+              },
+              {
+                "name": "Vincenzo Quadrini"
+              },
+              {
+                "name": "Antonella Trigari"
+              }
+            ],
+            "venue": "Journal of Financial Economics",
+            "publisher": "Elsevier BV",
+            "citation_count": 16,
+            "reference_count": 27
+          },
+          {
+            "type": "preprint",
+            "arxiv_id": "2103.12345",
+            "url": "https://arxiv.org/abs/2103.12345",
+            "title": "The Success of AdaBoost and Its Application in Portfolio Management",
+            "abstract": "We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a strong connection between the ION and the test error. We further identify that the ION of AdaBoost decreases as the iteration number or the complexity of the base learners increases. We confirm that it is impossible to obtain a consistent classifier without deep trees as the base learners of AdaBoost in some complicated situations. We apply AdaBoost in portfolio management via empirical studies in the Chinese market, which corroborates our theoretical propositions.",
+            "published": "2021-03-23T06:41:42Z",
+            "updated": "2021-03-23T06:41:42Z",
+            "pdf_url": "https://arxiv.org/pdf/2103.12345.pdf",
+            "authors": [
+              {
+                "name": "Yijian Chuan"
+              },
+              {
+                "name": "Chaoyi Zhao"
+              },
+              {
+                "name": "Zhenrui He"
+              },
+              {
+                "name": "Lan Wu"
+              }
+            ],
+            "categories": [
+              "stat.ML",
+              "cs.LG",
+              "q-fin.PM"
+            ],
+            "year": 2021
+          }
+        ],
+        "code": {
+          "languages": [
+            "Unknown"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": true,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [
+            "@article{smith2023deep,\n  title={Deep Reinforcement Learning for Portfolio Optimization},\n  author={Smith, John and Doe, Jane},\n  journal={Journal of Financial Economics},\n  year={2023},\n  doi={10.1016/j.jfineco.2023.01.001}\n}"
+          ],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-11-29T03:04:07.972036",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": []
+      }
+    },
+    "credit-risk-prediction": {
+      "name": "credit-risk-prediction",
+      "full_name": "Digital-AI-Finance/credit-risk-prediction",
+      "description": "Neural network models for credit risk prediction with explainable AI",
+      "url": "https://github.com/Digital-AI-Finance/credit-risk-prediction",
+      "clone_url": "https://github.com/Digital-AI-Finance/credit-risk-prediction.git",
+      "homepage": "",
+      "language": "Unknown",
+      "topics": [
+        "credit-risk",
+        "explainable-ai",
+        "finance",
+        "neural-networks"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 2,
+      "default_branch": "main",
+      "created_at": "2025-11-21T22:50:51+00:00",
+      "updated_at": "2025-11-21T22:52:01+00:00",
+      "pushed_at": "2025-11-21T22:51:59+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# Explainable Credit Risk Prediction\n\nRepository for \"Explainable Neural Networks for Credit Risk Assessment\" (SSRN:3456789).\n\n## Authors\n\n- Maria Garcia (Financial Analytics Lab)\n- Robert Chen (AI Research Center)\n\n## Abstract\n\nWe develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.\n\n## Published Paper\n\n- **SSRN**: https://ssrn.com/abstract=3456789\n- **DOI**: 10.2139/ssrn.3456789\n\n## Dataset\n\nWe use the German Credit Dataset and a proprietary dataset from a major bank:\n- `data/german_credit.csv` - Public German Credit Data\n- `data/features.csv` - Engineered features\n\n## Notebooks\n\n- `notebooks/01_data_exploration.ipynb` - Exploratory data analysis\n- `notebooks/02_feature_engineering.ipynb` - Feature creation and selection\n- `notebooks/03_model_training.ipynb` - Neural network training\n- `notebooks/04_explainability.ipynb` - SHAP analysis and interpretation\n\n## Requirements\n\n```\ntensorflow>=2.8.0\nscikit-learn>=1.0.0\nshap>=0.40.0\npandas>=1.3.0\nmatplotlib>=3.4.0\njupyter>=1.0.0\n```\n\n## Citation\n\n```bibtex\n@article{garcia2023explainable,\n  title={Explainable Neural Networks for Credit Risk Assessment},\n  author={Garcia, Maria and Chen, Robert},\n  journal={SSRN Electronic Journal},\n  year={2023},\n  doi={10.2139/ssrn.3456789}\n}\n```\n\n## Replication\n\nTo replicate our results:\n\n1. Install dependencies: `pip install -r requirements.txt`\n2. Run notebooks in order: `jupyter notebook`\n3. Train model: `python train.py`\n4. Generate predictions: `python predict.py`\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "credit-risk-prediction",
+        "research": {
+          "title": "Neural network models for credit risk prediction with explainable AI",
+          "abstract": "We develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "Maria Garcia",
+              "affiliation": "Financial Analytics Lab"
+            },
+            {
+              "name": "Robert Chen",
+              "affiliation": "AI Research Center"
+            }
+          ]
+        },
+        "publications": [
+          {
+            "type": "journal",
+            "doi": "10.2139/ssrn.3456789",
+            "url": "https://doi.org/10.2139/ssrn.3456789"
+          },
+          {
+            "type": "working_paper",
+            "ssrn_id": "3456789",
+            "url": "https://ssrn.com/abstract=3456789",
+            "note": "Limited metadata available (no SSRN API)"
+          }
+        ],
+        "code": {
+          "languages": [
+            "Unknown"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": true,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [
+            "@article{garcia2023explainable,\n  title={Explainable Neural Networks for Credit Risk Assessment},\n  author={Garcia, Maria and Chen, Robert},\n  journal={SSRN Electronic Journal},\n  year={2023},\n  doi={10.2139/ssrn.3456789}\n}"
+          ],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-11-29T03:04:10.442477",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": []
+      }
+    },
+    "market-microstructure": {
+      "name": "market-microstructure",
+      "full_name": "Digital-AI-Finance/market-microstructure",
+      "description": "High-frequency trading analysis and market microstructure research",
+      "url": "https://github.com/Digital-AI-Finance/market-microstructure",
+      "clone_url": "https://github.com/Digital-AI-Finance/market-microstructure.git",
+      "homepage": "",
+      "language": "Unknown",
+      "topics": [
+        "finance",
+        "high-frequency-trading",
+        "market-microstructure",
+        "time-series"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 2,
+      "default_branch": "main",
+      "created_at": "2025-11-21T22:50:56+00:00",
+      "updated_at": "2025-11-21T22:52:05+00:00",
+      "pushed_at": "2025-11-21T22:52:03+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# Market Microstructure Analysis\n\nCode repository for \"Price Discovery in High-Frequency Markets\" (Journal of Finance, 2024).\n\n## Authors\n\n- David Lee (Quantitative Finance Department)\n- Sarah Williams (Trading Systems Lab)\n\n## Abstract\n\nWe analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.\n\n## Published Papers\n\n- **Main Paper**: DOI: 10.1111/jofi.2024.12345\n- **Working Paper**: arXiv:2201.67890\n\n## Data\n\n- `data/orderbook/` - Limit order book snapshots (10ms frequency)\n- `data/trades/` - Trade and quote data\n- Total size: ~50GB (available via Zenodo: 10.5281/zenodo.1234567)\n\n## Code Structure\n\n```\nsrc/\n  orderbook.py - Order book reconstruction\n  metrics.py - Microstructure metrics\n  analysis.py - Statistical analysis\nnotebooks/\n  analysis.ipynb - Main analysis notebook\ntests/\n  test_orderbook.py - Unit tests\n```\n\n## Requirements\n\n```\nnumpy>=1.21.0\npandas>=1.3.0\nnumba>=0.55.0\npytest>=6.2.0\n```\n\n## Docker\n\nFor reproducibility, we provide a Docker environment:\n\n```bash\ndocker build -t market-microstructure .\ndocker run -v $(pwd)/data:/data market-microstructure python src/analysis.py\n```\n\n## Citation\n\n```bibtex\n@article{lee2024price,\n  title={Price Discovery in High-Frequency Markets},\n  author={Lee, David and Williams, Sarah},\n  journal={Journal of Finance},\n  year={2024},\n  doi={10.1111/jofi.2024.12345}\n}\n```\n\n## References\n\nThis work cites and extends:\n- Hasbrouck (1991) - Measuring the information content of stock trades\n- Biais et al. (1995) - An empirical analysis of the limit order book\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "market-microstructure",
+        "research": {
+          "title": "High-frequency trading analysis and market microstructure research",
+          "abstract": "We analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "David Lee",
+              "affiliation": "Quantitative Finance Department"
+            },
+            {
+              "name": "Sarah Williams",
+              "affiliation": "Trading Systems Lab"
+            }
+          ]
+        },
+        "publications": [
+          {
+            "type": "journal",
+            "doi": "10.1111/jofi.2024.12345",
+            "url": "https://doi.org/10.1111/jofi.2024.12345"
+          },
+          {
+            "type": "journal",
+            "doi": "10.5281/zenodo.1234567)",
+            "url": "https://doi.org/10.5281/zenodo.1234567)"
+          },
+          {
+            "type": "preprint",
+            "arxiv_id": "2201.67890",
+            "url": "https://arxiv.org/abs/2201.67890"
+          }
+        ],
+        "code": {
+          "languages": [
+            "Unknown"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": true,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [
+            "@article{lee2024price,\n  title={Price Discovery in High-Frequency Markets},\n  author={Lee, David and Williams, Sarah},\n  journal={Journal of Finance},\n  year={2024},\n  doi={10.1111/jofi.2024.12345}\n}"
+          ],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-11-29T03:04:12.848532",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": []
+      }
+    },
+    "Green-Finance": {
+      "name": "Green-Finance",
+      "full_name": "Digital-AI-Finance/Green-Finance",
+      "description": "Academic course generation system for Green Finance Professional Certificate - 8-week course with learning-goal-driven pedagogy, Beamer slides, and interactive React app",
+      "url": "https://github.com/Digital-AI-Finance/Green-Finance",
+      "clone_url": "https://github.com/Digital-AI-Finance/Green-Finance.git",
+      "homepage": "",
+      "language": "TeX",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 5294,
+      "default_branch": "main",
+      "created_at": "2025-11-22T07:02:13+00:00",
+      "updated_at": "2025-11-22T20:38:15+00:00",
+      "pushed_at": "2025-11-22T20:38:12+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": true,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# Green Finance Professional Certificate\n\nAcademic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.\n\n## Live Interactive App\n\n**🌐 https://digital-ai-finance.github.io/Green-Finance**\n\nInteractive Week 1 learning platform with 30 slides, charts, and self-assessment.\n\n---\n\n## Project Overview\n\n### Course Structure\n- **Duration:** 8 weeks\n- **Format:** Academic professional certificate\n- **Pedagogy:** Learning-goal-driven (3 goals per week)\n- **Delivery:** Beamer PDF slides + Interactive web app\n\n### Week 1 Status\n✅ **Complete** - 37 slides, 17 charts, fully validated\n- Core: 30 slides (3 learning goals × 10 slides)\n- Supplementary: 7 empirical validation slides\n- Interactive React app deployed\n\n### Weeks 2-8 Status\n⏳ **Ready for generation** using proven Week 1 template\n\n---\n\n## Quick Start\n\n### View Interactive App\nVisit: **https://digital-ai-finance.github.io/Green-Finance**\n\n### Run Locally\n```bash\ncd react-app\nnpm install\nnpm start\n# Opens at http://localhost:3000\n```\n\n### Compile LaTeX Slides\n```bash\n# Compile Week 1\npdflatex -interaction=nonstopmode 20251121_2306_Week1_v2_GreenFinanceFoundations.tex\npdflatex -interaction=nonstopmode 20251121_2306_Week1_v2_GreenFinanceFoundations.tex\n\n# Clean up auxiliary files\nMove-Item -Path *.aux,*.log,*.out,*.nav,*.toc,*.snm -Destination temp\\ -ErrorAction SilentlyContinue\n```\n\n### Generate Charts\n```powershell\n# Generate all Week 1 charts\nGet-ChildItem charts\\week1\\*.py | ForEach-Object { python $_.FullName }\n\n# Generate Graphviz diagrams (requires Graphviz installed)\nGet-ChildItem charts\\week1\\*.dot | ForEach-Object {\n    dot -Tpdf $_.FullName -o ($_.FullName -replace '\\.dot$','.pdf')\n}\n```\n\n---\n\n## Repository Structure\n\n```\nGreen-Finance/\n├── react-app/              # Interactive web app (Week 1)\n│   ├── src/\n│   │   ├── components/     # React components\n│   │   ├── charts/         # Interactive chart components\n│   │   └── data/           # Course content (slides)\n│   ├── DEPLOYMENT.md       # Deployment guide\n│   └── package.json\n│\n├── charts/week1/           # Chart generation scripts\n│   ├── week1_v2_goal1_*.py     # Goal 1 charts (matplotlib)\n│   ├── week1_v2_goal2_*.py     # Goal 2 charts (matplotlib)\n│   ├── week1_v2_goal3_*.py     # Goal 3 charts (matplotlib)\n│   └── *.dot                    # Graphviz diagrams\n│\n├── agents/                 # Multi-agent system specs\n│   ├── AGENT_3_ContentPlanner_v2.md\n│   ├── AGENT_4_SlideGenerator_v2_LaTeXTemplates.md\n│   └── README_v2.md\n│\n├── *.tex                   # LaTeX source files\n├── *.pdf                   # Compiled slide PDFs\n├── template_beamer_final.tex   # Madrid theme template\n├── CLAUDE.md               # Project documentation\n├── COURSE_GENERATOR_v2.md  # Generation system spec\n└── DEPLOY_QUICKSTART.md    # Deployment quick start\n```\n\n---\n\n## Features\n\n### Interactive Web App\n- ✅ 30 slides with keyboard navigation\n- ✅ 3 learning goals with progress tracking\n- ✅ Interactive charts (Recharts)\n- ✅ Self-assessment quizzes\n- ✅ LocalStorage persistence\n- ✅ Mobile responsive\n- ✅ GitHub Pages deployment\n\n### LaTeX Slides (v2.0)\n- ✅ Madrid theme (8pt, 16:9)\n- ✅ 3 learning goals per week\n- ✅ Goal-driven narrative structure\n- ✅ 4 specialized slide types\n- ✅ 17 charts (33%+ ratio)\n- ✅ Bottom notes with goal tracking\n\n### Multi-Agent System\n- ✅ Course Orchestrator\n- ✅ Guidelines Expert\n- ✅ Content Planner v2.0\n- ✅ Slide Generator v2.0\n- ✅ YAML-based communication\n\n---\n\n## Technologies\n\n### Web App\n- React 18.2\n- Material-UI 5.14\n- Recharts 2.8 (charts)\n- Framer Motion 10.16 (animations)\n- D3 7.8 (advanced visualizations)\n\n### Slides & Charts\n- LaTeX Beamer (Madrid theme)\n- Python 3.x + matplotlib\n- Graphviz (diagrams)\n- pdflatex\n\n### Deployment\n- GitHub Pages (automatic)\n- GitHub Actions (CI/CD)\n\n---\n\n## Learning Goals (Week 1)\n\n### Goal 1: Market Microstructure Theory\nUnderstand the theoretical foundations explaining why green finance markets exist and how they function.\n\n**Slides:** 1-10 | **Type:** Theoretical | **Charts:** Ecosystem diagrams\n\n### Goal 2: Quantify Market Size & Growth\nQuantify the size, growth trajectory, and composition of global green finance markets using empirical data.\n\n**Slides:** 11-20 | **Type:** Quantitative | **Charts:** Time series, distributions\n\n### Goal 3: Derive Pricing Models\nDerive and apply mathematical models for pricing green financial instruments, incorporating greenium and ESG factors.\n\n**Slides:** 21-30 | **Type:** Mathematical | **Charts:** Yield curves, risk-return\n\n---\n\n## Documentation\n\n- **[CLAUDE.md](CLAUDE.md)** - Complete project documentation\n- **[DEPLOY_QUICKSTART.md](DEPLOY_QUICKSTART.md)** - Deploy in 3 steps\n- **[react-app/DEPLOYMENT.md](react-app/DEPLOYMENT.md)** - Full deployment guide\n- **[COURSE_GENERATOR_v2.md](COURSE_GENERATOR_v2.md)** - System specification\n- **[agents/README_v2.md](agents/README_v2.md)** - Multi-agent architecture\n\n---\n\n## Deployment\n\n### Automatic (GitHub Actions)\n1. Enable GitHub Pages: Settings → Pages → Source: **GitHub Actions**\n2. Push changes: `git push origin main`\n3. Visit: https://digital-ai-finance.github.io/Green-Finance\n\nSee **[DEPLOY_QUICKSTART.md](DEPLOY_QUICKSTART.md)** for detailed steps.\n\n### Manual\n```bash\ncd react-app\nnpm run deploy\n```\n\n---\n\n## Development Workflow\n\n### Add New Week\n1. Create content outline: `weekN_v2_content_outline.yaml`\n2. Generate charts: `python charts/weekN/*.py`\n3. Generate LaTeX: Use `AGENT_4_SlideGenerator_v2_LaTeXTemplates.md`\n4. Compile: `pdflatex YYYYMMDD_HHMM_WeekN_Title.tex` (2x)\n5. Validate: 30 slides, 10+ charts, 3 goals\n\n### Update React App\n1. Edit content: `react-app/src/data/week1Slides.js`\n2. Test locally: `npm start`\n3. Commit and push: Auto-deploys via GitHub Actions\n\n---\n\n## Quality Standards\n\n### Per Week Requirements\n- **Core slides:** 30 (3 goals × 10 slides)\n- **Charts:** 10-11 minimum\n- **Chart ratio:** ≥33%\n- **Learning goals:** Exactly 3 (typed with narrative roles)\n- **Statistics:** All verified via web search\n\n### Color Scheme (Consistent)\n- Primary (mlpurple): `#3333B2`\n- Secondary (mllavender): `#ADADE0`\n- Success (mlgreen): `#2CA02C`\n- Warning (mlorange): `#FF7F0E`\n\n---\n\n## Prerequisites\n\n- **Node.js** 18+ (for React app)\n- **Python** 3.x (for charts)\n- **pdflatex** (TeX Live or MiKTeX)\n- **Graphviz** (for diagrams)\n- **Git** (version control)\n\n---\n\n## Contributing\n\nThis is an academic project. For questions or improvements:\n1. Open an issue\n2. Submit a pull request\n3. Contact: [Digital-AI-Finance organization](https://github.com/Digital-AI-Finance)\n\n---\n\n## License\n\nAcademic use. All rights reserved.\n\n---\n\n## Next Steps\n\n- [ ] Generate Weeks 2-8\n- [ ] Add more interactive features to web app\n- [ ] Create student exercises\n- [ ] Add video explanations\n- [ ] Develop assessment module\n\n---\n\n**Version:** 2.0 (Learning-Goal-Driven)\n**Status:** Week 1 Complete, Production Ready\n**Live App:** https://digital-ai-finance.github.io/Green-Finance\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "Green-Finance",
+        "research": {
+          "title": "Academic course generation system for Green Finance Professional Certificate - 8-week course with learning-goal-driven pedagogy, Beamer slides, and interactive React app",
+          "abstract": "Academic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.",
+          "keywords": [],
+          "authors": []
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "TeX"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": false,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-11-29T03:04:23.350096",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": [
+          {
+            "name": "settings.local.json",
+            "path": ".claude/settings.local.json",
+            "format": ".json",
+            "size_bytes": 159
+          },
+          {
+            "name": "academic_citations.json",
+            "path": "academic_citations.json",
+            "format": ".json",
+            "size_bytes": 2577
+          },
+          {
+            "name": "package-lock.json",
+            "path": "react-app/package-lock.json",
+            "format": ".json",
+            "size_bytes": 709487
+          },
+          {
+            "name": "package.json",
+            "path": "react-app/package.json",
+            "format": ".json",
+            "size_bytes": 1435
+          },
+          {
+            "name": "data",
+            "path": "react-app/src/data",
+            "format": "",
+            "size_bytes": 0
+          },
+          {
+            "name": "week1Slides.js",
+            "path": "react-app/src/data/week1Slides.js",
+            "format": ".js",
+            "size_bytes": 29245
+          },
+          {
+            "name": "week1Slides_backup.js",
+            "path": "react-app/src/data/week1Slides_backup.js",
+            "format": ".js",
+            "size_bytes": 27087
+          },
+          {
+            "name": "week1Slides_updated.js",
+            "path": "react-app/src/data/week1Slides_updated.js",
+            "format": ".js",
+            "size_bytes": 29245
+          },
+          {
+            "name": "week1Slides_v3.js",
+            "path": "react-app/src/data/week1Slides_v3.js",
+            "format": ".js",
+            "size_bytes": 31673
+          },
+          {
+            "name": "verified_statistics.json",
+            "path": "verified_statistics.json",
+            "format": ".json",
+            "size_bytes": 8551
+          }
+        ]
+      }
+    },
+    "Natural-Language-Processing": {
+      "name": "Natural-Language-Processing",
+      "full_name": "Digital-AI-Finance/Natural-Language-Processing",
+      "description": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
+      "url": "https://github.com/Digital-AI-Finance/Natural-Language-Processing",
+      "clone_url": "https://github.com/Digital-AI-Finance/Natural-Language-Processing.git",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 140957,
+      "default_branch": "main",
+      "created_at": "2025-11-22T07:10:08+00:00",
+      "updated_at": "2025-11-28T13:02:33+00:00",
+      "pushed_at": "2025-11-28T13:02:28+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "private",
+      "contributors_count": 1,
+      "readme": "# NLP Course 2025: From N-grams to Transformers\n\n![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)\n\n> A comprehensive Natural Language Processing course covering statistical foundations through modern transformer architectures. Build ChatGPT from scratch!\n\n## Quick Start (3 Steps)\n\n```bash\n# 1. Clone the repository\ngit clone https://github.com/josterri/2025_NLP_Lectures.git\ncd 2025_NLP_Lectures\n\n# 2. Install dependencies\npip install -r requirements.txt\n\n# 3. Start learning!\njupyter lab NLP_slides/week02_neural_lm/lab/week02_word_embeddings_lab.ipynb\n```\n\n## What You'll Learn\n\nThis course takes you from foundational statistical methods to state-of-the-art neural architectures:\n\n- **Weeks 1-2:** Statistical language models and word embeddings (Word2Vec, GloVe)\n- **Weeks 3-4:** Sequential models (RNN/LSTM) and sequence-to-sequence with attention\n- **Weeks 5-7:** Transformers, BERT, GPT, and advanced architectures\n- **Weeks 8-10:** Tokenization, decoding strategies, and fine-tuning\n- **Weeks 11-12:** Efficiency optimization and ethical AI deployment\n\nBy the end, you'll build a working transformer from scratch and understand the architecture behind ChatGPT and Claude.\n\n## Course Structure\n\n### Core Materials (12 Weeks)\nEach week includes:\n- **Presentation:** LaTeX/Beamer slides with optimal readability\n- **Lab Notebook:** Interactive Jupyter notebook with hands-on exercises\n- **Handouts:** Pre-class discovery exercises and post-class technical practice\n\n### Supplementary Modules\n- **Neural Network Primer:** Zero pre-knowledge intro to neural networks\n- **LSTM Primer:** Comprehensive deep dive into LSTM architecture (32 slides)\n- **Embeddings Module:** Standalone word embedding module with 3D visualizations\n\n### Total Content\n- 60+ presentations (including versions and supplements)\n- 12 interactive lab notebooks\n- 40+ handout documents\n- 100+ Python-generated figures\n- 8 progressive visualization notebooks\n\n## Prerequisites\n\n- **Required:**\n  - Python 3.8 or higher\n  - Basic linear algebra (vectors, matrices)\n  - Basic probability theory\n  - Comfortable with Python programming\n\n- **Helpful but not required:**\n  - PyTorch experience\n  - Understanding of backpropagation\n  - Machine learning fundamentals\n\n**New to neural networks?** Start with our Neural Network Primer module before Week 2.\n\n## Installation\n\n### Option 1: pip (Recommended)\n```bash\npip install -r requirements.txt\n```\n\n### Option 2: conda\n```bash\nconda env create -f environment.yml\nconda activate nlp2025\n```\n\n### GPU Support\nFor GPU acceleration (recommended for Weeks 5+):\n```bash\n# CUDA 11.8\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118\n\n# CUDA 12.1\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121\n```\n\nSee [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions and troubleshooting.\n\n## Course Navigation\n\n### Week-by-Week Guide\nFull navigation with topics, prerequisites, and learning objectives: [COURSE_INDEX.md](COURSE_INDEX.md)\n\n### Week Highlights\n\n| Week | Topic | Key Concepts | Lab |\n|------|-------|--------------|-----|\n| 1 | Foundations | N-grams, perplexity, statistical LM | - |\n| 2 | Word Embeddings | Word2Vec, GloVe, neural LM | Implement embeddings |\n| 3 | RNN/LSTM | Sequential models, BPTT | Build LSTM from scratch |\n| 4 | Seq2Seq | Attention mechanism, translation | Machine translation |\n| 5 | Transformers | Self-attention, multi-head | Build transformer |\n| 6 | Pre-trained | BERT, GPT, transfer learning | Fine-tune BERT |\n| 7 | Advanced | T5, GPT-3, scaling laws | Experiment with GPT |\n| 8 | Tokenization | BPE, WordPiece, SentencePiece | Implement tokenizer |\n| 9 | Decoding | Beam, sampling, nucleus, **contrastive** | Compare 6 methods |\n| 10 | Fine-tuning | LoRA, prompt engineering | Adapt models |\n| 11 | Efficiency | Quantization, distillation | Optimize models |\n| 12 | Ethics | Bias, fairness, safety | Measure bias |\n\n## Project Structure\n\n```\n├── NLP_slides/\n│   ├── week01_foundations/      # Week 1: Statistical LM\n│   ├── week02_neural_lm/        # Week 2: Word embeddings\n│   ├── week03_rnn/              # Week 3: RNN/LSTM/GRU\n│   ├── ...                      # Weeks 4-12\n│   ├── nn_primer/               # Neural network primer\n│   ├── lstm_primer/             # LSTM deep dive\n│   └── common/                  # Shared templates and utils\n├── embeddings/                  # Standalone embeddings module\n├── exercises/                   # Additional practice\n├── figures/                     # Shared visualizations\n├── requirements.txt             # Python dependencies\n├── environment.yml              # Conda environment\n└── COURSE_INDEX.md              # Full course navigation\n```\n\n## Key Learning Milestones\n\n- ✅ **After Week 2:** Understand and implement word embeddings\n- ✅ **After Week 3:** Build RNN and LSTM from scratch\n- ✅ **After Week 5:** Comprehend transformer architecture completely\n- ✅ **After Week 6:** Fine-tune pre-trained models (BERT, GPT)\n- ✅ **After Week 9:** Control text generation quality and diversity\n- ✅ **After Week 12:** Deploy models responsibly with ethical considerations\n\n## Usage Examples\n\n### Run a Lab Notebook\n```bash\n# Start Jupyter Lab\njupyter lab\n\n# Navigate to a week's lab folder\ncd NLP_slides/week05_transformers/lab\njupyter notebook week05_transformer_lab.ipynb\n```\n\n### Compile a Presentation\n```bash\ncd NLP_slides/week02_neural_lm/presentations\npdflatex week02_neural_lm.tex\n```\n\n### Generate Figures\n```bash\ncd NLP_slides/week05_transformers/python\npython generate_week05_optimal_charts.py\n```\n\n## Testing the Course\n\nTest all lab notebooks for execution:\n```bash\npython test_notebooks.py\n```\n\nThis validates that all 12 lab notebooks execute correctly in your environment.\n\n## Course Delivery Options\n\n### Standard 12-Week Semester\n- One week per topic\n- Weekly labs and assignments\n- Suitable for undergraduate/graduate courses\n\n### Intensive 8-Week Course\n- Combine Weeks 1-2, skip some advanced topics\n- Accelerated pace for bootcamps\n- Focus on core transformer concepts\n\n### Self-Paced Learning\n- Progress at your own speed\n- Complete prerequisite modules first\n- Focus on labs and hands-on practice\n\n## Documentation\n\n- **[COURSE_INDEX.md](COURSE_INDEX.md)** - Complete week-by-week navigation\n- **[INSTALLATION.md](INSTALLATION.md)** - Detailed setup instructions\n- **[CLAUDE.md](CLAUDE.md)** - Development guide and conventions\n- **[status.md](status.md)** - Project status and completion tracking\n- **[changelog.md](changelog.md)** - Change history\n\n## Support and Resources\n\n- **Issues:** Report problems at [GitHub Issues](https://github.com/josterri/2025_NLP_Lectures/issues)\n- **Prerequisites:** Check the Neural Network Primer if you're new to deep learning\n- **GPU Requirements:** Most labs work on CPU; Weeks 5+ benefit from GPU\n\n## Contributing\n\nContributions are welcome! Areas for contribution:\n- Additional exercises and examples\n- Translations to other languages\n- MSc-level challenge problems\n- Bug fixes and improvements\n\n## License\n\nThis course is released under the MIT License. See LICENSE for details.\n\n## Acknowledgments\n\nCourse materials developed with pedagogical focus on:\n- Discovery-based learning\n- Concrete-to-abstract progression\n- Hands-on implementation\n- Real-world applications\n\nBuilt with LaTeX/Beamer, Python, PyTorch, and Jupyter.\n\n## Citation\n\nIf you use these materials in your course or research, please cite:\n\n```bibtex\n@misc{nlp2025course,\n  title={NLP Course 2025: From N-grams to Transformers},\n  author={Joerg Osterrieder},\n  year={2025},\n  url={https://github.com/josterri/2025_NLP_Lectures}\n}\n```\n\n---\n\n**Ready to start?** Check [INSTALLATION.md](INSTALLATION.md) for setup, then dive into Week 2's word embeddings lab!\n\n**Questions?** See [COURSE_INDEX.md](COURSE_INDEX.md) for complete navigation and prerequisites.",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "Natural-Language-Processing",
+        "research": {
+          "title": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
+          "abstract": "![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "the end, you'll build a working transformer from scratch and understand the architecture behind ChatGPT and Claude."
+            }
+          ]
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "Jupyter Notebook"
+          ],
+          "notebooks": [
+            {
+              "path": ".ipynb_checkpoints/shakespeare_sonnets_simple_bsc-checkpoint.ipynb",
+              "title": "shakespeare_sonnets_simple_bsc-checkpoint",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": ".ipynb_checkpoints/week01_ngrams_bsc-checkpoint.ipynb",
+              "title": "week01_ngrams_bsc-checkpoint",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/summarization_module/lab/llm_summarization_lab.ipynb",
+              "title": "llm_summarization_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week01_foundations/lab/week01_ngrams_lab.ipynb",
+              "title": "week01_ngrams_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week02_neural_lm/lab/week02_word_embeddings_lab.ipynb",
+              "title": "week02_word_embeddings_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week03_rnn/lab/week03_rnn_lab.ipynb",
+              "title": "week03_rnn_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week03_rnn/lab/week03_rnn_lab_enhanced.ipynb",
+              "title": "week03_rnn_lab_enhanced",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week04_seq2seq/lab/week04_part1_basic_seq2seq.ipynb",
+              "title": "week04_part1_basic_seq2seq",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week04_seq2seq/lab/week04_part2_attention.ipynb",
+              "title": "week04_part2_attention",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week04_seq2seq/lab/week04_part3_advanced.ipynb",
+              "title": "week04_part3_advanced",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week04_seq2seq/lab/week04_seq2seq_lab.ipynb",
+              "title": "week04_seq2seq_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week04_seq2seq/lab/week04_seq2seq_lab_enhanced.ipynb",
+              "title": "week04_seq2seq_lab_enhanced",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week05_transformers/lab/week05_transformer_lab.ipynb",
+              "title": "week05_transformer_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week06_pretrained/lab/week06_bert_finetuning.ipynb",
+              "title": "week06_bert_finetuning",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week06_pretrained/lab/week06_pretrained_feature_extraction.ipynb",
+              "title": "week06_pretrained_feature_extraction",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week07_advanced/lab/week07_advanced_transformers_lab.ipynb",
+              "title": "week07_advanced_transformers_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week08_tokenization/lab/week08_tokenization_lab.ipynb",
+              "title": "week08_tokenization_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week09_decoding/lab/week09_decoding_lab.ipynb",
+              "title": "week09_decoding_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week09_decoding/lab/week09_decoding_simplified.ipynb",
+              "title": "week09_decoding_simplified",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week10_finetuning/lab/week10_finetuning_lab.ipynb",
+              "title": "week10_finetuning_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week11_efficiency/lab/week11_efficiency_lab.ipynb",
+              "title": "week11_efficiency_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "NLP_slides/week12_ethics/lab/week12_ethics_lab.ipynb",
+              "title": "week12_ethics_lab",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "demos/demo_agent_multistep.ipynb",
+              "title": "demo_agent_multistep",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "demos/demo_rag_simple.ipynb",
+              "title": "demo_rag_simple",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "demos/demo_reasoning_compare.ipynb",
+              "title": "demo_reasoning_compare",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "embeddings/handouts/discovery_notebook.ipynb",
+              "title": "discovery_notebook",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "embeddings/word_embeddings_3d_msc.ipynb",
+              "title": "word_embeddings_3d_msc",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "exercises/ngrams_Alice_in_Wonderland.ipynb",
+              "title": "ngrams_Alice_in_Wonderland",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "exercises/shakespeare/shakespeare_sonnets_simple_bsc.ipynb",
+              "title": "shakespeare_sonnets_simple_bsc",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "notebooks/visualizations/1_simple_ngrams.ipynb",
+              "title": "1_simple_ngrams",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "notebooks/visualizations/2_word_embeddings.ipynb",
+              "title": "2_word_embeddings",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "notebooks/visualizations/3_simple_neural_net.ipynb",
+              "title": "3_simple_neural_net",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "notebooks/visualizations/4_compare_NLP_methods.ipynb",
+              "title": "4_compare_NLP_methods",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "notebooks/visualizations/5_Tokens Journey Through a Transformer.ipynb",
+              "title": "5_Tokens Journey Through a Transformer",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "notebooks/visualizations/6_Transformers in 3D A Visual Journey.ipynb",
+              "title": "6_Transformers in 3D A Visual Journey",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "notebooks/visualizations/7_Transformers_in_3d_simplified.ipynb",
+              "title": "7_Transformers_in_3d_simplified",
+              "language": "python",
+              "type": "jupyter"
+            },
+            {
+              "path": "notebooks/visualizations/8_How_Transformers_Learn_Training_in_3D.ipynb",
+              "title": "8_How_Transformers_Learn_Training_in_3D",
+              "language": "python",
+              "type": "jupyter"
+            }
+          ],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": true,
+          "has_dockerfile": false,
+          "has_environment_yml": true,
+          "has_makefile": true,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [
+            "@misc{nlp2025course,\n  title={NLP Course 2025: From N-grams to Transformers},\n  author={Joerg Osterrieder},\n  year={2025},\n  url={https://github.com/josterri/2025_NLP_Lectures}\n}"
+          ],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-11-29T03:05:18.992307",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": [
+          {
+            "name": "package-lock.json",
+            "path": "NLP_slides/week09_decoding/learning-app/package-lock.json",
+            "format": ".json",
+            "size_bytes": 153181
+          },
+          {
+            "name": "package.json",
+            "path": "NLP_slides/week09_decoding/learning-app/package.json",
+            "format": ".json",
+            "size_bytes": 917
+          },
+          {
+            "name": "package-lock.json",
+            "path": "NLP_slides/week09_decoding/react-app/package-lock.json",
+            "format": ".json",
+            "size_bytes": 166558
+          },
+          {
+            "name": "package.json",
+            "path": "NLP_slides/week09_decoding/react-app/package.json",
+            "format": ".json",
+            "size_bytes": 974
+          },
+          {
+            "name": "notebook_test_results.json",
+            "path": "notebook_test_results.json",
+            "format": ".json",
+            "size_bytes": 9703
+          }
+        ]
+      }
+    },
+    "neural-networks": {
+      "name": "neural-networks",
+      "full_name": "Digital-AI-Finance/neural-networks",
+      "description": "Pedagogical Beamer presentation: Neural Networks for Business Applications - Complete course with 20 data-driven visualizations using real trained models",
+      "url": "https://github.com/Digital-AI-Finance/neural-networks",
+      "clone_url": "https://github.com/Digital-AI-Finance/neural-networks.git",
+      "homepage": "",
+      "language": "TeX",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 3051,
+      "default_branch": "main",
+      "created_at": "2025-11-24T21:13:02+00:00",
+      "updated_at": "2025-11-25T05:14:34+00:00",
+      "pushed_at": "2025-11-24T21:15:20+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "private",
+      "contributors_count": 1,
+      "readme": "No README available",
+      "latest_release": null
+    },
+    "ShareBuybacks": {
+      "name": "ShareBuybacks",
+      "full_name": "Digital-AI-Finance/ShareBuybacks",
+      "description": "Share Buyback Strategy Simulation App - Streamlit with GBM and trading strategies",
+      "url": "https://github.com/Digital-AI-Finance/ShareBuybacks",
+      "clone_url": "https://github.com/Digital-AI-Finance/ShareBuybacks.git",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 71,
+      "default_branch": "main",
+      "created_at": "2025-11-27T12:42:48+00:00",
+      "updated_at": "2025-11-28T10:24:48+00:00",
+      "pushed_at": "2025-11-28T10:25:40+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "No README available",
+      "latest_release": {
+        "tag": "v1.5.0",
+        "name": "v1.5.0",
+        "published_at": "2025-11-28T10:29:35+00:00"
+      }
+    },
+    "quantlet-branding-tools": {
+      "name": "quantlet-branding-tools",
+      "full_name": "Digital-AI-Finance/quantlet-branding-tools",
+      "description": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
+      "url": "https://github.com/Digital-AI-Finance/quantlet-branding-tools",
+      "clone_url": "https://github.com/Digital-AI-Finance/quantlet-branding-tools.git",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 70,
+      "default_branch": "master",
+      "created_at": "2025-11-28T07:50:54+00:00",
+      "updated_at": "2025-11-28T07:51:34+00:00",
+      "pushed_at": "2025-11-28T07:51:30+00:00",
+      "license": "MIT License",
+      "has_issues": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# QuantLet LaTeX Branding Tools\n\nAutomated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n## 🚀 Quick Start\n\n```bash\n# 1. Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# 2. Copy to your project\ncp -r quantlet-branding-tools /path/to/your/latex/project/\n\n# 3. Run the 3-step process\npython generate_qr_codes.py\npython add_latex_branding.py\npdflatex your_slides.tex\n```\n\n**Result:** All chart slides now have logo + QR code + clickable URL!\n\n---\n\n## 📖 Documentation\n\nStart here based on your needs:\n\n| Document | Purpose | Best For |\n|----------|---------|----------|\n| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page cheat sheet | Quick lookup, already used these tools |\n| **[BRANDING_GUIDE.md](BRANDING_GUIDE.md)** | Complete step-by-step tutorial | First time using, new project setup |\n| **[TOOLS_REFERENCE.md](TOOLS_REFERENCE.md)** | Detailed technical documentation | Understanding internals, customization |\n\n---\n\n## ✨ Features\n\n- **Automatic URL Generation**: Creates GitHub links from chart folder names\n- **LaTeX-Level Branding**: Logo and QR codes added at compile time (not embedded in chart PDFs)\n- **Clickable Elements**: Logo, QR code, and URL text all link to GitHub\n- **Professional Appearance**:\n  - Logo: Fully visible (100% opacity)\n  - QR Code: Slightly transparent (80% opacity)\n  - Bottom-right positioning\n- **Multiple Repository Support**: Sync between main repo and QuantLet mirror\n- **Zero Code Changes**: Works with existing chart PDFs\n\n---\n\n## 📁 What This Repository Contains\n\n```\nquantlet-branding-tools/\n├── add_latex_branding.py          # Main script - adds branding to .tex files\n├── remove_duplicate_branding.py   # Remove all branding blocks\n├── sync_to_quantlet.py            # Sync to QuantLet repo with updated URLs\n├── generate_qr_codes_template.py  # Template for generating QR codes\n├── generate_metainfo.py            # Generate metainfo.txt files\n├── regenerate_all_charts.py        # Regenerate chart PDFs\n├── remove_chart_branding.py        # Remove embedded branding from charts\n├── logo/\n│   └── quantlet.png               # QuantLet logo (transparent PNG)\n├── utils/                          # Legacy embedded branding utilities\n├── example/                        # Example project structure\n├── README.md                       # This file\n├── QUICK_REFERENCE.md             # One-page quick reference\n├── BRANDING_GUIDE.md              # Complete tutorial\n└── TOOLS_REFERENCE.md             # Technical reference\n```\n\n---\n\n## 🎯 Use Cases\n\n### **For Academic Presentations**\nAdd QuantLet branding to all your Beamer slides with charts:\n- Automatic GitHub links for reproducibility\n- QR codes for easy access during talks\n- Professional appearance for conferences\n\n### **For Research Repositories**\nMake your research more discoverable:\n- Link each chart to its source code on GitHub\n- Audience can scan QR codes to access code instantly\n- Maintain two versions (main repo + QuantLet) with different URLs\n\n### **For Teaching Materials**\nHelp students find resources:\n- Each slide links to the code that generated it\n- Students can explore the repository during/after class\n- Easy to update URLs when moving between repositories\n\n---\n\n## 🛠️ Installation & Setup\n\n### **Requirements**\n\n- Python 3.6+\n- LaTeX packages: `tikz`, `hyperref`, `graphicx`\n- Optional: `qrcode` Python package (for QR code generation)\n\n### **Quick Install**\n\n```bash\n# Install QR code generator (optional but recommended)\npip install qrcode[pil]\n\n# Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# Copy to your project\ncp -r quantlet-branding-tools/* /path/to/your/project/\n```\n\n---\n\n## 📚 Usage\n\n### **Basic Workflow (3 Steps)**\n\n**1. Generate QR Codes**\n```bash\npython generate_qr_codes.py\n```\nThis reads `CHART_METADATA['url']` from each chart's Python script and generates QR codes.\n\n**2. Add Branding to LaTeX**\n```bash\npython add_latex_branding.py\n```\nThis adds tikz overlays with logo + QR + URL to all chart frames in your .tex file.\n\n**3. Compile PDF**\n```bash\npdflatex your_slides.tex\n```\n\nDone! Your slides now have QuantLet branding.\n\n---\n\n### **Project Structure Requirements**\n\nYour LaTeX project should have this structure:\n\n```\nyour_project/\n├── 01_chart_name/\n│   ├── chart_script.py        # Must contain CHART_METADATA\n│   ├── chart.pdf\n│   └── qr_code.png            # Auto-generated by step 1\n├── 02_another_chart/\n│   ├── script.py\n│   ├── chart.pdf\n│   └── qr_code.png\n├── slides.tex                  # Your main LaTeX file\n├── generate_qr_codes.py        # Copy from generate_qr_codes_template.py\n└── add_latex_branding.py       # From this repository\n```\n\n**Each chart script must have:**\n```python\nCHART_METADATA = {\n    'title': 'Chart Title',\n    'url': 'https://github.com/YourOrg/repo/tree/main/01_chart_name'\n}\n```\n\nSee `example/` directory for a complete working example.\n\n---\n\n## 🎨 Customization\n\nEdit `add_latex_branding.py` to customize:\n\n| Element | Current Value | How to Change |\n|---------|---------------|---------------|\n| Logo size | `width=0.8cm` | Line 100: Change width |\n| Logo opacity | `opacity=1.0` (fully visible) | Line 99: Change opacity (0.0-1.0) |\n| QR size | `width=0.6cm` | Line 104: Change width |\n| QR opacity | `opacity=0.8` (20% transparent) | Line 103: Change opacity |\n| Position | Bottom-right corner | Lines 99, 103, 107: Adjust xshift/yshift |\n| Font size | `\\tiny` | Line 108: Change to `\\scriptsize`, `\\footnotesize`, etc. |\n\n---\n\n## 🔄 Syncing to QuantLet Repository\n\nIf you maintain both a main repository and a QuantLet mirror:\n\n```bash\npython sync_to_quantlet.py\n```\n\nThis script automatically:\n1. Clones/updates the QuantLet repository\n2. Copies all files\n3. Updates all URLs to point to QuantLet\n4. Regenerates QR codes\n5. Prepares for commit\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for details.\n\n---\n\n## 📖 Examples\n\n### **Before**\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\\end{frame}\n```\n\n### **After** (automatically added)\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\n  % Quantlet branding (auto-generated)\n  \\begin{tikzpicture}[remember picture,overlay]\n    % Logo (clickable, fully visible)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{logo/quantlet.png}}};\n    % QR Code (clickable, slightly transparent)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{qr_code.png}}};\n    % URL text (clickable)\n    \\node[...] {\\href{https://github.com/...}{\\texttt{07\\_loss\\_landscape}}};\n  \\end{tikzpicture}\n\\end{frame}\n```\n\n---\n\n## 🐛 Troubleshooting\n\n| Issue | Solution |\n|-------|----------|\n| Logo not showing | Check `logo/quantlet.png` exists |\n| QR codes missing | Run `python generate_qr_codes.py` |\n| Duplicate branding | Run `python remove_duplicate_branding.py` then re-add |\n| Wrong repository URLs | Edit CHART_METADATA in chart scripts |\n| Compilation errors | Ensure `tikz` and `hyperref` packages are installed |\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for complete troubleshooting.\n\n---\n\n## 🤝 Contributing\n\nContributions welcome! Please:\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Test with example project\n5. Submit a pull request\n\n---\n\n## 📄 License\n\nMIT License - Free to use and modify\n\n---\n\n## 🔗 Links\n\n- **GitHub**: https://github.com/Digital-AI-Finance/quantlet-branding-tools\n- **QuantLet**: https://quantlet.de\n- **Documentation**: See BRANDING_GUIDE.md\n\n---\n\n## 💡 Tips\n\n1. **Keep chart PDFs clean**: Don't embed branding in chart images\n2. **Use CHART_METADATA**: Always add URLs to your chart scripts\n3. **Test before presenting**: Verify all links work\n4. **Use version control**: Commit before adding branding (easy to revert)\n5. **Reuse this repo**: Clone once, use in many projects\n\n---\n\n## 📞 Support\n\nFor issues or questions:\n- Open an issue on GitHub\n- Check the documentation in `BRANDING_GUIDE.md`\n- See examples in `example/` directory\n\n---\n\n**Made with ❤️ for the QuantLet community**\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "quantlet-branding-tools",
+        "research": {
+          "title": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
+          "abstract": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "step 1"
+            }
+          ]
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "Python"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": false,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-11-29T03:05:27.911717",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": [
+          {
+            "name": "branding_config.json",
+            "path": "utils/branding_config.json",
+            "format": ".json",
+            "size_bytes": 552
+          }
+        ]
+      }
+    }
+  },
+  "stats": {
+    "total_documents": 16,
+    "total_terms": 1271,
+    "total_repos": 9,
+    "document_types": {
+      "readme": 7,
+      "research": 7,
+      "publication": 2
+    }
+  }
+}
