@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-30T07:12:14.957803",
+  "generated_at": "2025-11-30T15:27:43.371822",
   "total_repos": 16,
   "active_repos": 16,
   "archived_repos": 0,
@@ -34,11 +34,15 @@
   "recent_repos": [
     {
       "name": "org-dashboard",
-      "pushed_at": "2025-11-30T07:08:29+00:00"
+      "pushed_at": "2025-11-30T15:24:18+00:00"
+    },
+    {
+      "name": "neural-networks-introduction",
+      "pushed_at": "2025-11-30T15:17:48+00:00"
     },
     {
       "name": "Natural-Language-Processing",
-      "pushed_at": "2025-11-30T06:55:39+00:00"
+      "pushed_at": "2025-11-30T07:23:18+00:00"
     },
     {
       "name": "digital-ai-in-finance",
@@ -67,10 +71,6 @@
     {
       "name": "ShareBuybacks",
       "pushed_at": "2025-11-29T09:47:32+00:00"
-    },
-    {
-      "name": "neural-networks-introduction",
-      "pushed_at": "2025-11-29T08:36:04+00:00"
     }
   ],
   "popular_repos": [

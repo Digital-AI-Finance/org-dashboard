@@ -15,7 +15,7 @@ Total repositories: **16**
 | [Natural-Language-Processing-Decoding-Strategies](Natural-Language-Processing-Decoding-Strategies.md) |  | TeX | 0 | 0 | 2025-11-30 |
 | [Natural-Language-Processing-Details](Natural-Language-Processing-Details.md) | Task-oriented NLP educational materials for undergraduate courses | Jupyter Notebook | 0 | 0 | 2025-11-29 |
 | [neural-networks](neural-networks.md) | Pedagogical Beamer presentation: Neural Networks for Business Applications - Com... | TeX | 0 | 0 | 2025-11-25 |
-| [neural-networks-introduction](neural-networks-introduction.md) | BSc-level neural networks lecture series | TeX | 0 | 0 | 2025-11-29 |
+| [neural-networks-introduction](neural-networks-introduction.md) | BSc-level neural networks lecture series | TeX | 0 | 0 | 2025-11-30 |
 | [org-dashboard](org-dashboard.md) | Automated dashboard for monitoring all repositories in the Digital-AI-Finance or... | Python | 0 | 0 | 2025-11-30 |
 | [portfolio-optimization-ml](portfolio-optimization-ml.md) | Machine learning approaches to portfolio optimization using deep reinforcement l... | Unknown | 0 | 0 | 2025-11-21 |
 | [Publications](Publications.md) |  | Unknown | 0 | 0 | 2025-11-30 |

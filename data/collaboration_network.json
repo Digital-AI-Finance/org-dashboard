@@ -1,31 +1,31 @@
 {
-  "generated_at": "2025-11-30T07:12:32.955345",
+  "generated_at": "2025-11-30T15:28:00.551793",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
       {
         "id": "josterri",
         "repos": [
-          "Natural-Language-Processing-Decoding-Strategies",
-          "Statistics",
-          "Natural-Language-Processing",
+          "Green-Finance",
           "demo-repository",
+          "Natural-Language-Processing",
+          "org-dashboard",
+          "portfolio-optimization-ml",
           "neural-networks",
-          "quantlet-branding-tools",
-          "Natural-Language-Processing-Details",
+          "Statistics",
+          "ShareBuybacks",
           "market-microstructure",
           "credit-risk-prediction",
-          "Green-Finance",
-          "ShareBuybacks",
+          "Natural-Language-Processing-Decoding-Strategies",
           "neural-networks-introduction",
-          "portfolio-optimization-ml",
           "digital-ai-in-finance",
-          "org-dashboard"
+          "quantlet-branding-tools",
+          "Natural-Language-Processing-Details"
         ],
         "repo_count": 15,
-        "commit_count": 128,
+        "commit_count": 132,
         "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-30T07:08:07+00:00",
+        "last_commit": "2025-11-30T15:27:25+00:00",
         "emails": [
           "josterri@googlemail.com",
           "josterri@users.noreply.github.com"
@@ -37,9 +37,9 @@
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 23,
+        "commit_count": 24,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-30T06:33:48+00:00",
+        "last_commit": "2025-11-30T07:13:20+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
         ]
@@ -111,7 +111,7 @@
   "summary": {
     "total_authors": 3,
     "total_collaborations": 2,
-    "total_commits": 171,
+    "total_commits": 176,
     "repositories_analyzed": 15
   },
   "visualizations": {

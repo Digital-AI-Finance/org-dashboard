@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 2019,
+    "size": 11151,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-30T07:08:32+00:00",
-    "pushed_at": "2025-11-30T07:08:29+00:00",
+    "updated_at": "2025-11-30T15:24:22+00:00",
+    "pushed_at": "2025-11-30T15:24:18+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:09:31.735844",
+        "extracted_at": "2025-11-30T15:25:11.953667",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -83,31 +83,31 @@
           "name": "build_log.json",
           "path": "data/build_log.json",
           "format": ".json",
-          "size_bytes": 3905
+          "size_bytes": 4148
         },
         {
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 28597
+          "size_bytes": 31247
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 3129
+          "size_bytes": 3414
         },
         {
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 6474
+          "size_bytes": 7941
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 2946
+          "size_bytes": 3031
         },
         {
           "name": "ml_topic_analysis.json",
@@ -119,37 +119,37 @@
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 128567
+          "size_bytes": 159339
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 19682
+          "size_bytes": 24175
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 16597
+          "size_bytes": 18586
         },
         {
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 50018
+          "size_bytes": 59875
         },
         {
           "name": "search_index.pkl",
           "path": "data/search_index.pkl",
           "format": ".pkl",
-          "size_bytes": 100693
+          "size_bytes": 126386
         },
         {
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 2668
+          "size_bytes": 2695
         },
         {
           "name": "data",
@@ -161,13 +161,13 @@
           "name": "search_data.json",
           "path": "docs/data/search_data.json",
           "format": ".json",
-          "size_bytes": 190748
+          "size_bytes": 376321
         },
         {
           "name": "search_data_minimal.json",
           "path": "docs/data/search_data_minimal.json",
           "format": ".json",
-          "size_bytes": 130151
+          "size_bytes": 268967
         },
         {
           "name": "citation_network.json",
@@ -179,7 +179,7 @@
           "name": "collaboration_network.json",
           "path": "docs/visualizations/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 605
+          "size_bytes": 818
         },
         {
           "name": "research_metadata_schema.json",
@@ -320,7 +320,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:09:33.855313",
+        "extracted_at": "2025-11-30T15:25:13.911326",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -414,7 +414,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:09:35.958182",
+        "extracted_at": "2025-11-30T15:25:15.904946",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -512,7 +512,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:09:38.176869",
+        "extracted_at": "2025-11-30T15:25:17.908610",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -578,7 +578,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:09:47.785893",
+        "extracted_at": "2025-11-30T15:25:26.878611",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -659,11 +659,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 142175,
+    "size": 143406,
     "default_branch": "main",
     "created_at": "2025-11-22T07:10:08+00:00",
-    "updated_at": "2025-11-30T06:55:42+00:00",
-    "pushed_at": "2025-11-30T06:55:39+00:00",
+    "updated_at": "2025-11-30T07:23:22+00:00",
+    "pushed_at": "2025-11-30T07:23:18+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -934,7 +934,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:10:55.573868",
+        "extracted_at": "2025-11-30T15:26:28.973726",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1051,7 +1051,7 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 75,
+    "size": 78,
     "default_branch": "master",
     "created_at": "2025-11-28T07:50:54+00:00",
     "updated_at": "2025-11-30T06:50:46+00:00",
@@ -1101,7 +1101,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:11:03.901644",
+        "extracted_at": "2025-11-30T15:26:36.719760",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1174,7 +1174,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:11:06.798075",
+        "extracted_at": "2025-11-30T15:26:39.543451",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1204,8 +1204,8 @@
     "size": 46605,
     "default_branch": "main",
     "created_at": "2025-11-29T08:35:22+00:00",
-    "updated_at": "2025-11-29T08:36:13+00:00",
-    "pushed_at": "2025-11-29T08:36:04+00:00",
+    "updated_at": "2025-11-30T15:17:54+00:00",
+    "pushed_at": "2025-11-30T15:17:48+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -1535,7 +1535,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:11:36.660939",
+        "extracted_at": "2025-11-30T15:27:07.440546",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1958,7 +1958,7 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 2900,
+    "size": 3234,
     "default_branch": "main",
     "created_at": "2025-11-29T11:14:34+00:00",
     "updated_at": "2025-11-30T06:53:19+00:00",
@@ -2008,7 +2008,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:11:43.710866",
+        "extracted_at": "2025-11-30T15:27:14.133713",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2089,7 +2089,7 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 0,
+    "size": 10728,
     "default_branch": "main",
     "created_at": "2025-11-30T06:50:55+00:00",
     "updated_at": "2025-11-30T06:51:10+00:00",
@@ -2165,7 +2165,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:11:45.851561",
+        "extracted_at": "2025-11-30T15:27:16.222474",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2192,7 +2192,7 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 0,
+    "size": 29925,
     "default_branch": "main",
     "created_at": "2025-11-30T06:51:07+00:00",
     "updated_at": "2025-11-30T06:51:27+00:00",
@@ -2261,7 +2261,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:11:59.035086",
+        "extracted_at": "2025-11-30T15:27:28.138955",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2342,7 +2342,7 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 0,
+    "size": 21196,
     "default_branch": "main",
     "created_at": "2025-11-30T06:51:23+00:00",
     "updated_at": "2025-11-30T06:51:39+00:00",
@@ -2395,7 +2395,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-30T07:12:09.583604",
+        "extracted_at": "2025-11-30T15:27:38.149202",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
