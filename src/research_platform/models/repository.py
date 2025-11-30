@@ -76,7 +76,26 @@ class Repository:
                         data[field_name].replace("Z", "+00:00")
                     )
 
-        return cls(**data)
+        # Get valid field names from the dataclass
+        import dataclasses
+
+        valid_fields = {f.name for f in dataclasses.fields(cls)}
+
+        # Filter data to only include valid fields
+        filtered_data = {k: v for k, v in data.items() if k in valid_fields}
+
+        # Generate ID from full_name hash if missing (for backward compatibility)
+        if "id" not in filtered_data and "full_name" in filtered_data:
+            filtered_data["id"] = abs(hash(filtered_data["full_name"])) % (10**9)
+
+        # Store extra fields in metadata if they exist
+        extra_fields = {k: v for k, v in data.items() if k not in valid_fields}
+        if extra_fields and "metadata" not in filtered_data:
+            filtered_data["metadata"] = {}
+        if extra_fields:
+            filtered_data["metadata"].update(extra_fields)
+
+        return cls(**filtered_data)
 
     @classmethod
     def from_github(cls, github_repo) -> "Repository":
@@ -128,14 +147,22 @@ class Repository:
     def age_days(self) -> int:
         """Get repository age in days."""
         if self.created_at:
-            return (datetime.now() - self.created_at).days
+            # Handle both timezone-aware and naive datetimes
+            created = (
+                self.created_at.replace(tzinfo=None) if self.created_at.tzinfo else self.created_at
+            )
+            return (datetime.now() - created).days
         return 0
 
     @property
     def days_since_update(self) -> int:
         """Get days since last update."""
         if self.updated_at:
-            return (datetime.now() - self.updated_at).days
+            # Handle both timezone-aware and naive datetimes
+            updated = (
+                self.updated_at.replace(tzinfo=None) if self.updated_at.tzinfo else self.updated_at
+            )
+            return (datetime.now() - updated).days
         return 0
 
     def add_research_metadata(self, metadata: dict[str, Any]) -> None:
