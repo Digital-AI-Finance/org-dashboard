@@ -23,6 +23,14 @@
     {
       "id": "quantlet-branding-tools",
       "authors": 1
+    },
+    {
+      "id": "Natural-Language-Processing-Details",
+      "authors": 3
+    },
+    {
+      "id": "digital-ai-in-finance",
+      "authors": 1
     }
   ],
   "edges": []

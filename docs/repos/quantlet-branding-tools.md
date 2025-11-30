@@ -22,11 +22,11 @@ Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to
 | Open Issues | 0 |
 | License | MIT License |
 | Created | 2025-11-28 |
-| Last Updated | 2025-11-28 |
-| Last Push | 2025-11-28 |
+| Last Updated | 2025-11-29 |
+| Last Push | 2025-11-29 |
 | Contributors | 1 |
 | Default Branch | master |
-| Visibility | public |
+| Visibility | private |
 
 
 
@@ -63,7 +63,7 @@ No specific reproducibility files found.
 
 
 - Issues: Enabled
-- Wiki: Enabled
+- Wiki: Disabled
 - Pages: Disabled
 
 ## README
@@ -73,6 +73,8 @@ No specific reproducibility files found.
 Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**Note:** This is a private repository. For public access, use the GitLab mirror at git.fhgr.ch/digital-finance/quantlet-branding-tools
 
 ## 🚀 Quick Start
 
@@ -338,9 +340,14 @@ MIT License - Free to use and modify
 
 ## 🔗 Links
 
-- **GitHub**: https://github.com/Digital-AI-Finance/quantlet-branding-tools
+- **GitHub (Private)**: https://github.com/Digital-AI-Finance/quantlet-branding-tools
+  - Visibility: Private (Digital-AI-Finance organization members only)
+  - Primary development repository
+- **GitLab (Private Mirror)**: git.fhgr.ch/digital-finance/quantlet-branding-tools
+  - Visibility: Private (Digital Finance group members only)
+  - Auto-syncs from GitHub
 - **QuantLet**: https://quantlet.de
-- **Documentation**: See BRANDING_GUIDE.md
+- **Documentation**: See BRANDING_GUIDE.md and GITLAB_SETUP.md
 
 ---
 

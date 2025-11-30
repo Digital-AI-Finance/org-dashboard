@@ -1,41 +1,58 @@
 {
-  "generated_at": "2025-11-29T07:58:35.953997",
+  "generated_at": "2025-11-30T03:20:53.315222",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
-      {
-        "id": "josterri",
-        "repos": [
-          "market-microstructure",
-          "ShareBuybacks",
-          "Natural-Language-Processing",
-          "org-dashboard",
-          "quantlet-branding-tools",
-          "portfolio-optimization-ml",
-          "neural-networks",
-          "Green-Finance",
-          "credit-risk-prediction"
-        ],
-        "repo_count": 9,
-        "commit_count": 73,
-        "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-29T07:52:42+00:00",
-        "emails": [
-          "josterri@googlemail.com",
-          "josterri@users.noreply.github.com"
-        ]
-      },
       {
         "id": "github-actions[bot]",
         "repos": [
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 20,
+        "commit_count": 21,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-29T03:05:51+00:00",
+        "last_commit": "2025-11-29T07:58:38+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
+        ]
+      },
+      {
+        "id": "josterri",
+        "repos": [
+          "credit-risk-prediction",
+          "ShareBuybacks",
+          "market-microstructure",
+          "Natural-Language-Processing",
+          "portfolio-optimization-ml",
+          "neural-networks",
+          "quantlet-branding-tools",
+          "Natural-Language-Processing-Details",
+          "neural-networks-introduction",
+          "org-dashboard",
+          "digital-ai-in-finance",
+          "demo-repository",
+          "Green-Finance"
+        ],
+        "repo_count": 13,
+        "commit_count": 100,
+        "first_commit": "2025-09-09T11:18:48+00:00",
+        "last_commit": "2025-11-29T21:37:09+00:00",
+        "emails": [
+          "josterri@users.noreply.github.com",
+          "josterri@googlemail.com"
+        ]
+      },
+      {
+        "id": "StefanGam",
+        "repos": [
+          "neural-networks-introduction"
+        ],
+        "repo_count": 1,
+        "commit_count": 20,
+        "first_commit": "2025-11-27T00:01:11+00:00",
+        "last_commit": "2025-11-27T00:01:55+00:00",
+        "emails": [
+          "154674303+StefanGam@users.noreply.github.com"
         ]
       }
     ],
@@ -45,12 +62,18 @@
         "target": "josterri",
         "weight": 1,
         "shared_repos": 1
+      },
+      {
+        "source": "StefanGam",
+        "target": "josterri",
+        "weight": 1,
+        "shared_repos": 1
       }
     ]
   },
   "metrics": {
-    "density": 1.0,
-    "average_degree": 1.0,
+    "density": 0.6666666666666666,
+    "average_degree": 0.6666666666666666,
     "top_central_authors": [
       {
         "author": "josterri",
@@ -58,7 +81,11 @@
       },
       {
         "author": "github-actions[bot]",
-        "centrality": 1.0
+        "centrality": 0.5
+      },
+      {
+        "author": "StefanGam",
+        "centrality": 0.5
       }
     ],
     "top_collaborations": [
@@ -66,18 +93,24 @@
         "author1": "github-actions[bot]",
         "author2": "josterri",
         "shared_repos": 1
+      },
+      {
+        "author1": "StefanGam",
+        "author2": "josterri",
+        "shared_repos": 1
       }
     ],
     "degree_centrality": {
+      "github-actions[bot]": 0.5,
       "josterri": 1.0,
-      "github-actions[bot]": 1.0
+      "StefanGam": 0.5
     }
   },
   "summary": {
-    "total_authors": 2,
-    "total_collaborations": 1,
-    "total_commits": 93,
-    "repositories_analyzed": 9
+    "total_authors": 3,
+    "total_collaborations": 2,
+    "total_commits": 141,
+    "repositories_analyzed": 13
   },
   "visualizations": {
     "network": "docs/visualizations/collaboration_network_real.html",

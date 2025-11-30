@@ -1,17 +1,19 @@
 {
-  "generated_at": "2025-11-29T07:58:25.362004",
-  "total_repos": 9,
-  "active_repos": 9,
+  "generated_at": "2025-11-30T03:20:39.189274",
+  "total_repos": 13,
+  "active_repos": 13,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 10,
+  "total_contributors": 15,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
     "Python": 3,
-    "TeX": 2,
-    "Jupyter Notebook": 1
+    "TeX": 3,
+    "Jupyter Notebook": 2,
+    "HTML": 1,
+    "JavaScript": 1
   },
   "topics": {
     "finance": 3,
@@ -26,25 +28,41 @@
     "time-series": 1
   },
   "licenses": {
-    "No License": 8,
+    "No License": 12,
     "MIT License": 1
   },
   "recent_repos": [
     {
+      "name": "quantlet-branding-tools",
+      "pushed_at": "2025-11-29T21:38:06+00:00"
+    },
+    {
+      "name": "digital-ai-in-finance",
+      "pushed_at": "2025-11-29T21:30:05+00:00"
+    },
+    {
+      "name": "Natural-Language-Processing-Details",
+      "pushed_at": "2025-11-29T11:11:43+00:00"
+    },
+    {
+      "name": "ShareBuybacks",
+      "pushed_at": "2025-11-29T09:47:32+00:00"
+    },
+    {
+      "name": "neural-networks-introduction",
+      "pushed_at": "2025-11-29T08:36:04+00:00"
+    },
+    {
+      "name": "demo-repository",
+      "pushed_at": "2025-11-29T08:24:30+00:00"
+    },
+    {
       "name": "org-dashboard",
-      "pushed_at": "2025-11-29T07:56:12+00:00"
+      "pushed_at": "2025-11-29T08:00:12+00:00"
     },
     {
       "name": "Natural-Language-Processing",
       "pushed_at": "2025-11-29T07:47:02+00:00"
-    },
-    {
-      "name": "ShareBuybacks",
-      "pushed_at": "2025-11-28T10:25:40+00:00"
-    },
-    {
-      "name": "quantlet-branding-tools",
-      "pushed_at": "2025-11-28T07:51:30+00:00"
     },
     {
       "name": "neural-networks",
@@ -53,18 +71,6 @@
     {
       "name": "Green-Finance",
       "pushed_at": "2025-11-22T20:38:12+00:00"
-    },
-    {
-      "name": "market-microstructure",
-      "pushed_at": "2025-11-21T22:52:03+00:00"
-    },
-    {
-      "name": "credit-risk-prediction",
-      "pushed_at": "2025-11-21T22:51:59+00:00"
-    },
-    {
-      "name": "portfolio-optimization-ml",
-      "pushed_at": "2025-11-21T22:51:54+00:00"
     }
   ],
   "popular_repos": [
@@ -103,17 +109,22 @@
     {
       "name": "quantlet-branding-tools",
       "stars": 0
+    },
+    {
+      "name": "demo-repository",
+      "stars": 0
     }
   ],
   "repos_without_readme": [
     "neural-networks",
-    "ShareBuybacks"
+    "ShareBuybacks",
+    "neural-networks-introduction"
   ],
   "research": {
     "repos_with_papers": 3,
-    "repos_with_notebooks": 1,
-    "repos_with_datasets": 4,
+    "repos_with_notebooks": 2,
+    "repos_with_datasets": 7,
     "total_publications": 7,
-    "total_notebooks": 37
+    "total_notebooks": 77
   }
 }

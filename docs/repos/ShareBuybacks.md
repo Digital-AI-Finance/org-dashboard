@@ -22,8 +22,8 @@ Share Buyback Strategy Simulation App - Streamlit with GBM and trading strategie
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-27 |
-| Last Updated | 2025-11-28 |
-| Last Push | 2025-11-28 |
+| Last Updated | 2025-11-29 |
+| Last Push | 2025-11-29 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -54,7 +54,7 @@ Share Buyback Strategy Simulation App - Streamlit with GBM and trading strategie
 
 - Issues: Enabled
 - Wiki: Enabled
-- Pages: Disabled
+- Pages: Enabled
 
 ## README
 

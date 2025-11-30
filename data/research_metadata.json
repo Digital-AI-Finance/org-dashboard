@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T07:57:05.269111",
+      "extracted_at": "2025-11-30T03:18:47.056754",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -53,13 +53,13 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 22882
+        "size_bytes": 24314
       },
       {
         "name": "citation_report.json",
         "path": "data/citation_report.json",
         "format": ".json",
-        "size_bytes": 2769
+        "size_bytes": 2953
       },
       {
         "name": "code_quality_report.json",
@@ -83,7 +83,7 @@
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 74663
+        "size_bytes": 75341
       },
       {
         "name": "repository_health_report.json",
@@ -101,13 +101,13 @@
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 25258
+        "size_bytes": 25039
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 67092
+        "size_bytes": 68134
       },
       {
         "name": "stats.json",
@@ -230,7 +230,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T07:57:07.333371",
+      "extracted_at": "2025-11-30T03:18:49.085286",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +288,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T07:57:09.438132",
+      "extracted_at": "2025-11-30T03:18:51.278709",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -314,13 +314,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "preprint",
@@ -350,7 +350,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T07:57:11.475776",
+      "extracted_at": "2025-11-30T03:18:53.385097",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +385,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T07:57:20.269486",
+      "extracted_at": "2025-11-30T03:19:02.229292",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -710,7 +710,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T07:58:10.680544",
+      "extracted_at": "2025-11-30T03:19:51.083297",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -780,7 +780,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-29T07:58:18.593155",
+      "extracted_at": "2025-11-30T03:19:58.713476",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -790,6 +790,831 @@
         "path": "utils/branding_config.json",
         "format": ".json",
         "size_bytes": 552
+      }
+    ]
+  },
+  "demo-repository": {
+    "repo_name": "demo-repository",
+    "research": {
+      "title": "A code repository designed to show the best GitHub has to offer.",
+      "abstract": "The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.",
+      "keywords": [],
+      "authors": []
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "HTML"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-30T03:20:01.539824",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "package.json",
+        "path": "package.json",
+        "format": ".json",
+        "size_bytes": 163
+      }
+    ]
+  },
+  "Natural-Language-Processing-Details": {
+    "repo_name": "Natural-Language-Processing-Details",
+    "research": {
+      "title": "Task-oriented NLP educational materials for undergraduate courses",
+      "abstract": "**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Organization**: Digital Finance @ FHGR\n**Purpose**: Task-oriented NLP course materials from classification to generation\n**GitLab Pages**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "NLP tasks**  rather than methodologies :",
+          "affiliation": "what you want to accomplish"
+        },
+        {
+          "name": "meaning",
+          "affiliation": "not keywords"
+        },
+        {
+          "name": "meaning"
+        },
+        {
+          "name": "doing",
+          "affiliation": "classify, generate, search, cluster"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "Jupyter Notebook"
+      ],
+      "notebooks": [
+        {
+          "path": "data/raw/basic/nlp_basics_homework.ipynb",
+          "title": "nlp_basics_homework",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "data/raw/basic/nlp_basics_solutions.ipynb",
+          "title": "nlp_basics_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "data/raw/extended/statistical_analysis.ipynb",
+          "title": "statistical_analysis",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "data/raw/extended/zipf_law_analysis.ipynb",
+          "title": "zipf_law_analysis",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "data/raw/large/zipf_law_analysis.ipynb",
+          "title": "zipf_law_analysis",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/classification_basic.ipynb",
+          "title": "classification_basic",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/classification_basic_solutions.ipynb",
+          "title": "classification_basic_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/clustering_basic.ipynb",
+          "title": "clustering_basic",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/clustering_basic_solutions.ipynb",
+          "title": "clustering_basic_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/ner_basic.ipynb",
+          "title": "ner_basic",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/ner_basic_solutions.ipynb",
+          "title": "ner_basic_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/semantic_search_basic.ipynb",
+          "title": "semantic_search_basic",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/semantic_search_basic_solutions.ipynb",
+          "title": "semantic_search_basic_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/sentiment_basic.ipynb",
+          "title": "sentiment_basic",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/sentiment_basic_solutions.ipynb",
+          "title": "sentiment_basic_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/text_generation_basic.ipynb",
+          "title": "text_generation_basic",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/basic/text_generation_basic_solutions.ipynb",
+          "title": "text_generation_basic_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/classification_intermediate.ipynb",
+          "title": "classification_intermediate",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/classification_intermediate_solutions.ipynb",
+          "title": "classification_intermediate_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/clustering_intermediate.ipynb",
+          "title": "clustering_intermediate",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/clustering_intermediate_solutions.ipynb",
+          "title": "clustering_intermediate_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/ner_intermediate.ipynb",
+          "title": "ner_intermediate",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/ner_intermediate_solutions.ipynb",
+          "title": "ner_intermediate_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/semantic_search_intermediate.ipynb",
+          "title": "semantic_search_intermediate",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/semantic_search_intermediate_solutions.ipynb",
+          "title": "semantic_search_intermediate_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/sentiment_intermediate.ipynb",
+          "title": "sentiment_intermediate",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/sentiment_intermediate_solutions.ipynb",
+          "title": "sentiment_intermediate_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/text_generation_intermediate.ipynb",
+          "title": "text_generation_intermediate",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "exercises/intermediate/text_generation_intermediate_solutions.ipynb",
+          "title": "text_generation_intermediate_solutions",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "foundations/neural_networks/notebooks/cnn_text_classification.ipynb",
+          "title": "cnn_text_classification",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "foundations/neural_networks/notebooks/feedforward_from_scratch.ipynb",
+          "title": "feedforward_from_scratch",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "foundations/neural_networks/notebooks/rnn_sentiment_example.ipynb",
+          "title": "rnn_sentiment_example",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "foundations/neural_networks/notebooks/transformer_attention_demo.ipynb",
+          "title": "transformer_attention_demo",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "tasks/classification/classification_tutorial.ipynb",
+          "title": "classification_tutorial",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "tasks/ner/ner_analysis.ipynb",
+          "title": "ner_analysis",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "tasks/semantic_search/embedding_analysis.ipynb",
+          "title": "embedding_analysis",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "tasks/sentiment_analysis/sentiment_analysis.ipynb",
+          "title": "sentiment_analysis",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "tasks/summarization/summarization_analysis.ipynb",
+          "title": "summarization_analysis",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "tasks/text_generation/compare_models.ipynb",
+          "title": "compare_models",
+          "language": "python",
+          "type": "jupyter"
+        },
+        {
+          "path": "tasks/text_generation/ngram_analysis.ipynb",
+          "title": "ngram_analysis",
+          "language": "python",
+          "type": "jupyter"
+        }
+      ],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-30T03:20:29.575416",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "data",
+        "path": "data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "processed",
+        "path": "data/processed",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "embeddings",
+        "path": "data/processed/embeddings",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "embeddings_metadata.json",
+        "path": "data/processed/embeddings/embeddings_metadata.json",
+        "format": ".json",
+        "size_bytes": 754450
+      },
+      {
+        "name": "headlines_embeddings.npy",
+        "path": "data/processed/embeddings/headlines_embeddings.npy",
+        "format": ".npy",
+        "size_bytes": 15360128
+      },
+      {
+        "name": "models",
+        "path": "data/processed/models",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "classification",
+        "path": "data/processed/models/classification",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "sentiment",
+        "path": "data/processed/models/sentiment",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "text_generation",
+        "path": "data/processed/models/text_generation",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "samples",
+        "path": "data/processed/samples",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "sample_20251001_190000_1.txt",
+        "path": "data/processed/samples/sample_20251001_190000_1.txt",
+        "format": ".txt",
+        "size_bytes": 226
+      },
+      {
+        "name": "sample_20251001_190000_2.txt",
+        "path": "data/processed/samples/sample_20251001_190000_2.txt",
+        "format": ".txt",
+        "size_bytes": 231
+      },
+      {
+        "name": "sample_20251001_190000_3.txt",
+        "path": "data/processed/samples/sample_20251001_190000_3.txt",
+        "format": ".txt",
+        "size_bytes": 221
+      },
+      {
+        "name": "sample_20251001_190033_1.txt",
+        "path": "data/processed/samples/sample_20251001_190033_1.txt",
+        "format": ".txt",
+        "size_bytes": 1481
+      },
+      {
+        "name": "sample_20251001_190033_2.txt",
+        "path": "data/processed/samples/sample_20251001_190033_2.txt",
+        "format": ".txt",
+        "size_bytes": 1508
+      },
+      {
+        "name": "sample_20251001_190033_3.txt",
+        "path": "data/processed/samples/sample_20251001_190033_3.txt",
+        "format": ".txt",
+        "size_bytes": 1500
+      },
+      {
+        "name": "visualizations",
+        "path": "data/processed/visualizations",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "clustering_comparison.png",
+        "path": "data/processed/visualizations/clustering_comparison.png",
+        "format": ".png",
+        "size_bytes": 863008
+      },
+      {
+        "name": "pca_visualization.png",
+        "path": "data/processed/visualizations/pca_visualization.png",
+        "format": ".png",
+        "size_bytes": 598739
+      },
+      {
+        "name": "similarity_distribution.png",
+        "path": "data/processed/visualizations/similarity_distribution.png",
+        "format": ".png",
+        "size_bytes": 88082
+      },
+      {
+        "name": "tsne_visualization.png",
+        "path": "data/processed/visualizations/tsne_visualization.png",
+        "format": ".png",
+        "size_bytes": 301935
+      },
+      {
+        "name": "raw",
+        "path": "data/raw",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "articles",
+        "path": "data/raw/articles",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "news_articles_dataset.csv",
+        "path": "data/raw/articles/news_articles_dataset.csv",
+        "format": ".csv",
+        "size_bytes": 558473
+      },
+      {
+        "name": "test.csv",
+        "path": "data/raw/articles/test.csv",
+        "format": ".csv",
+        "size_bytes": 83655
+      },
+      {
+        "name": "train.csv",
+        "path": "data/raw/articles/train.csv",
+        "format": ".csv",
+        "size_bytes": 391050
+      },
+      {
+        "name": "val.csv",
+        "path": "data/raw/articles/val.csv",
+        "format": ".csv",
+        "size_bytes": 83942
+      },
+      {
+        "name": "basic",
+        "path": "data/raw/basic",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "VERIFICATION_REPORT.md",
+        "path": "data/raw/basic/VERIFICATION_REPORT.md",
+        "format": ".md",
+        "size_bytes": 4849
+      },
+      {
+        "name": "generate_headlines.py",
+        "path": "data/raw/basic/generate_headlines.py",
+        "format": ".py",
+        "size_bytes": 10878
+      },
+      {
+        "name": "news_headlines_dataset.csv",
+        "path": "data/raw/basic/news_headlines_dataset.csv",
+        "format": ".csv",
+        "size_bytes": 28551
+      },
+      {
+        "name": "nlp_basics_homework.ipynb",
+        "path": "data/raw/basic/nlp_basics_homework.ipynb",
+        "format": ".ipynb",
+        "size_bytes": 15062
+      },
+      {
+        "name": "nlp_basics_solutions.ipynb",
+        "path": "data/raw/basic/nlp_basics_solutions.ipynb",
+        "format": ".ipynb",
+        "size_bytes": 561113
+      },
+      {
+        "name": "extended",
+        "path": "data/raw/extended",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "news_headlines_extended.csv",
+        "path": "data/raw/extended/news_headlines_extended.csv",
+        "format": ".csv",
+        "size_bytes": 741412
+      },
+      {
+        "name": "statistical_analysis.ipynb",
+        "path": "data/raw/extended/statistical_analysis.ipynb",
+        "format": ".ipynb",
+        "size_bytes": 584777
+      },
+      {
+        "name": "test.csv",
+        "path": "data/raw/extended/test.csv",
+        "format": ".csv",
+        "size_bytes": 111287
+      },
+      {
+        "name": "train.csv",
+        "path": "data/raw/extended/train.csv",
+        "format": ".csv",
+        "size_bytes": 519243
+      },
+      {
+        "name": "val.csv",
+        "path": "data/raw/extended/val.csv",
+        "format": ".csv",
+        "size_bytes": 110986
+      },
+      {
+        "name": "zipf_law_analysis.ipynb",
+        "path": "data/raw/extended/zipf_law_analysis.ipynb",
+        "format": ".ipynb",
+        "size_bytes": 360467
+      },
+      {
+        "name": "extended_ner",
+        "path": "data/raw/extended_ner",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "README.md",
+        "path": "data/raw/extended_ner/README.md",
+        "format": ".md",
+        "size_bytes": 8702
+      },
+      {
+        "name": "extended_sentiment",
+        "path": "data/raw/extended_sentiment",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "README.md",
+        "path": "data/raw/extended_sentiment/README.md",
+        "format": ".md",
+        "size_bytes": 6046
+      },
+      {
+        "name": "news_headlines_extended_sentiment.csv",
+        "path": "data/raw/extended_sentiment/news_headlines_extended_sentiment.csv",
+        "format": ".csv",
+        "size_bytes": 878200
+      },
+      {
+        "name": "test.csv",
+        "path": "data/raw/extended_sentiment/test.csv",
+        "format": ".csv",
+        "size_bytes": 131752
+      },
+      {
+        "name": "train.csv",
+        "path": "data/raw/extended_sentiment/train.csv",
+        "format": ".csv",
+        "size_bytes": 614698
+      },
+      {
+        "name": "val.csv",
+        "path": "data/raw/extended_sentiment/val.csv",
+        "format": ".csv",
+        "size_bytes": 131900
+      },
+      {
+        "name": "large",
+        "path": "data/raw/large",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "news_headlines_large.csv",
+        "path": "data/raw/large/news_headlines_large.csv",
+        "format": ".csv",
+        "size_bytes": 1867798
+      },
+      {
+        "name": "zipf_law_analysis.ipynb",
+        "path": "data/raw/large/zipf_law_analysis.ipynb",
+        "format": ".ipynb",
+        "size_bytes": 355132
+      },
+      {
+        "name": "results",
+        "path": "data/results",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "classification",
+        "path": "data/results/classification",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "decision_tree_predictions.json",
+        "path": "data/results/classification/decision_tree_predictions.json",
+        "format": ".json",
+        "size_bytes": 172853
+      },
+      {
+        "name": "detailed_results.json",
+        "path": "data/results/classification/detailed_results.json",
+        "format": ".json",
+        "size_bytes": 3012
+      },
+      {
+        "name": "logistic_regression_predictions.json",
+        "path": "data/results/classification/logistic_regression_predictions.json",
+        "format": ".json",
+        "size_bytes": 172531
+      },
+      {
+        "name": "model_comparison.csv",
+        "path": "data/results/classification/model_comparison.csv",
+        "format": ".csv",
+        "size_bytes": 1013
+      },
+      {
+        "name": "naive_bayes_predictions.json",
+        "path": "data/results/classification/naive_bayes_predictions.json",
+        "format": ".json",
+        "size_bytes": 171904
+      },
+      {
+        "name": "neural_network_predictions.json",
+        "path": "data/results/classification/neural_network_predictions.json",
+        "format": ".json",
+        "size_bytes": 172571
+      },
+      {
+        "name": "random_forest_predictions.json",
+        "path": "data/results/classification/random_forest_predictions.json",
+        "format": ".json",
+        "size_bytes": 172559
+      },
+      {
+        "name": "svm_predictions.json",
+        "path": "data/results/classification/svm_predictions.json",
+        "format": ".json",
+        "size_bytes": 172571
+      },
+      {
+        "name": "sentiment",
+        "path": "data/results/sentiment",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "model_comparison.csv",
+        "path": "data/results/sentiment/model_comparison.csv",
+        "format": ".csv",
+        "size_bytes": 475
+      },
+      {
+        "name": "datasets",
+        "path": "public_source/datasets",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "index.html",
+        "path": "public_source/datasets/index.html",
+        "format": ".html",
+        "size_bytes": 8496
+      },
+      {
+        "name": "js",
+        "path": "public_source/datasets/js",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "dataset-browser.js",
+        "path": "public_source/datasets/js/dataset-browser.js",
+        "format": ".js",
+        "size_bytes": 8129
+      }
+    ]
+  },
+  "digital-ai-in-finance": {
+    "repo_name": "digital-ai-in-finance",
+    "research": {
+      "title": "CCG application for AI for Digital Finance workshop - Swiss-MENA Research Network",
+      "abstract": "CCG (Connect & Collaborate Grant) application materials for the \"AI for Digital Finance: Swiss-MENA Research Network\" workshop.\n\n- Event: April 21-23, 2026\n- Location: American University of Sharjah, UAE\n- Co-organizers: Prof. Joerg Osterrieder (FHGR) & Prof. Stephen Chan (AUS)",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "category |"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "JavaScript"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-11-30T03:20:34.988197",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "lhmena-ccg-2025-budget_table-ai-for-digital-finance.xlsx",
+        "path": "FinalSubmission/lhmena-ccg-2025-budget_table-ai-for-digital-finance.xlsx",
+        "format": ".xlsx",
+        "size_bytes": 39771
+      },
+      {
+        "name": "20241030_1700_budget_3day_workshop.xlsx",
+        "path": "archive/budget/20241030_1700_budget_3day_workshop.xlsx",
+        "format": ".xlsx",
+        "size_bytes": 7514
+      },
+      {
+        "name": "lhmena-ccg-2025-budget_table AI for Digital Finance.xlsx",
+        "path": "archive/budget/lhmena-ccg-2025-budget_table AI for Digital Finance.xlsx",
+        "format": ".xlsx",
+        "size_bytes": 39771
+      },
+      {
+        "name": "20241031_CCG_Workshop_Gantt_Chart.xlsx",
+        "path": "archive/charts/20241031_CCG_Workshop_Gantt_Chart.xlsx",
+        "format": ".xlsx",
+        "size_bytes": 12431
+      },
+      {
+        "name": "20241031_CCG_Workshop_Gantt_Chart_Updated.xlsx",
+        "path": "archive/charts/20241031_CCG_Workshop_Gantt_Chart_Updated.xlsx",
+        "format": ".xlsx",
+        "size_bytes": 11645
+      },
+      {
+        "name": "gantt_data.xlsx",
+        "path": "archive/charts/gantt_data.xlsx",
+        "format": ".xlsx",
+        "size_bytes": 6775
+      },
+      {
+        "name": "package-lock.json",
+        "path": "archive/drafts/package-lock.json",
+        "format": ".json",
+        "size_bytes": 7861
+      },
+      {
+        "name": "package.json",
+        "path": "archive/drafts/package.json",
+        "format": ".json",
+        "size_bytes": 49
       }
     ]
   }

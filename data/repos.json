@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 6377,
+    "size": 12912,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-11-29T07:56:16+00:00",
-    "pushed_at": "2025-11-29T07:56:12+00:00",
+    "updated_at": "2025-11-29T07:58:47+00:00",
+    "pushed_at": "2025-11-29T08:00:12+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T07:57:05.269111",
+        "extracted_at": "2025-11-30T03:18:47.056754",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -83,13 +83,13 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 22882
+          "size_bytes": 24314
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 2769
+          "size_bytes": 2953
         },
         {
           "name": "code_quality_report.json",
@@ -113,7 +113,7 @@
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 74663
+          "size_bytes": 75341
         },
         {
           "name": "repository_health_report.json",
@@ -131,13 +131,13 @@
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 25258
+          "size_bytes": 25039
         },
         {
           "name": "search_index.pkl",
           "path": "data/search_index.pkl",
           "format": ".pkl",
-          "size_bytes": 67092
+          "size_bytes": 68134
         },
         {
           "name": "stats.json",
@@ -296,7 +296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T07:57:07.333371",
+        "extracted_at": "2025-11-30T03:18:49.085286",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -390,7 +390,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T07:57:09.438132",
+        "extracted_at": "2025-11-30T03:18:51.278709",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -452,13 +452,13 @@
       "publications": [
         {
           "type": "journal",
-          "doi": "10.1111/jofi.2024.12345",
-          "url": "https://doi.org/10.1111/jofi.2024.12345"
+          "doi": "10.5281/zenodo.1234567)",
+          "url": "https://doi.org/10.5281/zenodo.1234567)"
         },
         {
           "type": "journal",
-          "doi": "10.5281/zenodo.1234567)",
-          "url": "https://doi.org/10.5281/zenodo.1234567)"
+          "doi": "10.1111/jofi.2024.12345",
+          "url": "https://doi.org/10.1111/jofi.2024.12345"
         },
         {
           "type": "preprint",
@@ -488,7 +488,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T07:57:11.475776",
+        "extracted_at": "2025-11-30T03:18:53.385097",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -554,7 +554,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T07:57:20.269486",
+        "extracted_at": "2025-11-30T03:19:02.229292",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -635,7 +635,7 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 140957,
+    "size": 140982,
     "default_branch": "main",
     "created_at": "2025-11-22T07:10:08+00:00",
     "updated_at": "2025-11-29T07:47:06+00:00",
@@ -910,7 +910,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T07:58:10.680544",
+        "extracted_at": "2025-11-30T03:19:51.083297",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -992,15 +992,15 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 71,
+    "size": 266,
     "default_branch": "main",
     "created_at": "2025-11-27T12:42:48+00:00",
-    "updated_at": "2025-11-28T10:24:48+00:00",
-    "pushed_at": "2025-11-28T10:25:40+00:00",
+    "updated_at": "2025-11-29T09:47:35+00:00",
+    "pushed_at": "2025-11-29T09:47:32+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
-    "has_pages": false,
+    "has_pages": true,
     "has_downloads": true,
     "archived": false,
     "disabled": false,
@@ -1027,22 +1027,22 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 70,
+    "size": 75,
     "default_branch": "master",
     "created_at": "2025-11-28T07:50:54+00:00",
-    "updated_at": "2025-11-28T07:51:34+00:00",
-    "pushed_at": "2025-11-28T07:51:30+00:00",
+    "updated_at": "2025-11-29T21:38:09+00:00",
+    "pushed_at": "2025-11-29T21:38:06+00:00",
     "license": "MIT License",
     "has_issues": true,
-    "has_wiki": true,
+    "has_wiki": false,
     "has_pages": false,
     "has_downloads": true,
     "archived": false,
     "disabled": false,
     "is_template": false,
-    "visibility": "public",
+    "visibility": "private",
     "contributors_count": 1,
-    "readme": "# QuantLet LaTeX Branding Tools\n\nAutomated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n## 🚀 Quick Start\n\n```bash\n# 1. Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# 2. Copy to your project\ncp -r quantlet-branding-tools /path/to/your/latex/project/\n\n# 3. Run the 3-step process\npython generate_qr_codes.py\npython add_latex_branding.py\npdflatex your_slides.tex\n```\n\n**Result:** All chart slides now have logo + QR code + clickable URL!\n\n---\n\n## 📖 Documentation\n\nStart here based on your needs:\n\n| Document | Purpose | Best For |\n|----------|---------|----------|\n| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page cheat sheet | Quick lookup, already used these tools |\n| **[BRANDING_GUIDE.md](BRANDING_GUIDE.md)** | Complete step-by-step tutorial | First time using, new project setup |\n| **[TOOLS_REFERENCE.md](TOOLS_REFERENCE.md)** | Detailed technical documentation | Understanding internals, customization |\n\n---\n\n## ✨ Features\n\n- **Automatic URL Generation**: Creates GitHub links from chart folder names\n- **LaTeX-Level Branding**: Logo and QR codes added at compile time (not embedded in chart PDFs)\n- **Clickable Elements**: Logo, QR code, and URL text all link to GitHub\n- **Professional Appearance**:\n  - Logo: Fully visible (100% opacity)\n  - QR Code: Slightly transparent (80% opacity)\n  - Bottom-right positioning\n- **Multiple Repository Support**: Sync between main repo and QuantLet mirror\n- **Zero Code Changes**: Works with existing chart PDFs\n\n---\n\n## 📁 What This Repository Contains\n\n```\nquantlet-branding-tools/\n├── add_latex_branding.py          # Main script - adds branding to .tex files\n├── remove_duplicate_branding.py   # Remove all branding blocks\n├── sync_to_quantlet.py            # Sync to QuantLet repo with updated URLs\n├── generate_qr_codes_template.py  # Template for generating QR codes\n├── generate_metainfo.py            # Generate metainfo.txt files\n├── regenerate_all_charts.py        # Regenerate chart PDFs\n├── remove_chart_branding.py        # Remove embedded branding from charts\n├── logo/\n│   └── quantlet.png               # QuantLet logo (transparent PNG)\n├── utils/                          # Legacy embedded branding utilities\n├── example/                        # Example project structure\n├── README.md                       # This file\n├── QUICK_REFERENCE.md             # One-page quick reference\n├── BRANDING_GUIDE.md              # Complete tutorial\n└── TOOLS_REFERENCE.md             # Technical reference\n```\n\n---\n\n## 🎯 Use Cases\n\n### **For Academic Presentations**\nAdd QuantLet branding to all your Beamer slides with charts:\n- Automatic GitHub links for reproducibility\n- QR codes for easy access during talks\n- Professional appearance for conferences\n\n### **For Research Repositories**\nMake your research more discoverable:\n- Link each chart to its source code on GitHub\n- Audience can scan QR codes to access code instantly\n- Maintain two versions (main repo + QuantLet) with different URLs\n\n### **For Teaching Materials**\nHelp students find resources:\n- Each slide links to the code that generated it\n- Students can explore the repository during/after class\n- Easy to update URLs when moving between repositories\n\n---\n\n## 🛠️ Installation & Setup\n\n### **Requirements**\n\n- Python 3.6+\n- LaTeX packages: `tikz`, `hyperref`, `graphicx`\n- Optional: `qrcode` Python package (for QR code generation)\n\n### **Quick Install**\n\n```bash\n# Install QR code generator (optional but recommended)\npip install qrcode[pil]\n\n# Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# Copy to your project\ncp -r quantlet-branding-tools/* /path/to/your/project/\n```\n\n---\n\n## 📚 Usage\n\n### **Basic Workflow (3 Steps)**\n\n**1. Generate QR Codes**\n```bash\npython generate_qr_codes.py\n```\nThis reads `CHART_METADATA['url']` from each chart's Python script and generates QR codes.\n\n**2. Add Branding to LaTeX**\n```bash\npython add_latex_branding.py\n```\nThis adds tikz overlays with logo + QR + URL to all chart frames in your .tex file.\n\n**3. Compile PDF**\n```bash\npdflatex your_slides.tex\n```\n\nDone! Your slides now have QuantLet branding.\n\n---\n\n### **Project Structure Requirements**\n\nYour LaTeX project should have this structure:\n\n```\nyour_project/\n├── 01_chart_name/\n│   ├── chart_script.py        # Must contain CHART_METADATA\n│   ├── chart.pdf\n│   └── qr_code.png            # Auto-generated by step 1\n├── 02_another_chart/\n│   ├── script.py\n│   ├── chart.pdf\n│   └── qr_code.png\n├── slides.tex                  # Your main LaTeX file\n├── generate_qr_codes.py        # Copy from generate_qr_codes_template.py\n└── add_latex_branding.py       # From this repository\n```\n\n**Each chart script must have:**\n```python\nCHART_METADATA = {\n    'title': 'Chart Title',\n    'url': 'https://github.com/YourOrg/repo/tree/main/01_chart_name'\n}\n```\n\nSee `example/` directory for a complete working example.\n\n---\n\n## 🎨 Customization\n\nEdit `add_latex_branding.py` to customize:\n\n| Element | Current Value | How to Change |\n|---------|---------------|---------------|\n| Logo size | `width=0.8cm` | Line 100: Change width |\n| Logo opacity | `opacity=1.0` (fully visible) | Line 99: Change opacity (0.0-1.0) |\n| QR size | `width=0.6cm` | Line 104: Change width |\n| QR opacity | `opacity=0.8` (20% transparent) | Line 103: Change opacity |\n| Position | Bottom-right corner | Lines 99, 103, 107: Adjust xshift/yshift |\n| Font size | `\\tiny` | Line 108: Change to `\\scriptsize`, `\\footnotesize`, etc. |\n\n---\n\n## 🔄 Syncing to QuantLet Repository\n\nIf you maintain both a main repository and a QuantLet mirror:\n\n```bash\npython sync_to_quantlet.py\n```\n\nThis script automatically:\n1. Clones/updates the QuantLet repository\n2. Copies all files\n3. Updates all URLs to point to QuantLet\n4. Regenerates QR codes\n5. Prepares for commit\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for details.\n\n---\n\n## 📖 Examples\n\n### **Before**\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\\end{frame}\n```\n\n### **After** (automatically added)\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\n  % Quantlet branding (auto-generated)\n  \\begin{tikzpicture}[remember picture,overlay]\n    % Logo (clickable, fully visible)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{logo/quantlet.png}}};\n    % QR Code (clickable, slightly transparent)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{qr_code.png}}};\n    % URL text (clickable)\n    \\node[...] {\\href{https://github.com/...}{\\texttt{07\\_loss\\_landscape}}};\n  \\end{tikzpicture}\n\\end{frame}\n```\n\n---\n\n## 🐛 Troubleshooting\n\n| Issue | Solution |\n|-------|----------|\n| Logo not showing | Check `logo/quantlet.png` exists |\n| QR codes missing | Run `python generate_qr_codes.py` |\n| Duplicate branding | Run `python remove_duplicate_branding.py` then re-add |\n| Wrong repository URLs | Edit CHART_METADATA in chart scripts |\n| Compilation errors | Ensure `tikz` and `hyperref` packages are installed |\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for complete troubleshooting.\n\n---\n\n## 🤝 Contributing\n\nContributions welcome! Please:\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Test with example project\n5. Submit a pull request\n\n---\n\n## 📄 License\n\nMIT License - Free to use and modify\n\n---\n\n## 🔗 Links\n\n- **GitHub**: https://github.com/Digital-AI-Finance/quantlet-branding-tools\n- **QuantLet**: https://quantlet.de\n- **Documentation**: See BRANDING_GUIDE.md\n\n---\n\n## 💡 Tips\n\n1. **Keep chart PDFs clean**: Don't embed branding in chart images\n2. **Use CHART_METADATA**: Always add URLs to your chart scripts\n3. **Test before presenting**: Verify all links work\n4. **Use version control**: Commit before adding branding (easy to revert)\n5. **Reuse this repo**: Clone once, use in many projects\n\n---\n\n## 📞 Support\n\nFor issues or questions:\n- Open an issue on GitHub\n- Check the documentation in `BRANDING_GUIDE.md`\n- See examples in `example/` directory\n\n---\n\n**Made with ❤️ for the QuantLet community**\n",
+    "readme": "# QuantLet LaTeX Branding Tools\n\nAutomated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n**Note:** This is a private repository. For public access, use the GitLab mirror at git.fhgr.ch/digital-finance/quantlet-branding-tools\n\n## 🚀 Quick Start\n\n```bash\n# 1. Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# 2. Copy to your project\ncp -r quantlet-branding-tools /path/to/your/latex/project/\n\n# 3. Run the 3-step process\npython generate_qr_codes.py\npython add_latex_branding.py\npdflatex your_slides.tex\n```\n\n**Result:** All chart slides now have logo + QR code + clickable URL!\n\n---\n\n## 📖 Documentation\n\nStart here based on your needs:\n\n| Document | Purpose | Best For |\n|----------|---------|----------|\n| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page cheat sheet | Quick lookup, already used these tools |\n| **[BRANDING_GUIDE.md](BRANDING_GUIDE.md)** | Complete step-by-step tutorial | First time using, new project setup |\n| **[TOOLS_REFERENCE.md](TOOLS_REFERENCE.md)** | Detailed technical documentation | Understanding internals, customization |\n\n---\n\n## ✨ Features\n\n- **Automatic URL Generation**: Creates GitHub links from chart folder names\n- **LaTeX-Level Branding**: Logo and QR codes added at compile time (not embedded in chart PDFs)\n- **Clickable Elements**: Logo, QR code, and URL text all link to GitHub\n- **Professional Appearance**:\n  - Logo: Fully visible (100% opacity)\n  - QR Code: Slightly transparent (80% opacity)\n  - Bottom-right positioning\n- **Multiple Repository Support**: Sync between main repo and QuantLet mirror\n- **Zero Code Changes**: Works with existing chart PDFs\n\n---\n\n## 📁 What This Repository Contains\n\n```\nquantlet-branding-tools/\n├── add_latex_branding.py          # Main script - adds branding to .tex files\n├── remove_duplicate_branding.py   # Remove all branding blocks\n├── sync_to_quantlet.py            # Sync to QuantLet repo with updated URLs\n├── generate_qr_codes_template.py  # Template for generating QR codes\n├── generate_metainfo.py            # Generate metainfo.txt files\n├── regenerate_all_charts.py        # Regenerate chart PDFs\n├── remove_chart_branding.py        # Remove embedded branding from charts\n├── logo/\n│   └── quantlet.png               # QuantLet logo (transparent PNG)\n├── utils/                          # Legacy embedded branding utilities\n├── example/                        # Example project structure\n├── README.md                       # This file\n├── QUICK_REFERENCE.md             # One-page quick reference\n├── BRANDING_GUIDE.md              # Complete tutorial\n└── TOOLS_REFERENCE.md             # Technical reference\n```\n\n---\n\n## 🎯 Use Cases\n\n### **For Academic Presentations**\nAdd QuantLet branding to all your Beamer slides with charts:\n- Automatic GitHub links for reproducibility\n- QR codes for easy access during talks\n- Professional appearance for conferences\n\n### **For Research Repositories**\nMake your research more discoverable:\n- Link each chart to its source code on GitHub\n- Audience can scan QR codes to access code instantly\n- Maintain two versions (main repo + QuantLet) with different URLs\n\n### **For Teaching Materials**\nHelp students find resources:\n- Each slide links to the code that generated it\n- Students can explore the repository during/after class\n- Easy to update URLs when moving between repositories\n\n---\n\n## 🛠️ Installation & Setup\n\n### **Requirements**\n\n- Python 3.6+\n- LaTeX packages: `tikz`, `hyperref`, `graphicx`\n- Optional: `qrcode` Python package (for QR code generation)\n\n### **Quick Install**\n\n```bash\n# Install QR code generator (optional but recommended)\npip install qrcode[pil]\n\n# Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# Copy to your project\ncp -r quantlet-branding-tools/* /path/to/your/project/\n```\n\n---\n\n## 📚 Usage\n\n### **Basic Workflow (3 Steps)**\n\n**1. Generate QR Codes**\n```bash\npython generate_qr_codes.py\n```\nThis reads `CHART_METADATA['url']` from each chart's Python script and generates QR codes.\n\n**2. Add Branding to LaTeX**\n```bash\npython add_latex_branding.py\n```\nThis adds tikz overlays with logo + QR + URL to all chart frames in your .tex file.\n\n**3. Compile PDF**\n```bash\npdflatex your_slides.tex\n```\n\nDone! Your slides now have QuantLet branding.\n\n---\n\n### **Project Structure Requirements**\n\nYour LaTeX project should have this structure:\n\n```\nyour_project/\n├── 01_chart_name/\n│   ├── chart_script.py        # Must contain CHART_METADATA\n│   ├── chart.pdf\n│   └── qr_code.png            # Auto-generated by step 1\n├── 02_another_chart/\n│   ├── script.py\n│   ├── chart.pdf\n│   └── qr_code.png\n├── slides.tex                  # Your main LaTeX file\n├── generate_qr_codes.py        # Copy from generate_qr_codes_template.py\n└── add_latex_branding.py       # From this repository\n```\n\n**Each chart script must have:**\n```python\nCHART_METADATA = {\n    'title': 'Chart Title',\n    'url': 'https://github.com/YourOrg/repo/tree/main/01_chart_name'\n}\n```\n\nSee `example/` directory for a complete working example.\n\n---\n\n## 🎨 Customization\n\nEdit `add_latex_branding.py` to customize:\n\n| Element | Current Value | How to Change |\n|---------|---------------|---------------|\n| Logo size | `width=0.8cm` | Line 100: Change width |\n| Logo opacity | `opacity=1.0` (fully visible) | Line 99: Change opacity (0.0-1.0) |\n| QR size | `width=0.6cm` | Line 104: Change width |\n| QR opacity | `opacity=0.8` (20% transparent) | Line 103: Change opacity |\n| Position | Bottom-right corner | Lines 99, 103, 107: Adjust xshift/yshift |\n| Font size | `\\tiny` | Line 108: Change to `\\scriptsize`, `\\footnotesize`, etc. |\n\n---\n\n## 🔄 Syncing to QuantLet Repository\n\nIf you maintain both a main repository and a QuantLet mirror:\n\n```bash\npython sync_to_quantlet.py\n```\n\nThis script automatically:\n1. Clones/updates the QuantLet repository\n2. Copies all files\n3. Updates all URLs to point to QuantLet\n4. Regenerates QR codes\n5. Prepares for commit\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for details.\n\n---\n\n## 📖 Examples\n\n### **Before**\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\\end{frame}\n```\n\n### **After** (automatically added)\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\n  % Quantlet branding (auto-generated)\n  \\begin{tikzpicture}[remember picture,overlay]\n    % Logo (clickable, fully visible)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{logo/quantlet.png}}};\n    % QR Code (clickable, slightly transparent)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{qr_code.png}}};\n    % URL text (clickable)\n    \\node[...] {\\href{https://github.com/...}{\\texttt{07\\_loss\\_landscape}}};\n  \\end{tikzpicture}\n\\end{frame}\n```\n\n---\n\n## 🐛 Troubleshooting\n\n| Issue | Solution |\n|-------|----------|\n| Logo not showing | Check `logo/quantlet.png` exists |\n| QR codes missing | Run `python generate_qr_codes.py` |\n| Duplicate branding | Run `python remove_duplicate_branding.py` then re-add |\n| Wrong repository URLs | Edit CHART_METADATA in chart scripts |\n| Compilation errors | Ensure `tikz` and `hyperref` packages are installed |\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for complete troubleshooting.\n\n---\n\n## 🤝 Contributing\n\nContributions welcome! Please:\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Test with example project\n5. Submit a pull request\n\n---\n\n## 📄 License\n\nMIT License - Free to use and modify\n\n---\n\n## 🔗 Links\n\n- **GitHub (Private)**: https://github.com/Digital-AI-Finance/quantlet-branding-tools\n  - Visibility: Private (Digital-AI-Finance organization members only)\n  - Primary development repository\n- **GitLab (Private Mirror)**: git.fhgr.ch/digital-finance/quantlet-branding-tools\n  - Visibility: Private (Digital Finance group members only)\n  - Auto-syncs from GitHub\n- **QuantLet**: https://quantlet.de\n- **Documentation**: See BRANDING_GUIDE.md and GITLAB_SETUP.md\n\n---\n\n## 💡 Tips\n\n1. **Keep chart PDFs clean**: Don't embed branding in chart images\n2. **Use CHART_METADATA**: Always add URLs to your chart scripts\n3. **Test before presenting**: Verify all links work\n4. **Use version control**: Commit before adding branding (easy to revert)\n5. **Reuse this repo**: Clone once, use in many projects\n\n---\n\n## 📞 Support\n\nFor issues or questions:\n- Open an issue on GitHub\n- Check the documentation in `BRANDING_GUIDE.md`\n- See examples in `example/` directory\n\n---\n\n**Made with ❤️ for the QuantLet community**\n",
     "latest_release": null,
     "research_metadata": {
       "repo_name": "quantlet-branding-tools",
@@ -1077,7 +1077,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-11-29T07:58:18.593155",
+        "extracted_at": "2025-11-30T03:19:58.713476",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1087,6 +1087,955 @@
           "path": "utils/branding_config.json",
           "format": ".json",
           "size_bytes": 552
+        }
+      ]
+    }
+  },
+  {
+    "name": "demo-repository",
+    "full_name": "Digital-AI-Finance/demo-repository",
+    "description": "A code repository designed to show the best GitHub has to offer.",
+    "url": "https://github.com/Digital-AI-Finance/demo-repository",
+    "clone_url": "https://github.com/Digital-AI-Finance/demo-repository.git",
+    "homepage": "",
+    "language": "HTML",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 2,
+    "default_branch": "main",
+    "created_at": "2025-11-29T08:24:29+00:00",
+    "updated_at": "2025-11-29T08:24:33+00:00",
+    "pushed_at": "2025-11-29T08:24:30+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "private",
+    "contributors_count": 1,
+    "readme": "# Welcome to your organization's demo respository\nThis code repository (or \"repo\") is designed to demonstrate the best GitHub has to offer with the least amount of noise.\n\nThe repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "demo-repository",
+      "research": {
+        "title": "A code repository designed to show the best GitHub has to offer.",
+        "abstract": "The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.",
+        "keywords": [],
+        "authors": []
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "HTML"
+        ],
+        "notebooks": [],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": false,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-11-30T03:20:01.539824",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "package.json",
+          "path": "package.json",
+          "format": ".json",
+          "size_bytes": 163
+        }
+      ]
+    }
+  },
+  {
+    "name": "neural-networks-introduction",
+    "full_name": "Digital-AI-Finance/neural-networks-introduction",
+    "description": "BSc-level neural networks lecture series",
+    "url": "https://github.com/Digital-AI-Finance/neural-networks-introduction",
+    "clone_url": "https://github.com/Digital-AI-Finance/neural-networks-introduction.git",
+    "homepage": "",
+    "language": "TeX",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 46605,
+    "default_branch": "main",
+    "created_at": "2025-11-29T08:35:22+00:00",
+    "updated_at": "2025-11-29T08:36:13+00:00",
+    "pushed_at": "2025-11-29T08:36:04+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "public",
+    "contributors_count": 2,
+    "readme": "No README available",
+    "latest_release": null
+  },
+  {
+    "name": "Natural-Language-Processing-Details",
+    "full_name": "Digital-AI-Finance/Natural-Language-Processing-Details",
+    "description": "Task-oriented NLP educational materials for undergraduate courses",
+    "url": "https://github.com/Digital-AI-Finance/Natural-Language-Processing-Details",
+    "clone_url": "https://github.com/Digital-AI-Finance/Natural-Language-Processing-Details.git",
+    "homepage": "",
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 53389,
+    "default_branch": "master",
+    "created_at": "2025-11-29T10:52:47+00:00",
+    "updated_at": "2025-11-29T11:11:53+00:00",
+    "pushed_at": "2025-11-29T11:11:43+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "private",
+    "contributors_count": 1,
+    "readme": "# Natural Language Processing - Educational Materials\n\n**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Organization**: Digital Finance @ FHGR\n**Purpose**: Task-oriented NLP course materials from classification to generation\n**GitLab Pages**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n\n## Quick Start\n\n### Prerequisites\n- Python 3.8+\n- LaTeX distribution (MiKTeX, TeX Live, or MacTeX)\n- Required packages:\n  ```bash\n  pip install pandas numpy matplotlib seaborn scikit-learn sentence-transformers torch jupyter\n  ```\n\n## Task-Based Organization\n\nThis repository is organized by **NLP tasks** (what you want to accomplish) rather than methodologies (how you accomplish it):\n\n```\ntasks/                              # NLP Task Implementations\n├── classification/                 # Text Classification\n│   └── 6 models: Logistic, Naive Bayes, Decision Tree, Random Forest, SVM, Neural Net\n├── text_generation/                # Text Generation\n│   └── N-gram & Neural language models\n├── clustering/                     # Document Organization\n│   └── K-Means, Hierarchical, DBSCAN + PCA, t-SNE, UMAP\n├── semantic_search/                # Similarity Search\n│   └── Embedding-based semantic search\n├── summarization/                  # Text Summarization\n│   └── Extractive (TextRank) & Abstractive (BART)\n├── sentiment_analysis/             # Sentiment Classification\n│   └── 4 models: Logistic, SVM, LSTM, BERT\n└── ner/                            # Named Entity Recognition\n    └── BERT-based token classification with BIO tagging\n\nfoundations/                        # Foundational Knowledge\n└── neural_networks/                # 7 Architectures (not a task, but building blocks)\n    ├── Perceptron → Transformer → Autoencoder\n    └── notebooks/                  # 4 implementation notebooks\n\nexercises/                          # Practice Exercises\n├── basic/                          # 14 notebooks (7 tasks × 2)\n└── intermediate/                   # 14 notebooks (7 tasks × 2)\n\ndata/                               # All Datasets & Artifacts\n├── raw/                            # Original CSV datasets\n├── processed/                      # Generated embeddings, models, visualizations\n└── results/                        # Model outputs and predictions\n```\n\n### Why Task-Based?\n\n**Traditional (Method-Based)**:\n- \"Learn supervised learning\"\n- Abstract, methodology-focused\n- \"I studied embeddings\"\n\n**Task-Based (This Repo)**:\n- \"Build a text classifier\"\n- Concrete, goal-focused\n- \"I built a semantic search system\"\n\nStudents learn **WHAT to solve** (tasks) before **HOW to solve it** (methods).\n\n## The Seven Core NLP Tasks\n\n### 1. Classification (`tasks/classification/`)\n\n**What**: Assign categories to text\n**Example**: \"President announces policy\" → Politics\n**Models**: 6 algorithms (85-95% accuracy)\n**Use Cases**: Spam filtering, sentiment analysis, topic categorization\n\n**Quick Start:**\n```bash\ncd tasks/classification\npython train_models.py                    # Train all 6 models (~3 min)\ncd presentation && python generate_charts.py   # Generate 26 charts\npdflatex 20251006_1256_supervised_tutorial.tex # Compile 39-slide presentation\n```\n\n**Output**: Trained models in `data/processed/models/classification/*.pkl`\n\n### 2. Text Generation (`tasks/text_generation/`)\n\n**What**: Generate coherent, human-like text\n**Example**: \"The president\" → \"announced a new economic policy\"\n**Models**: 5-gram statistical + LSTM neural\n**Use Cases**: Content creation, chatbots, code completion\n\n**Quick Start:**\n```bash\ncd tasks/text_generation\npython train_5gram.py                     # Train 5-gram model (~30 sec)\npython generate_half_page.py              # Generate 200-word samples\n```\n\n**Output**: Model in `data/processed/models/text_generation/5gram_extended.pkl`\n\n### 3. Clustering (`tasks/clustering/`)\n\n**What**: Group similar documents without labels\n**Example**: Automatically discover that sports headlines cluster together\n**Algorithms**: K-Means, Hierarchical, DBSCAN + PCA, t-SNE, UMAP\n**Use Cases**: Topic discovery, document organization, exploratory analysis\n\n**Quick Start:**\n```bash\ncd tasks/clustering/presentation\npython generate_charts.py                 # Generate 24 charts (~3 min)\npdflatex 20251003_2206_unsupervised_tutorial.tex  # Compile 33-slide presentation\n```\n\n**Input**: Pre-computed embeddings from semantic_search task\n\n### 4. Semantic Search (`tasks/semantic_search/`)\n\n**What**: Find similar documents by meaning (not keywords)\n**Example**: \"president policy\" finds \"leader regulation\" (different words, same meaning)\n**Model**: Sentence-transformers (384-D embeddings)\n**Use Cases**: Document retrieval, Q&A, recommendations, duplicate detection\n\n**Quick Start:**\n```bash\ncd tasks/semantic_search\npython generate_embeddings.py             # Generate 10K embeddings (~2 min)\npython semantic_search.py --interactive   # Interactive search demo\n```\n\n**Output**: `data/processed/embeddings/headlines_embeddings.npy` (15 MB)\n\n### 5. Summarization (`tasks/summarization/`)\n\n**What**: Generate concise summaries of longer texts\n**Example**: 70-word article → 7-word headline\n**Models**: TextRank (extractive) + BART (abstractive)\n**Use Cases**: News aggregation, document digests, meeting notes\n\n**Quick Start:**\n```bash\ncd tasks/summarization\npython extractive_summary.py              # TextRank (~2-3 min)\npython train_abstractive.py               # BART fine-tuning (30-60 min GPU)\ncd presentation && python generate_charts.py\npdflatex 20251123_1604_summarization_tutorial.tex\n```\n\n**Output**: Summaries with ROUGE metrics, trained BART model\n\n### 6. Sentiment Analysis (`tasks/sentiment_analysis/`)\n\n**What**: Determine emotional tone (positive, negative, neutral)\n**Example**: \"The president announced a groundbreaking policy\" → Positive\n**Models**: Logistic Regression, SVM, LSTM, BERT (4 models)\n**Use Cases**: Brand monitoring, customer feedback, market sentiment\n\n**Quick Start:**\n```bash\ncd tasks/sentiment_analysis\npython create_sentiment_labels.py         # Label 10K headlines\npython train_sentiment_models.py          # Train 4 models (~5 min)\ncd presentation && python generate_all_charts.py\npdflatex 20251128_1150_sentiment_tutorial.tex\n```\n\n**Output**: Trained models, BERT achieves 61.7% accuracy\n\n### 7. Named Entity Recognition (`tasks/ner/`)\n\n**What**: Extract entities (people, places, organizations) from text\n**Example**: \"President Biden announced policy in Washington\" → PERSON: Biden, GPE: Washington\n**Model**: BERT fine-tuned for token classification with BIO tagging\n**Use Cases**: Information extraction, knowledge graphs, document indexing\n\n**Quick Start:**\n```bash\ncd tasks/ner\npython annotate_entities.py               # Annotate 10K headlines (~3 min)\npython train_ner_model.py                 # Fine-tune BERT (~15 min GPU)\ncd presentation && python generate_all_charts.py\npdflatex 20251128_1202_ner_tutorial.tex\n```\n\n**Output**: NER model with ~0.92 F1, entity-tagged dataset\n\n## Foundational Knowledge\n\n### Neural Networks (`foundations/neural_networks/`)\n\n**Why \"foundations\"?** Neural networks aren't an NLP task - they're the **building blocks** for solving tasks.\n\n**7 Architectures Covered:**\n1. Perceptron - Linear classification\n2. Feedforward - Universal approximation\n3. CNN - Spatial patterns\n4. RNN - Short-term sequence memory\n5. LSTM - Long-term sequence memory\n6. Transformer - Attention mechanism\n7. Autoencoder - Representation learning\n\n**3 Presentation Variants:**\n- Advanced/Comprehensive (89 slides) - All 7 architectures\n- Feedforward Standard (58 slides) - Iris classification example\n- Feedforward UAT (50 slides) - Universal approximation theorem proof\n\n## Complete Directory Structure\n\n```\nNLP_Data/\n├── tasks/                          # MAIN: NLP Task Implementations\n│   ├── classification/\n│   │   ├── train_models.py\n│   │   ├── README.md               # Comprehensive task guide\n│   │   └── presentation/           # 39-slide tutorial, 26 charts\n│   ├── text_generation/\n│   │   ├── ngram_model.py\n│   │   ├── train_5gram.py\n│   │   ├── neural_lm.py\n│   │   ├── ngram_analysis.ipynb\n│   │   └── README.md\n│   ├── clustering/\n│   │   ├── README.md\n│   │   └── presentation/           # 33-slide tutorial, 24 charts\n│   └── semantic_search/\n│       ├── generate_embeddings.py\n│       ├── semantic_search.py\n│       ├── embedding_analysis.ipynb\n│       ├── README.md\n│       └── presentation/           # 28-slide tutorial, 18 charts\n│\n├── foundations/                    # Foundational Techniques\n│   └── neural_networks/\n│       ├── README.md               # When to use which architecture\n│       └── presentation/\n│           ├── advanced_comprehensive/     # 89 slides\n│           ├── feedforward_standard/       # 58 slides\n│           └── feedforward_uat/            # 50 slides\n│\n├── data/                           # All Datasets & Artifacts\n│   ├── raw/                        # Original CSV datasets\n│   │   ├── basic/                  # 400 headlines\n│   │   ├── extended/               # 10,000 headlines + splits\n│   │   ├── articles/               # 1,000 articles + splits\n│   │   └── large/                  # Experimental\n│   ├── processed/                  # Generated artifacts\n│   │   ├── embeddings/             # 10,000 × 384 vectors (15 MB)\n│   │   ├── models/\n│   │   │   ├── classification/     # 6 trained classifiers (15 MB)\n│   │   │   └── text_generation/    # 5-gram model (902 KB)\n│   │   ├── visualizations/         # PNG preview images\n│   │   └── samples/                # Generated text\n│   └── results/                    # Model outputs\n│       └── classification/         # Predictions, metrics\n│\n├── generators/                     # Dataset Generation\n│   ├── generate_headlines.py\n│   ├── generate_extended_headlines.py\n│   ├── generate_articles.py\n│   └── create_splits.py\n│\n├── docs/                           # Documentation\n│   ├── DATASET_OVERVIEW.md\n│   ├── ZIPF_LAW_ANALYSIS.md\n│   ├── EDUCATIONAL_PRESENTATION_FRAMEWORK.md\n│   └── presentations/              # Presentation docs\n│\n├── wiki_pages/                     # 13 Comprehensive Wiki Pages\n│   ├── home.md\n│   ├── Setup-and-Prerequisites.md\n│   ├── Task-Classification.md      # NEW: 1,748 words\n│   ├── Task-Text-Generation.md     # NEW: 1,737 words\n│   ├── Task-Clustering.md          # NEW: 1,985 words\n│   ├── Task-Semantic-Search.md     # NEW: 1,849 words\n│   ├── Foundations-Neural-Networks.md  # NEW: 1,840 words\n│   ├── Dataset-Overview.md         # NEW: 1,448 words\n│   ├── Repository-Structure.md     # NEW: 1,585 words\n│   ├── Reproducibility-Guide.md    # NEW: 1,766 words\n│   ├── FAQ.md                      # NEW: 1,869 words\n│   └── Contributing.md             # NEW: 1,708 words\n│\n├── public_source/                  # GitLab Pages Source (NEW)\n│   ├── index.html                  # Landing page\n│   ├── css/style.css               # Purple/gray theme\n│   ├── slides/index.html           # All presentations\n│   ├── datasets/index.html         # Interactive browser\n│   └── docs/index.html             # Documentation hub\n│\n├── scripts/                        # GitLab Pages Generation (NEW)\n│   ├── generate_dataset_samples.py\n│   └── generate_pages_index.py\n│\n├── archive/                        # Historical Versions\n│   ├── scripts/                    # Old generation scripts\n│   └── presentations/              # Old .tex/.pdf versions\n│\n├── .gitlab-ci.yml                  # GitLab Pages Deployment (NEW)\n├── CLAUDE.md                       # Project instructions\n├── README.md                       # This file\n└── template_beamer_final.tex       # Beamer template\n```\n\n## Educational Progression\n\n### Week 1-2: Basic Text Analysis\n- Dataset: `data/raw/basic/` (400 headlines)\n- Topics: Tokenization, word counts, Zipf's law\n- Exercises: basic/classification_basic.ipynb, basic/text_generation_basic.ipynb\n\n### Week 3-4: Semantic Search Task\n- Learn: How to find similar documents by meaning\n- Code: `tasks/semantic_search/`\n- Presentation: 28 slides, hands-on embedding tutorial\n- Output: Search system that finds semantically similar headlines\n- Exercises: basic/semantic_search_basic.ipynb, intermediate/semantic_search_intermediate.ipynb\n\n### Week 5-6: Classification Task\n- Learn: How to categorize text automatically\n- Code: `tasks/classification/`\n- Presentation: 39 slides, 6 model comparison\n- Output: Trained classifier (85-95% accuracy)\n- Exercises: intermediate/classification_intermediate.ipynb\n\n### Week 7-8: Clustering Task\n- Learn: How to discover topics without labels\n- Code: `tasks/clustering/`\n- Presentation: 33 slides, unsupervised methods\n- Output: Document clusters, 2D visualizations\n- Exercises: basic/clustering_basic.ipynb, intermediate/clustering_intermediate.ipynb\n\n### Week 9-10: Neural Networks Foundations\n- Learn: Building blocks for advanced NLP\n- Code: `foundations/neural_networks/`\n- Presentations: 3 variants (choose based on audience)\n- Notebooks: feedforward_from_scratch, rnn_sentiment, cnn_text, transformer_attention\n- Output: Understanding of 7 architectures\n\n### Week 11-12: Text Generation Task\n- Learn: How to generate coherent text\n- Code: `tasks/text_generation/`\n- Presentation: 50 slides, N-gram to Transformer\n- Output: Working text generator (n-gram + neural)\n- Exercises: basic/text_generation_basic.ipynb, intermediate/text_generation_intermediate.ipynb\n\n### Week 13-14: Summarization Task\n- Learn: How to create concise summaries\n- Code: `tasks/summarization/`\n- Presentation: 45 slides, extractive and abstractive methods\n- Output: TextRank and BART summarizers\n- Exercises: Basic summarization exercises (to be created)\n\n### Week 15-16: Sentiment Analysis Task\n- Learn: How to detect emotional tone\n- Code: `tasks/sentiment_analysis/`\n- Presentation: 35 slides, 4 model comparison\n- Output: Sentiment classifier (BERT achieves 61.7% accuracy)\n- Exercises: basic/sentiment_basic.ipynb, intermediate/sentiment_intermediate.ipynb\n\n### Week 17-18: Named Entity Recognition Task\n- Learn: How to extract structured information\n- Code: `tasks/ner/`\n- Presentation: 40 slides, BIO tagging and BERT-NER\n- Output: Entity extractor (~0.92 F1 score)\n- Exercises: basic/ner_basic.ipynb, intermediate/ner_intermediate.ipynb\n\n## Common Workflows\n\n### I want to... (Quick-Finding Guide)\n\n| I want to... | Go to... |\n|--------------|----------|\n| **Build a text classifier** | `tasks/classification/` |\n| **Generate new text** | `tasks/text_generation/` |\n| **Find similar documents** | `tasks/semantic_search/` |\n| **Cluster documents** | `tasks/clustering/` |\n| **Summarize articles** | `tasks/summarization/` |\n| **Analyze sentiment** | `tasks/sentiment_analysis/` |\n| **Extract entities** | `tasks/ner/` |\n| **Learn neural architectures** | `foundations/neural_networks/` |\n| **Practice with exercises** | `exercises/basic/` or `exercises/intermediate/` |\n| **Understand the datasets** | `docs/DATASET_OVERVIEW.md` |\n| **Regenerate everything** | `wiki_pages/Reproducibility-Guide.md` |\n| **View presentations online** | GitLab Pages (see URL above) |\n\n### Generate All Presentations\n\nEach task has its own presentation:\n\n```bash\n# Classification (39 slides)\ncd tasks/classification/presentation\npython generate_charts.py && pdflatex 20251006_1256_supervised_tutorial.tex\n\n# Clustering (33 slides)\ncd tasks/clustering/presentation\npython generate_charts.py && pdflatex 20251003_2206_unsupervised_tutorial.tex\n\n# Semantic Search (28 slides)\ncd tasks/semantic_search/presentation\npython generate_charts.py && pdflatex 20251003_1430_tsne_tutorial.tex\n\n# Neural Networks (choose variant)\ncd foundations/neural_networks/presentation\npython generate_charts.py && python generate_graphviz_charts.py\ncd advanced_comprehensive\npdflatex 20251024_0452_neural_networks.tex\n```\n\n## GitLab Pages (NEW!)\n\n**Public Website**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n\n**Features:**\n- All presentation PDFs online\n- Interactive dataset browser (search, filter, sort)\n- Complete documentation\n- No git clone needed for students\n\n**Deploy:**\n```bash\ngit push origin master  # Automatic deployment via .gitlab-ci.yml\n```\n\n## Documentation\n\n### Complete Wiki (13 Pages)\n\nUpload `wiki_pages/*.md` to GitLab Wiki for comprehensive course documentation:\n\n- **Setup & Getting Started** (4 pages)\n- **Task Tutorials** (4 pages) - One per task\n- **Reference** (5 pages) - Datasets, structure, FAQ, contributing\n\n### Technical Documentation\n\n- `CLAUDE.md` - Complete project documentation and workflows\n- Task READMEs - Detailed guide for each task\n- `docs/` - Dataset specs, Zipf analysis, pedagogical framework\n\n## Key Features\n\n- **Task-Oriented**: Learn by doing (classify, generate, search, cluster)\n- **Complete Implementations**: Working code for all tasks\n- **Publication-Quality**: 200+ professional charts across presentations\n- **Fully Reproducible**: All generation scripts included\n- **Interactive Learning**: Jupyter notebooks with hands-on exercises\n- **Professional Slides**: Beamer presentations (Madrid theme, 8pt, purple accent)\n- **Comprehensive Docs**: 13 wiki pages, task READMEs, technical specs\n- **GitLab Pages**: Public website with dataset browser\n\n## Statistics\n\n- **7 Core Tasks** (classification, generation, clustering, search, summarization, sentiment, NER)\n- **1 Foundation** (neural networks with 7 architectures + 4 implementation notebooks)\n- **13 Presentations** (420+ slides total)\n- **10,000 Headlines** (main dataset for most tasks)\n- **1,000 Articles** (summarization dataset)\n- **240+ Charts** (all publication-quality, modular structure)\n- **14 Wiki Pages** (20,000+ words of documentation)\n- **7 Task READMEs** (comprehensive task guides)\n- **28 Exercise Notebooks** (14 basic + 14 intermediate with solutions)\n\n## Contributing\n\nSee `wiki_pages/Contributing.md` for:\n- Adding new tasks\n- Updating presentations\n- Version control policy\n- Quality checklist\n\n## License\n\nEducational materials for FHGR courses. Not for commercial use.\n\n---\n\n**Last Updated**: 2025-11-28\n**Maintainer**: Digital Finance @ FHGR\n**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Website**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "Natural-Language-Processing-Details",
+      "research": {
+        "title": "Task-oriented NLP educational materials for undergraduate courses",
+        "abstract": "**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Organization**: Digital Finance @ FHGR\n**Purpose**: Task-oriented NLP course materials from classification to generation\n**GitLab Pages**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details",
+        "keywords": [],
+        "authors": [
+          {
+            "name": "NLP tasks**  rather than methodologies :",
+            "affiliation": "what you want to accomplish"
+          },
+          {
+            "name": "meaning",
+            "affiliation": "not keywords"
+          },
+          {
+            "name": "meaning"
+          },
+          {
+            "name": "doing",
+            "affiliation": "classify, generate, search, cluster"
+          }
+        ]
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "Jupyter Notebook"
+        ],
+        "notebooks": [
+          {
+            "path": "data/raw/basic/nlp_basics_homework.ipynb",
+            "title": "nlp_basics_homework",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "data/raw/basic/nlp_basics_solutions.ipynb",
+            "title": "nlp_basics_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "data/raw/extended/statistical_analysis.ipynb",
+            "title": "statistical_analysis",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "data/raw/extended/zipf_law_analysis.ipynb",
+            "title": "zipf_law_analysis",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "data/raw/large/zipf_law_analysis.ipynb",
+            "title": "zipf_law_analysis",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/classification_basic.ipynb",
+            "title": "classification_basic",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/classification_basic_solutions.ipynb",
+            "title": "classification_basic_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/clustering_basic.ipynb",
+            "title": "clustering_basic",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/clustering_basic_solutions.ipynb",
+            "title": "clustering_basic_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/ner_basic.ipynb",
+            "title": "ner_basic",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/ner_basic_solutions.ipynb",
+            "title": "ner_basic_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/semantic_search_basic.ipynb",
+            "title": "semantic_search_basic",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/semantic_search_basic_solutions.ipynb",
+            "title": "semantic_search_basic_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/sentiment_basic.ipynb",
+            "title": "sentiment_basic",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/sentiment_basic_solutions.ipynb",
+            "title": "sentiment_basic_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/text_generation_basic.ipynb",
+            "title": "text_generation_basic",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/basic/text_generation_basic_solutions.ipynb",
+            "title": "text_generation_basic_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/classification_intermediate.ipynb",
+            "title": "classification_intermediate",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/classification_intermediate_solutions.ipynb",
+            "title": "classification_intermediate_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/clustering_intermediate.ipynb",
+            "title": "clustering_intermediate",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/clustering_intermediate_solutions.ipynb",
+            "title": "clustering_intermediate_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/ner_intermediate.ipynb",
+            "title": "ner_intermediate",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/ner_intermediate_solutions.ipynb",
+            "title": "ner_intermediate_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/semantic_search_intermediate.ipynb",
+            "title": "semantic_search_intermediate",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/semantic_search_intermediate_solutions.ipynb",
+            "title": "semantic_search_intermediate_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/sentiment_intermediate.ipynb",
+            "title": "sentiment_intermediate",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/sentiment_intermediate_solutions.ipynb",
+            "title": "sentiment_intermediate_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/text_generation_intermediate.ipynb",
+            "title": "text_generation_intermediate",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "exercises/intermediate/text_generation_intermediate_solutions.ipynb",
+            "title": "text_generation_intermediate_solutions",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "foundations/neural_networks/notebooks/cnn_text_classification.ipynb",
+            "title": "cnn_text_classification",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "foundations/neural_networks/notebooks/feedforward_from_scratch.ipynb",
+            "title": "feedforward_from_scratch",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "foundations/neural_networks/notebooks/rnn_sentiment_example.ipynb",
+            "title": "rnn_sentiment_example",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "foundations/neural_networks/notebooks/transformer_attention_demo.ipynb",
+            "title": "transformer_attention_demo",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "tasks/classification/classification_tutorial.ipynb",
+            "title": "classification_tutorial",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "tasks/ner/ner_analysis.ipynb",
+            "title": "ner_analysis",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "tasks/semantic_search/embedding_analysis.ipynb",
+            "title": "embedding_analysis",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "tasks/sentiment_analysis/sentiment_analysis.ipynb",
+            "title": "sentiment_analysis",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "tasks/summarization/summarization_analysis.ipynb",
+            "title": "summarization_analysis",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "tasks/text_generation/compare_models.ipynb",
+            "title": "compare_models",
+            "language": "python",
+            "type": "jupyter"
+          },
+          {
+            "path": "tasks/text_generation/ngram_analysis.ipynb",
+            "title": "ngram_analysis",
+            "language": "python",
+            "type": "jupyter"
+          }
+        ],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": true,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-11-30T03:20:29.575416",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "data",
+          "path": "data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "processed",
+          "path": "data/processed",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "embeddings",
+          "path": "data/processed/embeddings",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "embeddings_metadata.json",
+          "path": "data/processed/embeddings/embeddings_metadata.json",
+          "format": ".json",
+          "size_bytes": 754450
+        },
+        {
+          "name": "headlines_embeddings.npy",
+          "path": "data/processed/embeddings/headlines_embeddings.npy",
+          "format": ".npy",
+          "size_bytes": 15360128
+        },
+        {
+          "name": "models",
+          "path": "data/processed/models",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "classification",
+          "path": "data/processed/models/classification",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "sentiment",
+          "path": "data/processed/models/sentiment",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "text_generation",
+          "path": "data/processed/models/text_generation",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "samples",
+          "path": "data/processed/samples",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "sample_20251001_190000_1.txt",
+          "path": "data/processed/samples/sample_20251001_190000_1.txt",
+          "format": ".txt",
+          "size_bytes": 226
+        },
+        {
+          "name": "sample_20251001_190000_2.txt",
+          "path": "data/processed/samples/sample_20251001_190000_2.txt",
+          "format": ".txt",
+          "size_bytes": 231
+        },
+        {
+          "name": "sample_20251001_190000_3.txt",
+          "path": "data/processed/samples/sample_20251001_190000_3.txt",
+          "format": ".txt",
+          "size_bytes": 221
+        },
+        {
+          "name": "sample_20251001_190033_1.txt",
+          "path": "data/processed/samples/sample_20251001_190033_1.txt",
+          "format": ".txt",
+          "size_bytes": 1481
+        },
+        {
+          "name": "sample_20251001_190033_2.txt",
+          "path": "data/processed/samples/sample_20251001_190033_2.txt",
+          "format": ".txt",
+          "size_bytes": 1508
+        },
+        {
+          "name": "sample_20251001_190033_3.txt",
+          "path": "data/processed/samples/sample_20251001_190033_3.txt",
+          "format": ".txt",
+          "size_bytes": 1500
+        },
+        {
+          "name": "visualizations",
+          "path": "data/processed/visualizations",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "clustering_comparison.png",
+          "path": "data/processed/visualizations/clustering_comparison.png",
+          "format": ".png",
+          "size_bytes": 863008
+        },
+        {
+          "name": "pca_visualization.png",
+          "path": "data/processed/visualizations/pca_visualization.png",
+          "format": ".png",
+          "size_bytes": 598739
+        },
+        {
+          "name": "similarity_distribution.png",
+          "path": "data/processed/visualizations/similarity_distribution.png",
+          "format": ".png",
+          "size_bytes": 88082
+        },
+        {
+          "name": "tsne_visualization.png",
+          "path": "data/processed/visualizations/tsne_visualization.png",
+          "format": ".png",
+          "size_bytes": 301935
+        },
+        {
+          "name": "raw",
+          "path": "data/raw",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "articles",
+          "path": "data/raw/articles",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "news_articles_dataset.csv",
+          "path": "data/raw/articles/news_articles_dataset.csv",
+          "format": ".csv",
+          "size_bytes": 558473
+        },
+        {
+          "name": "test.csv",
+          "path": "data/raw/articles/test.csv",
+          "format": ".csv",
+          "size_bytes": 83655
+        },
+        {
+          "name": "train.csv",
+          "path": "data/raw/articles/train.csv",
+          "format": ".csv",
+          "size_bytes": 391050
+        },
+        {
+          "name": "val.csv",
+          "path": "data/raw/articles/val.csv",
+          "format": ".csv",
+          "size_bytes": 83942
+        },
+        {
+          "name": "basic",
+          "path": "data/raw/basic",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "VERIFICATION_REPORT.md",
+          "path": "data/raw/basic/VERIFICATION_REPORT.md",
+          "format": ".md",
+          "size_bytes": 4849
+        },
+        {
+          "name": "generate_headlines.py",
+          "path": "data/raw/basic/generate_headlines.py",
+          "format": ".py",
+          "size_bytes": 10878
+        },
+        {
+          "name": "news_headlines_dataset.csv",
+          "path": "data/raw/basic/news_headlines_dataset.csv",
+          "format": ".csv",
+          "size_bytes": 28551
+        },
+        {
+          "name": "nlp_basics_homework.ipynb",
+          "path": "data/raw/basic/nlp_basics_homework.ipynb",
+          "format": ".ipynb",
+          "size_bytes": 15062
+        },
+        {
+          "name": "nlp_basics_solutions.ipynb",
+          "path": "data/raw/basic/nlp_basics_solutions.ipynb",
+          "format": ".ipynb",
+          "size_bytes": 561113
+        },
+        {
+          "name": "extended",
+          "path": "data/raw/extended",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "news_headlines_extended.csv",
+          "path": "data/raw/extended/news_headlines_extended.csv",
+          "format": ".csv",
+          "size_bytes": 741412
+        },
+        {
+          "name": "statistical_analysis.ipynb",
+          "path": "data/raw/extended/statistical_analysis.ipynb",
+          "format": ".ipynb",
+          "size_bytes": 584777
+        },
+        {
+          "name": "test.csv",
+          "path": "data/raw/extended/test.csv",
+          "format": ".csv",
+          "size_bytes": 111287
+        },
+        {
+          "name": "train.csv",
+          "path": "data/raw/extended/train.csv",
+          "format": ".csv",
+          "size_bytes": 519243
+        },
+        {
+          "name": "val.csv",
+          "path": "data/raw/extended/val.csv",
+          "format": ".csv",
+          "size_bytes": 110986
+        },
+        {
+          "name": "zipf_law_analysis.ipynb",
+          "path": "data/raw/extended/zipf_law_analysis.ipynb",
+          "format": ".ipynb",
+          "size_bytes": 360467
+        },
+        {
+          "name": "extended_ner",
+          "path": "data/raw/extended_ner",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "README.md",
+          "path": "data/raw/extended_ner/README.md",
+          "format": ".md",
+          "size_bytes": 8702
+        },
+        {
+          "name": "extended_sentiment",
+          "path": "data/raw/extended_sentiment",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "README.md",
+          "path": "data/raw/extended_sentiment/README.md",
+          "format": ".md",
+          "size_bytes": 6046
+        },
+        {
+          "name": "news_headlines_extended_sentiment.csv",
+          "path": "data/raw/extended_sentiment/news_headlines_extended_sentiment.csv",
+          "format": ".csv",
+          "size_bytes": 878200
+        },
+        {
+          "name": "test.csv",
+          "path": "data/raw/extended_sentiment/test.csv",
+          "format": ".csv",
+          "size_bytes": 131752
+        },
+        {
+          "name": "train.csv",
+          "path": "data/raw/extended_sentiment/train.csv",
+          "format": ".csv",
+          "size_bytes": 614698
+        },
+        {
+          "name": "val.csv",
+          "path": "data/raw/extended_sentiment/val.csv",
+          "format": ".csv",
+          "size_bytes": 131900
+        },
+        {
+          "name": "large",
+          "path": "data/raw/large",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "news_headlines_large.csv",
+          "path": "data/raw/large/news_headlines_large.csv",
+          "format": ".csv",
+          "size_bytes": 1867798
+        },
+        {
+          "name": "zipf_law_analysis.ipynb",
+          "path": "data/raw/large/zipf_law_analysis.ipynb",
+          "format": ".ipynb",
+          "size_bytes": 355132
+        },
+        {
+          "name": "results",
+          "path": "data/results",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "classification",
+          "path": "data/results/classification",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "decision_tree_predictions.json",
+          "path": "data/results/classification/decision_tree_predictions.json",
+          "format": ".json",
+          "size_bytes": 172853
+        },
+        {
+          "name": "detailed_results.json",
+          "path": "data/results/classification/detailed_results.json",
+          "format": ".json",
+          "size_bytes": 3012
+        },
+        {
+          "name": "logistic_regression_predictions.json",
+          "path": "data/results/classification/logistic_regression_predictions.json",
+          "format": ".json",
+          "size_bytes": 172531
+        },
+        {
+          "name": "model_comparison.csv",
+          "path": "data/results/classification/model_comparison.csv",
+          "format": ".csv",
+          "size_bytes": 1013
+        },
+        {
+          "name": "naive_bayes_predictions.json",
+          "path": "data/results/classification/naive_bayes_predictions.json",
+          "format": ".json",
+          "size_bytes": 171904
+        },
+        {
+          "name": "neural_network_predictions.json",
+          "path": "data/results/classification/neural_network_predictions.json",
+          "format": ".json",
+          "size_bytes": 172571
+        },
+        {
+          "name": "random_forest_predictions.json",
+          "path": "data/results/classification/random_forest_predictions.json",
+          "format": ".json",
+          "size_bytes": 172559
+        },
+        {
+          "name": "svm_predictions.json",
+          "path": "data/results/classification/svm_predictions.json",
+          "format": ".json",
+          "size_bytes": 172571
+        },
+        {
+          "name": "sentiment",
+          "path": "data/results/sentiment",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "model_comparison.csv",
+          "path": "data/results/sentiment/model_comparison.csv",
+          "format": ".csv",
+          "size_bytes": 475
+        },
+        {
+          "name": "datasets",
+          "path": "public_source/datasets",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "index.html",
+          "path": "public_source/datasets/index.html",
+          "format": ".html",
+          "size_bytes": 8496
+        },
+        {
+          "name": "js",
+          "path": "public_source/datasets/js",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "dataset-browser.js",
+          "path": "public_source/datasets/js/dataset-browser.js",
+          "format": ".js",
+          "size_bytes": 8129
+        }
+      ]
+    }
+  },
+  {
+    "name": "digital-ai-in-finance",
+    "full_name": "Digital-AI-Finance/digital-ai-in-finance",
+    "description": "CCG application for AI for Digital Finance workshop - Swiss-MENA Research Network",
+    "url": "https://github.com/Digital-AI-Finance/digital-ai-in-finance",
+    "clone_url": "https://github.com/Digital-AI-Finance/digital-ai-in-finance.git",
+    "homepage": "",
+    "language": "JavaScript",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 2900,
+    "default_branch": "main",
+    "created_at": "2025-11-29T11:14:34+00:00",
+    "updated_at": "2025-11-29T21:30:08+00:00",
+    "pushed_at": "2025-11-29T21:30:05+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "private",
+    "contributors_count": 1,
+    "readme": "# AI for Digital Finance: Swiss-MENA Research Network\n\n## Overview\n\nCCG (Connect & Collaborate Grant) application materials for the \"AI for Digital Finance: Swiss-MENA Research Network\" workshop.\n\n- **Event**: April 21-23, 2026\n- **Location**: American University of Sharjah, UAE\n- **Co-organizers**: Prof. Joerg Osterrieder (FHGR) & Prof. Stephen Chan (AUS)\n\n## Submitted Materials\n\nThe `FinalSubmission/` folder contains the official submitted documents:\n\n| File | Description |\n|------|-------------|\n| `proposal_ai-in-digital-finance.pdf` | Main CCG application proposal |\n| `workshop_program_2026.pdf` | Detailed 3-day workshop program |\n| `lhmena-ccg-2025-budget_table-ai-for-digital-finance.xlsx` | Budget breakdown |\n| `gannt_chart.pdf` | Project timeline visualization |\n| `osterrieder_cv.pdf` | CV - Prof. Joerg Osterrieder |\n| `cv_chan_stephen.pdf` | CV - Prof. Stephen Chan |\n\n## Budget Summary\n\n- **Total Project Cost**: CHF 24,500\n- **CCG Request**: CHF 5,000 (20.4%)\n- **AUS Co-funding**: CHF 5,000 (20.4%)\n- **Other Sources**: CHF 14,500 (59.2%)\n\n## Workshop Focus\n\n- AI/ML Technologies in Finance\n- Large Language Models (LLMs)\n- Explainable AI for Compliance\n- Blockchain Security and Fraud Detection\n- Digital Banking Innovation\n\n## Documentation\n\nDetailed project documentation is available in the [`docs/`](docs/) folder:\n\n| Document | Description |\n|----------|-------------|\n| [Overview](docs/README.md) | Project overview and quick links |\n| [Budget](docs/Budget.md) | Detailed budget breakdown by category |\n| [Workshop Content](docs/Workshop-Content.md) | Full 3-day program and sessions |\n| [Timeline](docs/Timeline.md) | Project milestones and Gantt summary |\n| [Partners](docs/Partners.md) | Institutional partners and collaborators |\n| [Application Materials](docs/Application-Materials.md) | CCG application summary |\n\n## Archive\n\nThe `archive/` folder contains working drafts, scripts, and intermediate files used during application preparation.\n\n## Contact\n\n- Prof. Joerg Osterrieder: joerg.osterrieder@fhgr.ch\n- Prof. Stephen Chan: schan@aus.edu\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "digital-ai-in-finance",
+      "research": {
+        "title": "CCG application for AI for Digital Finance workshop - Swiss-MENA Research Network",
+        "abstract": "CCG (Connect & Collaborate Grant) application materials for the \"AI for Digital Finance: Swiss-MENA Research Network\" workshop.\n\n- Event: April 21-23, 2026\n- Location: American University of Sharjah, UAE\n- Co-organizers: Prof. Joerg Osterrieder (FHGR) & Prof. Stephen Chan (AUS)",
+        "keywords": [],
+        "authors": [
+          {
+            "name": "category |"
+          }
+        ]
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "JavaScript"
+        ],
+        "notebooks": [],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": false,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-11-30T03:20:34.988197",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "lhmena-ccg-2025-budget_table-ai-for-digital-finance.xlsx",
+          "path": "FinalSubmission/lhmena-ccg-2025-budget_table-ai-for-digital-finance.xlsx",
+          "format": ".xlsx",
+          "size_bytes": 39771
+        },
+        {
+          "name": "20241030_1700_budget_3day_workshop.xlsx",
+          "path": "archive/budget/20241030_1700_budget_3day_workshop.xlsx",
+          "format": ".xlsx",
+          "size_bytes": 7514
+        },
+        {
+          "name": "lhmena-ccg-2025-budget_table AI for Digital Finance.xlsx",
+          "path": "archive/budget/lhmena-ccg-2025-budget_table AI for Digital Finance.xlsx",
+          "format": ".xlsx",
+          "size_bytes": 39771
+        },
+        {
+          "name": "20241031_CCG_Workshop_Gantt_Chart.xlsx",
+          "path": "archive/charts/20241031_CCG_Workshop_Gantt_Chart.xlsx",
+          "format": ".xlsx",
+          "size_bytes": 12431
+        },
+        {
+          "name": "20241031_CCG_Workshop_Gantt_Chart_Updated.xlsx",
+          "path": "archive/charts/20241031_CCG_Workshop_Gantt_Chart_Updated.xlsx",
+          "format": ".xlsx",
+          "size_bytes": 11645
+        },
+        {
+          "name": "gantt_data.xlsx",
+          "path": "archive/charts/gantt_data.xlsx",
+          "format": ".xlsx",
+          "size_bytes": 6775
+        },
+        {
+          "name": "package-lock.json",
+          "path": "archive/drafts/package-lock.json",
+          "format": ".json",
+          "size_bytes": 7861
+        },
+        {
+          "name": "package.json",
+          "path": "archive/drafts/package.json",
+          "format": ".json",
+          "size_bytes": 49
         }
       ]
     }

@@ -2,7 +2,7 @@
 
 Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
 
-Last updated: **2025-11-29**
+Last updated: **2025-11-30**
 
 ---
 
@@ -41,12 +41,12 @@ Browse our research repositories in an interactive, visual format.
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 9 |
-| Active Repositories | 9 |
+| Total Repositories | 13 |
+| Active Repositories | 13 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 10 |
+| Total Contributors | 15 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -57,8 +57,10 @@ Browse our research repositories in an interactive, visual format.
 | Language | Repositories |
 |----------|--------------|
 | [Python](by-language/python.md) | 3 |
-| [TeX](by-language/tex.md) | 2 |
-| [Jupyter Notebook](by-language/jupyter-notebook.md) | 1 |
+| [TeX](by-language/tex.md) | 3 |
+| [Jupyter Notebook](by-language/jupyter-notebook.md) | 2 |
+| [HTML](by-language/html.md) | 1 |
+| [JavaScript](by-language/javascript.md) | 1 |
 
 
 [View all languages](by-language/index.md){ .md-button }
@@ -97,18 +99,18 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
-| [org-dashboard](repos/org-dashboard.md) | 2025-11-29 |
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-29 |
-| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-28 |
-| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-28 |
-| [neural-networks](repos/neural-networks.md) | 2025-11-24 |
+| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-29 |
+| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-29 |
+| [Natural-Language-Processing-Details](repos/Natural-Language-Processing-Details.md) | 2025-11-29 |
+| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-29 |
+| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-11-29 |
 
 
 ---
 
 ## Navigation
 
-- [All Repositories](repos/index.md) - Browse all 9 repositories
+- [All Repositories](repos/index.md) - Browse all 13 repositories
 - [By Language](by-language/index.md) - Filter by programming language
 - [By Topic](by-topic/index.md) - Filter by topic tags
 - [Statistics](stats.md) - Detailed organization statistics
@@ -117,4 +119,4 @@ Browse our research repositories in an interactive, visual format.
 ---
 
 !!! warning "Repositories Missing README"
-    2 repositories do not have a README file.
+    3 repositories do not have a README file.

@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-11-29**
+Last updated: **2025-11-30**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-11-29**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 9 |
-| Active Repositories | 9 |
+| Total Repositories | 13 |
+| Active Repositories | 13 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 10 |
+| Total Contributors | 15 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -26,8 +26,10 @@ Last updated: **2025-11-29**
 | Language | Repository Count |
 |----------|------------------|
 | [Python](by-language/python.md) | 3 |
-| [TeX](by-language/tex.md) | 2 |
-| [Jupyter Notebook](by-language/jupyter-notebook.md) | 1 |
+| [TeX](by-language/tex.md) | 3 |
+| [Jupyter Notebook](by-language/jupyter-notebook.md) | 2 |
+| [HTML](by-language/html.md) | 1 |
+| [JavaScript](by-language/javascript.md) | 1 |
 
 
 ---
@@ -54,7 +56,7 @@ Last updated: **2025-11-29**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 8 |
+| No License | 12 |
 | MIT License | 1 |
 
 
@@ -73,6 +75,7 @@ Last updated: **2025-11-29**
 | [neural-networks](repos/neural-networks.md) | 0 | N/A |
 | [ShareBuybacks](repos/ShareBuybacks.md) | 0 | N/A |
 | [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 0 | N/A |
+| [demo-repository](repos/demo-repository.md) | 0 | N/A |
 
 
 ---
@@ -81,15 +84,16 @@ Last updated: **2025-11-29**
 
 | Repository | Last Push |
 |------------|-----------|
+| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-29 |
+| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-29 |
+| [Natural-Language-Processing-Details](repos/Natural-Language-Processing-Details.md) | 2025-11-29 |
+| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-29 |
+| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-11-29 |
+| [demo-repository](repos/demo-repository.md) | 2025-11-29 |
 | [org-dashboard](repos/org-dashboard.md) | 2025-11-29 |
 | [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-29 |
-| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-28 |
-| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-28 |
 | [neural-networks](repos/neural-networks.md) | 2025-11-24 |
 | [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
-| [market-microstructure](repos/market-microstructure.md) | 2025-11-21 |
-| [credit-risk-prediction](repos/credit-risk-prediction.md) | 2025-11-21 |
-| [portfolio-optimization-ml](repos/portfolio-optimization-ml.md) | 2025-11-21 |
 
 
 ---
@@ -101,4 +105,5 @@ The following repositories do not have a README file:
 
 - neural-networks
 - ShareBuybacks
+- neural-networks-introduction
 

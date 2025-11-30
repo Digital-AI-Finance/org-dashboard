@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-29T07:58:25.661102",
+  "generated_at": "2025-11-30T03:20:39.468793",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -171,13 +171,89 @@
       },
       "language": "Python",
       "size_kb": 0
+    },
+    "demo-repository": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "HTML",
+      "size_kb": 0
+    },
+    "neural-networks-introduction": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "TeX",
+      "size_kb": 0
+    },
+    "Natural-Language-Processing-Details": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Jupyter Notebook",
+      "size_kb": 0
+    },
+    "digital-ai-in-finance": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "JavaScript",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 9,
-    "average_structure_score": 45.0,
+    "total_repositories": 13,
+    "average_structure_score": 43.46,
     "grades": {
-      "C": 9
+      "C": 13
     }
   }
 }
