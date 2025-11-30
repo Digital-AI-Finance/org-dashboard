@@ -30,6 +30,9 @@ theme:
     - search.highlight
     - content.code.copy
 
+extra_css:
+  - stylesheets/academic.css
+
 plugins:
   - search:
       lang: en
@@ -51,6 +54,10 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Statistics: stats.md
+  - Dashboards:
+    - Impact Metrics: dashboards/impact.md
+    - Time-Series Analytics: dashboards/timeseries.md
+  - Search: search.md
   - Repositories:
     - All Repos: repos/index.md
   - By Language:

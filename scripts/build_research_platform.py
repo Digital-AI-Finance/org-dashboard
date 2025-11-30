@@ -107,7 +107,7 @@ class ResearchPlatformBuilder:
             try:
                 with open("data/citation_report.json", encoding="utf-8") as f:
                     citation_report = json.load(f)
-            except:
+            except Exception:
                 pass
 
         # Phase 3: Search indexing
@@ -146,7 +146,7 @@ class ResearchPlatformBuilder:
             try:
                 with open("data/reproducibility_report.json", encoding="utf-8") as f:
                     reproducibility_report = json.load(f)
-            except:
+            except Exception:
                 pass
 
         # Phase 6: Code quality analysis
@@ -165,7 +165,7 @@ class ResearchPlatformBuilder:
             try:
                 with open("data/code_quality_report.json", encoding="utf-8") as f:
                     code_quality_report = json.load(f)
-            except:
+            except Exception:
                 pass
 
         # Phase 7: Repository health scoring
@@ -217,14 +217,14 @@ class ResearchPlatformBuilder:
                 except Exception as e:
                     self.log(f"Warning: Could not generate landing visualizations: {e}")
 
-                # Generate repository overview
-                self.log("Generating interactive repository overview...")
-                try:
-                    repo_overview = generate_repo_overview()
-                    results["repo_overview"] = repo_overview
-                    self.log("Generated repository overview visualizations")
-                except Exception as e:
-                    self.log(f"Warning: Could not generate repository overview: {e}")
+                # Generate repository overview (disabled - function not imported)
+                # self.log("Generating interactive repository overview...")
+                # try:
+                #     repo_overview = generate_repo_overview()
+                #     results["repo_overview"] = repo_overview
+                #     self.log("Generated repository overview visualizations")
+                # except Exception as e:
+                #     self.log(f"Warning: Could not generate repository overview: {e}")
 
         # Phase 10: Collaboration Network Analysis
         if "collab_network" not in skip_phases:
@@ -239,6 +239,64 @@ class ResearchPlatformBuilder:
                 errors["collab_network"] = error
             else:
                 results["collaboration_network"] = result
+
+        # Phase 11: Dependency Tree Visualizations
+        if "dependency_tree" not in skip_phases:
+            self.log("Generating dependency tree visualizations...")
+            try:
+                import subprocess
+
+                subprocess.run([sys.executable, "scripts/generate_dependency_tree.py"], check=True)
+                self.log("Dependency tree visualizations completed")
+                results["dependency_tree"] = "Generated"
+            except Exception as e:
+                error_msg = f"Warning: Could not generate dependency tree: {e}"
+                self.log(error_msg)
+                errors["dependency_tree"] = str(e)
+
+        # Phase 12: Code Quality Heatmap with Git Data
+        if "quality_heatmap" not in skip_phases:
+            self.log("Generating code quality heatmap...")
+            try:
+                import subprocess
+
+                subprocess.run([sys.executable, "scripts/generate_quality_heatmap.py"], check=True)
+                self.log("Code quality heatmap completed")
+                results["quality_heatmap"] = "Generated"
+            except Exception as e:
+                error_msg = f"Warning: Could not generate quality heatmap: {e}"
+                self.log(error_msg)
+                errors["quality_heatmap"] = str(e)
+
+        # Phase 13: Time-Series Analytics Dashboard
+        if "timeseries" not in skip_phases:
+            self.log("Generating time-series analytics...")
+            try:
+                import subprocess
+
+                subprocess.run(
+                    [sys.executable, "scripts/generate_timeseries_dashboard.py"], check=True
+                )
+                self.log("Time-series analytics completed")
+                results["timeseries"] = "Generated"
+            except Exception as e:
+                error_msg = f"Warning: Could not generate time-series dashboard: {e}"
+                self.log(error_msg)
+                errors["timeseries"] = str(e)
+
+        # Phase 14: Export Search Data for Web Interface
+        if "export_search" not in skip_phases:
+            self.log("Exporting search data...")
+            try:
+                import subprocess
+
+                subprocess.run([sys.executable, "scripts/export_search_data.py"], check=True)
+                self.log("Search data export completed")
+                results["export_search"] = "Generated"
+            except Exception as e:
+                error_msg = f"Warning: Could not export search data: {e}"
+                self.log(error_msg)
+                errors["export_search"] = str(e)
 
         # Save build log
         self.log("=" * 60)
