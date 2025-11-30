@@ -1,45 +1,45 @@
 {
-  "generated_at": "2025-11-30T03:20:53.315222",
+  "generated_at": "2025-11-30T06:33:46.336872",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
+      {
+        "id": "josterri",
+        "repos": [
+          "ShareBuybacks",
+          "portfolio-optimization-ml",
+          "quantlet-branding-tools",
+          "neural-networks-introduction",
+          "org-dashboard",
+          "neural-networks",
+          "market-microstructure",
+          "demo-repository",
+          "credit-risk-prediction",
+          "Natural-Language-Processing",
+          "Green-Finance",
+          "digital-ai-in-finance",
+          "Natural-Language-Processing-Details"
+        ],
+        "repo_count": 13,
+        "commit_count": 105,
+        "first_commit": "2025-09-09T11:18:48+00:00",
+        "last_commit": "2025-11-30T06:29:38+00:00",
+        "emails": [
+          "josterri@googlemail.com",
+          "josterri@users.noreply.github.com"
+        ]
+      },
       {
         "id": "github-actions[bot]",
         "repos": [
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 21,
+        "commit_count": 22,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-29T07:58:38+00:00",
+        "last_commit": "2025-11-30T03:20:55+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
-        ]
-      },
-      {
-        "id": "josterri",
-        "repos": [
-          "credit-risk-prediction",
-          "ShareBuybacks",
-          "market-microstructure",
-          "Natural-Language-Processing",
-          "portfolio-optimization-ml",
-          "neural-networks",
-          "quantlet-branding-tools",
-          "Natural-Language-Processing-Details",
-          "neural-networks-introduction",
-          "org-dashboard",
-          "digital-ai-in-finance",
-          "demo-repository",
-          "Green-Finance"
-        ],
-        "repo_count": 13,
-        "commit_count": 100,
-        "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-29T21:37:09+00:00",
-        "emails": [
-          "josterri@users.noreply.github.com",
-          "josterri@googlemail.com"
         ]
       },
       {
@@ -101,15 +101,15 @@
       }
     ],
     "degree_centrality": {
-      "github-actions[bot]": 0.5,
       "josterri": 1.0,
+      "github-actions[bot]": 0.5,
       "StefanGam": 0.5
     }
   },
   "summary": {
     "total_authors": 3,
     "total_collaborations": 2,
-    "total_commits": 141,
+    "total_commits": 147,
     "repositories_analyzed": 13
   },
   "visualizations": {

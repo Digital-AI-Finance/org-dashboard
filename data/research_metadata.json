@@ -32,11 +32,17 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:18:47.056754",
+      "extracted_at": "2025-11-30T06:31:29.084256",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
     "datasets": [
+      {
+        "name": "coverage.json",
+        "path": "coverage.json",
+        "format": ".json",
+        "size_bytes": 60741
+      },
       {
         "name": "data",
         "path": "data",
@@ -47,13 +53,13 @@
         "name": "build_log.json",
         "path": "data/build_log.json",
         "format": ".json",
-        "size_bytes": 3903
+        "size_bytes": 3905
       },
       {
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 24314
+        "size_bytes": 26529
       },
       {
         "name": "citation_report.json",
@@ -65,55 +71,73 @@
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 4519
+        "size_bytes": 6474
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 2068
+        "size_bytes": 2946
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 14506
+        "size_bytes": 17033
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 75341
+        "size_bytes": 127938
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 13727
+        "size_bytes": 19682
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 13160
+        "size_bytes": 16597
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 25039
+        "size_bytes": 49436
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 68134
+        "size_bytes": 100693
       },
       {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 2421
+        "size_bytes": 2668
+      },
+      {
+        "name": "data",
+        "path": "docs/data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "search_data.json",
+        "path": "docs/data/search_data.json",
+        "format": ".json",
+        "size_bytes": 190748
+      },
+      {
+        "name": "search_data_minimal.json",
+        "path": "docs/data/search_data_minimal.json",
+        "format": ".json",
+        "size_bytes": 130151
       },
       {
         "name": "citation_network.json",
@@ -125,7 +149,7 @@
         "name": "collaboration_network.json",
         "path": "docs/visualizations/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 453
+        "size_bytes": 605
       },
       {
         "name": "research_metadata_schema.json",
@@ -230,7 +254,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:18:49.085286",
+      "extracted_at": "2025-11-30T06:31:31.116097",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -288,7 +312,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:18:51.278709",
+      "extracted_at": "2025-11-30T06:31:33.045783",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -350,7 +374,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:18:53.385097",
+      "extracted_at": "2025-11-30T06:31:35.019013",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -385,7 +409,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:19:02.229292",
+      "extracted_at": "2025-11-30T06:31:43.800946",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -710,7 +734,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:19:51.083297",
+      "extracted_at": "2025-11-30T06:32:44.050367",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -780,7 +804,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:19:58.713476",
+      "extracted_at": "2025-11-30T06:32:51.718852",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -822,7 +846,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:20:01.539824",
+      "extracted_at": "2025-11-30T06:32:54.547235",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1121,7 +1145,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:20:29.575416",
+      "extracted_at": "2025-11-30T06:33:22.466256",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1563,7 +1587,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-11-30T03:20:34.988197",
+      "extracted_at": "2025-11-30T06:33:27.939656",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },

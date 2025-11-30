@@ -84,14 +84,14 @@ Last updated: **2025-11-30**
 
 | Repository | Last Push |
 |------------|-----------|
+| [org-dashboard](repos/org-dashboard.md) | 2025-11-30 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-30 |
 | [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-29 |
 | [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-29 |
 | [Natural-Language-Processing-Details](repos/Natural-Language-Processing-Details.md) | 2025-11-29 |
 | [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-29 |
 | [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-11-29 |
 | [demo-repository](repos/demo-repository.md) | 2025-11-29 |
-| [org-dashboard](repos/org-dashboard.md) | 2025-11-29 |
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-29 |
 | [neural-networks](repos/neural-networks.md) | 2025-11-24 |
 | [Green-Finance](repos/Green-Finance.md) | 2025-11-22 |
 

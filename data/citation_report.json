@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-30T03:20:39.196921",
+  "generated_at": "2025-11-30T06:33:31.994388",
   "citation_graph": {
     "nodes": 3,
     "edges": 0,
@@ -60,63 +60,70 @@
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 26
+      "snapshots": 27
     },
     "portfolio-optimization-ml": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 16,
-      "snapshots": 24
+      "snapshots": 25
     },
     "credit-risk-prediction": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 24
+      "snapshots": 25
     },
     "market-microstructure": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 24
+      "snapshots": 25
     },
     "Green-Finance": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 24
+      "snapshots": 25
     },
     "Natural-Language-Processing": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 24
+      "snapshots": 25
     },
     "neural-networks": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 7
+      "snapshots": 8
     },
     "ShareBuybacks": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 4
+      "snapshots": 5
     },
     "quantlet-branding-tools": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 3
+      "snapshots": 4
+    },
+    "demo-repository": {
+      "total_growth": 0,
+      "publication_growth": 0,
+      "average_monthly_growth": 0.0,
+      "current_citations": 0,
+      "snapshots": 2
     }
   }
 }
