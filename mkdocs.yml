@@ -52,7 +52,7 @@ markdown_extensions:
   - pymdownx.details
 
 nav:
-  - Home: index.md
+  - Home: index.html
   - Statistics: stats.md
   - Dashboards:
     - Impact Metrics: dashboards/impact.md
