@@ -1,19 +1,18 @@
 {
-  "generated_at": "2025-11-30T15:27:43.371822",
-  "total_repos": 16,
-  "active_repos": 16,
+  "generated_at": "2025-12-01T03:32:59.823260",
+  "total_repos": 17,
+  "active_repos": 17,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 17,
+  "total_contributors": 18,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
     "TeX": 5,
     "Python": 3,
-    "Jupyter Notebook": 2,
-    "HTML": 1,
-    "JavaScript": 1
+    "HTML": 3,
+    "Jupyter Notebook": 2
   },
   "topics": {
     "finance": 3,
@@ -28,13 +27,25 @@
     "time-series": 1
   },
   "licenses": {
-    "No License": 15,
+    "No License": 16,
     "MIT License": 1
   },
   "recent_repos": [
     {
+      "name": "ShareBuybacks",
+      "pushed_at": "2025-11-30T21:26:11+00:00"
+    },
+    {
       "name": "org-dashboard",
-      "pushed_at": "2025-11-30T15:24:18+00:00"
+      "pushed_at": "2025-11-30T16:43:50+00:00"
+    },
+    {
+      "name": "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
+      "pushed_at": "2025-11-30T16:34:25+00:00"
+    },
+    {
+      "name": "digital-ai-in-finance",
+      "pushed_at": "2025-11-30T15:27:40+00:00"
     },
     {
       "name": "neural-networks-introduction",
@@ -43,10 +54,6 @@
     {
       "name": "Natural-Language-Processing",
       "pushed_at": "2025-11-30T07:23:18+00:00"
-    },
-    {
-      "name": "digital-ai-in-finance",
-      "pushed_at": "2025-11-30T06:53:15+00:00"
     },
     {
       "name": "Statistics",
@@ -63,14 +70,6 @@
     {
       "name": "quantlet-branding-tools",
       "pushed_at": "2025-11-30T06:50:42+00:00"
-    },
-    {
-      "name": "Natural-Language-Processing-Details",
-      "pushed_at": "2025-11-29T11:11:43+00:00"
-    },
-    {
-      "name": "ShareBuybacks",
-      "pushed_at": "2025-11-29T09:47:32+00:00"
     }
   ],
   "popular_repos": [
@@ -118,7 +117,8 @@
   "repos_without_readme": [
     "neural-networks",
     "ShareBuybacks",
-    "neural-networks-introduction"
+    "neural-networks-introduction",
+    "Anomaly_and_Fraud_Detection_in_Blockchain_Networks"
   ],
   "research": {
     "repos_with_papers": 4,

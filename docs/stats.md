@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-11-30**
+Last updated: **2025-12-01**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-11-30**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 16 |
-| Active Repositories | 16 |
+| Total Repositories | 17 |
+| Active Repositories | 17 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 17 |
+| Total Contributors | 18 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -27,9 +27,8 @@ Last updated: **2025-11-30**
 |----------|------------------|
 | [TeX](by-language/tex.md) | 5 |
 | [Python](by-language/python.md) | 3 |
+| [HTML](by-language/html.md) | 3 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 2 |
-| [HTML](by-language/html.md) | 1 |
-| [JavaScript](by-language/javascript.md) | 1 |
 
 
 ---
@@ -56,7 +55,7 @@ Last updated: **2025-11-30**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 15 |
+| No License | 16 |
 | MIT License | 1 |
 
 
@@ -84,16 +83,16 @@ Last updated: **2025-11-30**
 
 | Repository | Last Push |
 |------------|-----------|
+| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-30 |
 | [org-dashboard](repos/org-dashboard.md) | 2025-11-30 |
+| [Anomaly_and_Fraud_Detection_in_Blockchain_Networks](repos/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.md) | 2025-11-30 |
+| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-30 |
 | [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-11-30 |
 | [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-30 |
-| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-30 |
 | [Statistics](repos/Statistics.md) | 2025-11-30 |
 | [Natural-Language-Processing-Decoding-Strategies](repos/Natural-Language-Processing-Decoding-Strategies.md) | 2025-11-30 |
 | [Publications](repos/Publications.md) | 2025-11-30 |
 | [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-30 |
-| [Natural-Language-Processing-Details](repos/Natural-Language-Processing-Details.md) | 2025-11-29 |
-| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-29 |
 
 
 ---
@@ -106,4 +105,5 @@ The following repositories do not have a README file:
 - neural-networks
 - ShareBuybacks
 - neural-networks-introduction
+- Anomaly_and_Fraud_Detection_in_Blockchain_Networks
 

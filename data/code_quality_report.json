@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-30T15:27:43.715999",
+  "generated_at": "2025-12-01T03:33:00.177059",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -245,7 +245,7 @@
         },
         "grade": "C"
       },
-      "language": "JavaScript",
+      "language": "HTML",
       "size_kb": 0
     },
     "Publications": {
@@ -304,13 +304,32 @@
       },
       "language": "TeX",
       "size_kb": 0
+    },
+    "Anomaly_and_Fraud_Detection_in_Blockchain_Networks": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "HTML",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 16,
-    "average_structure_score": 37.19,
+    "total_repositories": 17,
+    "average_structure_score": 37.35,
     "grades": {
-      "C": 13,
+      "C": 14,
       "D": 3
     }
   }

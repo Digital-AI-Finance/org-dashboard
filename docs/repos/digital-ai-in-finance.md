@@ -15,7 +15,7 @@ CCG application for AI for Digital Finance workshop - Swiss-MENA Research Networ
 
 | Property | Value |
 |----------|-------|
-| Language | JavaScript |
+| Language | HTML |
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |

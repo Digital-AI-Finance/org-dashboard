@@ -1,47 +1,48 @@
 {
-  "generated_at": "2025-11-30T15:28:00.551793",
+  "generated_at": "2025-12-01T03:33:19.073986",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
-      {
-        "id": "josterri",
-        "repos": [
-          "Green-Finance",
-          "demo-repository",
-          "Natural-Language-Processing",
-          "org-dashboard",
-          "portfolio-optimization-ml",
-          "neural-networks",
-          "Statistics",
-          "ShareBuybacks",
-          "market-microstructure",
-          "credit-risk-prediction",
-          "Natural-Language-Processing-Decoding-Strategies",
-          "neural-networks-introduction",
-          "digital-ai-in-finance",
-          "quantlet-branding-tools",
-          "Natural-Language-Processing-Details"
-        ],
-        "repo_count": 15,
-        "commit_count": 132,
-        "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-30T15:27:25+00:00",
-        "emails": [
-          "josterri@googlemail.com",
-          "josterri@users.noreply.github.com"
-        ]
-      },
       {
         "id": "github-actions[bot]",
         "repos": [
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 24,
+        "commit_count": 25,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-30T07:13:20+00:00",
+        "last_commit": "2025-11-30T15:28:44+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
+        ]
+      },
+      {
+        "id": "josterri",
+        "repos": [
+          "quantlet-branding-tools",
+          "neural-networks",
+          "market-microstructure",
+          "demo-repository",
+          "Natural-Language-Processing-Decoding-Strategies",
+          "Statistics",
+          "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
+          "Natural-Language-Processing-Details",
+          "credit-risk-prediction",
+          "digital-ai-in-finance",
+          "neural-networks-introduction",
+          "Natural-Language-Processing",
+          "org-dashboard",
+          "portfolio-optimization-ml",
+          "Green-Finance",
+          "ShareBuybacks"
+        ],
+        "repo_count": 16,
+        "commit_count": 137,
+        "first_commit": "2025-09-09T11:18:48+00:00",
+        "last_commit": "2025-11-30T21:25:40+00:00",
+        "emails": [
+          "josterri@users.noreply.github.com",
+          "josterri@googlemail.com"
         ]
       },
       {
@@ -103,16 +104,16 @@
       }
     ],
     "degree_centrality": {
-      "josterri": 1.0,
       "github-actions[bot]": 0.5,
+      "josterri": 1.0,
       "StefanGam": 0.5
     }
   },
   "summary": {
     "total_authors": 3,
     "total_collaborations": 2,
-    "total_commits": 176,
-    "repositories_analyzed": 15
+    "total_commits": 182,
+    "repositories_analyzed": 16
   },
   "visualizations": {
     "network": "docs/visualizations/collaboration_network_real.html",

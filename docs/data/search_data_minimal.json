@@ -11,7 +11,7 @@
         "language": "Python",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.382016"
+      "added_at": "2025-12-01T03:32:59.832884"
     },
     {
       "id": "doc_1",
@@ -23,7 +23,7 @@
         "title": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.382637"
+      "added_at": "2025-12-01T03:32:59.833453"
     },
     {
       "id": "doc_2",
@@ -41,7 +41,7 @@
           "reinforcement-learning"
         ]
       },
-      "added_at": "2025-11-30T15:27:43.382664"
+      "added_at": "2025-12-01T03:32:59.833475"
     },
     {
       "id": "doc_3",
@@ -55,7 +55,7 @@
         "doi": "10.1016/j.jfineco.2023.01.001",
         "arxiv_id": null
       },
-      "added_at": "2025-11-30T15:27:43.382770"
+      "added_at": "2025-12-01T03:32:59.833575"
     },
     {
       "id": "doc_4",
@@ -69,7 +69,7 @@
         "doi": null,
         "arxiv_id": "2103.12345"
       },
-      "added_at": "2025-11-30T15:27:43.382783"
+      "added_at": "2025-12-01T03:32:59.833586"
     },
     {
       "id": "doc_5",
@@ -81,7 +81,7 @@
         "title": "Machine learning approaches to portfolio optimization using deep reinforcement learning",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.382830"
+      "added_at": "2025-12-01T03:32:59.833628"
     },
     {
       "id": "doc_6",
@@ -99,7 +99,7 @@
           "neural-networks"
         ]
       },
-      "added_at": "2025-11-30T15:27:43.382849"
+      "added_at": "2025-12-01T03:32:59.833645"
     },
     {
       "id": "doc_7",
@@ -111,7 +111,7 @@
         "title": "Neural network models for credit risk prediction with explainable AI",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.382949"
+      "added_at": "2025-12-01T03:32:59.833737"
     },
     {
       "id": "doc_8",
@@ -129,7 +129,7 @@
           "time-series"
         ]
       },
-      "added_at": "2025-11-30T15:27:43.382969"
+      "added_at": "2025-12-01T03:32:59.833754"
     },
     {
       "id": "doc_9",
@@ -141,7 +141,7 @@
         "title": "High-frequency trading analysis and market microstructure research",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.383076"
+      "added_at": "2025-12-01T03:32:59.833856"
     },
     {
       "id": "doc_10",
@@ -154,7 +154,7 @@
         "language": "TeX",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.383089"
+      "added_at": "2025-12-01T03:32:59.833868"
     },
     {
       "id": "doc_11",
@@ -166,7 +166,7 @@
         "title": "Academic course generation system for Green Finance Professional Certificate - 8-week course with learning-goal-driven pedagogy, Beamer slides, and interactive React app",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.383591"
+      "added_at": "2025-12-01T03:32:59.834370"
     },
     {
       "id": "doc_12",
@@ -179,7 +179,7 @@
         "language": "Jupyter Notebook",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.383608"
+      "added_at": "2025-12-01T03:32:59.834387"
     },
     {
       "id": "doc_13",
@@ -191,7 +191,7 @@
         "title": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.384154"
+      "added_at": "2025-12-01T03:32:59.834902"
     },
     {
       "id": "doc_14",
@@ -204,7 +204,7 @@
         "language": "Python",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.384176"
+      "added_at": "2025-12-01T03:32:59.834921"
     },
     {
       "id": "doc_15",
@@ -216,7 +216,7 @@
         "title": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.384740"
+      "added_at": "2025-12-01T03:32:59.835469"
     },
     {
       "id": "doc_16",
@@ -229,7 +229,7 @@
         "language": "HTML",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.384760"
+      "added_at": "2025-12-01T03:32:59.835488"
     },
     {
       "id": "doc_17",
@@ -241,7 +241,7 @@
         "title": "A code repository designed to show the best GitHub has to offer.",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.384786"
+      "added_at": "2025-12-01T03:32:59.835515"
     },
     {
       "id": "doc_18",
@@ -254,7 +254,7 @@
         "language": "Jupyter Notebook",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.384800"
+      "added_at": "2025-12-01T03:32:59.835535"
     },
     {
       "id": "doc_19",
@@ -266,7 +266,7 @@
         "title": "Task-oriented NLP educational materials for undergraduate courses",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.385898"
+      "added_at": "2025-12-01T03:32:59.836803"
     },
     {
       "id": "doc_20",
@@ -276,10 +276,10 @@
         "type": "readme",
         "repo": "digital-ai-in-finance",
         "title": "CCG application for AI for Digital Finance workshop - Swiss-MENA Research Network",
-        "language": "JavaScript",
+        "language": "HTML",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.385924"
+      "added_at": "2025-12-01T03:32:59.836831"
     },
     {
       "id": "doc_21",
@@ -291,7 +291,7 @@
         "title": "CCG application for AI for Digital Finance workshop - Swiss-MENA Research Network",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.386049"
+      "added_at": "2025-12-01T03:32:59.836950"
     },
     {
       "id": "doc_22",
@@ -304,7 +304,7 @@
         "language": "Unknown",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.386072"
+      "added_at": "2025-12-01T03:32:59.836971"
     },
     {
       "id": "doc_23",
@@ -318,7 +318,7 @@
         "doi": null,
         "arxiv_id": "2205.01833"
       },
-      "added_at": "2025-11-30T15:27:43.386159"
+      "added_at": "2025-12-01T03:32:59.837053"
     },
     {
       "id": "doc_24",
@@ -330,7 +330,7 @@
         "title": "",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.386210"
+      "added_at": "2025-12-01T03:32:59.837122"
     },
     {
       "id": "doc_25",
@@ -343,7 +343,7 @@
         "language": "TeX",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.386224"
+      "added_at": "2025-12-01T03:32:59.837135"
     },
     {
       "id": "doc_26",
@@ -355,7 +355,7 @@
         "title": "",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.386622"
+      "added_at": "2025-12-01T03:32:59.837483"
     },
     {
       "id": "doc_27",
@@ -368,7 +368,7 @@
         "language": "TeX",
         "topics": []
       },
-      "added_at": "2025-11-30T15:27:43.386650"
+      "added_at": "2025-12-01T03:32:59.837504"
     },
     {
       "id": "doc_28",
@@ -380,7 +380,7 @@
         "title": "",
         "keywords": []
       },
-      "added_at": "2025-11-30T15:27:43.387122"
+      "added_at": "2025-12-01T03:32:59.837934"
     }
   ],
   "facets": {
@@ -424,8 +424,7 @@
       "unknown": 4,
       "tex": 3,
       "jupyter notebook": 2,
-      "html": 1,
-      "javascript": 1
+      "html": 2
     },
     "topics": {
       "finance": 3,
@@ -466,11 +465,11 @@
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 11151,
+      "size": 8756,
       "default_branch": "main",
       "created_at": "2025-11-21T21:59:13+00:00",
-      "updated_at": "2025-11-30T15:24:22+00:00",
-      "pushed_at": "2025-11-30T15:24:18+00:00",
+      "updated_at": "2025-11-30T15:28:55+00:00",
+      "pushed_at": "2025-11-30T16:43:50+00:00",
       "license": "No License",
       "has_issues": true,
       "has_wiki": false,
@@ -516,7 +515,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:25:11.953667",
+          "extracted_at": "2025-12-01T03:30:13.707726",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -543,13 +542,13 @@
             "name": "citation_history.json",
             "path": "data/citation_history.json",
             "format": ".json",
-            "size_bytes": 31247
+            "size_bytes": 33792
           },
           {
             "name": "citation_report.json",
             "path": "data/citation_report.json",
             "format": ".json",
-            "size_bytes": 3414
+            "size_bytes": 3415
           },
           {
             "name": "code_quality_report.json",
@@ -573,7 +572,7 @@
             "name": "repos.json",
             "path": "data/repos.json",
             "format": ".json",
-            "size_bytes": 159339
+            "size_bytes": 159352
           },
           {
             "name": "repository_health_report.json",
@@ -615,13 +614,13 @@
             "name": "search_data.json",
             "path": "docs/data/search_data.json",
             "format": ".json",
-            "size_bytes": 376321
+            "size_bytes": 376334
           },
           {
             "name": "search_data_minimal.json",
             "path": "docs/data/search_data_minimal.json",
             "format": ".json",
-            "size_bytes": 268967
+            "size_bytes": 268980
           },
           {
             "name": "citation_network.json",
@@ -774,7 +773,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:25:13.911326",
+          "extracted_at": "2025-12-01T03:30:15.911450",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -868,7 +867,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:25:15.904946",
+          "extracted_at": "2025-12-01T03:30:18.105546",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -930,13 +929,13 @@
         "publications": [
           {
             "type": "journal",
-            "doi": "10.1111/jofi.2024.12345",
-            "url": "https://doi.org/10.1111/jofi.2024.12345"
+            "doi": "10.5281/zenodo.1234567)",
+            "url": "https://doi.org/10.5281/zenodo.1234567)"
           },
           {
             "type": "journal",
-            "doi": "10.5281/zenodo.1234567)",
-            "url": "https://doi.org/10.5281/zenodo.1234567)"
+            "doi": "10.1111/jofi.2024.12345",
+            "url": "https://doi.org/10.1111/jofi.2024.12345"
           },
           {
             "type": "preprint",
@@ -966,7 +965,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:25:17.908610",
+          "extracted_at": "2025-12-01T03:30:20.261142",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1032,7 +1031,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:25:26.878611",
+          "extracted_at": "2025-12-01T03:30:29.808611",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1388,7 +1387,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:26:28.973726",
+          "extracted_at": "2025-12-01T03:31:37.319501",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1469,12 +1468,12 @@
       "stars": 0,
       "forks": 0,
       "watchers": 0,
-      "open_issues": 0,
-      "size": 266,
+      "open_issues": 1,
+      "size": 529,
       "default_branch": "main",
       "created_at": "2025-11-27T12:42:48+00:00",
-      "updated_at": "2025-11-29T09:47:35+00:00",
-      "pushed_at": "2025-11-29T09:47:32+00:00",
+      "updated_at": "2025-11-30T21:26:15+00:00",
+      "pushed_at": "2025-11-30T21:26:11+00:00",
       "license": "No License",
       "has_issues": true,
       "has_wiki": true,
@@ -1555,7 +1554,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:26:36.719760",
+          "extracted_at": "2025-12-01T03:31:45.668461",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1628,7 +1627,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:26:39.543451",
+          "extracted_at": "2025-12-01T03:31:48.756397",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1655,7 +1654,7 @@
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 46605,
+      "size": 49774,
       "default_branch": "main",
       "created_at": "2025-11-29T08:35:22+00:00",
       "updated_at": "2025-11-30T15:17:54+00:00",
@@ -1989,7 +1988,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:27:07.440546",
+          "extracted_at": "2025-12-01T03:32:19.171415",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2406,17 +2405,17 @@
       "url": "https://github.com/Digital-AI-Finance/digital-ai-in-finance",
       "clone_url": "https://github.com/Digital-AI-Finance/digital-ai-in-finance.git",
       "homepage": "",
-      "language": "JavaScript",
+      "language": "HTML",
       "topics": [],
       "stars": 0,
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 3234,
+      "size": 3570,
       "default_branch": "main",
       "created_at": "2025-11-29T11:14:34+00:00",
-      "updated_at": "2025-11-30T06:53:19+00:00",
-      "pushed_at": "2025-11-30T06:53:15+00:00",
+      "updated_at": "2025-11-30T15:27:43+00:00",
+      "pushed_at": "2025-11-30T15:27:40+00:00",
       "license": "No License",
       "has_issues": true,
       "has_wiki": false,
@@ -2444,7 +2443,7 @@
         "publications": [],
         "code": {
           "languages": [
-            "JavaScript"
+            "HTML"
           ],
           "notebooks": [],
           "dependencies": {}
@@ -2462,7 +2461,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:27:14.133713",
+          "extracted_at": "2025-12-01T03:32:26.398277",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2619,7 +2618,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:27:16.222474",
+          "extracted_at": "2025-12-01T03:32:28.705667",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2715,7 +2714,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:27:28.138955",
+          "extracted_at": "2025-12-01T03:32:41.748518",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2849,7 +2848,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-11-30T15:27:38.149202",
+          "extracted_at": "2025-12-01T03:32:52.530344",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2946,12 +2945,43 @@
           }
         ]
       }
+    },
+    "Anomaly_and_Fraud_Detection_in_Blockchain_Networks": {
+      "name": "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
+      "full_name": "Digital-AI-Finance/Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
+      "description": "Anomaly and Fraud Detection in Blockchain Networks - Research by Stephen Chan (PI) and Joerg Osterrieder (Co-PI)",
+      "url": "https://github.com/Digital-AI-Finance/Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
+      "clone_url": "https://github.com/Digital-AI-Finance/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.git",
+      "homepage": "",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 264,
+      "default_branch": "main",
+      "created_at": "2025-11-30T16:24:34+00:00",
+      "updated_at": "2025-11-30T16:34:29+00:00",
+      "pushed_at": "2025-11-30T16:34:25+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "private",
+      "contributors_count": 1,
+      "readme": "No README available",
+      "latest_release": null
     }
   },
   "stats": {
     "total_documents": 29,
     "total_terms": 1997,
-    "total_repos": 16,
+    "total_repos": 17,
     "document_types": {
       "readme": 13,
       "research": 13,

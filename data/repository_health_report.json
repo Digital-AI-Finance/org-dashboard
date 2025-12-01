@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-30T15:27:43.716611",
+  "generated_at": "2025-12-01T03:33:00.177647",
   "repositories": {
     "org-dashboard": {
       "overall_score": 53.5,
@@ -73,7 +73,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 8,
+          "days_since_push": 9,
           "activity_score": 100,
           "archived": false
         },
@@ -131,7 +131,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 8,
+          "days_since_push": 9,
           "activity_score": 100,
           "archived": false
         },
@@ -189,7 +189,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 8,
+          "days_since_push": 9,
           "activity_score": 100,
           "archived": false
         },
@@ -247,7 +247,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 7,
+          "days_since_push": 8,
           "activity_score": 100,
           "archived": false
         },
@@ -363,7 +363,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 5,
+          "days_since_push": 6,
           "activity_score": 100,
           "archived": false
         },
@@ -408,12 +408,12 @@
       }
     },
     "ShareBuybacks": {
-      "overall_score": 52.0,
+      "overall_score": 57.0,
       "grade": "D",
       "status": "Poor",
       "dimensions": {
         "activity": 100,
-        "community": 5.0,
+        "community": 30.0,
         "documentation": 50,
         "code_quality": 40,
         "popularity": 0.0,
@@ -421,14 +421,14 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 0,
           "activity_score": 100,
           "archived": false
         },
         "community": {
           "contributors": 1,
           "contributor_score": 10,
-          "has_issues": false,
+          "has_issues": true,
           "has_engagement": false
         },
         "documentation": {
@@ -928,22 +928,80 @@
           "has_default_branch": true
         }
       }
+    },
+    "Anomaly_and_Fraud_Detection_in_Blockchain_Networks": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
     }
   },
   "summary": {
-    "total_repos": 16,
+    "total_repos": 17,
     "health_distribution": {
-      "D": 13,
+      "D": 14,
       "F": 3
     },
     "average_scores": {
       "activity": 100.0,
-      "community": 5.94,
-      "documentation": 46.88,
-      "code_quality": 37.19,
+      "community": 7.35,
+      "documentation": 47.06,
+      "code_quality": 37.35,
       "popularity": 0.0,
       "maintenance": 100.0
     },
-    "average_overall_score": 51.14
+    "average_overall_score": 51.49
   }
 }

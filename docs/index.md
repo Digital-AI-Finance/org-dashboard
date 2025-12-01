@@ -2,7 +2,7 @@
 
 Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
 
-Last updated: **2025-11-30**
+Last updated: **2025-12-01**
 
 ---
 
@@ -41,12 +41,12 @@ Browse our research repositories in an interactive, visual format.
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 16 |
-| Active Repositories | 16 |
+| Total Repositories | 17 |
+| Active Repositories | 17 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 17 |
+| Total Contributors | 18 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -58,9 +58,8 @@ Browse our research repositories in an interactive, visual format.
 |----------|--------------|
 | [TeX](by-language/tex.md) | 5 |
 | [Python](by-language/python.md) | 3 |
+| [HTML](by-language/html.md) | 3 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 2 |
-| [HTML](by-language/html.md) | 1 |
-| [JavaScript](by-language/javascript.md) | 1 |
 
 
 [View all languages](by-language/index.md){ .md-button }
@@ -99,18 +98,18 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
+| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-30 |
 | [org-dashboard](repos/org-dashboard.md) | 2025-11-30 |
-| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-11-30 |
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-30 |
+| [Anomaly_and_Fraud_Detection_in_Blockchain_Networks](repos/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.md) | 2025-11-30 |
 | [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-30 |
-| [Statistics](repos/Statistics.md) | 2025-11-30 |
+| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-11-30 |
 
 
 ---
 
 ## Navigation
 
-- [All Repositories](repos/index.md) - Browse all 16 repositories
+- [All Repositories](repos/index.md) - Browse all 17 repositories
 - [By Language](by-language/index.md) - Filter by programming language
 - [By Topic](by-topic/index.md) - Filter by topic tags
 - [Statistics](stats.md) - Detailed organization statistics
@@ -119,4 +118,4 @@ Browse our research repositories in an interactive, visual format.
 ---
 
 !!! warning "Repositories Missing README"
-    3 repositories do not have a README file.
+    4 repositories do not have a README file.
