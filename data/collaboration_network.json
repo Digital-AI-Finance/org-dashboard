@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-01T03:33:19.073986",
+  "generated_at": "2025-12-02T03:15:08.126661",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
@@ -9,9 +9,9 @@
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 25,
+        "commit_count": 26,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-11-30T15:28:44+00:00",
+        "last_commit": "2025-12-01T03:34:12+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
         ]
@@ -19,30 +19,35 @@
       {
         "id": "josterri",
         "repos": [
-          "quantlet-branding-tools",
-          "neural-networks",
-          "market-microstructure",
-          "demo-repository",
-          "Natural-Language-Processing-Decoding-Strategies",
+          "org-dashboard",
           "Statistics",
           "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-          "Natural-Language-Processing-Details",
-          "credit-risk-prediction",
           "digital-ai-in-finance",
+          "market-microstructure",
           "neural-networks-introduction",
-          "Natural-Language-Processing",
-          "org-dashboard",
-          "portfolio-optimization-ml",
+          "Natural-Language-Processing-Decoding-Strategies",
           "Green-Finance",
-          "ShareBuybacks"
+          "credit-risk-prediction",
+          "Natural-Language-Processing-Details",
+          "neural-networks",
+          "ShareBuybacks",
+          "ai-in-finance",
+          "demo-repository",
+          "msca-digital-finance",
+          "Narrative-Digital-Finance",
+          "network-based-credit-risk-models",
+          "Natural-Language-Processing",
+          "portfolio-optimization-ml",
+          "book-next-word-prediction",
+          "quantlet-branding-tools"
         ],
-        "repo_count": 16,
-        "commit_count": 137,
+        "repo_count": 21,
+        "commit_count": 180,
         "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-11-30T21:25:40+00:00",
+        "last_commit": "2025-12-01T23:20:25+00:00",
         "emails": [
-          "josterri@users.noreply.github.com",
-          "josterri@googlemail.com"
+          "josterri@googlemail.com",
+          "josterri@users.noreply.github.com"
         ]
       },
       {
@@ -112,8 +117,8 @@
   "summary": {
     "total_authors": 3,
     "total_collaborations": 2,
-    "total_commits": 182,
-    "repositories_analyzed": 16
+    "total_commits": 226,
+    "repositories_analyzed": 21
   },
   "visualizations": {
     "network": "docs/visualizations/collaboration_network_real.html",

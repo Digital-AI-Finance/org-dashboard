@@ -43,6 +43,18 @@
     {
       "id": "Statistics",
       "authors": 2
+    },
+    {
+      "id": "Narrative-Digital-Finance",
+      "authors": 8
+    },
+    {
+      "id": "network-based-credit-risk-models",
+      "authors": 5
+    },
+    {
+      "id": "ai-in-finance",
+      "authors": 3
     }
   ],
   "edges": []

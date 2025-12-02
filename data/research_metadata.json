@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:30:13.707726",
+      "extracted_at": "2025-12-02T03:11:03.350370",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -59,7 +59,7 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 33792
+        "size_bytes": 36558
       },
       {
         "name": "citation_report.json",
@@ -71,55 +71,55 @@
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 7941
+        "size_bytes": 8444
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 3031
+        "size_bytes": 3095
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 17033
+        "size_bytes": 17850
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 159352
+        "size_bytes": 160498
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 24175
+        "size_bytes": 25688
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 18586
+        "size_bytes": 19261
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 59875
+        "size_bytes": 59869
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 126386
+        "size_bytes": 126363
       },
       {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 2695
+        "size_bytes": 2747
       },
       {
         "name": "data",
@@ -131,13 +131,13 @@
         "name": "search_data.json",
         "path": "docs/data/search_data.json",
         "format": ".json",
-        "size_bytes": 376334
+        "size_bytes": 377567
       },
       {
         "name": "search_data_minimal.json",
         "path": "docs/data/search_data_minimal.json",
         "format": ".json",
-        "size_bytes": 268980
+        "size_bytes": 270213
       },
       {
         "name": "citation_network.json",
@@ -204,32 +204,7 @@
       {
         "type": "preprint",
         "arxiv_id": "2103.12345",
-        "url": "https://arxiv.org/abs/2103.12345",
-        "title": "The Success of AdaBoost and Its Application in Portfolio Management",
-        "abstract": "We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a strong connection between the ION and the test error. We further identify that the ION of AdaBoost decreases as the iteration number or the complexity of the base learners increases. We confirm that it is impossible to obtain a consistent classifier without deep trees as the base learners of AdaBoost in some complicated situations. We apply AdaBoost in portfolio management via empirical studies in the Chinese market, which corroborates our theoretical propositions.",
-        "published": "2021-03-23T06:41:42Z",
-        "updated": "2021-03-23T06:41:42Z",
-        "pdf_url": "https://arxiv.org/pdf/2103.12345.pdf",
-        "authors": [
-          {
-            "name": "Yijian Chuan"
-          },
-          {
-            "name": "Chaoyi Zhao"
-          },
-          {
-            "name": "Zhenrui He"
-          },
-          {
-            "name": "Lan Wu"
-          }
-        ],
-        "categories": [
-          "stat.ML",
-          "cs.LG",
-          "q-fin.PM"
-        ],
-        "year": 2021
+        "url": "https://arxiv.org/abs/2103.12345"
       }
     ],
     "code": {
@@ -254,7 +229,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:30:15.911450",
+      "extracted_at": "2025-12-02T03:11:05.444133",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -312,7 +287,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:30:18.105546",
+      "extracted_at": "2025-12-02T03:11:07.413907",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -374,7 +349,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:30:20.261142",
+      "extracted_at": "2025-12-02T03:11:09.400903",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -409,7 +384,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:30:29.808611",
+      "extracted_at": "2025-12-02T03:11:18.103340",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -494,18 +469,6 @@
         "Jupyter Notebook"
       ],
       "notebooks": [
-        {
-          "path": ".ipynb_checkpoints/shakespeare_sonnets_simple_bsc-checkpoint.ipynb",
-          "title": "shakespeare_sonnets_simple_bsc-checkpoint",
-          "language": "python",
-          "type": "jupyter"
-        },
-        {
-          "path": ".ipynb_checkpoints/week01_ngrams_bsc-checkpoint.ipynb",
-          "title": "week01_ngrams_bsc-checkpoint",
-          "language": "python",
-          "type": "jupyter"
-        },
         {
           "path": "NLP_slides/summarization_module/lab/llm_summarization_lab.ipynb",
           "title": "llm_summarization_lab",
@@ -734,7 +697,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:31:37.319501",
+      "extracted_at": "2025-12-02T03:12:18.677584",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -804,7 +767,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:31:45.668461",
+      "extracted_at": "2025-12-02T03:12:26.768426",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -846,7 +809,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:31:48.756397",
+      "extracted_at": "2025-12-02T03:12:29.571936",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1145,7 +1108,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:32:19.171415",
+      "extracted_at": "2025-12-02T03:12:56.957162",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1587,7 +1550,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:32:26.398277",
+      "extracted_at": "2025-12-02T03:13:04.115715",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1642,6 +1605,48 @@
       },
       {
         "name": "data",
+        "path": "data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "msca_bios.json",
+        "path": "data/msca_bios.json",
+        "format": ".json",
+        "size_bytes": 5838
+      },
+      {
+        "name": "msca_page_screenshot.png",
+        "path": "data/msca_page_screenshot.png",
+        "format": ".png",
+        "size_bytes": 4796025
+      },
+      {
+        "name": "msca_people.json",
+        "path": "data/msca_people.json",
+        "format": ".json",
+        "size_bytes": 53791
+      },
+      {
+        "name": "msca_people_named.json",
+        "path": "data/msca_people_named.json",
+        "format": ".json",
+        "size_bytes": 21913
+      },
+      {
+        "name": "msca_raw_data.json",
+        "path": "data/msca_raw_data.json",
+        "format": ".json",
+        "size_bytes": 125910
+      },
+      {
+        "name": "scientific_committee.json",
+        "path": "data/scientific_committee.json",
+        "format": ".json",
+        "size_bytes": 697
+      },
+      {
+        "name": "data",
         "path": "docs/data",
         "format": "",
         "size_bytes": 0
@@ -1670,27 +1675,7 @@
       {
         "type": "preprint",
         "arxiv_id": "2205.01833",
-        "url": "https://arxiv.org/abs/2205.01833",
-        "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
-        "abstract": "OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M disambiguated authors; 124k venues (places that host works, such as journals and online repositories); 109k institutions; and 65k Wikidata concepts (linked to works via an automated hierarchical multi-tag classifier). The dataset is fully and freely available via a web-based GUI, a full data dump, and high-volume REST API. The resource is under active development and future work will improve accuracy and coverage of citation information and author/institution parsing and deduplication.",
-        "published": "2022-05-04T00:57:11Z",
-        "updated": "2022-06-17T00:34:23Z",
-        "pdf_url": "https://arxiv.org/pdf/2205.01833.pdf",
-        "authors": [
-          {
-            "name": "Jason Priem"
-          },
-          {
-            "name": "Heather Piwowar"
-          },
-          {
-            "name": "Richard Orr"
-          }
-        ],
-        "categories": [
-          "cs.DL"
-        ],
-        "year": 2022
+        "url": "https://arxiv.org/abs/2205.01833"
       }
     ],
     "code": {
@@ -1713,7 +1698,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:32:28.705667",
+      "extracted_at": "2025-12-02T03:13:06.135318",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1778,7 +1763,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:32:41.748518",
+      "extracted_at": "2025-12-02T03:13:18.292345",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1881,7 +1866,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-01T03:32:52.530344",
+      "extracted_at": "2025-12-02T03:13:28.103190",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1977,5 +1962,288 @@
         "size_bytes": 73631
       }
     ]
+  },
+  "book-next-word-prediction": {
+    "repo_name": "book-next-word-prediction",
+    "research": {
+      "title": "PhD-level Springer textbook: Predicting the Next Word - A Mathematical Foundation of Language Models",
+      "abstract": "Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!",
+      "keywords": [],
+      "authors": []
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "Python"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-02T03:13:35.427597",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": []
+  },
+  "Narrative-Digital-Finance": {
+    "repo_name": "Narrative-Digital-Finance",
+    "research": {
+      "title": "SNSF Narrative Digital Finance: A tale of structural breaks, bubbles & market narratives - Research Project of the Swiss National Science Foundation",
+      "abstract": "Large fluctuations, instabilities, trends and uncertainty of financial markets constitute a substantial challenge for asset management companies, pension funds and regulators. This project develops a comprehensive framework that utilizes advanced machine learning and NLP techniques to predict market outcomes, detect asset price bubbles, and identify structural breaks using diverse data sources.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "Cooperation between University of Twente  and Bern Business School",
+          "affiliation": "Netherlands"
+        },
+        {
+          "name": "| Name | Role | Affiliation |"
+        },
+        {
+          "name": "|------|------|-------------|"
+        },
+        {
+          "name": "| **Joerg Osterrieder** | Principal Investigator | Bern Business School, University of Twente |"
+        },
+        {
+          "name": "| **Marius Jan Klein** | Team Member | Bern Business School |"
+        },
+        {
+          "name": "| **Branka Hadji Misheva** | Team Member | Bern Business School |"
+        },
+        {
+          "name": "| **Gabin Taibi** | Team Member | Bern Business School, University of Twente |"
+        },
+        {
+          "name": "the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union or Horizon Europe: Marie Sklodowska-Curie Actions.",
+          "affiliation": "s"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "HTML"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-02T03:13:38.401209",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "data",
+        "path": "data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": ".gitkeep",
+        "path": "data/.gitkeep",
+        "format": "",
+        "size_bytes": 17
+      }
+    ]
+  },
+  "network-based-credit-risk-models": {
+    "repo_name": "network-based-credit-risk-models",
+    "research": {
+      "title": "Network-Based Credit Risk Models in P2P Lending Markets - SNSF Research Project",
+      "abstract": "This research project focuses on developing advanced, interpretable credit risk models tailored specifically to the needs of Peer-to-Peer (P2P) lending markets. The project addresses the unique challenges of P2P lending, such as higher information asymmetry, less regulation, and increased risk during economic downturns.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "Principal Investigator:** Joerg Osterrieder",
+          "affiliation": "Bern Business School, Switzerland / University of Twente, Netherlands"
+        },
+        {
+          "name": "Team Members:"
+        },
+        {
+          "name": "Lennart John Baals",
+          "affiliation": "Bern Business School / University of Twente"
+        },
+        {
+          "name": "Branka Hadji Misheva",
+          "affiliation": "Bern Business School"
+        },
+        {
+          "name": "Yiting Liu",
+          "affiliation": "Bern Business School / University of Twente"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "Python"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-02T03:13:44.446109",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "publications.json",
+        "path": "_data/publications.json",
+        "format": ".json",
+        "size_bytes": 20076
+      }
+    ]
+  },
+  "msca-digital-finance": {
+    "repo_name": "msca-digital-finance",
+    "research": {
+      "title": "MSCA Digital Finance Website - Hugo static site migrated from Wix",
+      "abstract": "This repository contains the Hugo static site for the MSCA Digital Finance Industrial Doctoral Network, migrated from the original Wix website at [digital-finance-msca.com](https://www.digital-finance-msca.com/).",
+      "keywords": [],
+      "authors": []
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "Python"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-02T03:13:56.988706",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "data",
+        "path": "data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "image_mapping.json",
+        "path": "data/image_mapping.json",
+        "format": ".json",
+        "size_bytes": 504206
+      },
+      {
+        "name": "scrape_progress.json",
+        "path": "data/scrape_progress.json",
+        "format": ".json",
+        "size_bytes": 32249
+      },
+      {
+        "name": "urls.json",
+        "path": "data/urls.json",
+        "format": ".json",
+        "size_bytes": 94959
+      },
+      {
+        "name": "verification_report.txt",
+        "path": "data/verification_report.txt",
+        "format": ".txt",
+        "size_bytes": 142
+      }
+    ]
+  },
+  "ai-in-finance": {
+    "repo_name": "ai-in-finance",
+    "research": {
+      "title": "AI in Finance - UT & ING Collaboration Website",
+      "abstract": "The ING-UT AI in Finance collaboration focuses on advanced AI applications in:\n- Data handling\n- Risk management\n- Business operations within the finance sector",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "University of Twente**: 11 professors and researchers"
+        },
+        {
+          "name": "ING**: 22+ team members"
+        },
+        {
+          "name": "Students**: 9 MSc students, 1 PhD candidate"
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "JavaScript"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-02T03:14:10.791435",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": []
   }
 }

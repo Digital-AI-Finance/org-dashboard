@@ -22,8 +22,8 @@ BSc-level neural networks lecture series
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-29 |
-| Last Updated | 2025-11-30 |
-| Last Push | 2025-11-30 |
+| Last Updated | 2025-12-01 |
+| Last Push | 2025-12-01 |
 | Contributors | 2 |
 | Default Branch | main |
 | Visibility | public |
@@ -48,7 +48,7 @@ BSc-level neural networks lecture series
 
 - Issues: Enabled
 - Wiki: Enabled
-- Pages: Disabled
+- Pages: Enabled
 
 ## README
 

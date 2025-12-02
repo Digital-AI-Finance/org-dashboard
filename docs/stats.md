@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-12-01**
+Last updated: **2025-12-02**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-12-01**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 17 |
-| Active Repositories | 17 |
+| Total Repositories | 22 |
+| Active Repositories | 22 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 18 |
+| Total Contributors | 23 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -25,10 +25,11 @@ Last updated: **2025-12-01**
 
 | Language | Repository Count |
 |----------|------------------|
+| [Python](by-language/python.md) | 6 |
 | [TeX](by-language/tex.md) | 5 |
-| [Python](by-language/python.md) | 3 |
-| [HTML](by-language/html.md) | 3 |
+| [HTML](by-language/html.md) | 4 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 2 |
+| [JavaScript](by-language/javascript.md) | 1 |
 
 
 ---
@@ -55,8 +56,8 @@ Last updated: **2025-12-01**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 16 |
-| MIT License | 1 |
+| No License | 20 |
+| MIT License | 2 |
 
 
 ---
@@ -83,16 +84,16 @@ Last updated: **2025-12-01**
 
 | Repository | Last Push |
 |------------|-----------|
-| [ShareBuybacks](repos/ShareBuybacks.md) | 2025-11-30 |
-| [org-dashboard](repos/org-dashboard.md) | 2025-11-30 |
-| [Anomaly_and_Fraud_Detection_in_Blockchain_Networks](repos/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.md) | 2025-11-30 |
-| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-11-30 |
-| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-11-30 |
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-11-30 |
-| [Statistics](repos/Statistics.md) | 2025-11-30 |
-| [Natural-Language-Processing-Decoding-Strategies](repos/Natural-Language-Processing-Decoding-Strategies.md) | 2025-11-30 |
-| [Publications](repos/Publications.md) | 2025-11-30 |
-| [quantlet-branding-tools](repos/quantlet-branding-tools.md) | 2025-11-30 |
+| [ai-in-finance](repos/ai-in-finance.md) | 2025-12-01 |
+| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-01 |
+| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-01 |
+| [network-based-credit-risk-models](repos/network-based-credit-risk-models.md) | 2025-12-01 |
+| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-12-01 |
+| [neural-networks](repos/neural-networks.md) | 2025-12-01 |
+| [book-next-word-prediction](repos/book-next-word-prediction.md) | 2025-12-01 |
+| [Narrative-Digital-Finance](repos/Narrative-Digital-Finance.md) | 2025-12-01 |
+| [Anomaly_and_Fraud_Detection_in_Blockchain_Networks](repos/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.md) | 2025-12-01 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-01 |
 
 
 ---

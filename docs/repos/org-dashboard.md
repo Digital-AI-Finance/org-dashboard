@@ -22,8 +22,8 @@ Automated dashboard for monitoring all repositories in the Digital-AI-Finance or
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-21 |
-| Last Updated | 2025-11-30 |
-| Last Push | 2025-11-30 |
+| Last Updated | 2025-12-01 |
+| Last Push | 2025-12-01 |
 | Contributors | 2 |
 | Default Branch | main |
 | Visibility | public |
@@ -46,33 +46,33 @@ This repository includes 20 dataset(s):
 
 | [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 4.05 KB |
 
-| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 33.0 KB |
+| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 35.7 KB |
 
 | [citation_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_report.json) | .json | 3.33 KB |
 
-| [code_quality_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/code_quality_report.json) | .json | 7.75 KB |
+| [code_quality_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/code_quality_report.json) | .json | 8.25 KB |
 
-| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/collaboration_network.json) | .json | 2.96 KB |
+| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/collaboration_network.json) | .json | 3.02 KB |
 
-| [ml_topic_analysis.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/ml_topic_analysis.json) | .json | 16.63 KB |
+| [ml_topic_analysis.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/ml_topic_analysis.json) | .json | 17.43 KB |
 
-| [repos.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repos.json) | .json | 155.62 KB |
+| [repos.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repos.json) | .json | 156.74 KB |
 
-| [repository_health_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repository_health_report.json) | .json | 23.61 KB |
+| [repository_health_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repository_health_report.json) | .json | 25.09 KB |
 
-| [reproducibility_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/reproducibility_report.json) | .json | 18.15 KB |
+| [reproducibility_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/reproducibility_report.json) | .json | 18.81 KB |
 
 | [research_metadata.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/research_metadata.json) | .json | 58.47 KB |
 
-| [search_index.pkl](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/search_index.pkl) | .pkl | 123.42 KB |
+| [search_index.pkl](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/search_index.pkl) | .pkl | 123.4 KB |
 
-| [stats.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/stats.json) | .json | 2.63 KB |
+| [stats.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/stats.json) | .json | 2.68 KB |
 
 | [data](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data) |  | 0.0 KB |
 
-| [search_data.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data/search_data.json) | .json | 367.51 KB |
+| [search_data.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data/search_data.json) | .json | 368.72 KB |
 
-| [search_data_minimal.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data/search_data_minimal.json) | .json | 262.68 KB |
+| [search_data_minimal.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data/search_data_minimal.json) | .json | 263.88 KB |
 
 | [citation_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/visualizations/citation_network.json) | .json | 0.33 KB |
 

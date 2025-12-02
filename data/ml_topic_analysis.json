@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-12-01T03:33:00.500107",
-  "total_repositories": 17,
-  "analyzed_repositories": 14,
+  "generated_at": "2025-12-02T03:14:46.078822",
+  "total_repositories": 22,
+  "analyzed_repositories": 19,
   "methods": {
     "nmf": {
       "method": "NMF",
@@ -10,152 +10,152 @@
         {
           "topic_id": 0,
           "words": [
-            "course",
-            "learning",
-            "week",
-            "pedagogy",
-            "week curriculum",
-            "nlp course",
-            "grams",
-            "transformers complete",
-            "transformers",
-            "discovery"
+            "finance",
+            "digital",
+            "ai",
+            "ai finance",
+            "website",
+            "digital finance",
+            "ing",
+            "finance ut",
+            "collaboration website",
+            "ut ing"
           ],
           "weights": [
-            0.4183659120067238,
-            0.34191250364453457,
-            0.3119730616211333,
-            0.3119730616211333,
-            0.1923732262598146,
-            0.1923732262598146,
-            0.1923732262598146,
-            0.1923732262598146,
-            0.1923732262598146,
-            0.1923732262598146
+            0.45878434498142195,
+            0.3841880109247372,
+            0.371732701348092,
+            0.33681843220465896,
+            0.30788922273735075,
+            0.2776727087062719,
+            0.20471753842077045,
+            0.20471753842077045,
+            0.20471753842077045,
+            0.20471753842077045
           ],
-          "label": "course & learning & week"
+          "label": "finance & digital & ai"
         },
         {
           "topic_id": 1,
           "words": [
-            "ai",
-            "digital",
-            "finance",
+            "credit",
+            "credit risk",
+            "risk",
             "network",
-            "automated",
-            "repositories",
-            "organization",
-            "monitoring repositories",
-            "monitoring",
-            "digital ai"
+            "models",
+            "explainable ai",
+            "risk prediction",
+            "models credit",
+            "prediction",
+            "network models"
           ],
           "weights": [
-            0.2813206416948166,
-            0.24962796386846306,
-            0.22194543295197028,
-            0.186018265306425,
-            0.15014422694009655,
-            0.1497706843365087,
-            0.1497706843365087,
-            0.1497706843365087,
-            0.1497706843365087,
-            0.1497706843365087
+            0.402550576055003,
+            0.402550576055003,
+            0.402550576055003,
+            0.3732092326402341,
+            0.3322117838016931,
+            0.23630761300952566,
+            0.23630761300952566,
+            0.23630761300952566,
+            0.23630761300952566,
+            0.23630761300952566
           ],
-          "label": "ai & digital & finance"
+          "label": "credit & credit risk & risk"
         },
         {
           "topic_id": 2,
           "words": [
-            "networks",
-            "neural",
-            "neural networks",
-            "networks lecture",
-            "series",
-            "lecture series",
-            "lecture",
-            "level",
-            "level neural",
-            "bsc"
+            "course",
+            "pedagogy",
+            "week",
+            "learning",
+            "nlp",
+            "discovery",
+            "transformers",
+            "curriculum",
+            "discovery based",
+            "based pedagogy"
           ],
           "weights": [
-            0.25069604697728654,
-            0.25062778924987916,
-            0.2479054248770652,
-            0.1865516696992007,
-            0.1865516696992007,
-            0.1865516696992007,
-            0.1865516696992007,
-            0.1865516696992007,
-            0.1865516696992007,
-            0.1865516696992007
+            0.3130072928168242,
+            0.23172518211710705,
+            0.23172518211710705,
+            0.226089509546952,
+            0.18356609887560466,
+            0.1489369475827239,
+            0.1489369475827239,
+            0.1489369475827239,
+            0.1489369475827239,
+            0.1489369475827239
           ],
-          "label": "networks & neural & neural networks"
+          "label": "course & pedagogy & week"
         },
         {
           "topic_id": 3,
           "words": [
             "trading",
-            "trading analysis",
-            "microstructure research",
-            "microstructure",
+            "frequency trading",
             "frequency",
-            "high frequency",
+            "trading analysis",
             "high",
-            "market",
-            "market microstructure",
-            "analysis market"
+            "high frequency",
+            "analysis",
+            "analysis market",
+            "microstructure",
+            "microstructure research"
           ],
           "weights": [
-            0.309760578429491,
-            0.19787867403171197,
-            0.19787867403171197,
-            0.19787867403171197,
-            0.19787867403171197,
-            0.19787867403171197,
-            0.19787867403171197,
-            0.19787867403171197,
-            0.19787867403171197,
-            0.19787867403171197
+            0.3235064704749555,
+            0.21173268877701729,
+            0.21173268877701729,
+            0.21173268877701729,
+            0.21173268877701729,
+            0.21173268877701729,
+            0.21173268877701729,
+            0.21173268877701729,
+            0.21173268877701729,
+            0.21173268877701729
           ],
-          "label": "trading & trading analysis & microstructure research"
+          "label": "trading & frequency trading & frequency"
         },
         {
           "topic_id": 4,
           "words": [
-            "undergraduate courses",
-            "task oriented",
-            "task",
-            "undergraduate",
-            "oriented",
-            "materials undergraduate",
-            "oriented nlp",
-            "nlp educational",
-            "materials",
-            "educational"
+            "networks",
+            "neural networks",
+            "level",
+            "neural",
+            "series",
+            "lecture series",
+            "networks lecture",
+            "level neural",
+            "bsc level",
+            "lecture"
           ],
           "weights": [
-            0.23136618991216487,
-            0.23136618991216487,
-            0.23136618991216487,
-            0.23136618991216487,
-            0.23136618991216487,
-            0.23136618991216487,
-            0.23136618991216487,
-            0.23136618991216487,
-            0.23136618991216487,
-            0.23136618991216487
+            0.2906797372747714,
+            0.278864994963772,
+            0.2628807391873323,
+            0.2529902817806643,
+            0.21760654216798053,
+            0.21760654216798053,
+            0.21760654216798053,
+            0.21760654216798053,
+            0.21760654216798053,
+            0.21760654216798053
           ],
-          "label": "undergraduate courses & task oriented & task"
+          "label": "networks & neural networks & level"
         }
       ],
       "repository_topics": [
         {
           "repository": "org-dashboard",
-          "dominant_topic": 1,
-          "topic_strength": 0.7520395338863716,
+          "dominant_topic": 0,
+          "topic_strength": 0.40625284487205027,
           "topic_distribution": [
+            0.40625284487205027,
             0.0,
-            0.7520395338863716,
             0.0,
             0.0,
             0.0
@@ -163,12 +163,12 @@
         },
         {
           "repository": "portfolio-optimization-ml",
-          "dominant_topic": 0,
-          "topic_strength": 0.2595361918129752,
+          "dominant_topic": 2,
+          "topic_strength": 0.30446885131146967,
           "topic_distribution": [
-            0.2595361918129752,
             0.0,
             0.0,
+            0.30446885131146967,
             0.0,
             0.0
           ]
@@ -176,149 +176,209 @@
         {
           "repository": "credit-risk-prediction",
           "dominant_topic": 1,
-          "topic_strength": 0.39271908420596396,
+          "topic_strength": 0.5491308533764052,
           "topic_distribution": [
             0.0,
-            0.39271908420596396,
-            0.2284088732448874,
+            0.5491308533764052,
             0.0,
-            0.0
+            0.0,
+            0.029370919764328804
           ]
         },
         {
           "repository": "market-microstructure",
           "dominant_topic": 3,
-          "topic_strength": 0.7523225852232513,
+          "topic_strength": 0.7506888034895318,
           "topic_distribution": [
             0.0,
-            0.007211040415848739,
             0.0,
-            0.7523225852232513,
-            4.76420656773649e-39
+            0.0,
+            0.7506888034895318,
+            0.0
           ]
         },
         {
           "repository": "Green-Finance",
-          "dominant_topic": 0,
-          "topic_strength": 0.5256651352192011,
+          "dominant_topic": 2,
+          "topic_strength": 0.6727406596453477,
           "topic_distribution": [
-            0.5256651352192011,
-            0.010997111601358316,
+            0.012715551052531469,
             0.0,
-            0.009145031312674391,
+            0.6727406596453477,
+            0.009018920707246645,
             0.0
           ]
         },
         {
           "repository": "Natural-Language-Processing",
-          "dominant_topic": 0,
-          "topic_strength": 0.43850408864985047,
+          "dominant_topic": 2,
+          "topic_strength": 0.6296493422081085,
           "topic_distribution": [
-            0.43850408864985047,
             0.0,
+            0.014452949305225123,
+            0.6296493422081085,
             0.0,
-            0.0,
-            0.06465906243706275
+            0.0
           ]
         },
         {
           "repository": "neural-networks",
-          "dominant_topic": 2,
-          "topic_strength": 0.7688888800206312,
+          "dominant_topic": 4,
+          "topic_strength": 0.5722482375022244,
           "topic_distribution": [
-            0.06349032632883071,
             0.0,
-            0.7688888800206312,
+            0.00509888929707546,
+            0.11699623053987193,
             0.0,
-            0.0
+            0.5722482375022244
           ]
         },
         {
           "repository": "ShareBuybacks",
           "dominant_topic": 3,
-          "topic_strength": 0.7033727824633955,
+          "topic_strength": 0.6541192889512716,
           "topic_distribution": [
-            0.008853897048404212,
             0.0,
             0.0,
-            0.7033727824633955,
+            0.012752046817775822,
+            0.6541192889512716,
             0.0
           ]
         },
         {
           "repository": "quantlet-branding-tools",
-          "dominant_topic": 1,
-          "topic_strength": 0.15968661521008023,
+          "dominant_topic": 2,
+          "topic_strength": 0.08975828409627278,
           "topic_distribution": [
-            0.04919646648755968,
-            0.15968661521008023,
+            0.0440169158208508,
             0.0,
+            0.08975828409627278,
             0.0,
-            0.0
+            0.003090719771129664
           ]
         },
         {
           "repository": "demo-repository",
-          "dominant_topic": 0,
-          "topic_strength": 0.0,
+          "dominant_topic": 3,
+          "topic_strength": 7.390368921076042e-05,
           "topic_distribution": [
             0.0,
             0.0,
             0.0,
-            0.0,
+            7.390368921076042e-05,
             0.0
           ]
         },
         {
           "repository": "neural-networks-introduction",
-          "dominant_topic": 2,
-          "topic_strength": 0.8537034405843184,
+          "dominant_topic": 4,
+          "topic_strength": 0.7325393076461714,
           "topic_distribution": [
             0.0,
             0.0,
-            0.8537034405843184,
             0.0,
-            0.0
+            0.0,
+            0.7325393076461714
           ]
         },
         {
           "repository": "Natural-Language-Processing-Details",
-          "dominant_topic": 4,
-          "topic_strength": 1.2070232573474846,
+          "dominant_topic": 2,
+          "topic_strength": 0.21789027627676832,
           "topic_distribution": [
             0.0,
             0.0,
+            0.21789027627676832,
             0.0,
-            0.0,
-            1.2070232573474846
+            0.0
           ]
         },
         {
           "repository": "digital-ai-in-finance",
-          "dominant_topic": 1,
-          "topic_strength": 0.7822521306765052,
+          "dominant_topic": 0,
+          "topic_strength": 0.3642477520912322,
           "topic_distribution": [
+            0.3642477520912322,
+            0.05381758012812138,
             0.0,
-            0.7822521306765052,
-            0.0,
-            0.022454312173128474,
-            3.0066399785328777e-37
+            0.0055878434826777314,
+            0.0
           ]
         },
         {
           "repository": "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-          "dominant_topic": 2,
-          "topic_strength": 0.2822632057959709,
+          "dominant_topic": 4,
+          "topic_strength": 0.26501073328968183,
+          "topic_distribution": [
+            0.003062383505851753,
+            0.0,
+            0.0,
+            0.09769625786137381,
+            0.26501073328968183
+          ]
+        },
+        {
+          "repository": "book-next-word-prediction",
+          "dominant_topic": 4,
+          "topic_strength": 0.37527929718906267,
+          "topic_distribution": [
+            0.00285325548919115,
+            0.018445769307473856,
+            0.0,
+            0.0,
+            0.37527929718906267
+          ]
+        },
+        {
+          "repository": "Narrative-Digital-Finance",
+          "dominant_topic": 0,
+          "topic_strength": 0.2075183255558556,
+          "topic_distribution": [
+            0.2075183255558556,
+            0.10307208743848881,
+            0.0,
+            0.15183699045634022,
+            0.0
+          ]
+        },
+        {
+          "repository": "network-based-credit-risk-models",
+          "dominant_topic": 1,
+          "topic_strength": 0.5820331509534171,
           "topic_distribution": [
             0.0,
+            0.5820331509534171,
+            0.010084023003258311,
+            0.005739311563610451,
+            0.0
+          ]
+        },
+        {
+          "repository": "msca-digital-finance",
+          "dominant_topic": 0,
+          "topic_strength": 0.36008976369453394,
+          "topic_distribution": [
+            0.36008976369453394,
             0.0,
-            0.2822632057959709,
-            0.14455021145605598,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repository": "ai-in-finance",
+          "dominant_topic": 0,
+          "topic_strength": 0.39600853470608,
+          "topic_distribution": [
+            0.39600853470608,
+            0.0,
+            0.0,
+            0.0,
             0.0
           ]
         }
       ],
-      "vocabulary_size": 233,
+      "vocabulary_size": 304,
       "visualizations": {
         "distribution": "docs/visualizations/topic_distribution_nmf.html",
         "words": "docs/visualizations/topic_words_nmf.html"
@@ -331,316 +391,376 @@
         {
           "topic_id": 0,
           "words": [
-            "nlp",
-            "materials undergraduate",
-            "undergraduate courses",
+            "network",
             "ai",
-            "workshop",
-            "pedagogy",
-            "ccg application",
-            "repository designed",
-            "oriented",
-            "workshop swiss"
+            "credit risk",
+            "research",
+            "models",
+            "risk",
+            "digital finance",
+            "finance",
+            "digital",
+            "credit"
           ],
           "weights": [
-            2.1919232401297353,
-            1.2016458679578141,
-            1.2001629396290086,
-            1.2000902330177576,
-            1.1999091313795014,
-            1.1997046150362276,
-            1.1995277203901817,
-            1.1994708958853464,
-            1.1994525090819785,
-            1.1993901650065761
+            3.1846932460401276,
+            2.1941047834384184,
+            2.193212425671873,
+            2.1930679434176064,
+            2.1923644500137027,
+            2.1923055355024723,
+            2.192082345490212,
+            2.191866279342181,
+            2.191574415307716,
+            2.191324372706925
           ],
-          "label": "nlp & materials undergraduate & undergraduate courses"
+          "label": "network & ai & credit risk"
         },
         {
           "topic_id": 1,
           "words": [
-            "trading",
-            "high frequency",
-            "market",
-            "trading analysis",
-            "high",
-            "analysis market",
-            "research",
-            "frequency",
-            "microstructure research",
-            "microstructure"
+            "learning",
+            "models",
+            "using",
+            "predicting",
+            "real",
+            "data",
+            "visualizations",
+            "reinforcement",
+            "applications",
+            "optimization using"
           ],
           "weights": [
-            1.2003168586841981,
-            1.2002744506155827,
-            1.1990432914869797,
-            1.1990313903246363,
-            1.1989734290060725,
-            1.1989681115333821,
-            1.198801618672301,
-            1.1987512935113607,
-            1.198547216117795,
-            1.198419173759633
+            2.1922606203508668,
+            2.192257806790473,
+            2.1914354402284384,
+            1.200310044270382,
+            1.2001943691545567,
+            1.199934851938527,
+            1.1998373282257724,
+            1.1997070561954595,
+            1.199607940688983,
+            1.199582293365161
           ],
-          "label": "trading & high frequency & market"
+          "label": "learning & models & using"
         },
         {
           "topic_id": 2,
           "words": [
-            "neural",
-            "networks",
             "neural networks",
-            "beamer",
-            "models",
-            "qr codes",
-            "credit",
-            "clickable urls",
-            "branding logo",
-            "branding"
+            "bsc",
+            "github offer",
+            "code",
+            "neural",
+            "best github",
+            "bsc level",
+            "offer",
+            "repository",
+            "github"
           ],
           "weights": [
-            3.1846374386279668,
-            2.191569191971731,
-            2.1912655158237904,
-            2.1905537897606617,
-            2.190416943284708,
-            1.2001251657736276,
-            1.2000032540382233,
-            1.1999256700716714,
-            1.1998845448205018,
-            1.199684225326974
+            1.200108531636715,
+            1.1999719345427124,
+            1.1997804673988726,
+            1.199544566479138,
+            1.1992354940600642,
+            1.1991855766995567,
+            1.1991502840747523,
+            1.1988386554023114,
+            1.1987801558728814,
+            1.1987765047444268
           ],
-          "label": "neural & networks & neural networks"
+          "label": "neural networks & bsc & github offer"
         },
         {
           "topic_id": 3,
           "words": [
-            "pi",
-            "joerg osterrieder",
-            "anomaly fraud",
-            "networks research",
-            "research",
-            "osterrieder",
-            "blockchain networks",
-            "fraud",
-            "joerg",
-            "chan pi"
+            "finance",
+            "course",
+            "week",
+            "pedagogy",
+            "finance ut",
+            "nlp",
+            "transformers",
+            "ing collaboration",
+            "week course",
+            "certificate"
           ],
           "weights": [
-            2.190976851824736,
-            1.1999530823028643,
-            1.1995401553099785,
-            1.1995170707944818,
-            1.1992229513950636,
-            1.1991680826761906,
-            1.1991258403612741,
-            1.198734022914907,
-            1.1985263820447531,
-            1.1983766122934703
+            3.1862227360310826,
+            3.1848700714444123,
+            2.1913661495944323,
+            2.190867755602064,
+            1.2001708668077704,
+            1.2000951166717047,
+            1.1997582440572285,
+            1.199712583412042,
+            1.1996948451891911,
+            1.1996713958166194
           ],
-          "label": "pi & joerg osterrieder & anomaly fraud"
+          "label": "finance & course & week"
         },
         {
           "topic_id": 4,
           "words": [
-            "learning",
-            "course",
-            "app",
-            "finance",
-            "portfolio optimization",
-            "certificate week",
-            "driven pedagogy",
-            "beamer slides",
+            "pi",
+            "research",
+            "automated",
+            "trading",
+            "repositories",
+            "codes clickable",
+            "repositories digital",
+            "simulation",
             "monitoring repositories",
-            "approaches"
+            "tools"
           ],
           "weights": [
-            3.1842699808813117,
-            2.1933221615085783,
-            2.1915997889879257,
-            2.191490206625401,
-            1.200004305286195,
-            1.199975221126762,
-            1.1998086259717915,
-            1.19967067574809,
-            1.1995469080700858,
-            1.1994911572129825
+            2.1933596752258375,
+            2.1910987311834895,
+            2.1910300090463406,
+            2.190556186529597,
+            1.200108171530518,
+            1.2000342807958932,
+            1.1999345586154302,
+            1.1998477821304547,
+            1.1998355433921994,
+            1.1998098349503494
           ],
-          "label": "learning & course & app"
+          "label": "pi & research & automated"
         }
       ],
       "repository_topics": [
         {
           "repository": "org-dashboard",
           "dominant_topic": 4,
-          "topic_strength": 0.9498753657584628,
+          "topic_strength": 0.9496698218314213,
           "topic_distribution": [
-            0.012568175239787637,
-            0.012505255633750831,
-            0.012546674531630247,
-            0.012504528836368456,
-            0.9498753657584628
+            0.01267265256398344,
+            0.012502890770080084,
+            0.012504497889521585,
+            0.01265013694499357,
+            0.9496698218314213
           ]
         },
         {
           "repository": "portfolio-optimization-ml",
-          "dominant_topic": 4,
-          "topic_strength": 0.9555255347160276,
+          "dominant_topic": 1,
+          "topic_strength": 0.9555353783707722,
           "topic_distribution": [
-            0.011113577016910446,
-            0.011115537254284257,
-            0.01113042938267337,
-            0.01111492163010436,
-            0.9555255347160276
+            0.011112897833659275,
+            0.9555353783707722,
+            0.011114183034147301,
+            0.011124755617370799,
+            0.011112785144050431
           ]
         },
         {
           "repository": "credit-risk-prediction",
-          "dominant_topic": 2,
-          "topic_strength": 0.9499128584273555,
+          "dominant_topic": 0,
+          "topic_strength": 0.9498872606439334,
           "topic_distribution": [
-            0.012554503220138203,
-            0.012504983728022417,
-            0.9499128584273555,
-            0.012504227291320636,
-            0.012523427333163277
+            0.9498872606439334,
+            0.012551273104554266,
+            0.012540655948522012,
+            0.012510304682276204,
+            0.012510505620714148
           ]
         },
         {
           "repository": "market-microstructure",
-          "dominant_topic": 1,
-          "topic_strength": 0.9427970629183406,
+          "dominant_topic": 4,
+          "topic_strength": 0.9427706313329509,
           "topic_distribution": [
-            0.014303012696232444,
-            0.9427970629183406,
-            0.01428705867224624,
-            0.014312778549899591,
-            0.014300087163281076
+            0.014319570139208529,
+            0.01428888821359398,
+            0.014290578130702357,
+            0.014330332183544263,
+            0.9427706313329509
           ]
         },
         {
           "repository": "Green-Finance",
-          "dominant_topic": 4,
-          "topic_strength": 0.9777377435381099,
+          "dominant_topic": 3,
+          "topic_strength": 0.9777351678792963,
           "topic_distribution": [
-            0.005573085424381474,
-            0.00555774415231888,
-            0.00557397935433293,
-            0.005557447530856896,
-            0.9777377435381099
+            0.005559445902709104,
+            0.005581970962636067,
+            0.005557435067608042,
+            0.9777351678792963,
+            0.00556598018775049
           ]
         },
         {
           "repository": "Natural-Language-Processing",
-          "dominant_topic": 0,
-          "topic_strength": 0.9599170973212064,
+          "dominant_topic": 3,
+          "topic_strength": 0.9599396785449466,
           "topic_distribution": [
-            0.9599170973212064,
-            0.010003516557012882,
-            0.010024592959069508,
-            0.010003026252229907,
-            0.01005176691048129
+            0.010031670416542958,
+            0.010023420646470826,
+            0.010003391161696278,
+            0.9599396785449466,
+            0.010001839230343335
           ]
         },
         {
           "repository": "neural-networks",
-          "dominant_topic": 2,
-          "topic_strength": 0.9749521048265152,
+          "dominant_topic": 1,
+          "topic_strength": 0.9749239702144282,
           "topic_distribution": [
-            0.006263536444125305,
-            0.006252405592656435,
-            0.9749521048265152,
-            0.006256194676879666,
-            0.00627575845982347
+            0.0062602502845873105,
+            0.9749239702144282,
+            0.006276143098832932,
+            0.006280072852585471,
+            0.006259563549566019
           ]
         },
         {
           "repository": "ShareBuybacks",
           "dominant_topic": 4,
-          "topic_strength": 0.9555050058971771,
+          "topic_strength": 0.9555279420397333,
           "topic_distribution": [
-            0.011113704064711046,
-            0.011152848161687655,
-            0.011113308143190294,
-            0.011115133733233928,
-            0.9555050058971771
+            0.01111341492538281,
+            0.011113696730317701,
+            0.011115079012995908,
+            0.011129867291570231,
+            0.9555279420397333
           ]
         },
         {
           "repository": "quantlet-branding-tools",
-          "dominant_topic": 2,
-          "topic_strength": 0.9692101969420198,
+          "dominant_topic": 4,
+          "topic_strength": 0.9692058871936945,
           "topic_distribution": [
-            0.007694081767416439,
-            0.007695535691964355,
-            0.9692101969420198,
-            0.007695077614723778,
-            0.007705107983875628
+            0.007693914153881638,
+            0.00770360338807303,
+            0.007695088196182123,
+            0.007701507068168771,
+            0.9692058871936945
           ]
         },
         {
           "repository": "demo-repository",
-          "dominant_topic": 0,
-          "topic_strength": 0.933316104864322,
+          "dominant_topic": 2,
+          "topic_strength": 0.9333255197987519,
           "topic_distribution": [
-            0.933316104864322,
-            0.016672859787771693,
-            0.016669566089788833,
-            0.016671968209016785,
-            0.016669501049100543
+            0.01666863420572268,
+            0.016668881633391072,
+            0.9333255197987519,
+            0.016668460722382122,
+            0.01666850363975215
           ]
         },
         {
           "repository": "neural-networks-introduction",
           "dominant_topic": 2,
-          "topic_strength": 0.9332841966784635,
+          "topic_strength": 0.9331713572187884,
           "topic_distribution": [
-            0.016669992347445605,
-            0.01667264238576542,
-            0.9332841966784635,
-            0.016703756987925904,
-            0.016669411600399506
+            0.01669143503798241,
+            0.016778851786660456,
+            0.9331713572187884,
+            0.016668475902255158,
+            0.016689880054313704
           ]
         },
         {
           "repository": "Natural-Language-Processing-Details",
           "dominant_topic": 0,
-          "topic_strength": 0.9428430094922241,
+          "topic_strength": 0.9428171186526905,
           "topic_distribution": [
-            0.9428430094922241,
-            0.014290865243394717,
-            0.014288067739276867,
-            0.014290027206382803,
-            0.01428803031872152
+            0.9428171186526905,
+            0.014288973585402457,
+            0.014290688039677306,
+            0.014314802484079214,
+            0.014288417238150462
           ]
         },
         {
           "repository": "digital-ai-in-finance",
           "dominant_topic": 0,
-          "topic_strength": 0.959870997189361,
+          "topic_strength": 0.9599053378466522,
           "topic_distribution": [
-            0.959870997189361,
-            0.010028219308146728,
-            0.010024644837073826,
-            0.010024196968340789,
-            0.010051941697077868
+            0.9599053378466522,
+            0.010001835523508373,
+            0.010002806134138134,
+            0.010059034473046478,
+            0.010030986022654747
           ]
         },
         {
           "repository": "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-          "dominant_topic": 3,
-          "topic_strength": 0.9666335178054484,
+          "dominant_topic": 4,
+          "topic_strength": 0.966616022322972,
           "topic_distribution": [
-            0.008340310984904438,
-            0.008346045716003886,
-            0.008345934190164892,
-            0.9666335178054484,
-            0.008334191303478525
+            0.008344989052377898,
+            0.008346389722983835,
+            0.0083538004287248,
+            0.008338798472941533,
+            0.966616022322972
+          ]
+        },
+        {
+          "repository": "book-next-word-prediction",
+          "dominant_topic": 1,
+          "topic_strength": 0.9599473707861106,
+          "topic_distribution": [
+            0.010013880622936584,
+            0.9599473707861106,
+            0.01002445294312705,
+            0.010012679403766375,
+            0.01000161624405941
+          ]
+        },
+        {
+          "repository": "Narrative-Digital-Finance",
+          "dominant_topic": 3,
+          "topic_strength": 0.974893010413567,
+          "topic_distribution": [
+            0.006321317810526295,
+            0.006257769261550403,
+            0.006252320371702641,
+            0.974893010413567,
+            0.00627558214265373
+          ]
+        },
+        {
+          "repository": "network-based-credit-risk-models",
+          "dominant_topic": 0,
+          "topic_strength": 0.9599042443706344,
+          "topic_distribution": [
+            0.9599042443706344,
+            0.01001709838386523,
+            0.01000282865803751,
+            0.010061633338090714,
+            0.01001419524937212
+          ]
+        },
+        {
+          "repository": "msca-digital-finance",
+          "dominant_topic": 0,
+          "topic_strength": 0.9554771521309234,
+          "topic_distribution": [
+            0.9554771521309234,
+            0.011113378852505615,
+            0.011114566562890567,
+            0.011168238916786553,
+            0.01112666353689373
+          ]
+        },
+        {
+          "repository": "ai-in-finance",
+          "dominant_topic": 3,
+          "topic_strength": 0.9330421244886449,
+          "topic_distribution": [
+            0.01685151016430046,
+            0.016670538379817867,
+            0.01667257605685525,
+            0.9330421244886449,
+            0.01676325091038153
           ]
         }
       ],
-      "vocabulary_size": 233,
-      "perplexity": 432.4519811574447,
+      "vocabulary_size": 304,
+      "perplexity": 530.7800896383641,
       "visualizations": {
         "distribution": "docs/visualizations/topic_distribution_lda.html",
         "words": "docs/visualizations/topic_words_lda.html"

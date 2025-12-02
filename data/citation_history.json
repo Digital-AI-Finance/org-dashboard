@@ -209,6 +209,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "portfolio-optimization-ml": [
@@ -403,6 +410,13 @@
     },
     {
       "timestamp": "2025-12-01T03:32:59.831030",
+      "external_citations": 16,
+      "publications_count": 2,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
       "external_citations": 16,
       "publications_count": 2,
       "stars": 0,
@@ -605,6 +619,13 @@
       "publications_count": 2,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 2,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "market-microstructure": [
@@ -799,6 +820,13 @@
     },
     {
       "timestamp": "2025-12-01T03:32:59.831030",
+      "external_citations": 0,
+      "publications_count": 3,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
       "external_citations": 0,
       "publications_count": 3,
       "stars": 0,
@@ -1001,6 +1029,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "Natural-Language-Processing": [
@@ -1199,6 +1234,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "neural-networks": [
@@ -1278,6 +1320,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "ShareBuybacks": [
@@ -1336,6 +1385,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "quantlet-branding-tools": [
@@ -1387,6 +1443,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "demo-repository": [
@@ -1420,6 +1483,13 @@
     },
     {
       "timestamp": "2025-12-01T03:32:59.831030",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
       "external_citations": 0,
       "publications_count": 0,
       "stars": 0,
@@ -1461,6 +1531,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "Natural-Language-Processing-Details": [
@@ -1494,6 +1571,13 @@
     },
     {
       "timestamp": "2025-12-01T03:32:59.831030",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
       "external_citations": 0,
       "publications_count": 0,
       "stars": 0,
@@ -1535,6 +1619,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "Publications": [
@@ -1554,6 +1645,13 @@
     },
     {
       "timestamp": "2025-12-01T03:32:59.831030",
+      "external_citations": 0,
+      "publications_count": 1,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
       "external_citations": 0,
       "publications_count": 1,
       "stars": 0,
@@ -1581,6 +1679,13 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "Statistics": [
@@ -1604,11 +1709,70 @@
       "publications_count": 0,
       "stars": 0,
       "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
     }
   ],
   "Anomaly_and_Fraud_Detection_in_Blockchain_Networks": [
     {
       "timestamp": "2025-12-01T03:32:59.831030",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    }
+  ],
+  "book-next-word-prediction": [
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    }
+  ],
+  "Narrative-Digital-Finance": [
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    }
+  ],
+  "network-based-credit-risk-models": [
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    }
+  ],
+  "msca-digital-finance": [
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
+      "external_citations": 0,
+      "publications_count": 0,
+      "stars": 0,
+      "forks": 0
+    }
+  ],
+  "ai-in-finance": [
+    {
+      "timestamp": "2025-12-02T03:14:45.471084",
       "external_citations": 0,
       "publications_count": 0,
       "stars": 0,

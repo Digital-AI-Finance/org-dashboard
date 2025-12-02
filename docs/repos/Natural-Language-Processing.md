@@ -22,8 +22,8 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-22 |
-| Last Updated | 2025-11-30 |
-| Last Push | 2025-11-30 |
+| Last Updated | 2025-12-01 |
+| Last Push | 2025-12-01 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | private |
@@ -33,14 +33,10 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 
 ## Notebooks
 
-This repository contains 37 notebook(s):
+This repository contains 35 notebook(s):
 
 | Notebook | Language | Type |
 |----------|----------|------|
-
-| [shakespeare_sonnets_simple_bsc-checkpoint](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/.ipynb_checkpoints/shakespeare_sonnets_simple_bsc-checkpoint.ipynb) | PYTHON | jupyter |
-
-| [week01_ngrams_bsc-checkpoint](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/.ipynb_checkpoints/week01_ngrams_bsc-checkpoint.ipynb) | PYTHON | jupyter |
 
 | [llm_summarization_lab](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/NLP_slides/summarization_module/lab/llm_summarization_lab.ipynb) | PYTHON | jupyter |
 

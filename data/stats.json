@@ -1,18 +1,19 @@
 {
-  "generated_at": "2025-12-01T03:32:59.823260",
-  "total_repos": 17,
-  "active_repos": 17,
+  "generated_at": "2025-12-02T03:14:45.460101",
+  "total_repos": 22,
+  "active_repos": 22,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 18,
+  "total_contributors": 23,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
+    "Python": 6,
     "TeX": 5,
-    "Python": 3,
-    "HTML": 3,
-    "Jupyter Notebook": 2
+    "HTML": 4,
+    "Jupyter Notebook": 2,
+    "JavaScript": 1
   },
   "topics": {
     "finance": 3,
@@ -27,49 +28,49 @@
     "time-series": 1
   },
   "licenses": {
-    "No License": 16,
-    "MIT License": 1
+    "No License": 20,
+    "MIT License": 2
   },
   "recent_repos": [
     {
-      "name": "ShareBuybacks",
-      "pushed_at": "2025-11-30T21:26:11+00:00"
-    },
-    {
-      "name": "org-dashboard",
-      "pushed_at": "2025-11-30T16:43:50+00:00"
-    },
-    {
-      "name": "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-      "pushed_at": "2025-11-30T16:34:25+00:00"
+      "name": "ai-in-finance",
+      "pushed_at": "2025-12-01T23:20:29+00:00"
     },
     {
       "name": "digital-ai-in-finance",
-      "pushed_at": "2025-11-30T15:27:40+00:00"
+      "pushed_at": "2025-12-01T23:09:05+00:00"
+    },
+    {
+      "name": "msca-digital-finance",
+      "pushed_at": "2025-12-01T23:03:05+00:00"
+    },
+    {
+      "name": "network-based-credit-risk-models",
+      "pushed_at": "2025-12-01T23:02:46+00:00"
     },
     {
       "name": "neural-networks-introduction",
-      "pushed_at": "2025-11-30T15:17:48+00:00"
+      "pushed_at": "2025-12-01T22:56:20+00:00"
+    },
+    {
+      "name": "neural-networks",
+      "pushed_at": "2025-12-01T22:45:19+00:00"
+    },
+    {
+      "name": "book-next-word-prediction",
+      "pushed_at": "2025-12-01T22:40:20+00:00"
+    },
+    {
+      "name": "Narrative-Digital-Finance",
+      "pushed_at": "2025-12-01T22:19:20+00:00"
+    },
+    {
+      "name": "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
+      "pushed_at": "2025-12-01T22:18:06+00:00"
     },
     {
       "name": "Natural-Language-Processing",
-      "pushed_at": "2025-11-30T07:23:18+00:00"
-    },
-    {
-      "name": "Statistics",
-      "pushed_at": "2025-11-30T06:51:33+00:00"
-    },
-    {
-      "name": "Natural-Language-Processing-Decoding-Strategies",
-      "pushed_at": "2025-11-30T06:51:22+00:00"
-    },
-    {
-      "name": "Publications",
-      "pushed_at": "2025-11-30T06:51:05+00:00"
-    },
-    {
-      "name": "quantlet-branding-tools",
-      "pushed_at": "2025-11-30T06:50:42+00:00"
+      "pushed_at": "2025-12-01T09:59:13+00:00"
     }
   ],
   "popular_repos": [
@@ -123,8 +124,8 @@
   "research": {
     "repos_with_papers": 4,
     "repos_with_notebooks": 3,
-    "repos_with_datasets": 10,
+    "repos_with_datasets": 13,
     "total_publications": 8,
-    "total_notebooks": 79
+    "total_notebooks": 77
   }
 }

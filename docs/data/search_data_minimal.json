@@ -11,7 +11,7 @@
         "language": "Python",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.832884"
+      "added_at": "2025-12-02T03:14:45.473135"
     },
     {
       "id": "doc_1",
@@ -23,7 +23,7 @@
         "title": "Automated dashboard for monitoring all repositories in the Digital-AI-Finance organization",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.833453"
+      "added_at": "2025-12-02T03:14:45.473724"
     },
     {
       "id": "doc_2",
@@ -41,7 +41,7 @@
           "reinforcement-learning"
         ]
       },
-      "added_at": "2025-12-01T03:32:59.833475"
+      "added_at": "2025-12-02T03:14:45.473748"
     },
     {
       "id": "doc_3",
@@ -55,24 +55,10 @@
         "doi": "10.1016/j.jfineco.2023.01.001",
         "arxiv_id": null
       },
-      "added_at": "2025-12-01T03:32:59.833575"
+      "added_at": "2025-12-02T03:14:45.473852"
     },
     {
       "id": "doc_4",
-      "content": "The Success of AdaBoost and Its Application in Portfolio Management We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a strong connection between the ION and the test error. We further identify that the ION of AdaBoost decreases as the iteration number or the complexity of the base learners increases. We confirm that it is impossible to obtain a consistent classifier without deep trees as the base learners of AdaBoost in some complicated situations. We apply AdaBoost in portfolio management via empirical studies in the Chinese market, which corroborates our theoretical propositions.",
-      "preview": "The Success of AdaBoost and Its Application in Portfolio Management We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a",
-      "metadata": {
-        "type": "publication",
-        "repo": "portfolio-optimization-ml",
-        "title": "The Success of AdaBoost and Its Application in Portfolio Management",
-        "year": 2021,
-        "doi": null,
-        "arxiv_id": "2103.12345"
-      },
-      "added_at": "2025-12-01T03:32:59.833586"
-    },
-    {
-      "id": "doc_5",
       "content": "We propose a novel deep reinforcement learning approach for portfolio optimization that outperforms traditional mean-variance optimization. Our method uses a Deep Q-Network (DQN) to learn optimal trading strategies from historical market data.",
       "preview": "We propose a novel deep reinforcement learning approach for portfolio optimization that outperforms traditional mean-variance optimization. Our method uses a Deep Q-Network (DQN) to learn optimal trading strategies from historical market data.",
       "metadata": {
@@ -81,10 +67,10 @@
         "title": "Machine learning approaches to portfolio optimization using deep reinforcement learning",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.833628"
+      "added_at": "2025-12-02T03:14:45.473864"
     },
     {
-      "id": "doc_6",
+      "id": "doc_5",
       "content": "# Explainable Credit Risk Prediction\n\nRepository for \"Explainable Neural Networks for Credit Risk Assessment\" (SSRN:3456789).\n\n## Authors\n\n- Maria Garcia (Financial Analytics Lab)\n- Robert Chen (AI Research Center)\n\n## Abstract\n\nWe develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.\n\n## Published Paper\n\n- **SSRN**: https://ssrn.com/abstract=3456789\n- **DOI**: 10.2139/ssrn.3456789\n\n## Dataset\n\nWe use the German Credit Dataset and a proprietary dataset from a major bank:\n- `data/german_credit.csv` - Public German Credit Data\n- `data/features.csv` - Engineered features\n\n## Notebooks\n\n- `notebooks/01_data_exploration.ipynb` - Exploratory data analysis\n- `notebooks/02_feature_engineering.ipynb` - Feature creation and selection\n- `notebooks/03_model_training.ipynb` - Neural network training\n- `notebooks/04_explainability.ipynb` - SHAP analysis and interpretation\n\n## Requirements\n\n```\ntensorflow>=2.8.0\nscikit-learn>=1.0.0\nshap>=0.40.0\npandas>=1.3.0\nmatplotlib>=3.4.0\njupyter>=1.0.0\n```\n\n## Citation\n\n```bibtex\n@article{garcia2023explainable,\n  title={Explainable Neural Networks for Credit Risk Assessment},\n  author={Garcia, Maria and Chen, Robert},\n  journal={SSRN Electronic Journal},\n  year={2023},\n  doi={10.2139/ssrn.3456789}\n}\n```\n\n## Replication\n\nTo replicate our results:\n\n1. Install dependencies: `pip install -r requirements.txt`\n2. Run notebooks in order: `jupyter notebook`\n3. Train model: `python train.py`\n4. Generate predictions: `python predict.py`\n",
       "preview": "# Explainable Credit Risk Prediction\n\nRepository for \"Explainable Neural Networks for Credit Risk Assessment\" (SSRN:3456789).\n\n## Authors\n\n- Maria Garcia (Financial Analytics Lab)\n- Robert Chen (AI Research Center)\n\n## Abstract\n\nWe develop an explainable neural network architecture for credit risk p",
       "metadata": {
@@ -99,10 +85,10 @@
           "neural-networks"
         ]
       },
-      "added_at": "2025-12-01T03:32:59.833645"
+      "added_at": "2025-12-02T03:14:45.473882"
     },
     {
-      "id": "doc_7",
+      "id": "doc_6",
       "content": "We develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.",
       "preview": "We develop an explainable neural network architecture for credit risk prediction that achieves state-of-the-art performance while providing interpretable feature importance scores using SHAP values.",
       "metadata": {
@@ -111,10 +97,10 @@
         "title": "Neural network models for credit risk prediction with explainable AI",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.833737"
+      "added_at": "2025-12-02T03:14:45.473978"
     },
     {
-      "id": "doc_8",
+      "id": "doc_7",
       "content": "# Market Microstructure Analysis\n\nCode repository for \"Price Discovery in High-Frequency Markets\" (Journal of Finance, 2024).\n\n## Authors\n\n- David Lee (Quantitative Finance Department)\n- Sarah Williams (Trading Systems Lab)\n\n## Abstract\n\nWe analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.\n\n## Published Papers\n\n- **Main Paper**: DOI: 10.1111/jofi.2024.12345\n- **Working Paper**: arXiv:2201.67890\n\n## Data\n\n- `data/orderbook/` - Limit order book snapshots (10ms frequency)\n- `data/trades/` - Trade and quote data\n- Total size: ~50GB (available via Zenodo: 10.5281/zenodo.1234567)\n\n## Code Structure\n\n```\nsrc/\n  orderbook.py - Order book reconstruction\n  metrics.py - Microstructure metrics\n  analysis.py - Statistical analysis\nnotebooks/\n  analysis.ipynb - Main analysis notebook\ntests/\n  test_orderbook.py - Unit tests\n```\n\n## Requirements\n\n```\nnumpy>=1.21.0\npandas>=1.3.0\nnumba>=0.55.0\npytest>=6.2.0\n```\n\n## Docker\n\nFor reproducibility, we provide a Docker environment:\n\n```bash\ndocker build -t market-microstructure .\ndocker run -v $(pwd)/data:/data market-microstructure python src/analysis.py\n```\n\n## Citation\n\n```bibtex\n@article{lee2024price,\n  title={Price Discovery in High-Frequency Markets},\n  author={Lee, David and Williams, Sarah},\n  journal={Journal of Finance},\n  year={2024},\n  doi={10.1111/jofi.2024.12345}\n}\n```\n\n## References\n\nThis work cites and extends:\n- Hasbrouck (1991) - Measuring the information content of stock trades\n- Biais et al. (1995) - An empirical analysis of the limit order book\n",
       "preview": "# Market Microstructure Analysis\n\nCode repository for \"Price Discovery in High-Frequency Markets\" (Journal of Finance, 2024).\n\n## Authors\n\n- David Lee (Quantitative Finance Department)\n- Sarah Williams (Trading Systems Lab)\n\n## Abstract\n\nWe analyze price discovery mechanisms in high-frequency tradin",
       "metadata": {
@@ -129,10 +115,10 @@
           "time-series"
         ]
       },
-      "added_at": "2025-12-01T03:32:59.833754"
+      "added_at": "2025-12-02T03:14:45.473996"
     },
     {
-      "id": "doc_9",
+      "id": "doc_8",
       "content": "We analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.",
       "preview": "We analyze price discovery mechanisms in high-frequency trading environments using millisecond-level order book data from major exchanges.",
       "metadata": {
@@ -141,10 +127,10 @@
         "title": "High-frequency trading analysis and market microstructure research",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.833856"
+      "added_at": "2025-12-02T03:14:45.474122"
     },
     {
-      "id": "doc_10",
+      "id": "doc_9",
       "content": "# Green Finance Professional Certificate\n\nAcademic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.\n\n## Live Interactive App\n\n**🌐 https://digital-ai-finance.github.io/Green-Finance**\n\nInteractive Week 1 learning platform with 30 slides, charts, and self-assessment.\n\n---\n\n## Project Overview\n\n### Course Structure\n- **Duration:** 8 weeks\n- **Format:** Academic professional certificate\n- **Pedagogy:** Learning-goal-driven (3 goals per week)\n- **Delivery:** Beamer PDF slides + Interactive web app\n\n### Week 1 Status\n✅ **Complete** - 37 slides, 17 charts, fully validated\n- Core: 30 slides (3 learning goals × 10 slides)\n- Supplementary: 7 empirical validation slides\n- Interactive React app deployed\n\n### Weeks 2-8 Status\n⏳ **Ready for generation** using proven Week 1 template\n\n---\n\n## Quick Start\n\n### View Interactive App\nVisit: **https://digital-ai-finance.github.io/Green-Finance**\n\n### Run Locally\n```bash\ncd react-app\nnpm install\nnpm start\n# Opens at http://localhost:3000\n```\n\n### Compile LaTeX Slides\n```bash\n# Compile Week 1\npdflatex -interaction=nonstopmode 20251121_2306_Week1_v2_GreenFinanceFoundations.tex\npdflatex -interaction=nonstopmode 20251121_2306_Week1_v2_GreenFinanceFoundations.tex\n\n# Clean up auxiliary files\nMove-Item -Path *.aux,*.log,*.out,*.nav,*.toc,*.snm -Destination temp\\ -ErrorAction SilentlyContinue\n```\n\n### Generate Charts\n```powershell\n# Generate all Week 1 charts\nGet-ChildItem charts\\week1\\*.py | ForEach-Object { python $_.FullName }\n\n# Generate Graphviz diagrams (requires Graphviz installed)\nGet-ChildItem charts\\week1\\*.dot | ForEach-Object {\n    dot -Tpdf $_.FullName -o ($_.FullName -replace '\\.dot$','.pdf')\n}\n```\n\n---\n\n## Repository Structure\n\n```\nGreen-Finance/\n├── react-app/              # Interactive web app (Week 1)\n│   ├── src/\n│   │   ├── components/     # React components\n│   │   ├── charts/         # Interactive chart components\n│   │   └── data/           # Course content (slides)\n│   ├── DEPLOYMENT.md       # Deployment guide\n│   └── package.json\n│\n├── charts/week1/           # Chart generation scripts\n│   ├── week1_v2_goal1_*.py     # Goal 1 charts (matplotlib)\n│   ├── week1_v2_goal2_*.py     # Goal 2 charts (matplotlib)\n│   ├── week1_v2_goal3_*.py     # Goal 3 charts (matplotlib)\n│   └── *.dot                    # Graphviz diagrams\n│\n├── agents/                 # Multi-agent system specs\n│   ├── AGENT_3_ContentPlanner_v2.md\n│   ├── AGENT_4_SlideGenerator_v2_LaTeXTemplates.md\n│   └── README_v2.md\n│\n├── *.tex                   # LaTeX source files\n├── *.pdf                   # Compiled slide PDFs\n├── template_beamer_final.tex   # Madrid theme template\n├── CLAUDE.md               # Project documentation\n├── COURSE_GENERATOR_v2.md  # Generation system spec\n└── DEPLOY_QUICKSTART.md    # Deployment quick start\n```\n\n---\n\n## Features\n\n### Interactive Web App\n- ✅ 30 slides with keyboard navigation\n- ✅ 3 learning goals with progress tracking\n- ✅ Interactive charts (Recharts)\n- ✅ Self-assessment quizzes\n- ✅ LocalStorage persistence\n- ✅ Mobile responsive\n- ✅ GitHub Pages deployment\n\n### LaTeX Slides (v2.0)\n- ✅ Madrid theme (8pt, 16:9)\n- ✅ 3 learning goals per week\n- ✅ Goal-driven narrative structure\n- ✅ 4 specialized slide types\n- ✅ 17 charts (33%+ ratio)\n- ✅ Bottom notes with goal tracking\n\n### Multi-Agent System\n- ✅ Course Orchestrator\n- ✅ Guidelines Expert\n- ✅ Content Planner v2.0\n- ✅ Slide Generator v2.0\n- ✅ YAML-based communication\n\n---\n\n## Technologies\n\n### Web App\n- React 18.2\n- Material-UI 5.14\n- Recharts 2.8 (charts)\n- Framer Motion 10.16 (animations)\n- D3 7.8 (advanced visualizations)\n\n### Slides & Charts\n- LaTeX Beamer (Madrid theme)\n- Python 3.x + matplotlib\n- Graphviz (diagrams)\n- pdflatex\n\n### Deployment\n- GitHub Pages (automatic)\n- GitHub Actions (CI/CD)\n\n---\n\n## Learning Goals (Week 1)\n\n### Goal 1: Market Microstructure Theory\nUnderstand the theoretical foundations explaining why green finance markets exist and how they function.\n\n**Slides:** 1-10 | **Type:** Theoretical | **Charts:** Ecosystem diagrams\n\n### Goal 2: Quantify Market Size & Growth\nQuantify the size, growth trajectory, and composition of global green finance markets using empirical data.\n\n**Slides:** 11-20 | **Type:** Quantitative | **Charts:** Time series, distributions\n\n### Goal 3: Derive Pricing Models\nDerive and apply mathematical models for pricing green financial instruments, incorporating greenium and ESG factors.\n\n**Slides:** 21-30 | **Type:** Mathematical | **Charts:** Yield curves, risk-return\n\n---\n\n## Documentation\n\n- **[CLAUDE.md](CLAUDE.md)** - Complete project documentation\n- **[DEPLOY_QUICKSTART.md](DEPLOY_QUICKSTART.md)** - Deploy in 3 steps\n- **[react-app/DEPLOYMENT.md](react-app/DEPLOYMENT.md)** - Full deployment guide\n- **[COURSE_GENERATOR_v2.md](COURSE_GENERATOR_v2.md)** - System specification\n- **[agents/README_v2.md](agents/README_v2.md)** - Multi-agent architecture\n\n---\n\n## Deployment\n\n### Automatic (GitHub Actions)\n1. Enable GitHub Pages: Settings → Pages → Source: **GitHub Actions**\n2. Push changes: `git push origin main`\n3. Visit: https://digital-ai-finance.github.io/Green-Finance\n\nSee **[DEPLOY_QUICKSTART.md](DEPLOY_QUICKSTART.md)** for detailed steps.\n\n### Manual\n```bash\ncd react-app\nnpm run deploy\n```\n\n---\n\n## Development Workflow\n\n### Add New Week\n1. Create content outline: `weekN_v2_content_outline.yaml`\n2. Generate charts: `python charts/weekN/*.py`\n3. Generate LaTeX: Use `AGENT_4_SlideGenerator_v2_LaTeXTemplates.md`\n4. Compile: `pdflatex YYYYMMDD_HHMM_WeekN_Title.tex` (2x)\n5. Validate: 30 slides, 10+ charts, 3 goals\n\n### Update React App\n1. Edit content: `react-app/src/data/week1Slides.js`\n2. Test locally: `npm start`\n3. Commit and push: Auto-deploys via GitHub Actions\n\n---\n\n## Quality Standards\n\n### Per Week Requirements\n- **Core slides:** 30 (3 goals × 10 slides)\n- **Charts:** 10-11 minimum\n- **Chart ratio:** ≥33%\n- **Learning goals:** Exactly 3 (typed with narrative roles)\n- **Statistics:** All verified via web search\n\n### Color Scheme (Consistent)\n- Primary (mlpurple): `#3333B2`\n- Secondary (mllavender): `#ADADE0`\n- Success (mlgreen): `#2CA02C`\n- Warning (mlorange): `#FF7F0E`\n\n---\n\n## Prerequisites\n\n- **Node.js** 18+ (for React app)\n- **Python** 3.x (for charts)\n- **pdflatex** (TeX Live or MiKTeX)\n- **Graphviz** (for diagrams)\n- **Git** (version control)\n\n---\n\n## Contributing\n\nThis is an academic project. For questions or improvements:\n1. Open an issue\n2. Submit a pull request\n3. Contact: [Digital-AI-Finance organization](https://github.com/Digital-AI-Finance)\n\n---\n\n## License\n\nAcademic use. All rights reserved.\n\n---\n\n## Next Steps\n\n- [ ] Generate Weeks 2-8\n- [ ] Add more interactive features to web app\n- [ ] Create student exercises\n- [ ] Add video explanations\n- [ ] Develop assessment module\n\n---\n\n**Version:** 2.0 (Learning-Goal-Driven)\n**Status:** Week 1 Complete, Production Ready\n**Live App:** https://digital-ai-finance.github.io/Green-Finance\n",
       "preview": "# Green Finance Professional Certificate\n\nAcademic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.\n\n## Live Interactive App\n\n**🌐 https://digital-ai-finance.github.io/Green-Finance**\n\nInteractive ",
       "metadata": {
@@ -154,10 +140,10 @@
         "language": "TeX",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.833868"
+      "added_at": "2025-12-02T03:14:45.474136"
     },
     {
-      "id": "doc_11",
+      "id": "doc_10",
       "content": "Academic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.",
       "preview": "Academic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.",
       "metadata": {
@@ -166,10 +152,10 @@
         "title": "Academic course generation system for Green Finance Professional Certificate - 8-week course with learning-goal-driven pedagogy, Beamer slides, and interactive React app",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.834370"
+      "added_at": "2025-12-02T03:14:45.474633"
     },
     {
-      "id": "doc_12",
+      "id": "doc_11",
       "content": "# NLP Course 2025: From N-grams to Transformers\n\n<p align=\"center\">\n  <a href=\"https://quantlet.de\">\n    <img src=\"logo/quantlet.png\" alt=\"QuantLet Logo\" width=\"120\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n  <strong>QuantLet-Compatible Course Materials</strong>\n</p>\n\n![Course Status](https://img.shields.io/badge/weeks-12%2F12%20complete-brightgreen)\n![Framework](https://img.shields.io/badge/framework-100%25%20applied-success)\n![Labs](https://img.shields.io/badge/labs-12%20notebooks-blue)\n![Charts](https://img.shields.io/badge/charts-168%20visualizations-purple)\n![License](https://img.shields.io/badge/license-MIT-orange)\n\n> A comprehensive Natural Language Processing course covering statistical foundations through modern transformer architectures. Build ChatGPT from scratch!\n\n## Quick Start (3 Steps)\n\n```bash\n# 1. Clone the repository\ngit clone https://github.com/josterri/2025_NLP_Lectures.git\ncd 2025_NLP_Lectures\n\n# 2. Install dependencies\npip install -r requirements.txt\n\n# 3. Start learning!\njupyter lab NLP_slides/week02_neural_lm/lab/week02_word_embeddings_lab.ipynb\n```\n\n## What You'll Learn\n\nThis course takes you from foundational statistical methods to state-of-the-art neural architectures:\n\n- **Weeks 1-2:** Statistical language models and word embeddings (Word2Vec, GloVe)\n- **Weeks 3-4:** Sequential models (RNN/LSTM) and sequence-to-sequence with attention\n- **Weeks 5-7:** Transformers, BERT, GPT, and advanced architectures\n- **Weeks 8-10:** Tokenization, decoding strategies, and fine-tuning\n- **Weeks 11-12:** Efficiency optimization and ethical AI deployment\n\nBy the end, you'll build a working transformer from scratch and understand the architecture behind ChatGPT and Claude.\n\n## Course Structure\n\n### Core Materials (12 Weeks)\nEach week includes:\n- **Presentation:** LaTeX/Beamer slides with optimal readability\n- **Lab Notebook:** Interactive Jupyter notebook with hands-on exercises\n- **Handouts:** Pre-class discovery exercises and post-class technical practice\n\n### Supplementary Modules\n- **Neural Network Primer:** Zero pre-knowledge intro to neural networks\n- **LSTM Primer:** Comprehensive deep dive into LSTM architecture (32 slides)\n- **Embeddings Module:** Standalone word embedding module with 3D visualizations\n\n### Total Content\n- 60+ presentations (including versions and supplements)\n- 12 interactive lab notebooks\n- 40+ handout documents\n- 100+ Python-generated figures\n- 8 progressive visualization notebooks\n\n## Prerequisites\n\n- **Required:**\n  - Python 3.8 or higher\n  - Basic linear algebra (vectors, matrices)\n  - Basic probability theory\n  - Comfortable with Python programming\n\n- **Helpful but not required:**\n  - PyTorch experience\n  - Understanding of backpropagation\n  - Machine learning fundamentals\n\n**New to neural networks?** Start with our Neural Network Primer module before Week 2.\n\n## Installation\n\n### Option 1: pip (Recommended)\n```bash\npip install -r requirements.txt\n```\n\n### Option 2: conda\n```bash\nconda env create -f environment.yml\nconda activate nlp2025\n```\n\n### GPU Support\nFor GPU acceleration (recommended for Weeks 5+):\n```bash\n# CUDA 11.8\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118\n\n# CUDA 12.1\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121\n```\n\nSee [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions and troubleshooting.\n\n## Course Navigation\n\n### Week-by-Week Guide\nFull navigation with topics, prerequisites, and learning objectives: [COURSE_INDEX.md](COURSE_INDEX.md)\n\n### Week Highlights\n\n| Week | Topic | Key Concepts | Lab |\n|------|-------|--------------|-----|\n| 1 | Foundations | N-grams, perplexity, statistical LM | - |\n| 2 | Word Embeddings | Word2Vec, GloVe, neural LM | Implement embeddings |\n| 3 | RNN/LSTM | Sequential models, BPTT | Build LSTM from scratch |\n| 4 | Seq2Seq | Attention mechanism, translation | Machine translation |\n| 5 | Transformers | Self-attention, multi-head | Build transformer |\n| 6 | Pre-trained | BERT, GPT, transfer learning | Fine-tune BERT |\n| 7 | Advanced | T5, GPT-3, scaling laws | Experiment with GPT |\n| 8 | Tokenization | BPE, WordPiece, SentencePiece | Implement tokenizer |\n| 9 | Decoding | Beam, sampling, nucleus, **contrastive** | Compare 6 methods |\n| 10 | Fine-tuning | LoRA, prompt engineering | Adapt models |\n| 11 | Efficiency | Quantization, distillation | Optimize models |\n| 12 | Ethics | Bias, fairness, safety | Measure bias |\n\n## Quantlet Charts\n\nAll Python-generated visualizations follow the [Quantlet](https://quantlet.de) standard format with:\n- Numbered folders (`01_chart_name/`, `02_chart_name/`, etc.)\n- Self-contained Python scripts\n- Standard `metainfo.txt` with description, keywords, and usage\n\n### Final Lecture Charts\nSee [FinalLecture/](FinalLecture/) for 8 Quantlet-formatted visualizations covering:\n- Vector database architecture\n- HNSW nearest neighbor search\n- RAG conditional probabilities\n- Hybrid search flow\n\n## Project Structure\n\n```\n├── FinalLecture/               # Quantlet-formatted charts (Final Lecture)\n├── logo/                       # Quantlet branding\n├── NLP_slides/\n│   ├── week01_foundations/      # Week 1: Statistical LM\n│   ├── week02_neural_lm/        # Week 2: Word embeddings\n│   ├── week03_rnn/              # Week 3: RNN/LSTM/GRU\n│   ├── ...                      # Weeks 4-12\n│   ├── nn_primer/               # Neural network primer\n│   ├── lstm_primer/             # LSTM deep dive\n│   └── common/                  # Shared templates and utils\n├── embeddings/                  # Standalone embeddings module\n├── exercises/                   # Additional practice\n├── figures/                     # Shared visualizations\n├── requirements.txt             # Python dependencies\n├── environment.yml              # Conda environment\n└── COURSE_INDEX.md              # Full course navigation\n```\n\n## Key Learning Milestones\n\n- ✅ **After Week 2:** Understand and implement word embeddings\n- ✅ **After Week 3:** Build RNN and LSTM from scratch\n- ✅ **After Week 5:** Comprehend transformer architecture completely\n- ✅ **After Week 6:** Fine-tune pre-trained models (BERT, GPT)\n- ✅ **After Week 9:** Control text generation quality and diversity\n- ✅ **After Week 12:** Deploy models responsibly with ethical considerations\n\n## Usage Examples\n\n### Run a Lab Notebook\n```bash\n# Start Jupyter Lab\njupyter lab\n\n# Navigate to a week's lab folder\ncd NLP_slides/week05_transformers/lab\njupyter notebook week05_transformer_lab.ipynb\n```\n\n### Compile a Presentation\n```bash\ncd NLP_slides/week02_neural_lm/presentations\npdflatex week02_neural_lm.tex\n```\n\n### Generate Figures\n```bash\ncd NLP_slides/week05_transformers/python\npython generate_week05_optimal_charts.py\n```\n\n## Testing the Course\n\nTest all lab notebooks for execution:\n```bash\npython test_notebooks.py\n```\n\nThis validates that all 12 lab notebooks execute correctly in your environment.\n\n## Course Delivery Options\n\n### Standard 12-Week Semester\n- One week per topic\n- Weekly labs and assignments\n- Suitable for undergraduate/graduate courses\n\n### Intensive 8-Week Course\n- Combine Weeks 1-2, skip some advanced topics\n- Accelerated pace for bootcamps\n- Focus on core transformer concepts\n\n### Self-Paced Learning\n- Progress at your own speed\n- Complete prerequisite modules first\n- Focus on labs and hands-on practice\n\n## Documentation\n\n- **[COURSE_INDEX.md](COURSE_INDEX.md)** - Complete week-by-week navigation\n- **[INSTALLATION.md](INSTALLATION.md)** - Detailed setup instructions\n- **[CLAUDE.md](CLAUDE.md)** - Development guide and conventions\n- **[status.md](status.md)** - Project status and completion tracking\n- **[changelog.md](changelog.md)** - Change history\n\n## Support and Resources\n\n- **Issues:** Report problems at [GitHub Issues](https://github.com/josterri/2025_NLP_Lectures/issues)\n- **Prerequisites:** Check the Neural Network Primer if you're new to deep learning\n- **GPU Requirements:** Most labs work on CPU; Weeks 5+ benefit from GPU\n\n## Contributing\n\nContributions are welcome! Areas for contribution:\n- Additional exercises and examples\n- Translations to other languages\n- MSc-level challenge problems\n- Bug fixes and improvements\n\n## License\n\nThis course is released under the MIT License. See LICENSE for details.\n\n## Acknowledgments\n\nCourse materials developed with pedagogical focus on:\n- Discovery-based learning\n- Concrete-to-abstract progression\n- Hands-on implementation\n- Real-world applications\n\nBuilt with LaTeX/Beamer, Python, PyTorch, and Jupyter.\n\n## Citation\n\nIf you use these materials in your course or research, please cite:\n\n```bibtex\n@misc{nlp2025course,\n  title={NLP Course 2025: From N-grams to Transformers},\n  author={Joerg Osterrieder},\n  year={2025},\n  url={https://github.com/josterri/2025_NLP_Lectures}\n}\n```\n\n---\n\n**Ready to start?** Check [INSTALLATION.md](INSTALLATION.md) for setup, then dive into Week 2's word embeddings lab!\n\n**Questions?** See [COURSE_INDEX.md](COURSE_INDEX.md) for complete navigation and prerequisites.",
       "preview": "# NLP Course 2025: From N-grams to Transformers\n\n<p align=\"center\">\n  <a href=\"https://quantlet.de\">\n    <img src=\"logo/quantlet.png\" alt=\"QuantLet Logo\" width=\"120\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n  <strong>QuantLet-Compatible Course Materials</strong>\n</p>\n\n![Course Status](https://img.shields.i",
       "metadata": {
@@ -179,10 +165,10 @@
         "language": "Jupyter Notebook",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.834387"
+      "added_at": "2025-12-02T03:14:45.474649"
     },
     {
-      "id": "doc_13",
+      "id": "doc_12",
       "content": "<p align=\"center\">\n  <a href=\"https://quantlet.de\">\n    <img src=\"logo/quantlet.png\" alt=\"QuantLet Logo\" width=\"120\"/>\n  </a>\n</p>",
       "preview": "<p align=\"center\">\n  <a href=\"https://quantlet.de\">\n    <img src=\"logo/quantlet.png\" alt=\"QuantLet Logo\" width=\"120\"/>\n  </a>\n</p>",
       "metadata": {
@@ -191,10 +177,10 @@
         "title": "NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with discovery-based pedagogy",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.834902"
+      "added_at": "2025-12-02T03:14:45.475186"
     },
     {
-      "id": "doc_14",
+      "id": "doc_13",
       "content": "# QuantLet LaTeX Branding Tools\n\nAutomated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n**Note:** This is a private repository. For public access, use the GitLab mirror at git.fhgr.ch/digital-finance/quantlet-branding-tools\n\n## 🚀 Quick Start\n\n```bash\n# 1. Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# 2. Copy to your project\ncp -r quantlet-branding-tools /path/to/your/latex/project/\n\n# 3. Run the 3-step process\npython generate_qr_codes.py\npython add_latex_branding.py\npdflatex your_slides.tex\n```\n\n**Result:** All chart slides now have logo + QR code + clickable URL!\n\n---\n\n## 📖 Documentation\n\nStart here based on your needs:\n\n| Document | Purpose | Best For |\n|----------|---------|----------|\n| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | One-page cheat sheet | Quick lookup, already used these tools |\n| **[BRANDING_GUIDE.md](BRANDING_GUIDE.md)** | Complete step-by-step tutorial | First time using, new project setup |\n| **[TOOLS_REFERENCE.md](TOOLS_REFERENCE.md)** | Detailed technical documentation | Understanding internals, customization |\n\n---\n\n## ✨ Features\n\n- **Automatic URL Generation**: Creates GitHub links from chart folder names\n- **LaTeX-Level Branding**: Logo and QR codes added at compile time (not embedded in chart PDFs)\n- **Clickable Elements**: Logo, QR code, and URL text all link to GitHub\n- **Professional Appearance**:\n  - Logo: Fully visible (100% opacity)\n  - QR Code: Slightly transparent (80% opacity)\n  - Bottom-right positioning\n- **Multiple Repository Support**: Sync between main repo and QuantLet mirror\n- **Zero Code Changes**: Works with existing chart PDFs\n\n---\n\n## 📁 What This Repository Contains\n\n```\nquantlet-branding-tools/\n├── add_latex_branding.py          # Main script - adds branding to .tex files\n├── remove_duplicate_branding.py   # Remove all branding blocks\n├── sync_to_quantlet.py            # Sync to QuantLet repo with updated URLs\n├── generate_qr_codes_template.py  # Template for generating QR codes\n├── generate_metainfo.py            # Generate metainfo.txt files\n├── regenerate_all_charts.py        # Regenerate chart PDFs\n├── remove_chart_branding.py        # Remove embedded branding from charts\n├── logo/\n│   └── quantlet.png               # QuantLet logo (transparent PNG)\n├── utils/                          # Legacy embedded branding utilities\n├── example/                        # Example project structure\n├── README.md                       # This file\n├── QUICK_REFERENCE.md             # One-page quick reference\n├── BRANDING_GUIDE.md              # Complete tutorial\n└── TOOLS_REFERENCE.md             # Technical reference\n```\n\n---\n\n## 🎯 Use Cases\n\n### **For Academic Presentations**\nAdd QuantLet branding to all your Beamer slides with charts:\n- Automatic GitHub links for reproducibility\n- QR codes for easy access during talks\n- Professional appearance for conferences\n\n### **For Research Repositories**\nMake your research more discoverable:\n- Link each chart to its source code on GitHub\n- Audience can scan QR codes to access code instantly\n- Maintain two versions (main repo + QuantLet) with different URLs\n\n### **For Teaching Materials**\nHelp students find resources:\n- Each slide links to the code that generated it\n- Students can explore the repository during/after class\n- Easy to update URLs when moving between repositories\n\n---\n\n## 🛠️ Installation & Setup\n\n### **Requirements**\n\n- Python 3.6+\n- LaTeX packages: `tikz`, `hyperref`, `graphicx`\n- Optional: `qrcode` Python package (for QR code generation)\n\n### **Quick Install**\n\n```bash\n# Install QR code generator (optional but recommended)\npip install qrcode[pil]\n\n# Clone this repository\ngit clone https://github.com/Digital-AI-Finance/quantlet-branding-tools.git\n\n# Copy to your project\ncp -r quantlet-branding-tools/* /path/to/your/project/\n```\n\n---\n\n## 📚 Usage\n\n### **Basic Workflow (3 Steps)**\n\n**1. Generate QR Codes**\n```bash\npython generate_qr_codes.py\n```\nThis reads `CHART_METADATA['url']` from each chart's Python script and generates QR codes.\n\n**2. Add Branding to LaTeX**\n```bash\npython add_latex_branding.py\n```\nThis adds tikz overlays with logo + QR + URL to all chart frames in your .tex file.\n\n**3. Compile PDF**\n```bash\npdflatex your_slides.tex\n```\n\nDone! Your slides now have QuantLet branding.\n\n---\n\n### **Project Structure Requirements**\n\nYour LaTeX project should have this structure:\n\n```\nyour_project/\n├── 01_chart_name/\n│   ├── chart_script.py        # Must contain CHART_METADATA\n│   ├── chart.pdf\n│   └── qr_code.png            # Auto-generated by step 1\n├── 02_another_chart/\n│   ├── script.py\n│   ├── chart.pdf\n│   └── qr_code.png\n├── slides.tex                  # Your main LaTeX file\n├── generate_qr_codes.py        # Copy from generate_qr_codes_template.py\n└── add_latex_branding.py       # From this repository\n```\n\n**Each chart script must have:**\n```python\nCHART_METADATA = {\n    'title': 'Chart Title',\n    'url': 'https://github.com/YourOrg/repo/tree/main/01_chart_name'\n}\n```\n\nSee `example/` directory for a complete working example.\n\n---\n\n## 🎨 Customization\n\nEdit `add_latex_branding.py` to customize:\n\n| Element | Current Value | How to Change |\n|---------|---------------|---------------|\n| Logo size | `width=0.8cm` | Line 100: Change width |\n| Logo opacity | `opacity=1.0` (fully visible) | Line 99: Change opacity (0.0-1.0) |\n| QR size | `width=0.6cm` | Line 104: Change width |\n| QR opacity | `opacity=0.8` (20% transparent) | Line 103: Change opacity |\n| Position | Bottom-right corner | Lines 99, 103, 107: Adjust xshift/yshift |\n| Font size | `\\tiny` | Line 108: Change to `\\scriptsize`, `\\footnotesize`, etc. |\n\n---\n\n## 🔄 Syncing to QuantLet Repository\n\nIf you maintain both a main repository and a QuantLet mirror:\n\n```bash\npython sync_to_quantlet.py\n```\n\nThis script automatically:\n1. Clones/updates the QuantLet repository\n2. Copies all files\n3. Updates all URLs to point to QuantLet\n4. Regenerates QR codes\n5. Prepares for commit\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for details.\n\n---\n\n## 📖 Examples\n\n### **Before**\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\\end{frame}\n```\n\n### **After** (automatically added)\n```latex\n\\begin{frame}{Loss Landscape}\n  \\includegraphics[width=0.95\\textwidth]{07_loss_landscape/chart.pdf}\n\n  % Quantlet branding (auto-generated)\n  \\begin{tikzpicture}[remember picture,overlay]\n    % Logo (clickable, fully visible)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{logo/quantlet.png}}};\n    % QR Code (clickable, slightly transparent)\n    \\node[...] {\\href{https://github.com/...}{\\includegraphics{qr_code.png}}};\n    % URL text (clickable)\n    \\node[...] {\\href{https://github.com/...}{\\texttt{07\\_loss\\_landscape}}};\n  \\end{tikzpicture}\n\\end{frame}\n```\n\n---\n\n## 🐛 Troubleshooting\n\n| Issue | Solution |\n|-------|----------|\n| Logo not showing | Check `logo/quantlet.png` exists |\n| QR codes missing | Run `python generate_qr_codes.py` |\n| Duplicate branding | Run `python remove_duplicate_branding.py` then re-add |\n| Wrong repository URLs | Edit CHART_METADATA in chart scripts |\n| Compilation errors | Ensure `tikz` and `hyperref` packages are installed |\n\nSee [BRANDING_GUIDE.md](BRANDING_GUIDE.md) for complete troubleshooting.\n\n---\n\n## 🤝 Contributing\n\nContributions welcome! Please:\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Test with example project\n5. Submit a pull request\n\n---\n\n## 📄 License\n\nMIT License - Free to use and modify\n\n---\n\n## 🔗 Links\n\n- **GitHub (Private)**: https://github.com/Digital-AI-Finance/quantlet-branding-tools\n  - Visibility: Private (Digital-AI-Finance organization members only)\n  - Primary development repository\n- **GitLab (Private Mirror)**: git.fhgr.ch/digital-finance/quantlet-branding-tools\n  - Visibility: Private (Digital Finance group members only)\n  - Auto-syncs from GitHub\n- **QuantLet**: https://quantlet.de\n- **Documentation**: See BRANDING_GUIDE.md and GITLAB_SETUP.md\n\n---\n\n## 💡 Tips\n\n1. **Keep chart PDFs clean**: Don't embed branding in chart images\n2. **Use CHART_METADATA**: Always add URLs to your chart scripts\n3. **Test before presenting**: Verify all links work\n4. **Use version control**: Commit before adding branding (easy to revert)\n5. **Reuse this repo**: Clone once, use in many projects\n\n---\n\n## 📞 Support\n\nFor issues or questions:\n- Open an issue on GitHub\n- Check the documentation in `BRANDING_GUIDE.md`\n- See examples in `example/` directory\n\n---\n\n**Made with ❤️ for the QuantLet community**\n",
       "preview": "# QuantLet LaTeX Branding Tools\n\nAutomated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://o",
       "metadata": {
@@ -204,10 +190,10 @@
         "language": "Python",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.834921"
+      "added_at": "2025-12-02T03:14:45.475207"
     },
     {
-      "id": "doc_15",
+      "id": "doc_14",
       "content": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!",
       "preview": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations. Add professional GitHub links to all your chart slides with just 3 commands!",
       "metadata": {
@@ -216,10 +202,10 @@
         "title": "Automated tools for adding QuantLet branding (logo, QR codes, clickable URLs) to LaTeX Beamer presentations",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.835469"
+      "added_at": "2025-12-02T03:14:45.475778"
     },
     {
-      "id": "doc_16",
+      "id": "doc_15",
       "content": "# Welcome to your organization's demo respository\nThis code repository (or \"repo\") is designed to demonstrate the best GitHub has to offer with the least amount of noise.\n\nThe repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.\n",
       "preview": "# Welcome to your organization's demo respository\nThis code repository (or \"repo\") is designed to demonstrate the best GitHub has to offer with the least amount of noise.\n\nThe repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet depende",
       "metadata": {
@@ -229,10 +215,10 @@
         "language": "HTML",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.835488"
+      "added_at": "2025-12-02T03:14:45.475797"
     },
     {
-      "id": "doc_17",
+      "id": "doc_16",
       "content": "The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.",
       "preview": "The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.",
       "metadata": {
@@ -241,10 +227,10 @@
         "title": "A code repository designed to show the best GitHub has to offer.",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.835515"
+      "added_at": "2025-12-02T03:14:45.475822"
     },
     {
-      "id": "doc_18",
+      "id": "doc_17",
       "content": "# Natural Language Processing - Educational Materials\n\n**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Organization**: Digital Finance @ FHGR\n**Purpose**: Task-oriented NLP course materials from classification to generation\n**GitLab Pages**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n\n## Quick Start\n\n### Prerequisites\n- Python 3.8+\n- LaTeX distribution (MiKTeX, TeX Live, or MacTeX)\n- Required packages:\n  ```bash\n  pip install pandas numpy matplotlib seaborn scikit-learn sentence-transformers torch jupyter\n  ```\n\n## Task-Based Organization\n\nThis repository is organized by **NLP tasks** (what you want to accomplish) rather than methodologies (how you accomplish it):\n\n```\ntasks/                              # NLP Task Implementations\n├── classification/                 # Text Classification\n│   └── 6 models: Logistic, Naive Bayes, Decision Tree, Random Forest, SVM, Neural Net\n├── text_generation/                # Text Generation\n│   └── N-gram & Neural language models\n├── clustering/                     # Document Organization\n│   └── K-Means, Hierarchical, DBSCAN + PCA, t-SNE, UMAP\n├── semantic_search/                # Similarity Search\n│   └── Embedding-based semantic search\n├── summarization/                  # Text Summarization\n│   └── Extractive (TextRank) & Abstractive (BART)\n├── sentiment_analysis/             # Sentiment Classification\n│   └── 4 models: Logistic, SVM, LSTM, BERT\n└── ner/                            # Named Entity Recognition\n    └── BERT-based token classification with BIO tagging\n\nfoundations/                        # Foundational Knowledge\n└── neural_networks/                # 7 Architectures (not a task, but building blocks)\n    ├── Perceptron → Transformer → Autoencoder\n    └── notebooks/                  # 4 implementation notebooks\n\nexercises/                          # Practice Exercises\n├── basic/                          # 14 notebooks (7 tasks × 2)\n└── intermediate/                   # 14 notebooks (7 tasks × 2)\n\ndata/                               # All Datasets & Artifacts\n├── raw/                            # Original CSV datasets\n├── processed/                      # Generated embeddings, models, visualizations\n└── results/                        # Model outputs and predictions\n```\n\n### Why Task-Based?\n\n**Traditional (Method-Based)**:\n- \"Learn supervised learning\"\n- Abstract, methodology-focused\n- \"I studied embeddings\"\n\n**Task-Based (This Repo)**:\n- \"Build a text classifier\"\n- Concrete, goal-focused\n- \"I built a semantic search system\"\n\nStudents learn **WHAT to solve** (tasks) before **HOW to solve it** (methods).\n\n## The Seven Core NLP Tasks\n\n### 1. Classification (`tasks/classification/`)\n\n**What**: Assign categories to text\n**Example**: \"President announces policy\" → Politics\n**Models**: 6 algorithms (85-95% accuracy)\n**Use Cases**: Spam filtering, sentiment analysis, topic categorization\n\n**Quick Start:**\n```bash\ncd tasks/classification\npython train_models.py                    # Train all 6 models (~3 min)\ncd presentation && python generate_charts.py   # Generate 26 charts\npdflatex 20251006_1256_supervised_tutorial.tex # Compile 39-slide presentation\n```\n\n**Output**: Trained models in `data/processed/models/classification/*.pkl`\n\n### 2. Text Generation (`tasks/text_generation/`)\n\n**What**: Generate coherent, human-like text\n**Example**: \"The president\" → \"announced a new economic policy\"\n**Models**: 5-gram statistical + LSTM neural\n**Use Cases**: Content creation, chatbots, code completion\n\n**Quick Start:**\n```bash\ncd tasks/text_generation\npython train_5gram.py                     # Train 5-gram model (~30 sec)\npython generate_half_page.py              # Generate 200-word samples\n```\n\n**Output**: Model in `data/processed/models/text_generation/5gram_extended.pkl`\n\n### 3. Clustering (`tasks/clustering/`)\n\n**What**: Group similar documents without labels\n**Example**: Automatically discover that sports headlines cluster together\n**Algorithms**: K-Means, Hierarchical, DBSCAN + PCA, t-SNE, UMAP\n**Use Cases**: Topic discovery, document organization, exploratory analysis\n\n**Quick Start:**\n```bash\ncd tasks/clustering/presentation\npython generate_charts.py                 # Generate 24 charts (~3 min)\npdflatex 20251003_2206_unsupervised_tutorial.tex  # Compile 33-slide presentation\n```\n\n**Input**: Pre-computed embeddings from semantic_search task\n\n### 4. Semantic Search (`tasks/semantic_search/`)\n\n**What**: Find similar documents by meaning (not keywords)\n**Example**: \"president policy\" finds \"leader regulation\" (different words, same meaning)\n**Model**: Sentence-transformers (384-D embeddings)\n**Use Cases**: Document retrieval, Q&A, recommendations, duplicate detection\n\n**Quick Start:**\n```bash\ncd tasks/semantic_search\npython generate_embeddings.py             # Generate 10K embeddings (~2 min)\npython semantic_search.py --interactive   # Interactive search demo\n```\n\n**Output**: `data/processed/embeddings/headlines_embeddings.npy` (15 MB)\n\n### 5. Summarization (`tasks/summarization/`)\n\n**What**: Generate concise summaries of longer texts\n**Example**: 70-word article → 7-word headline\n**Models**: TextRank (extractive) + BART (abstractive)\n**Use Cases**: News aggregation, document digests, meeting notes\n\n**Quick Start:**\n```bash\ncd tasks/summarization\npython extractive_summary.py              # TextRank (~2-3 min)\npython train_abstractive.py               # BART fine-tuning (30-60 min GPU)\ncd presentation && python generate_charts.py\npdflatex 20251123_1604_summarization_tutorial.tex\n```\n\n**Output**: Summaries with ROUGE metrics, trained BART model\n\n### 6. Sentiment Analysis (`tasks/sentiment_analysis/`)\n\n**What**: Determine emotional tone (positive, negative, neutral)\n**Example**: \"The president announced a groundbreaking policy\" → Positive\n**Models**: Logistic Regression, SVM, LSTM, BERT (4 models)\n**Use Cases**: Brand monitoring, customer feedback, market sentiment\n\n**Quick Start:**\n```bash\ncd tasks/sentiment_analysis\npython create_sentiment_labels.py         # Label 10K headlines\npython train_sentiment_models.py          # Train 4 models (~5 min)\ncd presentation && python generate_all_charts.py\npdflatex 20251128_1150_sentiment_tutorial.tex\n```\n\n**Output**: Trained models, BERT achieves 61.7% accuracy\n\n### 7. Named Entity Recognition (`tasks/ner/`)\n\n**What**: Extract entities (people, places, organizations) from text\n**Example**: \"President Biden announced policy in Washington\" → PERSON: Biden, GPE: Washington\n**Model**: BERT fine-tuned for token classification with BIO tagging\n**Use Cases**: Information extraction, knowledge graphs, document indexing\n\n**Quick Start:**\n```bash\ncd tasks/ner\npython annotate_entities.py               # Annotate 10K headlines (~3 min)\npython train_ner_model.py                 # Fine-tune BERT (~15 min GPU)\ncd presentation && python generate_all_charts.py\npdflatex 20251128_1202_ner_tutorial.tex\n```\n\n**Output**: NER model with ~0.92 F1, entity-tagged dataset\n\n## Foundational Knowledge\n\n### Neural Networks (`foundations/neural_networks/`)\n\n**Why \"foundations\"?** Neural networks aren't an NLP task - they're the **building blocks** for solving tasks.\n\n**7 Architectures Covered:**\n1. Perceptron - Linear classification\n2. Feedforward - Universal approximation\n3. CNN - Spatial patterns\n4. RNN - Short-term sequence memory\n5. LSTM - Long-term sequence memory\n6. Transformer - Attention mechanism\n7. Autoencoder - Representation learning\n\n**3 Presentation Variants:**\n- Advanced/Comprehensive (89 slides) - All 7 architectures\n- Feedforward Standard (58 slides) - Iris classification example\n- Feedforward UAT (50 slides) - Universal approximation theorem proof\n\n## Complete Directory Structure\n\n```\nNLP_Data/\n├── tasks/                          # MAIN: NLP Task Implementations\n│   ├── classification/\n│   │   ├── train_models.py\n│   │   ├── README.md               # Comprehensive task guide\n│   │   └── presentation/           # 39-slide tutorial, 26 charts\n│   ├── text_generation/\n│   │   ├── ngram_model.py\n│   │   ├── train_5gram.py\n│   │   ├── neural_lm.py\n│   │   ├── ngram_analysis.ipynb\n│   │   └── README.md\n│   ├── clustering/\n│   │   ├── README.md\n│   │   └── presentation/           # 33-slide tutorial, 24 charts\n│   └── semantic_search/\n│       ├── generate_embeddings.py\n│       ├── semantic_search.py\n│       ├── embedding_analysis.ipynb\n│       ├── README.md\n│       └── presentation/           # 28-slide tutorial, 18 charts\n│\n├── foundations/                    # Foundational Techniques\n│   └── neural_networks/\n│       ├── README.md               # When to use which architecture\n│       └── presentation/\n│           ├── advanced_comprehensive/     # 89 slides\n│           ├── feedforward_standard/       # 58 slides\n│           └── feedforward_uat/            # 50 slides\n│\n├── data/                           # All Datasets & Artifacts\n│   ├── raw/                        # Original CSV datasets\n│   │   ├── basic/                  # 400 headlines\n│   │   ├── extended/               # 10,000 headlines + splits\n│   │   ├── articles/               # 1,000 articles + splits\n│   │   └── large/                  # Experimental\n│   ├── processed/                  # Generated artifacts\n│   │   ├── embeddings/             # 10,000 × 384 vectors (15 MB)\n│   │   ├── models/\n│   │   │   ├── classification/     # 6 trained classifiers (15 MB)\n│   │   │   └── text_generation/    # 5-gram model (902 KB)\n│   │   ├── visualizations/         # PNG preview images\n│   │   └── samples/                # Generated text\n│   └── results/                    # Model outputs\n│       └── classification/         # Predictions, metrics\n│\n├── generators/                     # Dataset Generation\n│   ├── generate_headlines.py\n│   ├── generate_extended_headlines.py\n│   ├── generate_articles.py\n│   └── create_splits.py\n│\n├── docs/                           # Documentation\n│   ├── DATASET_OVERVIEW.md\n│   ├── ZIPF_LAW_ANALYSIS.md\n│   ├── EDUCATIONAL_PRESENTATION_FRAMEWORK.md\n│   └── presentations/              # Presentation docs\n│\n├── wiki_pages/                     # 13 Comprehensive Wiki Pages\n│   ├── home.md\n│   ├── Setup-and-Prerequisites.md\n│   ├── Task-Classification.md      # NEW: 1,748 words\n│   ├── Task-Text-Generation.md     # NEW: 1,737 words\n│   ├── Task-Clustering.md          # NEW: 1,985 words\n│   ├── Task-Semantic-Search.md     # NEW: 1,849 words\n│   ├── Foundations-Neural-Networks.md  # NEW: 1,840 words\n│   ├── Dataset-Overview.md         # NEW: 1,448 words\n│   ├── Repository-Structure.md     # NEW: 1,585 words\n│   ├── Reproducibility-Guide.md    # NEW: 1,766 words\n│   ├── FAQ.md                      # NEW: 1,869 words\n│   └── Contributing.md             # NEW: 1,708 words\n│\n├── public_source/                  # GitLab Pages Source (NEW)\n│   ├── index.html                  # Landing page\n│   ├── css/style.css               # Purple/gray theme\n│   ├── slides/index.html           # All presentations\n│   ├── datasets/index.html         # Interactive browser\n│   └── docs/index.html             # Documentation hub\n│\n├── scripts/                        # GitLab Pages Generation (NEW)\n│   ├── generate_dataset_samples.py\n│   └── generate_pages_index.py\n│\n├── archive/                        # Historical Versions\n│   ├── scripts/                    # Old generation scripts\n│   └── presentations/              # Old .tex/.pdf versions\n│\n├── .gitlab-ci.yml                  # GitLab Pages Deployment (NEW)\n├── CLAUDE.md                       # Project instructions\n├── README.md                       # This file\n└── template_beamer_final.tex       # Beamer template\n```\n\n## Educational Progression\n\n### Week 1-2: Basic Text Analysis\n- Dataset: `data/raw/basic/` (400 headlines)\n- Topics: Tokenization, word counts, Zipf's law\n- Exercises: basic/classification_basic.ipynb, basic/text_generation_basic.ipynb\n\n### Week 3-4: Semantic Search Task\n- Learn: How to find similar documents by meaning\n- Code: `tasks/semantic_search/`\n- Presentation: 28 slides, hands-on embedding tutorial\n- Output: Search system that finds semantically similar headlines\n- Exercises: basic/semantic_search_basic.ipynb, intermediate/semantic_search_intermediate.ipynb\n\n### Week 5-6: Classification Task\n- Learn: How to categorize text automatically\n- Code: `tasks/classification/`\n- Presentation: 39 slides, 6 model comparison\n- Output: Trained classifier (85-95% accuracy)\n- Exercises: intermediate/classification_intermediate.ipynb\n\n### Week 7-8: Clustering Task\n- Learn: How to discover topics without labels\n- Code: `tasks/clustering/`\n- Presentation: 33 slides, unsupervised methods\n- Output: Document clusters, 2D visualizations\n- Exercises: basic/clustering_basic.ipynb, intermediate/clustering_intermediate.ipynb\n\n### Week 9-10: Neural Networks Foundations\n- Learn: Building blocks for advanced NLP\n- Code: `foundations/neural_networks/`\n- Presentations: 3 variants (choose based on audience)\n- Notebooks: feedforward_from_scratch, rnn_sentiment, cnn_text, transformer_attention\n- Output: Understanding of 7 architectures\n\n### Week 11-12: Text Generation Task\n- Learn: How to generate coherent text\n- Code: `tasks/text_generation/`\n- Presentation: 50 slides, N-gram to Transformer\n- Output: Working text generator (n-gram + neural)\n- Exercises: basic/text_generation_basic.ipynb, intermediate/text_generation_intermediate.ipynb\n\n### Week 13-14: Summarization Task\n- Learn: How to create concise summaries\n- Code: `tasks/summarization/`\n- Presentation: 45 slides, extractive and abstractive methods\n- Output: TextRank and BART summarizers\n- Exercises: Basic summarization exercises (to be created)\n\n### Week 15-16: Sentiment Analysis Task\n- Learn: How to detect emotional tone\n- Code: `tasks/sentiment_analysis/`\n- Presentation: 35 slides, 4 model comparison\n- Output: Sentiment classifier (BERT achieves 61.7% accuracy)\n- Exercises: basic/sentiment_basic.ipynb, intermediate/sentiment_intermediate.ipynb\n\n### Week 17-18: Named Entity Recognition Task\n- Learn: How to extract structured information\n- Code: `tasks/ner/`\n- Presentation: 40 slides, BIO tagging and BERT-NER\n- Output: Entity extractor (~0.92 F1 score)\n- Exercises: basic/ner_basic.ipynb, intermediate/ner_intermediate.ipynb\n\n## Common Workflows\n\n### I want to... (Quick-Finding Guide)\n\n| I want to... | Go to... |\n|--------------|----------|\n| **Build a text classifier** | `tasks/classification/` |\n| **Generate new text** | `tasks/text_generation/` |\n| **Find similar documents** | `tasks/semantic_search/` |\n| **Cluster documents** | `tasks/clustering/` |\n| **Summarize articles** | `tasks/summarization/` |\n| **Analyze sentiment** | `tasks/sentiment_analysis/` |\n| **Extract entities** | `tasks/ner/` |\n| **Learn neural architectures** | `foundations/neural_networks/` |\n| **Practice with exercises** | `exercises/basic/` or `exercises/intermediate/` |\n| **Understand the datasets** | `docs/DATASET_OVERVIEW.md` |\n| **Regenerate everything** | `wiki_pages/Reproducibility-Guide.md` |\n| **View presentations online** | GitLab Pages (see URL above) |\n\n### Generate All Presentations\n\nEach task has its own presentation:\n\n```bash\n# Classification (39 slides)\ncd tasks/classification/presentation\npython generate_charts.py && pdflatex 20251006_1256_supervised_tutorial.tex\n\n# Clustering (33 slides)\ncd tasks/clustering/presentation\npython generate_charts.py && pdflatex 20251003_2206_unsupervised_tutorial.tex\n\n# Semantic Search (28 slides)\ncd tasks/semantic_search/presentation\npython generate_charts.py && pdflatex 20251003_1430_tsne_tutorial.tex\n\n# Neural Networks (choose variant)\ncd foundations/neural_networks/presentation\npython generate_charts.py && python generate_graphviz_charts.py\ncd advanced_comprehensive\npdflatex 20251024_0452_neural_networks.tex\n```\n\n## GitLab Pages (NEW!)\n\n**Public Website**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n\n**Features:**\n- All presentation PDFs online\n- Interactive dataset browser (search, filter, sort)\n- Complete documentation\n- No git clone needed for students\n\n**Deploy:**\n```bash\ngit push origin master  # Automatic deployment via .gitlab-ci.yml\n```\n\n## Documentation\n\n### Complete Wiki (13 Pages)\n\nUpload `wiki_pages/*.md` to GitLab Wiki for comprehensive course documentation:\n\n- **Setup & Getting Started** (4 pages)\n- **Task Tutorials** (4 pages) - One per task\n- **Reference** (5 pages) - Datasets, structure, FAQ, contributing\n\n### Technical Documentation\n\n- `CLAUDE.md` - Complete project documentation and workflows\n- Task READMEs - Detailed guide for each task\n- `docs/` - Dataset specs, Zipf analysis, pedagogical framework\n\n## Key Features\n\n- **Task-Oriented**: Learn by doing (classify, generate, search, cluster)\n- **Complete Implementations**: Working code for all tasks\n- **Publication-Quality**: 200+ professional charts across presentations\n- **Fully Reproducible**: All generation scripts included\n- **Interactive Learning**: Jupyter notebooks with hands-on exercises\n- **Professional Slides**: Beamer presentations (Madrid theme, 8pt, purple accent)\n- **Comprehensive Docs**: 13 wiki pages, task READMEs, technical specs\n- **GitLab Pages**: Public website with dataset browser\n\n## Statistics\n\n- **7 Core Tasks** (classification, generation, clustering, search, summarization, sentiment, NER)\n- **1 Foundation** (neural networks with 7 architectures + 4 implementation notebooks)\n- **13 Presentations** (420+ slides total)\n- **10,000 Headlines** (main dataset for most tasks)\n- **1,000 Articles** (summarization dataset)\n- **240+ Charts** (all publication-quality, modular structure)\n- **14 Wiki Pages** (20,000+ words of documentation)\n- **7 Task READMEs** (comprehensive task guides)\n- **28 Exercise Notebooks** (14 basic + 14 intermediate with solutions)\n\n## Contributing\n\nSee `wiki_pages/Contributing.md` for:\n- Adding new tasks\n- Updating presentations\n- Version control policy\n- Quality checklist\n\n## License\n\nEducational materials for FHGR courses. Not for commercial use.\n\n---\n\n**Last Updated**: 2025-11-28\n**Maintainer**: Digital Finance @ FHGR\n**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Website**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n",
       "preview": "# Natural Language Processing - Educational Materials\n\n**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Organization**: Digital Finance @ FHGR\n**Purpose**: Task-oriented NLP course materials from classification to generation\n**GitLab Pages**: https://osterrij",
       "metadata": {
@@ -254,10 +240,10 @@
         "language": "Jupyter Notebook",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.835535"
+      "added_at": "2025-12-02T03:14:45.475836"
     },
     {
-      "id": "doc_19",
+      "id": "doc_18",
       "content": "**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Organization**: Digital Finance @ FHGR\n**Purpose**: Task-oriented NLP course materials from classification to generation\n**GitLab Pages**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Processing-Details",
       "preview": "**Repository**: https://git.fhgr.ch/digital-finance/Natural-Language-Processing-Details\n**Organization**: Digital Finance @ FHGR\n**Purpose**: Task-oriented NLP course materials from classification to generation\n**GitLab Pages**: https://osterrijoerg.git.fhgr.ch/digital-finance/Natural-Language-Proce",
       "metadata": {
@@ -266,10 +252,10 @@
         "title": "Task-oriented NLP educational materials for undergraduate courses",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.836803"
+      "added_at": "2025-12-02T03:14:45.476929"
     },
     {
-      "id": "doc_20",
+      "id": "doc_19",
       "content": "# AI for Digital Finance: Swiss-MENA Research Network\n\n## Overview\n\nCCG (Connect & Collaborate Grant) application materials for the \"AI for Digital Finance: Swiss-MENA Research Network\" workshop.\n\n- **Event**: April 21-23, 2026\n- **Location**: American University of Sharjah, UAE\n- **Co-organizers**: Prof. Joerg Osterrieder (FHGR) & Prof. Stephen Chan (AUS)\n\n## Submitted Materials\n\nThe `FinalSubmission/` folder contains the official submitted documents:\n\n| File | Description |\n|------|-------------|\n| `proposal_ai-in-digital-finance.pdf` | Main CCG application proposal |\n| `workshop_program_2026.pdf` | Detailed 3-day workshop program |\n| `lhmena-ccg-2025-budget_table-ai-for-digital-finance.xlsx` | Budget breakdown |\n| `gannt_chart.pdf` | Project timeline visualization |\n| `osterrieder_cv.pdf` | CV - Prof. Joerg Osterrieder |\n| `cv_chan_stephen.pdf` | CV - Prof. Stephen Chan |\n\n## Budget Summary\n\n- **Total Project Cost**: CHF 24,500\n- **CCG Request**: CHF 5,000 (20.4%)\n- **AUS Co-funding**: CHF 5,000 (20.4%)\n- **Other Sources**: CHF 14,500 (59.2%)\n\n## Workshop Focus\n\n- AI/ML Technologies in Finance\n- Large Language Models (LLMs)\n- Explainable AI for Compliance\n- Blockchain Security and Fraud Detection\n- Digital Banking Innovation\n\n## Documentation\n\nDetailed project documentation is available in the [`docs/`](docs/) folder:\n\n| Document | Description |\n|----------|-------------|\n| [Overview](docs/README.md) | Project overview and quick links |\n| [Budget](docs/Budget.md) | Detailed budget breakdown by category |\n| [Workshop Content](docs/Workshop-Content.md) | Full 3-day program and sessions |\n| [Timeline](docs/Timeline.md) | Project milestones and Gantt summary |\n| [Partners](docs/Partners.md) | Institutional partners and collaborators |\n| [Application Materials](docs/Application-Materials.md) | CCG application summary |\n\n## Archive\n\nThe `archive/` folder contains working drafts, scripts, and intermediate files used during application preparation.\n\n## Contact\n\n- Prof. Joerg Osterrieder: joerg.osterrieder@fhgr.ch\n- Prof. Stephen Chan: schan@aus.edu\n",
       "preview": "# AI for Digital Finance: Swiss-MENA Research Network\n\n## Overview\n\nCCG (Connect & Collaborate Grant) application materials for the \"AI for Digital Finance: Swiss-MENA Research Network\" workshop.\n\n- **Event**: April 21-23, 2026\n- **Location**: American University of Sharjah, UAE\n- **Co-organizers**:",
       "metadata": {
@@ -279,10 +265,10 @@
         "language": "HTML",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.836831"
+      "added_at": "2025-12-02T03:14:45.476957"
     },
     {
-      "id": "doc_21",
+      "id": "doc_20",
       "content": "CCG (Connect & Collaborate Grant) application materials for the \"AI for Digital Finance: Swiss-MENA Research Network\" workshop.\n\n- Event: April 21-23, 2026\n- Location: American University of Sharjah, UAE\n- Co-organizers: Prof. Joerg Osterrieder (FHGR) & Prof. Stephen Chan (AUS)",
       "preview": "CCG (Connect & Collaborate Grant) application materials for the \"AI for Digital Finance: Swiss-MENA Research Network\" workshop.\n\n- Event: April 21-23, 2026\n- Location: American University of Sharjah, UAE\n- Co-organizers: Prof. Joerg Osterrieder (FHGR) & Prof. Stephen Chan (AUS)",
       "metadata": {
@@ -291,10 +277,10 @@
         "title": "CCG application for AI for Digital Finance workshop - Swiss-MENA Research Network",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.836950"
+      "added_at": "2025-12-02T03:14:45.477111"
     },
     {
-      "id": "doc_22",
+      "id": "doc_21",
       "content": "# Publications Repository\n\nThis repository contains metadata for all publications retrieved from OpenAlex.org.\n\n## Overview\n\n- **Total Publications**: 131\n- **Total Citations**: 1083\n- **Open Access**: 125 (95.4%)\n- **Last Updated**: 2025-11-22 10:53:40\n\n## Data Files\n\n- `publications_latest.json` - Complete publication metadata in JSON format\n\n## Metadata Structure\n\nEach publication entry contains:\n\n- Basic bibliographic information (title, DOI, year, type)\n- Abstract (where available)\n- Citation metrics and trends\n- Open access status and PDF links\n- Author information and institutional affiliations\n- Subject classifications (topics, concepts, keywords)\n- Publication venue details\n- Funding information (where available)\n\n## Usage\n\nThe JSON file can be processed using Python, R, or any JSON-compatible tool for:\n\n- Bibliometric analysis\n- Citation network visualization\n- Collaboration analysis\n- Research trend identification\n- Impact assessment\n\n## Data Source\n\nAll data retrieved from [OpenAlex](https://openalex.org/), an open catalog of scholarly papers, authors, institutions, and venues.\n\n## Citation\n\nIf you use this data in research, please cite OpenAlex:\n\n> Priem, J., Piwowar, H., & Orr, R. (2022). OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts. ArXiv. https://arxiv.org/abs/2205.01833\n\n## License\n\nPublication metadata is provided under CC0 license by OpenAlex.\n",
       "preview": "# Publications Repository\n\nThis repository contains metadata for all publications retrieved from OpenAlex.org.\n\n## Overview\n\n- **Total Publications**: 131\n- **Total Citations**: 1083\n- **Open Access**: 125 (95.4%)\n- **Last Updated**: 2025-11-22 10:53:40\n\n## Data Files\n\n- `publications_latest.json` -",
       "metadata": {
@@ -304,24 +290,10 @@
         "language": "Unknown",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.836971"
+      "added_at": "2025-12-02T03:14:45.477135"
     },
     {
-      "id": "doc_23",
-      "content": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M disambiguated authors; 124k venues (places that host works, such as journals and online repositories); 109k institutions; and 65k Wikidata concepts (linked to works via an automated hierarchical multi-tag classifier). The dataset is fully and freely available via a web-based GUI, a full data dump, and high-volume REST API. The resource is under active development and future work will improve accuracy and coverage of citation information and author/institution parsing and deduplication.",
-      "preview": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M ",
-      "metadata": {
-        "type": "publication",
-        "repo": "Publications",
-        "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
-        "year": 2022,
-        "doi": null,
-        "arxiv_id": "2205.01833"
-      },
-      "added_at": "2025-12-01T03:32:59.837053"
-    },
-    {
-      "id": "doc_24",
+      "id": "doc_22",
       "content": "- Total Publications: 131\n- Total Citations: 1083\n- Open Access: 125 (95.4%)\n- Last Updated: 2025-11-22 10:53:40",
       "preview": "- Total Publications: 131\n- Total Citations: 1083\n- Open Access: 125 (95.4%)\n- Last Updated: 2025-11-22 10:53:40",
       "metadata": {
@@ -330,10 +302,10 @@
         "title": "",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.837122"
+      "added_at": "2025-12-02T03:14:45.477223"
     },
     {
-      "id": "doc_25",
+      "id": "doc_23",
       "content": "# Natural Language Processing: Decoding Strategies\n\n**Week 9 Module** - Interactive learning platform for understanding text generation decoding methods in Large Language Models.\n\n## Overview\n\nThis repository contains a complete educational module on decoding strategies, featuring:\n- **2 Interactive React Applications** for hands-on learning\n- **Comprehensive Teaching Materials** (slides, notebooks, charts)\n- **6 Decoding Algorithm Implementations** (greedy, beam, temperature, top-k, nucleus, contrastive)\n- **67 Professional Visualizations** (Python-generated PDF charts)\n\n## Quick Start\n\n### Learning App (Structured Course)\n```bash\ncd learning-app\nnpm install\nnpm run dev\n# Open http://localhost:5180\n```\n\n### Interactive Playground (Experimentation)\n```bash\ncd react-app\nnpm install\nnpm run dev\n# Open http://localhost:5173\n```\n\n## Repository Structure\n\n```\n.\n├── learning-app/              # Material-UI learning application\n│   ├── src/                   # React components (16 files)\n│   ├── public/figures/        # 67 PDF charts\n│   └── README.md              # App-specific documentation\n│\n├── react-app/                 # Tailwind interactive playground\n│   ├── src/                   # React components + algorithms (26 files)\n│   ├── public/figures/        # 67 PDF charts\n│   └── README.md              # App-specific documentation\n│\n├── presentations/             # LaTeX Beamer slides\n│   ├── *.tex                  # 6 LaTeX source files\n│   └── *.pdf                  # 14 compiled presentations\n│\n├── figures/                   # 67 Python-generated charts\n├── python/                    # 19 chart generation scripts\n├── lab/                       # Jupyter notebooks (2 notebooks)\n└── docs/                      # Additional documentation\n```\n\n## Features\n\n### Learning App\n- **3 Structured Learning Goals** with progress tracking\n- **62 Educational Slides** organized pedagogically\n- **Sidebar Navigation** with visual progress bars\n- **Material-UI Design** with purple theme (#3333B2)\n- **Progress Persistence** via localStorage\n\n### Interactive Playground\n- **Live Algorithm Demonstrations** for all 6 methods\n- **Parameter Tuning** with real-time results\n- **Side-by-Side Comparison** of different methods\n- **Quality Metrics** (repetition rate, distinct-n scores)\n- **Preset Configurations** (Factual, Creative, Balanced)\n\n## Decoding Methods Covered\n\n1. **Greedy Decoding** - Always select highest probability (deterministic)\n2. **Beam Search** - Maintain top-k sequences (deterministic)\n3. **Temperature Sampling** - Reshape distribution for creativity (stochastic)\n4. **Top-k Sampling** - Filter to top-k then sample (stochastic)\n5. **Nucleus (Top-p)** - Adaptive cumulative probability cutoff (stochastic)\n6. **Contrastive Search** - Penalize repetition and similar tokens (deterministic)\n\n## Teaching Materials\n\n### Presentations\n- **Canonical Version**: `20251119_1135_week09_improved_readability.pdf` (66 slides)\n- **Pedagogical Structure**: Extremes → Toolbox → Problems → Integration\n- **LaTeX Source**: Available for customization\n\n### Lab Notebooks\n- **Full Lab**: `week09_decoding_lab.ipynb` (comprehensive exercises)\n- **Simplified**: `week09_decoding_simplified.ipynb` (beginner-friendly)\n- **HTML Export**: For web viewing without Jupyter\n\n### Visualizations\n- **67 Professional Charts** in BSc Discovery color scheme\n- **Python Scripts**: All generation scripts included\n- **Chart Types**: Graphviz diagrams, matplotlib plots, seaborn heatmaps\n\n## Technology Stack\n\n### Learning App\n- React 19 + Vite\n- Material-UI 7\n- Framer Motion (animations)\n- react-pdf (PDF viewing)\n- Recharts (charting)\n\n### Interactive Playground\n- React 18 + Vite\n- Tailwind CSS 4\n- React Router 7\n- D3.js (visualizations)\n- Math.js (calculations)\n\n## Development\n\n### Prerequisites\n- Node.js 18+ and npm\n- Git\n- (Optional) Python 3.8+ for chart generation\n\n### Installation\n```bash\n# Clone repository\ngit clone git@git.fhgr.ch:digital-finance/Natural-Language-Processing-Decoding-Strategies.git\ncd Natural-Language-Processing-Decoding-Strategies\n\n# Install learning-app\ncd learning-app\nnpm install\n\n# Install react-app\ncd ../react-app\nnpm install\n```\n\n### Build for Production\n```bash\n# Learning app\ncd learning-app\nnpm run build\nnpm run preview\n\n# Interactive playground\ncd react-app\nnpm run build\nnpm run preview\n```\n\n## Educational Design\n\nBased on **BSc Discovery Pedagogy**:\n1. **Problem before solution** (slides show extremes first)\n2. **Concrete before abstract** (worked examples with actual numbers)\n3. **Worked examples** (real decoding scenarios)\n4. **Dual-slide pattern** (visual + detail)\n5. **Checkpoint quizzes** (3 quizzes at key points)\n\n## Chart Generation\n\nAll 67 charts are generated using Python scripts:\n```bash\ncd python\npython generate_week09_enhanced_charts.py\n```\n\n## Color Scheme\n\n**BSc Discovery Colors**:\n- Purple (`#3333B2`): Primary brand\n- Dark Gray (`#404040`): Main text\n- Lavender shades: Backgrounds\n- Green (`#2CA02C`): Success\n- Red (`#D62728`): Error\n- Orange (`#FF7F0E`): Warning\n\n## Documentation\n\n- **[learning-app/README.md](learning-app/README.md)** - Learning app features\n- **[react-app/README.md](react-app/README.md)** - Playground technical details\n- **[docs/COMPLETION_REPORT.md](docs/COMPLETION_REPORT.md)** - Development summary\n- **[docs/IMPLEMENTATION_SUMMARY.md](docs/IMPLEMENTATION_SUMMARY.md)** - Technical details\n\n## License\n\nPart of NLP Course 2025 materials. Educational use permitted.\n\n## Course Context\n\nThis is **Week 9** of a 12-week NLP course covering:\n- Week 1-2: Foundations and embeddings\n- Week 3-4: RNN/LSTM and Seq2Seq\n- Week 5-7: Transformers and pre-trained models\n- **Week 9: Decoding Strategies** ← You are here\n- Week 10-12: Fine-tuning, efficiency, ethics\n\n## Authors\n\n- Course Design: Prof. Joerg Osterrieder\n- Interactive Apps: AI-assisted development\n- Charts: Python matplotlib/seaborn/graphviz\n\n## Support\n\nFor issues or questions:\n- Check the Wiki for setup guides\n- Review app-specific README files\n- Contact course instructor\n\n---\n\n**Last Updated**: November 22, 2025\n**Version**: 1.0.0\n**Status**: Production Ready\n",
       "preview": "# Natural Language Processing: Decoding Strategies\n\n**Week 9 Module** - Interactive learning platform for understanding text generation decoding methods in Large Language Models.\n\n## Overview\n\nThis repository contains a complete educational module on decoding strategies, featuring:\n- **2 Interactive",
       "metadata": {
@@ -343,10 +315,10 @@
         "language": "TeX",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.837135"
+      "added_at": "2025-12-02T03:14:45.477237"
     },
     {
-      "id": "doc_26",
+      "id": "doc_24",
       "content": "This repository contains a complete educational module on decoding strategies, featuring:\n- 2 Interactive React Applications for hands-on learning\n- Comprehensive Teaching Materials (slides, notebooks, charts)\n- 6 Decoding Algorithm Implementations (greedy, beam, temperature, top-k, nucleus, contrastive)\n- 67 Professional Visualizations (Python-generated PDF charts)",
       "preview": "This repository contains a complete educational module on decoding strategies, featuring:\n- 2 Interactive React Applications for hands-on learning\n- Comprehensive Teaching Materials (slides, notebooks, charts)\n- 6 Decoding Algorithm Implementations (greedy, beam, temperature, top-k, nucleus, contras",
       "metadata": {
@@ -355,10 +327,10 @@
         "title": "",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.837483"
+      "added_at": "2025-12-02T03:14:45.477608"
     },
     {
-      "id": "doc_27",
+      "id": "doc_25",
       "content": "# GitHub Organization Dashboard\n\nAutomated interactive dashboard for monitoring repository statistics in the Digital-AI-Finance organization. Features real-time data visualization with daily updates via GitHub Actions.\n\n## Features\n\n- **Automated Data Collection**: Daily updates via GitHub Actions\n- **Interactive Visualizations**: Powered by Plotly for rich, interactive charts\n- **Comprehensive Metrics**:\n  - Repository activity timeline\n  - Commit patterns and trends\n  - Language distribution analysis\n  - Repository maturity scoring\n  - Research focus areas\n  - Contributor analytics\n- **Modern UI**: Dark theme with GitHub-inspired design\n- **Zero Maintenance**: Fully automated pipeline with scheduled updates\n- **GitHub Pages Deployment**: Accessible via web browser\n\n## Quick Start\n\n### Local Development\n\n1. **Clone the repository**\n   ```powershell\n   git clone https://github.com/Digital-AI-Finance/dashboard.git\n   cd dashboard\n   ```\n\n2. **Install dependencies**\n   ```powershell\n   pip install -r requirements.txt\n   ```\n\n3. **Set up GitHub token** (optional but recommended)\n   ```powershell\n   # Windows PowerShell\n   $env:GITHUB_TOKEN=\"your_github_personal_access_token\"\n\n   # Or create a .env file\n   echo \"GITHUB_TOKEN=your_token_here\" > .env\n   ```\n\n4. **Run the dashboard update**\n   ```powershell\n   python run_update.py\n   ```\n\n5. **View the dashboard**\n   Open `index.html` in your browser\n\n### GitHub Token Setup\n\nFor higher API rate limits (5000 requests/hour vs 60), create a GitHub Personal Access Token:\n\n1. Go to GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)\n2. Click \"Generate new token (classic)\"\n3. Select scopes: `public_repo`, `read:org`\n4. Copy the token\n5. Set as environment variable `GITHUB_TOKEN`\n\n## Configuration\n\nEdit `config.yml` to customize:\n\n```yaml\n# Organization to monitor\norganization: \"Digital-AI-Finance\"\n\n# Dashboard settings\ndashboard:\n  title: \"Your Custom Title\"\n  update_frequency: \"daily\"\n\n# Visualization toggles\ncharts:\n  repository_activity:\n    enabled: true\n    days_history: 90  # Adjust time window\n\n  technology_stack:\n    enabled: true\n\n  research_impact:\n    enabled: true\n\n  repository_maturity:\n    enabled: true\n\n# Color scheme\ncolors:\n  background: \"#0d1117\"\n  primary: \"#58a6ff\"\n  # ... customize colors\n```\n\n## GitHub Actions Automation\n\nThe dashboard automatically updates daily via GitHub Actions:\n\n### Setup\n\n1. **Enable GitHub Pages**\n   - Go to repository Settings > Pages\n   - Source: Deploy from a branch\n   - Branch: `gh-pages` / root\n\n2. **Verify workflow permissions**\n   - Go to Settings > Actions > General\n   - Workflow permissions: Read and write permissions\n   - Save\n\n3. **Manual trigger** (optional)\n   - Go to Actions tab\n   - Select \"Update Dashboard\" workflow\n   - Click \"Run workflow\"\n\n### Schedule\n\n- **Automatic**: Daily at midnight UTC\n- **On push**: When code changes are pushed\n- **Manual**: Via Actions tab\n\n## Project Structure\n\n```\ngithub-dashboard/\n|-- .github/\n|   `-- workflows/\n|       `-- update-dashboard.yml    # GitHub Actions workflow\n|\n|-- data/\n|   |-- repository_stats.json       # Fetched GitHub data (generated)\n|   `-- cache/                      # API response cache (generated)\n|\n|-- fetch_github_data.py            # GitHub API data fetcher\n|-- generate_dashboard.py           # Dashboard HTML generator\n|-- run_update.py                   # Convenience script to run both\n|\n|-- config.yml                      # Configuration file\n|-- requirements.txt                # Python dependencies\n|-- .gitignore                      # Git ignore rules\n|\n|-- index.html                      # Generated dashboard (output)\n`-- README.md                       # This file\n```\n\n## Scripts Overview\n\n### fetch_github_data.py\n\nFetches comprehensive data from GitHub API:\n- Organization metadata\n- Repository details (commits, languages, contributors)\n- Activity metrics\n- Maturity scoring\n- Rate limit management\n\n**Usage:**\n```powershell\npython fetch_github_data.py\n```\n\n### generate_dashboard.py\n\nGenerates interactive HTML dashboard with Plotly charts:\n- Commit timeline\n- Language distribution\n- Repository statistics\n- Maturity gauges\n- Research focus areas\n- Contributor activity\n\n**Usage:**\n```powershell\npython generate_dashboard.py\n```\n\n### run_update.py\n\nRuns complete update pipeline (fetch + generate):\n\n**Usage:**\n```powershell\npython run_update.py\n```\n\n## Visualizations\n\n### 1. Commit Activity Timeline\nLine chart showing commit activity across all repositories over the last 90 days.\n\n### 2. Technology Stack Distribution\nPie chart displaying programming language usage across the organization.\n\n### 3. Repository Statistics\nBar charts comparing commits, stars, and forks across repositories.\n\n### 4. Repository Maturity Scores\nGauge charts showing maturity levels based on:\n- Commit activity (20%)\n- Documentation (20%)\n- Testing infrastructure (20%)\n- License presence (15%)\n- CI/CD setup (15%)\n- Community engagement (10%)\n\n**Maturity Stages:**\n- Production: 80-100%\n- Beta: 60-79%\n- Alpha: 40-59%\n- Planning: 20-39%\n- Concept: 0-19%\n\n### 5. Research Focus Areas\nBar chart of research topics extracted from repository descriptions.\n\n### 6. Contributor Activity\nBar chart showing contributor counts per repository.\n\n## Customization\n\n### Modify Charts\n\nEdit `generate_dashboard.py` to customize visualizations:\n\n```python\ndef create_custom_chart(self, data: Dict) -> str:\n    # Your custom Plotly chart code\n    fig = go.Figure(...)\n    return fig.to_html(full_html=False, include_plotlyjs='cdn')\n```\n\nAdd to `generate_html()` method:\n```python\ncustom_chart = self.create_custom_chart(data)\n```\n\nUpdate HTML template to include:\n```html\n<div class=\"chart-section\">\n    <h2>Custom Chart Title</h2>\n    {{ custom_chart|safe }}\n</div>\n```\n\n### Change Color Scheme\n\nEdit `config.yml` colors section:\n\n```yaml\ncolors:\n  background: \"#your_color\"\n  primary: \"#your_color\"\n  # ... etc\n```\n\n### Adjust Data Collection\n\nModify `fetch_github_data.py`:\n- Change `since_days` parameter for longer/shorter history\n- Add additional API endpoints\n- Customize maturity scoring weights\n\n## Troubleshooting\n\n### Rate Limit Errors\n\n**Problem**: API rate limit exceeded\n\n**Solution**:\n- Set `GITHUB_TOKEN` environment variable\n- Reduce update frequency\n- Enable caching in config.yml\n\n### Missing Data\n\n**Problem**: Charts show no data\n\n**Solution**:\n- Verify `data/repository_stats.json` exists\n- Check GitHub token permissions\n- Run `python fetch_github_data.py` manually to see errors\n\n### GitHub Pages Not Updating\n\n**Problem**: Dashboard not showing latest data\n\n**Solution**:\n- Check Actions tab for workflow errors\n- Verify gh-pages branch exists\n- Ensure workflow has write permissions\n- Clear browser cache\n\n### Import Errors\n\n**Problem**: Module not found errors\n\n**Solution**:\n```powershell\npip install -r requirements.txt --upgrade\n```\n\n## Dependencies\n\n- **requests** (2.31.0+): GitHub API communication\n- **plotly** (5.18.0+): Interactive visualizations\n- **pandas** (2.1.0+): Data processing\n- **pyyaml** (6.0.1+): Configuration parsing\n- **jinja2** (3.1.2+): HTML templating\n- **python-dateutil** (2.8.2+): Date handling\n\n## Development\n\n### Adding New Metrics\n\n1. **Fetch data** in `fetch_github_data.py`:\n   ```python\n   def get_new_metric(self, repo_name: str) -> Dict:\n       url = f\"{self.base_url}/repos/{self.org_name}/{repo_name}/endpoint\"\n       return self._make_request(url)\n   ```\n\n2. **Create visualization** in `generate_dashboard.py`:\n   ```python\n   def create_new_metric_chart(self, data: Dict) -> str:\n       # Chart logic\n       return fig.to_html(full_html=False, include_plotlyjs='cdn')\n   ```\n\n3. **Add to dashboard** in HTML template\n\n### Testing Locally\n\n```powershell\n# Test data fetching\npython fetch_github_data.py\n\n# Test dashboard generation\npython generate_dashboard.py\n\n# Open in browser\nstart index.html\n```\n\n## Performance\n\n- **API Calls**: Approximately 10-20 per repository\n- **Rate Limits**: 5000/hour with token, 60/hour without\n- **Generation Time**: 1-3 minutes for 4 repositories\n- **Dashboard Size**: Approximately 2-5 MB HTML file\n\n## Security\n\n- **GitHub Token**: Never commit tokens to repository\n- **Use secrets**: Store in GitHub Secrets for Actions\n- **Environment variables**: Use `.env` file for local development (git-ignored)\n\n## License\n\nMIT License - see LICENSE file for details\n\n## Contributing\n\nContributions welcome! Please:\n1. Fork the repository\n2. Create feature branch\n3. Make changes\n4. Test thoroughly\n5. Submit pull request\n\n## Support\n\nFor issues or questions:\n- Open an issue on GitHub\n- Check existing issues for solutions\n- Review GitHub Actions logs for errors\n\n## Roadmap\n\nFuture enhancements:\n- [ ] Historical trend tracking\n- [ ] Comparison with other organizations\n- [ ] Email notifications on significant changes\n- [ ] Custom metric definitions\n- [ ] Export to PDF/PNG\n- [ ] Mobile app view\n- [ ] Real-time updates via webhooks\n\n## Acknowledgments\n\n- Built with Plotly for interactive visualizations\n- Deployed via GitHub Pages\n- Automated with GitHub Actions\n- Inspired by modern tech dashboard designs\n",
       "preview": "# GitHub Organization Dashboard\n\nAutomated interactive dashboard for monitoring repository statistics in the Digital-AI-Finance organization. Features real-time data visualization with daily updates via GitHub Actions.\n\n## Features\n\n- **Automated Data Collection**: Daily updates via GitHub Actions\n-",
       "metadata": {
@@ -368,10 +340,10 @@
         "language": "TeX",
         "topics": []
       },
-      "added_at": "2025-12-01T03:32:59.837504"
+      "added_at": "2025-12-02T03:14:45.477633"
     },
     {
-      "id": "doc_28",
+      "id": "doc_26",
       "content": "Automated interactive dashboard for monitoring repository statistics in the Digital-AI-Finance organization. Features real-time data visualization with daily updates via GitHub Actions.",
       "preview": "Automated interactive dashboard for monitoring repository statistics in the Digital-AI-Finance organization. Features real-time data visualization with daily updates via GitHub Actions.",
       "metadata": {
@@ -380,18 +352,143 @@
         "title": "",
         "keywords": []
       },
-      "added_at": "2025-12-01T03:32:59.837934"
+      "added_at": "2025-12-02T03:14:45.478119"
+    },
+    {
+      "id": "doc_27",
+      "content": "# book-next-word-prediction\n\nSpringer textbook: Predicting the Next Word - A Mathematical Foundation of Language Models\n\n## Getting started\n\nTo make it easy for you to get started with GitLab, here's a list of recommended next steps.\n\nAlready a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!\n\n## Add your files\n\n- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files\n- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:\n\n```\ncd existing_repo\ngit remote add origin https://git.fhgr.ch/digital-finance/book-next-word-prediction.git\ngit branch -M main\ngit push -uf origin main\n```\n\n## Integrate with your tools\n\n- [ ] [Set up project integrations](http://git.fhgr.ch/digital-finance/book-next-word-prediction/-/settings/integrations)\n\n## Collaborate with your team\n\n- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)\n- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)\n- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)\n- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)\n- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)\n\n## Test and Deploy\n\nUse the built-in continuous integration in GitLab.\n\n- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)\n- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)\n- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)\n- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)\n- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)\n\n***\n\n# Editing this README\n\nWhen you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.\n\n## Suggestions for a good README\n\nEvery project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.\n\n## Name\nChoose a self-explaining name for your project.\n\n## Description\nLet people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.\n\n## Badges\nOn some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.\n\n## Visuals\nDepending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.\n\n## Installation\nWithin a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.\n\n## Usage\nUse examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.\n\n## Support\nTell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.\n\n## Roadmap\nIf you have ideas for releases in the future, it is a good idea to list them in the README.\n\n## Contributing\nState if you are open to contributions and what your requirements are for accepting them.\n\nFor people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.\n\nYou can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.\n\n## Authors and acknowledgment\nShow your appreciation to those who have contributed to the project.\n\n## License\nFor open source projects, say how it is licensed.\n\n## Project status\nIf you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.\n",
+      "preview": "# book-next-word-prediction\n\nSpringer textbook: Predicting the Next Word - A Mathematical Foundation of Language Models\n\n## Getting started\n\nTo make it easy for you to get started with GitLab, here's a list of recommended next steps.\n\nAlready a pro? Just edit this README.md and make it your own. Wan",
+      "metadata": {
+        "type": "readme",
+        "repo": "book-next-word-prediction",
+        "title": "PhD-level Springer textbook: Predicting the Next Word - A Mathematical Foundation of Language Models",
+        "language": "Python",
+        "topics": []
+      },
+      "added_at": "2025-12-02T03:14:45.478138"
+    },
+    {
+      "id": "doc_28",
+      "content": "Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!",
+      "preview": "Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!",
+      "metadata": {
+        "type": "research",
+        "repo": "book-next-word-prediction",
+        "title": "PhD-level Springer textbook: Predicting the Next Word - A Mathematical Foundation of Language Models",
+        "keywords": []
+      },
+      "added_at": "2025-12-02T03:14:45.478497"
+    },
+    {
+      "id": "doc_29",
+      "content": "# Narrative Digital Finance\n\n**A tale of structural breaks, bubbles & market narratives**\n\nResearch Project of the Swiss National Science Foundation (SNSF)\n\n[![SNSF](https://img.shields.io/badge/Funded%20by-SNSF-red)](https://www.mysnf.ch/grants/grant.aspx?id=c8d8081e-6eee-4418-92bb-21dc2c89566a)\n[![EU Horizon](https://img.shields.io/badge/EU-Horizon%20Europe-blue)](https://cordis.europa.eu/project/id/101119635)\n\n## Overview\n\nLarge fluctuations, instabilities, trends and uncertainty of financial markets constitute a substantial challenge for asset management companies, pension funds and regulators. This project develops a comprehensive framework that utilizes advanced machine learning and NLP techniques to predict market outcomes, detect asset price bubbles, and identify structural breaks using diverse data sources.\n\n## Research Objectives\n\n### Overall Objectives\nDevelop a comprehensive framework utilizing advanced machine learning and NLP techniques to:\n- Predict market outcomes\n- Detect asset price bubbles\n- Identify structural breaks\n- Analyze diverse data sources including financial data and narrative content from text, speech, and multimedia\n\n### Specific Aims\n1. Validate and refine existing econometric models using real-world financial data\n2. Integrate narrative analysis to understand and predict market behaviors and asset price dynamics\n3. Create a multidimensional AI and ML framework that enhances the detection of market anomalies and forecasts financial trends\n\n## Methods\n\nThe approach involves:\n- Collecting and processing stock prices, macroeconomic indicators, and textual content from the web\n- Employing text mining and NLP techniques to analyze sentiment, narrative structures, and their impact on market movements\n- Developing and testing new AI models that combine traditional financial analysis with narrative insights\n\n## Team\n\n**Cooperation between University of Twente (Netherlands) and Bern Business School (Switzerland)**\n\n| Name | Role | Affiliation |\n|------|------|-------------|\n| **Joerg Osterrieder** | Principal Investigator | Bern Business School, University of Twente |\n| **Marius Jan Klein** | Team Member | Bern Business School |\n| **Branka Hadji Misheva** | Team Member | Bern Business School |\n| **Gabin Taibi** | Team Member | Bern Business School, University of Twente |\n\n## Collaborations\n\n- **Deutsche Borse** - Dr. Stefan Schlamp (Head of Quantitative Analytics)\n- **COST Action CA19130** - Fintech and Artificial Intelligence in Finance\n- **MSCA Industrial Doctoral Network on Digital Finance**\n\n## Publications\n\n1. **Hypothesizing Multimodal Influence: Assessing the Impact of Textual and Non-Textual Data on Financial Instrument Pricing Using NLP and Generative AI**\n   - Bolesta, K., Taibi, G., Codruta, M., Osterrieder, J., Hadji-Misheva, B. & Hopp, C. (2024). SSRN.\n\n## Project Output\n\n| Category | Count |\n|----------|-------|\n| Scientific Publications | 1 |\n| Datasets | 3 |\n| Collaborations | 1 |\n\n## Funding\n\n- **Swiss National Science Foundation (SNSF)**\n  - Proposal Number: 100018E_213370\n- **Horizon Europe - Marie Sklodowska-Curie Actions**\n  - Grant Agreement No. 101119635\n\n## Repository Structure\n\n```\nNarrative-Digital-Finance/\n├── README.md           # This file\n├── docs/               # Documentation\n│   ├── objectives.md   # Research objectives\n│   ├── team.md         # Team information\n│   └── funding.md      # Funding details\n├── src/                # Source code\n├── data/               # Data files\n└── LICENSE             # License file\n```\n\n## Links\n\n- [Project Website](https://www.digital-finance-msca.com/snsf-narrative-digital-finance)\n- [SNSF Grant Page](https://www.mysnf.ch/grants/grant.aspx?id=c8d8081e-6eee-4418-92bb-21dc2c89566a)\n- [EU CORDIS](https://cordis.europa.eu/project/id/101119635)\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n---\n\n*Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Horizon Europe: Marie Sklodowska-Curie Actions.*\n",
+      "preview": "# Narrative Digital Finance\n\n**A tale of structural breaks, bubbles & market narratives**\n\nResearch Project of the Swiss National Science Foundation (SNSF)\n\n[![SNSF](https://img.shields.io/badge/Funded%20by-SNSF-red)](https://www.mysnf.ch/grants/grant.aspx?id=c8d8081e-6eee-4418-92bb-21dc2c89566a)\n[!",
+      "metadata": {
+        "type": "readme",
+        "repo": "Narrative-Digital-Finance",
+        "title": "SNSF Narrative Digital Finance: A tale of structural breaks, bubbles & market narratives - Research Project of the Swiss National Science Foundation",
+        "language": "HTML",
+        "topics": []
+      },
+      "added_at": "2025-12-02T03:14:45.478514"
+    },
+    {
+      "id": "doc_30",
+      "content": "Large fluctuations, instabilities, trends and uncertainty of financial markets constitute a substantial challenge for asset management companies, pension funds and regulators. This project develops a comprehensive framework that utilizes advanced machine learning and NLP techniques to predict market outcomes, detect asset price bubbles, and identify structural breaks using diverse data sources.",
+      "preview": "Large fluctuations, instabilities, trends and uncertainty of financial markets constitute a substantial challenge for asset management companies, pension funds and regulators. This project develops a comprehensive framework that utilizes advanced machine learning and NLP techniques to predict market",
+      "metadata": {
+        "type": "research",
+        "repo": "Narrative-Digital-Finance",
+        "title": "SNSF Narrative Digital Finance: A tale of structural breaks, bubbles & market narratives - Research Project of the Swiss National Science Foundation",
+        "keywords": []
+      },
+      "added_at": "2025-12-02T03:14:45.478761"
+    },
+    {
+      "id": "doc_31",
+      "content": "# Network-Based Credit Risk Models in P2P Lending Markets\n\n**SNSF Research Project** - Swiss National Science Foundation\n\n## Overview\n\nThis research project focuses on developing advanced, interpretable credit risk models tailored specifically to the needs of Peer-to-Peer (P2P) lending markets. The project addresses the unique challenges of P2P lending, such as higher information asymmetry, less regulation, and increased risk during economic downturns.\n\n## Team\n\n**Principal Investigator:** Joerg Osterrieder (Bern Business School, Switzerland / University of Twente, Netherlands)\n\n**Team Members:**\n- Lennart John Baals (Bern Business School / University of Twente)\n- Branka Hadji Misheva (Bern Business School)\n- Yiting Liu (Bern Business School / University of Twente)\n\n## Key Publications\n\n1. **Network centrality and credit risk: A comprehensive analysis of peer-to-peer lending dynamics**\n   Liu, Y., Baals, L. J., Osterrieder, J., & Hadji-Misheva, B. (2024). *Finance Research Letters*, 63, 105308.\n\n2. **Leveraging network topology for credit risk assessment in P2P lending: A comparative study under the lens of machine learning**\n   Liu, Y., Baals, L. J., Osterrieder, J., & Hadji-Misheva, B. (2024). *Expert Systems with Applications*, 252, 124100.\n\n## Collaborations\n\n- American University of Sharjah, UAE (Prof. Dr. Stephen Chan)\n- University of Manchester, UK (Dr. Yuanyuan Zhang)\n- Renmin University, China (Prof. Dr. Jeffrey Chu)\n- COST Action CA19130 - Fintech and Artificial Intelligence in Finance\n- MSCA Industrial Doctoral Network on Digital Finance\n\n## More Information\n\nSee the [Wiki](https://github.com/Digital-AI-Finance/network-based-credit-risk-models/wiki) for complete project information.\n\n**Source:** [digital-finance-msca.com](https://www.digital-finance-msca.com/network-based-credit-risk-models-snsf)\n",
+      "preview": "# Network-Based Credit Risk Models in P2P Lending Markets\n\n**SNSF Research Project** - Swiss National Science Foundation\n\n## Overview\n\nThis research project focuses on developing advanced, interpretable credit risk models tailored specifically to the needs of Peer-to-Peer (P2P) lending markets. The ",
+      "metadata": {
+        "type": "readme",
+        "repo": "network-based-credit-risk-models",
+        "title": "Network-Based Credit Risk Models in P2P Lending Markets - SNSF Research Project",
+        "language": "Python",
+        "topics": []
+      },
+      "added_at": "2025-12-02T03:14:45.478785"
+    },
+    {
+      "id": "doc_32",
+      "content": "This research project focuses on developing advanced, interpretable credit risk models tailored specifically to the needs of Peer-to-Peer (P2P) lending markets. The project addresses the unique challenges of P2P lending, such as higher information asymmetry, less regulation, and increased risk during economic downturns.",
+      "preview": "This research project focuses on developing advanced, interpretable credit risk models tailored specifically to the needs of Peer-to-Peer (P2P) lending markets. The project addresses the unique challenges of P2P lending, such as higher information asymmetry, less regulation, and increased risk durin",
+      "metadata": {
+        "type": "research",
+        "repo": "network-based-credit-risk-models",
+        "title": "Network-Based Credit Risk Models in P2P Lending Markets - SNSF Research Project",
+        "keywords": []
+      },
+      "added_at": "2025-12-02T03:14:45.478887"
+    },
+    {
+      "id": "doc_33",
+      "content": "# MSCA Digital Finance Website\n\nThis repository contains the Hugo static site for the MSCA Digital Finance Industrial Doctoral Network, migrated from the original Wix website at [digital-finance-msca.com](https://www.digital-finance-msca.com/).\n\n## About MSCA Digital Finance\n\nThe Industrial Doctoral Network in Digital Finance (DIGITAL) is an EU-funded Marie Sklodowska-Curie Action (Grant Agreement No. 101119635) that brings together:\n\n- 8 leading European universities\n- 3 major international corporations (Swedbank, Raiffeisen Bank, Deutsche Bank)\n- 3 SMEs\n- 3 research centres (Athena, EIT Digital, Fraunhofer)\n- 2 intergovernmental agencies (European Central Bank, Bank for International Settlements)\n\nThe network trains 17 PhD researchers in digital finance, focusing on AI, machine learning, and data science applications in the financial sector.\n\n## Project Structure\n\n```\nmsca-digital-finance/\n├── content/                 # Hugo content (markdown files)\n│   ├── _index.md           # Homepage\n│   ├── people/             # Team member profiles\n│   ├── partners/           # Partner organizations\n│   ├── blog/               # News and blog posts\n│   ├── training-modules/   # Training module descriptions\n│   ├── training-events/    # Training event information\n│   └── events/             # Event registrations\n├── static/\n│   ├── css/                # Stylesheets\n│   └── images/             # Downloaded images\n├── layouts/                # Hugo templates\n├── scripts/                # Migration scripts\n├── data/                   # Scraped data and URLs\n└── .github/workflows/      # GitHub Actions for deployment\n```\n\n## Development\n\n### Prerequisites\n\n- [Hugo](https://gohugo.io/installation/) (extended version recommended)\n- Python 3.8+ (for migration scripts)\n\n### Local Development\n\n```bash\n# Clone the repository\ngit clone https://github.com/Digital-AI-Finance/msca-digital-finance.git\ncd msca-digital-finance\n\n# Start Hugo development server\nhugo server -D\n\n# Build for production\nhugo --minify\n```\n\n### Migration Scripts\n\nThe `scripts/` directory contains Python scripts used to migrate content from the original Wix site:\n\n1. `01_discover_urls.py` - Discovers all URLs from sitemaps\n2. `02_scrape_content.py` - Scrapes content using Playwright\n3. `03_download_images.py` - Downloads all images locally\n4. `04_setup_hugo.py` - Sets up Hugo configuration and templates\n5. `05_verify.py` - Verifies migration completeness\n\nTo run the migration scripts:\n\n```bash\ncd scripts\npip install -r requirements.txt\nplaywright install chromium\n\npython 01_discover_urls.py\npython 02_scrape_content.py\npython 03_download_images.py\npython 04_setup_hugo.py\npython 05_verify.py\n```\n\n## Deployment\n\nThe site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch via GitHub Actions.\n\n**Live Site:** [https://digital-ai-finance.github.io/msca-digital-finance/](https://digital-ai-finance.github.io/msca-digital-finance/)\n\n## License\n\nContent copyright MSCA Digital Finance Consortium. Website template and migration scripts available under MIT License.\n\n## Contact\n\nFor questions about the MSCA Digital Finance project, please visit [Contact Us](https://digital-ai-finance.github.io/msca-digital-finance/contact-us/).\n\n---\n\n*This site was migrated from Wix using automated Python scripts and is hosted on GitHub Pages using Hugo.*\n",
+      "preview": "# MSCA Digital Finance Website\n\nThis repository contains the Hugo static site for the MSCA Digital Finance Industrial Doctoral Network, migrated from the original Wix website at [digital-finance-msca.com](https://www.digital-finance-msca.com/).\n\n## About MSCA Digital Finance\n\nThe Industrial Doctoral",
+      "metadata": {
+        "type": "readme",
+        "repo": "msca-digital-finance",
+        "title": "MSCA Digital Finance Website - Hugo static site migrated from Wix",
+        "language": "Python",
+        "topics": []
+      },
+      "added_at": "2025-12-02T03:14:45.478908"
+    },
+    {
+      "id": "doc_34",
+      "content": "This repository contains the Hugo static site for the MSCA Digital Finance Industrial Doctoral Network, migrated from the original Wix website at [digital-finance-msca.com](https://www.digital-finance-msca.com/).",
+      "preview": "This repository contains the Hugo static site for the MSCA Digital Finance Industrial Doctoral Network, migrated from the original Wix website at [digital-finance-msca.com](https://www.digital-finance-msca.com/).",
+      "metadata": {
+        "type": "research",
+        "repo": "msca-digital-finance",
+        "title": "MSCA Digital Finance Website - Hugo static site migrated from Wix",
+        "keywords": []
+      },
+      "added_at": "2025-12-02T03:14:45.479115"
+    },
+    {
+      "id": "doc_35",
+      "content": "# AI in Finance Website\n\nThis is the Hugo-based website for the AI in Finance collaboration between University of Twente and ING.\n\n## Overview\n\nThe ING-UT AI in Finance collaboration focuses on advanced AI applications in:\n- Data handling\n- Risk management\n- Business operations within the finance sector\n\n## Local Development\n\n1. Install Hugo (extended version): https://gohugo.io/installation/\n\n2. Clone with submodules:\n   ```bash\n   git clone --recurse-submodules https://github.com/Digital-AI-Finance/ai-in-finance.git\n   ```\n\n3. Start development server:\n   ```bash\n   cd ai-in-finance\n   hugo server -D\n   ```\n\n4. Open http://localhost:1313\n\n## Deployment\n\nThe site is automatically deployed to GitHub Pages when pushing to the `main` branch.\n\nLive site: https://digital-ai-finance.github.io/ai-in-finance/\n\n## Team\n\n- **University of Twente**: 11 professors and researchers\n- **ING**: 22+ team members\n- **Students**: 9 MSc students, 1 PhD candidate\n\n## Links\n\n- [Original site](https://www.ai-in-finance.eu/)\n- [Digital Finance MSCA](https://www.digital-finance-msca.com/)\n- [KickStart AI](https://www.kickstartai.nl/)\n",
+      "preview": "# AI in Finance Website\n\nThis is the Hugo-based website for the AI in Finance collaboration between University of Twente and ING.\n\n## Overview\n\nThe ING-UT AI in Finance collaboration focuses on advanced AI applications in:\n- Data handling\n- Risk management\n- Business operations within the finance se",
+      "metadata": {
+        "type": "readme",
+        "repo": "ai-in-finance",
+        "title": "AI in Finance - UT & ING Collaboration Website",
+        "language": "JavaScript",
+        "topics": []
+      },
+      "added_at": "2025-12-02T03:14:45.479134"
+    },
+    {
+      "id": "doc_36",
+      "content": "The ING-UT AI in Finance collaboration focuses on advanced AI applications in:\n- Data handling\n- Risk management\n- Business operations within the finance sector",
+      "preview": "The ING-UT AI in Finance collaboration focuses on advanced AI applications in:\n- Data handling\n- Risk management\n- Business operations within the finance sector",
+      "metadata": {
+        "type": "research",
+        "repo": "ai-in-finance",
+        "title": "AI in Finance - UT & ING Collaboration Website",
+        "keywords": []
+      },
+      "added_at": "2025-12-02T03:14:45.479202"
     }
   ],
   "facets": {
     "type": {
-      "readme": 13,
-      "research": 13,
-      "publication": 3
+      "readme": 18,
+      "research": 18,
+      "publication": 1
     },
     "repo": {
       "org-dashboard": 2,
-      "portfolio-optimization-ml": 4,
+      "portfolio-optimization-ml": 3,
       "credit-risk-prediction": 2,
       "market-microstructure": 2,
       "green-finance": 2,
@@ -400,15 +497,19 @@
       "demo-repository": 2,
       "natural-language-processing-details": 2,
       "digital-ai-in-finance": 2,
-      "publications": 3,
+      "publications": 2,
       "natural-language-processing-decoding-strategies": 2,
-      "statistics": 2
+      "statistics": 2,
+      "book-next-word-prediction": 2,
+      "narrative-digital-finance": 2,
+      "network-based-credit-risk-models": 2,
+      "msca-digital-finance": 2,
+      "ai-in-finance": 2
     },
     "title": {
       "automated dashboard for monitoring all repositories in the digital-ai-finance organization": 2,
       "machine learning approaches to portfolio optimization using deep reinforcement learning": 2,
       "financial markets and unemployment": 1,
-      "the success of adaboost and its application in portfolio management": 1,
       "neural network models for credit risk prediction with explainable ai": 2,
       "high-frequency trading analysis and market microstructure research": 2,
       "academic course generation system for green finance professional certificate - 8-week course with learning-goal-driven pedagogy, beamer slides, and interactive react app": 2,
@@ -417,14 +518,19 @@
       "a code repository designed to show the best github has to offer.": 2,
       "task-oriented nlp educational materials for undergraduate courses": 2,
       "ccg application for ai for digital finance workshop - swiss-mena research network": 2,
-      "openalex: a fully-open index of scholarly works, authors, venues, institutions, and concepts": 1
+      "phd-level springer textbook: predicting the next word - a mathematical foundation of language models": 2,
+      "snsf narrative digital finance: a tale of structural breaks, bubbles & market narratives - research project of the swiss national science foundation": 2,
+      "network-based credit risk models in p2p lending markets - snsf research project": 2,
+      "msca digital finance website - hugo static site migrated from wix": 2,
+      "ai in finance - ut & ing collaboration website": 2
     },
     "language": {
-      "python": 2,
+      "python": 5,
       "unknown": 4,
       "tex": 3,
       "jupyter notebook": 2,
-      "html": 2
+      "html": 3,
+      "javascript": 1
     },
     "topics": {
       "finance": 3,
@@ -439,16 +545,10 @@
       "time-series": 1
     },
     "year": {
-      "2023": 1,
-      "2021": 1,
-      "2022": 1
+      "2023": 1
     },
     "doi": {
       "10.1016/j.jfineco.2023.01.001": 1
-    },
-    "arxiv_id": {
-      "2103.12345": 1,
-      "2205.01833": 1
     }
   },
   "repos": {
@@ -465,11 +565,11 @@
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 8756,
+      "size": 11471,
       "default_branch": "main",
       "created_at": "2025-11-21T21:59:13+00:00",
-      "updated_at": "2025-11-30T15:28:55+00:00",
-      "pushed_at": "2025-11-30T16:43:50+00:00",
+      "updated_at": "2025-12-01T03:34:23+00:00",
+      "pushed_at": "2025-12-01T03:34:21+00:00",
       "license": "No License",
       "has_issues": true,
       "has_wiki": false,
@@ -515,7 +615,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:30:13.707726",
+          "extracted_at": "2025-12-02T03:11:03.350370",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -542,7 +642,7 @@
             "name": "citation_history.json",
             "path": "data/citation_history.json",
             "format": ".json",
-            "size_bytes": 33792
+            "size_bytes": 36558
           },
           {
             "name": "citation_report.json",
@@ -554,55 +654,55 @@
             "name": "code_quality_report.json",
             "path": "data/code_quality_report.json",
             "format": ".json",
-            "size_bytes": 7941
+            "size_bytes": 8444
           },
           {
             "name": "collaboration_network.json",
             "path": "data/collaboration_network.json",
             "format": ".json",
-            "size_bytes": 3031
+            "size_bytes": 3095
           },
           {
             "name": "ml_topic_analysis.json",
             "path": "data/ml_topic_analysis.json",
             "format": ".json",
-            "size_bytes": 17033
+            "size_bytes": 17850
           },
           {
             "name": "repos.json",
             "path": "data/repos.json",
             "format": ".json",
-            "size_bytes": 159352
+            "size_bytes": 160498
           },
           {
             "name": "repository_health_report.json",
             "path": "data/repository_health_report.json",
             "format": ".json",
-            "size_bytes": 24175
+            "size_bytes": 25688
           },
           {
             "name": "reproducibility_report.json",
             "path": "data/reproducibility_report.json",
             "format": ".json",
-            "size_bytes": 18586
+            "size_bytes": 19261
           },
           {
             "name": "research_metadata.json",
             "path": "data/research_metadata.json",
             "format": ".json",
-            "size_bytes": 59875
+            "size_bytes": 59869
           },
           {
             "name": "search_index.pkl",
             "path": "data/search_index.pkl",
             "format": ".pkl",
-            "size_bytes": 126386
+            "size_bytes": 126363
           },
           {
             "name": "stats.json",
             "path": "data/stats.json",
             "format": ".json",
-            "size_bytes": 2695
+            "size_bytes": 2747
           },
           {
             "name": "data",
@@ -614,13 +714,13 @@
             "name": "search_data.json",
             "path": "docs/data/search_data.json",
             "format": ".json",
-            "size_bytes": 376334
+            "size_bytes": 377567
           },
           {
             "name": "search_data_minimal.json",
             "path": "docs/data/search_data_minimal.json",
             "format": ".json",
-            "size_bytes": 268980
+            "size_bytes": 270213
           },
           {
             "name": "citation_network.json",
@@ -723,32 +823,7 @@
           {
             "type": "preprint",
             "arxiv_id": "2103.12345",
-            "url": "https://arxiv.org/abs/2103.12345",
-            "title": "The Success of AdaBoost and Its Application in Portfolio Management",
-            "abstract": "We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a strong connection between the ION and the test error. We further identify that the ION of AdaBoost decreases as the iteration number or the complexity of the base learners increases. We confirm that it is impossible to obtain a consistent classifier without deep trees as the base learners of AdaBoost in some complicated situations. We apply AdaBoost in portfolio management via empirical studies in the Chinese market, which corroborates our theoretical propositions.",
-            "published": "2021-03-23T06:41:42Z",
-            "updated": "2021-03-23T06:41:42Z",
-            "pdf_url": "https://arxiv.org/pdf/2103.12345.pdf",
-            "authors": [
-              {
-                "name": "Yijian Chuan"
-              },
-              {
-                "name": "Chaoyi Zhao"
-              },
-              {
-                "name": "Zhenrui He"
-              },
-              {
-                "name": "Lan Wu"
-              }
-            ],
-            "categories": [
-              "stat.ML",
-              "cs.LG",
-              "q-fin.PM"
-            ],
-            "year": 2021
+            "url": "https://arxiv.org/abs/2103.12345"
           }
         ],
         "code": {
@@ -773,7 +848,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:30:15.911450",
+          "extracted_at": "2025-12-02T03:11:05.444133",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -867,7 +942,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:30:18.105546",
+          "extracted_at": "2025-12-02T03:11:07.413907",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -965,7 +1040,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:30:20.261142",
+          "extracted_at": "2025-12-02T03:11:09.400903",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1031,7 +1106,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:30:29.808611",
+          "extracted_at": "2025-12-02T03:11:18.103340",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1112,11 +1187,11 @@
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 143406,
+      "size": 143408,
       "default_branch": "main",
       "created_at": "2025-11-22T07:10:08+00:00",
-      "updated_at": "2025-11-30T07:23:22+00:00",
-      "pushed_at": "2025-11-30T07:23:18+00:00",
+      "updated_at": "2025-12-01T09:59:17+00:00",
+      "pushed_at": "2025-12-01T09:59:13+00:00",
       "license": "No License",
       "has_issues": true,
       "has_wiki": false,
@@ -1147,18 +1222,6 @@
             "Jupyter Notebook"
           ],
           "notebooks": [
-            {
-              "path": ".ipynb_checkpoints/shakespeare_sonnets_simple_bsc-checkpoint.ipynb",
-              "title": "shakespeare_sonnets_simple_bsc-checkpoint",
-              "language": "python",
-              "type": "jupyter"
-            },
-            {
-              "path": ".ipynb_checkpoints/week01_ngrams_bsc-checkpoint.ipynb",
-              "title": "week01_ngrams_bsc-checkpoint",
-              "language": "python",
-              "type": "jupyter"
-            },
             {
               "path": "NLP_slides/summarization_module/lab/llm_summarization_lab.ipynb",
               "title": "llm_summarization_lab",
@@ -1387,7 +1450,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:31:37.319501",
+          "extracted_at": "2025-12-02T03:12:18.677584",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1438,20 +1501,20 @@
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 3051,
+      "size": 5893,
       "default_branch": "main",
       "created_at": "2025-11-24T21:13:02+00:00",
-      "updated_at": "2025-11-25T05:14:34+00:00",
-      "pushed_at": "2025-11-24T21:15:20+00:00",
+      "updated_at": "2025-12-01T22:45:23+00:00",
+      "pushed_at": "2025-12-01T22:45:19+00:00",
       "license": "No License",
       "has_issues": true,
-      "has_wiki": false,
-      "has_pages": false,
+      "has_wiki": true,
+      "has_pages": true,
       "has_downloads": true,
       "archived": false,
       "disabled": false,
       "is_template": false,
-      "visibility": "private",
+      "visibility": "public",
       "contributors_count": 1,
       "readme": "No README available",
       "latest_release": null
@@ -1554,7 +1617,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:31:45.668461",
+          "extracted_at": "2025-12-02T03:12:26.768426",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1627,7 +1690,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:31:48.756397",
+          "extracted_at": "2025-12-02T03:12:29.571936",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -1654,15 +1717,15 @@
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 49774,
+      "size": 49884,
       "default_branch": "main",
       "created_at": "2025-11-29T08:35:22+00:00",
-      "updated_at": "2025-11-30T15:17:54+00:00",
-      "pushed_at": "2025-11-30T15:17:48+00:00",
+      "updated_at": "2025-12-01T22:56:23+00:00",
+      "pushed_at": "2025-12-01T22:56:20+00:00",
       "license": "No License",
       "has_issues": true,
       "has_wiki": true,
-      "has_pages": false,
+      "has_pages": true,
       "has_downloads": true,
       "archived": false,
       "disabled": false,
@@ -1988,7 +2051,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:32:19.171415",
+          "extracted_at": "2025-12-02T03:12:56.957162",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2411,20 +2474,20 @@
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 3570,
+      "size": 13681,
       "default_branch": "main",
       "created_at": "2025-11-29T11:14:34+00:00",
-      "updated_at": "2025-11-30T15:27:43+00:00",
-      "pushed_at": "2025-11-30T15:27:40+00:00",
+      "updated_at": "2025-12-01T23:09:09+00:00",
+      "pushed_at": "2025-12-01T23:09:05+00:00",
       "license": "No License",
       "has_issues": true,
-      "has_wiki": false,
-      "has_pages": false,
+      "has_wiki": true,
+      "has_pages": true,
       "has_downloads": true,
       "archived": false,
       "disabled": false,
       "is_template": false,
-      "visibility": "private",
+      "visibility": "public",
       "contributors_count": 1,
       "readme": "# AI for Digital Finance: Swiss-MENA Research Network\n\n## Overview\n\nCCG (Connect & Collaborate Grant) application materials for the \"AI for Digital Finance: Swiss-MENA Research Network\" workshop.\n\n- **Event**: April 21-23, 2026\n- **Location**: American University of Sharjah, UAE\n- **Co-organizers**: Prof. Joerg Osterrieder (FHGR) & Prof. Stephen Chan (AUS)\n\n## Submitted Materials\n\nThe `FinalSubmission/` folder contains the official submitted documents:\n\n| File | Description |\n|------|-------------|\n| `proposal_ai-in-digital-finance.pdf` | Main CCG application proposal |\n| `workshop_program_2026.pdf` | Detailed 3-day workshop program |\n| `lhmena-ccg-2025-budget_table-ai-for-digital-finance.xlsx` | Budget breakdown |\n| `gannt_chart.pdf` | Project timeline visualization |\n| `osterrieder_cv.pdf` | CV - Prof. Joerg Osterrieder |\n| `cv_chan_stephen.pdf` | CV - Prof. Stephen Chan |\n\n## Budget Summary\n\n- **Total Project Cost**: CHF 24,500\n- **CCG Request**: CHF 5,000 (20.4%)\n- **AUS Co-funding**: CHF 5,000 (20.4%)\n- **Other Sources**: CHF 14,500 (59.2%)\n\n## Workshop Focus\n\n- AI/ML Technologies in Finance\n- Large Language Models (LLMs)\n- Explainable AI for Compliance\n- Blockchain Security and Fraud Detection\n- Digital Banking Innovation\n\n## Documentation\n\nDetailed project documentation is available in the [`docs/`](docs/) folder:\n\n| Document | Description |\n|----------|-------------|\n| [Overview](docs/README.md) | Project overview and quick links |\n| [Budget](docs/Budget.md) | Detailed budget breakdown by category |\n| [Workshop Content](docs/Workshop-Content.md) | Full 3-day program and sessions |\n| [Timeline](docs/Timeline.md) | Project milestones and Gantt summary |\n| [Partners](docs/Partners.md) | Institutional partners and collaborators |\n| [Application Materials](docs/Application-Materials.md) | CCG application summary |\n\n## Archive\n\nThe `archive/` folder contains working drafts, scripts, and intermediate files used during application preparation.\n\n## Contact\n\n- Prof. Joerg Osterrieder: joerg.osterrieder@fhgr.ch\n- Prof. Stephen Chan: schan@aus.edu\n",
       "latest_release": null,
@@ -2461,7 +2524,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:32:26.398277",
+          "extracted_at": "2025-12-02T03:13:04.115715",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2513,6 +2576,48 @@
             "path": "archive/drafts/package.json",
             "format": ".json",
             "size_bytes": 49
+          },
+          {
+            "name": "data",
+            "path": "data",
+            "format": "",
+            "size_bytes": 0
+          },
+          {
+            "name": "msca_bios.json",
+            "path": "data/msca_bios.json",
+            "format": ".json",
+            "size_bytes": 5838
+          },
+          {
+            "name": "msca_page_screenshot.png",
+            "path": "data/msca_page_screenshot.png",
+            "format": ".png",
+            "size_bytes": 4796025
+          },
+          {
+            "name": "msca_people.json",
+            "path": "data/msca_people.json",
+            "format": ".json",
+            "size_bytes": 53791
+          },
+          {
+            "name": "msca_people_named.json",
+            "path": "data/msca_people_named.json",
+            "format": ".json",
+            "size_bytes": 21913
+          },
+          {
+            "name": "msca_raw_data.json",
+            "path": "data/msca_raw_data.json",
+            "format": ".json",
+            "size_bytes": 125910
+          },
+          {
+            "name": "scientific_committee.json",
+            "path": "data/scientific_committee.json",
+            "format": ".json",
+            "size_bytes": 697
           },
           {
             "name": "data",
@@ -2575,27 +2680,7 @@
           {
             "type": "preprint",
             "arxiv_id": "2205.01833",
-            "url": "https://arxiv.org/abs/2205.01833",
-            "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
-            "abstract": "OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M disambiguated authors; 124k venues (places that host works, such as journals and online repositories); 109k institutions; and 65k Wikidata concepts (linked to works via an automated hierarchical multi-tag classifier). The dataset is fully and freely available via a web-based GUI, a full data dump, and high-volume REST API. The resource is under active development and future work will improve accuracy and coverage of citation information and author/institution parsing and deduplication.",
-            "published": "2022-05-04T00:57:11Z",
-            "updated": "2022-06-17T00:34:23Z",
-            "pdf_url": "https://arxiv.org/pdf/2205.01833.pdf",
-            "authors": [
-              {
-                "name": "Jason Priem"
-              },
-              {
-                "name": "Heather Piwowar"
-              },
-              {
-                "name": "Richard Orr"
-              }
-            ],
-            "categories": [
-              "cs.DL"
-            ],
-            "year": 2022
+            "url": "https://arxiv.org/abs/2205.01833"
           }
         ],
         "code": {
@@ -2618,7 +2703,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:32:28.705667",
+          "extracted_at": "2025-12-02T03:13:06.135318",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2714,7 +2799,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:32:41.748518",
+          "extracted_at": "2025-12-02T03:13:18.292345",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2848,7 +2933,7 @@
           "citation_count": 0
         },
         "meta": {
-          "extracted_at": "2025-12-01T03:32:52.530344",
+          "extracted_at": "2025-12-02T03:13:28.103190",
           "extraction_version": "1.0",
           "extraction_method": "readme_parse"
         },
@@ -2959,11 +3044,42 @@
       "forks": 0,
       "watchers": 0,
       "open_issues": 0,
-      "size": 264,
+      "size": 298,
       "default_branch": "main",
       "created_at": "2025-11-30T16:24:34+00:00",
-      "updated_at": "2025-11-30T16:34:29+00:00",
-      "pushed_at": "2025-11-30T16:34:25+00:00",
+      "updated_at": "2025-12-01T22:18:10+00:00",
+      "pushed_at": "2025-12-01T22:18:06+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": false,
+      "has_pages": true,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "No README available",
+      "latest_release": null
+    },
+    "book-next-word-prediction": {
+      "name": "book-next-word-prediction",
+      "full_name": "Digital-AI-Finance/book-next-word-prediction",
+      "description": "PhD-level Springer textbook: Predicting the Next Word - A Mathematical Foundation of Language Models",
+      "url": "https://github.com/Digital-AI-Finance/book-next-word-prediction",
+      "clone_url": "https://github.com/Digital-AI-Finance/book-next-word-prediction.git",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 2,
+      "size": 30828,
+      "default_branch": "main",
+      "created_at": "2025-12-01T09:14:36+00:00",
+      "updated_at": "2025-12-01T22:32:11+00:00",
+      "pushed_at": "2025-12-01T22:40:20+00:00",
       "license": "No License",
       "has_issues": true,
       "has_wiki": false,
@@ -2974,18 +3090,425 @@
       "is_template": false,
       "visibility": "private",
       "contributors_count": 1,
-      "readme": "No README available",
-      "latest_release": null
+      "readme": "# book-next-word-prediction\n\nSpringer textbook: Predicting the Next Word - A Mathematical Foundation of Language Models\n\n## Getting started\n\nTo make it easy for you to get started with GitLab, here's a list of recommended next steps.\n\nAlready a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!\n\n## Add your files\n\n- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files\n- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:\n\n```\ncd existing_repo\ngit remote add origin https://git.fhgr.ch/digital-finance/book-next-word-prediction.git\ngit branch -M main\ngit push -uf origin main\n```\n\n## Integrate with your tools\n\n- [ ] [Set up project integrations](http://git.fhgr.ch/digital-finance/book-next-word-prediction/-/settings/integrations)\n\n## Collaborate with your team\n\n- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)\n- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)\n- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)\n- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)\n- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)\n\n## Test and Deploy\n\nUse the built-in continuous integration in GitLab.\n\n- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)\n- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)\n- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)\n- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)\n- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)\n\n***\n\n# Editing this README\n\nWhen you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.\n\n## Suggestions for a good README\n\nEvery project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.\n\n## Name\nChoose a self-explaining name for your project.\n\n## Description\nLet people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.\n\n## Badges\nOn some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.\n\n## Visuals\nDepending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.\n\n## Installation\nWithin a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.\n\n## Usage\nUse examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.\n\n## Support\nTell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.\n\n## Roadmap\nIf you have ideas for releases in the future, it is a good idea to list them in the README.\n\n## Contributing\nState if you are open to contributions and what your requirements are for accepting them.\n\nFor people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.\n\nYou can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.\n\n## Authors and acknowledgment\nShow your appreciation to those who have contributed to the project.\n\n## License\nFor open source projects, say how it is licensed.\n\n## Project status\nIf you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "book-next-word-prediction",
+        "research": {
+          "title": "PhD-level Springer textbook: Predicting the Next Word - A Mathematical Foundation of Language Models",
+          "abstract": "Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!",
+          "keywords": [],
+          "authors": []
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "Python"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": false,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-12-02T03:13:35.427597",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": []
+      }
+    },
+    "Narrative-Digital-Finance": {
+      "name": "Narrative-Digital-Finance",
+      "full_name": "Digital-AI-Finance/Narrative-Digital-Finance",
+      "description": "SNSF Narrative Digital Finance: A tale of structural breaks, bubbles & market narratives - Research Project of the Swiss National Science Foundation",
+      "url": "https://github.com/Digital-AI-Finance/Narrative-Digital-Finance",
+      "clone_url": "https://github.com/Digital-AI-Finance/Narrative-Digital-Finance.git",
+      "homepage": "",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 23,
+      "default_branch": "main",
+      "created_at": "2025-12-01T10:18:51+00:00",
+      "updated_at": "2025-12-01T22:19:23+00:00",
+      "pushed_at": "2025-12-01T22:19:20+00:00",
+      "license": "MIT License",
+      "has_issues": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# Narrative Digital Finance\n\n**A tale of structural breaks, bubbles & market narratives**\n\nResearch Project of the Swiss National Science Foundation (SNSF)\n\n[![SNSF](https://img.shields.io/badge/Funded%20by-SNSF-red)](https://www.mysnf.ch/grants/grant.aspx?id=c8d8081e-6eee-4418-92bb-21dc2c89566a)\n[![EU Horizon](https://img.shields.io/badge/EU-Horizon%20Europe-blue)](https://cordis.europa.eu/project/id/101119635)\n\n## Overview\n\nLarge fluctuations, instabilities, trends and uncertainty of financial markets constitute a substantial challenge for asset management companies, pension funds and regulators. This project develops a comprehensive framework that utilizes advanced machine learning and NLP techniques to predict market outcomes, detect asset price bubbles, and identify structural breaks using diverse data sources.\n\n## Research Objectives\n\n### Overall Objectives\nDevelop a comprehensive framework utilizing advanced machine learning and NLP techniques to:\n- Predict market outcomes\n- Detect asset price bubbles\n- Identify structural breaks\n- Analyze diverse data sources including financial data and narrative content from text, speech, and multimedia\n\n### Specific Aims\n1. Validate and refine existing econometric models using real-world financial data\n2. Integrate narrative analysis to understand and predict market behaviors and asset price dynamics\n3. Create a multidimensional AI and ML framework that enhances the detection of market anomalies and forecasts financial trends\n\n## Methods\n\nThe approach involves:\n- Collecting and processing stock prices, macroeconomic indicators, and textual content from the web\n- Employing text mining and NLP techniques to analyze sentiment, narrative structures, and their impact on market movements\n- Developing and testing new AI models that combine traditional financial analysis with narrative insights\n\n## Team\n\n**Cooperation between University of Twente (Netherlands) and Bern Business School (Switzerland)**\n\n| Name | Role | Affiliation |\n|------|------|-------------|\n| **Joerg Osterrieder** | Principal Investigator | Bern Business School, University of Twente |\n| **Marius Jan Klein** | Team Member | Bern Business School |\n| **Branka Hadji Misheva** | Team Member | Bern Business School |\n| **Gabin Taibi** | Team Member | Bern Business School, University of Twente |\n\n## Collaborations\n\n- **Deutsche Borse** - Dr. Stefan Schlamp (Head of Quantitative Analytics)\n- **COST Action CA19130** - Fintech and Artificial Intelligence in Finance\n- **MSCA Industrial Doctoral Network on Digital Finance**\n\n## Publications\n\n1. **Hypothesizing Multimodal Influence: Assessing the Impact of Textual and Non-Textual Data on Financial Instrument Pricing Using NLP and Generative AI**\n   - Bolesta, K., Taibi, G., Codruta, M., Osterrieder, J., Hadji-Misheva, B. & Hopp, C. (2024). SSRN.\n\n## Project Output\n\n| Category | Count |\n|----------|-------|\n| Scientific Publications | 1 |\n| Datasets | 3 |\n| Collaborations | 1 |\n\n## Funding\n\n- **Swiss National Science Foundation (SNSF)**\n  - Proposal Number: 100018E_213370\n- **Horizon Europe - Marie Sklodowska-Curie Actions**\n  - Grant Agreement No. 101119635\n\n## Repository Structure\n\n```\nNarrative-Digital-Finance/\n├── README.md           # This file\n├── docs/               # Documentation\n│   ├── objectives.md   # Research objectives\n│   ├── team.md         # Team information\n│   └── funding.md      # Funding details\n├── src/                # Source code\n├── data/               # Data files\n└── LICENSE             # License file\n```\n\n## Links\n\n- [Project Website](https://www.digital-finance-msca.com/snsf-narrative-digital-finance)\n- [SNSF Grant Page](https://www.mysnf.ch/grants/grant.aspx?id=c8d8081e-6eee-4418-92bb-21dc2c89566a)\n- [EU CORDIS](https://cordis.europa.eu/project/id/101119635)\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n---\n\n*Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Horizon Europe: Marie Sklodowska-Curie Actions.*\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "Narrative-Digital-Finance",
+        "research": {
+          "title": "SNSF Narrative Digital Finance: A tale of structural breaks, bubbles & market narratives - Research Project of the Swiss National Science Foundation",
+          "abstract": "Large fluctuations, instabilities, trends and uncertainty of financial markets constitute a substantial challenge for asset management companies, pension funds and regulators. This project develops a comprehensive framework that utilizes advanced machine learning and NLP techniques to predict market outcomes, detect asset price bubbles, and identify structural breaks using diverse data sources.",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "Cooperation between University of Twente  and Bern Business School",
+              "affiliation": "Netherlands"
+            },
+            {
+              "name": "| Name | Role | Affiliation |"
+            },
+            {
+              "name": "|------|------|-------------|"
+            },
+            {
+              "name": "| **Joerg Osterrieder** | Principal Investigator | Bern Business School, University of Twente |"
+            },
+            {
+              "name": "| **Marius Jan Klein** | Team Member | Bern Business School |"
+            },
+            {
+              "name": "| **Branka Hadji Misheva** | Team Member | Bern Business School |"
+            },
+            {
+              "name": "| **Gabin Taibi** | Team Member | Bern Business School, University of Twente |"
+            },
+            {
+              "name": "the European Union. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union or Horizon Europe: Marie Sklodowska-Curie Actions.",
+              "affiliation": "s"
+            }
+          ]
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "HTML"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": false,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-12-02T03:13:38.401209",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": [
+          {
+            "name": "data",
+            "path": "data",
+            "format": "",
+            "size_bytes": 0
+          },
+          {
+            "name": ".gitkeep",
+            "path": "data/.gitkeep",
+            "format": "",
+            "size_bytes": 17
+          }
+        ]
+      }
+    },
+    "network-based-credit-risk-models": {
+      "name": "network-based-credit-risk-models",
+      "full_name": "Digital-AI-Finance/network-based-credit-risk-models",
+      "description": "Network-Based Credit Risk Models in P2P Lending Markets - SNSF Research Project",
+      "url": "https://github.com/Digital-AI-Finance/network-based-credit-risk-models",
+      "clone_url": "https://github.com/Digital-AI-Finance/network-based-credit-risk-models.git",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 115,
+      "default_branch": "main",
+      "created_at": "2025-12-01T10:21:04+00:00",
+      "updated_at": "2025-12-01T23:02:50+00:00",
+      "pushed_at": "2025-12-01T23:02:46+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# Network-Based Credit Risk Models in P2P Lending Markets\n\n**SNSF Research Project** - Swiss National Science Foundation\n\n## Overview\n\nThis research project focuses on developing advanced, interpretable credit risk models tailored specifically to the needs of Peer-to-Peer (P2P) lending markets. The project addresses the unique challenges of P2P lending, such as higher information asymmetry, less regulation, and increased risk during economic downturns.\n\n## Team\n\n**Principal Investigator:** Joerg Osterrieder (Bern Business School, Switzerland / University of Twente, Netherlands)\n\n**Team Members:**\n- Lennart John Baals (Bern Business School / University of Twente)\n- Branka Hadji Misheva (Bern Business School)\n- Yiting Liu (Bern Business School / University of Twente)\n\n## Key Publications\n\n1. **Network centrality and credit risk: A comprehensive analysis of peer-to-peer lending dynamics**\n   Liu, Y., Baals, L. J., Osterrieder, J., & Hadji-Misheva, B. (2024). *Finance Research Letters*, 63, 105308.\n\n2. **Leveraging network topology for credit risk assessment in P2P lending: A comparative study under the lens of machine learning**\n   Liu, Y., Baals, L. J., Osterrieder, J., & Hadji-Misheva, B. (2024). *Expert Systems with Applications*, 252, 124100.\n\n## Collaborations\n\n- American University of Sharjah, UAE (Prof. Dr. Stephen Chan)\n- University of Manchester, UK (Dr. Yuanyuan Zhang)\n- Renmin University, China (Prof. Dr. Jeffrey Chu)\n- COST Action CA19130 - Fintech and Artificial Intelligence in Finance\n- MSCA Industrial Doctoral Network on Digital Finance\n\n## More Information\n\nSee the [Wiki](https://github.com/Digital-AI-Finance/network-based-credit-risk-models/wiki) for complete project information.\n\n**Source:** [digital-finance-msca.com](https://www.digital-finance-msca.com/network-based-credit-risk-models-snsf)\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "network-based-credit-risk-models",
+        "research": {
+          "title": "Network-Based Credit Risk Models in P2P Lending Markets - SNSF Research Project",
+          "abstract": "This research project focuses on developing advanced, interpretable credit risk models tailored specifically to the needs of Peer-to-Peer (P2P) lending markets. The project addresses the unique challenges of P2P lending, such as higher information asymmetry, less regulation, and increased risk during economic downturns.",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "Principal Investigator:** Joerg Osterrieder",
+              "affiliation": "Bern Business School, Switzerland / University of Twente, Netherlands"
+            },
+            {
+              "name": "Team Members:"
+            },
+            {
+              "name": "Lennart John Baals",
+              "affiliation": "Bern Business School / University of Twente"
+            },
+            {
+              "name": "Branka Hadji Misheva",
+              "affiliation": "Bern Business School"
+            },
+            {
+              "name": "Yiting Liu",
+              "affiliation": "Bern Business School / University of Twente"
+            }
+          ]
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "Python"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": false,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-12-02T03:13:44.446109",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": [
+          {
+            "name": "publications.json",
+            "path": "_data/publications.json",
+            "format": ".json",
+            "size_bytes": 20076
+          }
+        ]
+      }
+    },
+    "msca-digital-finance": {
+      "name": "msca-digital-finance",
+      "full_name": "Digital-AI-Finance/msca-digital-finance",
+      "description": "MSCA Digital Finance Website - Hugo static site migrated from Wix",
+      "url": "https://github.com/Digital-AI-Finance/msca-digital-finance",
+      "clone_url": "https://github.com/Digital-AI-Finance/msca-digital-finance.git",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 190148,
+      "default_branch": "main",
+      "created_at": "2025-12-01T21:42:05+00:00",
+      "updated_at": "2025-12-01T23:03:09+00:00",
+      "pushed_at": "2025-12-01T23:03:05+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# MSCA Digital Finance Website\n\nThis repository contains the Hugo static site for the MSCA Digital Finance Industrial Doctoral Network, migrated from the original Wix website at [digital-finance-msca.com](https://www.digital-finance-msca.com/).\n\n## About MSCA Digital Finance\n\nThe Industrial Doctoral Network in Digital Finance (DIGITAL) is an EU-funded Marie Sklodowska-Curie Action (Grant Agreement No. 101119635) that brings together:\n\n- 8 leading European universities\n- 3 major international corporations (Swedbank, Raiffeisen Bank, Deutsche Bank)\n- 3 SMEs\n- 3 research centres (Athena, EIT Digital, Fraunhofer)\n- 2 intergovernmental agencies (European Central Bank, Bank for International Settlements)\n\nThe network trains 17 PhD researchers in digital finance, focusing on AI, machine learning, and data science applications in the financial sector.\n\n## Project Structure\n\n```\nmsca-digital-finance/\n├── content/                 # Hugo content (markdown files)\n│   ├── _index.md           # Homepage\n│   ├── people/             # Team member profiles\n│   ├── partners/           # Partner organizations\n│   ├── blog/               # News and blog posts\n│   ├── training-modules/   # Training module descriptions\n│   ├── training-events/    # Training event information\n│   └── events/             # Event registrations\n├── static/\n│   ├── css/                # Stylesheets\n│   └── images/             # Downloaded images\n├── layouts/                # Hugo templates\n├── scripts/                # Migration scripts\n├── data/                   # Scraped data and URLs\n└── .github/workflows/      # GitHub Actions for deployment\n```\n\n## Development\n\n### Prerequisites\n\n- [Hugo](https://gohugo.io/installation/) (extended version recommended)\n- Python 3.8+ (for migration scripts)\n\n### Local Development\n\n```bash\n# Clone the repository\ngit clone https://github.com/Digital-AI-Finance/msca-digital-finance.git\ncd msca-digital-finance\n\n# Start Hugo development server\nhugo server -D\n\n# Build for production\nhugo --minify\n```\n\n### Migration Scripts\n\nThe `scripts/` directory contains Python scripts used to migrate content from the original Wix site:\n\n1. `01_discover_urls.py` - Discovers all URLs from sitemaps\n2. `02_scrape_content.py` - Scrapes content using Playwright\n3. `03_download_images.py` - Downloads all images locally\n4. `04_setup_hugo.py` - Sets up Hugo configuration and templates\n5. `05_verify.py` - Verifies migration completeness\n\nTo run the migration scripts:\n\n```bash\ncd scripts\npip install -r requirements.txt\nplaywright install chromium\n\npython 01_discover_urls.py\npython 02_scrape_content.py\npython 03_download_images.py\npython 04_setup_hugo.py\npython 05_verify.py\n```\n\n## Deployment\n\nThe site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch via GitHub Actions.\n\n**Live Site:** [https://digital-ai-finance.github.io/msca-digital-finance/](https://digital-ai-finance.github.io/msca-digital-finance/)\n\n## License\n\nContent copyright MSCA Digital Finance Consortium. Website template and migration scripts available under MIT License.\n\n## Contact\n\nFor questions about the MSCA Digital Finance project, please visit [Contact Us](https://digital-ai-finance.github.io/msca-digital-finance/contact-us/).\n\n---\n\n*This site was migrated from Wix using automated Python scripts and is hosted on GitHub Pages using Hugo.*\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "msca-digital-finance",
+        "research": {
+          "title": "MSCA Digital Finance Website - Hugo static site migrated from Wix",
+          "abstract": "This repository contains the Hugo static site for the MSCA Digital Finance Industrial Doctoral Network, migrated from the original Wix website at [digital-finance-msca.com](https://www.digital-finance-msca.com/).",
+          "keywords": [],
+          "authors": []
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "Python"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": true,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-12-02T03:13:56.988706",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": [
+          {
+            "name": "data",
+            "path": "data",
+            "format": "",
+            "size_bytes": 0
+          },
+          {
+            "name": "image_mapping.json",
+            "path": "data/image_mapping.json",
+            "format": ".json",
+            "size_bytes": 504206
+          },
+          {
+            "name": "scrape_progress.json",
+            "path": "data/scrape_progress.json",
+            "format": ".json",
+            "size_bytes": 32249
+          },
+          {
+            "name": "urls.json",
+            "path": "data/urls.json",
+            "format": ".json",
+            "size_bytes": 94959
+          },
+          {
+            "name": "verification_report.txt",
+            "path": "data/verification_report.txt",
+            "format": ".txt",
+            "size_bytes": 142
+          }
+        ]
+      }
+    },
+    "ai-in-finance": {
+      "name": "ai-in-finance",
+      "full_name": "Digital-AI-Finance/ai-in-finance",
+      "description": "AI in Finance - UT & ING Collaboration Website",
+      "url": "https://github.com/Digital-AI-Finance/ai-in-finance",
+      "clone_url": "https://github.com/Digital-AI-Finance/ai-in-finance.git",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "open_issues": 0,
+      "size": 13622,
+      "default_branch": "main",
+      "created_at": "2025-12-01T22:57:40+00:00",
+      "updated_at": "2025-12-01T23:20:33+00:00",
+      "pushed_at": "2025-12-01T23:20:29+00:00",
+      "license": "No License",
+      "has_issues": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_downloads": true,
+      "archived": false,
+      "disabled": false,
+      "is_template": false,
+      "visibility": "public",
+      "contributors_count": 1,
+      "readme": "# AI in Finance Website\n\nThis is the Hugo-based website for the AI in Finance collaboration between University of Twente and ING.\n\n## Overview\n\nThe ING-UT AI in Finance collaboration focuses on advanced AI applications in:\n- Data handling\n- Risk management\n- Business operations within the finance sector\n\n## Local Development\n\n1. Install Hugo (extended version): https://gohugo.io/installation/\n\n2. Clone with submodules:\n   ```bash\n   git clone --recurse-submodules https://github.com/Digital-AI-Finance/ai-in-finance.git\n   ```\n\n3. Start development server:\n   ```bash\n   cd ai-in-finance\n   hugo server -D\n   ```\n\n4. Open http://localhost:1313\n\n## Deployment\n\nThe site is automatically deployed to GitHub Pages when pushing to the `main` branch.\n\nLive site: https://digital-ai-finance.github.io/ai-in-finance/\n\n## Team\n\n- **University of Twente**: 11 professors and researchers\n- **ING**: 22+ team members\n- **Students**: 9 MSc students, 1 PhD candidate\n\n## Links\n\n- [Original site](https://www.ai-in-finance.eu/)\n- [Digital Finance MSCA](https://www.digital-finance-msca.com/)\n- [KickStart AI](https://www.kickstartai.nl/)\n",
+      "latest_release": null,
+      "research_metadata": {
+        "repo_name": "ai-in-finance",
+        "research": {
+          "title": "AI in Finance - UT & ING Collaboration Website",
+          "abstract": "The ING-UT AI in Finance collaboration focuses on advanced AI applications in:\n- Data handling\n- Risk management\n- Business operations within the finance sector",
+          "keywords": [],
+          "authors": [
+            {
+              "name": "University of Twente**: 11 professors and researchers"
+            },
+            {
+              "name": "ING**: 22+ team members"
+            },
+            {
+              "name": "Students**: 9 MSc students, 1 PhD candidate"
+            }
+          ]
+        },
+        "publications": [],
+        "code": {
+          "languages": [
+            "JavaScript"
+          ],
+          "notebooks": [],
+          "dependencies": {}
+        },
+        "reproducibility": {
+          "has_requirements": false,
+          "has_dockerfile": false,
+          "has_environment_yml": false,
+          "has_makefile": false,
+          "replication_status": "not_attempted"
+        },
+        "citations": {
+          "cited_by": [],
+          "cites": [],
+          "citation_count": 0
+        },
+        "meta": {
+          "extracted_at": "2025-12-02T03:14:10.791435",
+          "extraction_version": "1.0",
+          "extraction_method": "readme_parse"
+        },
+        "datasets": []
+      }
     }
   },
   "stats": {
-    "total_documents": 29,
-    "total_terms": 1997,
-    "total_repos": 17,
+    "total_documents": 37,
+    "total_terms": 2340,
+    "total_repos": 22,
     "document_types": {
-      "readme": 13,
-      "research": 13,
-      "publication": 3
+      "readme": 18,
+      "research": 18,
+      "publication": 1
     }
   }
 }
