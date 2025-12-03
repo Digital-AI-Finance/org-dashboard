@@ -22,11 +22,11 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-22 |
-| Last Updated | 2025-12-01 |
-| Last Push | 2025-12-01 |
+| Last Updated | 2025-12-02 |
+| Last Push | 2025-12-02 |
 | Contributors | 1 |
 | Default Branch | main |
-| Visibility | private |
+| Visibility | public |
 
 
 
@@ -163,7 +163,7 @@ This repository includes reproducibility tools:
 
 - Issues: Enabled
 - Wiki: Disabled
-- Pages: Disabled
+- Pages: Enabled
 
 ## README
 

@@ -15,15 +15,15 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 
 | Property | Value |
 |----------|-------|
-| Language | Python |
+| Language | HTML |
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-01 |
-| Last Push | 2025-12-01 |
+| Last Updated | 2025-12-02 |
+| Last Push | 2025-12-02 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,20 +35,68 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 
 ## Datasets
 
-This repository includes 5 dataset(s):
+This repository includes 29 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
 
 | [data](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data) |  | 0.0 KB |
 
-| [image_mapping.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_mapping.json) | .json | 492.39 KB |
+| [all_discovered_urls.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/all_discovered_urls.json) | .json | 16.95 KB |
+
+| [asset_extraction_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/asset_extraction_results.json) | .json | 248.11 KB |
+
+| [cleanup_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/cleanup_report.json) | .json | 4.14 KB |
+
+| [deep_crawl_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/deep_crawl_results.json) | .json | 35.1 KB |
+
+| [eu_cordis_20251202.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/eu_cordis_20251202.json) | .json | 1.04 KB |
+
+| [eu_cordis_latest.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/eu_cordis_latest.json) | .json | 1.04 KB |
+
+| [eu_project_data.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/eu_project_data.json) | .json | 5.04 KB |
+
+| [eu_publications_complete.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/eu_publications_complete.json) | .json | 11.19 KB |
+
+| [final_verification_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/final_verification_report.json) | .json | 187.15 KB |
+
+| [image_check_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_check_report.json) | .json | 0.2 KB |
+
+| [image_mapping.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_mapping.json) | .json | 46.86 KB |
+
+| [latest_sync_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/latest_sync_report.json) | .json | 0.5 KB |
+
+| [link_check_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/link_check_report.json) | .json | 3.89 KB |
+
+| [link_fix_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/link_fix_results.json) | .json | 793.03 KB |
+
+| [migration_report.html](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/migration_report.html) | .html | 29.25 KB |
+
+| [missing_pages_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/missing_pages_results.json) | .json | 5.79 KB |
+
+| [retry_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/retry_results.json) | .json | 1.49 KB |
 
 | [scrape_progress.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/scrape_progress.json) | .json | 31.49 KB |
 
+| [sync_history](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_history) |  | 0.0 KB |
+
+| [sync_20251202_145416.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_history/sync_20251202_145416.json) | .json | 0.27 KB |
+
+| [sync_20251202_145546.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_history/sync_20251202_145546.json) | .json | 2.81 KB |
+
+| [sync_20251202_145603.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_history/sync_20251202_145603.json) | .json | 0.27 KB |
+
+| [sync_20251202_145746.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_history/sync_20251202_145746.json) | .json | 0.27 KB |
+
+| [sync_20251202_153256.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_history/sync_20251202_153256.json) | .json | 0.5 KB |
+
+| [sync_20251202_160008.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_history/sync_20251202_160008.json) | .json | 0.5 KB |
+
+| [sync_state.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_state.json) | .json | 110.38 KB |
+
 | [urls.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/urls.json) | .json | 92.73 KB |
 
-| [verification_report.txt](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/verification_report.txt) | .txt | 0.14 KB |
+| [verification_report.txt](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/verification_report.txt) | .txt | 0.53 KB |
 
 
 

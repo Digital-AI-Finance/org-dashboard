@@ -1,6 +1,6 @@
 # Repositories by Language
 
-Total languages: **6**
+Total languages: **7**
 
 ---
 
@@ -9,7 +9,8 @@ Total languages: **6**
 | Language | Repository Count |
 |----------|------------------|
 | [Python](python.md) | 6 |
+| [HTML](html.md) | 6 |
 | [TeX](tex.md) | 5 |
-| [HTML](html.md) | 4 |
 | [Jupyter Notebook](jupyter-notebook.md) | 2 |
 | [JavaScript](javascript.md) | 1 |
+| [CSS](css.md) | 1 |

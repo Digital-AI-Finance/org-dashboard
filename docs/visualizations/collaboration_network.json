@@ -55,6 +55,14 @@
     {
       "id": "ai-in-finance",
       "authors": 3
+    },
+    {
+      "id": "Fintech-and-Artificial-Intelligence-in-Finance",
+      "authors": 1
+    },
+    {
+      "id": "Systematic-Literature-Reviews-with-Artificial-Intelligence",
+      "authors": 1
     }
   ],
   "edges": []

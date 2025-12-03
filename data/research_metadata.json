@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:11:03.350370",
+      "extracted_at": "2025-12-03T03:10:13.811898",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -59,7 +59,7 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 36558
+        "size_bytes": 40232
       },
       {
         "name": "citation_report.json",
@@ -71,55 +71,55 @@
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 8444
+        "size_bytes": 10865
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 3095
+        "size_bytes": 3280
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 17850
+        "size_bytes": 21063
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 160498
+        "size_bytes": 189967
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 25688
+        "size_bytes": 33120
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 19261
+        "size_bytes": 22532
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 59869
+        "size_bytes": 66525
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 126363
+        "size_bytes": 154313
       },
       {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 2747
+        "size_bytes": 2780
       },
       {
         "name": "data",
@@ -131,13 +131,13 @@
         "name": "search_data.json",
         "path": "docs/data/search_data.json",
         "format": ".json",
-        "size_bytes": 377567
+        "size_bytes": 453912
       },
       {
         "name": "search_data_minimal.json",
         "path": "docs/data/search_data_minimal.json",
         "format": ".json",
-        "size_bytes": 270213
+        "size_bytes": 322961
       },
       {
         "name": "citation_network.json",
@@ -149,7 +149,7 @@
         "name": "collaboration_network.json",
         "path": "docs/visualizations/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 818
+        "size_bytes": 1032
       },
       {
         "name": "research_metadata_schema.json",
@@ -229,7 +229,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:11:05.444133",
+      "extracted_at": "2025-12-03T03:10:16.436726",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -287,7 +287,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:11:07.413907",
+      "extracted_at": "2025-12-03T03:10:19.156283",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -313,13 +313,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "preprint",
@@ -349,7 +349,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:11:09.400903",
+      "extracted_at": "2025-12-03T03:10:21.886778",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -384,7 +384,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:11:18.103340",
+      "extracted_at": "2025-12-03T03:10:33.361267",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -697,7 +697,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:12:18.677584",
+      "extracted_at": "2025-12-03T03:12:01.759782",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -767,7 +767,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:12:26.768426",
+      "extracted_at": "2025-12-03T03:12:11.674352",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -809,7 +809,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:12:29.571936",
+      "extracted_at": "2025-12-03T03:12:15.200245",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1108,7 +1108,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:12:56.957162",
+      "extracted_at": "2025-12-03T03:12:53.040554",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1550,7 +1550,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:13:04.115715",
+      "extracted_at": "2025-12-03T03:13:03.470244",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1613,7 +1613,19 @@
         "name": "msca_bios.json",
         "path": "data/msca_bios.json",
         "format": ".json",
-        "size_bytes": 5838
+        "size_bytes": 6793
+      },
+      {
+        "name": "msca_members_correct.json",
+        "path": "data/msca_members_correct.json",
+        "format": ".json",
+        "size_bytes": 6032
+      },
+      {
+        "name": "msca_members_merged.json",
+        "path": "data/msca_members_merged.json",
+        "format": ".json",
+        "size_bytes": 6569
       },
       {
         "name": "msca_page_screenshot.png",
@@ -1631,7 +1643,7 @@
         "name": "msca_people_named.json",
         "path": "data/msca_people_named.json",
         "format": ".json",
-        "size_bytes": 21913
+        "size_bytes": 4000
       },
       {
         "name": "msca_raw_data.json",
@@ -1643,7 +1655,7 @@
         "name": "scientific_committee.json",
         "path": "data/scientific_committee.json",
         "format": ".json",
-        "size_bytes": 697
+        "size_bytes": 747
       },
       {
         "name": "data",
@@ -1698,7 +1710,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:13:06.135318",
+      "extracted_at": "2025-12-03T03:13:05.998652",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1763,7 +1775,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:13:18.292345",
+      "extracted_at": "2025-12-03T03:13:21.418112",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1866,7 +1878,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:13:28.103190",
+      "extracted_at": "2025-12-03T03:13:33.698923",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1992,7 +2004,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:13:35.427597",
+      "extracted_at": "2025-12-03T03:13:45.969577",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2054,7 +2066,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:13:38.401209",
+      "extracted_at": "2025-12-03T03:13:50.435241",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2070,6 +2082,24 @@
         "path": "data/.gitkeep",
         "format": "",
         "size_bytes": 17
+      },
+      {
+        "name": "authors.json",
+        "path": "data/authors.json",
+        "format": ".json",
+        "size_bytes": 3283
+      },
+      {
+        "name": "publications.json",
+        "path": "data/publications.json",
+        "format": ".json",
+        "size_bytes": 123715
+      },
+      {
+        "name": "summary.json",
+        "path": "data/summary.json",
+        "format": ".json",
+        "size_bytes": 415
       }
     ]
   },
@@ -2122,16 +2152,40 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:13:44.446109",
+      "extracted_at": "2025-12-03T03:13:59.642382",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
     "datasets": [
       {
+        "name": "news.json",
+        "path": "_data/news.json",
+        "format": ".json",
+        "size_bytes": 1219
+      },
+      {
         "name": "publications.json",
         "path": "_data/publications.json",
         "format": ".json",
-        "size_bytes": 20076
+        "size_bytes": 30608
+      },
+      {
+        "name": "snsf_project.json",
+        "path": "_data/snsf_project.json",
+        "format": ".json",
+        "size_bytes": 7338
+      },
+      {
+        "name": "snsf_project_complete.json",
+        "path": "_data/snsf_project_complete.json",
+        "format": ".json",
+        "size_bytes": 17071
+      },
+      {
+        "name": "team.json",
+        "path": "_data/team.json",
+        "format": ".json",
+        "size_bytes": 2404
       }
     ]
   },
@@ -2146,7 +2200,7 @@
     "publications": [],
     "code": {
       "languages": [
-        "Python"
+        "HTML"
       ],
       "notebooks": [],
       "dependencies": {}
@@ -2164,7 +2218,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:13:56.988706",
+      "extracted_at": "2025-12-03T03:14:25.211396",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2176,16 +2230,160 @@
         "size_bytes": 0
       },
       {
+        "name": "all_discovered_urls.json",
+        "path": "data/all_discovered_urls.json",
+        "format": ".json",
+        "size_bytes": 17355
+      },
+      {
+        "name": "asset_extraction_results.json",
+        "path": "data/asset_extraction_results.json",
+        "format": ".json",
+        "size_bytes": 254067
+      },
+      {
+        "name": "cleanup_report.json",
+        "path": "data/cleanup_report.json",
+        "format": ".json",
+        "size_bytes": 4243
+      },
+      {
+        "name": "deep_crawl_results.json",
+        "path": "data/deep_crawl_results.json",
+        "format": ".json",
+        "size_bytes": 35943
+      },
+      {
+        "name": "eu_cordis_20251202.json",
+        "path": "data/eu_cordis_20251202.json",
+        "format": ".json",
+        "size_bytes": 1066
+      },
+      {
+        "name": "eu_cordis_latest.json",
+        "path": "data/eu_cordis_latest.json",
+        "format": ".json",
+        "size_bytes": 1066
+      },
+      {
+        "name": "eu_project_data.json",
+        "path": "data/eu_project_data.json",
+        "format": ".json",
+        "size_bytes": 5160
+      },
+      {
+        "name": "eu_publications_complete.json",
+        "path": "data/eu_publications_complete.json",
+        "format": ".json",
+        "size_bytes": 11456
+      },
+      {
+        "name": "final_verification_report.json",
+        "path": "data/final_verification_report.json",
+        "format": ".json",
+        "size_bytes": 191646
+      },
+      {
+        "name": "image_check_report.json",
+        "path": "data/image_check_report.json",
+        "format": ".json",
+        "size_bytes": 209
+      },
+      {
         "name": "image_mapping.json",
         "path": "data/image_mapping.json",
         "format": ".json",
-        "size_bytes": 504206
+        "size_bytes": 47986
+      },
+      {
+        "name": "latest_sync_report.json",
+        "path": "data/latest_sync_report.json",
+        "format": ".json",
+        "size_bytes": 509
+      },
+      {
+        "name": "link_check_report.json",
+        "path": "data/link_check_report.json",
+        "format": ".json",
+        "size_bytes": 3985
+      },
+      {
+        "name": "link_fix_results.json",
+        "path": "data/link_fix_results.json",
+        "format": ".json",
+        "size_bytes": 812058
+      },
+      {
+        "name": "migration_report.html",
+        "path": "data/migration_report.html",
+        "format": ".html",
+        "size_bytes": 29950
+      },
+      {
+        "name": "missing_pages_results.json",
+        "path": "data/missing_pages_results.json",
+        "format": ".json",
+        "size_bytes": 5927
+      },
+      {
+        "name": "retry_results.json",
+        "path": "data/retry_results.json",
+        "format": ".json",
+        "size_bytes": 1523
       },
       {
         "name": "scrape_progress.json",
         "path": "data/scrape_progress.json",
         "format": ".json",
         "size_bytes": 32249
+      },
+      {
+        "name": "sync_history",
+        "path": "data/sync_history",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "sync_20251202_145416.json",
+        "path": "data/sync_history/sync_20251202_145416.json",
+        "format": ".json",
+        "size_bytes": 278
+      },
+      {
+        "name": "sync_20251202_145546.json",
+        "path": "data/sync_history/sync_20251202_145546.json",
+        "format": ".json",
+        "size_bytes": 2877
+      },
+      {
+        "name": "sync_20251202_145603.json",
+        "path": "data/sync_history/sync_20251202_145603.json",
+        "format": ".json",
+        "size_bytes": 278
+      },
+      {
+        "name": "sync_20251202_145746.json",
+        "path": "data/sync_history/sync_20251202_145746.json",
+        "format": ".json",
+        "size_bytes": 278
+      },
+      {
+        "name": "sync_20251202_153256.json",
+        "path": "data/sync_history/sync_20251202_153256.json",
+        "format": ".json",
+        "size_bytes": 509
+      },
+      {
+        "name": "sync_20251202_160008.json",
+        "path": "data/sync_history/sync_20251202_160008.json",
+        "format": ".json",
+        "size_bytes": 509
+      },
+      {
+        "name": "sync_state.json",
+        "path": "data/sync_state.json",
+        "format": ".json",
+        "size_bytes": 113032
       },
       {
         "name": "urls.json",
@@ -2197,7 +2395,7 @@
         "name": "verification_report.txt",
         "path": "data/verification_report.txt",
         "format": ".txt",
-        "size_bytes": 142
+        "size_bytes": 543
       }
     ]
   },
@@ -2240,10 +2438,460 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-02T03:14:10.791435",
+      "extracted_at": "2025-12-03T03:14:44.157080",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
-    "datasets": []
+    "datasets": [
+      {
+        "name": "data",
+        "path": "data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "menu.yaml",
+        "path": "data/menu.yaml",
+        "format": ".yaml",
+        "size_bytes": 1090
+      }
+    ]
+  },
+  "Fintech-and-Artificial-Intelligence-in-Finance": {
+    "repo_name": "Fintech-and-Artificial-Intelligence-in-Finance",
+    "research": {
+      "title": "Archive of COST Action CA19130 - FinAI: Fintech and Artificial Intelligence in Finance (2020-2024)",
+      "abstract": "Archive of materials from COST Action CA19130: \"Fintech and Artificial Intelligence in Finance - Towards a transparent financial industry\"",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "the Horizon 2020 Framework Programme of the European Union."
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "HTML"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-03T03:15:07.929850",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "deep_crawl_report.json",
+        "path": "deep_crawl_report.json",
+        "format": ".json",
+        "size_bytes": 5621
+      },
+      {
+        "name": "deep_crawl_v2_report.json",
+        "path": "deep_crawl_v2_report.json",
+        "format": ".json",
+        "size_bytes": 4793
+      },
+      {
+        "name": "deep_crawl_verification.json",
+        "path": "deep_crawl_verification.json",
+        "format": ".json",
+        "size_bytes": 33090
+      },
+      {
+        "name": "download_progress.json",
+        "path": "download_progress.json",
+        "format": ".json",
+        "size_bytes": 665
+      },
+      {
+        "name": "gdrive_auth_download_report.json",
+        "path": "gdrive_auth_download_report.json",
+        "format": ".json",
+        "size_bytes": 11208
+      },
+      {
+        "name": "gdrive_download_report.json",
+        "path": "gdrive_download_report.json",
+        "format": ".json",
+        "size_bytes": 25589
+      },
+      {
+        "name": "gdrive_robust_download_report.json",
+        "path": "gdrive_robust_download_report.json",
+        "format": ".json",
+        "size_bytes": 3716
+      },
+      {
+        "name": "members.csv",
+        "path": "members/members.csv",
+        "format": ".csv",
+        "size_bytes": 23021
+      },
+      {
+        "name": "members.json",
+        "path": "members/members.json",
+        "format": ".json",
+        "size_bytes": 45431
+      },
+      {
+        "name": "urls_discovered.json",
+        "path": "urls_discovered.json",
+        "format": ".json",
+        "size_bytes": 8435
+      },
+      {
+        "name": "verification_report.json",
+        "path": "verification_report.json",
+        "format": ".json",
+        "size_bytes": 8351
+      }
+    ]
+  },
+  "Systematic-Literature-Reviews-with-Artificial-Intelligence": {
+    "repo_name": "Systematic-Literature-Reviews-with-Artificial-Intelligence",
+    "research": {
+      "title": "Resources and tools for conducting Systematic Literature Reviews using Artificial Intelligence",
+      "abstract": "Systematic reviews constitute a critical foundation for evidence-based decision-making across disciplines. However, the labor-intensive nature of traditional SLRs - requiring weeks to months of manual work - has driven significant interest in AI-assisted automation.\n\nKey Statistics:\n- AI screening tools can reduce workload by 40-95%\n- otto-SR reproduced 12 Cochrane reviews in 2 days (equivalent to ~12 work-years manually)\n- GPT-4 achieves median accuracy >85% for PICO element extraction\n\n---",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "40-95%"
+        }
+      ]
+    },
+    "publications": [
+      {
+        "type": "journal-article",
+        "doi": "10.1038/s42256-020-00287-7",
+        "url": "https://doi.org/10.1038/s42256-020-00287-7",
+        "title": "An open source machine learning framework for efficient and transparent systematic reviews",
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
+        "published": "2021-02-01",
+        "year": 2021,
+        "authors": [
+          {
+            "name": "Rens van de Schoot"
+          },
+          {
+            "name": "Jonathan de Bruin"
+          },
+          {
+            "name": "Raoul Schram"
+          },
+          {
+            "name": "Parisa Zahedi"
+          },
+          {
+            "name": "Jan de Boer"
+          },
+          {
+            "name": "Felix Weijdema"
+          },
+          {
+            "name": "Bianca Kramer"
+          },
+          {
+            "name": "Martijn Huijts"
+          },
+          {
+            "name": "Maarten Hoogerwerf"
+          },
+          {
+            "name": "Gerbrich Ferdinands"
+          },
+          {
+            "name": "Albert Harkema"
+          },
+          {
+            "name": "Joukje Willemsen"
+          },
+          {
+            "name": "Yongchao Ma"
+          },
+          {
+            "name": "Qixiang Fang"
+          },
+          {
+            "name": "Sybren Hindriks"
+          },
+          {
+            "name": "Lars Tummers"
+          },
+          {
+            "name": "Daniel L. Oberski"
+          }
+        ],
+        "venue": "Nature Machine Intelligence",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 707,
+        "reference_count": 63
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1038/s41591-022-02139-w",
+        "url": "https://doi.org/10.1038/s41591-022-02139-w",
+        "title": "PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare",
+        "abstract": "",
+        "published": "2023-01-01",
+        "year": 2023,
+        "authors": [
+          {
+            "name": "Giovanni E. Cacciamani"
+          },
+          {
+            "name": "Timothy N. Chu"
+          },
+          {
+            "name": "Daniel I. Sanford"
+          },
+          {
+            "name": "Andre Abreu"
+          },
+          {
+            "name": "Vinay Duddalwar"
+          },
+          {
+            "name": "Assad Oberai"
+          },
+          {
+            "name": "C.-C. Jay Kuo"
+          },
+          {
+            "name": "Xiaoxuan Liu"
+          },
+          {
+            "name": "Alastair K. Denniston"
+          },
+          {
+            "name": "Baptiste Vasey"
+          },
+          {
+            "name": "Peter McCulloch"
+          },
+          {
+            "name": "Robert F. Wolff"
+          },
+          {
+            "name": "Sue Mallett"
+          },
+          {
+            "name": "John Mongan"
+          },
+          {
+            "name": "Charles E. Kahn"
+          },
+          {
+            "name": "Viknesh Sounderajah"
+          },
+          {
+            "name": "Ara Darzi"
+          },
+          {
+            "name": "Philipp Dahm"
+          },
+          {
+            "name": "Karel G. M. Moons"
+          },
+          {
+            "name": "Eric Topol"
+          },
+          {
+            "name": "Gary S. Collins"
+          },
+          {
+            "name": "David Moher"
+          },
+          {
+            "name": "Inderbir S. Gill"
+          },
+          {
+            "name": "Andrew J. Hung"
+          }
+        ],
+        "venue": "Nature Medicine",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 90,
+        "reference_count": 10
+      },
+      {
+        "type": "journal",
+        "doi": "10.1002/jrsm.1715)",
+        "url": "https://doi.org/10.1002/jrsm.1715)"
+      },
+      {
+        "type": "journal",
+        "doi": "10.1186/s13643-016-0384-4)",
+        "url": "https://doi.org/10.1186/s13643-016-0384-4)"
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1002/jrsm.1715",
+        "url": "https://doi.org/10.1002/jrsm.1715",
+        "title": "Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages",
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehensively evaluated against humans, and no study has tested Generative Pre‐Trained Transformer (GPT)‐4, the biggest LLM so far. This pre‐registered study uses a “human‐out‐of‐the‐loop” approach to evaluate GPT‐4's capability in title/abstract screening, full‐text review and data extraction across various literature types and languages. Although GPT‐4 had accuracy on par with human performance in some tasks, results were skewed by chance agreement and dataset imbalance. Adjusting for these caused performance scores to drop across all stages: for data extraction, performance was moderate, and for screening, it ranged from none in highly balanced literature datasets (~1:1) to moderate in those datasets where the ratio of inclusion to exclusion in studies was imbalanced (~1:3). When screening full‐text literature using highly reliable prompts, GPT‐4's performance was more robust, reaching “human‐like” levels. Although our findings indicate that, currently, substantial caution should be exercised if LLMs are being used to conduct systematic reviews, they also offer preliminary evidence that, for certain review tasks delivered under specific conditions, LLMs can rival human performance.</jats:p>",
+        "published": "2024-03-14",
+        "year": 2024,
+        "authors": [
+          {
+            "name": "Qusai Khraisha",
+            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+          },
+          {
+            "name": "Sophie Put",
+            "affiliation": "Department of Education York University  York UK"
+          },
+          {
+            "name": "Johanna Kappenberg",
+            "affiliation": "School of Psychology Trinity College Dublin  Dublin Ireland"
+          },
+          {
+            "name": "Azza Warraitch",
+            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+          },
+          {
+            "name": "Kristin Hadfield",
+            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+          }
+        ],
+        "venue": "Research Synthesis Methods",
+        "publisher": "Wiley",
+        "citation_count": 131,
+        "reference_count": 42
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1186/s13643-016-0384-4",
+        "url": "https://doi.org/10.1186/s13643-016-0384-4",
+        "title": "Rayyan—a web and mobile app for systematic reviews",
+        "abstract": "",
+        "published": "2016-12-01",
+        "year": 2016,
+        "authors": [
+          {
+            "name": "Mourad Ouzzani"
+          },
+          {
+            "name": "Hossam Hammady"
+          },
+          {
+            "name": "Zbys Fedorowicz"
+          },
+          {
+            "name": "Ahmed Elmagarmid"
+          }
+        ],
+        "venue": "Systematic Reviews",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 16740,
+        "reference_count": 19
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1186/s13643-019-1074-9",
+        "url": "https://doi.org/10.1186/s13643-019-1074-9",
+        "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+        "abstract": "",
+        "published": "2019-07-11",
+        "year": 2019,
+        "authors": [
+          {
+            "name": "Iain J. Marshall"
+          },
+          {
+            "name": "Byron C. Wallace"
+          }
+        ],
+        "venue": "Systematic Reviews",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 392,
+        "reference_count": 40
+      },
+      {
+        "type": "journal",
+        "doi": "10.1101/2025.06.13.25329541v1)",
+        "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
+      },
+      {
+        "type": "journal",
+        "doi": "10.1186/s13643-019-1074-9)",
+        "url": "https://doi.org/10.1186/s13643-019-1074-9)"
+      },
+      {
+        "type": "journal",
+        "doi": "10.1038/s41591-022-02139-w)",
+        "url": "https://doi.org/10.1038/s41591-022-02139-w)"
+      },
+      {
+        "type": "journal",
+        "doi": "10.1038/s42256-020-00287-7)",
+        "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+      }
+    ],
+    "code": {
+      "languages": [
+        "Python"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-03T03:15:21.213027",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "data",
+        "path": "data",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "benchmarks.json",
+        "path": "data/benchmarks.json",
+        "format": ".json",
+        "size_bytes": 1460
+      },
+      {
+        "name": "papers.json",
+        "path": "data/papers.json",
+        "format": ".json",
+        "size_bytes": 2849
+      },
+      {
+        "name": "tools.json",
+        "path": "data/tools.json",
+        "format": ".json",
+        "size_bytes": 2517
+      }
+    ]
   }
 }

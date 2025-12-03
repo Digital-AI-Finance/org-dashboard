@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T03:14:45.776523",
+  "generated_at": "2025-12-03T03:16:03.127432",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
@@ -489,14 +489,14 @@
     },
     "Narrative-Digital-Finance": {
       "reproducibility_score": {
-        "score": 35,
+        "score": 45,
         "max_score": 100,
-        "percentage": 35.0,
-        "badge": "none",
+        "percentage": 45.0,
+        "badge": "bronze",
         "breakdown": {
           "documentation": 20,
           "environment": 0,
-          "data": 10,
+          "data": 20,
           "code": 5,
           "community": 0
         }
@@ -516,14 +516,14 @@
     },
     "network-based-credit-risk-models": {
       "reproducibility_score": {
-        "score": 35,
+        "score": 45,
         "max_score": 100,
-        "percentage": 35.0,
-        "badge": "none",
+        "percentage": 45.0,
+        "badge": "bronze",
         "breakdown": {
           "documentation": 20,
           "environment": 0,
-          "data": 10,
+          "data": 20,
           "code": 5,
           "community": 0
         }
@@ -570,12 +570,66 @@
     },
     "ai-in-finance": {
       "reproducibility_score": {
-        "score": 25,
+        "score": 35,
         "max_score": 100,
-        "percentage": 25.0,
+        "percentage": 35.0,
         "badge": "none",
         "breakdown": {
           "documentation": 20,
+          "environment": 0,
+          "data": 10,
+          "code": 5,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "Fintech-and-Artificial-Intelligence-in-Finance": {
+      "reproducibility_score": {
+        "score": 50,
+        "max_score": 100,
+        "percentage": 50.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 20,
+          "environment": 10,
+          "data": 20,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "book-next-word-prediction-site": {
+      "reproducibility_score": {
+        "score": 5,
+        "max_score": 100,
+        "percentage": 5.0,
+        "badge": "none",
+        "breakdown": {
+          "documentation": 0,
           "environment": 0,
           "data": 0,
           "code": 5,
@@ -594,15 +648,42 @@
         "average_rating": 0.0,
         "category_ratings": {}
       }
+    },
+    "Systematic-Literature-Reviews-with-Artificial-Intelligence": {
+      "reproducibility_score": {
+        "score": 50,
+        "max_score": 100,
+        "percentage": 50.0,
+        "badge": "bronze",
+        "breakdown": {
+          "documentation": 30,
+          "environment": 0,
+          "data": 20,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 34.77,
-    "total_repositories": 22,
+    "average_reproducibility_score": 36.0,
+    "total_repositories": 25,
     "badge_distribution": {
-      "bronze": 10,
+      "bronze": 14,
       "silver": 2,
-      "none": 10
+      "none": 9
     },
     "top_repos": [
       [
@@ -786,6 +867,66 @@
         }
       ],
       [
+        "Fintech-and-Artificial-Intelligence-in-Finance",
+        {
+          "reproducibility_score": {
+            "score": 50,
+            "max_score": 100,
+            "percentage": 50.0,
+            "badge": "bronze",
+            "breakdown": {
+              "documentation": 20,
+              "environment": 10,
+              "data": 20,
+              "code": 0,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
+      [
+        "Systematic-Literature-Reviews-with-Artificial-Intelligence",
+        {
+          "reproducibility_score": {
+            "score": 50,
+            "max_score": 100,
+            "percentage": 50.0,
+            "badge": "bronze",
+            "breakdown": {
+              "documentation": 30,
+              "environment": 0,
+              "data": 20,
+              "code": 0,
+              "community": 0
+            }
+          },
+          "replication_stats": {
+            "total_attempts": 0,
+            "success_count": 0,
+            "partial_count": 0,
+            "failed_count": 0,
+            "success_rate": 0.0
+          },
+          "community_verification": {
+            "total_reviews": 0,
+            "average_rating": 0.0,
+            "category_ratings": {}
+          }
+        }
+      ],
+      [
         "digital-ai-in-finance",
         {
           "reproducibility_score": {
@@ -816,78 +957,18 @@
         }
       ],
       [
-        "portfolio-optimization-ml",
+        "Narrative-Digital-Finance",
         {
           "reproducibility_score": {
-            "score": 40,
+            "score": 45,
             "max_score": 100,
-            "percentage": 40.0,
+            "percentage": 45.0,
             "badge": "bronze",
             "breakdown": {
-              "documentation": 30,
-              "environment": 10,
-              "data": 0,
-              "code": 0,
-              "community": 0
-            }
-          },
-          "replication_stats": {
-            "total_attempts": 0,
-            "success_count": 0,
-            "partial_count": 0,
-            "failed_count": 0,
-            "success_rate": 0.0
-          },
-          "community_verification": {
-            "total_reviews": 0,
-            "average_rating": 0.0,
-            "category_ratings": {}
-          }
-        }
-      ],
-      [
-        "credit-risk-prediction",
-        {
-          "reproducibility_score": {
-            "score": 40,
-            "max_score": 100,
-            "percentage": 40.0,
-            "badge": "bronze",
-            "breakdown": {
-              "documentation": 30,
-              "environment": 10,
-              "data": 0,
-              "code": 0,
-              "community": 0
-            }
-          },
-          "replication_stats": {
-            "total_attempts": 0,
-            "success_count": 0,
-            "partial_count": 0,
-            "failed_count": 0,
-            "success_rate": 0.0
-          },
-          "community_verification": {
-            "total_reviews": 0,
-            "average_rating": 0.0,
-            "category_ratings": {}
-          }
-        }
-      ],
-      [
-        "market-microstructure",
-        {
-          "reproducibility_score": {
-            "score": 40,
-            "max_score": 100,
-            "percentage": 40.0,
-            "badge": "bronze",
-            "breakdown": {
-              "documentation": 30,
-              "environment": 10,
-              "data": 0,
-              "code": 0,
+              "documentation": 20,
+              "environment": 0,
+              "data": 20,
+              "code": 5,
               "community": 0
             }
           },

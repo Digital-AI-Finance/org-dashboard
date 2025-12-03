@@ -2,7 +2,7 @@
 
 Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
 
-Last updated: **2025-12-02**
+Last updated: **2025-12-03**
 
 ---
 
@@ -41,12 +41,12 @@ Browse our research repositories in an interactive, visual format.
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 22 |
-| Active Repositories | 22 |
+| Total Repositories | 25 |
+| Active Repositories | 25 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 23 |
+| Total Contributors | 29 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -57,8 +57,8 @@ Browse our research repositories in an interactive, visual format.
 | Language | Repositories |
 |----------|--------------|
 | [Python](by-language/python.md) | 6 |
+| [HTML](by-language/html.md) | 6 |
 | [TeX](by-language/tex.md) | 5 |
-| [HTML](by-language/html.md) | 4 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 2 |
 | [JavaScript](by-language/javascript.md) | 1 |
 
@@ -99,18 +99,18 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
-| [ai-in-finance](repos/ai-in-finance.md) | 2025-12-01 |
-| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-01 |
-| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-01 |
-| [network-based-credit-risk-models](repos/network-based-credit-risk-models.md) | 2025-12-01 |
-| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-12-01 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-02 |
+| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-02 |
+| [Fintech-and-Artificial-Intelligence-in-Finance](repos/Fintech-and-Artificial-Intelligence-in-Finance.md) | 2025-12-02 |
+| [Anomaly_and_Fraud_Detection_in_Blockchain_Networks](repos/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.md) | 2025-12-02 |
+| [ai-in-finance](repos/ai-in-finance.md) | 2025-12-02 |
 
 
 ---
 
 ## Navigation
 
-- [All Repositories](repos/index.md) - Browse all 22 repositories
+- [All Repositories](repos/index.md) - Browse all 25 repositories
 - [By Language](by-language/index.md) - Filter by programming language
 - [By Topic](by-topic/index.md) - Filter by topic tags
 - [Statistics](stats.md) - Detailed organization statistics
@@ -119,4 +119,4 @@ Browse our research repositories in an interactive, visual format.
 ---
 
 !!! warning "Repositories Missing README"
-    4 repositories do not have a README file.
+    5 repositories do not have a README file.

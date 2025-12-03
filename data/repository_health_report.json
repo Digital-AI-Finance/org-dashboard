@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T03:14:45.779242",
+  "generated_at": "2025-12-03T03:16:03.129977",
   "repositories": {
     "org-dashboard": {
       "overall_score": 53.5,
@@ -73,7 +73,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 10,
+          "days_since_push": 11,
           "activity_score": 100,
           "archived": false
         },
@@ -131,7 +131,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 10,
+          "days_since_push": 11,
           "activity_score": 100,
           "archived": false
         },
@@ -189,7 +189,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 10,
+          "days_since_push": 11,
           "activity_score": 100,
           "archived": false
         },
@@ -247,7 +247,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 9,
+          "days_since_push": 10,
           "activity_score": 100,
           "archived": false
         },
@@ -421,7 +421,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -479,7 +479,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -537,7 +537,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 2,
+          "days_since_push": 3,
           "activity_score": 100,
           "archived": false
         },
@@ -653,7 +653,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 2,
+          "days_since_push": 3,
           "activity_score": 100,
           "archived": false
         },
@@ -769,7 +769,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -827,7 +827,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -885,7 +885,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -988,12 +988,12 @@
       }
     },
     "book-next-word-prediction": {
-      "overall_score": 57.0,
+      "overall_score": 58.5,
       "grade": "D",
       "status": "Poor",
       "dimensions": {
         "activity": 100,
-        "community": 30.0,
+        "community": 37.5,
         "documentation": 50,
         "code_quality": 40,
         "popularity": 0.0,
@@ -1006,8 +1006,8 @@
           "archived": false
         },
         "community": {
-          "contributors": 1,
-          "contributor_score": 10,
+          "contributors": 2,
+          "contributor_score": 25,
           "has_issues": true,
           "has_engagement": false
         },
@@ -1104,12 +1104,12 @@
       }
     },
     "network-based-credit-risk-models": {
-      "overall_score": 52.0,
+      "overall_score": 56.0,
       "grade": "D",
       "status": "Poor",
       "dimensions": {
         "activity": 100,
-        "community": 5.0,
+        "community": 25.0,
         "documentation": 50,
         "code_quality": 40,
         "popularity": 0.0,
@@ -1122,8 +1122,8 @@
           "archived": false
         },
         "community": {
-          "contributors": 1,
-          "contributor_score": 10,
+          "contributors": 3,
+          "contributor_score": 50,
           "has_issues": false,
           "has_engagement": false
         },
@@ -1276,22 +1276,196 @@
           "has_default_branch": true
         }
       }
+    },
+    "Fintech-and-Artificial-Intelligence-in-Finance": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "book-next-word-prediction-site": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "Systematic-Literature-Reviews-with-Artificial-Intelligence": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
     }
   },
   "summary": {
-    "total_repos": 22,
+    "total_repos": 25,
     "health_distribution": {
-      "D": 19,
+      "D": 22,
       "F": 3
     },
     "average_scores": {
       "activity": 100.0,
-      "community": 7.95,
-      "documentation": 48.86,
-      "code_quality": 38.64,
+      "community": 8.7,
+      "documentation": 49.0,
+      "code_quality": 38.8,
       "popularity": 0.0,
       "maintenance": 100.0
     },
-    "average_overall_score": 52.16
+    "average_overall_score": 52.36
   }
 }

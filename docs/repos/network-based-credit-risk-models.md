@@ -22,9 +22,9 @@ Network-Based Credit Risk Models in P2P Lending Markets - SNSF Research Project
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-01 |
-| Last Push | 2025-12-01 |
-| Contributors | 1 |
+| Last Updated | 2025-12-02 |
+| Last Push | 2025-12-02 |
+| Contributors | 3 |
 | Default Branch | main |
 | Visibility | public |
 
@@ -35,12 +35,20 @@ Network-Based Credit Risk Models in P2P Lending Markets - SNSF Research Project
 
 ## Datasets
 
-This repository includes 1 dataset(s):
+This repository includes 5 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
 
-| [publications.json](https://github.com/Digital-AI-Finance/network-based-credit-risk-models/blob/main/_data/publications.json) | .json | 19.61 KB |
+| [news.json](https://github.com/Digital-AI-Finance/network-based-credit-risk-models/blob/main/_data/news.json) | .json | 1.19 KB |
+
+| [publications.json](https://github.com/Digital-AI-Finance/network-based-credit-risk-models/blob/main/_data/publications.json) | .json | 29.89 KB |
+
+| [snsf_project.json](https://github.com/Digital-AI-Finance/network-based-credit-risk-models/blob/main/_data/snsf_project.json) | .json | 7.17 KB |
+
+| [snsf_project_complete.json](https://github.com/Digital-AI-Finance/network-based-credit-risk-models/blob/main/_data/snsf_project_complete.json) | .json | 16.67 KB |
+
+| [team.json](https://github.com/Digital-AI-Finance/network-based-credit-risk-models/blob/main/_data/team.json) | .json | 2.35 KB |
 
 
 

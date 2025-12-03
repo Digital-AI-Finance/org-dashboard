@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T03:14:45.778385",
+  "generated_at": "2025-12-03T03:16:03.129166",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -397,7 +397,7 @@
         },
         "grade": "C"
       },
-      "language": "Python",
+      "language": "HTML",
       "size_kb": 0
     },
     "ai-in-finance": {
@@ -418,13 +418,70 @@
       },
       "language": "JavaScript",
       "size_kb": 0
+    },
+    "Fintech-and-Artificial-Intelligence-in-Finance": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "HTML",
+      "size_kb": 0
+    },
+    "book-next-word-prediction-site": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "CSS",
+      "size_kb": 0
+    },
+    "Systematic-Literature-Reviews-with-Artificial-Intelligence": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Python",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 22,
-    "average_structure_score": 38.64,
+    "total_repositories": 25,
+    "average_structure_score": 38.8,
     "grades": {
-      "C": 19,
+      "C": 22,
       "D": 3
     }
   }

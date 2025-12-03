@@ -22,8 +22,8 @@ AI in Finance - UT & ING Collaboration Website
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-01 |
-| Last Push | 2025-12-01 |
+| Last Updated | 2025-12-02 |
+| Last Push | 2025-12-02 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -31,6 +31,18 @@ AI in Finance - UT & ING Collaboration Website
 
 
 
+
+
+## Datasets
+
+This repository includes 2 dataset(s):
+
+| Dataset | Format | Size |
+|---------|--------|------|
+
+| [data](https://github.com/Digital-AI-Finance/ai-in-finance/blob/main/data) |  | 0.0 KB |
+
+| [menu.yaml](https://github.com/Digital-AI-Finance/ai-in-finance/blob/main/data/menu.yaml) | .yaml | 1.06 KB |
 
 
 

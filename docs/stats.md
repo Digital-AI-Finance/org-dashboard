@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-12-02**
+Last updated: **2025-12-03**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-12-02**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 22 |
-| Active Repositories | 22 |
+| Total Repositories | 25 |
+| Active Repositories | 25 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 23 |
+| Total Contributors | 29 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -26,10 +26,11 @@ Last updated: **2025-12-02**
 | Language | Repository Count |
 |----------|------------------|
 | [Python](by-language/python.md) | 6 |
+| [HTML](by-language/html.md) | 6 |
 | [TeX](by-language/tex.md) | 5 |
-| [HTML](by-language/html.md) | 4 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 2 |
 | [JavaScript](by-language/javascript.md) | 1 |
+| [CSS](by-language/css.md) | 1 |
 
 
 ---
@@ -56,7 +57,7 @@ Last updated: **2025-12-02**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 20 |
+| No License | 23 |
 | MIT License | 2 |
 
 
@@ -84,16 +85,16 @@ Last updated: **2025-12-02**
 
 | Repository | Last Push |
 |------------|-----------|
-| [ai-in-finance](repos/ai-in-finance.md) | 2025-12-01 |
-| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-01 |
-| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-01 |
-| [network-based-credit-risk-models](repos/network-based-credit-risk-models.md) | 2025-12-01 |
-| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-12-01 |
-| [neural-networks](repos/neural-networks.md) | 2025-12-01 |
-| [book-next-word-prediction](repos/book-next-word-prediction.md) | 2025-12-01 |
-| [Narrative-Digital-Finance](repos/Narrative-Digital-Finance.md) | 2025-12-01 |
-| [Anomaly_and_Fraud_Detection_in_Blockchain_Networks](repos/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.md) | 2025-12-01 |
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-01 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-02 |
+| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-02 |
+| [Fintech-and-Artificial-Intelligence-in-Finance](repos/Fintech-and-Artificial-Intelligence-in-Finance.md) | 2025-12-02 |
+| [Anomaly_and_Fraud_Detection_in_Blockchain_Networks](repos/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.md) | 2025-12-02 |
+| [ai-in-finance](repos/ai-in-finance.md) | 2025-12-02 |
+| [network-based-credit-risk-models](repos/network-based-credit-risk-models.md) | 2025-12-02 |
+| [neural-networks](repos/neural-networks.md) | 2025-12-02 |
+| [Narrative-Digital-Finance](repos/Narrative-Digital-Finance.md) | 2025-12-02 |
+| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-02 |
+| [Systematic-Literature-Reviews-with-Artificial-Intelligence](repos/Systematic-Literature-Reviews-with-Artificial-Intelligence.md) | 2025-12-02 |
 
 
 ---
@@ -107,4 +108,5 @@ The following repositories do not have a README file:
 - ShareBuybacks
 - neural-networks-introduction
 - Anomaly_and_Fraud_Detection_in_Blockchain_Networks
+- book-next-word-prediction-site
 

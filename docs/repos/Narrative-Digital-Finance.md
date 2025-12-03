@@ -22,8 +22,8 @@ SNSF Narrative Digital Finance: A tale of structural breaks, bubbles & market na
 | Open Issues | 0 |
 | License | MIT License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-01 |
-| Last Push | 2025-12-01 |
+| Last Updated | 2025-12-02 |
+| Last Push | 2025-12-02 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,7 +35,7 @@ SNSF Narrative Digital Finance: A tale of structural breaks, bubbles & market na
 
 ## Datasets
 
-This repository includes 2 dataset(s):
+This repository includes 5 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -43,6 +43,12 @@ This repository includes 2 dataset(s):
 | [data](https://github.com/Digital-AI-Finance/Narrative-Digital-Finance/blob/main/data) |  | 0.0 KB |
 
 | [.gitkeep](https://github.com/Digital-AI-Finance/Narrative-Digital-Finance/blob/main/data/.gitkeep) |  | 0.02 KB |
+
+| [authors.json](https://github.com/Digital-AI-Finance/Narrative-Digital-Finance/blob/main/data/authors.json) | .json | 3.21 KB |
+
+| [publications.json](https://github.com/Digital-AI-Finance/Narrative-Digital-Finance/blob/main/data/publications.json) | .json | 120.82 KB |
+
+| [summary.json](https://github.com/Digital-AI-Finance/Narrative-Digital-Finance/blob/main/data/summary.json) | .json | 0.41 KB |
 
 
 
