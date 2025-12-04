@@ -13,8 +13,10 @@
 ## Publications
 
 
-### Publication 1
+### OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts
 
+
+OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M disambiguated authors; 124k venues (places that host works, such as journals and online repos...
 
 
 | Property | Value |
@@ -22,10 +24,12 @@
 
 | arXiv | [2205.01833](https://arxiv.org/abs/2205.01833) |
 
+| Year | 2022 |
 
 
 
 
+**Authors**: Jason Priem, Heather Piwowar, Richard Orr
 
 
 ---

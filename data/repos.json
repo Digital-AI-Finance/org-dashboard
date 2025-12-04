@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 11616,
+    "size": 13474,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-12-02T03:16:18+00:00",
-    "pushed_at": "2025-12-02T03:16:16+00:00",
+    "updated_at": "2025-12-03T03:18:09+00:00",
+    "pushed_at": "2025-12-03T03:18:07+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:10:13.811898",
+        "extracted_at": "2025-12-04T03:12:05.762258",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -89,67 +89,67 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 40232
+          "size_bytes": 44383
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 3415
+          "size_bytes": 3813
         },
         {
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 10865
+          "size_bytes": 12374
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 3280
+          "size_bytes": 5788
         },
         {
           "name": "ml_topic_analysis.json",
           "path": "data/ml_topic_analysis.json",
           "format": ".json",
-          "size_bytes": 21063
+          "size_bytes": 23216
         },
         {
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 189967
+          "size_bytes": 228617
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 33120
+          "size_bytes": 37642
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 22532
+          "size_bytes": 24619
         },
         {
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 66525
+          "size_bytes": 87359
         },
         {
           "name": "search_index.pkl",
           "path": "data/search_index.pkl",
           "format": ".pkl",
-          "size_bytes": 154313
+          "size_bytes": 185212
         },
         {
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 2780
+          "size_bytes": 2884
         },
         {
           "name": "data",
@@ -161,13 +161,13 @@
           "name": "search_data.json",
           "path": "docs/data/search_data.json",
           "format": ".json",
-          "size_bytes": 453912
+          "size_bytes": 543332
         },
         {
           "name": "search_data_minimal.json",
           "path": "docs/data/search_data_minimal.json",
           "format": ".json",
-          "size_bytes": 322961
+          "size_bytes": 387787
         },
         {
           "name": "citation_network.json",
@@ -179,7 +179,7 @@
           "name": "collaboration_network.json",
           "path": "docs/visualizations/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 1032
+          "size_bytes": 1232
         },
         {
           "name": "research_metadata_schema.json",
@@ -270,7 +270,32 @@
         {
           "type": "preprint",
           "arxiv_id": "2103.12345",
-          "url": "https://arxiv.org/abs/2103.12345"
+          "url": "https://arxiv.org/abs/2103.12345",
+          "title": "The Success of AdaBoost and Its Application in Portfolio Management",
+          "abstract": "We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a strong connection between the ION and the test error. We further identify that the ION of AdaBoost decreases as the iteration number or the complexity of the base learners increases. We confirm that it is impossible to obtain a consistent classifier without deep trees as the base learners of AdaBoost in some complicated situations. We apply AdaBoost in portfolio management via empirical studies in the Chinese market, which corroborates our theoretical propositions.",
+          "published": "2021-03-23T06:41:42Z",
+          "updated": "2021-03-23T06:41:42Z",
+          "pdf_url": "https://arxiv.org/pdf/2103.12345.pdf",
+          "authors": [
+            {
+              "name": "Yijian Chuan"
+            },
+            {
+              "name": "Chaoyi Zhao"
+            },
+            {
+              "name": "Zhenrui He"
+            },
+            {
+              "name": "Lan Wu"
+            }
+          ],
+          "categories": [
+            "stat.ML",
+            "cs.LG",
+            "q-fin.PM"
+          ],
+          "year": 2021
         }
       ],
       "code": {
@@ -295,7 +320,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:10:16.436726",
+        "extracted_at": "2025-12-04T03:12:07.888264",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -389,7 +414,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:10:19.156283",
+        "extracted_at": "2025-12-04T03:12:10.002755",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -487,7 +512,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:10:21.886778",
+        "extracted_at": "2025-12-04T03:12:12.224239",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -553,7 +578,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:10:33.361267",
+        "extracted_at": "2025-12-04T03:12:21.514747",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -634,11 +659,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 210177,
+    "size": 211094,
     "default_branch": "main",
     "created_at": "2025-11-22T07:10:08+00:00",
-    "updated_at": "2025-12-02T21:39:20+00:00",
-    "pushed_at": "2025-12-02T21:39:16+00:00",
+    "updated_at": "2025-12-03T23:23:02+00:00",
+    "pushed_at": "2025-12-03T23:22:58+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -897,7 +922,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:12:01.759782",
+        "extracted_at": "2025-12-04T03:13:32.091019",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -951,8 +976,8 @@
     "size": 8388,
     "default_branch": "main",
     "created_at": "2025-11-24T21:13:02+00:00",
-    "updated_at": "2025-12-02T15:15:34+00:00",
-    "pushed_at": "2025-12-02T15:15:30+00:00",
+    "updated_at": "2025-12-03T23:59:06+00:00",
+    "pushed_at": "2025-12-03T23:59:03+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -1064,7 +1089,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:12:11.674352",
+        "extracted_at": "2025-12-04T03:13:40.322358",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1137,7 +1162,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:12:15.200245",
+        "extracted_at": "2025-12-04T03:13:43.419376",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1498,7 +1523,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:12:53.040554",
+        "extracted_at": "2025-12-04T03:14:12.750033",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1921,11 +1946,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 18572,
+    "size": 19525,
     "default_branch": "main",
     "created_at": "2025-11-29T11:14:34+00:00",
-    "updated_at": "2025-12-02T13:57:53+00:00",
-    "pushed_at": "2025-12-02T13:57:49+00:00",
+    "updated_at": "2025-12-03T23:11:41+00:00",
+    "pushed_at": "2025-12-03T23:11:37+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -1971,7 +1996,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:13:03.470244",
+        "extracted_at": "2025-12-04T03:14:21.132919",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2034,13 +2059,13 @@
           "name": "msca_bios.json",
           "path": "data/msca_bios.json",
           "format": ".json",
-          "size_bytes": 6793
+          "size_bytes": 7056
         },
         {
           "name": "msca_members_correct.json",
           "path": "data/msca_members_correct.json",
           "format": ".json",
-          "size_bytes": 6032
+          "size_bytes": 6154
         },
         {
           "name": "msca_members_merged.json",
@@ -2064,7 +2089,7 @@
           "name": "msca_people_named.json",
           "path": "data/msca_people_named.json",
           "format": ".json",
-          "size_bytes": 4000
+          "size_bytes": 4343
         },
         {
           "name": "msca_raw_data.json",
@@ -2076,7 +2101,7 @@
           "name": "scientific_committee.json",
           "path": "data/scientific_committee.json",
           "format": ".json",
-          "size_bytes": 747
+          "size_bytes": 574
         },
         {
           "name": "data",
@@ -2139,7 +2164,27 @@
         {
           "type": "preprint",
           "arxiv_id": "2205.01833",
-          "url": "https://arxiv.org/abs/2205.01833"
+          "url": "https://arxiv.org/abs/2205.01833",
+          "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+          "abstract": "OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M disambiguated authors; 124k venues (places that host works, such as journals and online repositories); 109k institutions; and 65k Wikidata concepts (linked to works via an automated hierarchical multi-tag classifier). The dataset is fully and freely available via a web-based GUI, a full data dump, and high-volume REST API. The resource is under active development and future work will improve accuracy and coverage of citation information and author/institution parsing and deduplication.",
+          "published": "2022-05-04T00:57:11Z",
+          "updated": "2022-06-17T00:34:23Z",
+          "pdf_url": "https://arxiv.org/pdf/2205.01833.pdf",
+          "authors": [
+            {
+              "name": "Jason Priem"
+            },
+            {
+              "name": "Heather Piwowar"
+            },
+            {
+              "name": "Richard Orr"
+            }
+          ],
+          "categories": [
+            "cs.DL"
+          ],
+          "year": 2022
         }
       ],
       "code": {
@@ -2162,7 +2207,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:13:05.998652",
+        "extracted_at": "2025-12-04T03:14:23.277975",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2258,7 +2303,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:13:21.418112",
+        "extracted_at": "2025-12-04T03:14:35.847395",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2392,7 +2437,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:13:33.698923",
+        "extracted_at": "2025-12-04T03:14:46.734914",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2580,7 +2625,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:13:45.969577",
+        "extracted_at": "2025-12-04T03:14:57.014480",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2673,7 +2718,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:13:50.435241",
+        "extracted_at": "2025-12-04T03:15:00.763936",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2790,7 +2835,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:13:59.642382",
+        "extracted_at": "2025-12-04T03:15:08.158723",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2841,11 +2886,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 302750,
+    "size": 302917,
     "default_branch": "main",
     "created_at": "2025-12-01T21:42:05+00:00",
-    "updated_at": "2025-12-02T19:46:36+00:00",
-    "pushed_at": "2025-12-02T19:46:30+00:00",
+    "updated_at": "2025-12-03T23:28:07+00:00",
+    "pushed_at": "2025-12-03T23:28:03+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -2887,7 +2932,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:14:25.211396",
+        "extracted_at": "2025-12-04T03:15:31.258452",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2915,6 +2960,12 @@
           "path": "data/cleanup_report.json",
           "format": ".json",
           "size_bytes": 4243
+        },
+        {
+          "name": "content_verification_report.json",
+          "path": "data/content_verification_report.json",
+          "format": ".json",
+          "size_bytes": 4980
         },
         {
           "name": "deep_crawl_results.json",
@@ -2947,6 +2998,12 @@
           "size_bytes": 11456
         },
         {
+          "name": "final_build_report.json",
+          "path": "data/final_build_report.json",
+          "format": ".json",
+          "size_bytes": 228
+        },
+        {
           "name": "final_verification_report.json",
           "path": "data/final_verification_report.json",
           "format": ".json",
@@ -2957,6 +3014,12 @@
           "path": "data/image_check_report.json",
           "format": ".json",
           "size_bytes": 209
+        },
+        {
+          "name": "image_fix_report.json",
+          "path": "data/image_fix_report.json",
+          "format": ".json",
+          "size_bytes": 164
         },
         {
           "name": "image_mapping.json",
@@ -2995,6 +3058,12 @@
           "size_bytes": 5927
         },
         {
+          "name": "navigation_report.json",
+          "path": "data/navigation_report.json",
+          "format": ".json",
+          "size_bytes": 141
+        },
+        {
           "name": "retry_results.json",
           "path": "data/retry_results.json",
           "format": ".json",
@@ -3005,6 +3074,12 @@
           "path": "data/scrape_progress.json",
           "format": ".json",
           "size_bytes": 32249
+        },
+        {
+          "name": "site_audit_report.json",
+          "path": "data/site_audit_report.json",
+          "format": ".json",
+          "size_bytes": 1563
         },
         {
           "name": "sync_history",
@@ -3082,11 +3157,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 14809,
+    "size": 14840,
     "default_branch": "main",
     "created_at": "2025-12-01T22:57:40+00:00",
-    "updated_at": "2025-12-02T16:58:19+00:00",
-    "pushed_at": "2025-12-02T16:58:14+00:00",
+    "updated_at": "2025-12-03T23:59:50+00:00",
+    "pushed_at": "2025-12-03T23:59:46+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -3138,7 +3213,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:14:44.157080",
+        "extracted_at": "2025-12-04T03:15:45.144833",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3221,7 +3296,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:15:07.929850",
+        "extracted_at": "2025-12-04T03:16:03.892546",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3339,11 +3414,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 4630,
+    "size": 4632,
     "default_branch": "main",
     "created_at": "2025-12-02T07:52:39+00:00",
-    "updated_at": "2025-12-02T13:32:23+00:00",
-    "pushed_at": "2025-12-02T13:32:19+00:00",
+    "updated_at": "2025-12-03T22:23:29+00:00",
+    "pushed_at": "2025-12-03T22:23:25+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -3369,6 +3444,79 @@
         ]
       },
       "publications": [
+        {
+          "type": "journal",
+          "doi": "10.1186/s13643-019-1074-9)",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1186/s13643-016-0384-4)",
+          "url": "https://doi.org/10.1186/s13643-016-0384-4)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1101/2025.06.13.25329541v1)",
+          "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1002/jrsm.1715)",
+          "url": "https://doi.org/10.1002/jrsm.1715)"
+        },
+        {
+          "type": "journal-article",
+          "doi": "10.1186/s13643-019-1074-9",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9",
+          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+          "abstract": "",
+          "published": "2019-07-11",
+          "year": 2019,
+          "authors": [
+            {
+              "name": "Iain J. Marshall"
+            },
+            {
+              "name": "Byron C. Wallace"
+            }
+          ],
+          "venue": "Systematic Reviews",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 393,
+          "reference_count": 40
+        },
+        {
+          "type": "journal",
+          "doi": "10.1038/s42256-020-00287-7)",
+          "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+        },
+        {
+          "type": "journal-article",
+          "doi": "10.1186/s13643-016-0384-4",
+          "url": "https://doi.org/10.1186/s13643-016-0384-4",
+          "title": "Rayyan—a web and mobile app for systematic reviews",
+          "abstract": "",
+          "published": "2016-12-01",
+          "year": 2016,
+          "authors": [
+            {
+              "name": "Mourad Ouzzani"
+            },
+            {
+              "name": "Hossam Hammady"
+            },
+            {
+              "name": "Zbys Fedorowicz"
+            },
+            {
+              "name": "Ahmed Elmagarmid"
+            }
+          ],
+          "venue": "Systematic Reviews",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 16751,
+          "reference_count": 19
+        },
         {
           "type": "journal-article",
           "doi": "10.1038/s42256-020-00287-7",
@@ -3432,7 +3580,7 @@
           ],
           "venue": "Nature Machine Intelligence",
           "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 707,
+          "citation_count": 709,
           "reference_count": 63
         },
         {
@@ -3519,18 +3667,13 @@
           ],
           "venue": "Nature Medicine",
           "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 90,
+          "citation_count": 91,
           "reference_count": 10
         },
         {
           "type": "journal",
-          "doi": "10.1002/jrsm.1715)",
-          "url": "https://doi.org/10.1002/jrsm.1715)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1186/s13643-016-0384-4)",
-          "url": "https://doi.org/10.1186/s13643-016-0384-4)"
+          "doi": "10.1038/s41591-022-02139-w)",
+          "url": "https://doi.org/10.1038/s41591-022-02139-w)"
         },
         {
           "type": "journal-article",
@@ -3566,74 +3709,6 @@
           "publisher": "Wiley",
           "citation_count": 131,
           "reference_count": 42
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1186/s13643-016-0384-4",
-          "url": "https://doi.org/10.1186/s13643-016-0384-4",
-          "title": "Rayyan—a web and mobile app for systematic reviews",
-          "abstract": "",
-          "published": "2016-12-01",
-          "year": 2016,
-          "authors": [
-            {
-              "name": "Mourad Ouzzani"
-            },
-            {
-              "name": "Hossam Hammady"
-            },
-            {
-              "name": "Zbys Fedorowicz"
-            },
-            {
-              "name": "Ahmed Elmagarmid"
-            }
-          ],
-          "venue": "Systematic Reviews",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 16740,
-          "reference_count": 19
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1186/s13643-019-1074-9",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9",
-          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
-          "abstract": "",
-          "published": "2019-07-11",
-          "year": 2019,
-          "authors": [
-            {
-              "name": "Iain J. Marshall"
-            },
-            {
-              "name": "Byron C. Wallace"
-            }
-          ],
-          "venue": "Systematic Reviews",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 392,
-          "reference_count": 40
-        },
-        {
-          "type": "journal",
-          "doi": "10.1101/2025.06.13.25329541v1)",
-          "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1186/s13643-019-1074-9)",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1038/s41591-022-02139-w)",
-          "url": "https://doi.org/10.1038/s41591-022-02139-w)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1038/s42256-020-00287-7)",
-          "url": "https://doi.org/10.1038/s42256-020-00287-7)"
         }
       ],
       "code": {
@@ -3656,7 +3731,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-03T03:15:21.213027",
+        "extracted_at": "2025-12-04T03:16:14.004623",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3687,5 +3762,116 @@
         }
       ]
     }
+  },
+  {
+    "name": "European-Financial-Data-Space",
+    "full_name": "Digital-AI-Finance/European-Financial-Data-Space",
+    "description": "European Financial Data Space - MSCA Digital research on EFDS, ESAP, ESEF, and FIDA",
+    "url": "https://github.com/Digital-AI-Finance/European-Financial-Data-Space",
+    "clone_url": "https://github.com/Digital-AI-Finance/European-Financial-Data-Space.git",
+    "homepage": "",
+    "language": "HTML",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 337,
+    "default_branch": "main",
+    "created_at": "2025-12-03T19:38:21+00:00",
+    "updated_at": "2025-12-04T00:09:50+00:00",
+    "pushed_at": "2025-12-04T00:09:46+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": true,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "public",
+    "contributors_count": 1,
+    "readme": "# European Financial Data Space Status\n\nResearch documentation on the European Financial Data Space (EFDS), covering ESAP, ESEF, and FIDA regulatory frameworks.\n\n## Overview\n\nThis repository contains a comprehensive status report on the European Financial Data Space initiative, including:\n\n- **ESAP** (European Single Access Point) - Centralized EU financial data portal\n- **ESEF** (European Single Electronic Format) - iXBRL reporting standard\n- **FIDA** (Financial Data Access) - Open finance framework proposal\n- **ESRS** (European Sustainability Reporting Standards) integration\n\n## Authors\n\n- **Coordinator:** Codruta Mare\n- **Authors:** Siang-Li Jheng, Fulvio Raddi, Karolina Weyna\n\n## View Online\n\nThis document is available as a GitHub Pages site with:\n- Single-page scroll format\n- Interactive table of contents\n- Executive summary\n- Glossary of acronyms\n- Country-by-country authority table\n\n## Key Dates\n\n| Milestone | Date |\n|-----------|------|\n| ESAP Regulation adopted | 2023 |\n| ESAP portal minimum functionality | December 2025 |\n| ESAP full operationalization | July 2027 |\n\n## Acknowledgments\n\nThis work has been conducted under the Marie Sklodowska-Curie Actions under the European Union's Horizon Europe Research and Innovation program for the Industrial Doctoral Network on Digital Finance (DIGITAL), Project No 101119635.\n\n## License\n\nThis is a research document. Please cite appropriately if using in academic work.\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "European-Financial-Data-Space",
+      "research": {
+        "title": "European Financial Data Space - MSCA Digital research on EFDS, ESAP, ESEF, and FIDA",
+        "abstract": "This repository contains a comprehensive status report on the European Financial Data Space initiative, including:\n\n- ESAP (European Single Access Point) - Centralized EU financial data portal\n- ESEF (European Single Electronic Format) - iXBRL reporting standard\n- FIDA (Financial Data Access) - Open finance framework proposal\n- ESRS (European Sustainability Reporting Standards) integration",
+        "keywords": [],
+        "authors": [
+          {
+            "name": "Coordinator:** Codruta Mare"
+          },
+          {
+            "name": "Authors:** Siang-Li Jheng, Fulvio Raddi, Karolina Weyna"
+          }
+        ]
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "HTML"
+        ],
+        "notebooks": [],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": false,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-12-04T03:16:16.819539",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "policy_recommendations_analysis.json",
+          "path": "policy_recommendations_analysis.json",
+          "format": ".json",
+          "size_bytes": 6235
+        }
+      ]
+    }
+  },
+  {
+    "name": "ML_Design_Thinking_16",
+    "full_name": "Digital-AI-Finance/ML_Design_Thinking_16",
+    "description": "Machine Learning for Smarter Innovation - BSc course bridging ML/AI with design thinking",
+    "url": "https://github.com/Digital-AI-Finance/ML_Design_Thinking_16",
+    "clone_url": "https://github.com/Digital-AI-Finance/ML_Design_Thinking_16.git",
+    "homepage": "",
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 233103,
+    "default_branch": "main",
+    "created_at": "2025-12-03T22:35:05+00:00",
+    "updated_at": "2025-12-03T23:31:47+00:00",
+    "pushed_at": "2025-12-03T23:31:43+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": true,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "public",
+    "contributors_count": 1,
+    "readme": "No README available",
+    "latest_release": null
   }
 ]

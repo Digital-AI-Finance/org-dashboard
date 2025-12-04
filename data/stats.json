@@ -1,18 +1,18 @@
 {
-  "generated_at": "2025-12-03T03:16:02.803691",
-  "total_repos": 25,
-  "active_repos": 25,
+  "generated_at": "2025-12-04T03:16:29.843059",
+  "total_repos": 27,
+  "active_repos": 27,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 29,
+  "total_contributors": 31,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
+    "HTML": 7,
     "Python": 6,
-    "HTML": 6,
     "TeX": 5,
-    "Jupyter Notebook": 2,
+    "Jupyter Notebook": 3,
     "JavaScript": 1,
     "CSS": 1
   },
@@ -29,49 +29,49 @@
     "time-series": 1
   },
   "licenses": {
-    "No License": 23,
+    "No License": 25,
     "MIT License": 2
   },
   "recent_repos": [
     {
-      "name": "Natural-Language-Processing",
-      "pushed_at": "2025-12-02T21:39:16+00:00"
+      "name": "European-Financial-Data-Space",
+      "pushed_at": "2025-12-04T00:09:46+00:00"
+    },
+    {
+      "name": "ai-in-finance",
+      "pushed_at": "2025-12-03T23:59:46+00:00"
+    },
+    {
+      "name": "neural-networks",
+      "pushed_at": "2025-12-03T23:59:03+00:00"
+    },
+    {
+      "name": "ML_Design_Thinking_16",
+      "pushed_at": "2025-12-03T23:31:43+00:00"
     },
     {
       "name": "msca-digital-finance",
-      "pushed_at": "2025-12-02T19:46:30+00:00"
+      "pushed_at": "2025-12-03T23:28:03+00:00"
+    },
+    {
+      "name": "Natural-Language-Processing",
+      "pushed_at": "2025-12-03T23:22:58+00:00"
+    },
+    {
+      "name": "digital-ai-in-finance",
+      "pushed_at": "2025-12-03T23:11:37+00:00"
+    },
+    {
+      "name": "Systematic-Literature-Reviews-with-Artificial-Intelligence",
+      "pushed_at": "2025-12-03T22:23:25+00:00"
+    },
+    {
+      "name": "org-dashboard",
+      "pushed_at": "2025-12-03T03:18:07+00:00"
     },
     {
       "name": "Fintech-and-Artificial-Intelligence-in-Finance",
       "pushed_at": "2025-12-02T19:39:43+00:00"
-    },
-    {
-      "name": "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-      "pushed_at": "2025-12-02T17:00:14+00:00"
-    },
-    {
-      "name": "ai-in-finance",
-      "pushed_at": "2025-12-02T16:58:14+00:00"
-    },
-    {
-      "name": "network-based-credit-risk-models",
-      "pushed_at": "2025-12-02T16:29:16+00:00"
-    },
-    {
-      "name": "neural-networks",
-      "pushed_at": "2025-12-02T15:15:30+00:00"
-    },
-    {
-      "name": "Narrative-Digital-Finance",
-      "pushed_at": "2025-12-02T15:10:49+00:00"
-    },
-    {
-      "name": "digital-ai-in-finance",
-      "pushed_at": "2025-12-02T13:57:49+00:00"
-    },
-    {
-      "name": "Systematic-Literature-Reviews-with-Artificial-Intelligence",
-      "pushed_at": "2025-12-02T13:32:19+00:00"
     }
   ],
   "popular_repos": [
@@ -121,12 +121,13 @@
     "ShareBuybacks",
     "neural-networks-introduction",
     "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-    "book-next-word-prediction-site"
+    "book-next-word-prediction-site",
+    "ML_Design_Thinking_16"
   ],
   "research": {
     "repos_with_papers": 5,
     "repos_with_notebooks": 3,
-    "repos_with_datasets": 16,
+    "repos_with_datasets": 17,
     "total_publications": 19,
     "total_notebooks": 77
   }

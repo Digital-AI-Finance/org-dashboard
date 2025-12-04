@@ -22,8 +22,8 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-02 |
-| Last Push | 2025-12-02 |
+| Last Updated | 2025-12-03 |
+| Last Push | 2025-12-03 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,7 +35,7 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 
 ## Datasets
 
-This repository includes 29 dataset(s):
+This repository includes 34 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -48,6 +48,8 @@ This repository includes 29 dataset(s):
 
 | [cleanup_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/cleanup_report.json) | .json | 4.14 KB |
 
+| [content_verification_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/content_verification_report.json) | .json | 4.86 KB |
+
 | [deep_crawl_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/deep_crawl_results.json) | .json | 35.1 KB |
 
 | [eu_cordis_20251202.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/eu_cordis_20251202.json) | .json | 1.04 KB |
@@ -58,9 +60,13 @@ This repository includes 29 dataset(s):
 
 | [eu_publications_complete.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/eu_publications_complete.json) | .json | 11.19 KB |
 
+| [final_build_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/final_build_report.json) | .json | 0.22 KB |
+
 | [final_verification_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/final_verification_report.json) | .json | 187.15 KB |
 
 | [image_check_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_check_report.json) | .json | 0.2 KB |
+
+| [image_fix_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_fix_report.json) | .json | 0.16 KB |
 
 | [image_mapping.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_mapping.json) | .json | 46.86 KB |
 
@@ -74,9 +80,13 @@ This repository includes 29 dataset(s):
 
 | [missing_pages_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/missing_pages_results.json) | .json | 5.79 KB |
 
+| [navigation_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/navigation_report.json) | .json | 0.14 KB |
+
 | [retry_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/retry_results.json) | .json | 1.49 KB |
 
 | [scrape_progress.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/scrape_progress.json) | .json | 31.49 KB |
+
+| [site_audit_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/site_audit_report.json) | .json | 1.53 KB |
 
 | [sync_history](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/sync_history) |  | 0.0 KB |
 

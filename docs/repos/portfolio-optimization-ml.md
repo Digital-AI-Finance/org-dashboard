@@ -32,8 +32,10 @@ Machine learning approaches to portfolio optimization using deep reinforcement l
 
 ---
 
-### Publication 2
+### The Success of AdaBoost and Its Application in Portfolio Management
 
+
+We develop a novel approach to explain why AdaBoost is a successful classifier. By introducing a measure of the influence of the noise points (ION) in the training data for the binary classification problem, we prove that there is a strong connection between the ION and the test error. We further id...
 
 
 | Property | Value |
@@ -41,10 +43,12 @@ Machine learning approaches to portfolio optimization using deep reinforcement l
 
 | arXiv | [2103.12345](https://arxiv.org/abs/2103.12345) |
 
+| Year | 2021 |
 
 
 
 
+**Authors**: Yijian Chuan, Chaoyi Zhao, Zhenrui He, Lan Wu
 
 
 ---

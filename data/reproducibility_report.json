@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T03:16:03.127432",
+  "generated_at": "2025-12-04T03:16:30.184387",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
@@ -675,15 +675,69 @@
         "average_rating": 0.0,
         "category_ratings": {}
       }
+    },
+    "European-Financial-Data-Space": {
+      "reproducibility_score": {
+        "score": 30,
+        "max_score": 100,
+        "percentage": 30.0,
+        "badge": "none",
+        "breakdown": {
+          "documentation": 20,
+          "environment": 0,
+          "data": 10,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "ML_Design_Thinking_16": {
+      "reproducibility_score": {
+        "score": 0,
+        "max_score": 100,
+        "percentage": 0.0,
+        "badge": "none",
+        "breakdown": {
+          "documentation": 0,
+          "environment": 0,
+          "data": 0,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 36.0,
-    "total_repositories": 25,
+    "average_reproducibility_score": 34.44,
+    "total_repositories": 27,
     "badge_distribution": {
       "bronze": 14,
       "silver": 2,
-      "none": 9
+      "none": 11
     },
     "top_repos": [
       [

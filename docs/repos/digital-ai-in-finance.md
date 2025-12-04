@@ -22,8 +22,8 @@ CCG application for AI for Digital Finance workshop - Swiss-MENA Research Networ
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-29 |
-| Last Updated | 2025-12-02 |
-| Last Push | 2025-12-02 |
+| Last Updated | 2025-12-03 |
+| Last Push | 2025-12-03 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -58,9 +58,9 @@ This repository includes 19 dataset(s):
 
 | [data](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data) |  | 0.0 KB |
 
-| [msca_bios.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_bios.json) | .json | 6.63 KB |
+| [msca_bios.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_bios.json) | .json | 6.89 KB |
 
-| [msca_members_correct.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_members_correct.json) | .json | 5.89 KB |
+| [msca_members_correct.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_members_correct.json) | .json | 6.01 KB |
 
 | [msca_members_merged.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_members_merged.json) | .json | 6.42 KB |
 
@@ -68,11 +68,11 @@ This repository includes 19 dataset(s):
 
 | [msca_people.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_people.json) | .json | 52.53 KB |
 
-| [msca_people_named.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_people_named.json) | .json | 3.91 KB |
+| [msca_people_named.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_people_named.json) | .json | 4.24 KB |
 
 | [msca_raw_data.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/msca_raw_data.json) | .json | 122.96 KB |
 
-| [scientific_committee.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/scientific_committee.json) | .json | 0.73 KB |
+| [scientific_committee.json](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/data/scientific_committee.json) | .json | 0.56 KB |
 
 | [data](https://github.com/Digital-AI-Finance/digital-ai-in-finance/blob/main/docs/data) |  | 0.0 KB |
 
