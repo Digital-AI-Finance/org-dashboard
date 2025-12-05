@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-04T03:16:30.186454",
+  "generated_at": "2025-12-05T03:16:38.120049",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -416,7 +416,7 @@
         },
         "grade": "C"
       },
-      "language": "JavaScript",
+      "language": "SCSS",
       "size_kb": 0
     },
     "Fintech-and-Artificial-Intelligence-in-Finance": {
@@ -513,13 +513,165 @@
       },
       "language": "Jupyter Notebook",
       "size_kb": 0
+    },
+    "joerg-osterrieder": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "HTML",
+      "size_kb": 0
+    },
+    "hugo-research-template": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "HTML",
+      "size_kb": 0
+    },
+    "2025-shanghai-workshop": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "HTML",
+      "size_kb": 0
+    },
+    "Research-Page-Template-Test": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "HTML",
+      "size_kb": 0
+    },
+    "research-page-generator": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "SCSS",
+      "size_kb": 0
+    },
+    "crypto-market-ai-sample": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "SCSS",
+      "size_kb": 0
+    },
+    "climate-ai-sample": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "SCSS",
+      "size_kb": 0
+    },
+    "medical-ai-sample": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "SCSS",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 27,
-    "average_structure_score": 38.89,
+    "total_repositories": 35,
+    "average_structure_score": 39.14,
     "grades": {
-      "C": 24,
+      "C": 32,
       "D": 3
     }
   }

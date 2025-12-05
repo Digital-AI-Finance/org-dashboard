@@ -58,7 +58,7 @@
     },
     {
       "id": "Fintech-and-Artificial-Intelligence-in-Finance",
-      "authors": 1
+      "authors": 5
     },
     {
       "id": "Systematic-Literature-Reviews-with-Artificial-Intelligence",
@@ -67,6 +67,14 @@
     {
       "id": "European-Financial-Data-Space",
       "authors": 2
+    },
+    {
+      "id": "hugo-research-template",
+      "authors": 1
+    },
+    {
+      "id": "research-page-generator",
+      "authors": 1
     }
   ],
   "edges": []

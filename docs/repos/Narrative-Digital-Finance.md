@@ -22,8 +22,8 @@ SNSF Narrative Digital Finance: A tale of structural breaks, bubbles & market na
 | Open Issues | 0 |
 | License | MIT License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-02 |
-| Last Push | 2025-12-02 |
+| Last Updated | 2025-12-04 |
+| Last Push | 2025-12-04 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

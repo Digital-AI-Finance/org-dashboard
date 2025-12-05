@@ -8,9 +8,9 @@ Total languages: **7**
 
 | Language | Repository Count |
 |----------|------------------|
-| [HTML](html.md) | 7 |
+| [HTML](html.md) | 11 |
 | [Python](python.md) | 6 |
 | [TeX](tex.md) | 5 |
+| [SCSS](scss.md) | 5 |
 | [Jupyter Notebook](jupyter-notebook.md) | 3 |
-| [JavaScript](javascript.md) | 1 |
 | [CSS](css.md) | 1 |

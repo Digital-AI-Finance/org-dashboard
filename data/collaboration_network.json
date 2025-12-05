@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-04T03:17:00.627906",
+  "generated_at": "2025-12-05T03:17:14.182124",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
@@ -9,9 +9,9 @@
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 28,
+        "commit_count": 29,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-12-03T03:17:57+00:00",
+        "last_commit": "2025-12-04T03:18:16+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
         ]
@@ -19,40 +19,48 @@
       {
         "id": "josterri",
         "repos": [
-          "quantlet-branding-tools",
+          "msca-digital-finance",
+          "Natural-Language-Processing-Decoding-Strategies",
+          "Fintech-and-Artificial-Intelligence-in-Finance",
+          "neural-networks",
           "digital-ai-in-finance",
+          "neural-networks-introduction",
+          "network-based-credit-risk-models",
+          "medical-ai-sample",
+          "book-next-word-prediction",
+          "hugo-research-template",
           "demo-repository",
-          "Natural-Language-Processing-Details",
+          "quantlet-branding-tools",
+          "crypto-market-ai-sample",
           "market-microstructure",
           "book-next-word-prediction-site",
-          "network-based-credit-risk-models",
-          "neural-networks-introduction",
-          "neural-networks",
-          "Natural-Language-Processing",
-          "European-Financial-Data-Space",
           "Statistics",
-          "msca-digital-finance",
-          "Systematic-Literature-Reviews-with-Artificial-Intelligence",
-          "credit-risk-prediction",
-          "ai-in-finance",
           "portfolio-optimization-ml",
-          "Narrative-Digital-Finance",
-          "Natural-Language-Processing-Decoding-Strategies",
-          "Green-Finance",
-          "book-next-word-prediction",
-          "Fintech-and-Artificial-Intelligence-in-Finance",
-          "org-dashboard",
+          "ShareBuybacks",
+          "Natural-Language-Processing-Details",
+          "2025-shanghai-workshop",
+          "Natural-Language-Processing",
+          "Research-Page-Template-Test",
           "ML_Design_Thinking_16",
           "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-          "ShareBuybacks"
+          "research-page-generator",
+          "Green-Finance",
+          "Narrative-Digital-Finance",
+          "climate-ai-sample",
+          "ai-in-finance",
+          "org-dashboard",
+          "credit-risk-prediction",
+          "European-Financial-Data-Space",
+          "joerg-osterrieder",
+          "Systematic-Literature-Reviews-with-Artificial-Intelligence"
         ],
-        "repo_count": 26,
-        "commit_count": 320,
+        "repo_count": 34,
+        "commit_count": 373,
         "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-12-04T00:09:29+00:00",
+        "last_commit": "2025-12-04T12:18:17+00:00",
         "emails": [
-          "josterri@googlemail.com",
-          "josterri@users.noreply.github.com"
+          "josterri@users.noreply.github.com",
+          "josterri@googlemail.com"
         ]
       },
       {
@@ -134,13 +142,13 @@
         "shared_repos": 1
       },
       {
-        "source": "LennartJohnBaals",
+        "source": "YitingLiu1998",
         "target": "josterri",
         "weight": 1,
         "shared_repos": 1
       },
       {
-        "source": "YitingLiu1998",
+        "source": "LennartJohnBaals",
         "target": "josterri",
         "weight": 1,
         "shared_repos": 1
@@ -198,12 +206,12 @@
         "shared_repos": 1
       },
       {
-        "author1": "LennartJohnBaals",
+        "author1": "YitingLiu1998",
         "author2": "josterri",
         "shared_repos": 1
       },
       {
-        "author1": "YitingLiu1998",
+        "author1": "LennartJohnBaals",
         "author2": "josterri",
         "shared_repos": 1
       }
@@ -220,8 +228,8 @@
   "summary": {
     "total_authors": 6,
     "total_collaborations": 6,
-    "total_commits": 383,
-    "repositories_analyzed": 26
+    "total_commits": 437,
+    "repositories_analyzed": 34
   },
   "visualizations": {
     "network": "docs/visualizations/collaboration_network_real.html",

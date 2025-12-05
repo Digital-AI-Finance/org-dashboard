@@ -22,8 +22,8 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-03 |
-| Last Push | 2025-12-03 |
+| Last Updated | 2025-12-04 |
+| Last Push | 2025-12-04 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,7 +35,7 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 
 ## Datasets
 
-This repository includes 34 dataset(s):
+This repository includes 36 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -47,6 +47,8 @@ This repository includes 34 dataset(s):
 | [asset_extraction_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/asset_extraction_results.json) | .json | 248.11 KB |
 
 | [cleanup_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/cleanup_report.json) | .json | 4.14 KB |
+
+| [content_audit_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/content_audit_report.json) | .json | 0.79 KB |
 
 | [content_verification_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/content_verification_report.json) | .json | 4.86 KB |
 
@@ -81,6 +83,8 @@ This repository includes 34 dataset(s):
 | [missing_pages_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/missing_pages_results.json) | .json | 5.79 KB |
 
 | [navigation_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/navigation_report.json) | .json | 0.14 KB |
+
+| [picture_audit_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/picture_audit_report.json) | .json | 5.99 KB |
 
 | [retry_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/retry_results.json) | .json | 1.49 KB |
 

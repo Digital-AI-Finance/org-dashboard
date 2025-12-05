@@ -22,8 +22,8 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-22 |
-| Last Updated | 2025-12-03 |
-| Last Push | 2025-12-03 |
+| Last Updated | 2025-12-04 |
+| Last Push | 2025-12-04 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -113,7 +113,7 @@ This repository contains 35 notebook(s):
 
 ## Datasets
 
-This repository includes 5 dataset(s):
+This repository includes 6 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -125,6 +125,8 @@ This repository includes 5 dataset(s):
 | [package-lock.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/NLP_slides/week09_decoding/react-app/package-lock.json) | .json | 162.65 KB |
 
 | [package.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/NLP_slides/week09_decoding/react-app/package.json) | .json | 0.95 KB |
+
+| [search.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/search.json) | .json | 6.16 KB |
 
 | [notebook_test_results.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/notebook_test_results.json) | .json | 9.48 KB |
 

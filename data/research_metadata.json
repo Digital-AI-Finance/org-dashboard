@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:12:05.762258",
+      "extracted_at": "2025-12-05T03:11:59.856459",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -59,67 +59,67 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 44383
+        "size_bytes": 48756
       },
       {
         "name": "citation_report.json",
         "path": "data/citation_report.json",
         "format": ".json",
-        "size_bytes": 3813
+        "size_bytes": 3814
       },
       {
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 12374
+        "size_bytes": 13355
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 5788
+        "size_bytes": 5866
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 23216
+        "size_bytes": 24619
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 228617
+        "size_bytes": 237463
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 37642
+        "size_bytes": 40621
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 24619
+        "size_bytes": 25925
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 87359
+        "size_bytes": 92429
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 185212
+        "size_bytes": 192040
       },
       {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 2884
+        "size_bytes": 2869
       },
       {
         "name": "data",
@@ -131,13 +131,13 @@
         "name": "search_data.json",
         "path": "docs/data/search_data.json",
         "format": ".json",
-        "size_bytes": 543332
+        "size_bytes": 565921
       },
       {
         "name": "search_data_minimal.json",
         "path": "docs/data/search_data_minimal.json",
         "format": ".json",
-        "size_bytes": 387787
+        "size_bytes": 403661
       },
       {
         "name": "citation_network.json",
@@ -149,7 +149,7 @@
         "name": "collaboration_network.json",
         "path": "docs/visualizations/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 1232
+        "size_bytes": 1309
       },
       {
         "name": "research_metadata_schema.json",
@@ -254,7 +254,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:12:07.888264",
+      "extracted_at": "2025-12-05T03:12:01.865561",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -312,7 +312,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:12:10.002755",
+      "extracted_at": "2025-12-05T03:12:03.840657",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -338,13 +338,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "preprint",
@@ -374,7 +374,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:12:12.224239",
+      "extracted_at": "2025-12-05T03:12:05.834379",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -409,7 +409,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:12:21.514747",
+      "extracted_at": "2025-12-05T03:12:14.723468",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -722,7 +722,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:13:32.091019",
+      "extracted_at": "2025-12-05T03:13:28.551042",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -750,6 +750,12 @@
         "path": "NLP_slides/week09_decoding/react-app/package.json",
         "format": ".json",
         "size_bytes": 974
+      },
+      {
+        "name": "search.json",
+        "path": "docs/search.json",
+        "format": ".json",
+        "size_bytes": 6309
       },
       {
         "name": "notebook_test_results.json",
@@ -792,7 +798,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:13:40.322358",
+      "extracted_at": "2025-12-05T03:13:36.487480",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -834,7 +840,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:13:43.419376",
+      "extracted_at": "2025-12-05T03:13:39.239335",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1133,7 +1139,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:14:12.750033",
+      "extracted_at": "2025-12-05T03:14:06.500581",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1575,7 +1581,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:14:21.132919",
+      "extracted_at": "2025-12-05T03:14:15.120353",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1755,7 +1761,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:14:23.277975",
+      "extracted_at": "2025-12-05T03:14:17.227411",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1820,7 +1826,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:14:35.847395",
+      "extracted_at": "2025-12-05T03:14:29.268916",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1923,7 +1929,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:14:46.734914",
+      "extracted_at": "2025-12-05T03:14:39.488084",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2049,7 +2055,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:14:57.014480",
+      "extracted_at": "2025-12-05T03:14:49.149312",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2111,7 +2117,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:15:00.763936",
+      "extracted_at": "2025-12-05T03:14:53.377761",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2197,7 +2203,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:15:08.158723",
+      "extracted_at": "2025-12-05T03:15:00.024782",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2263,7 +2269,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:15:31.258452",
+      "extracted_at": "2025-12-05T03:15:21.851393",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2291,6 +2297,12 @@
         "path": "data/cleanup_report.json",
         "format": ".json",
         "size_bytes": 4243
+      },
+      {
+        "name": "content_audit_report.json",
+        "path": "data/content_audit_report.json",
+        "format": ".json",
+        "size_bytes": 809
       },
       {
         "name": "content_verification_report.json",
@@ -2395,6 +2407,12 @@
         "size_bytes": 141
       },
       {
+        "name": "picture_audit_report.json",
+        "path": "data/picture_audit_report.json",
+        "format": ".json",
+        "size_bytes": 6135
+      },
+      {
         "name": "retry_results.json",
         "path": "data/retry_results.json",
         "format": ".json",
@@ -2495,7 +2513,7 @@
     "publications": [],
     "code": {
       "languages": [
-        "JavaScript"
+        "SCSS"
       ],
       "notebooks": [],
       "dependencies": {}
@@ -2513,22 +2531,34 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:15:45.144833",
+      "extracted_at": "2025-12-05T03:15:27.428271",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
     "datasets": [
       {
-        "name": "data",
-        "path": "data",
-        "format": "",
-        "size_bytes": 0
+        "name": "funding.json",
+        "path": "_data/funding.json",
+        "format": ".json",
+        "size_bytes": 1299
       },
       {
-        "name": "menu.yaml",
-        "path": "data/menu.yaml",
-        "format": ".yaml",
-        "size_bytes": 1090
+        "name": "news.json",
+        "path": "_data/news.json",
+        "format": ".json",
+        "size_bytes": 1454
+      },
+      {
+        "name": "publications.json",
+        "path": "_data/publications.json",
+        "format": ".json",
+        "size_bytes": 24034
+      },
+      {
+        "name": "team.json",
+        "path": "_data/team.json",
+        "format": ".json",
+        "size_bytes": 9956
       }
     ]
   },
@@ -2536,11 +2566,25 @@
     "repo_name": "Fintech-and-Artificial-Intelligence-in-Finance",
     "research": {
       "title": "Archive of COST Action CA19130 - FinAI: Fintech and Artificial Intelligence in Finance (2020-2024)",
-      "abstract": "Archive of materials from COST Action CA19130: \"Fintech and Artificial Intelligence in Finance - Towards a transparent financial industry\"",
+      "abstract": "![Files](https://img.shields.io/badge/Files-724+-blue) ![Size](https://img.shields.io/badge/Size-763%20MB-green) ![Countries](https://img.shields.io/badge/Countries-51-orange) ![Members](https://img.shields.io/badge/Members-413+-red)",
       "keywords": [],
       "authors": [
         {
+          "name": "technology-enabled innovations. Europe should become a global hub for FinTech, with the economy being able to benefit from the European Single Market."
+        },
+        {
+          "name": "developing policy papers and methods to increase transparency"
+        },
+        {
           "name": "the Horizon 2020 Framework Programme of the European Union."
+        },
+        {
+          "name": "participating countries . Includes:",
+          "affiliation": "2023-2024"
+        },
+        {
+          "name": "country",
+          "affiliation": "70+ members"
         }
       ]
     },
@@ -2565,7 +2609,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:16:03.892546",
+      "extracted_at": "2025-12-05T03:15:51.459626",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2589,10 +2633,28 @@
         "size_bytes": 33090
       },
       {
+        "name": "deliverables_inventory.json",
+        "path": "deliverables_inventory.json",
+        "format": ".json",
+        "size_bytes": 109488
+      },
+      {
+        "name": "publication_catalog.json",
+        "path": "docs/publication_catalog.json",
+        "format": ".json",
+        "size_bytes": 78629
+      },
+      {
         "name": "download_progress.json",
         "path": "download_progress.json",
         "format": ".json",
         "size_bytes": 665
+      },
+      {
+        "name": "CIG_FILE_INVENTORY.json",
+        "path": "downloads/docs/CIG_FILE_INVENTORY.json",
+        "format": ".json",
+        "size_bytes": 69596
       },
       {
         "name": "gdrive_auth_download_report.json",
@@ -2625,6 +2687,12 @@
         "size_bytes": 45431
       },
       {
+        "name": "members_extract.json",
+        "path": "members_extract.json",
+        "format": ".json",
+        "size_bytes": 1434
+      },
+      {
         "name": "urls_discovered.json",
         "path": "urls_discovered.json",
         "format": ".json",
@@ -2651,145 +2719,6 @@
       ]
     },
     "publications": [
-      {
-        "type": "journal",
-        "doi": "10.1186/s13643-019-1074-9)",
-        "url": "https://doi.org/10.1186/s13643-019-1074-9)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1186/s13643-016-0384-4)",
-        "url": "https://doi.org/10.1186/s13643-016-0384-4)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1101/2025.06.13.25329541v1)",
-        "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1002/jrsm.1715)",
-        "url": "https://doi.org/10.1002/jrsm.1715)"
-      },
-      {
-        "type": "journal-article",
-        "doi": "10.1186/s13643-019-1074-9",
-        "url": "https://doi.org/10.1186/s13643-019-1074-9",
-        "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
-        "abstract": "",
-        "published": "2019-07-11",
-        "year": 2019,
-        "authors": [
-          {
-            "name": "Iain J. Marshall"
-          },
-          {
-            "name": "Byron C. Wallace"
-          }
-        ],
-        "venue": "Systematic Reviews",
-        "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 393,
-        "reference_count": 40
-      },
-      {
-        "type": "journal",
-        "doi": "10.1038/s42256-020-00287-7)",
-        "url": "https://doi.org/10.1038/s42256-020-00287-7)"
-      },
-      {
-        "type": "journal-article",
-        "doi": "10.1186/s13643-016-0384-4",
-        "url": "https://doi.org/10.1186/s13643-016-0384-4",
-        "title": "Rayyan—a web and mobile app for systematic reviews",
-        "abstract": "",
-        "published": "2016-12-01",
-        "year": 2016,
-        "authors": [
-          {
-            "name": "Mourad Ouzzani"
-          },
-          {
-            "name": "Hossam Hammady"
-          },
-          {
-            "name": "Zbys Fedorowicz"
-          },
-          {
-            "name": "Ahmed Elmagarmid"
-          }
-        ],
-        "venue": "Systematic Reviews",
-        "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 16751,
-        "reference_count": 19
-      },
-      {
-        "type": "journal-article",
-        "doi": "10.1038/s42256-020-00287-7",
-        "url": "https://doi.org/10.1038/s42256-020-00287-7",
-        "title": "An open source machine learning framework for efficient and transparent systematic reviews",
-        "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
-        "published": "2021-02-01",
-        "year": 2021,
-        "authors": [
-          {
-            "name": "Rens van de Schoot"
-          },
-          {
-            "name": "Jonathan de Bruin"
-          },
-          {
-            "name": "Raoul Schram"
-          },
-          {
-            "name": "Parisa Zahedi"
-          },
-          {
-            "name": "Jan de Boer"
-          },
-          {
-            "name": "Felix Weijdema"
-          },
-          {
-            "name": "Bianca Kramer"
-          },
-          {
-            "name": "Martijn Huijts"
-          },
-          {
-            "name": "Maarten Hoogerwerf"
-          },
-          {
-            "name": "Gerbrich Ferdinands"
-          },
-          {
-            "name": "Albert Harkema"
-          },
-          {
-            "name": "Joukje Willemsen"
-          },
-          {
-            "name": "Yongchao Ma"
-          },
-          {
-            "name": "Qixiang Fang"
-          },
-          {
-            "name": "Sybren Hindriks"
-          },
-          {
-            "name": "Lars Tummers"
-          },
-          {
-            "name": "Daniel L. Oberski"
-          }
-        ],
-        "venue": "Nature Machine Intelligence",
-        "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 709,
-        "reference_count": 63
-      },
       {
         "type": "journal-article",
         "doi": "10.1038/s41591-022-02139-w",
@@ -2874,8 +2803,13 @@
         ],
         "venue": "Nature Medicine",
         "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 91,
+        "citation_count": 92,
         "reference_count": 10
+      },
+      {
+        "type": "journal",
+        "doi": "10.1002/jrsm.1715)",
+        "url": "https://doi.org/10.1002/jrsm.1715)"
       },
       {
         "type": "journal",
@@ -2914,8 +2848,142 @@
         ],
         "venue": "Research Synthesis Methods",
         "publisher": "Wiley",
-        "citation_count": 131,
+        "citation_count": 133,
         "reference_count": 42
+      },
+      {
+        "type": "journal",
+        "doi": "10.1186/s13643-016-0384-4)",
+        "url": "https://doi.org/10.1186/s13643-016-0384-4)"
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1186/s13643-019-1074-9",
+        "url": "https://doi.org/10.1186/s13643-019-1074-9",
+        "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+        "abstract": "",
+        "published": "2019-07-11",
+        "year": 2019,
+        "authors": [
+          {
+            "name": "Iain J. Marshall"
+          },
+          {
+            "name": "Byron C. Wallace"
+          }
+        ],
+        "venue": "Systematic Reviews",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 393,
+        "reference_count": 40
+      },
+      {
+        "type": "journal",
+        "doi": "10.1186/s13643-019-1074-9)",
+        "url": "https://doi.org/10.1186/s13643-019-1074-9)"
+      },
+      {
+        "type": "journal",
+        "doi": "10.1038/s42256-020-00287-7)",
+        "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1186/s13643-016-0384-4",
+        "url": "https://doi.org/10.1186/s13643-016-0384-4",
+        "title": "Rayyan—a web and mobile app for systematic reviews",
+        "abstract": "",
+        "published": "2016-12-01",
+        "year": 2016,
+        "authors": [
+          {
+            "name": "Mourad Ouzzani"
+          },
+          {
+            "name": "Hossam Hammady"
+          },
+          {
+            "name": "Zbys Fedorowicz"
+          },
+          {
+            "name": "Ahmed Elmagarmid"
+          }
+        ],
+        "venue": "Systematic Reviews",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 16770,
+        "reference_count": 19
+      },
+      {
+        "type": "journal",
+        "doi": "10.1101/2025.06.13.25329541v1)",
+        "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1038/s42256-020-00287-7",
+        "url": "https://doi.org/10.1038/s42256-020-00287-7",
+        "title": "An open source machine learning framework for efficient and transparent systematic reviews",
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
+        "published": "2021-02-01",
+        "year": 2021,
+        "authors": [
+          {
+            "name": "Rens van de Schoot"
+          },
+          {
+            "name": "Jonathan de Bruin"
+          },
+          {
+            "name": "Raoul Schram"
+          },
+          {
+            "name": "Parisa Zahedi"
+          },
+          {
+            "name": "Jan de Boer"
+          },
+          {
+            "name": "Felix Weijdema"
+          },
+          {
+            "name": "Bianca Kramer"
+          },
+          {
+            "name": "Martijn Huijts"
+          },
+          {
+            "name": "Maarten Hoogerwerf"
+          },
+          {
+            "name": "Gerbrich Ferdinands"
+          },
+          {
+            "name": "Albert Harkema"
+          },
+          {
+            "name": "Joukje Willemsen"
+          },
+          {
+            "name": "Yongchao Ma"
+          },
+          {
+            "name": "Qixiang Fang"
+          },
+          {
+            "name": "Sybren Hindriks"
+          },
+          {
+            "name": "Lars Tummers"
+          },
+          {
+            "name": "Daniel L. Oberski"
+          }
+        ],
+        "venue": "Nature Machine Intelligence",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 711,
+        "reference_count": 63
       }
     ],
     "code": {
@@ -2938,7 +3006,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:16:14.004623",
+      "extracted_at": "2025-12-05T03:16:01.422736",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2965,7 +3033,7 @@
         "name": "tools.json",
         "path": "data/tools.json",
         "format": ".json",
-        "size_bytes": 2517
+        "size_bytes": 2529
       }
     ]
   },
@@ -3005,7 +3073,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-04T03:16:16.819539",
+      "extracted_at": "2025-12-05T03:16:04.264164",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3015,6 +3083,133 @@
         "path": "policy_recommendations_analysis.json",
         "format": ".json",
         "size_bytes": 6235
+      }
+    ]
+  },
+  "hugo-research-template": {
+    "repo_name": "hugo-research-template",
+    "research": {
+      "title": "Hugo template for research project websites with GitHub Pages",
+      "abstract": "A clean, professional Hugo template for research project websites with a fixed left sidebar navigation.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "default."
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "HTML"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-05T03:16:12.266934",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": []
+  },
+  "research-page-generator": {
+    "repo_name": "research-page-generator",
+    "research": {
+      "title": "Toolkit for generating professional GitHub Pages sites for research projects",
+      "abstract": "A complete toolkit for generating professional GitHub Pages sites for research projects. Based on the [Network-Based Credit Risk Models](https://digital-ai-finance.github.io/network-based-credit-risk-models/) project.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "Prof. Dr. Joerg Osterrieder at Bern University of Applied Sciences."
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "SCSS"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": false,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-05T03:16:21.730377",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": [
+      {
+        "name": "funding.json",
+        "path": "sample/_data/funding.json",
+        "format": ".json",
+        "size_bytes": 1249
+      },
+      {
+        "name": "news.json",
+        "path": "sample/_data/news.json",
+        "format": ".json",
+        "size_bytes": 1687
+      },
+      {
+        "name": "publications.json",
+        "path": "sample/_data/publications.json",
+        "format": ".json",
+        "size_bytes": 5252
+      },
+      {
+        "name": "team.json",
+        "path": "sample/_data/team.json",
+        "format": ".json",
+        "size_bytes": 2146
+      },
+      {
+        "name": "funding.json",
+        "path": "template/_data/funding.json",
+        "format": ".json",
+        "size_bytes": 532
+      },
+      {
+        "name": "news.json",
+        "path": "template/_data/news.json",
+        "format": ".json",
+        "size_bytes": 514
+      },
+      {
+        "name": "publications.json",
+        "path": "template/_data/publications.json",
+        "format": ".json",
+        "size_bytes": 625
+      },
+      {
+        "name": "team.json",
+        "path": "template/_data/team.json",
+        "format": ".json",
+        "size_bytes": 1003
       }
     ]
   }

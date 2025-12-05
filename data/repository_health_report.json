@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-04T03:16:30.187330",
+  "generated_at": "2025-12-05T03:16:38.121965",
   "repositories": {
     "org-dashboard": {
       "overall_score": 53.5,
@@ -73,7 +73,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 12,
+          "days_since_push": 13,
           "activity_score": 100,
           "archived": false
         },
@@ -131,7 +131,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 12,
+          "days_since_push": 13,
           "activity_score": 100,
           "archived": false
         },
@@ -189,7 +189,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 12,
+          "days_since_push": 13,
           "activity_score": 100,
           "archived": false
         },
@@ -247,7 +247,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 11,
+          "days_since_push": 12,
           "activity_score": 100,
           "archived": false
         },
@@ -421,7 +421,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 3,
+          "days_since_push": 4,
           "activity_score": 100,
           "archived": false
         },
@@ -479,7 +479,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 3,
+          "days_since_push": 4,
           "activity_score": 100,
           "archived": false
         },
@@ -537,7 +537,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 4,
+          "days_since_push": 5,
           "activity_score": 100,
           "archived": false
         },
@@ -595,7 +595,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 0,
           "activity_score": 100,
           "archived": false
         },
@@ -653,7 +653,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 4,
+          "days_since_push": 5,
           "activity_score": 100,
           "archived": false
         },
@@ -769,7 +769,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 3,
+          "days_since_push": 4,
           "activity_score": 100,
           "archived": false
         },
@@ -827,7 +827,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 3,
+          "days_since_push": 4,
           "activity_score": 100,
           "archived": false
         },
@@ -885,7 +885,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 3,
+          "days_since_push": 4,
           "activity_score": 100,
           "archived": false
         },
@@ -943,7 +943,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 0,
           "activity_score": 100,
           "archived": false
         },
@@ -1001,7 +1001,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -1059,7 +1059,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 0,
           "activity_score": 100,
           "archived": false
         },
@@ -1117,7 +1117,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -1291,7 +1291,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 0,
           "activity_score": 100,
           "archived": false
         },
@@ -1349,7 +1349,7 @@
       },
       "details": {
         "activity": {
-          "days_since_push": 1,
+          "days_since_push": 2,
           "activity_score": 100,
           "archived": false
         },
@@ -1566,22 +1566,486 @@
           "has_default_branch": true
         }
       }
+    },
+    "joerg-osterrieder": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "hugo-research-template": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "2025-shanghai-workshop": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "Research-Page-Template-Test": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "research-page-generator": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "crypto-market-ai-sample": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "climate-ai-sample": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
+    },
+    "medical-ai-sample": {
+      "overall_score": 52.0,
+      "grade": "D",
+      "status": "Poor",
+      "dimensions": {
+        "activity": 100,
+        "community": 5.0,
+        "documentation": 50,
+        "code_quality": 40,
+        "popularity": 0.0,
+        "maintenance": 100
+      },
+      "details": {
+        "activity": {
+          "days_since_push": 0,
+          "activity_score": 100,
+          "archived": false
+        },
+        "community": {
+          "contributors": 1,
+          "contributor_score": 10,
+          "has_issues": false,
+          "has_engagement": false
+        },
+        "documentation": {
+          "has_readme": true,
+          "has_good_description": true,
+          "topic_count": 0,
+          "has_license": false
+        },
+        "code_quality": {
+          "structure_score": 40,
+          "max_score": 100,
+          "metrics": {
+            "has_readme": true,
+            "has_license": false,
+            "has_topics": false,
+            "has_description": true,
+            "recent_activity": true,
+            "has_documentation": false,
+            "has_tests": false,
+            "has_ci": false
+          },
+          "grade": "C"
+        },
+        "popularity": {
+          "stars": 0,
+          "forks": 0,
+          "star_score": 0,
+          "fork_score": 0
+        },
+        "maintenance": {
+          "is_active": true,
+          "issues_enabled": true,
+          "has_default_branch": true
+        }
+      }
     }
   },
   "summary": {
-    "total_repos": 27,
+    "total_repos": 35,
     "health_distribution": {
-      "D": 24,
+      "D": 32,
       "F": 3
     },
     "average_scores": {
       "activity": 100.0,
-      "community": 8.43,
-      "documentation": 49.07,
-      "code_quality": 38.89,
+      "community": 7.64,
+      "documentation": 49.29,
+      "code_quality": 39.14,
       "popularity": 0.0,
       "maintenance": 100.0
     },
-    "average_overall_score": 52.33
+    "average_overall_score": 52.26
   }
 }

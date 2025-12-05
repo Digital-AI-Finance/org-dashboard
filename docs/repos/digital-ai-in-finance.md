@@ -22,8 +22,8 @@ CCG application for AI for Digital Finance workshop - Swiss-MENA Research Networ
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-29 |
-| Last Updated | 2025-12-03 |
-| Last Push | 2025-12-03 |
+| Last Updated | 2025-12-04 |
+| Last Push | 2025-12-04 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

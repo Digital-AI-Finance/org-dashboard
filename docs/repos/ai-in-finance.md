@@ -15,15 +15,15 @@ AI in Finance - UT & ING Collaboration Website
 
 | Property | Value |
 |----------|-------|
-| Language | JavaScript |
+| Language | SCSS |
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-03 |
-| Last Push | 2025-12-03 |
+| Last Updated | 2025-12-04 |
+| Last Push | 2025-12-04 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,14 +35,18 @@ AI in Finance - UT & ING Collaboration Website
 
 ## Datasets
 
-This repository includes 2 dataset(s):
+This repository includes 4 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
 
-| [data](https://github.com/Digital-AI-Finance/ai-in-finance/blob/main/data) |  | 0.0 KB |
+| [funding.json](https://github.com/Digital-AI-Finance/ai-in-finance/blob/main/_data/funding.json) | .json | 1.27 KB |
 
-| [menu.yaml](https://github.com/Digital-AI-Finance/ai-in-finance/blob/main/data/menu.yaml) | .yaml | 1.06 KB |
+| [news.json](https://github.com/Digital-AI-Finance/ai-in-finance/blob/main/_data/news.json) | .json | 1.42 KB |
+
+| [publications.json](https://github.com/Digital-AI-Finance/ai-in-finance/blob/main/_data/publications.json) | .json | 23.47 KB |
+
+| [team.json](https://github.com/Digital-AI-Finance/ai-in-finance/blob/main/_data/team.json) | .json | 9.72 KB |
 
 
 
