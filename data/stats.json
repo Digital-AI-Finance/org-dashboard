@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T03:16:37.802351",
+  "generated_at": "2025-12-06T03:06:52.060101",
   "total_repos": 35,
   "active_repos": 35,
   "archived_repos": 0,
@@ -9,8 +9,8 @@
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
-    "HTML": 11,
-    "Python": 6,
+    "HTML": 12,
+    "Python": 5,
     "TeX": 5,
     "SCSS": 5,
     "Jupyter Notebook": 3,
@@ -34,44 +34,44 @@
   },
   "recent_repos": [
     {
+      "name": "book-next-word-prediction",
+      "pushed_at": "2025-12-05T20:58:09+00:00"
+    },
+    {
+      "name": "neural-networks-introduction",
+      "pushed_at": "2025-12-05T19:56:30+00:00"
+    },
+    {
+      "name": "digital-ai-in-finance",
+      "pushed_at": "2025-12-05T18:28:36+00:00"
+    },
+    {
+      "name": "Fintech-and-Artificial-Intelligence-in-Finance",
+      "pushed_at": "2025-12-05T12:42:48+00:00"
+    },
+    {
+      "name": "medical-ai-sample",
+      "pushed_at": "2025-12-05T12:36:03+00:00"
+    },
+    {
+      "name": "climate-ai-sample",
+      "pushed_at": "2025-12-05T12:35:52+00:00"
+    },
+    {
+      "name": "crypto-market-ai-sample",
+      "pushed_at": "2025-12-05T12:35:31+00:00"
+    },
+    {
+      "name": "org-dashboard",
+      "pushed_at": "2025-12-05T03:18:57+00:00"
+    },
+    {
       "name": "European-Financial-Data-Space",
       "pushed_at": "2025-12-04T12:18:38+00:00"
     },
     {
       "name": "2025-shanghai-workshop",
       "pushed_at": "2025-12-04T12:11:42+00:00"
-    },
-    {
-      "name": "medical-ai-sample",
-      "pushed_at": "2025-12-04T12:06:07+00:00"
-    },
-    {
-      "name": "climate-ai-sample",
-      "pushed_at": "2025-12-04T12:04:26+00:00"
-    },
-    {
-      "name": "crypto-market-ai-sample",
-      "pushed_at": "2025-12-04T12:02:23+00:00"
-    },
-    {
-      "name": "Natural-Language-Processing",
-      "pushed_at": "2025-12-04T11:55:41+00:00"
-    },
-    {
-      "name": "ML_Design_Thinking_16",
-      "pushed_at": "2025-12-04T11:54:10+00:00"
-    },
-    {
-      "name": "ai-in-finance",
-      "pushed_at": "2025-12-04T11:48:22+00:00"
-    },
-    {
-      "name": "joerg-osterrieder",
-      "pushed_at": "2025-12-04T11:44:57+00:00"
-    },
-    {
-      "name": "msca-digital-finance",
-      "pushed_at": "2025-12-04T11:36:49+00:00"
     }
   ],
   "popular_repos": [

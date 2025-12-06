@@ -15,15 +15,15 @@ PhD-level Springer textbook: Predicting the Next Word - A Mathematical Foundatio
 
 | Property | Value |
 |----------|-------|
-| Language | Python |
+| Language | HTML |
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |
 | Open Issues | 3 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-02 |
-| Last Push | 2025-12-02 |
+| Last Updated | 2025-12-05 |
+| Last Push | 2025-12-05 |
 | Contributors | 2 |
 | Default Branch | main |
 | Visibility | private |

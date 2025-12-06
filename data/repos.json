@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 13576,
+    "size": 13622,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-12-04T03:18:27+00:00",
-    "pushed_at": "2025-12-04T03:18:25+00:00",
+    "updated_at": "2025-12-05T03:18:59+00:00",
+    "pushed_at": "2025-12-05T03:18:57+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:11:59.856459",
+        "extracted_at": "2025-12-06T03:02:24.409133",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -89,7 +89,7 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 48756
+          "size_bytes": 54591
         },
         {
           "name": "citation_report.json",
@@ -101,55 +101,55 @@
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 13355
+          "size_bytes": 17189
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 5866
+          "size_bytes": 6146
         },
         {
           "name": "ml_topic_analysis.json",
           "path": "data/ml_topic_analysis.json",
           "format": ".json",
-          "size_bytes": 24619
+          "size_bytes": 29920
         },
         {
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 237463
+          "size_bytes": 274876
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 40621
+          "size_bytes": 52493
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 25925
+          "size_bytes": 31104
         },
         {
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 92429
+          "size_bytes": 97859
         },
         {
           "name": "search_index.pkl",
           "path": "data/search_index.pkl",
           "format": ".pkl",
-          "size_bytes": 192040
+          "size_bytes": 227971
         },
         {
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 2869
+          "size_bytes": 2978
         },
         {
           "name": "data",
@@ -161,13 +161,13 @@
           "name": "search_data.json",
           "path": "docs/data/search_data.json",
           "format": ".json",
-          "size_bytes": 565921
+          "size_bytes": 657936
         },
         {
           "name": "search_data_minimal.json",
           "path": "docs/data/search_data_minimal.json",
           "format": ".json",
-          "size_bytes": 403661
+          "size_bytes": 468829
         },
         {
           "name": "citation_network.json",
@@ -179,7 +179,7 @@
           "name": "collaboration_network.json",
           "path": "docs/visualizations/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 1309
+          "size_bytes": 1450
         },
         {
           "name": "research_metadata_schema.json",
@@ -320,7 +320,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:12:01.865561",
+        "extracted_at": "2025-12-06T03:02:26.292105",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -414,7 +414,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:12:03.840657",
+        "extracted_at": "2025-12-06T03:02:28.206627",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -512,7 +512,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:12:05.834379",
+        "extracted_at": "2025-12-06T03:02:30.131016",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -578,7 +578,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:12:14.723468",
+        "extracted_at": "2025-12-06T03:02:38.370177",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -922,7 +922,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:13:28.551042",
+        "extracted_at": "2025-12-06T03:03:48.442537",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1095,7 +1095,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:13:36.487480",
+        "extracted_at": "2025-12-06T03:03:55.889464",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1168,7 +1168,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:13:39.239335",
+        "extracted_at": "2025-12-06T03:03:58.790783",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1195,11 +1195,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 50020,
+    "size": 50024,
     "default_branch": "main",
     "created_at": "2025-11-29T08:35:22+00:00",
-    "updated_at": "2025-12-04T05:11:40+00:00",
-    "pushed_at": "2025-12-04T05:11:36+00:00",
+    "updated_at": "2025-12-05T19:56:34+00:00",
+    "pushed_at": "2025-12-05T19:56:30+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -1529,7 +1529,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:14:06.500581",
+        "extracted_at": "2025-12-06T03:04:25.458271",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1952,11 +1952,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 20081,
+    "size": 20519,
     "default_branch": "main",
     "created_at": "2025-11-29T11:14:34+00:00",
-    "updated_at": "2025-12-04T11:03:42+00:00",
-    "pushed_at": "2025-12-04T11:03:38+00:00",
+    "updated_at": "2025-12-05T18:28:41+00:00",
+    "pushed_at": "2025-12-05T18:28:36+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -2002,7 +2002,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:14:15.120353",
+        "extracted_at": "2025-12-06T03:04:33.675278",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2213,7 +2213,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:14:17.227411",
+        "extracted_at": "2025-12-06T03:04:35.576853",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2309,7 +2309,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:14:29.268916",
+        "extracted_at": "2025-12-06T03:04:47.153436",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2443,7 +2443,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:14:39.488084",
+        "extracted_at": "2025-12-06T03:04:56.581729",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2579,17 +2579,17 @@
     "url": "https://github.com/Digital-AI-Finance/book-next-word-prediction",
     "clone_url": "https://github.com/Digital-AI-Finance/book-next-word-prediction.git",
     "homepage": "",
-    "language": "Python",
+    "language": "HTML",
     "topics": [],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
     "open_issues": 3,
-    "size": 35668,
+    "size": 96699,
     "default_branch": "main",
     "created_at": "2025-12-01T09:14:36+00:00",
-    "updated_at": "2025-12-02T07:14:12+00:00",
-    "pushed_at": "2025-12-02T07:14:08+00:00",
+    "updated_at": "2025-12-05T20:58:14+00:00",
+    "pushed_at": "2025-12-05T20:58:09+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -2613,7 +2613,7 @@
       "publications": [],
       "code": {
         "languages": [
-          "Python"
+          "HTML"
         ],
         "notebooks": [],
         "dependencies": {}
@@ -2631,7 +2631,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:14:49.149312",
+        "extracted_at": "2025-12-06T03:05:07.091618",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2724,7 +2724,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:14:53.377761",
+        "extracted_at": "2025-12-06T03:05:10.991098",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2841,7 +2841,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:15:00.024782",
+        "extracted_at": "2025-12-06T03:05:17.509824",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2938,7 +2938,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:15:21.851393",
+        "extracted_at": "2025-12-06T03:05:37.901368",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3231,7 +3231,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:15:27.428271",
+        "extracted_at": "2025-12-06T03:05:43.361220",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3276,11 +3276,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 240737,
+    "size": 240781,
     "default_branch": "main",
     "created_at": "2025-12-02T07:11:54+00:00",
-    "updated_at": "2025-12-04T11:04:04+00:00",
-    "pushed_at": "2025-12-04T11:04:00+00:00",
+    "updated_at": "2025-12-05T12:42:52+00:00",
+    "pushed_at": "2025-12-05T12:42:48+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -3340,7 +3340,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:15:51.459626",
+        "extracted_at": "2025-12-06T03:06:08.824319",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3404,6 +3404,30 @@
           "path": "gdrive_robust_download_report.json",
           "format": ".json",
           "size_bytes": 3716
+        },
+        {
+          "name": "datasets",
+          "path": "hugo/content/resources/datasets",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "data",
+          "path": "hugo/static/data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "countries.json",
+          "path": "hugo/static/data/countries.json",
+          "format": ".json",
+          "size_bytes": 4533
+        },
+        {
+          "name": "timeline.json",
+          "path": "hugo/static/data/timeline.json",
+          "format": ".json",
+          "size_bytes": 1202
         },
         {
           "name": "members.csv",
@@ -3514,6 +3538,72 @@
       "publications": [
         {
           "type": "journal-article",
+          "doi": "10.1038/s42256-020-00287-7",
+          "url": "https://doi.org/10.1038/s42256-020-00287-7",
+          "title": "An open source machine learning framework for efficient and transparent systematic reviews",
+          "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
+          "published": "2021-02-01",
+          "year": 2021,
+          "authors": [
+            {
+              "name": "Rens van de Schoot"
+            },
+            {
+              "name": "Jonathan de Bruin"
+            },
+            {
+              "name": "Raoul Schram"
+            },
+            {
+              "name": "Parisa Zahedi"
+            },
+            {
+              "name": "Jan de Boer"
+            },
+            {
+              "name": "Felix Weijdema"
+            },
+            {
+              "name": "Bianca Kramer"
+            },
+            {
+              "name": "Martijn Huijts"
+            },
+            {
+              "name": "Maarten Hoogerwerf"
+            },
+            {
+              "name": "Gerbrich Ferdinands"
+            },
+            {
+              "name": "Albert Harkema"
+            },
+            {
+              "name": "Joukje Willemsen"
+            },
+            {
+              "name": "Yongchao Ma"
+            },
+            {
+              "name": "Qixiang Fang"
+            },
+            {
+              "name": "Sybren Hindriks"
+            },
+            {
+              "name": "Lars Tummers"
+            },
+            {
+              "name": "Daniel L. Oberski"
+            }
+          ],
+          "venue": "Nature Machine Intelligence",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 712,
+          "reference_count": 63
+        },
+        {
+          "type": "journal-article",
           "doi": "10.1038/s41591-022-02139-w",
           "url": "https://doi.org/10.1038/s41591-022-02139-w",
           "title": "PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare",
@@ -3601,11 +3691,6 @@
         },
         {
           "type": "journal",
-          "doi": "10.1002/jrsm.1715)",
-          "url": "https://doi.org/10.1002/jrsm.1715)"
-        },
-        {
-          "type": "journal",
           "doi": "10.1038/s41591-022-02139-w)",
           "url": "https://doi.org/10.1038/s41591-022-02139-w)"
         },
@@ -3651,37 +3736,6 @@
         },
         {
           "type": "journal-article",
-          "doi": "10.1186/s13643-019-1074-9",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9",
-          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
-          "abstract": "",
-          "published": "2019-07-11",
-          "year": 2019,
-          "authors": [
-            {
-              "name": "Iain J. Marshall"
-            },
-            {
-              "name": "Byron C. Wallace"
-            }
-          ],
-          "venue": "Systematic Reviews",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 393,
-          "reference_count": 40
-        },
-        {
-          "type": "journal",
-          "doi": "10.1186/s13643-019-1074-9)",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1038/s42256-020-00287-7)",
-          "url": "https://doi.org/10.1038/s42256-020-00287-7)"
-        },
-        {
-          "type": "journal-article",
           "doi": "10.1186/s13643-016-0384-4",
           "url": "https://doi.org/10.1186/s13643-016-0384-4",
           "title": "Rayyan—a web and mobile app for systematic reviews",
@@ -3704,7 +3758,7 @@
           ],
           "venue": "Systematic Reviews",
           "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 16770,
+          "citation_count": 16780,
           "reference_count": 19
         },
         {
@@ -3713,70 +3767,40 @@
           "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
         },
         {
+          "type": "journal",
+          "doi": "10.1186/s13643-019-1074-9)",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1002/jrsm.1715)",
+          "url": "https://doi.org/10.1002/jrsm.1715)"
+        },
+        {
           "type": "journal-article",
-          "doi": "10.1038/s42256-020-00287-7",
-          "url": "https://doi.org/10.1038/s42256-020-00287-7",
-          "title": "An open source machine learning framework for efficient and transparent systematic reviews",
-          "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
-          "published": "2021-02-01",
-          "year": 2021,
+          "doi": "10.1186/s13643-019-1074-9",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9",
+          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+          "abstract": "",
+          "published": "2019-07-11",
+          "year": 2019,
           "authors": [
             {
-              "name": "Rens van de Schoot"
+              "name": "Iain J. Marshall"
             },
             {
-              "name": "Jonathan de Bruin"
-            },
-            {
-              "name": "Raoul Schram"
-            },
-            {
-              "name": "Parisa Zahedi"
-            },
-            {
-              "name": "Jan de Boer"
-            },
-            {
-              "name": "Felix Weijdema"
-            },
-            {
-              "name": "Bianca Kramer"
-            },
-            {
-              "name": "Martijn Huijts"
-            },
-            {
-              "name": "Maarten Hoogerwerf"
-            },
-            {
-              "name": "Gerbrich Ferdinands"
-            },
-            {
-              "name": "Albert Harkema"
-            },
-            {
-              "name": "Joukje Willemsen"
-            },
-            {
-              "name": "Yongchao Ma"
-            },
-            {
-              "name": "Qixiang Fang"
-            },
-            {
-              "name": "Sybren Hindriks"
-            },
-            {
-              "name": "Lars Tummers"
-            },
-            {
-              "name": "Daniel L. Oberski"
+              "name": "Byron C. Wallace"
             }
           ],
-          "venue": "Nature Machine Intelligence",
+          "venue": "Systematic Reviews",
           "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 711,
-          "reference_count": 63
+          "citation_count": 393,
+          "reference_count": 40
+        },
+        {
+          "type": "journal",
+          "doi": "10.1038/s42256-020-00287-7)",
+          "url": "https://doi.org/10.1038/s42256-020-00287-7)"
         }
       ],
       "code": {
@@ -3799,7 +3823,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:16:01.422736",
+        "extracted_at": "2025-12-06T03:06:18.168932",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3897,7 +3921,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:16:04.264164",
+        "extracted_at": "2025-12-06T03:06:20.766027",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4036,7 +4060,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:16:12.266934",
+        "extracted_at": "2025-12-06T03:06:28.099294",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4168,7 +4192,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-05T03:16:21.730377",
+        "extracted_at": "2025-12-06T03:06:36.980894",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4237,11 +4261,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 23,
+    "size": 24,
     "default_branch": "main",
     "created_at": "2025-12-04T12:01:46+00:00",
-    "updated_at": "2025-12-04T12:02:27+00:00",
-    "pushed_at": "2025-12-04T12:02:23+00:00",
+    "updated_at": "2025-12-05T12:35:35+00:00",
+    "pushed_at": "2025-12-05T12:35:31+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -4268,11 +4292,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 23,
+    "size": 24,
     "default_branch": "main",
     "created_at": "2025-12-04T12:03:59+00:00",
-    "updated_at": "2025-12-04T12:04:30+00:00",
-    "pushed_at": "2025-12-04T12:04:26+00:00",
+    "updated_at": "2025-12-05T12:35:56+00:00",
+    "pushed_at": "2025-12-05T12:35:52+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -4299,11 +4323,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 23,
+    "size": 24,
     "default_branch": "main",
     "created_at": "2025-12-04T12:05:41+00:00",
-    "updated_at": "2025-12-04T12:06:11+00:00",
-    "pushed_at": "2025-12-04T12:06:07+00:00",
+    "updated_at": "2025-12-05T12:36:07+00:00",
+    "pushed_at": "2025-12-05T12:36:03+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,

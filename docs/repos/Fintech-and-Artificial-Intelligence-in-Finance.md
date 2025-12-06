@@ -22,8 +22,8 @@ Archive of COST Action CA19130 - FinAI: Fintech and Artificial Intelligence in F
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-02 |
-| Last Updated | 2025-12-04 |
-| Last Push | 2025-12-04 |
+| Last Updated | 2025-12-05 |
+| Last Push | 2025-12-05 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,7 +35,7 @@ Archive of COST Action CA19130 - FinAI: Fintech and Artificial Intelligence in F
 
 ## Datasets
 
-This repository includes 15 dataset(s):
+This repository includes 19 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -59,6 +59,14 @@ This repository includes 15 dataset(s):
 | [gdrive_download_report.json](https://github.com/Digital-AI-Finance/Fintech-and-Artificial-Intelligence-in-Finance/blob/main/gdrive_download_report.json) | .json | 24.99 KB |
 
 | [gdrive_robust_download_report.json](https://github.com/Digital-AI-Finance/Fintech-and-Artificial-Intelligence-in-Finance/blob/main/gdrive_robust_download_report.json) | .json | 3.63 KB |
+
+| [datasets](https://github.com/Digital-AI-Finance/Fintech-and-Artificial-Intelligence-in-Finance/blob/main/hugo/content/resources/datasets) |  | 0.0 KB |
+
+| [data](https://github.com/Digital-AI-Finance/Fintech-and-Artificial-Intelligence-in-Finance/blob/main/hugo/static/data) |  | 0.0 KB |
+
+| [countries.json](https://github.com/Digital-AI-Finance/Fintech-and-Artificial-Intelligence-in-Finance/blob/main/hugo/static/data/countries.json) | .json | 4.43 KB |
+
+| [timeline.json](https://github.com/Digital-AI-Finance/Fintech-and-Artificial-Intelligence-in-Finance/blob/main/hugo/static/data/timeline.json) | .json | 1.17 KB |
 
 | [members.csv](https://github.com/Digital-AI-Finance/Fintech-and-Artificial-Intelligence-in-Finance/blob/main/members/members.csv) | .csv | 22.48 KB |
 

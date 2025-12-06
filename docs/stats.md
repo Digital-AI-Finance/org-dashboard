@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-12-05**
+Last updated: **2025-12-06**
 
 ---
 
@@ -25,8 +25,8 @@ Last updated: **2025-12-05**
 
 | Language | Repository Count |
 |----------|------------------|
-| [HTML](by-language/html.md) | 11 |
-| [Python](by-language/python.md) | 6 |
+| [HTML](by-language/html.md) | 12 |
+| [Python](by-language/python.md) | 5 |
 | [TeX](by-language/tex.md) | 5 |
 | [SCSS](by-language/scss.md) | 5 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 3 |
@@ -85,16 +85,16 @@ Last updated: **2025-12-05**
 
 | Repository | Last Push |
 |------------|-----------|
+| [book-next-word-prediction](repos/book-next-word-prediction.md) | 2025-12-05 |
+| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-12-05 |
+| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-05 |
+| [Fintech-and-Artificial-Intelligence-in-Finance](repos/Fintech-and-Artificial-Intelligence-in-Finance.md) | 2025-12-05 |
+| [medical-ai-sample](repos/medical-ai-sample.md) | 2025-12-05 |
+| [climate-ai-sample](repos/climate-ai-sample.md) | 2025-12-05 |
+| [crypto-market-ai-sample](repos/crypto-market-ai-sample.md) | 2025-12-05 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-12-05 |
 | [European-Financial-Data-Space](repos/European-Financial-Data-Space.md) | 2025-12-04 |
 | [2025-shanghai-workshop](repos/2025-shanghai-workshop.md) | 2025-12-04 |
-| [medical-ai-sample](repos/medical-ai-sample.md) | 2025-12-04 |
-| [climate-ai-sample](repos/climate-ai-sample.md) | 2025-12-04 |
-| [crypto-market-ai-sample](repos/crypto-market-ai-sample.md) | 2025-12-04 |
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-04 |
-| [ML_Design_Thinking_16](repos/ML_Design_Thinking_16.md) | 2025-12-04 |
-| [ai-in-finance](repos/ai-in-finance.md) | 2025-12-04 |
-| [joerg-osterrieder](repos/joerg-osterrieder.md) | 2025-12-04 |
-| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-04 |
 
 
 ---

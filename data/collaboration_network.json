@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T03:17:14.182124",
+  "generated_at": "2025-12-06T03:07:25.786005",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
@@ -9,9 +9,9 @@
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 29,
+        "commit_count": 30,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-12-04T03:18:16+00:00",
+        "last_commit": "2025-12-05T03:18:47+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
         ]
@@ -19,45 +19,45 @@
       {
         "id": "josterri",
         "repos": [
-          "msca-digital-finance",
           "Natural-Language-Processing-Decoding-Strategies",
-          "Fintech-and-Artificial-Intelligence-in-Finance",
-          "neural-networks",
-          "digital-ai-in-finance",
+          "msca-digital-finance",
+          "joerg-osterrieder",
+          "ML_Design_Thinking_16",
+          "European-Financial-Data-Space",
+          "Narrative-Digital-Finance",
+          "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
           "neural-networks-introduction",
-          "network-based-credit-risk-models",
-          "medical-ai-sample",
-          "book-next-word-prediction",
-          "hugo-research-template",
-          "demo-repository",
-          "quantlet-branding-tools",
-          "crypto-market-ai-sample",
-          "market-microstructure",
+          "credit-risk-prediction",
+          "neural-networks",
           "book-next-word-prediction-site",
+          "Green-Finance",
           "Statistics",
+          "2025-shanghai-workshop",
+          "org-dashboard",
+          "book-next-word-prediction",
+          "network-based-credit-risk-models",
+          "Research-Page-Template-Test",
+          "quantlet-branding-tools",
+          "hugo-research-template",
+          "crypto-market-ai-sample",
+          "climate-ai-sample",
           "portfolio-optimization-ml",
+          "medical-ai-sample",
+          "demo-repository",
+          "Systematic-Literature-Reviews-with-Artificial-Intelligence",
           "ShareBuybacks",
           "Natural-Language-Processing-Details",
-          "2025-shanghai-workshop",
-          "Natural-Language-Processing",
-          "Research-Page-Template-Test",
-          "ML_Design_Thinking_16",
-          "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-          "research-page-generator",
-          "Green-Finance",
-          "Narrative-Digital-Finance",
-          "climate-ai-sample",
+          "digital-ai-in-finance",
+          "market-microstructure",
           "ai-in-finance",
-          "org-dashboard",
-          "credit-risk-prediction",
-          "European-Financial-Data-Space",
-          "joerg-osterrieder",
-          "Systematic-Literature-Reviews-with-Artificial-Intelligence"
+          "research-page-generator",
+          "Fintech-and-Artificial-Intelligence-in-Finance",
+          "Natural-Language-Processing"
         ],
         "repo_count": 34,
-        "commit_count": 373,
+        "commit_count": 387,
         "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-12-04T12:18:17+00:00",
+        "last_commit": "2025-12-05T20:58:06+00:00",
         "emails": [
           "josterri@users.noreply.github.com",
           "josterri@googlemail.com"
@@ -82,9 +82,9 @@
           "book-next-word-prediction"
         ],
         "repo_count": 1,
-        "commit_count": 1,
+        "commit_count": 2,
         "first_commit": "2025-12-02T06:44:45+00:00",
-        "last_commit": "2025-12-02T06:44:45+00:00",
+        "last_commit": "2025-12-05T19:27:03+00:00",
         "emails": [
           "action@github.com"
         ]
@@ -228,7 +228,7 @@
   "summary": {
     "total_authors": 6,
     "total_collaborations": 6,
-    "total_commits": 437,
+    "total_commits": 453,
     "repositories_analyzed": 34
   },
   "visualizations": {
