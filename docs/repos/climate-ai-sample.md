@@ -15,15 +15,15 @@ Sample research project page: AI for Climate Prediction and Extreme Weather Fore
 
 | Property | Value |
 |----------|-------|
-| Language | SCSS |
+| Language | HTML |
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-04 |
-| Last Updated | 2025-12-05 |
-| Last Push | 2025-12-05 |
+| Last Updated | 2025-12-06 |
+| Last Push | 2025-12-06 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

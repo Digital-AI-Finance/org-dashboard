@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 13622,
+    "size": 13707,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-12-05T03:18:59+00:00",
-    "pushed_at": "2025-12-05T03:18:57+00:00",
+    "updated_at": "2025-12-06T03:09:06+00:00",
+    "pushed_at": "2025-12-06T03:09:04+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:02:24.409133",
+        "extracted_at": "2025-12-07T03:19:05.922013",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -89,19 +89,19 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 54591
+          "size_bytes": 60162
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 3814
+          "size_bytes": 3815
         },
         {
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 17189
+          "size_bytes": 17187
         },
         {
           "name": "collaboration_network.json",
@@ -119,7 +119,7 @@
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 274876
+          "size_bytes": 275495
         },
         {
           "name": "repository_health_report.json",
@@ -137,19 +137,19 @@
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 97859
+          "size_bytes": 98432
         },
         {
           "name": "search_index.pkl",
           "path": "data/search_index.pkl",
           "format": ".pkl",
-          "size_bytes": 227971
+          "size_bytes": 227969
         },
         {
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 2978
+          "size_bytes": 3013
         },
         {
           "name": "data",
@@ -161,13 +161,13 @@
           "name": "search_data.json",
           "path": "docs/data/search_data.json",
           "format": ".json",
-          "size_bytes": 657936
+          "size_bytes": 658601
         },
         {
           "name": "search_data_minimal.json",
           "path": "docs/data/search_data_minimal.json",
           "format": ".json",
-          "size_bytes": 468829
+          "size_bytes": 469494
         },
         {
           "name": "citation_network.json",
@@ -320,7 +320,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:02:26.292105",
+        "extracted_at": "2025-12-07T03:19:07.955408",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -414,7 +414,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:02:28.206627",
+        "extracted_at": "2025-12-07T03:19:09.951279",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -476,13 +476,13 @@
       "publications": [
         {
           "type": "journal",
-          "doi": "10.5281/zenodo.1234567)",
-          "url": "https://doi.org/10.5281/zenodo.1234567)"
+          "doi": "10.1111/jofi.2024.12345",
+          "url": "https://doi.org/10.1111/jofi.2024.12345"
         },
         {
           "type": "journal",
-          "doi": "10.1111/jofi.2024.12345",
-          "url": "https://doi.org/10.1111/jofi.2024.12345"
+          "doi": "10.5281/zenodo.1234567)",
+          "url": "https://doi.org/10.5281/zenodo.1234567)"
         },
         {
           "type": "preprint",
@@ -512,7 +512,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:02:30.131016",
+        "extracted_at": "2025-12-07T03:19:11.946125",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -578,7 +578,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:02:38.370177",
+        "extracted_at": "2025-12-07T03:19:20.844438",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -922,7 +922,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:03:48.442537",
+        "extracted_at": "2025-12-07T03:20:35.716185",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -979,11 +979,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 8407,
+    "size": 15152,
     "default_branch": "main",
     "created_at": "2025-11-24T21:13:02+00:00",
-    "updated_at": "2025-12-04T10:55:01+00:00",
-    "pushed_at": "2025-12-04T10:54:57+00:00",
+    "updated_at": "2025-12-06T19:08:22+00:00",
+    "pushed_at": "2025-12-06T19:08:19+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -1095,7 +1095,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:03:55.889464",
+        "extracted_at": "2025-12-07T03:20:43.728748",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1168,7 +1168,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:03:58.790783",
+        "extracted_at": "2025-12-07T03:20:46.603388",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1195,11 +1195,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 50024,
+    "size": 50033,
     "default_branch": "main",
     "created_at": "2025-11-29T08:35:22+00:00",
-    "updated_at": "2025-12-05T19:56:34+00:00",
-    "pushed_at": "2025-12-05T19:56:30+00:00",
+    "updated_at": "2025-12-06T18:50:31+00:00",
+    "pushed_at": "2025-12-06T18:50:28+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -1529,7 +1529,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:04:25.458271",
+        "extracted_at": "2025-12-07T03:21:14.464950",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1952,11 +1952,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 20519,
+    "size": 21092,
     "default_branch": "main",
     "created_at": "2025-11-29T11:14:34+00:00",
-    "updated_at": "2025-12-05T18:28:41+00:00",
-    "pushed_at": "2025-12-05T18:28:36+00:00",
+    "updated_at": "2025-12-06T18:53:53+00:00",
+    "pushed_at": "2025-12-06T18:53:49+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -2002,7 +2002,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:04:33.675278",
+        "extracted_at": "2025-12-07T03:21:23.483956",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2213,7 +2213,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:04:35.576853",
+        "extracted_at": "2025-12-07T03:21:25.508810",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2309,7 +2309,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:04:47.153436",
+        "extracted_at": "2025-12-07T03:21:37.548521",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2443,7 +2443,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:04:56.581729",
+        "extracted_at": "2025-12-07T03:21:47.885494",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2554,11 +2554,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 4331,
+    "size": 4341,
     "default_branch": "main",
     "created_at": "2025-11-30T16:24:34+00:00",
-    "updated_at": "2025-12-04T11:20:51+00:00",
-    "pushed_at": "2025-12-04T11:20:47+00:00",
+    "updated_at": "2025-12-06T08:47:07+00:00",
+    "pushed_at": "2025-12-06T08:47:04+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -2585,11 +2585,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 3,
-    "size": 96699,
+    "size": 98305,
     "default_branch": "main",
     "created_at": "2025-12-01T09:14:36+00:00",
-    "updated_at": "2025-12-05T20:58:14+00:00",
-    "pushed_at": "2025-12-05T20:58:09+00:00",
+    "updated_at": "2025-12-06T10:12:45+00:00",
+    "pushed_at": "2025-12-06T10:12:41+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -2631,7 +2631,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:05:07.091618",
+        "extracted_at": "2025-12-07T03:21:59.072861",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2724,7 +2724,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:05:10.991098",
+        "extracted_at": "2025-12-07T03:22:03.316524",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2841,7 +2841,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:05:17.509824",
+        "extracted_at": "2025-12-07T03:22:10.089771",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2892,11 +2892,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 302949,
+    "size": 307676,
     "default_branch": "main",
     "created_at": "2025-12-01T21:42:05+00:00",
-    "updated_at": "2025-12-04T11:36:53+00:00",
-    "pushed_at": "2025-12-04T11:36:49+00:00",
+    "updated_at": "2025-12-06T10:56:45+00:00",
+    "pushed_at": "2025-12-06T10:56:41+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -2938,7 +2938,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:05:37.901368",
+        "extracted_at": "2025-12-07T03:22:33.786180",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3028,10 +3028,22 @@
           "size_bytes": 209
         },
         {
+          "name": "image_fix_final_report.json",
+          "path": "data/image_fix_final_report.json",
+          "format": ".json",
+          "size_bytes": 696
+        },
+        {
           "name": "image_fix_report.json",
           "path": "data/image_fix_report.json",
           "format": ".json",
           "size_bytes": 164
+        },
+        {
+          "name": "image_fix_summary.md",
+          "path": "data/image_fix_summary.md",
+          "format": ".md",
+          "size_bytes": 3664
         },
         {
           "name": "image_mapping.json",
@@ -3092,6 +3104,138 @@
           "path": "data/scrape_progress.json",
           "format": ".json",
           "size_bytes": 32249
+        },
+        {
+          "name": "screenshots",
+          "path": "data/screenshots",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "about_desktop.png",
+          "path": "data/screenshots/about_desktop.png",
+          "format": ".png",
+          "size_bytes": 244894
+        },
+        {
+          "name": "blog_desktop.png",
+          "path": "data/screenshots/blog_desktop.png",
+          "format": ".png",
+          "size_bytes": 422011
+        },
+        {
+          "name": "homepage_desktop.png",
+          "path": "data/screenshots/homepage_desktop.png",
+          "format": ".png",
+          "size_bytes": 152565
+        },
+        {
+          "name": "homepage_mobile.png",
+          "path": "data/screenshots/homepage_mobile.png",
+          "format": ".png",
+          "size_bytes": 390439
+        },
+        {
+          "name": "partners_desktop.png",
+          "path": "data/screenshots/partners_desktop.png",
+          "format": ".png",
+          "size_bytes": 245247
+        },
+        {
+          "name": "partners_mobile.png",
+          "path": "data/screenshots/partners_mobile.png",
+          "format": ".png",
+          "size_bytes": 368929
+        },
+        {
+          "name": "people_desktop.png",
+          "path": "data/screenshots/people_desktop.png",
+          "format": ".png",
+          "size_bytes": 620071
+        },
+        {
+          "name": "people_mobile.png",
+          "path": "data/screenshots/people_mobile.png",
+          "format": ".png",
+          "size_bytes": 1369284
+        },
+        {
+          "name": "sidebar_layout",
+          "path": "data/screenshots/sidebar_layout",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "about_desktop.png",
+          "path": "data/screenshots/sidebar_layout/about_desktop.png",
+          "format": ".png",
+          "size_bytes": 128273
+        },
+        {
+          "name": "about_mobile.png",
+          "path": "data/screenshots/sidebar_layout/about_mobile.png",
+          "format": ".png",
+          "size_bytes": 46257
+        },
+        {
+          "name": "events_desktop.png",
+          "path": "data/screenshots/sidebar_layout/events_desktop.png",
+          "format": ".png",
+          "size_bytes": 108536
+        },
+        {
+          "name": "events_mobile.png",
+          "path": "data/screenshots/sidebar_layout/events_mobile.png",
+          "format": ".png",
+          "size_bytes": 44381
+        },
+        {
+          "name": "homepage_desktop.png",
+          "path": "data/screenshots/sidebar_layout/homepage_desktop.png",
+          "format": ".png",
+          "size_bytes": 105033
+        },
+        {
+          "name": "homepage_mobile.png",
+          "path": "data/screenshots/sidebar_layout/homepage_mobile.png",
+          "format": ".png",
+          "size_bytes": 41862
+        },
+        {
+          "name": "people_desktop.png",
+          "path": "data/screenshots/sidebar_layout/people_desktop.png",
+          "format": ".png",
+          "size_bytes": 197536
+        },
+        {
+          "name": "people_mobile.png",
+          "path": "data/screenshots/sidebar_layout/people_mobile.png",
+          "format": ".png",
+          "size_bytes": 64263
+        },
+        {
+          "name": "research_desktop.png",
+          "path": "data/screenshots/sidebar_layout/research_desktop.png",
+          "format": ".png",
+          "size_bytes": 52067
+        },
+        {
+          "name": "research_mobile.png",
+          "path": "data/screenshots/sidebar_layout/research_mobile.png",
+          "format": ".png",
+          "size_bytes": 15611
+        },
+        {
+          "name": "training-events_desktop.png",
+          "path": "data/screenshots/training-events_desktop.png",
+          "format": ".png",
+          "size_bytes": 139657
+        },
+        {
+          "name": "training-modules_desktop.png",
+          "path": "data/screenshots/training-modules_desktop.png",
+          "format": ".png",
+          "size_bytes": 481397
         },
         {
           "name": "site_audit_report.json",
@@ -3231,7 +3375,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:05:43.361220",
+        "extracted_at": "2025-12-07T03:22:39.629375",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3276,11 +3420,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 240781,
+    "size": 240793,
     "default_branch": "main",
     "created_at": "2025-12-02T07:11:54+00:00",
-    "updated_at": "2025-12-05T12:42:52+00:00",
-    "pushed_at": "2025-12-05T12:42:48+00:00",
+    "updated_at": "2025-12-06T10:27:38+00:00",
+    "pushed_at": "2025-12-06T10:27:34+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -3340,7 +3484,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:06:08.824319",
+        "extracted_at": "2025-12-07T03:23:06.558035",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3538,6 +3682,27 @@
       "publications": [
         {
           "type": "journal-article",
+          "doi": "10.1186/s13643-019-1074-9",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9",
+          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+          "abstract": "",
+          "published": "2019-07-11",
+          "year": 2019,
+          "authors": [
+            {
+              "name": "Iain J. Marshall"
+            },
+            {
+              "name": "Byron C. Wallace"
+            }
+          ],
+          "venue": "Systematic Reviews",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 394,
+          "reference_count": 40
+        },
+        {
+          "type": "journal-article",
           "doi": "10.1038/s42256-020-00287-7",
           "url": "https://doi.org/10.1038/s42256-020-00287-7",
           "title": "An open source machine learning framework for efficient and transparent systematic reviews",
@@ -3599,7 +3764,7 @@
           ],
           "venue": "Nature Machine Intelligence",
           "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 712,
+          "citation_count": 713,
           "reference_count": 63
         },
         {
@@ -3691,8 +3856,8 @@
         },
         {
           "type": "journal",
-          "doi": "10.1038/s41591-022-02139-w)",
-          "url": "https://doi.org/10.1038/s41591-022-02139-w)"
+          "doi": "10.1002/jrsm.1715)",
+          "url": "https://doi.org/10.1002/jrsm.1715)"
         },
         {
           "type": "journal-article",
@@ -3730,11 +3895,6 @@
           "reference_count": 42
         },
         {
-          "type": "journal",
-          "doi": "10.1186/s13643-016-0384-4)",
-          "url": "https://doi.org/10.1186/s13643-016-0384-4)"
-        },
-        {
           "type": "journal-article",
           "doi": "10.1186/s13643-016-0384-4",
           "url": "https://doi.org/10.1186/s13643-016-0384-4",
@@ -3758,13 +3918,8 @@
           ],
           "venue": "Systematic Reviews",
           "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 16780,
+          "citation_count": 16803,
           "reference_count": 19
-        },
-        {
-          "type": "journal",
-          "doi": "10.1101/2025.06.13.25329541v1)",
-          "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
         },
         {
           "type": "journal",
@@ -3773,34 +3928,23 @@
         },
         {
           "type": "journal",
-          "doi": "10.1002/jrsm.1715)",
-          "url": "https://doi.org/10.1002/jrsm.1715)"
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1186/s13643-019-1074-9",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9",
-          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
-          "abstract": "",
-          "published": "2019-07-11",
-          "year": 2019,
-          "authors": [
-            {
-              "name": "Iain J. Marshall"
-            },
-            {
-              "name": "Byron C. Wallace"
-            }
-          ],
-          "venue": "Systematic Reviews",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 393,
-          "reference_count": 40
+          "doi": "10.1101/2025.06.13.25329541v1)",
+          "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
         },
         {
           "type": "journal",
           "doi": "10.1038/s42256-020-00287-7)",
           "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1038/s41591-022-02139-w)",
+          "url": "https://doi.org/10.1038/s41591-022-02139-w)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1186/s13643-016-0384-4)",
+          "url": "https://doi.org/10.1186/s13643-016-0384-4)"
         }
       ],
       "code": {
@@ -3823,7 +3967,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:06:18.168932",
+        "extracted_at": "2025-12-07T03:23:16.213423",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3921,7 +4065,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:06:20.766027",
+        "extracted_at": "2025-12-07T03:23:18.927724",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4004,17 +4148,17 @@
     "url": "https://github.com/Digital-AI-Finance/hugo-research-template",
     "clone_url": "https://github.com/Digital-AI-Finance/hugo-research-template.git",
     "homepage": "",
-    "language": "HTML",
+    "language": "CSS",
     "topics": [],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 11,
+    "size": 23,
     "default_branch": "main",
     "created_at": "2025-12-04T08:23:34+00:00",
-    "updated_at": "2025-12-04T08:31:04+00:00",
-    "pushed_at": "2025-12-04T08:31:01+00:00",
+    "updated_at": "2025-12-06T15:14:31+00:00",
+    "pushed_at": "2025-12-06T15:14:26+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -4042,7 +4186,7 @@
       "publications": [],
       "code": {
         "languages": [
-          "HTML"
+          "CSS"
         ],
         "notebooks": [],
         "dependencies": {}
@@ -4060,11 +4204,78 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:06:28.099294",
+        "extracted_at": "2025-12-07T03:23:27.591673",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
-      "datasets": []
+      "datasets": [
+        {
+          "name": "data",
+          "path": "data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "about.yaml",
+          "path": "data/about.yaml",
+          "format": ".yaml",
+          "size_bytes": 886
+        },
+        {
+          "name": "collaborations.yaml",
+          "path": "data/collaborations.yaml",
+          "format": ".yaml",
+          "size_bytes": 466
+        },
+        {
+          "name": "events.yaml",
+          "path": "data/events.yaml",
+          "format": ".yaml",
+          "size_bytes": 516
+        },
+        {
+          "name": "funders.yaml",
+          "path": "data/funders.yaml",
+          "format": ".yaml",
+          "size_bytes": 518
+        },
+        {
+          "name": "news.yaml",
+          "path": "data/news.yaml",
+          "format": ".yaml",
+          "size_bytes": 648
+        },
+        {
+          "name": "partners.yaml",
+          "path": "data/partners.yaml",
+          "format": ".yaml",
+          "size_bytes": 476
+        },
+        {
+          "name": "publications.yaml",
+          "path": "data/publications.yaml",
+          "format": ".yaml",
+          "size_bytes": 1994
+        },
+        {
+          "name": "stats.yaml",
+          "path": "data/stats.yaml",
+          "format": ".yaml",
+          "size_bytes": 212
+        },
+        {
+          "name": "team.yaml",
+          "path": "data/team.yaml",
+          "format": ".yaml",
+          "size_bytes": 1143
+        },
+        {
+          "name": "timeline.yaml",
+          "path": "data/timeline.yaml",
+          "format": ".yaml",
+          "size_bytes": 802
+        }
+      ]
     }
   },
   {
@@ -4080,11 +4291,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 2143,
+    "size": 2179,
     "default_branch": "main",
     "created_at": "2025-12-04T08:24:50+00:00",
-    "updated_at": "2025-12-04T12:11:45+00:00",
-    "pushed_at": "2025-12-04T12:11:42+00:00",
+    "updated_at": "2025-12-06T10:43:40+00:00",
+    "pushed_at": "2025-12-06T10:43:37+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -4142,11 +4353,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 41,
+    "size": 46,
     "default_branch": "main",
     "created_at": "2025-12-04T11:11:35+00:00",
-    "updated_at": "2025-12-04T11:11:51+00:00",
-    "pushed_at": "2025-12-04T11:13:57+00:00",
+    "updated_at": "2025-12-06T16:54:29+00:00",
+    "pushed_at": "2025-12-06T16:54:26+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -4192,7 +4403,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-06T03:06:36.980894",
+        "extracted_at": "2025-12-07T03:23:36.979710",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4249,54 +4460,23 @@
     }
   },
   {
-    "name": "crypto-market-ai-sample",
-    "full_name": "Digital-AI-Finance/crypto-market-ai-sample",
-    "description": "Sample research project page: AI-Powered Cryptocurrency Market Analysis",
-    "url": "https://github.com/Digital-AI-Finance/crypto-market-ai-sample",
-    "clone_url": "https://github.com/Digital-AI-Finance/crypto-market-ai-sample.git",
-    "homepage": "",
-    "language": "SCSS",
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "open_issues": 0,
-    "size": 24,
-    "default_branch": "main",
-    "created_at": "2025-12-04T12:01:46+00:00",
-    "updated_at": "2025-12-05T12:35:35+00:00",
-    "pushed_at": "2025-12-05T12:35:31+00:00",
-    "license": "No License",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "has_downloads": true,
-    "archived": false,
-    "disabled": false,
-    "is_template": false,
-    "visibility": "public",
-    "contributors_count": 1,
-    "readme": "No README available",
-    "latest_release": null
-  },
-  {
     "name": "climate-ai-sample",
     "full_name": "Digital-AI-Finance/climate-ai-sample",
     "description": "Sample research project page: AI for Climate Prediction and Extreme Weather Forecasting",
     "url": "https://github.com/Digital-AI-Finance/climate-ai-sample",
     "clone_url": "https://github.com/Digital-AI-Finance/climate-ai-sample.git",
     "homepage": "",
-    "language": "SCSS",
+    "language": "HTML",
     "topics": [],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 24,
+    "size": 42,
     "default_branch": "main",
     "created_at": "2025-12-04T12:03:59+00:00",
-    "updated_at": "2025-12-05T12:35:56+00:00",
-    "pushed_at": "2025-12-05T12:35:52+00:00",
+    "updated_at": "2025-12-06T10:46:43+00:00",
+    "pushed_at": "2025-12-06T10:46:39+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -4311,26 +4491,26 @@
     "latest_release": null
   },
   {
-    "name": "medical-ai-sample",
-    "full_name": "Digital-AI-Finance/medical-ai-sample",
-    "description": "Sample research project page: AI for Medical Imaging and Early Disease Detection",
-    "url": "https://github.com/Digital-AI-Finance/medical-ai-sample",
-    "clone_url": "https://github.com/Digital-AI-Finance/medical-ai-sample.git",
+    "name": "llm-finance-portfolio",
+    "full_name": "Digital-AI-Finance/llm-finance-portfolio",
+    "description": "Research Portfolio: LLM in Financial Services",
+    "url": "https://github.com/Digital-AI-Finance/llm-finance-portfolio",
+    "clone_url": "https://github.com/Digital-AI-Finance/llm-finance-portfolio.git",
     "homepage": "",
-    "language": "SCSS",
+    "language": "JavaScript",
     "topics": [],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 24,
-    "default_branch": "main",
-    "created_at": "2025-12-04T12:05:41+00:00",
-    "updated_at": "2025-12-05T12:36:07+00:00",
-    "pushed_at": "2025-12-05T12:36:03+00:00",
+    "size": 137,
+    "default_branch": "master",
+    "created_at": "2025-12-06T18:49:47+00:00",
+    "updated_at": "2025-12-06T18:51:37+00:00",
+    "pushed_at": "2025-12-06T18:50:47+00:00",
     "license": "No License",
     "has_issues": true,
-    "has_wiki": true,
+    "has_wiki": false,
     "has_pages": true,
     "has_downloads": true,
     "archived": false,
@@ -4338,7 +4518,91 @@
     "is_template": false,
     "visibility": "public",
     "contributors_count": 1,
-    "readme": "No README available",
-    "latest_release": null
+    "readme": "# ING LLM Research Portfolio\n\nThis is the GitHub Pages website for the ING LLM research project, exploring Large Language Models in financial contexts.\n\n## Development\n\n### Prerequisites\n- Node.js 18+ and npm\n\n### Installation\n\n```bash\nnpm install\n```\n\n### Development Server\n\n```bash\nnpm run dev\n```\n\nThe site will be available at `http://localhost:5173`\n\n### Build\n\n```bash\nnpm run build\n```\n\n### Preview Production Build\n\n```bash\nnpm run preview\n```\n\n## Deployment\n\nThis site is configured for GitHub Pages deployment using HashRouter for client-side routing.\n\nTo deploy:\n\n```bash\nnpm run deploy\n```\n\nThis will build the site and push it to the `gh-pages` branch.\n\n## Project Structure\n\n```\ngithub_page/\n├── public/              # Static assets\n├── src/\n│   ├── components/      # Reusable React components\n│   │   ├── Navbar.jsx\n│   │   ├── Footer.jsx\n│   │   ├── ThemeToggle.jsx\n│   │   ├── ResearchCard.jsx\n│   │   ├── PublicationCard.jsx\n│   │   ├── NotebookCard.jsx\n│   │   └── WeekTimeline.jsx\n│   ├── pages/           # Page components\n│   │   ├── Home.jsx\n│   │   ├── Research.jsx\n│   │   ├── Publications.jsx\n│   │   ├── Notebooks.jsx\n│   │   ├── Course.jsx\n│   │   ├── About.jsx\n│   │   └── Contact.jsx\n│   ├── App.jsx          # Main app component with routing\n│   ├── main.jsx         # Entry point\n│   └── index.css        # Global styles\n├── index.html           # HTML template\n├── package.json         # Dependencies\n├── vite.config.js       # Vite configuration\n├── tailwind.config.js   # Tailwind CSS configuration\n└── postcss.config.js    # PostCSS configuration\n```\n\n## Technology Stack\n\n- **React 18** - UI framework\n- **Vite** - Build tool\n- **React Router** - Client-side routing (HashRouter for GitHub Pages)\n- **Tailwind CSS** - Utility-first CSS framework\n- **GitHub Pages** - Hosting\n\n## Features\n\n- Responsive design (mobile-first)\n- Dark/light mode toggle with persistence\n- Interactive research cards with expandable details\n- Course timeline with weekly breakdown\n- Notebook cards with Colab/Binder launch buttons\n- SEO optimized\n- Accessible navigation\n\n## License\n\nMIT License - see LICENSE file for details\n",
+    "latest_release": null,
+    "research_metadata": {
+      "repo_name": "llm-finance-portfolio",
+      "research": {
+        "title": "Research Portfolio: LLM in Financial Services",
+        "abstract": "This is the GitHub Pages website for the ING LLM research project, exploring Large Language Models in financial contexts.",
+        "keywords": [],
+        "authors": []
+      },
+      "publications": [],
+      "code": {
+        "languages": [
+          "JavaScript"
+        ],
+        "notebooks": [],
+        "dependencies": {}
+      },
+      "reproducibility": {
+        "has_requirements": false,
+        "has_dockerfile": false,
+        "has_environment_yml": false,
+        "has_makefile": false,
+        "replication_status": "not_attempted"
+      },
+      "citations": {
+        "cited_by": [],
+        "cites": [],
+        "citation_count": 0
+      },
+      "meta": {
+        "extracted_at": "2025-12-07T03:23:42.005109",
+        "extraction_version": "1.0",
+        "extraction_method": "readme_parse"
+      },
+      "datasets": [
+        {
+          "name": "package-lock.json",
+          "path": "package-lock.json",
+          "format": ".json",
+          "size_bytes": 101285
+        },
+        {
+          "name": "package.json",
+          "path": "package.json",
+          "format": ".json",
+          "size_bytes": 636
+        },
+        {
+          "name": "data",
+          "path": "src/data",
+          "format": "",
+          "size_bytes": 0
+        },
+        {
+          "name": "course.json",
+          "path": "src/data/course.json",
+          "format": ".json",
+          "size_bytes": 9580
+        },
+        {
+          "name": "notebooks.json",
+          "path": "src/data/notebooks.json",
+          "format": ".json",
+          "size_bytes": 3684
+        },
+        {
+          "name": "publications.json",
+          "path": "src/data/publications.json",
+          "format": ".json",
+          "size_bytes": 4055
+        },
+        {
+          "name": "researchAreas.json",
+          "path": "src/data/researchAreas.json",
+          "format": ".json",
+          "size_bytes": 4359
+        },
+        {
+          "name": "siteConfig.json",
+          "path": "src/data/siteConfig.json",
+          "format": ".json",
+          "size_bytes": 1974
+        }
+      ]
+    }
   }
 ]

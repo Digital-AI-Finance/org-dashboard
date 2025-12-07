@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-06T03:06:52.388018",
+  "generated_at": "2025-12-07T03:23:53.018216",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -549,7 +549,7 @@
         },
         "grade": "C"
       },
-      "language": "HTML",
+      "language": "CSS",
       "size_kb": 0
     },
     "2025-shanghai-workshop": {
@@ -609,25 +609,6 @@
       "language": "SCSS",
       "size_kb": 0
     },
-    "crypto-market-ai-sample": {
-      "structure": {
-        "structure_score": 40,
-        "max_score": 100,
-        "metrics": {
-          "has_readme": true,
-          "has_license": false,
-          "has_topics": false,
-          "has_description": true,
-          "recent_activity": true,
-          "has_documentation": false,
-          "has_tests": false,
-          "has_ci": false
-        },
-        "grade": "C"
-      },
-      "language": "SCSS",
-      "size_kb": 0
-    },
     "climate-ai-sample": {
       "structure": {
         "structure_score": 40,
@@ -644,10 +625,10 @@
         },
         "grade": "C"
       },
-      "language": "SCSS",
+      "language": "HTML",
       "size_kb": 0
     },
-    "medical-ai-sample": {
+    "llm-finance-portfolio": {
       "structure": {
         "structure_score": 40,
         "max_score": 100,
@@ -663,15 +644,15 @@
         },
         "grade": "C"
       },
-      "language": "SCSS",
+      "language": "JavaScript",
       "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 35,
-    "average_structure_score": 39.14,
+    "total_repositories": 34,
+    "average_structure_score": 39.12,
     "grades": {
-      "C": 32,
+      "C": 31,
       "D": 3
     }
   }

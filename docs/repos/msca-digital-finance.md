@@ -22,8 +22,8 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-04 |
-| Last Push | 2025-12-04 |
+| Last Updated | 2025-12-06 |
+| Last Push | 2025-12-06 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,7 +35,7 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 
 ## Datasets
 
-This repository includes 36 dataset(s):
+This repository includes 60 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -68,7 +68,11 @@ This repository includes 36 dataset(s):
 
 | [image_check_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_check_report.json) | .json | 0.2 KB |
 
+| [image_fix_final_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_fix_final_report.json) | .json | 0.68 KB |
+
 | [image_fix_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_fix_report.json) | .json | 0.16 KB |
+
+| [image_fix_summary.md](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_fix_summary.md) | .md | 3.58 KB |
 
 | [image_mapping.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/image_mapping.json) | .json | 46.86 KB |
 
@@ -89,6 +93,50 @@ This repository includes 36 dataset(s):
 | [retry_results.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/retry_results.json) | .json | 1.49 KB |
 
 | [scrape_progress.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/scrape_progress.json) | .json | 31.49 KB |
+
+| [screenshots](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots) |  | 0.0 KB |
+
+| [about_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/about_desktop.png) | .png | 239.15 KB |
+
+| [blog_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/blog_desktop.png) | .png | 412.12 KB |
+
+| [homepage_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/homepage_desktop.png) | .png | 148.99 KB |
+
+| [homepage_mobile.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/homepage_mobile.png) | .png | 381.29 KB |
+
+| [partners_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/partners_desktop.png) | .png | 239.5 KB |
+
+| [partners_mobile.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/partners_mobile.png) | .png | 360.28 KB |
+
+| [people_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/people_desktop.png) | .png | 605.54 KB |
+
+| [people_mobile.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/people_mobile.png) | .png | 1337.19 KB |
+
+| [sidebar_layout](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout) |  | 0.0 KB |
+
+| [about_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/about_desktop.png) | .png | 125.27 KB |
+
+| [about_mobile.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/about_mobile.png) | .png | 45.17 KB |
+
+| [events_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/events_desktop.png) | .png | 105.99 KB |
+
+| [events_mobile.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/events_mobile.png) | .png | 43.34 KB |
+
+| [homepage_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/homepage_desktop.png) | .png | 102.57 KB |
+
+| [homepage_mobile.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/homepage_mobile.png) | .png | 40.88 KB |
+
+| [people_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/people_desktop.png) | .png | 192.91 KB |
+
+| [people_mobile.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/people_mobile.png) | .png | 62.76 KB |
+
+| [research_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/research_desktop.png) | .png | 50.85 KB |
+
+| [research_mobile.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/sidebar_layout/research_mobile.png) | .png | 15.25 KB |
+
+| [training-events_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/training-events_desktop.png) | .png | 136.38 KB |
+
+| [training-modules_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/training-modules_desktop.png) | .png | 470.11 KB |
 
 | [site_audit_report.json](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/site_audit_report.json) | .json | 1.53 KB |
 

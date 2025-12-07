@@ -22,8 +22,8 @@ Anomaly and Fraud Detection in Blockchain Networks - Research by Stephen Chan (P
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-30 |
-| Last Updated | 2025-12-04 |
-| Last Push | 2025-12-04 |
+| Last Updated | 2025-12-06 |
+| Last Push | 2025-12-06 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

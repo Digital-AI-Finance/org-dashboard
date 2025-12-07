@@ -15,15 +15,15 @@ Hugo template for research project websites with GitHub Pages
 
 | Property | Value |
 |----------|-------|
-| Language | HTML |
+| Language | CSS |
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-04 |
-| Last Updated | 2025-12-04 |
-| Last Push | 2025-12-04 |
+| Last Updated | 2025-12-06 |
+| Last Push | 2025-12-06 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -31,6 +31,36 @@ Hugo template for research project websites with GitHub Pages
 
 
 
+
+
+## Datasets
+
+This repository includes 11 dataset(s):
+
+| Dataset | Format | Size |
+|---------|--------|------|
+
+| [data](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data) |  | 0.0 KB |
+
+| [about.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/about.yaml) | .yaml | 0.87 KB |
+
+| [collaborations.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/collaborations.yaml) | .yaml | 0.46 KB |
+
+| [events.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/events.yaml) | .yaml | 0.5 KB |
+
+| [funders.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/funders.yaml) | .yaml | 0.51 KB |
+
+| [news.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/news.yaml) | .yaml | 0.63 KB |
+
+| [partners.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/partners.yaml) | .yaml | 0.46 KB |
+
+| [publications.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/publications.yaml) | .yaml | 1.95 KB |
+
+| [stats.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/stats.yaml) | .yaml | 0.21 KB |
+
+| [team.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/team.yaml) | .yaml | 1.12 KB |
+
+| [timeline.yaml](https://github.com/Digital-AI-Finance/hugo-research-template/blob/main/data/timeline.yaml) | .yaml | 0.78 KB |
 
 
 

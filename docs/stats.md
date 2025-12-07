@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-12-06**
+Last updated: **2025-12-07**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-12-06**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 35 |
-| Active Repositories | 35 |
+| Total Repositories | 34 |
+| Active Repositories | 34 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 39 |
+| Total Contributors | 38 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -28,9 +28,10 @@ Last updated: **2025-12-06**
 | [HTML](by-language/html.md) | 12 |
 | [Python](by-language/python.md) | 5 |
 | [TeX](by-language/tex.md) | 5 |
-| [SCSS](by-language/scss.md) | 5 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 3 |
-| [CSS](by-language/css.md) | 1 |
+| [SCSS](by-language/scss.md) | 2 |
+| [CSS](by-language/css.md) | 2 |
+| [JavaScript](by-language/javascript.md) | 1 |
 
 
 ---
@@ -57,7 +58,7 @@ Last updated: **2025-12-06**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 33 |
+| No License | 32 |
 | MIT License | 2 |
 
 
@@ -85,16 +86,16 @@ Last updated: **2025-12-06**
 
 | Repository | Last Push |
 |------------|-----------|
-| [book-next-word-prediction](repos/book-next-word-prediction.md) | 2025-12-05 |
-| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-12-05 |
-| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-05 |
-| [Fintech-and-Artificial-Intelligence-in-Finance](repos/Fintech-and-Artificial-Intelligence-in-Finance.md) | 2025-12-05 |
-| [medical-ai-sample](repos/medical-ai-sample.md) | 2025-12-05 |
-| [climate-ai-sample](repos/climate-ai-sample.md) | 2025-12-05 |
-| [crypto-market-ai-sample](repos/crypto-market-ai-sample.md) | 2025-12-05 |
-| [org-dashboard](repos/org-dashboard.md) | 2025-12-05 |
-| [European-Financial-Data-Space](repos/European-Financial-Data-Space.md) | 2025-12-04 |
-| [2025-shanghai-workshop](repos/2025-shanghai-workshop.md) | 2025-12-04 |
+| [neural-networks](repos/neural-networks.md) | 2025-12-06 |
+| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-06 |
+| [llm-finance-portfolio](repos/llm-finance-portfolio.md) | 2025-12-06 |
+| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-12-06 |
+| [research-page-generator](repos/research-page-generator.md) | 2025-12-06 |
+| [hugo-research-template](repos/hugo-research-template.md) | 2025-12-06 |
+| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-06 |
+| [climate-ai-sample](repos/climate-ai-sample.md) | 2025-12-06 |
+| [2025-shanghai-workshop](repos/2025-shanghai-workshop.md) | 2025-12-06 |
+| [Fintech-and-Artificial-Intelligence-in-Finance](repos/Fintech-and-Artificial-Intelligence-in-Finance.md) | 2025-12-06 |
 
 
 ---
@@ -113,7 +114,5 @@ The following repositories do not have a README file:
 - joerg-osterrieder
 - 2025-shanghai-workshop
 - Research-Page-Template-Test
-- crypto-market-ai-sample
 - climate-ai-sample
-- medical-ai-sample
 

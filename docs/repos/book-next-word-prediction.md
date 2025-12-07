@@ -22,8 +22,8 @@ PhD-level Springer textbook: Predicting the Next Word - A Mathematical Foundatio
 | Open Issues | 3 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-05 |
-| Last Push | 2025-12-05 |
+| Last Updated | 2025-12-06 |
+| Last Push | 2025-12-06 |
 | Contributors | 2 |
 | Default Branch | main |
 | Visibility | private |

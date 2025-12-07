@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-06T03:06:52.385712",
+  "generated_at": "2025-12-07T03:23:53.016286",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
@@ -759,14 +759,14 @@
     },
     "hugo-research-template": {
       "reproducibility_score": {
-        "score": 25,
+        "score": 45,
         "max_score": 100,
-        "percentage": 25.0,
-        "badge": "none",
+        "percentage": 45.0,
+        "badge": "bronze",
         "breakdown": {
           "documentation": 20,
           "environment": 0,
-          "data": 0,
+          "data": 20,
           "code": 5,
           "community": 0
         }
@@ -865,33 +865,6 @@
         "category_ratings": {}
       }
     },
-    "crypto-market-ai-sample": {
-      "reproducibility_score": {
-        "score": 5,
-        "max_score": 100,
-        "percentage": 5.0,
-        "badge": "none",
-        "breakdown": {
-          "documentation": 0,
-          "environment": 0,
-          "data": 0,
-          "code": 5,
-          "community": 0
-        }
-      },
-      "replication_stats": {
-        "total_attempts": 0,
-        "success_count": 0,
-        "partial_count": 0,
-        "failed_count": 0,
-        "success_rate": 0.0
-      },
-      "community_verification": {
-        "total_reviews": 0,
-        "average_rating": 0.0,
-        "category_ratings": {}
-      }
-    },
     "climate-ai-sample": {
       "reproducibility_score": {
         "score": 5,
@@ -919,17 +892,17 @@
         "category_ratings": {}
       }
     },
-    "medical-ai-sample": {
+    "llm-finance-portfolio": {
       "reproducibility_score": {
-        "score": 5,
+        "score": 40,
         "max_score": 100,
-        "percentage": 5.0,
-        "badge": "none",
+        "percentage": 40.0,
+        "badge": "bronze",
         "breakdown": {
-          "documentation": 0,
+          "documentation": 20,
           "environment": 0,
-          "data": 0,
-          "code": 5,
+          "data": 20,
+          "code": 0,
           "community": 0
         }
       },
@@ -948,12 +921,12 @@
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 29.29,
-    "total_repositories": 35,
+    "average_reproducibility_score": 31.62,
+    "total_repositories": 34,
     "badge_distribution": {
-      "bronze": 16,
+      "bronze": 18,
       "silver": 2,
-      "none": 17
+      "none": 14
     },
     "top_repos": [
       [

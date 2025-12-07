@@ -22,8 +22,8 @@ Archive of COST Action CA19130 - FinAI: Fintech and Artificial Intelligence in F
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-02 |
-| Last Updated | 2025-12-05 |
-| Last Push | 2025-12-05 |
+| Last Updated | 2025-12-06 |
+| Last Push | 2025-12-06 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
