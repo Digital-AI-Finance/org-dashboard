@@ -1,17 +1,17 @@
 {
-  "generated_at": "2025-12-07T03:23:52.669313",
-  "total_repos": 34,
-  "active_repos": 34,
+  "generated_at": "2025-12-08T03:19:29.343039",
+  "total_repos": 35,
+  "active_repos": 35,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 38,
+  "total_contributors": 39,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
     "HTML": 12,
+    "TeX": 6,
     "Python": 5,
-    "TeX": 5,
     "Jupyter Notebook": 3,
     "SCSS": 2,
     "CSS": 2,
@@ -19,7 +19,7 @@
   },
   "topics": {
     "finance": 3,
-    "machine-learning": 1,
+    "machine-learning": 2,
     "portfolio-optimization": 1,
     "reinforcement-learning": 1,
     "credit-risk": 1,
@@ -27,13 +27,49 @@
     "neural-networks": 1,
     "high-frequency-trading": 1,
     "market-microstructure": 1,
-    "time-series": 1
+    "time-series": 1,
+    "blockchain": 1,
+    "course-materials": 1,
+    "digital-finance": 1,
+    "education": 1,
+    "fintech": 1,
+    "latex": 1,
+    "python": 1
   },
   "licenses": {
     "No License": 32,
-    "MIT License": 2
+    "MIT License": 2,
+    "Other": 1
   },
   "recent_repos": [
+    {
+      "name": "Natural-Language-Processing",
+      "pushed_at": "2025-12-07T22:17:39+00:00"
+    },
+    {
+      "name": "digital-finance",
+      "pushed_at": "2025-12-07T21:28:17+00:00"
+    },
+    {
+      "name": "European-Financial-Data-Space",
+      "pushed_at": "2025-12-07T15:00:01+00:00"
+    },
+    {
+      "name": "msca-digital-finance",
+      "pushed_at": "2025-12-07T13:40:03+00:00"
+    },
+    {
+      "name": "joerg-osterrieder",
+      "pushed_at": "2025-12-07T13:24:48+00:00"
+    },
+    {
+      "name": "ML_Design_Thinking_16",
+      "pushed_at": "2025-12-07T13:02:24+00:00"
+    },
+    {
+      "name": "org-dashboard",
+      "pushed_at": "2025-12-07T03:26:05+00:00"
+    },
     {
       "name": "neural-networks",
       "pushed_at": "2025-12-06T19:08:19+00:00"
@@ -45,34 +81,6 @@
     {
       "name": "llm-finance-portfolio",
       "pushed_at": "2025-12-06T18:50:47+00:00"
-    },
-    {
-      "name": "neural-networks-introduction",
-      "pushed_at": "2025-12-06T18:50:28+00:00"
-    },
-    {
-      "name": "research-page-generator",
-      "pushed_at": "2025-12-06T16:54:26+00:00"
-    },
-    {
-      "name": "hugo-research-template",
-      "pushed_at": "2025-12-06T15:14:26+00:00"
-    },
-    {
-      "name": "msca-digital-finance",
-      "pushed_at": "2025-12-06T10:56:41+00:00"
-    },
-    {
-      "name": "climate-ai-sample",
-      "pushed_at": "2025-12-06T10:46:39+00:00"
-    },
-    {
-      "name": "2025-shanghai-workshop",
-      "pushed_at": "2025-12-06T10:43:37+00:00"
-    },
-    {
-      "name": "Fintech-and-Artificial-Intelligence-in-Finance",
-      "pushed_at": "2025-12-06T10:27:34+00:00"
     }
   ],
   "popular_repos": [

@@ -22,8 +22,8 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-01 |
-| Last Updated | 2025-12-06 |
-| Last Push | 2025-12-06 |
+| Last Updated | 2025-12-07 |
+| Last Push | 2025-12-07 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -35,7 +35,7 @@ MSCA Digital Finance Website - Hugo static site migrated from Wix
 
 ## Datasets
 
-This repository includes 60 dataset(s):
+This repository includes 69 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -99,6 +99,24 @@ This repository includes 60 dataset(s):
 | [about_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/about_desktop.png) | .png | 239.15 KB |
 
 | [blog_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/blog_desktop.png) | .png | 412.12 KB |
+
+| [final_verification](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification) |  | 0.0 KB |
+
+| [about.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification/about.png) | .png | 124.04 KB |
+
+| [blog.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification/blog.png) | .png | 84.63 KB |
+
+| [events.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification/events.png) | .png | 95.48 KB |
+
+| [homepage.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification/homepage.png) | .png | 171.95 KB |
+
+| [modules.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification/modules.png) | .png | 111.26 KB |
+
+| [partners.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification/partners.png) | .png | 106.87 KB |
+
+| [people.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification/people.png) | .png | 181.73 KB |
+
+| [research.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/final_verification/research.png) | .png | 99.75 KB |
 
 | [homepage_desktop.png](https://github.com/Digital-AI-Finance/msca-digital-finance/blob/main/data/screenshots/homepage_desktop.png) | .png | 148.99 KB |
 

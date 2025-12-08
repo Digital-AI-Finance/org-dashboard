@@ -13,21 +13,72 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 ## Publications
 
 
-### Toward systematic review automation: a practical guide to using machine learning tools in research synthesis
+### Publication 1
 
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1186/s13643-019-1074-9](https://doi.org/10.1186/s13643-019-1074-9) |
+| DOI | [10.1038/s42256-020-00287-7)](https://doi.org/10.1038/s42256-020-00287-7)) |
 
 
-| Year | 2019 |
+
+
+
+
+
+
+---
+
+### Rayyan—a web and mobile app for systematic reviews
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1186/s13643-016-0384-4](https://doi.org/10.1186/s13643-016-0384-4) |
+
+
+| Year | 2016 |
 | Venue | Systematic Reviews |
-| Citations | 394 |
+| Citations | 16808 |
 
 
-**Authors**: Iain J. Marshall, Byron C. Wallace
+**Authors**: Mourad Ouzzani, Hossam Hammady, Zbys Fedorowicz, Ahmed Elmagarmid
+
+
+---
+
+### Publication 3
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1101/2025.06.13.25329541v1)](https://doi.org/10.1101/2025.06.13.25329541v1)) |
+
+
+
+
+
+
+
+
+---
+
+### Publication 4
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1186/s13643-016-0384-4)](https://doi.org/10.1186/s13643-016-0384-4)) |
+
+
+
+
+
+
 
 
 ---
@@ -53,6 +104,23 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
+### Publication 6
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1186/s13643-019-1074-9)](https://doi.org/10.1186/s13643-019-1074-9)) |
+
+
+
+
+
+
+
+
+---
+
 ### PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare
 
 
@@ -72,13 +140,13 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
-### Publication 4
+### Publication 8
 
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1002/jrsm.1715)](https://doi.org/10.1002/jrsm.1715)) |
+| DOI | [10.1038/s41591-022-02139-w)](https://doi.org/10.1038/s41591-022-02139-w)) |
 
 
 
@@ -110,89 +178,21 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
-### Rayyan—a web and mobile app for systematic reviews
+### Toward systematic review automation: a practical guide to using machine learning tools in research synthesis
 
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1186/s13643-016-0384-4](https://doi.org/10.1186/s13643-016-0384-4) |
+| DOI | [10.1186/s13643-019-1074-9](https://doi.org/10.1186/s13643-019-1074-9) |
 
 
-| Year | 2016 |
+| Year | 2019 |
 | Venue | Systematic Reviews |
-| Citations | 16803 |
+| Citations | 394 |
 
 
-**Authors**: Mourad Ouzzani, Hossam Hammady, Zbys Fedorowicz, Ahmed Elmagarmid
-
-
----
-
-### Publication 7
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1186/s13643-019-1074-9)](https://doi.org/10.1186/s13643-019-1074-9)) |
-
-
-
-
-
-
-
-
----
-
-### Publication 8
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1101/2025.06.13.25329541v1)](https://doi.org/10.1101/2025.06.13.25329541v1)) |
-
-
-
-
-
-
-
-
----
-
-### Publication 9
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1038/s42256-020-00287-7)](https://doi.org/10.1038/s42256-020-00287-7)) |
-
-
-
-
-
-
-
-
----
-
-### Publication 10
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1038/s41591-022-02139-w)](https://doi.org/10.1038/s41591-022-02139-w)) |
-
-
-
-
-
-
+**Authors**: Iain J. Marshall, Byron C. Wallace
 
 
 ---
@@ -203,7 +203,7 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1186/s13643-016-0384-4)](https://doi.org/10.1186/s13643-016-0384-4)) |
+| DOI | [10.1002/jrsm.1715)](https://doi.org/10.1002/jrsm.1715)) |
 
 
 

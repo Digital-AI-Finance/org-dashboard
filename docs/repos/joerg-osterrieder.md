@@ -22,8 +22,8 @@ CV and Academic Profile - Prof. Dr. Joerg R. Osterrieder
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-04 |
-| Last Updated | 2025-12-04 |
-| Last Push | 2025-12-04 |
+| Last Updated | 2025-12-07 |
+| Last Push | 2025-12-07 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

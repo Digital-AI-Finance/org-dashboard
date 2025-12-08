@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:19:05.922013",
+      "extracted_at": "2025-12-08T03:14:14.315870",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -59,7 +59,7 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 60162
+        "size_bytes": 65607
       },
       {
         "name": "citation_report.json",
@@ -71,55 +71,55 @@
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 17187
+        "size_bytes": 16714
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 6146
+        "size_bytes": 6113
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 29920
+        "size_bytes": 29198
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 275495
+        "size_bytes": 285226
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 52493
+        "size_bytes": 51011
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 31104
+        "size_bytes": 30469
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 98432
+        "size_bytes": 106145
       },
       {
         "name": "search_index.pkl",
         "path": "data/search_index.pkl",
         "format": ".pkl",
-        "size_bytes": 227969
+        "size_bytes": 231961
       },
       {
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 3013
+        "size_bytes": 2972
       },
       {
         "name": "data",
@@ -131,13 +131,13 @@
         "name": "search_data.json",
         "path": "docs/data/search_data.json",
         "format": ".json",
-        "size_bytes": 658601
+        "size_bytes": 675463
       },
       {
         "name": "search_data_minimal.json",
         "path": "docs/data/search_data_minimal.json",
         "format": ".json",
-        "size_bytes": 469494
+        "size_bytes": 483539
       },
       {
         "name": "citation_network.json",
@@ -254,7 +254,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:19:07.955408",
+      "extracted_at": "2025-12-08T03:14:16.355394",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -312,7 +312,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:19:09.951279",
+      "extracted_at": "2025-12-08T03:14:18.352550",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -374,7 +374,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:19:11.946125",
+      "extracted_at": "2025-12-08T03:14:20.527869",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -409,7 +409,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:19:20.844438",
+      "extracted_at": "2025-12-08T03:14:29.246986",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -722,7 +722,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:20:35.716185",
+      "extracted_at": "2025-12-08T03:15:44.861408",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -752,10 +752,22 @@
         "size_bytes": 974
       },
       {
+        "name": "manifest.json",
+        "path": "docs/moodle/assets/manifest.json",
+        "format": ".json",
+        "size_bytes": 16368
+      },
+      {
         "name": "search.json",
         "path": "docs/search.json",
         "format": ".json",
         "size_bytes": 6309
+      },
+      {
+        "name": "moodle_data.json",
+        "path": "docs_backup_static/scripts/moodle_data.json",
+        "format": ".json",
+        "size_bytes": 35961
       },
       {
         "name": "notebook_test_results.json",
@@ -798,7 +810,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:20:43.728748",
+      "extracted_at": "2025-12-08T03:15:52.595943",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -840,7 +852,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:20:46.603388",
+      "extracted_at": "2025-12-08T03:15:55.386549",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1139,7 +1151,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:21:14.464950",
+      "extracted_at": "2025-12-08T03:16:23.091784",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1581,7 +1593,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:21:23.483956",
+      "extracted_at": "2025-12-08T03:16:31.984688",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1761,7 +1773,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:21:25.508810",
+      "extracted_at": "2025-12-08T03:16:34.149011",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1826,7 +1838,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:21:37.548521",
+      "extracted_at": "2025-12-08T03:16:46.566763",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1929,7 +1941,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:21:47.885494",
+      "extracted_at": "2025-12-08T03:16:56.327037",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2055,7 +2067,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:21:59.072861",
+      "extracted_at": "2025-12-08T03:17:07.305720",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2117,7 +2129,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:22:03.316524",
+      "extracted_at": "2025-12-08T03:17:11.591502",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2203,7 +2215,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:22:10.089771",
+      "extracted_at": "2025-12-08T03:17:18.485271",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2269,7 +2281,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:22:33.786180",
+      "extracted_at": "2025-12-08T03:17:42.212223",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2453,6 +2465,60 @@
         "path": "data/screenshots/blog_desktop.png",
         "format": ".png",
         "size_bytes": 422011
+      },
+      {
+        "name": "final_verification",
+        "path": "data/screenshots/final_verification",
+        "format": "",
+        "size_bytes": 0
+      },
+      {
+        "name": "about.png",
+        "path": "data/screenshots/final_verification/about.png",
+        "format": ".png",
+        "size_bytes": 127021
+      },
+      {
+        "name": "blog.png",
+        "path": "data/screenshots/final_verification/blog.png",
+        "format": ".png",
+        "size_bytes": 86665
+      },
+      {
+        "name": "events.png",
+        "path": "data/screenshots/final_verification/events.png",
+        "format": ".png",
+        "size_bytes": 97776
+      },
+      {
+        "name": "homepage.png",
+        "path": "data/screenshots/final_verification/homepage.png",
+        "format": ".png",
+        "size_bytes": 176081
+      },
+      {
+        "name": "modules.png",
+        "path": "data/screenshots/final_verification/modules.png",
+        "format": ".png",
+        "size_bytes": 113926
+      },
+      {
+        "name": "partners.png",
+        "path": "data/screenshots/final_verification/partners.png",
+        "format": ".png",
+        "size_bytes": 109430
+      },
+      {
+        "name": "people.png",
+        "path": "data/screenshots/final_verification/people.png",
+        "format": ".png",
+        "size_bytes": 186090
+      },
+      {
+        "name": "research.png",
+        "path": "data/screenshots/final_verification/research.png",
+        "format": ".png",
+        "size_bytes": 102143
       },
       {
         "name": "homepage_desktop.png",
@@ -2675,7 +2741,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:22:39.629375",
+      "extracted_at": "2025-12-08T03:17:47.943399",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2753,7 +2819,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:23:06.558035",
+      "extracted_at": "2025-12-08T03:18:14.948162",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2888,25 +2954,46 @@
     },
     "publications": [
       {
+        "type": "journal",
+        "doi": "10.1038/s42256-020-00287-7)",
+        "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+      },
+      {
         "type": "journal-article",
-        "doi": "10.1186/s13643-019-1074-9",
-        "url": "https://doi.org/10.1186/s13643-019-1074-9",
-        "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+        "doi": "10.1186/s13643-016-0384-4",
+        "url": "https://doi.org/10.1186/s13643-016-0384-4",
+        "title": "Rayyan—a web and mobile app for systematic reviews",
         "abstract": "",
-        "published": "2019-07-11",
-        "year": 2019,
+        "published": "2016-12-01",
+        "year": 2016,
         "authors": [
           {
-            "name": "Iain J. Marshall"
+            "name": "Mourad Ouzzani"
           },
           {
-            "name": "Byron C. Wallace"
+            "name": "Hossam Hammady"
+          },
+          {
+            "name": "Zbys Fedorowicz"
+          },
+          {
+            "name": "Ahmed Elmagarmid"
           }
         ],
         "venue": "Systematic Reviews",
         "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 394,
-        "reference_count": 40
+        "citation_count": 16808,
+        "reference_count": 19
+      },
+      {
+        "type": "journal",
+        "doi": "10.1101/2025.06.13.25329541v1)",
+        "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
+      },
+      {
+        "type": "journal",
+        "doi": "10.1186/s13643-016-0384-4)",
+        "url": "https://doi.org/10.1186/s13643-016-0384-4)"
       },
       {
         "type": "journal-article",
@@ -2973,6 +3060,11 @@
         "publisher": "Springer Science and Business Media LLC",
         "citation_count": 713,
         "reference_count": 63
+      },
+      {
+        "type": "journal",
+        "doi": "10.1186/s13643-019-1074-9)",
+        "url": "https://doi.org/10.1186/s13643-019-1074-9)"
       },
       {
         "type": "journal-article",
@@ -3063,8 +3155,8 @@
       },
       {
         "type": "journal",
-        "doi": "10.1002/jrsm.1715)",
-        "url": "https://doi.org/10.1002/jrsm.1715)"
+        "doi": "10.1038/s41591-022-02139-w)",
+        "url": "https://doi.org/10.1038/s41591-022-02139-w)"
       },
       {
         "type": "journal-article",
@@ -3103,55 +3195,29 @@
       },
       {
         "type": "journal-article",
-        "doi": "10.1186/s13643-016-0384-4",
-        "url": "https://doi.org/10.1186/s13643-016-0384-4",
-        "title": "Rayyan—a web and mobile app for systematic reviews",
+        "doi": "10.1186/s13643-019-1074-9",
+        "url": "https://doi.org/10.1186/s13643-019-1074-9",
+        "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
         "abstract": "",
-        "published": "2016-12-01",
-        "year": 2016,
+        "published": "2019-07-11",
+        "year": 2019,
         "authors": [
           {
-            "name": "Mourad Ouzzani"
+            "name": "Iain J. Marshall"
           },
           {
-            "name": "Hossam Hammady"
-          },
-          {
-            "name": "Zbys Fedorowicz"
-          },
-          {
-            "name": "Ahmed Elmagarmid"
+            "name": "Byron C. Wallace"
           }
         ],
         "venue": "Systematic Reviews",
         "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 16803,
-        "reference_count": 19
+        "citation_count": 394,
+        "reference_count": 40
       },
       {
         "type": "journal",
-        "doi": "10.1186/s13643-019-1074-9)",
-        "url": "https://doi.org/10.1186/s13643-019-1074-9)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1101/2025.06.13.25329541v1)",
-        "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1038/s42256-020-00287-7)",
-        "url": "https://doi.org/10.1038/s42256-020-00287-7)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1038/s41591-022-02139-w)",
-        "url": "https://doi.org/10.1038/s41591-022-02139-w)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1186/s13643-016-0384-4)",
-        "url": "https://doi.org/10.1186/s13643-016-0384-4)"
+        "doi": "10.1002/jrsm.1715)",
+        "url": "https://doi.org/10.1002/jrsm.1715)"
       }
     ],
     "code": {
@@ -3174,7 +3240,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:23:16.213423",
+      "extracted_at": "2025-12-08T03:18:24.535168",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3241,7 +3307,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:23:18.927724",
+      "extracted_at": "2025-12-08T03:18:27.300071",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3287,7 +3353,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:23:27.591673",
+      "extracted_at": "2025-12-08T03:18:36.095241",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3393,7 +3459,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:23:36.979710",
+      "extracted_at": "2025-12-08T03:18:45.636189",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3477,7 +3543,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-07T03:23:42.005109",
+      "extracted_at": "2025-12-08T03:18:50.872232",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3531,5 +3597,46 @@
         "size_bytes": 1974
       }
     ]
+  },
+  "digital-finance": {
+    "repo_name": "digital-finance",
+    "research": {
+      "title": "BSc Digital Finance Course - 48 lessons covering Fintech, Blockchain, AI/ML, and Traditional Finance",
+      "abstract": "A comprehensive BSc-level course covering 48 lessons across Fintech, Blockchain, AI/ML, and Traditional Finance.",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "the Digital Finance team at FHGR. Issues and suggestions are welcome via GitHub Issues."
+        }
+      ]
+    },
+    "publications": [],
+    "code": {
+      "languages": [
+        "TeX"
+      ],
+      "notebooks": [],
+      "dependencies": {}
+    },
+    "reproducibility": {
+      "has_requirements": true,
+      "has_dockerfile": false,
+      "has_environment_yml": false,
+      "has_makefile": false,
+      "replication_status": "not_attempted"
+    },
+    "citations": {
+      "cited_by": [],
+      "cites": [
+        "@misc{digitalfinance2025,\n  title={Digital Finance: A Comprehensive Course},\n  author={FHGR Digital Finance Team},\n  year={2025},\n  publisher={GitHub},\n  howpublished={\\url{https://github.com/Digital-AI-Finance/digital-finance}},\n  note={CC BY-NC-SA 4.0}\n}"
+      ],
+      "citation_count": 0
+    },
+    "meta": {
+      "extracted_at": "2025-12-08T03:19:18.266351",
+      "extraction_version": "1.0",
+      "extraction_method": "readme_parse"
+    },
+    "datasets": []
   }
 }

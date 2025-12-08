@@ -22,8 +22,8 @@ European Financial Data Space - MSCA Digital research on EFDS, ESAP, ESEF, and F
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-03 |
-| Last Updated | 2025-12-04 |
-| Last Push | 2025-12-04 |
+| Last Updated | 2025-12-07 |
+| Last Push | 2025-12-07 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

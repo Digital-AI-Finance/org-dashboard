@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-07T03:23:53.018216",
+  "generated_at": "2025-12-08T03:19:29.712209",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -646,14 +646,34 @@
       },
       "language": "JavaScript",
       "size_kb": 0
+    },
+    "digital-finance": {
+      "structure": {
+        "structure_score": 65,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": true,
+          "has_topics": true,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "B"
+      },
+      "language": "TeX",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 34,
-    "average_structure_score": 39.12,
+    "total_repositories": 35,
+    "average_structure_score": 39.86,
     "grades": {
       "C": 31,
-      "D": 3
+      "D": 3,
+      "B": 1
     }
   }
 }

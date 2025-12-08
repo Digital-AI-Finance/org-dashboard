@@ -75,6 +75,10 @@
     {
       "id": "research-page-generator",
       "authors": 1
+    },
+    {
+      "id": "digital-finance",
+      "authors": 1
     }
   ],
   "edges": []

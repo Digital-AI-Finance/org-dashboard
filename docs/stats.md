@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-12-07**
+Last updated: **2025-12-08**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-12-07**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 34 |
-| Active Repositories | 34 |
+| Total Repositories | 35 |
+| Active Repositories | 35 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 38 |
+| Total Contributors | 39 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -26,8 +26,8 @@ Last updated: **2025-12-07**
 | Language | Repository Count |
 |----------|------------------|
 | [HTML](by-language/html.md) | 12 |
+| [TeX](by-language/tex.md) | 6 |
 | [Python](by-language/python.md) | 5 |
-| [TeX](by-language/tex.md) | 5 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 3 |
 | [SCSS](by-language/scss.md) | 2 |
 | [CSS](by-language/css.md) | 2 |
@@ -41,7 +41,7 @@ Last updated: **2025-12-07**
 | Topic | Repository Count |
 |-------|------------------|
 | [finance](by-topic/finance.md) | 3 |
-| [machine-learning](by-topic/machine-learning.md) | 1 |
+| [machine-learning](by-topic/machine-learning.md) | 2 |
 | [portfolio-optimization](by-topic/portfolio-optimization.md) | 1 |
 | [reinforcement-learning](by-topic/reinforcement-learning.md) | 1 |
 | [credit-risk](by-topic/credit-risk.md) | 1 |
@@ -50,6 +50,13 @@ Last updated: **2025-12-07**
 | [high-frequency-trading](by-topic/high-frequency-trading.md) | 1 |
 | [market-microstructure](by-topic/market-microstructure.md) | 1 |
 | [time-series](by-topic/time-series.md) | 1 |
+| [blockchain](by-topic/blockchain.md) | 1 |
+| [course-materials](by-topic/course-materials.md) | 1 |
+| [digital-finance](by-topic/digital-finance.md) | 1 |
+| [education](by-topic/education.md) | 1 |
+| [fintech](by-topic/fintech.md) | 1 |
+| [latex](by-topic/latex.md) | 1 |
+| [python](by-topic/python.md) | 1 |
 
 
 ---
@@ -60,6 +67,7 @@ Last updated: **2025-12-07**
 |---------|------------------|
 | No License | 32 |
 | MIT License | 2 |
+| Other | 1 |
 
 
 ---
@@ -86,16 +94,16 @@ Last updated: **2025-12-07**
 
 | Repository | Last Push |
 |------------|-----------|
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-07 |
+| [digital-finance](repos/digital-finance.md) | 2025-12-07 |
+| [European-Financial-Data-Space](repos/European-Financial-Data-Space.md) | 2025-12-07 |
+| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-07 |
+| [joerg-osterrieder](repos/joerg-osterrieder.md) | 2025-12-07 |
+| [ML_Design_Thinking_16](repos/ML_Design_Thinking_16.md) | 2025-12-07 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-12-07 |
 | [neural-networks](repos/neural-networks.md) | 2025-12-06 |
 | [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-06 |
 | [llm-finance-portfolio](repos/llm-finance-portfolio.md) | 2025-12-06 |
-| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-12-06 |
-| [research-page-generator](repos/research-page-generator.md) | 2025-12-06 |
-| [hugo-research-template](repos/hugo-research-template.md) | 2025-12-06 |
-| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-06 |
-| [climate-ai-sample](repos/climate-ai-sample.md) | 2025-12-06 |
-| [2025-shanghai-workshop](repos/2025-shanghai-workshop.md) | 2025-12-06 |
-| [Fintech-and-Artificial-Intelligence-in-Finance](repos/Fintech-and-Artificial-Intelligence-in-Finance.md) | 2025-12-06 |
 
 
 ---

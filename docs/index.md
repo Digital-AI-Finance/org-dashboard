@@ -2,7 +2,7 @@
 
 Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
 
-Last updated: **2025-12-07**
+Last updated: **2025-12-08**
 
 ---
 
@@ -41,12 +41,12 @@ Browse our research repositories in an interactive, visual format.
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 34 |
-| Active Repositories | 34 |
+| Total Repositories | 35 |
+| Active Repositories | 35 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 38 |
+| Total Contributors | 39 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -57,8 +57,8 @@ Browse our research repositories in an interactive, visual format.
 | Language | Repositories |
 |----------|--------------|
 | [HTML](by-language/html.md) | 12 |
+| [TeX](by-language/tex.md) | 6 |
 | [Python](by-language/python.md) | 5 |
-| [TeX](by-language/tex.md) | 5 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 3 |
 | [SCSS](by-language/scss.md) | 2 |
 
@@ -72,7 +72,7 @@ Browse our research repositories in an interactive, visual format.
 | Topic | Repositories |
 |-------|--------------|
 | [finance](by-topic/finance.md) | 3 |
-| [machine-learning](by-topic/machine-learning.md) | 1 |
+| [machine-learning](by-topic/machine-learning.md) | 2 |
 | [portfolio-optimization](by-topic/portfolio-optimization.md) | 1 |
 | [reinforcement-learning](by-topic/reinforcement-learning.md) | 1 |
 | [credit-risk](by-topic/credit-risk.md) | 1 |
@@ -99,18 +99,18 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
-| [neural-networks](repos/neural-networks.md) | 2025-12-06 |
-| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-06 |
-| [llm-finance-portfolio](repos/llm-finance-portfolio.md) | 2025-12-06 |
-| [neural-networks-introduction](repos/neural-networks-introduction.md) | 2025-12-06 |
-| [research-page-generator](repos/research-page-generator.md) | 2025-12-06 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-07 |
+| [digital-finance](repos/digital-finance.md) | 2025-12-07 |
+| [European-Financial-Data-Space](repos/European-Financial-Data-Space.md) | 2025-12-07 |
+| [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-07 |
+| [joerg-osterrieder](repos/joerg-osterrieder.md) | 2025-12-07 |
 
 
 ---
 
 ## Navigation
 
-- [All Repositories](repos/index.md) - Browse all 34 repositories
+- [All Repositories](repos/index.md) - Browse all 35 repositories
 - [By Language](by-language/index.md) - Filter by programming language
 - [By Topic](by-topic/index.md) - Filter by topic tags
 - [Statistics](stats.md) - Detailed organization statistics
