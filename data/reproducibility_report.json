@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-08T03:19:29.709970",
+  "generated_at": "2025-12-09T03:18:41.773045",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
@@ -945,15 +945,69 @@
         "average_rating": 0.0,
         "category_ratings": {}
       }
+    },
+    "python-utils": {
+      "reproducibility_score": {
+        "score": 30,
+        "max_score": 100,
+        "percentage": 30.0,
+        "badge": "none",
+        "breakdown": {
+          "documentation": 20,
+          "environment": 10,
+          "data": 0,
+          "code": 0,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
+    },
+    "decentralized-finance": {
+      "reproducibility_score": {
+        "score": 25,
+        "max_score": 100,
+        "percentage": 25.0,
+        "badge": "none",
+        "breakdown": {
+          "documentation": 20,
+          "environment": 0,
+          "data": 0,
+          "code": 5,
+          "community": 0
+        }
+      },
+      "replication_stats": {
+        "total_attempts": 0,
+        "success_count": 0,
+        "partial_count": 0,
+        "failed_count": 0,
+        "success_rate": 0.0
+      },
+      "community_verification": {
+        "total_reviews": 0,
+        "average_rating": 0.0,
+        "category_ratings": {}
+      }
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 31.71,
-    "total_repositories": 35,
+    "average_reproducibility_score": 31.49,
+    "total_repositories": 37,
     "badge_distribution": {
       "bronze": 18,
       "silver": 2,
-      "none": 15
+      "none": 17
     },
     "top_repos": [
       [

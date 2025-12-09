@@ -22,8 +22,8 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-22 |
-| Last Updated | 2025-12-07 |
-| Last Push | 2025-12-07 |
+| Last Updated | 2025-12-08 |
+| Last Push | 2025-12-08 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -33,7 +33,7 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 
 ## Notebooks
 
-This repository contains 35 notebook(s):
+This repository contains 47 notebook(s):
 
 | Notebook | Language | Type |
 |----------|----------|------|
@@ -84,6 +84,30 @@ This repository contains 35 notebook(s):
 
 | [demo_reasoning_compare](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/demos/demo_reasoning_compare.ipynb) | PYTHON | jupyter |
 
+| [decoding](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/decoding.ipynb) | PYTHON | jupyter |
+
+| [efficiency](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/efficiency.ipynb) | PYTHON | jupyter |
+
+| [embeddings](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/embeddings.ipynb) | PYTHON | jupyter |
+
+| [ethics](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/ethics.ipynb) | PYTHON | jupyter |
+
+| [finetuning](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/finetuning.ipynb) | PYTHON | jupyter |
+
+| [ngrams](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/ngrams.ipynb) | PYTHON | jupyter |
+
+| [pretrained](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/pretrained.ipynb) | PYTHON | jupyter |
+
+| [rnn-lstm](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/rnn-lstm.ipynb) | PYTHON | jupyter |
+
+| [scaling](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/scaling.ipynb) | PYTHON | jupyter |
+
+| [seq2seq](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/seq2seq.ipynb) | PYTHON | jupyter |
+
+| [tokenization](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/tokenization.ipynb) | PYTHON | jupyter |
+
+| [transformers](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/notebooks/transformers.ipynb) | PYTHON | jupyter |
+
 | [discovery_notebook](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/embeddings/handouts/discovery_notebook.ipynb) | PYTHON | jupyter |
 
 | [word_embeddings_3d_msc](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/embeddings/word_embeddings_3d_msc.ipynb) | PYTHON | jupyter |
@@ -113,7 +137,7 @@ This repository contains 35 notebook(s):
 
 ## Datasets
 
-This repository includes 8 dataset(s):
+This repository includes 10 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -127,6 +151,10 @@ This repository includes 8 dataset(s):
 | [package.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/NLP_slides/week09_decoding/react-app/package.json) | .json | 0.95 KB |
 
 | [manifest.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/moodle/assets/manifest.json) | .json | 15.98 KB |
+
+| [link_report_20251208_0935.csv](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/reports/link_report_20251208_0935.csv) | .csv | 34.57 KB |
+
+| [link_report_20251208_0935.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/reports/link_report_20251208_0935.json) | .json | 62.65 KB |
 
 | [search.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/search.json) | .json | 6.16 KB |
 

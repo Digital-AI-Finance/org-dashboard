@@ -1,24 +1,24 @@
 {
-  "generated_at": "2025-12-08T03:19:29.343039",
-  "total_repos": 35,
-  "active_repos": 35,
+  "generated_at": "2025-12-09T03:18:41.417099",
+  "total_repos": 37,
+  "active_repos": 37,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 39,
+  "total_contributors": 41,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
     "HTML": 12,
-    "TeX": 6,
-    "Python": 5,
+    "TeX": 7,
+    "Python": 6,
     "Jupyter Notebook": 3,
     "SCSS": 2,
     "CSS": 2,
     "JavaScript": 1
   },
   "topics": {
-    "finance": 3,
+    "finance": 4,
     "machine-learning": 2,
     "portfolio-optimization": 1,
     "reinforcement-learning": 1,
@@ -34,21 +34,36 @@
     "education": 1,
     "fintech": 1,
     "latex": 1,
-    "python": 1
+    "python": 1,
+    "beamer-slides": 1,
+    "course": 1,
+    "python-demos": 1
   },
   "licenses": {
-    "No License": 32,
+    "No License": 34,
     "MIT License": 2,
     "Other": 1
   },
   "recent_repos": [
     {
       "name": "Natural-Language-Processing",
-      "pushed_at": "2025-12-07T22:17:39+00:00"
+      "pushed_at": "2025-12-08T21:59:57+00:00"
+    },
+    {
+      "name": "python-utils",
+      "pushed_at": "2025-12-08T17:21:36+00:00"
+    },
+    {
+      "name": "decentralized-finance",
+      "pushed_at": "2025-12-08T17:11:35+00:00"
     },
     {
       "name": "digital-finance",
-      "pushed_at": "2025-12-07T21:28:17+00:00"
+      "pushed_at": "2025-12-08T07:54:02+00:00"
+    },
+    {
+      "name": "org-dashboard",
+      "pushed_at": "2025-12-08T03:21:43+00:00"
     },
     {
       "name": "European-Financial-Data-Space",
@@ -67,20 +82,8 @@
       "pushed_at": "2025-12-07T13:02:24+00:00"
     },
     {
-      "name": "org-dashboard",
-      "pushed_at": "2025-12-07T03:26:05+00:00"
-    },
-    {
       "name": "neural-networks",
       "pushed_at": "2025-12-06T19:08:19+00:00"
-    },
-    {
-      "name": "digital-ai-in-finance",
-      "pushed_at": "2025-12-06T18:53:49+00:00"
-    },
-    {
-      "name": "llm-finance-portfolio",
-      "pushed_at": "2025-12-06T18:50:47+00:00"
     }
   ],
   "popular_repos": [
@@ -142,6 +145,6 @@
     "repos_with_notebooks": 3,
     "repos_with_datasets": 20,
     "total_publications": 19,
-    "total_notebooks": 77
+    "total_notebooks": 89
   }
 }

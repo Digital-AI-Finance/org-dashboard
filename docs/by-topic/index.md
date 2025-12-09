@@ -1,6 +1,6 @@
 # Repositories by Topic
 
-Total topics: **17**
+Total topics: **20**
 
 ---
 
@@ -8,7 +8,7 @@ Total topics: **17**
 
 | Topic | Repository Count |
 |-------|------------------|
-| [finance](finance.md) | 3 |
+| [finance](finance.md) | 4 |
 | [machine-learning](machine-learning.md) | 2 |
 | [portfolio-optimization](portfolio-optimization.md) | 1 |
 | [reinforcement-learning](reinforcement-learning.md) | 1 |
@@ -25,3 +25,6 @@ Total topics: **17**
 | [fintech](fintech.md) | 1 |
 | [latex](latex.md) | 1 |
 | [python](python.md) | 1 |
+| [beamer-slides](beamer-slides.md) | 1 |
+| [course](course.md) | 1 |
+| [python-demos](python-demos.md) | 1 |

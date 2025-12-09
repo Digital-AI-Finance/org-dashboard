@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-08T03:19:29.712209",
+  "generated_at": "2025-12-09T03:18:41.775173",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -665,13 +665,51 @@
       },
       "language": "TeX",
       "size_kb": 0
+    },
+    "python-utils": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Python",
+      "size_kb": 0
+    },
+    "decentralized-finance": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "TeX",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 35,
+    "total_repositories": 37,
     "average_structure_score": 39.86,
     "grades": {
-      "C": 31,
+      "C": 33,
       "D": 3,
       "B": 1
     }

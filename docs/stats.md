@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-12-08**
+Last updated: **2025-12-09**
 
 ---
 
@@ -10,12 +10,12 @@ Last updated: **2025-12-08**
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 35 |
-| Active Repositories | 35 |
+| Total Repositories | 37 |
+| Active Repositories | 37 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 39 |
+| Total Contributors | 41 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -26,8 +26,8 @@ Last updated: **2025-12-08**
 | Language | Repository Count |
 |----------|------------------|
 | [HTML](by-language/html.md) | 12 |
-| [TeX](by-language/tex.md) | 6 |
-| [Python](by-language/python.md) | 5 |
+| [TeX](by-language/tex.md) | 7 |
+| [Python](by-language/python.md) | 6 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 3 |
 | [SCSS](by-language/scss.md) | 2 |
 | [CSS](by-language/css.md) | 2 |
@@ -40,7 +40,7 @@ Last updated: **2025-12-08**
 
 | Topic | Repository Count |
 |-------|------------------|
-| [finance](by-topic/finance.md) | 3 |
+| [finance](by-topic/finance.md) | 4 |
 | [machine-learning](by-topic/machine-learning.md) | 2 |
 | [portfolio-optimization](by-topic/portfolio-optimization.md) | 1 |
 | [reinforcement-learning](by-topic/reinforcement-learning.md) | 1 |
@@ -57,6 +57,9 @@ Last updated: **2025-12-08**
 | [fintech](by-topic/fintech.md) | 1 |
 | [latex](by-topic/latex.md) | 1 |
 | [python](by-topic/python.md) | 1 |
+| [beamer-slides](by-topic/beamer-slides.md) | 1 |
+| [course](by-topic/course.md) | 1 |
+| [python-demos](by-topic/python-demos.md) | 1 |
 
 
 ---
@@ -65,7 +68,7 @@ Last updated: **2025-12-08**
 
 | License | Repository Count |
 |---------|------------------|
-| No License | 32 |
+| No License | 34 |
 | MIT License | 2 |
 | Other | 1 |
 
@@ -94,16 +97,16 @@ Last updated: **2025-12-08**
 
 | Repository | Last Push |
 |------------|-----------|
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-07 |
-| [digital-finance](repos/digital-finance.md) | 2025-12-07 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-08 |
+| [python-utils](repos/python-utils.md) | 2025-12-08 |
+| [decentralized-finance](repos/decentralized-finance.md) | 2025-12-08 |
+| [digital-finance](repos/digital-finance.md) | 2025-12-08 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-12-08 |
 | [European-Financial-Data-Space](repos/European-Financial-Data-Space.md) | 2025-12-07 |
 | [msca-digital-finance](repos/msca-digital-finance.md) | 2025-12-07 |
 | [joerg-osterrieder](repos/joerg-osterrieder.md) | 2025-12-07 |
 | [ML_Design_Thinking_16](repos/ML_Design_Thinking_16.md) | 2025-12-07 |
-| [org-dashboard](repos/org-dashboard.md) | 2025-12-07 |
 | [neural-networks](repos/neural-networks.md) | 2025-12-06 |
-| [digital-ai-in-finance](repos/digital-ai-in-finance.md) | 2025-12-06 |
-| [llm-finance-portfolio](repos/llm-finance-portfolio.md) | 2025-12-06 |
 
 
 ---

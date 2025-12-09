@@ -79,6 +79,10 @@
     {
       "id": "digital-finance",
       "authors": 1
+    },
+    {
+      "id": "decentralized-finance",
+      "authors": 1
     }
   ],
   "edges": []

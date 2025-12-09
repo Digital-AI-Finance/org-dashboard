@@ -1,9 +1,9 @@
 # digital-finance
 
-BSc Digital Finance Course - 48 lessons covering Fintech, Blockchain, AI/ML, and Traditional Finance
+BSc-level Digital Finance course: 48 lessons on FinTech, Blockchain, AI/ML, and Traditional Finance
 
 [View on GitHub](https://github.com/Digital-AI-Finance/digital-finance){ .md-button .md-button--primary }
-[Homepage](https://digital-ai-finance.github.io/digital-finance/){ .md-button }
+[Homepage](https://digital-ai-finance.github.io/digital-finance){ .md-button }
 
 ---
 
@@ -22,8 +22,8 @@ BSc Digital Finance Course - 48 lessons covering Fintech, Blockchain, AI/ML, and
 | Open Issues | 0 |
 | License | Other |
 | Created | 2025-12-07 |
-| Last Updated | 2025-12-07 |
-| Last Push | 2025-12-07 |
+| Last Updated | 2025-12-08 |
+| Last Push | 2025-12-08 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
@@ -31,7 +31,7 @@ BSc Digital Finance Course - 48 lessons covering Fintech, Blockchain, AI/ML, and
 
 ## Topics
 
-`blockchain` `course-materials` `digital-finance` `education` `fintech` `latex` `machine-learning` `python` 
+`blockchain` `course-materials` `digital-finance` `education` `fintech` `latex` `machine-learning` `python` `beamer-slides` `course` `finance` `python-demos` 
 
 
 
