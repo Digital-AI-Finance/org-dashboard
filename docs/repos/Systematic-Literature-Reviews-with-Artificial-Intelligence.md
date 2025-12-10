@@ -13,21 +13,21 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 ## Publications
 
 
-### Rayyan—a web and mobile app for systematic reviews
+### PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare
 
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1186/s13643-016-0384-4](https://doi.org/10.1186/s13643-016-0384-4) |
+| DOI | [10.1038/s41591-022-02139-w](https://doi.org/10.1038/s41591-022-02139-w) |
 
 
-| Year | 2016 |
-| Venue | Systematic Reviews |
-| Citations | 16837 |
+| Year | 2023 |
+| Venue | Nature Medicine |
+| Citations | 92 |
 
 
-**Authors**: Mourad Ouzzani, Hossam Hammady, Zbys Fedorowicz, Ahmed Elmagarmid
+**Authors**: Giovanni E. Cacciamani, Timothy N. Chu, Daniel I. Sanford, Andre Abreu, Vinay Duddalwar, Assad Oberai, C.-C. Jay Kuo, Xiaoxuan Liu, Alastair K. Denniston, Baptiste Vasey, Peter McCulloch, Robert F. Wolff, Sue Mallett, John Mongan, Charles E. Kahn, Viknesh Sounderajah, Ara Darzi, Philipp Dahm, Karel G. M. Moons, Eric Topol, Gary S. Collins, David Moher, Inderbir S. Gill, Andrew J. Hung
 
 
 ---
@@ -38,7 +38,7 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1038/s42256-020-00287-7)](https://doi.org/10.1038/s42256-020-00287-7)) |
+| DOI | [10.1186/s13643-019-1074-9)](https://doi.org/10.1186/s13643-019-1074-9)) |
 
 
 
@@ -55,7 +55,7 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1038/s41591-022-02139-w)](https://doi.org/10.1038/s41591-022-02139-w)) |
+| DOI | [10.1101/2025.06.13.25329541v1)](https://doi.org/10.1101/2025.06.13.25329541v1)) |
 
 
 
@@ -72,7 +72,117 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Property | Value |
 |----------|-------|
+| DOI | [10.1002/jrsm.1715)](https://doi.org/10.1002/jrsm.1715)) |
+
+
+
+
+
+
+
+
+---
+
+### Publication 5
+
+
+
+| Property | Value |
+|----------|-------|
 | DOI | [10.1186/s13643-016-0384-4)](https://doi.org/10.1186/s13643-016-0384-4)) |
+
+
+
+
+
+
+
+
+---
+
+### Rayyan—a web and mobile app for systematic reviews
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1186/s13643-016-0384-4](https://doi.org/10.1186/s13643-016-0384-4) |
+
+
+| Year | 2016 |
+| Venue | Systematic Reviews |
+| Citations | 16852 |
+
+
+**Authors**: Mourad Ouzzani, Hossam Hammady, Zbys Fedorowicz, Ahmed Elmagarmid
+
+
+---
+
+### An open source machine learning framework for efficient and transparent systematic reviews
+
+
+<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta...
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1038/s42256-020-00287-7](https://doi.org/10.1038/s42256-020-00287-7) |
+
+
+| Year | 2021 |
+| Venue | Nature Machine Intelligence |
+| Citations | 713 |
+
+
+**Authors**: Rens van de Schoot, Jonathan de Bruin, Raoul Schram, Parisa Zahedi, Jan de Boer, Felix Weijdema, Bianca Kramer, Martijn Huijts, Maarten Hoogerwerf, Gerbrich Ferdinands, Albert Harkema, Joukje Willemsen, Yongchao Ma, Qixiang Fang, Sybren Hindriks, Lars Tummers, Daniel L. Oberski
+
+
+---
+
+### Publication 8
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1038/s41591-022-02139-w)](https://doi.org/10.1038/s41591-022-02139-w)) |
+
+
+
+
+
+
+
+
+---
+
+### Toward systematic review automation: a practical guide to using machine learning tools in research synthesis
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1186/s13643-019-1074-9](https://doi.org/10.1186/s13643-019-1074-9) |
+
+
+| Year | 2019 |
+| Venue | Systematic Reviews |
+| Citations | 395 |
+
+
+**Authors**: Iain J. Marshall, Byron C. Wallace
+
+
+---
+
+### Publication 10
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1038/s42256-020-00287-7)](https://doi.org/10.1038/s42256-020-00287-7)) |
 
 
 
@@ -100,116 +210,6 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 
 **Authors**: Qusai Khraisha, Sophie Put, Johanna Kappenberg, Azza Warraitch, Kristin Hadfield
-
-
----
-
-### Publication 6
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1002/jrsm.1715)](https://doi.org/10.1002/jrsm.1715)) |
-
-
-
-
-
-
-
-
----
-
-### An open source machine learning framework for efficient and transparent systematic reviews
-
-
-<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta...
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1038/s42256-020-00287-7](https://doi.org/10.1038/s42256-020-00287-7) |
-
-
-| Year | 2021 |
-| Venue | Nature Machine Intelligence |
-| Citations | 713 |
-
-
-**Authors**: Rens van de Schoot, Jonathan de Bruin, Raoul Schram, Parisa Zahedi, Jan de Boer, Felix Weijdema, Bianca Kramer, Martijn Huijts, Maarten Hoogerwerf, Gerbrich Ferdinands, Albert Harkema, Joukje Willemsen, Yongchao Ma, Qixiang Fang, Sybren Hindriks, Lars Tummers, Daniel L. Oberski
-
-
----
-
-### Toward systematic review automation: a practical guide to using machine learning tools in research synthesis
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1186/s13643-019-1074-9](https://doi.org/10.1186/s13643-019-1074-9) |
-
-
-| Year | 2019 |
-| Venue | Systematic Reviews |
-| Citations | 394 |
-
-
-**Authors**: Iain J. Marshall, Byron C. Wallace
-
-
----
-
-### Publication 9
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1101/2025.06.13.25329541v1)](https://doi.org/10.1101/2025.06.13.25329541v1)) |
-
-
-
-
-
-
-
-
----
-
-### Publication 10
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1186/s13643-019-1074-9)](https://doi.org/10.1186/s13643-019-1074-9)) |
-
-
-
-
-
-
-
-
----
-
-### PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1038/s41591-022-02139-w](https://doi.org/10.1038/s41591-022-02139-w) |
-
-
-| Year | 2023 |
-| Venue | Nature Medicine |
-| Citations | 92 |
-
-
-**Authors**: Giovanni E. Cacciamani, Timothy N. Chu, Daniel I. Sanford, Andre Abreu, Vinay Duddalwar, Assad Oberai, C.-C. Jay Kuo, Xiaoxuan Liu, Alastair K. Denniston, Baptiste Vasey, Peter McCulloch, Robert F. Wolff, Sue Mallett, John Mongan, Charles E. Kahn, Viknesh Sounderajah, Ara Darzi, Philipp Dahm, Karel G. M. Moons, Eric Topol, Gary S. Collins, David Moher, Inderbir S. Gill, Andrew J. Hung
 
 
 ---

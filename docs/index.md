@@ -2,7 +2,7 @@
 
 Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
 
-Last updated: **2025-12-09**
+Last updated: **2025-12-10**
 
 ---
 
@@ -41,12 +41,12 @@ Browse our research repositories in an interactive, visual format.
 
 | Metric | Value |
 |--------|-------|
-| Total Repositories | 37 |
-| Active Repositories | 37 |
+| Total Repositories | 39 |
+| Active Repositories | 39 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
 | Total Forks | 0 |
-| Total Contributors | 41 |
+| Total Contributors | 43 |
 | Average Stars per Repo | 0.0 |
 | Average Forks per Repo | 0.0 |
 
@@ -56,9 +56,9 @@ Browse our research repositories in an interactive, visual format.
 
 | Language | Repositories |
 |----------|--------------|
-| [HTML](by-language/html.md) | 12 |
+| [HTML](by-language/html.md) | 13 |
+| [Python](by-language/python.md) | 7 |
 | [TeX](by-language/tex.md) | 7 |
-| [Python](by-language/python.md) | 6 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 3 |
 | [SCSS](by-language/scss.md) | 2 |
 
@@ -99,18 +99,18 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-08 |
-| [python-utils](repos/python-utils.md) | 2025-12-08 |
-| [decentralized-finance](repos/decentralized-finance.md) | 2025-12-08 |
-| [digital-finance](repos/digital-finance.md) | 2025-12-08 |
-| [org-dashboard](repos/org-dashboard.md) | 2025-12-08 |
+| [Green-Finance](repos/Green-Finance.md) | 2025-12-09 |
+| [msca-green-finance-training](repos/msca-green-finance-training.md) | 2025-12-09 |
+| [python-utils](repos/python-utils.md) | 2025-12-09 |
+| [digital-finance](repos/digital-finance.md) | 2025-12-09 |
+| [data-science](repos/data-science.md) | 2025-12-09 |
 
 
 ---
 
 ## Navigation
 
-- [All Repositories](repos/index.md) - Browse all 37 repositories
+- [All Repositories](repos/index.md) - Browse all 39 repositories
 - [By Language](by-language/index.md) - Filter by programming language
 - [By Topic](by-topic/index.md) - Filter by topic tags
 - [Statistics](stats.md) - Detailed organization statistics
@@ -119,4 +119,4 @@ Browse our research repositories in an interactive, visual format.
 ---
 
 !!! warning "Repositories Missing README"
-    10 repositories do not have a README file.
+    12 repositories do not have a README file.

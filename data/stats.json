@@ -1,17 +1,17 @@
 {
-  "generated_at": "2025-12-09T03:18:41.417099",
-  "total_repos": 37,
-  "active_repos": 37,
+  "generated_at": "2025-12-10T03:22:38.835338",
+  "total_repos": 39,
+  "active_repos": 39,
   "archived_repos": 0,
   "total_stars": 0,
   "total_forks": 0,
-  "total_contributors": 41,
+  "total_contributors": 43,
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
-    "HTML": 12,
+    "HTML": 13,
+    "Python": 7,
     "TeX": 7,
-    "Python": 6,
     "Jupyter Notebook": 3,
     "SCSS": 2,
     "CSS": 2,
@@ -40,30 +40,42 @@
     "python-demos": 1
   },
   "licenses": {
-    "No License": 34,
+    "No License": 36,
     "MIT License": 2,
     "Other": 1
   },
   "recent_repos": [
     {
-      "name": "Natural-Language-Processing",
-      "pushed_at": "2025-12-08T21:59:57+00:00"
+      "name": "Green-Finance",
+      "pushed_at": "2025-12-09T22:21:13+00:00"
+    },
+    {
+      "name": "msca-green-finance-training",
+      "pushed_at": "2025-12-09T22:19:52+00:00"
     },
     {
       "name": "python-utils",
-      "pushed_at": "2025-12-08T17:21:36+00:00"
-    },
-    {
-      "name": "decentralized-finance",
-      "pushed_at": "2025-12-08T17:11:35+00:00"
+      "pushed_at": "2025-12-09T21:48:26+00:00"
     },
     {
       "name": "digital-finance",
-      "pushed_at": "2025-12-08T07:54:02+00:00"
+      "pushed_at": "2025-12-09T16:42:34+00:00"
+    },
+    {
+      "name": "data-science",
+      "pushed_at": "2025-12-09T16:25:04+00:00"
+    },
+    {
+      "name": "Natural-Language-Processing",
+      "pushed_at": "2025-12-09T16:21:22+00:00"
+    },
+    {
+      "name": "decentralized-finance",
+      "pushed_at": "2025-12-09T16:01:11+00:00"
     },
     {
       "name": "org-dashboard",
-      "pushed_at": "2025-12-08T03:21:43+00:00"
+      "pushed_at": "2025-12-09T03:21:31+00:00"
     },
     {
       "name": "European-Financial-Data-Space",
@@ -72,18 +84,6 @@
     {
       "name": "msca-digital-finance",
       "pushed_at": "2025-12-07T13:40:03+00:00"
-    },
-    {
-      "name": "joerg-osterrieder",
-      "pushed_at": "2025-12-07T13:24:48+00:00"
-    },
-    {
-      "name": "ML_Design_Thinking_16",
-      "pushed_at": "2025-12-07T13:02:24+00:00"
-    },
-    {
-      "name": "neural-networks",
-      "pushed_at": "2025-12-06T19:08:19+00:00"
     }
   ],
   "popular_repos": [
@@ -138,12 +138,14 @@
     "joerg-osterrieder",
     "2025-shanghai-workshop",
     "Research-Page-Template-Test",
-    "climate-ai-sample"
+    "climate-ai-sample",
+    "data-science",
+    "msca-green-finance-training"
   ],
   "research": {
     "repos_with_papers": 5,
     "repos_with_notebooks": 3,
-    "repos_with_datasets": 20,
+    "repos_with_datasets": 21,
     "total_publications": 19,
     "total_notebooks": 89
   }

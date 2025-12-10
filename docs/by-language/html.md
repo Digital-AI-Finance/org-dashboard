@@ -1,6 +1,6 @@
 # HTML Repositories
 
-Total: **12** repositories
+Total: **13** repositories
 
 ---
 
@@ -18,3 +18,4 @@ Total: **12** repositories
 | [2025-shanghai-workshop](../repos/2025-shanghai-workshop.md) | 23rd China International Talent Exchange Conference - Data Science, Fintech and ... | 0 | 0 | 2025-12-06 |
 | [Research-Page-Template-Test](../repos/Research-Page-Template-Test.md) | Test page generated using the Research Project Page Template | 0 | 0 | 2025-12-04 |
 | [climate-ai-sample](../repos/climate-ai-sample.md) | Sample research project page: AI for Climate Prediction and Extreme Weather Fore... | 0 | 0 | 2025-12-06 |
+| [msca-green-finance-training](../repos/msca-green-finance-training.md) | MSCA Digital Finance Training Week - Naples Dec 2025 | 0 | 0 | 2025-12-09 |

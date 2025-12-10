@@ -22,8 +22,8 @@ Automated dashboard for monitoring all repositories in the Digital-AI-Finance or
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-21 |
-| Last Updated | 2025-12-08 |
-| Last Push | 2025-12-08 |
+| Last Updated | 2025-12-09 |
+| Last Push | 2025-12-09 |
 | Contributors | 2 |
 | Default Branch | main |
 | Visibility | public |
@@ -46,37 +46,37 @@ This repository includes 20 dataset(s):
 
 | [build_log.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/build_log.json) | .json | 4.05 KB |
 
-| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 69.54 KB |
+| [citation_history.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_history.json) | .json | 75.34 KB |
 
-| [citation_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_report.json) | .json | 3.72 KB |
+| [citation_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/citation_report.json) | .json | 3.73 KB |
 
-| [code_quality_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/code_quality_report.json) | .json | 16.8 KB |
+| [code_quality_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/code_quality_report.json) | .json | 17.73 KB |
 
-| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/collaboration_network.json) | .json | 6.0 KB |
+| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/collaboration_network.json) | .json | 6.06 KB |
 
-| [ml_topic_analysis.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/ml_topic_analysis.json) | .json | 29.21 KB |
+| [ml_topic_analysis.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/ml_topic_analysis.json) | .json | 30.6 KB |
 
-| [repos.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repos.json) | .json | 287.88 KB |
+| [repos.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repos.json) | .json | 304.45 KB |
 
-| [repository_health_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repository_health_report.json) | .json | 51.27 KB |
+| [repository_health_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/repository_health_report.json) | .json | 54.16 KB |
 
-| [reproducibility_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/reproducibility_report.json) | .json | 30.38 KB |
+| [reproducibility_report.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/reproducibility_report.json) | .json | 31.64 KB |
 
-| [research_metadata.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/research_metadata.json) | .json | 106.82 KB |
+| [research_metadata.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/research_metadata.json) | .json | 111.26 KB |
 
-| [search_index.pkl](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/search_index.pkl) | .pkl | 234.28 KB |
+| [search_index.pkl](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/search_index.pkl) | .pkl | 250.62 KB |
 
-| [stats.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/stats.json) | .json | 3.02 KB |
+| [stats.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/data/stats.json) | .json | 3.08 KB |
 
 | [data](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data) |  | 0.0 KB |
 
-| [search_data.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data/search_data.json) | .json | 681.09 KB |
+| [search_data.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data/search_data.json) | .json | 724.14 KB |
 
-| [search_data_minimal.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data/search_data_minimal.json) | .json | 488.37 KB |
+| [search_data_minimal.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/data/search_data_minimal.json) | .json | 518.46 KB |
 
 | [citation_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/visualizations/citation_network.json) | .json | 0.33 KB |
 
-| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/visualizations/collaboration_network.json) | .json | 1.48 KB |
+| [collaboration_network.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/docs/visualizations/collaboration_network.json) | .json | 1.54 KB |
 
 | [research_metadata_schema.json](https://github.com/Digital-AI-Finance/org-dashboard/blob/main/schemas/research_metadata_schema.json) | .json | 5.45 KB |
 

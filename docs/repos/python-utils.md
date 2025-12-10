@@ -22,8 +22,8 @@ Python utilities for web tools and automation
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-08 |
-| Last Updated | 2025-12-08 |
-| Last Push | 2025-12-08 |
+| Last Updated | 2025-12-09 |
+| Last Push | 2025-12-09 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | private |
@@ -31,6 +31,16 @@ Python utilities for web tools and automation
 
 
 
+
+
+## Datasets
+
+This repository includes 1 dataset(s):
+
+| Dataset | Format | Size |
+|---------|--------|------|
+
+| [neural-networks-template.json](https://github.com/Digital-AI-Finance/python-utils/blob/main/layout_enforcer/neural-networks-template.json) | .json | 3.64 KB |
 
 
 

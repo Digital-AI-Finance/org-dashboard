@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 13920,
+    "size": 14162,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-12-08T03:21:45+00:00",
-    "pushed_at": "2025-12-08T03:21:43+00:00",
+    "updated_at": "2025-12-09T03:21:32+00:00",
+    "pushed_at": "2025-12-09T03:21:31+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:11:41.143176",
+        "extracted_at": "2025-12-10T03:15:26.483664",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -89,67 +89,67 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 71205
+          "size_bytes": 77151
         },
         {
           "name": "citation_report.json",
           "path": "data/citation_report.json",
           "format": ".json",
-          "size_bytes": 3814
+          "size_bytes": 3815
         },
         {
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 17199
+          "size_bytes": 18151
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 6142
+          "size_bytes": 6203
         },
         {
           "name": "ml_topic_analysis.json",
           "path": "data/ml_topic_analysis.json",
           "format": ".json",
-          "size_bytes": 29910
+          "size_bytes": 31335
         },
         {
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 294787
+          "size_bytes": 311761
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 52502
+          "size_bytes": 55461
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 31113
+          "size_bytes": 32403
         },
         {
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 109384
+          "size_bytes": 113928
         },
         {
           "name": "search_index.pkl",
           "path": "data/search_index.pkl",
           "format": ".pkl",
-          "size_bytes": 239898
+          "size_bytes": 256632
         },
         {
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 3097
+          "size_bytes": 3152
         },
         {
           "name": "data",
@@ -161,13 +161,13 @@
           "name": "search_data.json",
           "path": "docs/data/search_data.json",
           "format": ".json",
-          "size_bytes": 697437
+          "size_bytes": 741518
         },
         {
           "name": "search_data_minimal.json",
           "path": "docs/data/search_data_minimal.json",
           "format": ".json",
-          "size_bytes": 500095
+          "size_bytes": 530902
         },
         {
           "name": "citation_network.json",
@@ -179,7 +179,7 @@
           "name": "collaboration_network.json",
           "path": "docs/visualizations/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 1513
+          "size_bytes": 1582
         },
         {
           "name": "research_metadata_schema.json",
@@ -320,7 +320,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:11:43.776571",
+        "extracted_at": "2025-12-10T03:15:28.600168",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -414,7 +414,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:11:46.260791",
+        "extracted_at": "2025-12-10T03:15:30.680647",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -512,7 +512,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:11:48.631749",
+        "extracted_at": "2025-12-10T03:15:32.766122",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -532,11 +532,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 5294,
+    "size": 8438,
     "default_branch": "main",
     "created_at": "2025-11-22T07:02:13+00:00",
-    "updated_at": "2025-11-22T20:38:15+00:00",
-    "pushed_at": "2025-11-22T20:38:12+00:00",
+    "updated_at": "2025-12-09T22:21:17+00:00",
+    "pushed_at": "2025-12-09T22:21:13+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -578,7 +578,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:11:59.516320",
+        "extracted_at": "2025-12-10T03:15:45.287565",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -659,11 +659,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 231453,
+    "size": 231508,
     "default_branch": "main",
     "created_at": "2025-11-22T07:10:08+00:00",
-    "updated_at": "2025-12-08T22:00:01+00:00",
-    "pushed_at": "2025-12-08T21:59:57+00:00",
+    "updated_at": "2025-12-09T16:21:27+00:00",
+    "pushed_at": "2025-12-09T16:21:22+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -994,7 +994,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:13:33.701199",
+        "extracted_at": "2025-12-10T03:17:00.859160",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1191,7 +1191,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:13:43.049443",
+        "extracted_at": "2025-12-10T03:17:08.755759",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1264,7 +1264,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:13:46.605440",
+        "extracted_at": "2025-12-10T03:17:11.704691",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1625,7 +1625,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:14:18.824535",
+        "extracted_at": "2025-12-10T03:17:38.689013",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2098,7 +2098,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:14:29.313266",
+        "extracted_at": "2025-12-10T03:17:47.395190",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2309,7 +2309,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:14:31.757837",
+        "extracted_at": "2025-12-10T03:17:49.571139",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2405,7 +2405,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:14:46.285568",
+        "extracted_at": "2025-12-10T03:18:01.170746",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2539,7 +2539,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:14:57.719892",
+        "extracted_at": "2025-12-10T03:18:11.109144",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2727,7 +2727,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:15:11.256525",
+        "extracted_at": "2025-12-10T03:18:22.055801",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2820,7 +2820,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:15:16.294974",
+        "extracted_at": "2025-12-10T03:18:26.133762",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2937,7 +2937,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:15:24.921251",
+        "extracted_at": "2025-12-10T03:18:33.176100",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3034,7 +3034,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:15:53.684625",
+        "extracted_at": "2025-12-10T03:18:56.343529",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3525,7 +3525,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:16:00.573231",
+        "extracted_at": "2025-12-10T03:19:02.065363",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3634,7 +3634,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:16:32.434384",
+        "extracted_at": "2025-12-10T03:19:28.173987",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3832,185 +3832,6 @@
       "publications": [
         {
           "type": "journal-article",
-          "doi": "10.1186/s13643-016-0384-4",
-          "url": "https://doi.org/10.1186/s13643-016-0384-4",
-          "title": "Rayyan—a web and mobile app for systematic reviews",
-          "abstract": "",
-          "published": "2016-12-01",
-          "year": 2016,
-          "authors": [
-            {
-              "name": "Mourad Ouzzani"
-            },
-            {
-              "name": "Hossam Hammady"
-            },
-            {
-              "name": "Zbys Fedorowicz"
-            },
-            {
-              "name": "Ahmed Elmagarmid"
-            }
-          ],
-          "venue": "Systematic Reviews",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 16837,
-          "reference_count": 19
-        },
-        {
-          "type": "journal",
-          "doi": "10.1038/s42256-020-00287-7)",
-          "url": "https://doi.org/10.1038/s42256-020-00287-7)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1038/s41591-022-02139-w)",
-          "url": "https://doi.org/10.1038/s41591-022-02139-w)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1186/s13643-016-0384-4)",
-          "url": "https://doi.org/10.1186/s13643-016-0384-4)"
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1002/jrsm.1715",
-          "url": "https://doi.org/10.1002/jrsm.1715",
-          "title": "Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages",
-          "abstract": "<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehensively evaluated against humans, and no study has tested Generative Pre‐Trained Transformer (GPT)‐4, the biggest LLM so far. This pre‐registered study uses a “human‐out‐of‐the‐loop” approach to evaluate GPT‐4's capability in title/abstract screening, full‐text review and data extraction across various literature types and languages. Although GPT‐4 had accuracy on par with human performance in some tasks, results were skewed by chance agreement and dataset imbalance. Adjusting for these caused performance scores to drop across all stages: for data extraction, performance was moderate, and for screening, it ranged from none in highly balanced literature datasets (~1:1) to moderate in those datasets where the ratio of inclusion to exclusion in studies was imbalanced (~1:3). When screening full‐text literature using highly reliable prompts, GPT‐4's performance was more robust, reaching “human‐like” levels. Although our findings indicate that, currently, substantial caution should be exercised if LLMs are being used to conduct systematic reviews, they also offer preliminary evidence that, for certain review tasks delivered under specific conditions, LLMs can rival human performance.</jats:p>",
-          "published": "2024-03-14",
-          "year": 2024,
-          "authors": [
-            {
-              "name": "Qusai Khraisha",
-              "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
-            },
-            {
-              "name": "Sophie Put",
-              "affiliation": "Department of Education York University  York UK"
-            },
-            {
-              "name": "Johanna Kappenberg",
-              "affiliation": "School of Psychology Trinity College Dublin  Dublin Ireland"
-            },
-            {
-              "name": "Azza Warraitch",
-              "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
-            },
-            {
-              "name": "Kristin Hadfield",
-              "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
-            }
-          ],
-          "venue": "Research Synthesis Methods",
-          "publisher": "Wiley",
-          "citation_count": 133,
-          "reference_count": 42
-        },
-        {
-          "type": "journal",
-          "doi": "10.1002/jrsm.1715)",
-          "url": "https://doi.org/10.1002/jrsm.1715)"
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1038/s42256-020-00287-7",
-          "url": "https://doi.org/10.1038/s42256-020-00287-7",
-          "title": "An open source machine learning framework for efficient and transparent systematic reviews",
-          "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
-          "published": "2021-02-01",
-          "year": 2021,
-          "authors": [
-            {
-              "name": "Rens van de Schoot"
-            },
-            {
-              "name": "Jonathan de Bruin"
-            },
-            {
-              "name": "Raoul Schram"
-            },
-            {
-              "name": "Parisa Zahedi"
-            },
-            {
-              "name": "Jan de Boer"
-            },
-            {
-              "name": "Felix Weijdema"
-            },
-            {
-              "name": "Bianca Kramer"
-            },
-            {
-              "name": "Martijn Huijts"
-            },
-            {
-              "name": "Maarten Hoogerwerf"
-            },
-            {
-              "name": "Gerbrich Ferdinands"
-            },
-            {
-              "name": "Albert Harkema"
-            },
-            {
-              "name": "Joukje Willemsen"
-            },
-            {
-              "name": "Yongchao Ma"
-            },
-            {
-              "name": "Qixiang Fang"
-            },
-            {
-              "name": "Sybren Hindriks"
-            },
-            {
-              "name": "Lars Tummers"
-            },
-            {
-              "name": "Daniel L. Oberski"
-            }
-          ],
-          "venue": "Nature Machine Intelligence",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 713,
-          "reference_count": 63
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1186/s13643-019-1074-9",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9",
-          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
-          "abstract": "",
-          "published": "2019-07-11",
-          "year": 2019,
-          "authors": [
-            {
-              "name": "Iain J. Marshall"
-            },
-            {
-              "name": "Byron C. Wallace"
-            }
-          ],
-          "venue": "Systematic Reviews",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 394,
-          "reference_count": 40
-        },
-        {
-          "type": "journal",
-          "doi": "10.1101/2025.06.13.25329541v1)",
-          "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1186/s13643-019-1074-9)",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9)"
-        },
-        {
-          "type": "journal-article",
           "doi": "10.1038/s41591-022-02139-w",
           "url": "https://doi.org/10.1038/s41591-022-02139-w",
           "title": "PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare",
@@ -4095,6 +3916,185 @@
           "publisher": "Springer Science and Business Media LLC",
           "citation_count": 92,
           "reference_count": 10
+        },
+        {
+          "type": "journal",
+          "doi": "10.1186/s13643-019-1074-9)",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1101/2025.06.13.25329541v1)",
+          "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1002/jrsm.1715)",
+          "url": "https://doi.org/10.1002/jrsm.1715)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1186/s13643-016-0384-4)",
+          "url": "https://doi.org/10.1186/s13643-016-0384-4)"
+        },
+        {
+          "type": "journal-article",
+          "doi": "10.1186/s13643-016-0384-4",
+          "url": "https://doi.org/10.1186/s13643-016-0384-4",
+          "title": "Rayyan—a web and mobile app for systematic reviews",
+          "abstract": "",
+          "published": "2016-12-01",
+          "year": 2016,
+          "authors": [
+            {
+              "name": "Mourad Ouzzani"
+            },
+            {
+              "name": "Hossam Hammady"
+            },
+            {
+              "name": "Zbys Fedorowicz"
+            },
+            {
+              "name": "Ahmed Elmagarmid"
+            }
+          ],
+          "venue": "Systematic Reviews",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 16852,
+          "reference_count": 19
+        },
+        {
+          "type": "journal-article",
+          "doi": "10.1038/s42256-020-00287-7",
+          "url": "https://doi.org/10.1038/s42256-020-00287-7",
+          "title": "An open source machine learning framework for efficient and transparent systematic reviews",
+          "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
+          "published": "2021-02-01",
+          "year": 2021,
+          "authors": [
+            {
+              "name": "Rens van de Schoot"
+            },
+            {
+              "name": "Jonathan de Bruin"
+            },
+            {
+              "name": "Raoul Schram"
+            },
+            {
+              "name": "Parisa Zahedi"
+            },
+            {
+              "name": "Jan de Boer"
+            },
+            {
+              "name": "Felix Weijdema"
+            },
+            {
+              "name": "Bianca Kramer"
+            },
+            {
+              "name": "Martijn Huijts"
+            },
+            {
+              "name": "Maarten Hoogerwerf"
+            },
+            {
+              "name": "Gerbrich Ferdinands"
+            },
+            {
+              "name": "Albert Harkema"
+            },
+            {
+              "name": "Joukje Willemsen"
+            },
+            {
+              "name": "Yongchao Ma"
+            },
+            {
+              "name": "Qixiang Fang"
+            },
+            {
+              "name": "Sybren Hindriks"
+            },
+            {
+              "name": "Lars Tummers"
+            },
+            {
+              "name": "Daniel L. Oberski"
+            }
+          ],
+          "venue": "Nature Machine Intelligence",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 713,
+          "reference_count": 63
+        },
+        {
+          "type": "journal",
+          "doi": "10.1038/s41591-022-02139-w)",
+          "url": "https://doi.org/10.1038/s41591-022-02139-w)"
+        },
+        {
+          "type": "journal-article",
+          "doi": "10.1186/s13643-019-1074-9",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9",
+          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+          "abstract": "",
+          "published": "2019-07-11",
+          "year": 2019,
+          "authors": [
+            {
+              "name": "Iain J. Marshall"
+            },
+            {
+              "name": "Byron C. Wallace"
+            }
+          ],
+          "venue": "Systematic Reviews",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 395,
+          "reference_count": 40
+        },
+        {
+          "type": "journal",
+          "doi": "10.1038/s42256-020-00287-7)",
+          "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+        },
+        {
+          "type": "journal-article",
+          "doi": "10.1002/jrsm.1715",
+          "url": "https://doi.org/10.1002/jrsm.1715",
+          "title": "Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages",
+          "abstract": "<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehensively evaluated against humans, and no study has tested Generative Pre‐Trained Transformer (GPT)‐4, the biggest LLM so far. This pre‐registered study uses a “human‐out‐of‐the‐loop” approach to evaluate GPT‐4's capability in title/abstract screening, full‐text review and data extraction across various literature types and languages. Although GPT‐4 had accuracy on par with human performance in some tasks, results were skewed by chance agreement and dataset imbalance. Adjusting for these caused performance scores to drop across all stages: for data extraction, performance was moderate, and for screening, it ranged from none in highly balanced literature datasets (~1:1) to moderate in those datasets where the ratio of inclusion to exclusion in studies was imbalanced (~1:3). When screening full‐text literature using highly reliable prompts, GPT‐4's performance was more robust, reaching “human‐like” levels. Although our findings indicate that, currently, substantial caution should be exercised if LLMs are being used to conduct systematic reviews, they also offer preliminary evidence that, for certain review tasks delivered under specific conditions, LLMs can rival human performance.</jats:p>",
+          "published": "2024-03-14",
+          "year": 2024,
+          "authors": [
+            {
+              "name": "Qusai Khraisha",
+              "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+            },
+            {
+              "name": "Sophie Put",
+              "affiliation": "Department of Education York University  York UK"
+            },
+            {
+              "name": "Johanna Kappenberg",
+              "affiliation": "School of Psychology Trinity College Dublin  Dublin Ireland"
+            },
+            {
+              "name": "Azza Warraitch",
+              "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+            },
+            {
+              "name": "Kristin Hadfield",
+              "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+            }
+          ],
+          "venue": "Research Synthesis Methods",
+          "publisher": "Wiley",
+          "citation_count": 133,
+          "reference_count": 42
         }
       ],
       "code": {
@@ -4117,7 +4117,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:16:43.679545",
+        "extracted_at": "2025-12-10T03:19:37.680469",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4215,7 +4215,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:16:47.026028",
+        "extracted_at": "2025-12-10T03:19:40.424301",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4354,7 +4354,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:16:57.291777",
+        "extracted_at": "2025-12-10T03:19:49.125778",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4553,7 +4553,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:17:08.370497",
+        "extracted_at": "2025-12-10T03:19:58.466120",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4699,7 +4699,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:17:14.460919",
+        "extracted_at": "2025-12-10T03:20:03.616419",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4781,11 +4781,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 9905,
+    "size": 12033,
     "default_branch": "main",
     "created_at": "2025-12-07T20:35:56+00:00",
-    "updated_at": "2025-12-08T08:07:32+00:00",
-    "pushed_at": "2025-12-08T07:54:02+00:00",
+    "updated_at": "2025-12-09T16:42:39+00:00",
+    "pushed_at": "2025-12-09T16:42:34+00:00",
     "license": "Other",
     "has_issues": true,
     "has_wiki": true,
@@ -4833,7 +4833,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:17:47.247564",
+        "extracted_at": "2025-12-10T03:21:46.654395",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4853,11 +4853,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 40,
+    "size": 85,
     "default_branch": "main",
     "created_at": "2025-12-08T08:21:53+00:00",
-    "updated_at": "2025-12-08T17:21:40+00:00",
-    "pushed_at": "2025-12-08T17:21:36+00:00",
+    "updated_at": "2025-12-09T21:48:30+00:00",
+    "pushed_at": "2025-12-09T21:48:26+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -4899,11 +4899,18 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:17:51.338086",
+        "extracted_at": "2025-12-10T03:21:50.877817",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
-      "datasets": []
+      "datasets": [
+        {
+          "name": "neural-networks-template.json",
+          "path": "layout_enforcer/neural-networks-template.json",
+          "format": ".json",
+          "size_bytes": 3723
+        }
+      ]
     }
   },
   {
@@ -4919,11 +4926,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 6607,
+    "size": 6676,
     "default_branch": "master",
     "created_at": "2025-12-08T08:26:16+00:00",
-    "updated_at": "2025-12-08T17:11:38+00:00",
-    "pushed_at": "2025-12-08T17:11:35+00:00",
+    "updated_at": "2025-12-09T16:01:16+00:00",
+    "pushed_at": "2025-12-09T16:01:11+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": true,
@@ -4934,7 +4941,7 @@
     "is_template": false,
     "visibility": "public",
     "contributors_count": 1,
-    "readme": "# BSc Blockchain, Crypto Economy & NFTs\n\nA comprehensive course covering blockchain technology, cryptocurrency economics, and non-fungible tokens (NFTs) for Bachelor of Science students.\n\n## Course Overview\n\nThis 12-week course (48 lessons, 6 ECTS credits) provides both theoretical understanding and practical skills in distributed ledger technology, smart contracts, decentralized finance (DeFi), and digital asset management. Students engage in hands-on laboratory exercises and complete a semester-long project applying blockchain concepts to real-world scenarios.\n\n### Key Learning Objectives\n\n- Understand blockchain fundamentals, consensus mechanisms, and cryptographic principles\n- Develop and deploy smart contracts using Solidity\n- Analyze token economics and DeFi protocols\n- Evaluate NFT technology and digital asset markets\n- Assess regulatory frameworks and security considerations\n- Design blockchain-based solutions for business problems\n\n## Repository Structure\n\n### Modules (7 total, 48 lessons)\n\n```\nModule_A_Blockchain_Foundations/     (12 lessons)\n  - Blockchain basics, hash functions, cryptography\n  - Bitcoin protocol, consensus mechanisms\n  - Scalability trilemma\n\nModule_B_Ethereum_Smart_Contracts/   (8 lessons)\n  - Ethereum architecture, EVM, gas mechanics\n  - Solidity programming\n  - Token standards (ERC20, ERC721, ERC1155)\n\nModule_C_NFTs_Digital_Assets/        (8 lessons)\n  - NFT technology, metadata, IPFS\n  - NFT marketplaces and applications\n  - Digital art, gaming, real-world asset tokenization\n\nModule_D_Tokenomics/                 (4 lessons)\n  - Token economics fundamentals\n  - Distribution models, vesting schedules\n  - Token classification and valuation\n\nModule_E_DeFi_Ecosystem/             (8 lessons)\n  - Decentralized finance overview\n  - Automated market makers (Uniswap)\n  - Lending protocols, stablecoins\n  - Case study: Terra/Luna collapse\n\nModule_F_Advanced_Topics/            (4 lessons)\n  - Layer 2 scaling solutions\n  - Flash loans and composability\n  - Smart contract security\n\nModule_G_Regulation_Future/          (4 lessons)\n  - Global regulatory landscape\n  - Swiss FINMA and EU MiCA frameworks\n  - CBDCs and future trends\n```\n\n### Supporting Materials\n\n```\nassessments/\n  projects/     - Semester project specifications (4 tracks)\n  quizzes/      - 5 quizzes covering course material\n  rubrics/      - Grading criteria for all assessments\n\nlabs/           - 12 hands-on laboratory exercises\n\ncharts/         - Visualizations and diagrams\n```\n\n## Quick Navigation\n\n### Essential Documents\n\n- **[SYLLABUS.md](SYLLABUS.md)** - Complete course syllabus with schedule, assessment structure, and policies\n- **[PROGRESS_TRACKER.md](PROGRESS_TRACKER.md)** - Development status for all 48 lessons and materials\n\n### Course Schedule (12 Weeks)\n\n| Week | Module | Topics | Lab |\n|------|--------|--------|-----|\n| 1 | A | What is Blockchain, DLT, Hash Functions | Hash Experiments |\n| 2 | A | Cryptography, Bitcoin, Proof of Work | Wallet Setup |\n| 3 | A | Proof of Stake, Consensus, Scalability | Block Explorer |\n| 4 | B | Ethereum, EVM, Gas, Solidity | Contract Interaction |\n| 5 | B | ERC20, ERC721/1155, Token Lifecycle | Token Deployment |\n| 6 | C | NFT Technology, Metadata, Marketplaces | OpenSea Analysis |\n| 7 | C | Digital Art, Gaming, RWA Tokenization | NFT Valuation |\n| 8 | D | Token Economics, Distribution, Valuation | Tokenomics Analysis |\n| 9 | E | DeFi Intro, AMMs, Uniswap | Testnet Swap |\n| 10 | E | Lending, Stablecoins, Terra/Luna | Testnet Lending |\n| 11 | F | Layer 2, Flash Loans, Security | Security Audit |\n| 12 | G | Regulation, FINMA/MiCA, CBDCs | Course Synthesis |\n\n## Assessment Structure\n\n### Grade Breakdown\n- **Semester Project:** 70%\n- **Quizzes:** 10% (5 quizzes)\n- **Laboratory Exercises:** 15% (best 10 of 12)\n- **Class Participation:** 5%\n\n### Project Tracks (Choose 1)\n\n1. **Token Economy Design** - Design and implement a complete tokenomics model\n2. **NFT Platform Development** - Deploy NFT collection with utility features\n3. **DeFi Protocol Analysis** - Deep analysis and simulation of DeFi protocol\n4. **Supply Chain Solution** - Blockchain-based supply chain tracking system\n\n## Prerequisites\n\n### Knowledge Prerequisites\n- Basic programming knowledge (Python or similar)\n- Understanding of basic economic principles\n- Familiarity with web technologies (helpful but not required)\n\n### Required Tools\n- **Cryptocurrency Wallet:** MetaMask (browser extension)\n- **Development Environment:** Remix IDE, Hardhat or Foundry, VS Code\n- **Blockchain Explorers:** Etherscan, Blockchain.com\n- **Testnet Access:** Sepolia/Goerli ETH faucets\n- **Data Analysis:** Python (pandas, web3.py, matplotlib)\n\n## How to Use This Repository\n\n### For Instructors\n\n1. **Review the syllabus** - [SYLLABUS.md](SYLLABUS.md) contains complete course structure\n2. **Check lesson materials** - Navigate to individual lesson folders for slides and charts\n3. **Prepare labs** - Review lab guides in the `labs/` directory\n4. **Customize assessments** - Adapt project specifications and quizzes in `assessments/`\n5. **Track progress** - Use [PROGRESS_TRACKER.md](PROGRESS_TRACKER.md) to monitor development\n\n### For Students\n\n1. **Follow the weekly schedule** - See syllabus for lesson sequence\n2. **Complete labs on time** - 12 hands-on exercises throughout the semester\n3. **Prepare for quizzes** - 5 quizzes covering 2-week blocks\n4. **Choose project track early** - Team formation by Week 3\n5. **Use testnet only** - Never use real cryptocurrency for exercises\n\n### For Content Developers\n\n1. **Check PROGRESS_TRACKER.md** - See which lessons need development\n2. **Follow naming conventions** - Use `YYYYMMDD_HHMM_` prefix for .tex files\n3. **Use Python for charts** - No TikZ; standalone Python scripts in chart folders\n4. **Update tracking files** - Mark lessons as complete in PROGRESS_TRACKER.md\n5. **Compile and verify PDFs** - Ensure all materials render correctly\n\n## Technical Specifications\n\n### Slide Format\n- **Framework:** LaTeX Beamer\n- **Theme:** Madrid\n- **Font Size:** 8pt\n- **Aspect Ratio:** 16:9\n- **Template:** `template_beamer_final.tex`\n\n### Chart Generation\n- **Language:** Python (matplotlib, seaborn)\n- **Format:** PDF output\n- **Organization:** One folder per chart with script and output\n- **Naming:** Content-based names (e.g., `bitcoin_network_growth/`)\n\n### File Versioning\n- All .tex files prefixed with timestamp: `YYYYMMDD_HHMM_filename.tex`\n- Previous versions stored in `previous/` subdirectories\n- PDFs compiled with full output path logging\n\n## Development Status\n\n### Current Progress (as of 2025-12-07)\n\n| Category | Completed | Total | Progress |\n|----------|-----------|-------|----------|\n| Lessons | 0 | 48 | 0% |\n| Lab Guides | 0 | 12 | 0% |\n| Charts | 0 | ~100 | 0% |\n| Assessments | 0 | 5 | 0% |\n\n**Latest Updates:**\n- Course infrastructure created (folders, syllabus, tracker)\n- Module structure defined (7 modules, 48 lessons)\n- Assessment framework established (4 project tracks, 5 quizzes)\n\nSee [PROGRESS_TRACKER.md](PROGRESS_TRACKER.md) for detailed status.\n\n## Course Policies\n\n### Academic Integrity\n- All work must be original with proper attribution\n- AI tool usage (ChatGPT, Copilot) must be disclosed\n- Plagiarism results in automatic course failure\n\n### Safety & Security\n- **NEVER use real cryptocurrency for learning exercises**\n- Always use testnets (Sepolia, Goerli)\n- Never share private keys or seed phrases\n- Be cautious of phishing attempts\n\n### Collaboration\n- Labs: Individual work, discussion permitted\n- Quizzes: Individual work, no collaboration\n- Project: Team collaboration expected, individual contributions documented\n\n## Resources\n\n### Required Readings\n- Antonopoulos, A. M. (2017). *Mastering Bitcoin* (2nd ed.)\n- Antonopoulos, A. M., & Wood, G. (2018). *Mastering Ethereum*\n- Selected academic papers (provided weekly)\n\n### Recommended Platforms\n- Ethereum.org documentation\n- Solidity documentation\n- DeFi Llama (protocol analytics)\n- OpenZeppelin (smart contract library)\n\n### Community & Support\n- Course discussion forum (link TBD)\n- Office hours (schedule TBD)\n- Teaching assistant lab hours (schedule TBD)\n\n## Contact Information\n\n**Instructor:** [Name]\n**Email:** [Email]\n**Office:** [Location]\n**Office Hours:** [Schedule]\n\n**Teaching Assistant:** [Name]\n**Email:** [Email]\n**Lab Hours:** [Schedule]\n\n## License & Disclaimer\n\nThis course is for educational purposes only. Nothing in this course constitutes financial or investment advice. Cryptocurrency and blockchain technologies involve significant risks. Students are responsible for complying with all applicable laws and regulations in their jurisdiction.\n\n---\n\n**Course ID:** [TBD]\n**Department:** [TBD]\n**Institution:** [TBD]\n**Last Updated:** December 2025\n**Version:** 1.0\n",
+    "readme": "# BSc Blockchain, Crypto Economy & NFTs\n\nA comprehensive course covering blockchain technology, cryptocurrency economics, and non-fungible tokens (NFTs) for Bachelor of Science students.\n\n## Course Overview\n\nThis 12-week course (48 lessons, 6 ECTS credits) provides both theoretical understanding and practical skills in distributed ledger technology, smart contracts, decentralized finance (DeFi), and digital asset management. Students engage in hands-on laboratory exercises and complete a semester-long project applying blockchain concepts to real-world scenarios.\n\n### Key Learning Objectives\n\n- Understand blockchain fundamentals, consensus mechanisms, and cryptographic principles\n- Develop and deploy smart contracts using Solidity\n- Analyze token economics and DeFi protocols\n- Evaluate NFT technology and digital asset markets\n- Assess regulatory frameworks and security considerations\n- Design blockchain-based solutions for business problems\n\n## Repository Structure\n\n### Modules (7 total, 48 lessons)\n\n```\nModule_A_Blockchain_Foundations/     (12 lessons)\n  - Blockchain basics, hash functions, cryptography\n  - Bitcoin protocol, consensus mechanisms\n  - Scalability trilemma\n\nModule_B_Ethereum_Smart_Contracts/   (8 lessons)\n  - Ethereum architecture, EVM, gas mechanics\n  - Solidity programming\n  - Token standards (ERC20, ERC721, ERC1155)\n\nModule_C_NFTs_Digital_Assets/        (8 lessons)\n  - NFT technology, metadata, IPFS\n  - NFT marketplaces and applications\n  - Digital art, gaming, real-world asset tokenization\n\nModule_D_Tokenomics/                 (4 lessons)\n  - Token economics fundamentals\n  - Distribution models, vesting schedules\n  - Token classification and valuation\n\nModule_E_DeFi_Ecosystem/             (8 lessons)\n  - Decentralized finance overview\n  - Automated market makers (Uniswap)\n  - Lending protocols, stablecoins\n  - Case study: Terra/Luna collapse\n\nModule_F_Advanced_Topics/            (4 lessons)\n  - Layer 2 scaling solutions\n  - Flash loans and composability\n  - Smart contract security\n\nModule_G_Regulation_Future/          (4 lessons)\n  - Global regulatory landscape\n  - Swiss FINMA and EU MiCA frameworks\n  - CBDCs and future trends\n```\n\n### Supporting Materials\n\n```\nassessments/\n  projects/     - Semester project specifications (4 tracks)\n  quizzes/      - 5 quizzes covering course material\n  rubrics/      - Grading criteria for all assessments\n\nlabs/           - 12 hands-on laboratory exercises\n\ncharts/         - Visualizations and diagrams\n```\n\n## Quick Navigation\n\n### Essential Documents\n\n- **[SYLLABUS.md](SYLLABUS.md)** - Complete course syllabus with schedule, assessment structure, and policies\n- **[PROGRESS_TRACKER.md](PROGRESS_TRACKER.md)** - Development status for all 48 lessons and materials\n\n### Course Schedule (12 Weeks)\n\n| Week | Module | Topics | Lab |\n|------|--------|--------|-----|\n| 1 | A | What is Blockchain, DLT, Hash Functions | Hash Experiments |\n| 2 | A | Cryptography, Bitcoin, Proof of Work | Wallet Setup |\n| 3 | A | Proof of Stake, Consensus, Scalability | Block Explorer |\n| 4 | B | Ethereum, EVM, Gas, Solidity | Contract Interaction |\n| 5 | B | ERC20, ERC721/1155, Token Lifecycle | Token Deployment |\n| 6 | C | NFT Technology, Metadata, Marketplaces | OpenSea Analysis |\n| 7 | C | Digital Art, Gaming, RWA Tokenization | NFT Valuation |\n| 8 | D | Token Economics, Distribution, Valuation | Tokenomics Analysis |\n| 9 | E | DeFi Intro, AMMs, Uniswap | Testnet Swap |\n| 10 | E | Lending, Stablecoins, Terra/Luna | Testnet Lending |\n| 11 | F | Layer 2, Flash Loans, Security | Security Audit |\n| 12 | G | Regulation, FINMA/MiCA, CBDCs | Course Synthesis |\n\n## Assessment Structure\n\n### Grade Breakdown\n- **Semester Project:** 70%\n- **Quizzes:** 10% (5 quizzes)\n- **Laboratory Exercises:** 15% (best 10 of 12)\n- **Class Participation:** 5%\n\n### Project Tracks (Choose 1)\n\n1. **Token Economy Design** - Design and implement a complete tokenomics model\n2. **NFT Platform Development** - Deploy NFT collection with utility features\n3. **DeFi Protocol Analysis** - Deep analysis and simulation of DeFi protocol\n4. **Supply Chain Solution** - Blockchain-based supply chain tracking system\n\n## Prerequisites\n\n### Knowledge Prerequisites\n- Basic programming knowledge (Python or similar)\n- Understanding of basic economic principles\n- Familiarity with web technologies (helpful but not required)\n\n### Required Tools\n- **Cryptocurrency Wallet:** MetaMask (browser extension)\n- **Development Environment:** Remix IDE, Hardhat or Foundry, VS Code\n- **Blockchain Explorers:** Etherscan, Blockchain.com\n- **Testnet Access:** Sepolia/Goerli ETH faucets\n- **Data Analysis:** Python (pandas, web3.py, matplotlib)\n\n## How to Use This Repository\n\n### For Instructors\n\n1. **Review the syllabus** - [SYLLABUS.md](SYLLABUS.md) contains complete course structure\n2. **Check lesson materials** - Navigate to individual lesson folders for slides and charts\n3. **Prepare labs** - Review lab guides in the `labs/` directory\n4. **Customize assessments** - Adapt project specifications and quizzes in `assessments/`\n5. **Track progress** - Use [PROGRESS_TRACKER.md](PROGRESS_TRACKER.md) to monitor development\n\n### For Students\n\n1. **Follow the weekly schedule** - See syllabus for lesson sequence\n2. **Complete labs on time** - 12 hands-on exercises throughout the semester\n3. **Prepare for quizzes** - 5 quizzes covering 2-week blocks\n4. **Choose project track early** - Team formation by Week 3\n5. **Use testnet only** - Never use real cryptocurrency for exercises\n\n### For Content Developers\n\n1. **Check PROGRESS_TRACKER.md** - See which lessons need development\n2. **Follow naming conventions** - Use `YYYYMMDD_HHMM_` prefix for .tex files\n3. **Use Python for charts** - No TikZ; standalone Python scripts in chart folders\n4. **Update tracking files** - Mark lessons as complete in PROGRESS_TRACKER.md\n5. **Compile and verify PDFs** - Ensure all materials render correctly\n\n## Technical Specifications\n\n### Slide Format\n- **Framework:** LaTeX Beamer\n- **Theme:** Madrid\n- **Font Size:** 8pt\n- **Aspect Ratio:** 16:9\n- **Template:** `template_beamer_final.tex`\n\n### Chart Generation\n- **Language:** Python (matplotlib, seaborn)\n- **Format:** PDF output\n- **Organization:** One folder per chart with script and output\n- **Naming:** Content-based names (e.g., `bitcoin_network_growth/`)\n\n### File Versioning\n- All .tex files prefixed with timestamp: `YYYYMMDD_HHMM_filename.tex`\n- Previous versions stored in `previous/` subdirectories\n- PDFs compiled with full output path logging\n\n## Development Status\n\n### Current Progress (as of 2025-12-09)\n\n| Category | Completed | Total | Progress |\n|----------|-----------|-------|----------|\n| Lessons | 48 | 48 | 100% |\n| Lab Guides | 11 | 11 | 100% |\n| Charts | 8 | 8 | 100% |\n| Quizzes | 6 | 6 | 100% |\n| Assessments | Complete | - | 100% |\n\n**Latest Updates:**\n- All 48 lesson slides created and compiled to PDF\n- All 11 lab guides completed\n- 8 visualization charts generated (Python/matplotlib)\n- 6 quizzes with answer keys\n- Project guide with 4 tracks, grading rubrics, milestone templates\n- GitHub Pages deployed at https://digital-ai-finance.github.io/decentralized-finance\n\nSee [PROGRESS_TRACKER.md](PROGRESS_TRACKER.md) for detailed status.\n\n## Course Policies\n\n### Academic Integrity\n- All work must be original with proper attribution\n- AI tool usage (ChatGPT, Copilot) must be disclosed\n- Plagiarism results in automatic course failure\n\n### Safety & Security\n- **NEVER use real cryptocurrency for learning exercises**\n- Always use testnets (Sepolia, Goerli)\n- Never share private keys or seed phrases\n- Be cautious of phishing attempts\n\n### Collaboration\n- Labs: Individual work, discussion permitted\n- Quizzes: Individual work, no collaboration\n- Project: Team collaboration expected, individual contributions documented\n\n## Resources\n\n### Required Readings\n- Antonopoulos, A. M. (2017). *Mastering Bitcoin* (2nd ed.)\n- Antonopoulos, A. M., & Wood, G. (2018). *Mastering Ethereum*\n- Selected academic papers (provided weekly)\n\n### Recommended Platforms\n- Ethereum.org documentation\n- Solidity documentation\n- DeFi Llama (protocol analytics)\n- OpenZeppelin (smart contract library)\n\n### Community & Support\n- Course discussion forum (link TBD)\n- Office hours (schedule TBD)\n- Teaching assistant lab hours (schedule TBD)\n\n## Contact Information\n\n**Instructor:** [Name]\n**Email:** [Email]\n**Office:** [Location]\n**Office Hours:** [Schedule]\n\n**Teaching Assistant:** [Name]\n**Email:** [Email]\n**Lab Hours:** [Schedule]\n\n## License & Disclaimer\n\nThis course is for educational purposes only. Nothing in this course constitutes financial or investment advice. Cryptocurrency and blockchain technologies involve significant risks. Students are responsible for complying with all applicable laws and regulations in their jurisdiction.\n\n---\n\n**Course ID:** [TBD]\n**Department:** [TBD]\n**Institution:** [TBD]\n**Last Updated:** December 2025\n**Version:** 1.0\n",
     "latest_release": null,
     "research_metadata": {
       "repo_name": "decentralized-finance",
@@ -4969,11 +4976,73 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-09T03:18:29.370195",
+        "extracted_at": "2025-12-10T03:22:23.919262",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
       "datasets": []
     }
+  },
+  {
+    "name": "data-science",
+    "full_name": "Digital-AI-Finance/data-science",
+    "description": "Data Science with Python - BSc Course (48 lessons, 534 slides)",
+    "url": "https://github.com/Digital-AI-Finance/data-science",
+    "clone_url": "https://github.com/Digital-AI-Finance/data-science.git",
+    "homepage": "",
+    "language": "Python",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 11938,
+    "default_branch": "master",
+    "created_at": "2025-12-09T07:31:00+00:00",
+    "updated_at": "2025-12-09T16:25:08+00:00",
+    "pushed_at": "2025-12-09T16:25:04+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": true,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "public",
+    "contributors_count": 1,
+    "readme": "No README available",
+    "latest_release": null
+  },
+  {
+    "name": "msca-green-finance-training",
+    "full_name": "Digital-AI-Finance/msca-green-finance-training",
+    "description": "MSCA Digital Finance Training Week - Naples Dec 2025",
+    "url": "https://github.com/Digital-AI-Finance/msca-green-finance-training",
+    "clone_url": "https://github.com/Digital-AI-Finance/msca-green-finance-training.git",
+    "homepage": "",
+    "language": "HTML",
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 142,
+    "default_branch": "master",
+    "created_at": "2025-12-09T17:55:57+00:00",
+    "updated_at": "2025-12-09T22:19:55+00:00",
+    "pushed_at": "2025-12-09T22:19:52+00:00",
+    "license": "No License",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": true,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "is_template": false,
+    "visibility": "public",
+    "contributors_count": 1,
+    "readme": "No README available",
+    "latest_release": null
   }
 ]

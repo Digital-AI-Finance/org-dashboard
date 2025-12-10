@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-09T03:18:41.775173",
+  "generated_at": "2025-12-10T03:22:39.174310",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -703,13 +703,51 @@
       },
       "language": "TeX",
       "size_kb": 0
+    },
+    "data-science": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "Python",
+      "size_kb": 0
+    },
+    "msca-green-finance-training": {
+      "structure": {
+        "structure_score": 40,
+        "max_score": 100,
+        "metrics": {
+          "has_readme": true,
+          "has_license": false,
+          "has_topics": false,
+          "has_description": true,
+          "recent_activity": true,
+          "has_documentation": false,
+          "has_tests": false,
+          "has_ci": false
+        },
+        "grade": "C"
+      },
+      "language": "HTML",
+      "size_kb": 0
     }
   },
   "summary": {
-    "total_repositories": 37,
-    "average_structure_score": 39.86,
+    "total_repositories": 39,
+    "average_structure_score": 39.87,
     "grades": {
-      "C": 33,
+      "C": 35,
       "D": 3,
       "B": 1
     }
