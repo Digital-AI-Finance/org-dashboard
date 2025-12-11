@@ -2,7 +2,7 @@
 
 Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
 
-Last updated: **2025-12-10**
+Last updated: **2025-12-11**
 
 ---
 
@@ -56,9 +56,9 @@ Browse our research repositories in an interactive, visual format.
 
 | Language | Repositories |
 |----------|--------------|
-| [HTML](by-language/html.md) | 13 |
-| [Python](by-language/python.md) | 7 |
-| [TeX](by-language/tex.md) | 7 |
+| [HTML](by-language/html.md) | 14 |
+| [Python](by-language/python.md) | 8 |
+| [TeX](by-language/tex.md) | 5 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 3 |
 | [SCSS](by-language/scss.md) | 2 |
 
@@ -99,11 +99,11 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
-| [Green-Finance](repos/Green-Finance.md) | 2025-12-09 |
-| [msca-green-finance-training](repos/msca-green-finance-training.md) | 2025-12-09 |
-| [python-utils](repos/python-utils.md) | 2025-12-09 |
-| [digital-finance](repos/digital-finance.md) | 2025-12-09 |
-| [data-science](repos/data-science.md) | 2025-12-09 |
+| [ML_Design_Thinking_16](repos/ML_Design_Thinking_16.md) | 2025-12-10 |
+| [Green-Finance](repos/Green-Finance.md) | 2025-12-10 |
+| [digital-finance](repos/digital-finance.md) | 2025-12-10 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-10 |
+| [msca-green-finance-training](repos/msca-green-finance-training.md) | 2025-12-10 |
 
 
 ---
@@ -119,4 +119,4 @@ Browse our research repositories in an interactive, visual format.
 ---
 
 !!! warning "Repositories Missing README"
-    12 repositories do not have a README file.
+    13 repositories do not have a README file.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-10T03:23:18.119624",
+  "generated_at": "2025-12-11T03:24:51.731612",
   "organization": "Digital-AI-Finance",
   "network": {
     "nodes": [
@@ -9,9 +9,9 @@
           "org-dashboard"
         ],
         "repo_count": 1,
-        "commit_count": 34,
+        "commit_count": 35,
         "first_commit": "2025-11-21T22:02:18+00:00",
-        "last_commit": "2025-12-09T03:21:20+00:00",
+        "last_commit": "2025-12-10T03:25:03+00:00",
         "emails": [
           "github-actions[bot]@users.noreply.github.com"
         ]
@@ -19,52 +19,52 @@
       {
         "id": "josterri",
         "repos": [
-          "network-based-credit-risk-models",
-          "hugo-research-template",
-          "neural-networks-introduction",
-          "book-next-word-prediction",
-          "llm-finance-portfolio",
-          "Fintech-and-Artificial-Intelligence-in-Finance",
-          "digital-ai-in-finance",
-          "Narrative-Digital-Finance",
-          "2025-shanghai-workshop",
-          "org-dashboard",
-          "market-microstructure",
-          "quantlet-branding-tools",
-          "book-next-word-prediction-site",
-          "Statistics",
-          "ai-in-finance",
-          "data-science",
-          "decentralized-finance",
           "Natural-Language-Processing-Details",
-          "python-utils",
-          "ML_Design_Thinking_16",
-          "European-Financial-Data-Space",
-          "Systematic-Literature-Reviews-with-Artificial-Intelligence",
-          "portfolio-optimization-ml",
-          "research-page-generator",
+          "book-next-word-prediction",
+          "Natural-Language-Processing",
           "climate-ai-sample",
           "neural-networks",
-          "msca-green-finance-training",
-          "Research-Page-Template-Test",
+          "quantlet-branding-tools",
           "Green-Finance",
+          "ai-in-finance",
+          "2025-shanghai-workshop",
+          "research-page-generator",
           "digital-finance",
-          "credit-risk-prediction",
-          "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
-          "msca-digital-finance",
           "ShareBuybacks",
+          "Fintech-and-Artificial-Intelligence-in-Finance",
+          "portfolio-optimization-ml",
+          "network-based-credit-risk-models",
+          "book-next-word-prediction-site",
+          "digital-ai-in-finance",
+          "Narrative-Digital-Finance",
+          "Anomaly_and_Fraud_Detection_in_Blockchain_Networks",
           "joerg-osterrieder",
+          "data-science",
+          "python-utils",
+          "credit-risk-prediction",
           "Natural-Language-Processing-Decoding-Strategies",
-          "Natural-Language-Processing",
-          "demo-repository"
+          "msca-digital-finance",
+          "org-dashboard",
+          "Research-Page-Template-Test",
+          "hugo-research-template",
+          "llm-finance-portfolio",
+          "Statistics",
+          "ML_Design_Thinking_16",
+          "Systematic-Literature-Reviews-with-Artificial-Intelligence",
+          "decentralized-finance",
+          "msca-green-finance-training",
+          "demo-repository",
+          "market-microstructure",
+          "neural-networks-introduction",
+          "European-Financial-Data-Space"
         ],
         "repo_count": 38,
-        "commit_count": 476,
+        "commit_count": 507,
         "first_commit": "2025-09-09T11:18:48+00:00",
-        "last_commit": "2025-12-09T22:21:01+00:00",
+        "last_commit": "2025-12-10T23:17:21+00:00",
         "emails": [
-          "josterri@googlemail.com",
-          "josterri@users.noreply.github.com"
+          "josterri@users.noreply.github.com",
+          "josterri@googlemail.com"
         ]
       },
       {
@@ -146,13 +146,13 @@
         "shared_repos": 1
       },
       {
-        "source": "YitingLiu1998",
+        "source": "LennartJohnBaals",
         "target": "josterri",
         "weight": 1,
         "shared_repos": 1
       },
       {
-        "source": "LennartJohnBaals",
+        "source": "YitingLiu1998",
         "target": "josterri",
         "weight": 1,
         "shared_repos": 1
@@ -210,12 +210,12 @@
         "shared_repos": 1
       },
       {
-        "author1": "YitingLiu1998",
+        "author1": "LennartJohnBaals",
         "author2": "josterri",
         "shared_repos": 1
       },
       {
-        "author1": "LennartJohnBaals",
+        "author1": "YitingLiu1998",
         "author2": "josterri",
         "shared_repos": 1
       }
@@ -232,7 +232,7 @@
   "summary": {
     "total_authors": 6,
     "total_collaborations": 6,
-    "total_commits": 546,
+    "total_commits": 578,
     "repositories_analyzed": 38
   },
   "visualizations": {

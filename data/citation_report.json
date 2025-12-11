@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-10T03:22:38.853067",
+  "generated_at": "2025-12-11T03:24:13.298045",
   "citation_graph": {
     "nodes": 5,
     "edges": 0,
@@ -66,10 +66,10 @@
     },
     "Systematic-Literature-Reviews-with-Artificial-Intelligence": {
       "internal_citations": 0,
-      "external_citations": 18185,
+      "external_citations": 18224,
       "total_publications": 11,
       "h_index": 5,
-      "citations_per_paper": 1653.1818181818182
+      "citations_per_paper": 1656.7272727272727
     }
   },
   "network_statistics": {
@@ -84,70 +84,70 @@
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 39
+      "snapshots": 40
     },
     "portfolio-optimization-ml": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 16,
-      "snapshots": 37
+      "snapshots": 38
     },
     "credit-risk-prediction": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 37
+      "snapshots": 38
     },
     "market-microstructure": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 37
+      "snapshots": 38
     },
     "Green-Finance": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 37
+      "snapshots": 38
     },
     "Natural-Language-Processing": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 37
+      "snapshots": 38
     },
     "neural-networks": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 20
+      "snapshots": 21
     },
     "ShareBuybacks": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 17
+      "snapshots": 18
     },
     "quantlet-branding-tools": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 16
+      "snapshots": 17
     },
     "demo-repository": {
       "total_growth": 0,
       "publication_growth": 0,
       "average_monthly_growth": 0.0,
       "current_citations": 0,
-      "snapshots": 14
+      "snapshots": 15
     }
   }
 }

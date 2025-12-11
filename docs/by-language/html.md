@@ -1,11 +1,12 @@
 # HTML Repositories
 
-Total: **13** repositories
+Total: **14** repositories
 
 ---
 
 | Repository | Description | Stars | Forks | Updated |
 |------------|-------------|-------|-------|---------|
+| [Green-Finance](../repos/Green-Finance.md) | Academic course generation system for Green Finance Professional Certificate - 8... | 0 | 0 | 2025-12-10 |
 | [demo-repository](../repos/demo-repository.md) | A code repository designed to show the best GitHub has to offer. | 0 | 0 | 2025-11-29 |
 | [digital-ai-in-finance](../repos/digital-ai-in-finance.md) | CCG application for AI for Digital Finance workshop - Swiss-MENA Research Networ... | 0 | 0 | 2025-12-06 |
 | [Anomaly_and_Fraud_Detection_in_Blockchain_Networks](../repos/Anomaly_and_Fraud_Detection_in_Blockchain_Networks.md) | Anomaly and Fraud Detection in Blockchain Networks - Research by Stephen Chan (P... | 0 | 0 | 2025-12-06 |
@@ -18,4 +19,4 @@ Total: **13** repositories
 | [2025-shanghai-workshop](../repos/2025-shanghai-workshop.md) | 23rd China International Talent Exchange Conference - Data Science, Fintech and ... | 0 | 0 | 2025-12-06 |
 | [Research-Page-Template-Test](../repos/Research-Page-Template-Test.md) | Test page generated using the Research Project Page Template | 0 | 0 | 2025-12-04 |
 | [climate-ai-sample](../repos/climate-ai-sample.md) | Sample research project page: AI for Climate Prediction and Extreme Weather Fore... | 0 | 0 | 2025-12-06 |
-| [msca-green-finance-training](../repos/msca-green-finance-training.md) | MSCA Digital Finance Training Week - Naples Dec 2025 | 0 | 0 | 2025-12-09 |
+| [msca-green-finance-training](../repos/msca-green-finance-training.md) | MSCA Digital Finance Training Week - Naples Dec 2025 | 0 | 0 | 2025-12-10 |

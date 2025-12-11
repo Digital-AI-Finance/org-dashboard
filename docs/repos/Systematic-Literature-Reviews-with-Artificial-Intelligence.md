@@ -13,6 +13,27 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 ## Publications
 
 
+### An open source machine learning framework for efficient and transparent systematic reviews
+
+
+<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta...
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1038/s42256-020-00287-7](https://doi.org/10.1038/s42256-020-00287-7) |
+
+
+| Year | 2021 |
+| Venue | Nature Machine Intelligence |
+| Citations | 714 |
+
+
+**Authors**: Rens van de Schoot, Jonathan de Bruin, Raoul Schram, Parisa Zahedi, Jan de Boer, Felix Weijdema, Bianca Kramer, Martijn Huijts, Maarten Hoogerwerf, Gerbrich Ferdinands, Albert Harkema, Joukje Willemsen, Yongchao Ma, Qixiang Fang, Sybren Hindriks, Lars Tummers, Daniel L. Oberski
+
+
+---
+
 ### PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare
 
 
@@ -24,27 +45,10 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Year | 2023 |
 | Venue | Nature Medicine |
-| Citations | 92 |
+| Citations | 93 |
 
 
 **Authors**: Giovanni E. Cacciamani, Timothy N. Chu, Daniel I. Sanford, Andre Abreu, Vinay Duddalwar, Assad Oberai, C.-C. Jay Kuo, Xiaoxuan Liu, Alastair K. Denniston, Baptiste Vasey, Peter McCulloch, Robert F. Wolff, Sue Mallett, John Mongan, Charles E. Kahn, Viknesh Sounderajah, Ara Darzi, Philipp Dahm, Karel G. M. Moons, Eric Topol, Gary S. Collins, David Moher, Inderbir S. Gill, Andrew J. Hung
-
-
----
-
-### Publication 2
-
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1186/s13643-019-1074-9)](https://doi.org/10.1186/s13643-019-1074-9)) |
-
-
-
-
-
-
 
 
 ---
@@ -66,19 +70,23 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
-### Publication 4
+### Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages
 
+
+<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehen...
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1002/jrsm.1715)](https://doi.org/10.1002/jrsm.1715)) |
+| DOI | [10.1002/jrsm.1715](https://doi.org/10.1002/jrsm.1715) |
 
 
+| Year | 2024 |
+| Venue | Research Synthesis Methods |
+| Citations | 133 |
 
 
-
-
+**Authors**: Qusai Khraisha, Sophie Put, Johanna Kappenberg, Azza Warraitch, Kristin Hadfield
 
 
 ---
@@ -100,6 +108,23 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
+### Publication 6
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1038/s41591-022-02139-w)](https://doi.org/10.1038/s41591-022-02139-w)) |
+
+
+
+
+
+
+
+
+---
+
 ### Rayyan—a web and mobile app for systematic reviews
 
 
@@ -111,31 +136,10 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Year | 2016 |
 | Venue | Systematic Reviews |
-| Citations | 16852 |
+| Citations | 16889 |
 
 
 **Authors**: Mourad Ouzzani, Hossam Hammady, Zbys Fedorowicz, Ahmed Elmagarmid
-
-
----
-
-### An open source machine learning framework for efficient and transparent systematic reviews
-
-
-<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta...
-
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1038/s42256-020-00287-7](https://doi.org/10.1038/s42256-020-00287-7) |
-
-
-| Year | 2021 |
-| Venue | Nature Machine Intelligence |
-| Citations | 713 |
-
-
-**Authors**: Rens van de Schoot, Jonathan de Bruin, Raoul Schram, Parisa Zahedi, Jan de Boer, Felix Weijdema, Bianca Kramer, Martijn Huijts, Maarten Hoogerwerf, Gerbrich Ferdinands, Albert Harkema, Joukje Willemsen, Yongchao Ma, Qixiang Fang, Sybren Hindriks, Lars Tummers, Daniel L. Oberski
 
 
 ---
@@ -146,7 +150,7 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1038/s41591-022-02139-w)](https://doi.org/10.1038/s41591-022-02139-w)) |
+| DOI | [10.1002/jrsm.1715)](https://doi.org/10.1002/jrsm.1715)) |
 
 
 
@@ -193,23 +197,19 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
-### Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages
+### Publication 11
 
-
-<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehen...
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1002/jrsm.1715](https://doi.org/10.1002/jrsm.1715) |
+| DOI | [10.1186/s13643-019-1074-9)](https://doi.org/10.1186/s13643-019-1074-9)) |
 
 
-| Year | 2024 |
-| Venue | Research Synthesis Methods |
-| Citations | 133 |
 
 
-**Authors**: Qusai Khraisha, Sophie Put, Johanna Kappenberg, Azza Warraitch, Kristin Hadfield
+
+
 
 
 ---

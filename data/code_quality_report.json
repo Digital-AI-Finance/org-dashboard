@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-10T03:22:39.174310",
+  "generated_at": "2025-12-11T03:24:13.614672",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -93,7 +93,7 @@
         },
         "grade": "C"
       },
-      "language": "TeX",
+      "language": "HTML",
       "size_kb": 0
     },
     "Natural-Language-Processing": {
@@ -663,7 +663,7 @@
         },
         "grade": "B"
       },
-      "language": "TeX",
+      "language": "Python",
       "size_kb": 0
     },
     "python-utils": {

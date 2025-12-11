@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-10T03:22:39.171808",
+  "generated_at": "2025-12-11T03:24:13.612208",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
@@ -111,14 +111,14 @@
     },
     "Green-Finance": {
       "reproducibility_score": {
-        "score": 40,
+        "score": 0,
         "max_score": 100,
-        "percentage": 40.0,
-        "badge": "bronze",
+        "percentage": 0.0,
+        "badge": "none",
         "breakdown": {
-          "documentation": 20,
+          "documentation": 0,
           "environment": 0,
-          "data": 20,
+          "data": 0,
           "code": 0,
           "community": 0
         }
@@ -1056,12 +1056,12 @@
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 30.13,
+    "average_reproducibility_score": 29.1,
     "total_repositories": 39,
     "badge_distribution": {
-      "bronze": 19,
-      "silver": 2,
-      "none": 18
+      "bronze": 18,
+      "none": 19,
+      "silver": 2
     },
     "top_repos": [
       [

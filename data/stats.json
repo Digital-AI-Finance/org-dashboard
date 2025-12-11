@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-10T03:22:38.835338",
+  "generated_at": "2025-12-11T03:24:13.278508",
   "total_repos": 39,
   "active_repos": 39,
   "archived_repos": 0,
@@ -9,9 +9,9 @@
   "avg_stars": 0.0,
   "avg_forks": 0.0,
   "languages": {
-    "HTML": 13,
-    "Python": 7,
-    "TeX": 7,
+    "HTML": 14,
+    "Python": 8,
+    "TeX": 5,
     "Jupyter Notebook": 3,
     "SCSS": 2,
     "CSS": 2,
@@ -46,44 +46,44 @@
   },
   "recent_repos": [
     {
+      "name": "ML_Design_Thinking_16",
+      "pushed_at": "2025-12-10T23:18:07+00:00"
+    },
+    {
       "name": "Green-Finance",
-      "pushed_at": "2025-12-09T22:21:13+00:00"
-    },
-    {
-      "name": "msca-green-finance-training",
-      "pushed_at": "2025-12-09T22:19:52+00:00"
-    },
-    {
-      "name": "python-utils",
-      "pushed_at": "2025-12-09T21:48:26+00:00"
+      "pushed_at": "2025-12-10T23:16:57+00:00"
     },
     {
       "name": "digital-finance",
-      "pushed_at": "2025-12-09T16:42:34+00:00"
+      "pushed_at": "2025-12-10T23:03:53+00:00"
+    },
+    {
+      "name": "Natural-Language-Processing",
+      "pushed_at": "2025-12-10T17:32:25+00:00"
+    },
+    {
+      "name": "msca-green-finance-training",
+      "pushed_at": "2025-12-10T11:13:38+00:00"
+    },
+    {
+      "name": "python-utils",
+      "pushed_at": "2025-12-10T10:35:59+00:00"
+    },
+    {
+      "name": "org-dashboard",
+      "pushed_at": "2025-12-10T03:25:12+00:00"
     },
     {
       "name": "data-science",
       "pushed_at": "2025-12-09T16:25:04+00:00"
     },
     {
-      "name": "Natural-Language-Processing",
-      "pushed_at": "2025-12-09T16:21:22+00:00"
-    },
-    {
       "name": "decentralized-finance",
       "pushed_at": "2025-12-09T16:01:11+00:00"
     },
     {
-      "name": "org-dashboard",
-      "pushed_at": "2025-12-09T03:21:31+00:00"
-    },
-    {
       "name": "European-Financial-Data-Space",
       "pushed_at": "2025-12-07T15:00:01+00:00"
-    },
-    {
-      "name": "msca-digital-finance",
-      "pushed_at": "2025-12-07T13:40:03+00:00"
     }
   ],
   "popular_repos": [
@@ -129,6 +129,7 @@
     }
   ],
   "repos_without_readme": [
+    "Green-Finance",
     "neural-networks",
     "ShareBuybacks",
     "neural-networks-introduction",
@@ -145,7 +146,7 @@
   "research": {
     "repos_with_papers": 5,
     "repos_with_notebooks": 3,
-    "repos_with_datasets": 21,
+    "repos_with_datasets": 20,
     "total_publications": 19,
     "total_notebooks": 89
   }

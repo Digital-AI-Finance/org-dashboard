@@ -22,8 +22,8 @@ MSCA Digital Finance Training Week - Naples Dec 2025
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-09 |
-| Last Updated | 2025-12-09 |
-| Last Push | 2025-12-09 |
+| Last Updated | 2025-12-10 |
+| Last Push | 2025-12-10 |
 | Contributors | 1 |
 | Default Branch | master |
 | Visibility | public |
@@ -48,7 +48,7 @@ MSCA Digital Finance Training Week - Naples Dec 2025
 
 - Issues: Enabled
 - Wiki: Disabled
-- Pages: Enabled
+- Pages: Disabled
 
 ## README
 

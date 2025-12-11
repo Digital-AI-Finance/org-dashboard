@@ -12,11 +12,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 14162,
+    "size": 14279,
     "default_branch": "main",
     "created_at": "2025-11-21T21:59:13+00:00",
-    "updated_at": "2025-12-09T03:21:32+00:00",
-    "pushed_at": "2025-12-09T03:21:31+00:00",
+    "updated_at": "2025-12-10T03:25:14+00:00",
+    "pushed_at": "2025-12-10T03:25:12+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -62,7 +62,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:15:26.483664",
+        "extracted_at": "2025-12-11T03:17:07.979912",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -89,7 +89,7 @@
           "name": "citation_history.json",
           "path": "data/citation_history.json",
           "format": ".json",
-          "size_bytes": 77151
+          "size_bytes": 83421
         },
         {
           "name": "citation_report.json",
@@ -101,55 +101,55 @@
           "name": "code_quality_report.json",
           "path": "data/code_quality_report.json",
           "format": ".json",
-          "size_bytes": 18151
+          "size_bytes": 19110
         },
         {
           "name": "collaboration_network.json",
           "path": "data/collaboration_network.json",
           "format": ".json",
-          "size_bytes": 6203
+          "size_bytes": 6270
         },
         {
           "name": "ml_topic_analysis.json",
           "path": "data/ml_topic_analysis.json",
           "format": ".json",
-          "size_bytes": 31335
+          "size_bytes": 32471
         },
         {
           "name": "repos.json",
           "path": "data/repos.json",
           "format": ".json",
-          "size_bytes": 311761
+          "size_bytes": 314120
         },
         {
           "name": "repository_health_report.json",
           "path": "data/repository_health_report.json",
           "format": ".json",
-          "size_bytes": 55461
+          "size_bytes": 58428
         },
         {
           "name": "reproducibility_report.json",
           "path": "data/reproducibility_report.json",
           "format": ".json",
-          "size_bytes": 32403
+          "size_bytes": 33695
         },
         {
           "name": "research_metadata.json",
           "path": "data/research_metadata.json",
           "format": ".json",
-          "size_bytes": 113928
+          "size_bytes": 114117
         },
         {
           "name": "search_index.pkl",
           "path": "data/search_index.pkl",
           "format": ".pkl",
-          "size_bytes": 256632
+          "size_bytes": 256882
         },
         {
           "name": "stats.json",
           "path": "data/stats.json",
           "format": ".json",
-          "size_bytes": 3152
+          "size_bytes": 3206
         },
         {
           "name": "data",
@@ -161,13 +161,13 @@
           "name": "search_data.json",
           "path": "docs/data/search_data.json",
           "format": ".json",
-          "size_bytes": 741518
+          "size_bytes": 744413
         },
         {
           "name": "search_data_minimal.json",
           "path": "docs/data/search_data_minimal.json",
           "format": ".json",
-          "size_bytes": 530902
+          "size_bytes": 533633
         },
         {
           "name": "citation_network.json",
@@ -320,7 +320,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:15:28.600168",
+        "extracted_at": "2025-12-11T03:17:10.003120",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -414,7 +414,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:15:30.680647",
+        "extracted_at": "2025-12-11T03:17:11.947929",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -512,7 +512,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:15:32.766122",
+        "extracted_at": "2025-12-11T03:17:13.916066",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -526,17 +526,17 @@
     "url": "https://github.com/Digital-AI-Finance/Green-Finance",
     "clone_url": "https://github.com/Digital-AI-Finance/Green-Finance.git",
     "homepage": "",
-    "language": "TeX",
+    "language": "HTML",
     "topics": [],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 8438,
+    "size": 8473,
     "default_branch": "main",
     "created_at": "2025-11-22T07:02:13+00:00",
-    "updated_at": "2025-12-09T22:21:17+00:00",
-    "pushed_at": "2025-12-09T22:21:13+00:00",
+    "updated_at": "2025-12-10T23:17:00+00:00",
+    "pushed_at": "2025-12-10T23:16:57+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -547,104 +547,8 @@
     "is_template": false,
     "visibility": "public",
     "contributors_count": 1,
-    "readme": "# Green Finance Professional Certificate\n\nAcademic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.\n\n## Live Interactive App\n\n**🌐 https://digital-ai-finance.github.io/Green-Finance**\n\nInteractive Week 1 learning platform with 30 slides, charts, and self-assessment.\n\n---\n\n## Project Overview\n\n### Course Structure\n- **Duration:** 8 weeks\n- **Format:** Academic professional certificate\n- **Pedagogy:** Learning-goal-driven (3 goals per week)\n- **Delivery:** Beamer PDF slides + Interactive web app\n\n### Week 1 Status\n✅ **Complete** - 37 slides, 17 charts, fully validated\n- Core: 30 slides (3 learning goals × 10 slides)\n- Supplementary: 7 empirical validation slides\n- Interactive React app deployed\n\n### Weeks 2-8 Status\n⏳ **Ready for generation** using proven Week 1 template\n\n---\n\n## Quick Start\n\n### View Interactive App\nVisit: **https://digital-ai-finance.github.io/Green-Finance**\n\n### Run Locally\n```bash\ncd react-app\nnpm install\nnpm start\n# Opens at http://localhost:3000\n```\n\n### Compile LaTeX Slides\n```bash\n# Compile Week 1\npdflatex -interaction=nonstopmode 20251121_2306_Week1_v2_GreenFinanceFoundations.tex\npdflatex -interaction=nonstopmode 20251121_2306_Week1_v2_GreenFinanceFoundations.tex\n\n# Clean up auxiliary files\nMove-Item -Path *.aux,*.log,*.out,*.nav,*.toc,*.snm -Destination temp\\ -ErrorAction SilentlyContinue\n```\n\n### Generate Charts\n```powershell\n# Generate all Week 1 charts\nGet-ChildItem charts\\week1\\*.py | ForEach-Object { python $_.FullName }\n\n# Generate Graphviz diagrams (requires Graphviz installed)\nGet-ChildItem charts\\week1\\*.dot | ForEach-Object {\n    dot -Tpdf $_.FullName -o ($_.FullName -replace '\\.dot$','.pdf')\n}\n```\n\n---\n\n## Repository Structure\n\n```\nGreen-Finance/\n├── react-app/              # Interactive web app (Week 1)\n│   ├── src/\n│   │   ├── components/     # React components\n│   │   ├── charts/         # Interactive chart components\n│   │   └── data/           # Course content (slides)\n│   ├── DEPLOYMENT.md       # Deployment guide\n│   └── package.json\n│\n├── charts/week1/           # Chart generation scripts\n│   ├── week1_v2_goal1_*.py     # Goal 1 charts (matplotlib)\n│   ├── week1_v2_goal2_*.py     # Goal 2 charts (matplotlib)\n│   ├── week1_v2_goal3_*.py     # Goal 3 charts (matplotlib)\n│   └── *.dot                    # Graphviz diagrams\n│\n├── agents/                 # Multi-agent system specs\n│   ├── AGENT_3_ContentPlanner_v2.md\n│   ├── AGENT_4_SlideGenerator_v2_LaTeXTemplates.md\n│   └── README_v2.md\n│\n├── *.tex                   # LaTeX source files\n├── *.pdf                   # Compiled slide PDFs\n├── template_beamer_final.tex   # Madrid theme template\n├── CLAUDE.md               # Project documentation\n├── COURSE_GENERATOR_v2.md  # Generation system spec\n└── DEPLOY_QUICKSTART.md    # Deployment quick start\n```\n\n---\n\n## Features\n\n### Interactive Web App\n- ✅ 30 slides with keyboard navigation\n- ✅ 3 learning goals with progress tracking\n- ✅ Interactive charts (Recharts)\n- ✅ Self-assessment quizzes\n- ✅ LocalStorage persistence\n- ✅ Mobile responsive\n- ✅ GitHub Pages deployment\n\n### LaTeX Slides (v2.0)\n- ✅ Madrid theme (8pt, 16:9)\n- ✅ 3 learning goals per week\n- ✅ Goal-driven narrative structure\n- ✅ 4 specialized slide types\n- ✅ 17 charts (33%+ ratio)\n- ✅ Bottom notes with goal tracking\n\n### Multi-Agent System\n- ✅ Course Orchestrator\n- ✅ Guidelines Expert\n- ✅ Content Planner v2.0\n- ✅ Slide Generator v2.0\n- ✅ YAML-based communication\n\n---\n\n## Technologies\n\n### Web App\n- React 18.2\n- Material-UI 5.14\n- Recharts 2.8 (charts)\n- Framer Motion 10.16 (animations)\n- D3 7.8 (advanced visualizations)\n\n### Slides & Charts\n- LaTeX Beamer (Madrid theme)\n- Python 3.x + matplotlib\n- Graphviz (diagrams)\n- pdflatex\n\n### Deployment\n- GitHub Pages (automatic)\n- GitHub Actions (CI/CD)\n\n---\n\n## Learning Goals (Week 1)\n\n### Goal 1: Market Microstructure Theory\nUnderstand the theoretical foundations explaining why green finance markets exist and how they function.\n\n**Slides:** 1-10 | **Type:** Theoretical | **Charts:** Ecosystem diagrams\n\n### Goal 2: Quantify Market Size & Growth\nQuantify the size, growth trajectory, and composition of global green finance markets using empirical data.\n\n**Slides:** 11-20 | **Type:** Quantitative | **Charts:** Time series, distributions\n\n### Goal 3: Derive Pricing Models\nDerive and apply mathematical models for pricing green financial instruments, incorporating greenium and ESG factors.\n\n**Slides:** 21-30 | **Type:** Mathematical | **Charts:** Yield curves, risk-return\n\n---\n\n## Documentation\n\n- **[CLAUDE.md](CLAUDE.md)** - Complete project documentation\n- **[DEPLOY_QUICKSTART.md](DEPLOY_QUICKSTART.md)** - Deploy in 3 steps\n- **[react-app/DEPLOYMENT.md](react-app/DEPLOYMENT.md)** - Full deployment guide\n- **[COURSE_GENERATOR_v2.md](COURSE_GENERATOR_v2.md)** - System specification\n- **[agents/README_v2.md](agents/README_v2.md)** - Multi-agent architecture\n\n---\n\n## Deployment\n\n### Automatic (GitHub Actions)\n1. Enable GitHub Pages: Settings → Pages → Source: **GitHub Actions**\n2. Push changes: `git push origin main`\n3. Visit: https://digital-ai-finance.github.io/Green-Finance\n\nSee **[DEPLOY_QUICKSTART.md](DEPLOY_QUICKSTART.md)** for detailed steps.\n\n### Manual\n```bash\ncd react-app\nnpm run deploy\n```\n\n---\n\n## Development Workflow\n\n### Add New Week\n1. Create content outline: `weekN_v2_content_outline.yaml`\n2. Generate charts: `python charts/weekN/*.py`\n3. Generate LaTeX: Use `AGENT_4_SlideGenerator_v2_LaTeXTemplates.md`\n4. Compile: `pdflatex YYYYMMDD_HHMM_WeekN_Title.tex` (2x)\n5. Validate: 30 slides, 10+ charts, 3 goals\n\n### Update React App\n1. Edit content: `react-app/src/data/week1Slides.js`\n2. Test locally: `npm start`\n3. Commit and push: Auto-deploys via GitHub Actions\n\n---\n\n## Quality Standards\n\n### Per Week Requirements\n- **Core slides:** 30 (3 goals × 10 slides)\n- **Charts:** 10-11 minimum\n- **Chart ratio:** ≥33%\n- **Learning goals:** Exactly 3 (typed with narrative roles)\n- **Statistics:** All verified via web search\n\n### Color Scheme (Consistent)\n- Primary (mlpurple): `#3333B2`\n- Secondary (mllavender): `#ADADE0`\n- Success (mlgreen): `#2CA02C`\n- Warning (mlorange): `#FF7F0E`\n\n---\n\n## Prerequisites\n\n- **Node.js** 18+ (for React app)\n- **Python** 3.x (for charts)\n- **pdflatex** (TeX Live or MiKTeX)\n- **Graphviz** (for diagrams)\n- **Git** (version control)\n\n---\n\n## Contributing\n\nThis is an academic project. For questions or improvements:\n1. Open an issue\n2. Submit a pull request\n3. Contact: [Digital-AI-Finance organization](https://github.com/Digital-AI-Finance)\n\n---\n\n## License\n\nAcademic use. All rights reserved.\n\n---\n\n## Next Steps\n\n- [ ] Generate Weeks 2-8\n- [ ] Add more interactive features to web app\n- [ ] Create student exercises\n- [ ] Add video explanations\n- [ ] Develop assessment module\n\n---\n\n**Version:** 2.0 (Learning-Goal-Driven)\n**Status:** Week 1 Complete, Production Ready\n**Live App:** https://digital-ai-finance.github.io/Green-Finance\n",
-    "latest_release": null,
-    "research_metadata": {
-      "repo_name": "Green-Finance",
-      "research": {
-        "title": "Academic course generation system for Green Finance Professional Certificate - 8-week course with learning-goal-driven pedagogy, Beamer slides, and interactive React app",
-        "abstract": "Academic course generation system for 8-week Green Finance course with learning-goal-driven pedagogy, Beamer LaTeX slides, and interactive React web application.",
-        "keywords": [],
-        "authors": []
-      },
-      "publications": [],
-      "code": {
-        "languages": [
-          "TeX"
-        ],
-        "notebooks": [],
-        "dependencies": {}
-      },
-      "reproducibility": {
-        "has_requirements": false,
-        "has_dockerfile": false,
-        "has_environment_yml": false,
-        "has_makefile": false,
-        "replication_status": "not_attempted"
-      },
-      "citations": {
-        "cited_by": [],
-        "cites": [],
-        "citation_count": 0
-      },
-      "meta": {
-        "extracted_at": "2025-12-10T03:15:45.287565",
-        "extraction_version": "1.0",
-        "extraction_method": "readme_parse"
-      },
-      "datasets": [
-        {
-          "name": "settings.local.json",
-          "path": ".claude/settings.local.json",
-          "format": ".json",
-          "size_bytes": 159
-        },
-        {
-          "name": "academic_citations.json",
-          "path": "academic_citations.json",
-          "format": ".json",
-          "size_bytes": 2577
-        },
-        {
-          "name": "package-lock.json",
-          "path": "react-app/package-lock.json",
-          "format": ".json",
-          "size_bytes": 709487
-        },
-        {
-          "name": "package.json",
-          "path": "react-app/package.json",
-          "format": ".json",
-          "size_bytes": 1435
-        },
-        {
-          "name": "data",
-          "path": "react-app/src/data",
-          "format": "",
-          "size_bytes": 0
-        },
-        {
-          "name": "week1Slides.js",
-          "path": "react-app/src/data/week1Slides.js",
-          "format": ".js",
-          "size_bytes": 29245
-        },
-        {
-          "name": "week1Slides_backup.js",
-          "path": "react-app/src/data/week1Slides_backup.js",
-          "format": ".js",
-          "size_bytes": 27087
-        },
-        {
-          "name": "week1Slides_updated.js",
-          "path": "react-app/src/data/week1Slides_updated.js",
-          "format": ".js",
-          "size_bytes": 29245
-        },
-        {
-          "name": "week1Slides_v3.js",
-          "path": "react-app/src/data/week1Slides_v3.js",
-          "format": ".js",
-          "size_bytes": 31673
-        },
-        {
-          "name": "verified_statistics.json",
-          "path": "verified_statistics.json",
-          "format": ".json",
-          "size_bytes": 8551
-        }
-      ]
-    }
+    "readme": "No README available",
+    "latest_release": null
   },
   {
     "name": "Natural-Language-Processing",
@@ -659,11 +563,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 231508,
+    "size": 231518,
     "default_branch": "main",
     "created_at": "2025-11-22T07:10:08+00:00",
-    "updated_at": "2025-12-09T16:21:27+00:00",
-    "pushed_at": "2025-12-09T16:21:22+00:00",
+    "updated_at": "2025-12-10T17:32:28+00:00",
+    "pushed_at": "2025-12-10T17:32:25+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -994,7 +898,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:17:00.859160",
+        "extracted_at": "2025-12-11T03:18:24.526073",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1191,7 +1095,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:17:08.755759",
+        "extracted_at": "2025-12-11T03:18:31.878966",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1264,7 +1168,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:17:11.704691",
+        "extracted_at": "2025-12-11T03:18:34.528894",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -1625,7 +1529,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:17:38.689013",
+        "extracted_at": "2025-12-11T03:18:59.130997",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2098,7 +2002,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:17:47.395190",
+        "extracted_at": "2025-12-11T03:19:07.055395",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2309,7 +2213,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:17:49.571139",
+        "extracted_at": "2025-12-11T03:19:09.074014",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2405,7 +2309,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:18:01.170746",
+        "extracted_at": "2025-12-11T03:19:19.727000",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2539,7 +2443,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:18:11.109144",
+        "extracted_at": "2025-12-11T03:19:28.382219",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2727,7 +2631,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:18:22.055801",
+        "extracted_at": "2025-12-11T03:19:38.369164",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2820,7 +2724,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:18:26.133762",
+        "extracted_at": "2025-12-11T03:19:42.355884",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -2937,7 +2841,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:18:33.176100",
+        "extracted_at": "2025-12-11T03:19:48.525055",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3034,7 +2938,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:18:56.343529",
+        "extracted_at": "2025-12-11T03:20:09.423292",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3525,7 +3429,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:19:02.065363",
+        "extracted_at": "2025-12-11T03:20:14.710511",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3634,7 +3538,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:19:28.173987",
+        "extracted_at": "2025-12-11T03:20:38.334781",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -3832,6 +3736,72 @@
       "publications": [
         {
           "type": "journal-article",
+          "doi": "10.1038/s42256-020-00287-7",
+          "url": "https://doi.org/10.1038/s42256-020-00287-7",
+          "title": "An open source machine learning framework for efficient and transparent systematic reviews",
+          "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
+          "published": "2021-02-01",
+          "year": 2021,
+          "authors": [
+            {
+              "name": "Rens van de Schoot"
+            },
+            {
+              "name": "Jonathan de Bruin"
+            },
+            {
+              "name": "Raoul Schram"
+            },
+            {
+              "name": "Parisa Zahedi"
+            },
+            {
+              "name": "Jan de Boer"
+            },
+            {
+              "name": "Felix Weijdema"
+            },
+            {
+              "name": "Bianca Kramer"
+            },
+            {
+              "name": "Martijn Huijts"
+            },
+            {
+              "name": "Maarten Hoogerwerf"
+            },
+            {
+              "name": "Gerbrich Ferdinands"
+            },
+            {
+              "name": "Albert Harkema"
+            },
+            {
+              "name": "Joukje Willemsen"
+            },
+            {
+              "name": "Yongchao Ma"
+            },
+            {
+              "name": "Qixiang Fang"
+            },
+            {
+              "name": "Sybren Hindriks"
+            },
+            {
+              "name": "Lars Tummers"
+            },
+            {
+              "name": "Daniel L. Oberski"
+            }
+          ],
+          "venue": "Nature Machine Intelligence",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 714,
+          "reference_count": 63
+        },
+        {
+          "type": "journal-article",
           "doi": "10.1038/s41591-022-02139-w",
           "url": "https://doi.org/10.1038/s41591-022-02139-w",
           "title": "PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare",
@@ -3914,152 +3884,13 @@
           ],
           "venue": "Nature Medicine",
           "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 92,
+          "citation_count": 93,
           "reference_count": 10
-        },
-        {
-          "type": "journal",
-          "doi": "10.1186/s13643-019-1074-9)",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9)"
         },
         {
           "type": "journal",
           "doi": "10.1101/2025.06.13.25329541v1)",
           "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1002/jrsm.1715)",
-          "url": "https://doi.org/10.1002/jrsm.1715)"
-        },
-        {
-          "type": "journal",
-          "doi": "10.1186/s13643-016-0384-4)",
-          "url": "https://doi.org/10.1186/s13643-016-0384-4)"
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1186/s13643-016-0384-4",
-          "url": "https://doi.org/10.1186/s13643-016-0384-4",
-          "title": "Rayyan—a web and mobile app for systematic reviews",
-          "abstract": "",
-          "published": "2016-12-01",
-          "year": 2016,
-          "authors": [
-            {
-              "name": "Mourad Ouzzani"
-            },
-            {
-              "name": "Hossam Hammady"
-            },
-            {
-              "name": "Zbys Fedorowicz"
-            },
-            {
-              "name": "Ahmed Elmagarmid"
-            }
-          ],
-          "venue": "Systematic Reviews",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 16852,
-          "reference_count": 19
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1038/s42256-020-00287-7",
-          "url": "https://doi.org/10.1038/s42256-020-00287-7",
-          "title": "An open source machine learning framework for efficient and transparent systematic reviews",
-          "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
-          "published": "2021-02-01",
-          "year": 2021,
-          "authors": [
-            {
-              "name": "Rens van de Schoot"
-            },
-            {
-              "name": "Jonathan de Bruin"
-            },
-            {
-              "name": "Raoul Schram"
-            },
-            {
-              "name": "Parisa Zahedi"
-            },
-            {
-              "name": "Jan de Boer"
-            },
-            {
-              "name": "Felix Weijdema"
-            },
-            {
-              "name": "Bianca Kramer"
-            },
-            {
-              "name": "Martijn Huijts"
-            },
-            {
-              "name": "Maarten Hoogerwerf"
-            },
-            {
-              "name": "Gerbrich Ferdinands"
-            },
-            {
-              "name": "Albert Harkema"
-            },
-            {
-              "name": "Joukje Willemsen"
-            },
-            {
-              "name": "Yongchao Ma"
-            },
-            {
-              "name": "Qixiang Fang"
-            },
-            {
-              "name": "Sybren Hindriks"
-            },
-            {
-              "name": "Lars Tummers"
-            },
-            {
-              "name": "Daniel L. Oberski"
-            }
-          ],
-          "venue": "Nature Machine Intelligence",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 713,
-          "reference_count": 63
-        },
-        {
-          "type": "journal",
-          "doi": "10.1038/s41591-022-02139-w)",
-          "url": "https://doi.org/10.1038/s41591-022-02139-w)"
-        },
-        {
-          "type": "journal-article",
-          "doi": "10.1186/s13643-019-1074-9",
-          "url": "https://doi.org/10.1186/s13643-019-1074-9",
-          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
-          "abstract": "",
-          "published": "2019-07-11",
-          "year": 2019,
-          "authors": [
-            {
-              "name": "Iain J. Marshall"
-            },
-            {
-              "name": "Byron C. Wallace"
-            }
-          ],
-          "venue": "Systematic Reviews",
-          "publisher": "Springer Science and Business Media LLC",
-          "citation_count": 395,
-          "reference_count": 40
-        },
-        {
-          "type": "journal",
-          "doi": "10.1038/s42256-020-00287-7)",
-          "url": "https://doi.org/10.1038/s42256-020-00287-7)"
         },
         {
           "type": "journal-article",
@@ -4095,6 +3926,79 @@
           "publisher": "Wiley",
           "citation_count": 133,
           "reference_count": 42
+        },
+        {
+          "type": "journal",
+          "doi": "10.1186/s13643-016-0384-4)",
+          "url": "https://doi.org/10.1186/s13643-016-0384-4)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1038/s41591-022-02139-w)",
+          "url": "https://doi.org/10.1038/s41591-022-02139-w)"
+        },
+        {
+          "type": "journal-article",
+          "doi": "10.1186/s13643-016-0384-4",
+          "url": "https://doi.org/10.1186/s13643-016-0384-4",
+          "title": "Rayyan—a web and mobile app for systematic reviews",
+          "abstract": "",
+          "published": "2016-12-01",
+          "year": 2016,
+          "authors": [
+            {
+              "name": "Mourad Ouzzani"
+            },
+            {
+              "name": "Hossam Hammady"
+            },
+            {
+              "name": "Zbys Fedorowicz"
+            },
+            {
+              "name": "Ahmed Elmagarmid"
+            }
+          ],
+          "venue": "Systematic Reviews",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 16889,
+          "reference_count": 19
+        },
+        {
+          "type": "journal",
+          "doi": "10.1002/jrsm.1715)",
+          "url": "https://doi.org/10.1002/jrsm.1715)"
+        },
+        {
+          "type": "journal-article",
+          "doi": "10.1186/s13643-019-1074-9",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9",
+          "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+          "abstract": "",
+          "published": "2019-07-11",
+          "year": 2019,
+          "authors": [
+            {
+              "name": "Iain J. Marshall"
+            },
+            {
+              "name": "Byron C. Wallace"
+            }
+          ],
+          "venue": "Systematic Reviews",
+          "publisher": "Springer Science and Business Media LLC",
+          "citation_count": 395,
+          "reference_count": 40
+        },
+        {
+          "type": "journal",
+          "doi": "10.1038/s42256-020-00287-7)",
+          "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+        },
+        {
+          "type": "journal",
+          "doi": "10.1186/s13643-019-1074-9)",
+          "url": "https://doi.org/10.1186/s13643-019-1074-9)"
         }
       ],
       "code": {
@@ -4117,7 +4021,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:19:37.680469",
+        "extracted_at": "2025-12-11T03:20:47.307603",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4215,7 +4119,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:19:40.424301",
+        "extracted_at": "2025-12-11T03:20:49.941641",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4242,11 +4146,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 233142,
+    "size": 237432,
     "default_branch": "main",
     "created_at": "2025-12-03T22:35:05+00:00",
-    "updated_at": "2025-12-07T13:02:28+00:00",
-    "pushed_at": "2025-12-07T13:02:24+00:00",
+    "updated_at": "2025-12-10T23:18:12+00:00",
+    "pushed_at": "2025-12-10T23:18:07+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -4354,7 +4258,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:19:49.125778",
+        "extracted_at": "2025-12-11T03:20:58.149485",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4553,7 +4457,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:19:58.466120",
+        "extracted_at": "2025-12-11T03:21:07.114217",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4699,7 +4603,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:20:03.616419",
+        "extracted_at": "2025-12-11T03:21:11.993578",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4762,7 +4666,7 @@
     "url": "https://github.com/Digital-AI-Finance/digital-finance",
     "clone_url": "https://github.com/Digital-AI-Finance/digital-finance.git",
     "homepage": "https://digital-ai-finance.github.io/digital-finance",
-    "language": "TeX",
+    "language": "Python",
     "topics": [
       "blockchain",
       "course-materials",
@@ -4781,11 +4685,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 12033,
+    "size": 13440,
     "default_branch": "main",
     "created_at": "2025-12-07T20:35:56+00:00",
-    "updated_at": "2025-12-09T16:42:39+00:00",
-    "pushed_at": "2025-12-09T16:42:34+00:00",
+    "updated_at": "2025-12-10T23:03:57+00:00",
+    "pushed_at": "2025-12-10T23:03:53+00:00",
     "license": "Other",
     "has_issues": true,
     "has_wiki": true,
@@ -4813,7 +4717,7 @@
       "publications": [],
       "code": {
         "languages": [
-          "TeX"
+          "Python"
         ],
         "notebooks": [],
         "dependencies": {}
@@ -4833,7 +4737,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:21:46.654395",
+        "extracted_at": "2025-12-11T03:23:24.563333",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4853,11 +4757,11 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 85,
+    "size": 163,
     "default_branch": "main",
     "created_at": "2025-12-08T08:21:53+00:00",
-    "updated_at": "2025-12-09T21:48:30+00:00",
-    "pushed_at": "2025-12-09T21:48:26+00:00",
+    "updated_at": "2025-12-10T10:36:03+00:00",
+    "pushed_at": "2025-12-10T10:35:59+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
@@ -4899,7 +4803,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:21:50.877817",
+        "extracted_at": "2025-12-11T03:23:29.142083",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -4976,7 +4880,7 @@
         "citation_count": 0
       },
       "meta": {
-        "extracted_at": "2025-12-10T03:22:23.919262",
+        "extracted_at": "2025-12-11T03:23:58.905836",
         "extraction_version": "1.0",
         "extraction_method": "readme_parse"
       },
@@ -5027,15 +4931,15 @@
     "forks": 0,
     "watchers": 0,
     "open_issues": 0,
-    "size": 142,
+    "size": 2155,
     "default_branch": "master",
     "created_at": "2025-12-09T17:55:57+00:00",
-    "updated_at": "2025-12-09T22:19:55+00:00",
-    "pushed_at": "2025-12-09T22:19:52+00:00",
+    "updated_at": "2025-12-10T17:26:25+00:00",
+    "pushed_at": "2025-12-10T11:13:38+00:00",
     "license": "No License",
     "has_issues": true,
     "has_wiki": false,
-    "has_pages": true,
+    "has_pages": false,
     "has_downloads": true,
     "archived": false,
     "disabled": false,

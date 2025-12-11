@@ -15,15 +15,15 @@ BSc-level Digital Finance course: 48 lessons on FinTech, Blockchain, AI/ML, and 
 
 | Property | Value |
 |----------|-------|
-| Language | TeX |
+| Language | Python |
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |
 | Open Issues | 0 |
 | License | Other |
 | Created | 2025-12-07 |
-| Last Updated | 2025-12-09 |
-| Last Push | 2025-12-09 |
+| Last Updated | 2025-12-10 |
+| Last Push | 2025-12-10 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
