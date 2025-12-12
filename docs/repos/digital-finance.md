@@ -22,8 +22,8 @@ BSc-level Digital Finance course: 48 lessons on FinTech, Blockchain, AI/ML, and 
 | Open Issues | 0 |
 | License | Other |
 | Created | 2025-12-07 |
-| Last Updated | 2025-12-10 |
-| Last Push | 2025-12-10 |
+| Last Updated | 2025-12-11 |
+| Last Push | 2025-12-11 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

@@ -22,8 +22,8 @@ Data Science with Python - BSc Course (48 lessons, 534 slides)
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-09 |
-| Last Updated | 2025-12-09 |
-| Last Push | 2025-12-09 |
+| Last Updated | 2025-12-11 |
+| Last Push | 2025-12-11 |
 | Contributors | 1 |
 | Default Branch | master |
 | Visibility | public |

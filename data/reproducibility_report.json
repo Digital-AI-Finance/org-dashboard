@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-11T03:24:13.612208",
+  "generated_at": "2025-12-12T03:26:12.192177",
   "repositories": {
     "org-dashboard": {
       "reproducibility_score": {
@@ -703,7 +703,7 @@
         "category_ratings": {}
       }
     },
-    "ML_Design_Thinking_16": {
+    "ML_Design_Thinking": {
       "reproducibility_score": {
         "score": 0,
         "max_score": 100,
@@ -975,14 +975,14 @@
     },
     "decentralized-finance": {
       "reproducibility_score": {
-        "score": 25,
+        "score": 35,
         "max_score": 100,
-        "percentage": 25.0,
+        "percentage": 35.0,
         "badge": "none",
         "breakdown": {
           "documentation": 20,
           "environment": 0,
-          "data": 0,
+          "data": 10,
           "code": 5,
           "community": 0
         }
@@ -1056,7 +1056,7 @@
     }
   },
   "organization_summary": {
-    "average_reproducibility_score": 29.1,
+    "average_reproducibility_score": 29.36,
     "total_repositories": 39,
     "badge_distribution": {
       "bronze": 18,

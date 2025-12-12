@@ -22,8 +22,8 @@ Academic course generation system for Green Finance Professional Certificate - 8
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-11-22 |
-| Last Updated | 2025-12-10 |
-| Last Push | 2025-12-10 |
+| Last Updated | 2025-12-11 |
+| Last Push | 2025-12-11 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

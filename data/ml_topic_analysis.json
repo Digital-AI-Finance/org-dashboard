@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-11T03:24:13.928983",
+  "generated_at": "2025-12-12T03:26:12.510890",
   "total_repositories": 39,
   "analyzed_repositories": 36,
   "methods": {
@@ -426,7 +426,7 @@
           ]
         },
         {
-          "repository": "ML_Design_Thinking_16",
+          "repository": "ML_Design_Thinking",
           "dominant_topic": 0,
           "topic_strength": 0.3052747218707398,
           "topic_distribution": [
@@ -1011,7 +1011,7 @@
           ]
         },
         {
-          "repository": "ML_Design_Thinking_16",
+          "repository": "ML_Design_Thinking",
           "dominant_topic": 3,
           "topic_strength": 0.9635425600289982,
           "topic_distribution": [

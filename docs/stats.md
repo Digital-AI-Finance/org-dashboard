@@ -2,7 +2,7 @@
 
 Detailed statistics for the GitHub organization.
 
-Last updated: **2025-12-11**
+Last updated: **2025-12-12**
 
 ---
 
@@ -97,16 +97,16 @@ Last updated: **2025-12-11**
 
 | Repository | Last Push |
 |------------|-----------|
-| [ML_Design_Thinking_16](repos/ML_Design_Thinking_16.md) | 2025-12-10 |
-| [Green-Finance](repos/Green-Finance.md) | 2025-12-10 |
-| [digital-finance](repos/digital-finance.md) | 2025-12-10 |
-| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-10 |
+| [Green-Finance](repos/Green-Finance.md) | 2025-12-11 |
+| [ML_Design_Thinking](repos/ML_Design_Thinking.md) | 2025-12-11 |
+| [neural-networks](repos/neural-networks.md) | 2025-12-11 |
+| [decentralized-finance](repos/decentralized-finance.md) | 2025-12-11 |
+| [digital-finance](repos/digital-finance.md) | 2025-12-11 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-11 |
+| [data-science](repos/data-science.md) | 2025-12-11 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-12-11 |
 | [msca-green-finance-training](repos/msca-green-finance-training.md) | 2025-12-10 |
 | [python-utils](repos/python-utils.md) | 2025-12-10 |
-| [org-dashboard](repos/org-dashboard.md) | 2025-12-10 |
-| [data-science](repos/data-science.md) | 2025-12-09 |
-| [decentralized-finance](repos/decentralized-finance.md) | 2025-12-09 |
-| [European-Financial-Data-Space](repos/European-Financial-Data-Space.md) | 2025-12-07 |
 
 
 ---
@@ -122,7 +122,7 @@ The following repositories do not have a README file:
 - neural-networks-introduction
 - Anomaly_and_Fraud_Detection_in_Blockchain_Networks
 - book-next-word-prediction-site
-- ML_Design_Thinking_16
+- ML_Design_Thinking
 - joerg-osterrieder
 - 2025-shanghai-workshop
 - Research-Page-Template-Test

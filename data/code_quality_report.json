@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-11T03:24:13.614672",
+  "generated_at": "2025-12-12T03:26:12.194473",
   "repositories": {
     "org-dashboard": {
       "structure": {
@@ -495,7 +495,7 @@
       "language": "HTML",
       "size_kb": 0
     },
-    "ML_Design_Thinking_16": {
+    "ML_Design_Thinking": {
       "structure": {
         "structure_score": 40,
         "max_score": 100,

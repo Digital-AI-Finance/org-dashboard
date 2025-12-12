@@ -19,11 +19,11 @@ Pedagogical Beamer presentation: Neural Networks for Business Applications - Com
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |
-| Open Issues | 0 |
+| Open Issues | 1 |
 | License | No License |
 | Created | 2025-11-24 |
-| Last Updated | 2025-12-06 |
-| Last Push | 2025-12-06 |
+| Last Updated | 2025-12-11 |
+| Last Push | 2025-12-11 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |
