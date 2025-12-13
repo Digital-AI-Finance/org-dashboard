@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "org-dashboard",
+      "authors": 1
+    },
+    {
+      "id": "portfolio-optimization-ml",
+      "authors": 2
+    },
+    {
+      "id": "credit-risk-prediction",
+      "authors": 2
+    },
+    {
+      "id": "market-microstructure",
+      "authors": 2
+    },
+    {
+      "id": "Natural-Language-Processing",
+      "authors": 1
+    },
+    {
+      "id": "quantlet-branding-tools",
+      "authors": 1
+    },
+    {
+      "id": "Natural-Language-Processing-Details",
+      "authors": 3
+    },
+    {
+      "id": "digital-ai-in-finance",
+      "authors": 1
+    },
+    {
+      "id": "Publications",
+      "authors": 1
+    },
+    {
+      "id": "Natural-Language-Processing-Decoding-Strategies",
+      "authors": 3
+    },
+    {
+      "id": "Statistics",
+      "authors": 2
+    },
+    {
+      "id": "Narrative-Digital-Finance",
+      "authors": 8
+    },
+    {
+      "id": "network-based-credit-risk-models",
+      "authors": 5
+    },
+    {
+      "id": "ai-in-finance",
+      "authors": 3
+    },
+    {
+      "id": "Fintech-and-Artificial-Intelligence-in-Finance",
+      "authors": 5
+    },
+    {
+      "id": "Systematic-Literature-Reviews-with-Artificial-Intelligence",
+      "authors": 1
+    },
+    {
+      "id": "European-Financial-Data-Space",
+      "authors": 2
+    },
+    {
+      "id": "hugo-research-template",
+      "authors": 1
+    },
+    {
+      "id": "research-page-generator",
+      "authors": 1
+    },
+    {
+      "id": "digital-finance",
+      "authors": 1
+    },
+    {
+      "id": "decentralized-finance",
+      "authors": 1
+    }
+  ],
+  "edges": []
+}

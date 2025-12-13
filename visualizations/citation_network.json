@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {
+      "id": "portfolio-optimization-ml",
+      "type": "repository",
+      "citations": 0
+    },
+    {
+      "id": "credit-risk-prediction",
+      "type": "repository",
+      "citations": 0
+    },
+    {
+      "id": "market-microstructure",
+      "type": "repository",
+      "citations": 0
+    }
+  ],
+  "links": []
+}
