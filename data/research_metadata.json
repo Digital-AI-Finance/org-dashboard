@@ -32,7 +32,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:16:28.274087",
+      "extracted_at": "2025-12-13T03:08:18.139062",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -59,7 +59,7 @@
         "name": "citation_history.json",
         "path": "data/citation_history.json",
         "format": ".json",
-        "size_bytes": 89628
+        "size_bytes": 95865
       },
       {
         "name": "citation_report.json",
@@ -71,43 +71,43 @@
         "name": "code_quality_report.json",
         "path": "data/code_quality_report.json",
         "format": ".json",
-        "size_bytes": 19114
+        "size_bytes": 19111
       },
       {
         "name": "collaboration_network.json",
         "path": "data/collaboration_network.json",
         "format": ".json",
-        "size_bytes": 6270
+        "size_bytes": 6267
       },
       {
         "name": "ml_topic_analysis.json",
         "path": "data/ml_topic_analysis.json",
         "format": ".json",
-        "size_bytes": 32471
+        "size_bytes": 32465
       },
       {
         "name": "repos.json",
         "path": "data/repos.json",
         "format": ".json",
-        "size_bytes": 303773
+        "size_bytes": 303748
       },
       {
         "name": "repository_health_report.json",
         "path": "data/repository_health_report.json",
         "format": ".json",
-        "size_bytes": 58433
+        "size_bytes": 58430
       },
       {
         "name": "reproducibility_report.json",
         "path": "data/reproducibility_report.json",
         "format": ".json",
-        "size_bytes": 33688
+        "size_bytes": 33687
       },
       {
         "name": "research_metadata.json",
         "path": "data/research_metadata.json",
         "format": ".json",
-        "size_bytes": 111451
+        "size_bytes": 111435
       },
       {
         "name": "search_index.pkl",
@@ -119,7 +119,7 @@
         "name": "stats.json",
         "path": "data/stats.json",
         "format": ".json",
-        "size_bytes": 3228
+        "size_bytes": 3208
       },
       {
         "name": "data",
@@ -131,13 +131,13 @@
         "name": "search_data.json",
         "path": "docs/data/search_data.json",
         "format": ".json",
-        "size_bytes": 717236
+        "size_bytes": 717210
       },
       {
         "name": "search_data_minimal.json",
         "path": "docs/data/search_data_minimal.json",
         "format": ".json",
-        "size_bytes": 513868
+        "size_bytes": 513842
       },
       {
         "name": "citation_network.json",
@@ -254,7 +254,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:16:30.591499",
+      "extracted_at": "2025-12-13T03:08:20.090705",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -312,7 +312,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:16:33.156599",
+      "extracted_at": "2025-12-13T03:08:21.976034",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -338,13 +338,13 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.1111/jofi.2024.12345",
-        "url": "https://doi.org/10.1111/jofi.2024.12345"
+        "doi": "10.5281/zenodo.1234567)",
+        "url": "https://doi.org/10.5281/zenodo.1234567)"
       },
       {
         "type": "journal",
-        "doi": "10.5281/zenodo.1234567)",
-        "url": "https://doi.org/10.5281/zenodo.1234567)"
+        "doi": "10.1111/jofi.2024.12345",
+        "url": "https://doi.org/10.1111/jofi.2024.12345"
       },
       {
         "type": "preprint",
@@ -374,7 +374,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:16:35.478706",
+      "extracted_at": "2025-12-13T03:08:23.916703",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -698,7 +698,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:18:02.840860",
+      "extracted_at": "2025-12-13T03:09:37.291681",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -756,6 +756,18 @@
         "path": "docs_backup_static/scripts/moodle_data.json",
         "format": ".json",
         "size_bytes": 35961
+      },
+      {
+        "name": "layout_report.json",
+        "path": "python-utils/layout_checker/layout_report.json",
+        "format": ".json",
+        "size_bytes": 8521
+      },
+      {
+        "name": "verification_results.json",
+        "path": "python-utils/layout_checker/verification_results.json",
+        "format": ".json",
+        "size_bytes": 17281
       }
     ]
   },
@@ -792,7 +804,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:18:11.995992",
+      "extracted_at": "2025-12-13T03:09:44.761043",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -834,7 +846,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:18:15.288120",
+      "extracted_at": "2025-12-13T03:09:47.429746",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1133,7 +1145,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:18:45.877017",
+      "extracted_at": "2025-12-13T03:10:12.031723",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1575,7 +1587,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:18:56.009833",
+      "extracted_at": "2025-12-13T03:10:20.262117",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1755,7 +1767,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:18:58.465784",
+      "extracted_at": "2025-12-13T03:10:22.223919",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1820,7 +1832,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:19:11.857126",
+      "extracted_at": "2025-12-13T03:10:32.853987",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -1923,7 +1935,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:19:22.856241",
+      "extracted_at": "2025-12-13T03:10:41.876130",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2049,7 +2061,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:19:35.197121",
+      "extracted_at": "2025-12-13T03:10:53.230582",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2111,7 +2123,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:19:40.035185",
+      "extracted_at": "2025-12-13T03:10:57.224032",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2197,7 +2209,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:19:47.655730",
+      "extracted_at": "2025-12-13T03:11:03.448442",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2263,7 +2275,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:20:14.185795",
+      "extracted_at": "2025-12-13T03:11:24.646168",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2723,7 +2735,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:20:20.748351",
+      "extracted_at": "2025-12-13T03:11:29.887077",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2801,7 +2813,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:20:49.414642",
+      "extracted_at": "2025-12-13T03:11:53.415914",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -2937,129 +2949,8 @@
     "publications": [
       {
         "type": "journal",
-        "doi": "10.1186/s13643-019-1074-9)",
-        "url": "https://doi.org/10.1186/s13643-019-1074-9)"
-      },
-      {
-        "type": "journal",
         "doi": "10.1002/jrsm.1715)",
         "url": "https://doi.org/10.1002/jrsm.1715)"
-      },
-      {
-        "type": "journal-article",
-        "doi": "10.1002/jrsm.1715",
-        "url": "https://doi.org/10.1002/jrsm.1715",
-        "title": "Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages",
-        "abstract": "<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehensively evaluated against humans, and no study has tested Generative Pre‐Trained Transformer (GPT)‐4, the biggest LLM so far. This pre‐registered study uses a “human‐out‐of‐the‐loop” approach to evaluate GPT‐4's capability in title/abstract screening, full‐text review and data extraction across various literature types and languages. Although GPT‐4 had accuracy on par with human performance in some tasks, results were skewed by chance agreement and dataset imbalance. Adjusting for these caused performance scores to drop across all stages: for data extraction, performance was moderate, and for screening, it ranged from none in highly balanced literature datasets (~1:1) to moderate in those datasets where the ratio of inclusion to exclusion in studies was imbalanced (~1:3). When screening full‐text literature using highly reliable prompts, GPT‐4's performance was more robust, reaching “human‐like” levels. Although our findings indicate that, currently, substantial caution should be exercised if LLMs are being used to conduct systematic reviews, they also offer preliminary evidence that, for certain review tasks delivered under specific conditions, LLMs can rival human performance.</jats:p>",
-        "published": "2024-03-14",
-        "year": 2024,
-        "authors": [
-          {
-            "name": "Qusai Khraisha",
-            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
-          },
-          {
-            "name": "Sophie Put",
-            "affiliation": "Department of Education York University  York UK"
-          },
-          {
-            "name": "Johanna Kappenberg",
-            "affiliation": "School of Psychology Trinity College Dublin  Dublin Ireland"
-          },
-          {
-            "name": "Azza Warraitch",
-            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
-          },
-          {
-            "name": "Kristin Hadfield",
-            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
-          }
-        ],
-        "venue": "Research Synthesis Methods",
-        "publisher": "Wiley",
-        "citation_count": 133,
-        "reference_count": 42
-      },
-      {
-        "type": "journal",
-        "doi": "10.1186/s13643-016-0384-4)",
-        "url": "https://doi.org/10.1186/s13643-016-0384-4)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1101/2025.06.13.25329541v1)",
-        "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
-      },
-      {
-        "type": "journal",
-        "doi": "10.1038/s41591-022-02139-w)",
-        "url": "https://doi.org/10.1038/s41591-022-02139-w)"
-      },
-      {
-        "type": "journal-article",
-        "doi": "10.1038/s42256-020-00287-7",
-        "url": "https://doi.org/10.1038/s42256-020-00287-7",
-        "title": "An open source machine learning framework for efficient and transparent systematic reviews",
-        "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
-        "published": "2021-02-01",
-        "year": 2021,
-        "authors": [
-          {
-            "name": "Rens van de Schoot"
-          },
-          {
-            "name": "Jonathan de Bruin"
-          },
-          {
-            "name": "Raoul Schram"
-          },
-          {
-            "name": "Parisa Zahedi"
-          },
-          {
-            "name": "Jan de Boer"
-          },
-          {
-            "name": "Felix Weijdema"
-          },
-          {
-            "name": "Bianca Kramer"
-          },
-          {
-            "name": "Martijn Huijts"
-          },
-          {
-            "name": "Maarten Hoogerwerf"
-          },
-          {
-            "name": "Gerbrich Ferdinands"
-          },
-          {
-            "name": "Albert Harkema"
-          },
-          {
-            "name": "Joukje Willemsen"
-          },
-          {
-            "name": "Yongchao Ma"
-          },
-          {
-            "name": "Qixiang Fang"
-          },
-          {
-            "name": "Sybren Hindriks"
-          },
-          {
-            "name": "Lars Tummers"
-          },
-          {
-            "name": "Daniel L. Oberski"
-          }
-        ],
-        "venue": "Nature Machine Intelligence",
-        "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 715,
-        "reference_count": 63
       },
       {
         "type": "journal-article",
@@ -3149,30 +3040,9 @@
         "reference_count": 10
       },
       {
-        "type": "journal-article",
-        "doi": "10.1186/s13643-019-1074-9",
-        "url": "https://doi.org/10.1186/s13643-019-1074-9",
-        "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
-        "abstract": "",
-        "published": "2019-07-11",
-        "year": 2019,
-        "authors": [
-          {
-            "name": "Iain J. Marshall"
-          },
-          {
-            "name": "Byron C. Wallace"
-          }
-        ],
-        "venue": "Systematic Reviews",
-        "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 395,
-        "reference_count": 40
-      },
-      {
         "type": "journal",
-        "doi": "10.1038/s42256-020-00287-7)",
-        "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+        "doi": "10.1038/s41591-022-02139-w)",
+        "url": "https://doi.org/10.1038/s41591-022-02139-w)"
       },
       {
         "type": "journal-article",
@@ -3198,8 +3068,150 @@
         ],
         "venue": "Systematic Reviews",
         "publisher": "Springer Science and Business Media LLC",
-        "citation_count": 16904,
+        "citation_count": 16915,
         "reference_count": 19
+      },
+      {
+        "type": "journal",
+        "doi": "10.1038/s42256-020-00287-7)",
+        "url": "https://doi.org/10.1038/s42256-020-00287-7)"
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1186/s13643-019-1074-9",
+        "url": "https://doi.org/10.1186/s13643-019-1074-9",
+        "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+        "abstract": "",
+        "published": "2019-07-11",
+        "year": 2019,
+        "authors": [
+          {
+            "name": "Iain J. Marshall"
+          },
+          {
+            "name": "Byron C. Wallace"
+          }
+        ],
+        "venue": "Systematic Reviews",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 395,
+        "reference_count": 40
+      },
+      {
+        "type": "journal",
+        "doi": "10.1186/s13643-019-1074-9)",
+        "url": "https://doi.org/10.1186/s13643-019-1074-9)"
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1038/s42256-020-00287-7",
+        "url": "https://doi.org/10.1038/s42256-020-00287-7",
+        "title": "An open source machine learning framework for efficient and transparent systematic reviews",
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice.</jats:p>",
+        "published": "2021-02-01",
+        "year": 2021,
+        "authors": [
+          {
+            "name": "Rens van de Schoot"
+          },
+          {
+            "name": "Jonathan de Bruin"
+          },
+          {
+            "name": "Raoul Schram"
+          },
+          {
+            "name": "Parisa Zahedi"
+          },
+          {
+            "name": "Jan de Boer"
+          },
+          {
+            "name": "Felix Weijdema"
+          },
+          {
+            "name": "Bianca Kramer"
+          },
+          {
+            "name": "Martijn Huijts"
+          },
+          {
+            "name": "Maarten Hoogerwerf"
+          },
+          {
+            "name": "Gerbrich Ferdinands"
+          },
+          {
+            "name": "Albert Harkema"
+          },
+          {
+            "name": "Joukje Willemsen"
+          },
+          {
+            "name": "Yongchao Ma"
+          },
+          {
+            "name": "Qixiang Fang"
+          },
+          {
+            "name": "Sybren Hindriks"
+          },
+          {
+            "name": "Lars Tummers"
+          },
+          {
+            "name": "Daniel L. Oberski"
+          }
+        ],
+        "venue": "Nature Machine Intelligence",
+        "publisher": "Springer Science and Business Media LLC",
+        "citation_count": 715,
+        "reference_count": 63
+      },
+      {
+        "type": "journal-article",
+        "doi": "10.1002/jrsm.1715",
+        "url": "https://doi.org/10.1002/jrsm.1715",
+        "title": "Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages",
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehensively evaluated against humans, and no study has tested Generative Pre‐Trained Transformer (GPT)‐4, the biggest LLM so far. This pre‐registered study uses a “human‐out‐of‐the‐loop” approach to evaluate GPT‐4's capability in title/abstract screening, full‐text review and data extraction across various literature types and languages. Although GPT‐4 had accuracy on par with human performance in some tasks, results were skewed by chance agreement and dataset imbalance. Adjusting for these caused performance scores to drop across all stages: for data extraction, performance was moderate, and for screening, it ranged from none in highly balanced literature datasets (~1:1) to moderate in those datasets where the ratio of inclusion to exclusion in studies was imbalanced (~1:3). When screening full‐text literature using highly reliable prompts, GPT‐4's performance was more robust, reaching “human‐like” levels. Although our findings indicate that, currently, substantial caution should be exercised if LLMs are being used to conduct systematic reviews, they also offer preliminary evidence that, for certain review tasks delivered under specific conditions, LLMs can rival human performance.</jats:p>",
+        "published": "2024-03-14",
+        "year": 2024,
+        "authors": [
+          {
+            "name": "Qusai Khraisha",
+            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+          },
+          {
+            "name": "Sophie Put",
+            "affiliation": "Department of Education York University  York UK"
+          },
+          {
+            "name": "Johanna Kappenberg",
+            "affiliation": "School of Psychology Trinity College Dublin  Dublin Ireland"
+          },
+          {
+            "name": "Azza Warraitch",
+            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+          },
+          {
+            "name": "Kristin Hadfield",
+            "affiliation": "Trinity Centre for Global Health Trinity College Dublin  Dublin Ireland"
+          }
+        ],
+        "venue": "Research Synthesis Methods",
+        "publisher": "Wiley",
+        "citation_count": 133,
+        "reference_count": 42
+      },
+      {
+        "type": "journal",
+        "doi": "10.1101/2025.06.13.25329541v1)",
+        "url": "https://doi.org/10.1101/2025.06.13.25329541v1)"
+      },
+      {
+        "type": "journal",
+        "doi": "10.1186/s13643-016-0384-4)",
+        "url": "https://doi.org/10.1186/s13643-016-0384-4)"
       }
     ],
     "code": {
@@ -3222,7 +3234,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:21:00.124076",
+      "extracted_at": "2025-12-13T03:12:02.286046",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3289,7 +3301,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:21:03.352372",
+      "extracted_at": "2025-12-13T03:12:04.866342",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3335,7 +3347,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:21:13.431352",
+      "extracted_at": "2025-12-13T03:12:13.105270",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3441,7 +3453,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:21:24.286381",
+      "extracted_at": "2025-12-13T03:12:22.103360",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3525,7 +3537,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:21:30.381933",
+      "extracted_at": "2025-12-13T03:12:27.036394",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3615,7 +3627,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:25:13.260886",
+      "extracted_at": "2025-12-13T03:15:27.941777",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3650,7 +3662,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:25:18.954268",
+      "extracted_at": "2025-12-13T03:15:32.588789",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3678,7 +3690,7 @@
     "publications": [],
     "code": {
       "languages": [
-        "TeX"
+        "Python"
       ],
       "notebooks": [],
       "dependencies": {}
@@ -3696,7 +3708,7 @@
       "citation_count": 0
     },
     "meta": {
-      "extracted_at": "2025-12-12T03:25:55.645484",
+      "extracted_at": "2025-12-13T03:16:19.050456",
       "extraction_version": "1.0",
       "extraction_method": "readme_parse"
     },
@@ -3705,7 +3717,7 @@
         "name": ".pdf_hashes.json",
         "path": ".pdf_hashes.json",
         "format": ".json",
-        "size_bytes": 6804
+        "size_bytes": 6665
       }
     ]
   }

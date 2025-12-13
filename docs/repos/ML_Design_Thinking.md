@@ -22,8 +22,8 @@ Machine Learning for Smarter Innovation - BSc course bridging ML/AI with design 
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-03 |
-| Last Updated | 2025-12-11 |
-| Last Push | 2025-12-11 |
+| Last Updated | 2025-12-12 |
+| Last Push | 2025-12-12 |
 | Contributors | 1 |
 | Default Branch | main |
 | Visibility | public |

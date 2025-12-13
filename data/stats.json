@@ -1,17 +1,17 @@
 {
-  "generated_at": "2025-12-12T03:26:11.854366",
+  "generated_at": "2025-12-13T03:16:33.111274",
   "total_repos": 39,
   "active_repos": 39,
   "archived_repos": 0,
   "total_stars": 0,
-  "total_forks": 0,
-  "total_contributors": 43,
+  "total_forks": 1,
+  "total_contributors": 44,
   "avg_stars": 0.0,
-  "avg_forks": 0.0,
+  "avg_forks": 0.03,
   "languages": {
     "HTML": 14,
-    "Python": 8,
-    "TeX": 5,
+    "Python": 9,
+    "TeX": 4,
     "Jupyter Notebook": 3,
     "SCSS": 2,
     "CSS": 2,
@@ -46,44 +46,44 @@
   },
   "recent_repos": [
     {
-      "name": "Green-Finance",
-      "pushed_at": "2025-12-11T19:33:01+00:00"
+      "name": "Natural-Language-Processing",
+      "pushed_at": "2025-12-12T22:01:54+00:00"
     },
     {
       "name": "ML_Design_Thinking",
-      "pushed_at": "2025-12-11T19:13:42+00:00"
+      "pushed_at": "2025-12-12T21:51:58+00:00"
+    },
+    {
+      "name": "decentralized-finance",
+      "pushed_at": "2025-12-12T21:35:37+00:00"
+    },
+    {
+      "name": "book-next-word-prediction",
+      "pushed_at": "2025-12-12T21:07:57+00:00"
+    },
+    {
+      "name": "org-dashboard",
+      "pushed_at": "2025-12-12T03:29:14+00:00"
+    },
+    {
+      "name": "Green-Finance",
+      "pushed_at": "2025-12-11T19:33:01+00:00"
     },
     {
       "name": "neural-networks",
       "pushed_at": "2025-12-11T16:46:46+00:00"
     },
     {
-      "name": "decentralized-finance",
-      "pushed_at": "2025-12-11T12:31:23+00:00"
-    },
-    {
       "name": "digital-finance",
       "pushed_at": "2025-12-11T12:05:24+00:00"
-    },
-    {
-      "name": "Natural-Language-Processing",
-      "pushed_at": "2025-12-11T09:59:36+00:00"
     },
     {
       "name": "data-science",
       "pushed_at": "2025-12-11T09:13:13+00:00"
     },
     {
-      "name": "org-dashboard",
-      "pushed_at": "2025-12-11T03:26:45+00:00"
-    },
-    {
       "name": "msca-green-finance-training",
       "pushed_at": "2025-12-10T11:13:38+00:00"
-    },
-    {
-      "name": "python-utils",
-      "pushed_at": "2025-12-10T10:35:59+00:00"
     }
   ],
   "popular_repos": [

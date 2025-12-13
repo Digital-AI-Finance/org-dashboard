@@ -2,7 +2,7 @@
 
 Welcome to the organization dashboard. This site provides a comprehensive overview of all repositories in our GitHub organization.
 
-Last updated: **2025-12-12**
+Last updated: **2025-12-13**
 
 ---
 
@@ -45,10 +45,10 @@ Browse our research repositories in an interactive, visual format.
 | Active Repositories | 39 |
 | Archived Repositories | 0 |
 | Total Stars | 0 |
-| Total Forks | 0 |
-| Total Contributors | 43 |
+| Total Forks | 1 |
+| Total Contributors | 44 |
 | Average Stars per Repo | 0.0 |
-| Average Forks per Repo | 0.0 |
+| Average Forks per Repo | 0.03 |
 
 ---
 
@@ -57,8 +57,8 @@ Browse our research repositories in an interactive, visual format.
 | Language | Repositories |
 |----------|--------------|
 | [HTML](by-language/html.md) | 14 |
-| [Python](by-language/python.md) | 8 |
-| [TeX](by-language/tex.md) | 5 |
+| [Python](by-language/python.md) | 9 |
+| [TeX](by-language/tex.md) | 4 |
 | [Jupyter Notebook](by-language/jupyter-notebook.md) | 3 |
 | [SCSS](by-language/scss.md) | 2 |
 
@@ -99,11 +99,11 @@ Browse our research repositories in an interactive, visual format.
 
 | Repository | Last Push |
 |------------|-----------|
-| [Green-Finance](repos/Green-Finance.md) | 2025-12-11 |
-| [ML_Design_Thinking](repos/ML_Design_Thinking.md) | 2025-12-11 |
-| [neural-networks](repos/neural-networks.md) | 2025-12-11 |
-| [decentralized-finance](repos/decentralized-finance.md) | 2025-12-11 |
-| [digital-finance](repos/digital-finance.md) | 2025-12-11 |
+| [Natural-Language-Processing](repos/Natural-Language-Processing.md) | 2025-12-12 |
+| [ML_Design_Thinking](repos/ML_Design_Thinking.md) | 2025-12-12 |
+| [decentralized-finance](repos/decentralized-finance.md) | 2025-12-12 |
+| [book-next-word-prediction](repos/book-next-word-prediction.md) | 2025-12-12 |
+| [org-dashboard](repos/org-dashboard.md) | 2025-12-12 |
 
 
 ---

@@ -19,23 +19,6 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1186/s13643-019-1074-9)](https://doi.org/10.1186/s13643-019-1074-9)) |
-
-
-
-
-
-
-
-
----
-
-### Publication 2
-
-
-
-| Property | Value |
-|----------|-------|
 | DOI | [10.1002/jrsm.1715)](https://doi.org/10.1002/jrsm.1715)) |
 
 
@@ -47,40 +30,57 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
-### Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages
+### PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare
 
-
-<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehen...
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1002/jrsm.1715](https://doi.org/10.1002/jrsm.1715) |
+| DOI | [10.1038/s41591-022-02139-w](https://doi.org/10.1038/s41591-022-02139-w) |
 
 
-| Year | 2024 |
-| Venue | Research Synthesis Methods |
-| Citations | 133 |
+| Year | 2023 |
+| Venue | Nature Medicine |
+| Citations | 93 |
 
 
-**Authors**: Qusai Khraisha, Sophie Put, Johanna Kappenberg, Azza Warraitch, Kristin Hadfield
+**Authors**: Giovanni E. Cacciamani, Timothy N. Chu, Daniel I. Sanford, Andre Abreu, Vinay Duddalwar, Assad Oberai, C.-C. Jay Kuo, Xiaoxuan Liu, Alastair K. Denniston, Baptiste Vasey, Peter McCulloch, Robert F. Wolff, Sue Mallett, John Mongan, Charles E. Kahn, Viknesh Sounderajah, Ara Darzi, Philipp Dahm, Karel G. M. Moons, Eric Topol, Gary S. Collins, David Moher, Inderbir S. Gill, Andrew J. Hung
 
 
 ---
 
-### Publication 4
+### Publication 3
 
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1186/s13643-016-0384-4)](https://doi.org/10.1186/s13643-016-0384-4)) |
+| DOI | [10.1038/s41591-022-02139-w)](https://doi.org/10.1038/s41591-022-02139-w)) |
 
 
 
 
 
 
+
+
+---
+
+### Rayyan—a web and mobile app for systematic reviews
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1186/s13643-016-0384-4](https://doi.org/10.1186/s13643-016-0384-4) |
+
+
+| Year | 2016 |
+| Venue | Systematic Reviews |
+| Citations | 16915 |
+
+
+**Authors**: Mourad Ouzzani, Hossam Hammady, Zbys Fedorowicz, Ahmed Elmagarmid
 
 
 ---
@@ -91,7 +91,7 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1101/2025.06.13.25329541v1)](https://doi.org/10.1101/2025.06.13.25329541v1)) |
+| DOI | [10.1038/s42256-020-00287-7)](https://doi.org/10.1038/s42256-020-00287-7)) |
 
 
 
@@ -102,13 +102,32 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
-### Publication 6
+### Toward systematic review automation: a practical guide to using machine learning tools in research synthesis
 
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1038/s41591-022-02139-w)](https://doi.org/10.1038/s41591-022-02139-w)) |
+| DOI | [10.1186/s13643-019-1074-9](https://doi.org/10.1186/s13643-019-1074-9) |
+
+
+| Year | 2019 |
+| Venue | Systematic Reviews |
+| Citations | 395 |
+
+
+**Authors**: Iain J. Marshall, Byron C. Wallace
+
+
+---
+
+### Publication 7
+
+
+
+| Property | Value |
+|----------|-------|
+| DOI | [10.1186/s13643-019-1074-9)](https://doi.org/10.1186/s13643-019-1074-9)) |
 
 
 
@@ -140,40 +159,23 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
-### PRISMA AI reporting guidelines for systematic reviews and meta-analyses on AI in healthcare
+### Can large language models replace humans in systematic reviews? Evaluating <scp>GPT</scp>‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages
 
 
-
-| Property | Value |
-|----------|-------|
-| DOI | [10.1038/s41591-022-02139-w](https://doi.org/10.1038/s41591-022-02139-w) |
-
-
-| Year | 2023 |
-| Venue | Nature Medicine |
-| Citations | 93 |
-
-
-**Authors**: Giovanni E. Cacciamani, Timothy N. Chu, Daniel I. Sanford, Andre Abreu, Vinay Duddalwar, Assad Oberai, C.-C. Jay Kuo, Xiaoxuan Liu, Alastair K. Denniston, Baptiste Vasey, Peter McCulloch, Robert F. Wolff, Sue Mallett, John Mongan, Charles E. Kahn, Viknesh Sounderajah, Ara Darzi, Philipp Dahm, Karel G. M. Moons, Eric Topol, Gary S. Collins, David Moher, Inderbir S. Gill, Andrew J. Hung
-
-
----
-
-### Toward systematic review automation: a practical guide to using machine learning tools in research synthesis
-
+<jats:title>Abstract</jats:title><jats:p>Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour‐intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehen...
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1186/s13643-019-1074-9](https://doi.org/10.1186/s13643-019-1074-9) |
+| DOI | [10.1002/jrsm.1715](https://doi.org/10.1002/jrsm.1715) |
 
 
-| Year | 2019 |
-| Venue | Systematic Reviews |
-| Citations | 395 |
+| Year | 2024 |
+| Venue | Research Synthesis Methods |
+| Citations | 133 |
 
 
-**Authors**: Iain J. Marshall, Byron C. Wallace
+**Authors**: Qusai Khraisha, Sophie Put, Johanna Kappenberg, Azza Warraitch, Kristin Hadfield
 
 
 ---
@@ -184,7 +186,7 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1038/s42256-020-00287-7)](https://doi.org/10.1038/s42256-020-00287-7)) |
+| DOI | [10.1101/2025.06.13.25329541v1)](https://doi.org/10.1101/2025.06.13.25329541v1)) |
 
 
 
@@ -195,21 +197,19 @@ Resources and tools for conducting Systematic Literature Reviews using Artificia
 
 ---
 
-### Rayyan—a web and mobile app for systematic reviews
+### Publication 11
 
 
 
 | Property | Value |
 |----------|-------|
-| DOI | [10.1186/s13643-016-0384-4](https://doi.org/10.1186/s13643-016-0384-4) |
+| DOI | [10.1186/s13643-016-0384-4)](https://doi.org/10.1186/s13643-016-0384-4)) |
 
 
-| Year | 2016 |
-| Venue | Systematic Reviews |
-| Citations | 16904 |
 
 
-**Authors**: Mourad Ouzzani, Hossam Hammady, Zbys Fedorowicz, Ahmed Elmagarmid
+
+
 
 
 ---

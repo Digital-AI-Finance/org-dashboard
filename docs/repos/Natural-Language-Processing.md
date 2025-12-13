@@ -17,14 +17,14 @@ NLP Course 2025: From N-grams to Transformers - Complete 12-week curriculum with
 |----------|-------|
 | Language | Jupyter Notebook |
 | Stars | 0 |
-| Forks | 0 |
+| Forks | 1 |
 | Watchers | 0 |
-| Open Issues | 0 |
+| Open Issues | 1 |
 | License | No License |
 | Created | 2025-11-22 |
-| Last Updated | 2025-12-11 |
-| Last Push | 2025-12-11 |
-| Contributors | 1 |
+| Last Updated | 2025-12-12 |
+| Last Push | 2025-12-12 |
+| Contributors | 2 |
 | Default Branch | main |
 | Visibility | public |
 
@@ -137,7 +137,7 @@ This repository contains 47 notebook(s):
 
 ## Datasets
 
-This repository includes 9 dataset(s):
+This repository includes 11 dataset(s):
 
 | Dataset | Format | Size |
 |---------|--------|------|
@@ -159,6 +159,10 @@ This repository includes 9 dataset(s):
 | [search.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs/search.json) | .json | 6.16 KB |
 
 | [moodle_data.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/docs_backup_static/scripts/moodle_data.json) | .json | 35.12 KB |
+
+| [layout_report.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/python-utils/layout_checker/layout_report.json) | .json | 8.32 KB |
+
+| [verification_results.json](https://github.com/Digital-AI-Finance/Natural-Language-Processing/blob/main/python-utils/layout_checker/verification_results.json) | .json | 16.88 KB |
 
 
 
@@ -185,6 +189,12 @@ This repository includes reproducibility tools:
 
 
 
+
+## Latest Release
+
+- Version: latest-lectures
+- Name: NLP Course - All Lectures
+- Published: 2025-12-12
 
 
 ## Status

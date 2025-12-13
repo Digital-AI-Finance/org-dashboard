@@ -15,15 +15,15 @@ BSc Blockchain, Crypto Economy, and NFTs Course Materials
 
 | Property | Value |
 |----------|-------|
-| Language | TeX |
+| Language | Python |
 | Stars | 0 |
 | Forks | 0 |
 | Watchers | 0 |
 | Open Issues | 0 |
 | License | No License |
 | Created | 2025-12-08 |
-| Last Updated | 2025-12-11 |
-| Last Push | 2025-12-11 |
+| Last Updated | 2025-12-12 |
+| Last Push | 2025-12-12 |
 | Contributors | 1 |
 | Default Branch | master |
 | Visibility | public |
@@ -40,7 +40,7 @@ This repository includes 1 dataset(s):
 | Dataset | Format | Size |
 |---------|--------|------|
 
-| [.pdf_hashes.json](https://github.com/Digital-AI-Finance/decentralized-finance/blob/master/.pdf_hashes.json) | .json | 6.64 KB |
+| [.pdf_hashes.json](https://github.com/Digital-AI-Finance/decentralized-finance/blob/master/.pdf_hashes.json) | .json | 6.51 KB |
 
 
 
